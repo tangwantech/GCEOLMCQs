@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">GCE OL MCQs</string>
+    <string name="recycler_item_text">Item test text</string>
+    <string name="home">Home</string>
+    <string name="current_package">Current package</string>
+    <string name="packages">Packages</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="rating">Rating</string>
+    <string name="rate_us">Rate us</string>
+    <string name="mcq_day">MCQ Day</string>
+    <string name="mcq_week">MCQ Week</string>
+    <string name="mcq_month">MCQ Month</string>
+    <string name="type">Type</string>
+    <string name="status">Status</string>
+    <string name="trial">TRIAL</string>
+    <string name="active">ACTIVE</string>
+    <string name="expired">EXPIRED</string>
+    <string name="activate_on">Activated on</string>
+    <string name="expires_on">Expires on</string>
+    <string name="price">Price</string>
+    <string name="momo_number">MoMo Number</string>
+    <string name="subscribe">Subscribe</string>
+
+    <string-array name="momo_partners">
+        <item>MTN</item>
+        <item>ORANGE</item>
+    </string-array>
+
+    <string name="activated_on_value">Oct 6, 2022 00:22:49 PM</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="momo_partner">MoMo Partner</string>
+    <string name="activate">Activate</string>
+    <string name="momo_number_hint">656242856</string>
+    <string name="mtn">MTN</string>
+    <string name="select">Select</string>
+    <string name="select_package">Select package</string>
+    <string name="select_momo_partner">Select MOMO partner</string>
+    <string name="enter_number">Enter MOMO number</string>
+    <string name="processing_transaction">Processing Transaction</string>
+    <string name="payment_status_image">payment status image</string>
+    <string name="transaction_cancelled">Transaction Cancelled</string>
+    <string name="transaction_expired">Transaction Expired</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="verify_internet_connection">Please verify that you have an active internet connection and then try again</string>
+    <string name="retry">Retry</string>
+    <string name="ok">OK</string>
+    <string name="pending_transaction">Pending transaction</string>
+    <string name="time_remaining">Time remaining</string>
+    <string name="result">Result</string>
+    <string name="sections_answered">Sections answered</string>
+    <string name="tvPaperScore">Total Score</string>
+    <string name="questions_answered">Questions answered</string>
+    <string name="score">Score</string>
+    <string name="percentage">Percentage</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="no_answer_selected">No answer was selected</string>
+    <string name="next_section">Next section</string>
+    <string name="correction">Correction</string>
+    <string name="package_expired_message">Your package has expired. Please click on subscribe to activate a new package</string>
+    <string name="mtn_request_to_pay_message">Please dial *126# and enter your PIN to complete payment</string>
+    <string name="orange_request_to_pay_message">Please dial #150*5O# and enter your PIN to complete payment</string>
+    <string name="transaction_successful">Transaction was successful</string>
+    <string name="transaction_failed">Transaction failed</string>
+
+    <string name="activation_successful">activation successful</string>
+    <string name="activation_failed">activation failed</string>
+    <string name="package_type">Package</string>
+    <string name="amount_to_pay">Amount to pay:</string>
+    <string name="transaction_id">Transaction ID:</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change BOTH strings as required -->
+    <string name="back4app_app_id">k5qCXIjDC4S1MMJtpKWsJwyadC2Hb7zI2PoKei4j</string>
+    <string name="back4app_client_key">BQusbF13972k5Px17VylOsTpWhajMB171Zp0YnkG</string>
+    <string name="title_activity_fullscreen_initializing">FullscreenInitializingActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="campay_app_id">HGK6XAyi8eeq9ZrUZFZXPXsnVQEg0B6nPYxSQYb-pZ7NXSobLJSfRsRp-jWKZbmP-p8O2HFyiqB6fq8I1U_E7A</string>
+    <string name="campay_app_user_name">GG0hAnE81DMQEXqANvG27hFkLmxf3PEhKh4UMSh5CFCOhlNBiwAQ2L9wWI3k3q0lvzZJH_p1CRIoQF7by-nApw</string>
+    <string name="campay_app_pass_word">jkMl4mmFSuBE2KGQAgjy1DuHPKNH6qUMWxpZ8LQIY-NzjuYwW1CzCccU0oIzMRxItd7RbjSWelmI7QuFTvfhSw</string>
+    <string name="statistics">Statistics</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="amount">Amount</string>
+    <string name="subject">Subject</string>
+    <string name="no_data_message">No data available</string>
+    <string name="excellent">EXCELLENT</string>
+    <string name="next_question">Next question</string>
+    <string name="retry_limit_message">"Your have reached the maximum number of retries allowed"</string>
+    <string name="subjects">Subjects</string>
+    <string name="retry_message">Your current score for this section will reset to zero</string>
+    <string name="_continue">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="payment_received">Payment received successfully</string>
+    <string name="content_access_denied_Message">This content is not available in TRIAL mode. Please subscribe to any one of the available packages to have full access to all contents</string>
+    <string name="grade">Grade</string>
+    <string name="lowest">Lowest</string>
+    <string name="highest">Highest</string>
+    <string name="average">Average</string>
+    <string name="last">Last</string>
+    <string name="mcqs">MCQs</string>
+    <string name="do_not_show_this_message_again">Do not show this message again</string>
+    <string name="instruction">Replace with instruction text Replace with instruction text Replace with instruction text</string>
+
+    <string-array name="paper_instruction">
+        <item>contains</item>
+        <item>questions divided into</item>
+        <item>sections.</item>
+        <item>Please read and understand each question before selecting your answer. If you change your mind about a selected answer, you can always select another.</item>
+        <item>There is no option to go back to the previous question.</item>
+        <item>You must score at least</item>
+        <item>in order to see corrections to all wrong answers at the end of each section</item>
+    </string-array>
+        <string name="minimum_percentage">40%</string>
+
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLoInitializingActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InitializingActivity"
+    android:orientation="vertical"
+    style="@style/Theme.GCEOLMCQ.Fullscreen">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/appNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/color_primary_dark"
+            android:textSize="44sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/gce_app_splash_image" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/initProgressLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_minimum_height"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            android:id="@+id/indeterminateProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/color_primary_dark" />
+
+<!--        <androidx.core.widget.ContentLoadingProgressBar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/button_minimum_height"/>-->
+    </LinearLayout>
+
+</RelativeLayout>

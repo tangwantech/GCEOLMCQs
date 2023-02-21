@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/questionCard"
+    android:layout_marginBottom="@dimen/margin_12"
+    app:cardElevation="@dimen/card_elevation_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/question_layout"
+            android:id="@+id/questionLayout"/>
+
+        <include layout="@layout/image_card"
+            android:id="@+id/imageCardLayout"/>
+
+        <include layout="@layout/two_statements"
+            android:id="@+id/twoStatementsLayout"/>
+
+        <include layout="@layout/non_selectable_options"
+            android:id="@+id/nonSelectableOptionsLayout"/>
+
+        <include layout="@layout/selectable_options"
+            android:id="@+id/selectableOptionsLayout"/>
+
+        <include layout="@layout/user_marked_answer"
+            android:id="@+id/userMarkedAnswerLayout"
+            android:visibility="gone"/>
+
+        <include layout="@layout/correct_answer"
+            android:id="@+id/correctAnswerLayout"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,779 @@
+{
+  "privateTitle": "GCE 2022",
+  "publicTitle": "Past GCE 3",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "Which group of bacteria would cause a decrease in soil fertility?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Saprophytic bacteria.",
+            "Nitrogen fixing bacteria.",
+            "Denitrifying bacteria.",
+            "Nitrifying bacteria."
+          ],
+          "wordAnswer": "Denitrifying bacteria."
+        },
+        {
+          "questionNumber": "2",
+          "question": "It is one of the reasons for the success of insects in nature.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "They have wings that enable them reach out to distant environments.",
+            "They have an endoskeleton that protects their inner structure.",
+            "They have only simple eyes which are well adapted for vision.",
+            "The reproduce sexually."
+          ],
+          "wordAnswer": "They have wings that enable them reach out to distant environments."
+        },
+        {
+          "questionNumber": "3",
+          "question": "A normal skinned man who is married to a normal skinned woman finds out that their last boy is an albino. What are the probable genotypes of the couples?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Aa and aa.",
+            "AA and aa.",
+            "Aa an AA.",
+            "Aa an Aa."
+          ],
+          "wordAnswer": "Aa an Aa."
+        },
+        {
+          "questionNumber": "4",
+          "question": "The diagram below shows the carbon cycle. Which of the following processes are represented by the letters P, W and Q?",
+          "image": "carbon_cycle_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Respiration(P), Photosynthesis(W) and Combustion(R)",
+            "Respiration(P), Combustion(W) and Decay(R)",
+            "Respiration(P), Combustion(W) and Oxidation(R)",
+            "Combustion(P), Respiration(W) and Decay(R)"
+          ],
+          "wordAnswer": "Respiration(P), Photosynthesis(W) and Combustion(R)"
+        },
+        {
+          "questionNumber": "5",
+          "question": "Which of the following organisms is a producer?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Yeast.",
+            "Mushroom.",
+            "Spirogyra.",
+            "Man."
+          ],
+          "wordAnswer": "Spirogyra."
+        },
+        {
+          "questionNumber": "6",
+          "question": "A part of the human eye that refracts light.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Iris.",
+            "Cornea.",
+            "Pupil.",
+            "Retina."
+          ],
+          "wordAnswer": "Cornea."
+        },
+        {
+          "questionNumber": "7",
+          "question": "A food sample was tested with Benedict's solution and a brick-red coloration was observed. The food sample contained;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Starch.",
+            "Protein.",
+            "Fats.",
+            "Glucose."
+          ],
+          "wordAnswer": "Glucose."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Below is a food chain in which the letters W, Q, X and Y represent some organisms. Plants -> W -> Q -> X -> Y. Extinction of organism Q will",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Have no effect on the chain.",
+            "Lead to an increase in the population of X.",
+            "Lead to a decrease in the population of W.",
+            "Lead to an increase in the population of W."
+          ],
+          "wordAnswer": "Lead to an increase in the population of W."
+        },
+        {
+          "questionNumber": "9",
+          "question": "The diagram below shows the steps involved in testing for starch in a leaf. At which step is the leaf decolorized?",
+          "image": "experiment_test_for_starch_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+          ],
+          "wordAnswer": "B."
+        },
+        {
+          "questionNumber": "10",
+          "question": "Which part of the mammalian brain is responsible for balance?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cerebrum.",
+            "Medulla oblongata.",
+            "Cerebellum.",
+            "Midbrain."
+          ],
+          "wordAnswer": "Cerebellum."
+        },
+        {
+          "questionNumber": "11",
+          "question": "Below is the diagram of the human skin. Which part produces melanin?",
+          "image": "human_skin_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "4.",
+            "3.",
+            "2.",
+            "1."
+          ],
+          "wordAnswer": "3."
+        },
+        {
+          "questionNumber": "12",
+          "question": "Below is the diagram of a bony fish. Which numbered structure functions in steering the fish?",
+          "image": "bony_fish_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2.",
+            "3.",
+            "4.",
+            "5."
+          ],
+          "wordAnswer": "2."
+        },
+        {
+          "questionNumber": "13",
+          "question": "Below is the diagram of a typical plant cell. Which structures are not found in an animal cell?",
+          "image": "plant_cell_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2, 3.",
+            "1, 3.",
+            "3, 4.",
+            "1, 2."
+          ],
+          "wordAnswer": "1, 2."
+        },
+        {
+          "questionNumber": "14",
+          "question": "In which structure does fertilization take place in humans?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ovary.",
+            "Oviduct.",
+            "Uterus.",
+            "Vagina."
+          ],
+          "wordAnswer": "Oviduct."
+        },
+        {
+          "questionNumber": "15",
+          "question": "Pancreatic juice enters the alimentary canal at the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Stomach.",
+            "Colon.",
+            "Ileum.",
+            "Duodenum."
+          ],
+          "wordAnswer": "Duodenum."
+        },
+        {
+          "questionNumber": "16",
+          "question": "The diagram below is that of a neurone. Which numbered structure is the dendron?",
+          "image": "motor_neurone_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1.",
+            "2.",
+            "3.",
+            "4."
+          ],
+          "wordAnswer": "3."
+        },
+        {
+          "questionNumber": "17",
+          "question": "In the kidney, ultra-filtration takes place at the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Loop of Henle.",
+            "Proximal convoluted tubule.",
+            "Glomerulus.",
+            "Distal convoluted tubule."
+          ],
+          "wordAnswer": "Glomerulus."
+        },
+        {
+          "questionNumber": "18",
+          "question": "The diagram below shows a seedling. Select the correct option that suits the plant",
+          "image": "seedling_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Epigeal germination, Monocot.",
+            "Epigeal germination, Dicot.",
+            "Hypogeal germination, Dicot.",
+            "Hypogeal germination, Monocot."
+          ],
+          "wordAnswer": "Epigeal germination, Dicot."
+        },
+        {
+          "questionNumber": "19",
+          "question": "Where does gaseous exchange occur in the lungs?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bronchi.",
+            "Bronchioles.",
+            "Pulmonary artery.",
+            "Alveoli."
+          ],
+          "wordAnswer": "Alveoli."
+        },
+        {
+          "questionNumber": "20",
+          "question": "The leaf is attached to the stem of a plant at the;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Axil.",
+            "Node.",
+            "Internode.",
+            "Bud."
+          ],
+          "wordAnswer": "Node."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "Spirogyra is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Autotrophic.",
+            "Unicellular.",
+            "Terrestrial."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "22",
+          "question": "Tendons",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Are muscular.",
+            "Connect muscles to bones.",
+            "Are tough."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "23",
+          "question": "Enzyme(s) involved in the formation of recombinant DNA.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Enterokinase.",
+            "Ligase.",
+            "Restriction endonuclease."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "24",
+          "question": "Biological method(s) of controlling pests;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Introduction of tilapia fish into a lake to eat misquito larvae.",
+            "Use of herbicides.",
+            "Spraying oil on ponds to kill aquatic organisms."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "25",
+          "question": "Eutrophication involves",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "The introduction of organic matter into a water body.",
+            "Death of submerged plants.",
+            "Overgrowth of algae in the water body."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Upper epidermal cells of leaves do not contain chlorophyll.",
+            "Guard cells are the only epidermal cells that contain chlorophyll"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Oxygen is an excretory product of plants.",
+            "Oxygen is produced during photosynthesis"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Germinating maize seeds contain reducing sugar.",
+            "Food reserves in germinating maize seeds are hydrolysed by enzymes"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Enzymes are protein in nature.",
+            "Enzymes are denatured by high temperature."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Plant cells have a fixed shape.",
+            "Plant cells have no cell membrane."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Where sperms are stored.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Epididymis.",
+            "Seminal vesicle.",
+            "Testes.",
+            "Sperm duct."
+          ],
+          "wordAnswer": "Epididymis."
+        },
+        {
+          "questionNumber": "32",
+          "question": "Transports soluble food in plants.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Xylem.",
+            "Phloem.",
+            "Pith.",
+            "Cortex."
+          ],
+          "wordAnswer": "Phloem."
+        },
+        {
+          "questionNumber": "33",
+          "question": "Prevents excretion of useful substances.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ultra-filtration.",
+            "Absorption.",
+            "Reabsorption.",
+            "Assimilation."
+          ],
+          "wordAnswer": "Reabsorption."
+        },
+        {
+          "questionNumber": "34",
+          "question": "Transports soluble food to the liver.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hepatic artery.",
+            "Hepatic vein.",
+            "Vena cava.",
+            "Hepatic portal vein."
+          ],
+          "wordAnswer": "Hepatic portal vein."
+        },
+        {
+          "questionNumber": "35",
+          "question": "The coloration observed when million's reagent is added to saliva and heated.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Blue.",
+            "Green.",
+            "Red.",
+            "Yellow."
+          ],
+          "wordAnswer": "Red."
+        },
+        {
+          "questionNumber": "36",
+          "question": "Where starch is stored.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pyrenoid.",
+            "Cell wall.",
+            "Food vacuole.",
+            "Cytoplasm"
+          ],
+          "wordAnswer": "Pyrenoid."
+        },
+        {
+          "questionNumber": "37",
+          "question": "Group of organisms of the same species.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Population.",
+            "Community.",
+            "Ecosystem.",
+            "Colony."
+          ],
+          "wordAnswer": "Population."
+        },
+        {
+          "questionNumber": "38",
+          "question": "Washing away of nutrients from top sol into the depth",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Erosion.",
+            "Leaching.",
+            "Drainage.",
+            "Flooding."
+          ],
+          "wordAnswer": "Leaching."
+        },
+        {
+          "questionNumber": "39",
+          "question": "Describes a potato strip after dipping in a concentrated salt solution for 30 minutes.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Turgid.",
+            "Elastic.",
+            "Hard.",
+            "Soft."
+          ],
+          "wordAnswer": "Soft."
+        },
+        {
+          "questionNumber": "40",
+          "question": "A good food for an anemic person",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carrot.",
+            "Mango.",
+            "Lettuce.",
+            "Cray fish"
+          ],
+          "wordAnswer": "Lettuce."
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "In pea plants, the allele (R) for red flower is dominant over the allele (r) for white flower. A heterozygous red-flowered plant was crossed white a white flowered plant. The resulting offspring will be;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "All red.",
+            "Half red and half white.",
+            "All white.",
+            "All pink."
+          ],
+          "wordAnswer": "Half red and half white."
+        },
+        {
+          "questionNumber": "42",
+          "question": "The setup below was use in an experiment. The gas X is;",
+          "image": "experiment_photosynthesis_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen.",
+            "Carbon dioxide.",
+            "Nitrogen.",
+            "Carbon monoxide."
+          ],
+          "wordAnswer": "Oxygen."
+        },
+        {
+          "questionNumber": "43",
+          "question": "Old human red blood cells lack a nucleus. This is;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To ensure sufficient space for oxygen transport.",
+            "To create space for DNA storage.",
+            "To ensure sufficient space for food storage.",
+            "To create space for waste storage."
+          ],
+          "wordAnswer": "To ensure sufficient space for oxygen transport."
+        },
+        {
+          "questionNumber": "44",
+          "question": "Water drops from leaves in the morning. This is as a result of;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Transpiration.",
+            "Respiration.",
+            "Guttation.",
+            "Photosynthesis."
+          ],
+          "wordAnswer": "Guttation."
+        },
+        {
+          "questionNumber": "45",
+          "question": "The contents of four blood vessels in a human were analyzed and the results were as indicated in the table below. Which of these blood vessels will likely be the pulmonary vein?",
+          "image": "human_blood_sample_result_june_2022.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+          ],
+          "wordAnswer": "B."
+        },
+        {
+          "questionNumber": "46",
+          "question": "It is good to expose new born babies to sunlight in the morning. This is for;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Production of vitamin D.",
+            "Production of vitamin A.",
+            "Production of antibodies.",
+            "Production of melanin."
+          ],
+          "wordAnswer": "Production of vitamin D."
+        },
+        {
+          "questionNumber": "47",
+          "question": "An enzyme's optimum pH is 4. Where would this enzyme work best?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mouth.",
+            "Ileum.",
+            "Duodenum.",
+            "Stomach."
+          ],
+          "wordAnswer": "Stomach."
+        },
+        {
+          "questionNumber": "48",
+          "question": "It is advisable to look into horizon from time to time during reading. This is to;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Give rest to rods and cones.",
+            "Relax the iris.",
+            "Relax the ciliary muscles.",
+            "Refresh the mind."
+          ],
+          "wordAnswer": "Relax the ciliary muscles."
+        },
+        {
+          "questionNumber": "49",
+          "question": "Sperm cells are haploid. This is because sperm cells are;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Produced in the testes.",
+            "Produced by mitosis.",
+            "Produced by meiosis.",
+            "Produced during ejaculation."
+          ],
+          "wordAnswer": "Produced by meiosis."
+        },
+        {
+          "questionNumber": "50",
+          "question": "In an experiment, lime water turned milky when a gas was passed through it. The gas could have been;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen.",
+            "Carbon monoxide.",
+            "Nitrogen dioxide",
+            "Carbon dioxide."
+          ],
+          "wordAnswer": "Carbon dioxide."
+        }
+      ]
+    }
+  ]
+}

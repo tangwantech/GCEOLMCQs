@@ -1,0 +1,779 @@
+{
+  "privateTitle": "GCE 2021",
+  "publicTitle": "Past GCE 2",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "Is a characteristic of birds",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "possess crop and gizzard as digestive features.",
+            "possess gills for gaseous exchange.",
+            "presence of scales on the body for protection.",
+            "are poikilothermic for temperature regulation."
+          ],
+          "wordAnswer": "possess crop and gizzard as digestive features."
+        },
+        {
+          "questionNumber": "2",
+          "question": "Light energy is converted to chemical energy during photosynthesis and stored in the form of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "minerals.",
+            "carbohydrates.",
+            "vitamins.",
+            "water."
+          ],
+          "wordAnswer": "carbohydrates."
+        },
+        {
+          "questionNumber": "3",
+          "question": "Healthy carriers of HIV are,",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "HIV negative people who look sick.",
+            "people who look healthy, have the virus but cannot infect others.",
+            "people who look healthy, have the virus and can infect others.",
+            "people who have reached the AIDS stage."
+          ],
+          "wordAnswer": "people who look healthy, have the virus and can infect others."
+        },
+        {
+          "questionNumber": "4",
+          "question": "The function of swim bladder in fish is to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "enable fish to swim fast.",
+            "prevent the fish from changing its direction.",
+            "control the depth at which fish swims.",
+            "enables the fish to detect vibrations."
+          ],
+          "wordAnswer": "control the depth at which fish swims."
+        },
+        {
+          "questionNumber": "5",
+          "question": "Which three elements make up carbohydrates?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nitrogen, oxygen and hydrogen.",
+            "Carbon, hydrogen and oxygen.",
+            "Phosphorus, hydrogen and oxygen.",
+            "Nitrogen, phosphorus and oxygen."
+          ],
+          "wordAnswer": "Carbon, hydrogen and oxygen."
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of the following is an excretory process?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Release of insulin from the pancreas.",
+            "Release of saliva from the salivary gland.",
+            "Removal of carbon dioxide from the lungs.",
+            "Removal of faeces from the alimentary canal."
+          ],
+          "wordAnswer": "Removal of carbon dioxide from the lungs."
+        },
+        {
+          "questionNumber": "7",
+          "question": "If the solute percentage inside the cell is 65% while the solute percentage outside the cell is 35%. In what direction will water move?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Moves out of the cell.",
+            "Moves into the cell.",
+            "Moves in and out of cell.",
+            "No movement in and out of cell."
+          ],
+          "wordAnswer": "Moves into the cell."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "The diagram below shows the human forearm. What happens to the muscles X and Y when the arm is flexed?",
+          "image": "human_forearm_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "X relaxes and elongates while Y contracts and shortens.",
+            "X contracts and elongates while Y relaxes and shortens.",
+            "X contracts and shorten while Y relaxes and elongates.",
+            "X relaxes and shortens while Y contracts and elongates."
+          ],
+          "wordAnswer": "X contracts and shorten while Y relaxes and elongates."
+        },
+        {
+          "questionNumber": "9",
+          "question": "Trace the correct path of impulse transmission",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Dendrite -> Dendron -> Axon -> Effector.",
+            "Dendron -> Dendrite -> Axon -> Effector.",
+            "Dendrite -> Axon -> Dendron -> Effector.",
+            "Axon -> Dendron -> Dendrite -> Effector."
+          ],
+          "wordAnswer": "Dendrite -> Dendron -> Axon -> Effector."
+        },
+        {
+          "questionNumber": "10",
+          "question": "The diagram below shows a section through a flower. When self pollination occurs, pollen is transferred from",
+          "image": "flower_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Q to R",
+            "R to Q",
+            "Q to S",
+            "R to S"
+          ],
+          "wordAnswer": "Q to R"
+        },
+        {
+          "questionNumber": "11",
+          "question": "The diagram below represents the circulation of carbon in nature. What biological process is represented by X?",
+          "image": "carbon_cycle_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Respiration",
+            "Photosynthesis",
+            "Death",
+            "Combustion"
+          ],
+          "wordAnswer": "Combustion"
+        },
+        {
+          "questionNumber": "12",
+          "question": "Identify the structure that prevents the reflux of blood from the aorta to the left ventricle.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bicuspid valve.",
+            "Semilunar valve.",
+            "Tricuspid valve.",
+            "Tendon supporting valve."
+          ],
+          "wordAnswer": "Semilunar valve."
+        },
+        {
+          "questionNumber": "13",
+          "question": "Choose the correct site of reabsorption of glucose and amino acids in the kidney nephron",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bowman's capsule.",
+            "Loop of Henle.",
+            "Distal convoluted tubule.",
+            "Proximal convoluted tubule."
+          ],
+          "wordAnswer": "Proximal convoluted tubule."
+        },
+        {
+          "questionNumber": "14",
+          "question": "Below is the diagram of the female reproductive system. The structure numbered 3 secretes the hormone;",
+          "image": "female_reproductive_system_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oestrogen and Follicle Stimulating Hormone.",
+            "Follicle Stimulating Hormone and Progesterone.",
+            "Oestrogen and Progesterone.",
+            "Progesterone and Luteinizing Hormone."
+          ],
+          "wordAnswer": "Oestrogen and Progesterone."
+        },
+        {
+          "questionNumber": "15",
+          "question": "The image formed on the retina from an external object is;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "not real, smaller and inverted.",
+            "real, smaller and not inverted.",
+            "real, larger and inverted.",
+            "real, smaller and inverted."
+          ],
+          "wordAnswer": "real, smaller and inverted."
+        },
+        {
+          "questionNumber": "16",
+          "question": "In which part of the gut does the chemical digestion of proteins begin?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mouth.",
+            "Duodenum.",
+            "Stomach.",
+            "Ileum."
+          ],
+          "wordAnswer": "Stomach."
+        },
+        {
+          "questionNumber": "17",
+          "question": "In genetic engineering, cut DNA pieces are joined using",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "DNA ligase.",
+            "DNA polymerase.",
+            "DNA helicase,",
+            "Restriction enzyme."
+          ],
+          "wordAnswer": "DNA ligase."
+        },
+        {
+          "questionNumber": "18",
+          "question": "Below are four listed organisms. In an ecosystem, in which order does energy flow through these organisms?",
+          "image": "listed_organisms_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2, 1, 3, 4",
+            "2, 3, 1, 4",
+            "4, 1, 3, 2",
+            "4, 3, 1, 2"
+          ],
+          "wordAnswer": "4, 3, 1, 2"
+        },
+        {
+          "questionNumber": "19",
+          "question": "In which part of the female reproductive system does implantation occur?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ovaries.",
+            "Oviducts.",
+            "Cervix.",
+            "Uterus."
+          ],
+          "wordAnswer": "Uterus."
+        },
+        {
+          "questionNumber": "20",
+          "question": "Which vessel returns oxygenated blood to the heart?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vena cava.",
+            "Pulmonary vein.",
+            "Pulmonary artery.",
+            "Aorta."
+          ],
+          "wordAnswer": "Pulmonary vein."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "During over heating of the body;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "the hairs of the skin stand erect.",
+            "the blood vessels below the skin dilate.",
+            "there is increased production of sweat."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "2 and 3 only are correct."
+        },
+        {
+          "questionNumber": "22",
+          "question": "Typical of mammals.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Have mammary glands.",
+            "Have sweat glands.",
+            "Are homodont."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "1 and 2 only are correct."
+        },
+        {
+          "questionNumber": "23",
+          "question": "After fertilization has taken place in a flowering plant;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "the corolla and calyx wither and fall off.",
+            "the ovary gradually ripens into a seed.",
+            "the ovule becomes the fruit."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "1 only is correct."
+        },
+        {
+          "questionNumber": "24",
+          "question": "The malaria parasite;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "destroys nerve cells.",
+            "destroys red blood cells",
+            "causes anaemia"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "2 and 3 only are correct."
+        },
+        {
+          "questionNumber": "25",
+          "question": "Auxins;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "are produced at the shoot tips.",
+            "increase growth in shoot.",
+            "inhibits growth in roots."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct."
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Insulin increases blood sugar level while glucagon decreases it.",
+            "Insulin and glucagon are antagonistic hormones."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "First statement is False. Second statement is True."
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Lack of vitamin D causes rickets.",
+            "Vitamin D promotes the absorption of calcium salts for bone formation"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The biotic factors in an ecosystem include temperature and water.",
+            "Ecosystems are made up of both abiotic and biotic factors."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "First statement is False. Second statement is True."
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Mosquitoes transmit the malaria causing parasite.",
+            "Malaria is contracted from drinking standing water"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "First statement is True. Second statement is False."
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Maize plants interspersed with leguminous plants grow healthier.",
+            "Leguminous plants increase the nitrogen content of the soil."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Results from meiotic division",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nerve cell.",
+            "Blood cell.",
+            "Sperm cell.",
+            "Muscle cell."
+          ],
+          "wordAnswer": "Sperm cell."
+        },
+        {
+          "questionNumber": "32",
+          "question": "Pressure receptor",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pacinian corpuscle.",
+            "Hair plexus.",
+            "Free nerve ending.",
+            "Meissner's corpuscle."
+          ],
+          "wordAnswer": "Pacinian corpuscle."
+        },
+        {
+          "questionNumber": "33",
+          "question": "Allows movement of bones in one direction only",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ball and socket joint.",
+            "Hinge joint.",
+            "Pivot joint.",
+            "Gliding joint."
+          ],
+          "wordAnswer": "Hinge joint."
+        },
+        {
+          "questionNumber": "34",
+          "question": "Smaller circular pieces of DNA found in certain bacteria.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Recombinant DNA.",
+            "Restriction enzyme.",
+            "Clone.",
+            "Plasmids."
+          ],
+          "wordAnswer": "Plasmids."
+        },
+        {
+          "questionNumber": "35",
+          "question": "A chemical that can be used to absorb oxygen in an experiment.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sodium hydroxide.",
+            "Pyrogallic acid.",
+            "Potassium hydroxide.",
+            "Sodium carbonate"
+          ],
+          "wordAnswer": "Pyrogallic acid."
+        },
+        {
+          "questionNumber": "36",
+          "question": "Prevents wearing out of bones at joints.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ligament.",
+            "Tendon.",
+            "Cartilage.",
+            "Synovial fluid."
+          ],
+          "wordAnswer": "Synovial fluid."
+        },
+        {
+          "questionNumber": "37",
+          "question": "Undergoes complete metamorphosis.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cockroach",
+            "Grasshopper.",
+            "Termite.",
+            "Honey bee."
+          ],
+          "wordAnswer": "Honey bee."
+        },
+        {
+          "questionNumber": "38",
+          "question": "A food stuff that remains brown when iodine is dropped on it.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cassava.",
+            "Ripe banana.",
+            "Cooked rice.",
+            "Plantain."
+          ],
+          "wordAnswer": "Ripe banana."
+        },
+        {
+          "questionNumber": "39",
+          "question": "Using a cat to eliminate rats at home.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Biological control.",
+            "Competition.",
+            "Use of pesticide.",
+            "Scavenging."
+          ],
+          "wordAnswer": "Biological control."
+        },
+        {
+          "questionNumber": "40",
+          "question": "It's a characteristics of white blood cells.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lack haemoglobin.",
+            "No nucleus.",
+            "Function in transport.",
+            "Long lifespan."
+          ],
+          "wordAnswer": "Lack haemoglobin."
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "When the setup below was exposed to the sun for one hour, gas bubbles condensed into liquid on the inside of the polythene bag. Identify the condensed liquid and its origin.",
+          "image": "experiment_transpiration_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen from photosynthesis.",
+            "Water from transpiring leaves.",
+            "Carbon dioxide from respiring leaves.",
+            "Carbon dioxide from respiring soil microbes."
+          ],
+          "wordAnswer": "Water from transpiring leaves."
+        },
+        {
+          "questionNumber": "42",
+          "question": "In an experiment using guinea pigs to verify the functions of parts of the brain, one structure was removed and it was observed that the animal could not move properly and had no balance at all. Which structure was removed> ",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Medulla oblongata.",
+            "Cerebrum.",
+            "Cerebellum.",
+            "Pituitary."
+          ],
+          "wordAnswer": "Cerebellum."
+        },
+        {
+          "questionNumber": "43",
+          "question": "Two students were asked to breathe out into two conical flasks containing clear liquids. David breathe into conical flask K and the liquid remained clear. Nadia breathe into conical flask L and the liquid in it turned milky. Identify the contents of flask K and L and the gas that caused the change in L.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Flask K (Distilled water), Flask L (Lime water), Gas (Oxygen)",
+            "Flask K (Lime water), Flask L (Caustic soda), Gas (Oxygen)",
+            "Flask K (Pyrogallic acid), Flask L (Caustic soda), Gas (Carbon dioxide)",
+            "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
+          ],
+          "wordAnswer": "Flask (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
+        },
+        {
+          "questionNumber": "44",
+          "question": "In an experiment to demonstrate that mammals give off carbon dioxide during respiration,  flasks and a respiratory bottle labelled A, B, C and D are used. Flask A contains a chemical to absorb carbon dioxide from incoming air. Flask B contains lime water which should stay clear, Flask C is the respiratory bottle which contains the small mammal to respire and Flask D contains lime water to test the gas produced. What modification will you make in C if the mammal were to be replaced by a green plant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cover C with a black cloth.",
+            "Place a dish of calcium hydroxide in C.",
+            "Place a dish of sodium hydroxide in C.",
+            "Cover C with a transparent polythene bag."
+          ],
+          "wordAnswer": "Cover C with a black cloth."
+        },
+        {
+          "questionNumber": "45",
+          "question": "Each egg in a woman's ovary carries an X chromosome. For a normal male zygote to be formed during fertilization,",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A sperm carrying the X chromosome fuses with the egg.",
+            "A sperm carrying the Y chromosome fuses with the egg.",
+            "A sperm carrying an XY chromosome fuses with the egg.",
+            "A sperm carrying an XX chromosome fuses with the egg."
+          ],
+          "wordAnswer": "A sperm carrying the Y chromosome fuses with the egg."
+        },
+        {
+          "questionNumber": "46",
+          "question": "What chemical substance is tested for to show that photosynthesis has taken place in a leaf?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Chlorophyll.",
+            "Glucose.",
+            "Oxygen.",
+            "Starch."
+          ],
+          "wordAnswer": "Starch."
+        },
+        {
+          "questionNumber": "47",
+          "question": "In addition to availability of water, which other conditions are essential for seed germination?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon dioxide and light.",
+            "Oxygen and suitable temperature.",
+            "Oxygen and soil.",
+            "Soil and suitable temperature."
+          ],
+          "wordAnswer": "Oxygen and suitable temperature."
+        },
+        {
+          "questionNumber": "48",
+          "question": "In every ecosystem plants occupy the first trophic level. This is because, they;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "are numerous.",
+            "can withstand atmospheric conditions.",
+            "are capable of converting solar energy.",
+            "have roots that anchor them into the soil."
+          ],
+          "wordAnswer": "are capable of converting solar energy."
+        },
+        {
+          "questionNumber": "49",
+          "question": "The following is a food chain. Grass -> Grasshopper -> Praying mantis -> Toad. Which organism in the food chain is a secondary consumer?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Praying mantis.",
+            "Grasshopper.",
+            "Toad.",
+            "Grass."
+          ],
+          "wordAnswer": "Toad."
+        },
+        {
+          "questionNumber": "50",
+          "question": "Which of these is a genetically engineered process?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Production of human insulin.",
+            "Bread making.",
+            "Cleaning of oil spills.",
+            "Wine making."
+          ],
+          "wordAnswer": "Production of human insulin."
+        }
+      ]
+    }
+  ]
+}

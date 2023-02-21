@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/timer_bar_height"
+    android:background="@color/color_primary"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/margin_16"
+    android:paddingRight="@dimen/margin_16">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_12"
+            android:layout_marginBottom="@dimen/margin_12"
+            app:cardBackgroundColor="@color/color_primary"
+            app:cardCornerRadius="@dimen/margin_8">
+
+            <TextView
+                android:id="@+id/tvCurrentQuestionOfTotal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|center_vertical"
+                android:text="Question 10 0f 10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin_4"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_12"
+            android:layout_marginBottom="@dimen/margin_12"
+            app:cardBackgroundColor="@color/color_primary"
+            app:cardCornerRadius="@dimen/margin_8">
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="01:40"
+                android:textAppearance="?android:attr/windowTitleStyle"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

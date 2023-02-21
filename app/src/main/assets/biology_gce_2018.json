@@ -1,0 +1,779 @@
+{
+  "privateTitle": "GCE 2018",
+  "publicTitle": "Past GCE 5",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "In which part of the mammalian brain is the heart beat controlled?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cerebrum.",
+            "Mid brain.",
+            "Cerebellum.",
+            "Medulla oblongata."
+          ],
+          "wordAnswer": "Medulla oblongata."
+        },
+        {
+          "questionNumber": "2",
+          "question": "Which of the following is a polysaccharide?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Maltose.",
+            "Peptide.",
+            "Starch.",
+            "Glycerol."
+          ],
+          "wordAnswer": "Starch."
+        },
+        {
+          "questionNumber": "3",
+          "question": "The effects of the absence of light in plants include",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Opening of stomata.",
+            "Yellowing of leaves.",
+            "Wilting.",
+            "Phototropism."
+          ],
+          "wordAnswer": "Yellowing of leaves."
+        },
+        {
+          "questionNumber": "4",
+          "question": "Osmosis involves",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Movement of ions.",
+            "Movement of water molecules.",
+            "Movement against a concentration gradient.",
+            "Movement of solutes."
+          ],
+          "wordAnswer": "Movement of water molecules."
+        },
+        {
+          "questionNumber": "5",
+          "question": "Which of the following is common to epidermis in both plants and animals?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The presence of pores.",
+            "The absence of chloroplast.",
+            "It is one cell thick.",
+            "It is made up of dead cells."
+          ],
+          "wordAnswer": "The absence of chloroplast."
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of the following is a biotic factor in an ecosystem?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Temperature.",
+            "Humidity.",
+            "Light.",
+            "Predation."
+          ],
+          "wordAnswer": "Predation."
+        },
+        {
+          "questionNumber": "7",
+          "question": "The chemical which indicates the presence of protein in a food sample is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Iodine.",
+            "Benedict's solution.",
+            "Fehling's solution.",
+            "Millon's reagent."
+          ],
+          "wordAnswer": "Millon's reagent."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "The diagram below shows the section through the stem of a dicotyledonous plant. Which structure transports manufactured food?",
+          "image": "ls_dicot_stem_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "2"
+        },
+        {
+          "questionNumber": "9",
+          "question": "Where in the diagram of spirogyra is food stored?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pyrenoid.",
+            "Chloroplast.",
+            "Nucleus.",
+            "Vacuole."
+          ],
+          "wordAnswer": "Pyrenoid."
+        },
+        {
+          "questionNumber": "10",
+          "question": "The diagram below refers to the female urinogenital system in humans. Where does implantation take place?",
+          "image": "female_urinogenital_system_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "wordAnswer": "5"
+        },
+        {
+          "questionNumber": "11",
+          "question": "Where does fertilization take place in humans?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Uterus.",
+            "Ovary.",
+            "Vagina.",
+            "Fallopian tube."
+          ],
+          "wordAnswer": "Fallopian tube."
+        },
+        {
+          "questionNumber": "12",
+          "question": "Which of the following parts of the human digestive system is vestigial?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Duodenum.",
+            "Appendix.",
+            "Pancreas.",
+            "Anus."
+          ],
+          "wordAnswer": "Appendix."
+        },
+        {
+          "questionNumber": "13",
+          "question": "Which structure in the mould fungus releases extra-cellular enzymes?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rhizoids.",
+            "Sporangiophore.",
+            "Stolon.",
+            "Columella."
+          ],
+          "wordAnswer": "Rhizoids."
+        },
+        {
+          "questionNumber": "14",
+          "question": "Where does meiosis occur in a flower?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Filament.",
+            "Style.",
+            "Anther.",
+            "Pollen grain."
+          ],
+          "wordAnswer": "Anther."
+        },
+        {
+          "questionNumber": "15",
+          "question": "Where are guard cells found in the leaf?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Palisade layer.",
+            "Lower epidermis.",
+            "Upper epidermis.",
+            "Mesophyll."
+          ],
+          "wordAnswer": "Lower epidermis."
+        },
+        {
+          "questionNumber": "16",
+          "question": "Below is the diagram of the transverse section of the leaf lamina. Where is photosynthesis occuring most?",
+          "image": "ts_leaf_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "wordAnswer": "3"
+        },
+        {
+          "questionNumber": "17",
+          "question": "The diagram below is that of a plant cell. Which numbered part controls the movement of substances into and out of the cell?",
+          "image": "plant_cell_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "wordAnswer": "1"
+        },
+        {
+          "questionNumber": "18",
+          "question": "Which structure is present in plant cells but absent in animal cells?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cytoplasm.",
+            "Cell membrane.",
+            "Nucleus.",
+            "Chloroplast."
+          ],
+          "wordAnswer": "Chloroplast."
+        },
+        {
+          "questionNumber": "19",
+          "question": "In which structure in the human respiratory system does gaseous exchange take place?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Alveolus.",
+            "Nostril",
+            "Trachea.",
+            "Bronchiole."
+          ],
+          "wordAnswer": "Alveolus."
+        },
+        {
+          "questionNumber": "20",
+          "question": "Below is the diagram of a bony fish. How will the destruction of structure X affect the bony fish?",
+          "image": "bony_fish_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Inability to swim.",
+            "Inability to be buoyant.",
+            "Inability to detect vibrations.",
+            "Inability to change direction."
+          ],
+          "wordAnswer": "Inability to detect vibrations."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "During over cooling of the body,",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Hairs on te body are raised.",
+            "Superficial blood vessels constrict.",
+            "Rate of metabolic activities increase."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        },
+        {
+          "questionNumber": "22",
+          "question": "Which of the following secondary characteristics occur only in human males?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Deepening of voice.",
+            "Hair on pubis.",
+            "Sexual urge."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "23",
+          "question": "During inspiration",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "The diaphragm relaxes.",
+            "Volume of thoracic cavity increases.",
+            "There is low pressure in the lungs."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "24",
+          "question": "The process(es) by which nitrates are removed from the soil.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Denitrification.",
+            "Absorption by plants.",
+            "Lightning."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        },
+        {
+          "questionNumber": "25",
+          "question": "When blood passing through the brain is concentrated",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Much ADH is secreted.",
+            "Much water is reabsorbed.",
+            "Urine is hypotonic."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The efficiency of energy transfer in an ecosystem is very low.",
+            "There are always fewer organisms at each trophic level than the preceding one."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first."
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Amoeba lacks respiratory system.",
+            "Amoeba is unicellular."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Two normal parents can give birth to an albino.",
+            "Albinism is caused by a dominant gene."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Amino acids are the end products of protein digestion.",
+            "Excess amino acids are deaminated in the liver."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first."
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "A pink coloration is observed when saliva is tested with Millon's reagent.",
+            "Saliva contain is protein digesting enzyme."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Produces melanin.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Meissner's corpuscle.",
+            "Malpighian layer.",
+            "Granular layer.",
+            "Sebaceous gland."
+          ],
+          "wordAnswer": "Malpighian layer."
+        },
+        {
+          "questionNumber": "32",
+          "question": "Its percentage is the same in inspired and expired air.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen.",
+            "Carbon dioxide.",
+            "Water vapour.",
+            "Nitrogen."
+          ],
+          "wordAnswer": "Nitrogen."
+        },
+        {
+          "questionNumber": "33",
+          "question": "Feeding on dead organic matter.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Saprophytism.",
+            "Photosynthesis.",
+            "Parasitism.",
+            "Predation."
+          ],
+          "wordAnswer": "Saprophytism."
+        },
+        {
+          "questionNumber": "34",
+          "question": "Is concerned with refraction of light.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Iris.",
+            "Pupil.",
+            "Cornea.",
+            "Optic nerve."
+          ],
+          "wordAnswer": "Cornea."
+        },
+        {
+          "questionNumber": "35",
+          "question": "Carries impulses to the spinal cord in a reflex arc.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Relay neuron.",
+            "Sensory neuron.",
+            "Ventral root.",
+            "Motor neuron."
+          ],
+          "wordAnswer": "Sensory neuron."
+        },
+        {
+          "questionNumber": "36",
+          "question": "Prevents oxygen carriage by blood.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nitrogen oxide.",
+            "Carbon monoxide.",
+            "Sulphur dioxide.",
+            "Carbon dioxide."
+          ],
+          "wordAnswer": "Carbon monoxide."
+        },
+        {
+          "questionNumber": "37",
+          "question": "A primary consumer.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Omnivore.",
+            "Carnivore.",
+            "Saprophyte.",
+            "Herbivore."
+          ],
+          "wordAnswer": "Herbivore."
+        },
+        {
+          "questionNumber": "38",
+          "question": "Deficiency disease due to lack of iodine.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Goitre.",
+            "Scurvy.",
+            "Rickets.",
+            "Anaemia."
+          ],
+          "wordAnswer": "Goitre."
+        },
+        {
+          "questionNumber": "39",
+          "question": "Adaptation to dispersal by wind.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Brightly coloured fruit.",
+            "Winged fruit.",
+            "Fleshy fruit.",
+            "Spongy fruit."
+          ],
+          "wordAnswer": "Winged fruit."
+        },
+        {
+          "questionNumber": "40",
+          "question": "An effect of global warming.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Desertification.",
+            "More heat leaving the earth.",
+            "Shortage of oxygen.",
+            "Floods."
+          ],
+          "wordAnswer": "Floods."
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "Below is the diagram of a potted seedling that was exposed to light from one direction. The bending of the shoot is due to",
+          "image": "phototropism_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "More auxin on the illuminated side.",
+            "Less auxin production.",
+            "More auxin production",
+            "More auxin accumulated on the un-illuminated side."
+          ],
+          "wordAnswer": "More auxin accumulated on the un-illuminated side."
+        },
+        {
+          "questionNumber": "42",
+          "question": "The heart beats faster in the face of danger.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "due to secretion of glucagon.",
+            "due to secretion of thyroxine.",
+            "due to secretion of adrenaline.",
+            "due to secretion of insulin."
+          ],
+          "wordAnswer": "due to secretion of adrenaline."
+        },
+        {
+          "questionNumber": "43",
+          "question": "Why is water important in seed germination?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To soften the seed.",
+            "To activate enzymes.",
+            "For photosynthesis.",
+            "To activate auxins."
+          ],
+          "wordAnswer": "To activate enzymes."
+        },
+        {
+          "questionNumber": "44",
+          "question": "Boiling a leaf in alcohol when testing for starch is meant to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "remove chlorophyll.",
+            "burst starch grains.",
+            "kill the protoplasm.",
+            "soften the leaf."
+          ],
+          "wordAnswer": "remove chlorophyll."
+        },
+        {
+          "questionNumber": "45",
+          "question": "Inhaled air contains 21% by volume of oxygen but exhaled air contains 16% by volume of oxygen. The percentage of the oxygen in inhaled air absorbed by the lungs is about",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "5%",
+            "16%",
+            "24%",
+            "76%"
+          ],
+          "wordAnswer": "5%"
+        },
+        {
+          "questionNumber": "46",
+          "question": "Dough rises during bread making due to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "the break down of sugar.",
+            "the production of oxygen.",
+            "the production of carbon dioxide.",
+            "the production of alcohol."
+          ],
+          "wordAnswer": "the production of carbon dioxide."
+        },
+        {
+          "questionNumber": "47",
+          "question": "Food webs differ from food chains in that",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "little energy lost in food webs.",
+            "each organism in a food web has more than one food source.",
+            "each organism in a food chain has more than one food source.",
+            "food chains are complex."
+          ],
+          "wordAnswer":  "each organism in a food web has more than one food source."
+        },
+        {
+          "questionNumber": "48",
+          "question": "The surface of the soil around a potted plant was covered with polythene and the potted plant was placed on a balance. The mass of the potted plant and pot was read after every 30 minutes and the results were recorded as shown in the table below. The amount of water lost by the plant after one an a half hours constituted what percentage of the initial mass?",
+          "image": "result_transpiration_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "80%",
+            "100%",
+            "60%",
+            "20%"
+          ],
+          "wordAnswer": "20%"
+        },
+        {
+          "questionNumber": "49",
+          "question": "The allele for brown eye colour (B) is dominant over the allele for green eye colour (b). What is the probability of two heterozygotes producing an individual with the green eye colour?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "3/4",
+            "1/4",
+            "1/4",
+            "1"
+          ],
+          "wordAnswer": "1/4"
+        },
+        {
+          "questionNumber": "50",
+          "question": "The graph below represents the rate of photosynthesis at various concentrations of carbon dioxide. Study the graph carefully and select the correct answer. What is the rate of photosynthesis when the carbon dioxide concentration is at 0.7% ?",
+          "image": "graph_rate_photosynthesis_vs_co2_conc_june_2018.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "21",
+            "20.5",
+            "22",
+            "19.5"
+          ],
+          "wordAnswer": "20.5"
+        }
+      ]
+    }
+  ]
+}

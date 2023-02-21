@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StatisticDataViewActivity"
+    android:paddingStart="@dimen/margin_14"
+    android:paddingEnd="@dimen/margin_14"
+    android:paddingTop="@dimen/margin_14"
+    android:paddingBottom="@dimen/margin_14">
+
+    <LinearLayout
+        android:id="@+id/barChartLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/legendLo">
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/legendLo"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_above="@id/attemptsLo"
+        android:paddingEnd="@dimen/margin_8">
+
+        <TextView
+            android:id="@+id/tvLegend"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Replace with Legend"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/attemptsLo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textView_minimum_height"
+        android:layout_above="@id/summaryLo">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Number of attempts"
+            android:gravity="center_vertical"
+            android:textStyle="bold"/>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="@dimen/divided_width_2"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"/>
+        <TextView
+            android:id="@+id/tvAttemptsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/summaryLo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/timer_bar_height"
+        android:minHeight="@dimen/timer_bar_height"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/labelsLo"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Score/50"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/grade"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="@dimen/divided_width_2"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/valuesLo"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="@dimen/weight_statistics_summary_value"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/lowest"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/tvLowestScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Score"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/tvLowestGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Grade"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="@dimen/divided_width_2"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="@dimen/weight_statistics_summary_value"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/highest"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/tvHighestScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Score"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/tvHighestGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Grade"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="@dimen/divided_width_2"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="@dimen/weight_statistics_summary_value"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/average"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/tvAverageScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Score"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/tvAverageGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Grade"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="@dimen/divided_width_2"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="@dimen/weight_statistics_summary_value"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/last"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/tvLastScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Score"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/tvLastGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Grade"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="@dimen/divided_width_2"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

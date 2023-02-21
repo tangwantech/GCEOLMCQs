@@ -1,0 +1,41 @@
+{
+  "title": "Biology",
+  "contents":[
+    {
+      "title": "Mocks",
+      "examItems": [
+        {
+          "title": "Mock1",
+          "fileName": "biology_west_mock_2018.json"
+        }
+
+      ]
+    },
+    {
+      "title": "Past GCE",
+      "examItems": [
+        {
+          "title": "Past GCE 1",
+          "fileName": "biology_gce_2020.json"
+        },
+        {
+          "title": "Past GCE 2",
+          "fileName": "biology_gce_2021.json"
+        },
+        {
+          "title": "Past GCE 3",
+          "fileName": "biology_gce_2022.json"
+        },
+        {
+          "title": "Past GCE 4",
+          "fileName": "biology_gce_2019.json"
+        },
+        {
+          "title": "Past GCE 5",
+          "fileName": "biology_gce_2018.json"
+        }
+
+      ]
+    }
+  ]
+}

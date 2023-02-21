@@ -1,0 +1,779 @@
+{
+  "privateTitle": "GCE 2019",
+  "publicTitle": "Past GCE 4",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "Where does a new branch develop in a plant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Node.",
+            "Axil.",
+            "Apex.",
+            "Internode."
+          ],
+          "wordAnswer": "Node."
+        },
+        {
+          "questionNumber": "2",
+          "question": "Pseudopodia in amoeba help in;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Osmoregulation.",
+            "Reproduction.",
+            "Gaseous exchange.",
+            "Feeding."
+          ],
+          "wordAnswer": "Feeding."
+        },
+        {
+          "questionNumber": "3",
+          "question": "The place where an organism lives.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Environment.",
+            "Community.",
+            "Ecosystem.",
+            "Habitat."
+          ],
+          "wordAnswer": "Habitat."
+        },
+        {
+          "questionNumber": "4",
+          "question": "A food sample was tested with Benedict's solution and a brick-red precipitate was observed. The food sample contained;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Reducing sugar.",
+            "Proteins.",
+            "Lipids.",
+            "Starch."
+          ],
+          "wordAnswer": "Reducing sugar."
+        },
+        {
+          "questionNumber": "5",
+          "question": "The gas produced during photosynthesis is tested using",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Soda lime.",
+            "Anhydrous Copper II Sulphate.",
+            "A glowing splint.",
+            "Lime water."
+          ],
+          "wordAnswer": "A glowing splint."
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of the following is a correct composition of glomerular filtrate?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Urea, salts, RBCs, glucose.",
+            "Urea, salts, glucose, water.",
+            "Urea, fibrinogen, water, glucose.",
+            "Urea, water, RBCs, salts."
+          ],
+          "wordAnswer": "Urea, salts, glucose, water."
+        },
+        {
+          "questionNumber": "7",
+          "question": "During overheating of the human body, there is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Shivering.",
+            "Vasodilation.",
+            "Vasoconstriction.",
+            "Increased metabolism."
+          ],
+          "wordAnswer": "Vasodilation."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "The diagram below is that of the yeast cell. The structure numbered 2 is the",
+          "image": "yeast_cell_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nucleus.",
+            "Food vacuole.",
+            "Air bubble.",
+            "Nuclear vacuole."
+          ],
+          "wordAnswer": "Nuclear vacuole."
+        },
+        {
+          "questionNumber": "9",
+          "question": "The part of a flower which becomes the seed after fertilization is the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sepal.",
+            "Petal.",
+            "Ovule.",
+            "Ovary."
+          ],
+          "wordAnswer": "Ovule."
+        },
+        {
+          "questionNumber": "10",
+          "question": "Process 1 is promoted by",
+          "image": "water_cycle_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Heat from the sun.",
+            "Humidity.",
+            "Atmospheric pressure.",
+            "Amount of water present in water bodies."
+          ],
+          "wordAnswer": "Heat from the sun."
+        },
+        {
+          "questionNumber": "11",
+          "question": "The following diagram shows the position of endocrine glands in the human body. The hormone secreted by structure 3 is called?",
+          "image": "position_endocrine_glands_human_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Thyroxine.",
+            "Adrenaline.",
+            "Progesterone.",
+            "Testosterone."
+          ],
+          "wordAnswer": "Adrenaline."
+        },
+        {
+          "questionNumber": "12",
+          "question": "The part of a leaf which attaches it to a stem is the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Apex.",
+            "Margin.",
+            "Midrib.",
+            "Petiole."
+          ],
+          "wordAnswer": "Petiole."
+        },
+        {
+          "questionNumber": "13",
+          "question": "Which of the following brings about refraction in the eye?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Humours, ciliary muscles and lens.",
+            "Humours, iris and lens.",
+            "Cornea, pupil and humours.",
+            "Lens, humours and cornea."
+          ],
+          "wordAnswer": "Lens, humours and cornea."
+        },
+        {
+          "questionNumber": "14",
+          "question": "The seed below was attached to the ovary wall at the",
+          "image": "seed_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Testa.",
+            "Hilium.",
+            "Radicle.",
+            "Micropyle."
+          ],
+          "wordAnswer": "Hilium."
+        },
+        {
+          "questionNumber": "15",
+          "question": "It relaxes when the arm is stretched.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Biceps.",
+            "Triceps.",
+            "Tendons.",
+            "Ligament."
+          ],
+          "wordAnswer": "Biceps."
+        },
+        {
+          "questionNumber": "16",
+          "question": "The pollen tube grows and passes through the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Style.",
+            "Receptacle.",
+            "Anther.",
+            "Filament."
+          ],
+          "wordAnswer": "Style."
+        },
+        {
+          "questionNumber": "17",
+          "question": "The diagram below shows the cross section of a dicotyledonous stem. Which of the numbered structures transport organic food?",
+          "image": "section_dicot_stem_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1.",
+            "2.",
+            "3.",
+            "4."
+          ],
+          "wordAnswer": "2."
+        },
+        {
+          "questionNumber": "18",
+          "question": "The structure in a virus controlling cell activities is?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hollow core.",
+            "Tail sheath.",
+            "Genetic material.",
+            "Protein coat."
+          ],
+          "wordAnswer": "Genetic material."
+        },
+        {
+          "questionNumber": "19",
+          "question": "Which of the following structures carry deoxygenated blood?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Left atrium.",
+            "Left ventricle.",
+            "Pulmonary vein.",
+            "Pulmonary artery."
+          ],
+          "wordAnswer": "Pulmonary artery."
+        },
+        {
+          "questionNumber": "20",
+          "question": "Urine is expelled from the body of a mammal through the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Urethra.",
+            "Collecting duct.",
+            "Renal tubule.",
+            "Ureter."
+          ],
+          "wordAnswer": "Urethra."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "In a food web,",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "There are many food chains.",
+            "Each organism has a single food source.",
+            "The producers are aquatic plants."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "22",
+          "question": "Enzymes are",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Substrate specific.",
+            "Protein in nature.",
+            "Activated by very high temperature."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        },
+        {
+          "questionNumber": "23",
+          "question": "During photosynthesis, a plant",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Releases oxygen.",
+            "Absorbs solar energy.",
+            "Increases in weight."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        },
+        {
+          "questionNumber": "24",
+          "question": "Deficiency disease(s)",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Malaria.",
+            "Rickets.",
+            "Scurvy."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "25",
+          "question": "Fixation of nitrogen can be achieved through the activities of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Denitrifying bacteria.",
+            "Lightning.",
+            "Bacteria in root nodules of leguminous plants."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Animals store carbohydrate as glycogen.",
+            "Plants store lipids as oils."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first."
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Glucagon stimulates the conversion of glucose to glycogen.",
+            "A rise in glucose level stimulates the release of insulin."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True"
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Water is absorbed from the soil by osmosis.",
+            "The phloem tissue transports water and mineral salts."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The testes hang outside the bodies of male mammals.",
+            "Testes need a slightly lower temperature for the production of viable sperm."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Multicellular organisms require a transport system.",
+            "Substances are transported over long distances in multicellular organisms."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "An enzyme used to cut DNA in genetic engineering.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ligase.",
+            "Lipase.",
+            "Restriction enzyme.",
+            "Enterokinase."
+          ],
+          "wordAnswer": "Ligase."
+        },
+        {
+          "questionNumber": "32",
+          "question": "Contains many cell bodies.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Neuron.",
+            "Ganglion.",
+            "Synapse.",
+            "Dendron."
+          ],
+          "wordAnswer": "Ganglion."
+        },
+        {
+          "questionNumber": "33",
+          "question": "Outward expression of genes.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Genotype.",
+            "Heterozygous.",
+            "Homozygous.",
+            "Phenotype."
+          ],
+          "wordAnswer": "Phenotype."
+        },
+        {
+          "questionNumber": "34",
+          "question": "Release nutrients into the environment.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Decomposers.",
+            "Scavengers.",
+            "carnivores.",
+            "Herbivores."
+          ],
+          "wordAnswer": "Decomposers."
+        },
+        {
+          "questionNumber": "35",
+          "question": "More in inspired air than in expired air.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen.",
+            "Nitrogen.",
+            "Water vapour.",
+            "Carbon dioxide."
+          ],
+          "wordAnswer": "Oxygen."
+        },
+        {
+          "questionNumber": "36",
+          "question": "Produced during fright.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Insulin.",
+            "Glucagon.",
+            "Thyroxine.",
+            "Adrenaline."
+          ],
+          "wordAnswer": "Adrenaline."
+        },
+        {
+          "questionNumber": "37",
+          "question": "Is produced during anaerobic respiration in mammals.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon monoxide.",
+            "Ethanol.",
+            "Lactic acid.",
+            "Water."
+          ],
+          "wordAnswer": "Lactic acid."
+        },
+        {
+          "questionNumber": "38",
+          "question": "A constituent of protein.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Magnesium.",
+            "Potassium.",
+            "Calcium.",
+            "Nitrogen."
+          ],
+          "wordAnswer": "Nitrogen."
+        },
+        {
+          "questionNumber": "39",
+          "question": "Indicates the presence of starch when iodine is dropped on a piece of cocoyam.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Light green.",
+            "Pink.",
+            "Dark blue.",
+            "Brown."
+          ],
+          "wordAnswer": "Dark blue."
+        },
+        {
+          "questionNumber": "40",
+          "question": "Conversion of water vapour into water.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Precipitation.",
+            "Evaporation.",
+            "Melting.",
+            "Condensation."
+          ],
+          "wordAnswer": "Condensation."
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "When a red blood cell was allowed in tap water for 30 minutes, it got burst. This is due to;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Turgidity.",
+            "Haemolysis.",
+            "Plasmolysis.",
+            "Osmosis."
+          ],
+          "wordAnswer": "Osmosis."
+        },
+        {
+          "questionNumber": "42",
+          "question": "To carry out an experiment on photosynthesis, a potted plant was kept in the dark for 24 hours. This was to;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Stop all chemical reactions in the plant.",
+            "Allow more starch to be produced.",
+            "Allow the plant use up all available starch.",
+            "Avoid water loss."
+          ],
+          "wordAnswer": "Allow the plant use up all available starch."
+        },
+        {
+          "questionNumber": "43",
+          "question": "The setup below was used to carry out an experiment in photosynthesis. Which of the following was a true observation?",
+          "image": "experiment_photosynthesis_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Level of water in test tube rising.",
+            "Gas bubbles rising in the test tube.",
+            "Pond water becoming milky.",
+            "Level of water in beaker rising."
+          ],
+          "wordAnswer": "Gas bubbles rising in the test tube."
+        },
+        {
+          "questionNumber": "44",
+          "question": "In a experiment to show that heat energy is produced during respiration, soaked bean seeds were rinsed in a disinfectant before dividing them into two groups. Why were the seeds rinsed in a disinfectant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To stimulate germination.",
+            "To activate enzymes.",
+            "To kill the seeds.",
+            "To prevent growth of micro-organisms."
+          ],
+          "wordAnswer": "To prevent growth of micro-organisms."
+        },
+        {
+          "questionNumber": "45",
+          "question": "The following is a food chain. Grass -> Grasshopper -> Bird -> Dog. In which organism is energy most likely to be abundant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Maize plant.",
+            "Dogs",
+            "Grasshopper.",
+            "Bird."
+          ],
+          "wordAnswer": "Maize plant."
+        },
+        {
+          "questionNumber": "46",
+          "question": "Given that all other factors are available, which of these graphs show the effect of light intensity on the rate of photosynthesis?",
+          "image": "graph_factors_affecting_photosynthesis_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A.",
+            "B.",
+            "C.",
+            "D."
+          ],
+          "wordAnswer": "C."
+        },
+        {
+          "questionNumber": "47",
+          "question": "The table below shows equal quantities of four food samples in (g). Which food sample is best for body building?",
+          "image": "table_food_samples_june_2019.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "X.",
+            "W.",
+            "T.",
+            "Y."
+          ],
+          "wordAnswer": "X."
+        },
+        {
+          "questionNumber": "48",
+          "question": "Sickle cell anemia is caused by a recessive gene. What is the probability that two heterozygous parents produce a child with sickle cell?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1/4",
+            "1/2",
+            "3/4",
+            "1"
+          ],
+          "wordAnswer": "1/4"
+        },
+        {
+          "questionNumber": "49",
+          "question": "As a measure to control malaria, oil is sprayed on standing water. This is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Prevent the adult mosquito from flying.",
+            "To kill mosquito larvae.",
+            "To prevent mosquitoes from laying eggs.",
+            "To eliminate the adult mosquito."
+          ],
+          "wordAnswer": "To kill mosquito larvae."
+        },
+        {
+          "questionNumber": "50",
+          "question": "A laboratory blood test showed that a child was anaemic. Which of the following foods is advisable to include in the child's diet?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mango.",
+            "Cocoyam.",
+            "Green vegetable.",
+            "Bean."
+          ],
+          "wordAnswer": "Green vegetable."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recycler_item_view_min_height"
+    android:orientation="vertical"
+    android:background="@color/card_background">
+
+    <TextView
+        android:id="@+id/tvRecyclerViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_16"
+        android:paddingRight="@dimen/margin_16"
+        android:text="@string/recycler_item_text"
+        android:textSize="@dimen/text_size_14" />
+
+
+</LinearLayout>
