@@ -9,8 +9,19 @@
    <RelativeLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent">
+<!--       <TextView-->
+<!--           android:id="@+id/tvSectionResultHeader"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:text="Section I"-->
+<!--           android:textSize="@dimen/text_size_16"-->
+<!--           android:textStyle="bold"-->
+<!--           android:paddingLeft="@dimen/margin_14"-->
+<!--           android:paddingRight="@dimen/margin_14"/>-->
        <include layout="@layout/result_score_percentage_bar"
-           android:id="@+id/layoutScorePercentage"/>
+           android:id="@+id/layoutScorePercentage"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
        <FrameLayout
            android:id="@+id/rvFragmentHolder"
            android:layout_width="match_parent"

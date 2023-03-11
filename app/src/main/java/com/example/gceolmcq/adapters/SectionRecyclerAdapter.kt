@@ -5,20 +5,14 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.cardview.widget.CardView
-import androidx.core.view.marginBottom
-import androidx.core.view.marginLeft
-import androidx.core.view.marginRight
-import androidx.core.view.marginTop
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gceolmcq.R
 import com.example.gceolmcq.ResourceImages
-import com.example.gceolmcq.datamodels.QuestionDataModel
 import com.example.gceolmcq.datamodels.QuestionWithUserAnswerMarkedData
 
 
@@ -95,7 +89,7 @@ class SectionRecyclerAdapter(
         val questionData = questions[position]
         displayOrHideLayout(questionData, holder, position)
 
-        if (title == "Result"){
+        if (title == context.resources.getString(R.string.result)){
             setupResult(questionData, holder)
 
         }else{
@@ -118,16 +112,16 @@ class SectionRecyclerAdapter(
             holder.layoutUserAnswer.visibility = View.VISIBLE
             holder.tvUserAnswer.text = context.resources.getString(R.string.no_answer_selected)
             holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
-            holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.wrong_answer))
+            holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
         }else{
             holder.layoutUserAnswer.visibility = View.VISIBLE
             holder.tvUserAnswer.text = "${questionData.userSelection!!.optionLetter}. ${questionData.userSelection!!.optionSelected}"
             if(questionData.userSelection!!.remark!!){
                 holder.imgRemark.setImageResource(R.drawable.ic_baseline_check_24)
-                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.correct_answer))
+                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.blue_color))
             }else{
                 holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
-                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.wrong_answer))
+                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
             }
 
         }

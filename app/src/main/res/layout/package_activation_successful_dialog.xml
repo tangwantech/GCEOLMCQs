@@ -20,7 +20,7 @@
             app:srcCompat="@drawable/ic_baseline_check_circle_outline_24" />
 
         <TextView
-            android:id="@+id/tvPackage_activation_successful"
+            android:id="@+id/tvPackageActivationSuccessful"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

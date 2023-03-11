@@ -1,5 +1,6 @@
 package com.example.gceolmcq.viewmodels
 
+import android.os.Bundle
 import androidx.core.os.persistableBundleOf
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,6 +8,7 @@ import androidx.lifecycle.ViewModel
 
 class SectionNavigationFragmentViewModel : ViewModel() {
     private var sectionNames: Array<String>? = null
+    private var sectionNameBundleList: Array<Bundle>? = null
     private var numberOfSections: Int? = null
     private var sectionsAnswered: List<Boolean>? = null
 //    private val sectionScores = ArrayList<Int>()
@@ -36,14 +38,15 @@ class SectionNavigationFragmentViewModel : ViewModel() {
 //        initSectionScores()
     }
 
-//    fun initSectionScores(){
-//        for(index in 0..numberOfSections!!){
-//            sectionScores.add(0)
-//        }
-//    }
-
     fun getSectionNames(): Array<String>? {
         return this.sectionNames
+    }
+    fun setSectionNameBundleList(sectionNameBundleList: Array<Bundle>?) {
+        this.sectionNameBundleList = sectionNameBundleList
+    }
+
+    fun getSectionNameBundleList():Array<Bundle>?{
+        return sectionNameBundleList
     }
 
     private fun setNumberOfSections() {
@@ -127,5 +130,6 @@ class SectionNavigationFragmentViewModel : ViewModel() {
     fun getAreAllSectionsAnswered(): LiveData<Boolean>{
         return areAllSectionsAnswered
     }
+
 
 }

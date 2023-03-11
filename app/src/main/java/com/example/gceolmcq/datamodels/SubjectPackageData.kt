@@ -19,14 +19,14 @@ data class SubjectPackageData(
     @ColumnInfo(name="package_name")
     var packageName: String? = null,
 
-//    @ColumnInfo(name="package_status")
-//    var isPackageActive: Boolean? = null,
-
     @ColumnInfo(name="activated_on")
     var activatedOn: String? = null,
 
     @ColumnInfo(name="expires_on")
-    var expiresOn: String? = null
+    var expiresOn: String? = null,
+
+    @ColumnInfo(name="package_status")
+    var isPackageActive: Boolean? = null,
 ): Serializable
 
 

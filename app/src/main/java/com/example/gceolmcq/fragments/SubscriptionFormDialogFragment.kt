@@ -75,7 +75,7 @@ class SubscriptionFormDialogFragment : DialogFragment() {
             ArrayAdapter<String>(
                 requireContext(),
                 R.layout.drop_down_item,
-                subscriptionFormDialogFragmentViewModel.getPackageTypes()
+                requireContext().resources.getStringArray(R.array.package_types)
             )
         )
 
@@ -83,18 +83,22 @@ class SubscriptionFormDialogFragment : DialogFragment() {
             ArrayAdapter<String>(
                 requireContext(),
                 R.layout.drop_down_item,
-                subscriptionFormDialogFragmentViewModel.getMoMoPartners()
+                requireContext().resources.getStringArray(R.array.momo_partners)
             )
         )
     }
 
     private fun setUpViewListeners(){
-        autoPackageType.setOnItemClickListener { _, _, i, _ ->
-            subscriptionFormDialogFragmentViewModel.setPackageType(i)
+        autoPackageType.setOnItemClickListener { _, _, packageIndex, _ ->
+            subscriptionFormDialogFragmentViewModel.setPackageType(requireContext().resources.getStringArray(R.array.package_types)[packageIndex])
+            layoutTvPrice.visibility = View.VISIBLE
+            tvPrice.text = "${requireContext().resources.getStringArray(R.array.package_prices)[packageIndex]} FCFA"
+            subscriptionFormDialogFragmentViewModel.setPackagePrice(requireContext().resources.getStringArray(R.array.package_prices)[packageIndex])
+            subscriptionFormDialogFragmentViewModel.setPackageDuration(resources.getStringArray(R.array.package_durations)[packageIndex].toInt())
         }
 
-        autoMomoPartner.setOnItemClickListener { _, _, i, _ ->
-            subscriptionFormDialogFragmentViewModel.setMomoPartner(i)
+        autoMomoPartner.setOnItemClickListener { _, _, momoPartnerIndex, _ ->
+            subscriptionFormDialogFragmentViewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[momoPartnerIndex])
         }
 
         etMomoNumber.doOnTextChanged { text, _, _, _ ->
@@ -104,13 +108,6 @@ class SubscriptionFormDialogFragment : DialogFragment() {
     }
 
     private fun setUpViewObservers(dialogPositiveBtn: Button){
-        subscriptionFormDialogFragmentViewModel.getIsPackageSelected().observe(this, Observer {
-            if(it){
-                layoutTvPrice.visibility = View.VISIBLE
-                tvPrice.text = "${subscriptionFormDialogFragmentViewModel.getPackagePrice()} FCFA"
-
-            }
-        })
 
         subscriptionFormDialogFragmentViewModel.isSubscriptionFormFilled.observe(this, Observer {
             dialogPositiveBtn.isEnabled = it

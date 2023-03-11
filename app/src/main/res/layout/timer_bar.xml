@@ -4,7 +4,7 @@
     android:id="@+id/timerLayout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/timer_bar_height"
-    android:background="@color/color_primary"
+    android:background="@color/primary_color"
     android:orientation="horizontal"
     android:paddingLeft="@dimen/margin_16"
     android:paddingRight="@dimen/margin_16">
@@ -21,7 +21,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_12"
             android:layout_marginBottom="@dimen/margin_12"
-            app:cardBackgroundColor="@color/color_primary"
+            app:cardBackgroundColor="@color/primary_color"
             app:cardCornerRadius="@dimen/margin_8">
 
             <TextView
@@ -49,7 +49,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_12"
             android:layout_marginBottom="@dimen/margin_12"
-            app:cardBackgroundColor="@color/color_primary"
+            app:cardBackgroundColor="@color/primary_color"
             app:cardCornerRadius="@dimen/margin_8">
 
             <TextView

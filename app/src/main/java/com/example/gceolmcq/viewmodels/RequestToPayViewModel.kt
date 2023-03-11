@@ -7,8 +7,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import net.compay.android.CamPay
-import net.compay.android.models.requests.CollectionRequest
+//import net.compay.android.CamPay
+//import net.compay.android.models.requests.CollectionRequest
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import org.json.JSONException
@@ -52,56 +52,6 @@ class RequestToPayViewModel : ViewModel() {
     fun getIsTransactionSuccessful(): LiveData<Boolean> {
         return isTransactionSuccessful
     }
-
-//    private fun requestToPay() {
-//
-//        val camPay = CamPay.getInstance()
-//
-//
-//        camPay.collect(
-//            CollectionRequest.CollectionRequestBuilder
-//                .aCollectionRequest()
-//                .withAmount(this.subscriptionFormDataModel.packagePrice)
-//                .withFrom("237${this.subscriptionFormDataModel.momoNumber}")
-//                .withDescription("${subscriptionFormDataModel.subject} ${subscriptionFormDataModel.packageType} subscription")
-//                .withExternalReference(UUID.randomUUID().toString())
-//                .withCurrency("XAF")
-//                .build()
-//        ).delay(
-//            200,
-//            TimeUnit.MILLISECONDS
-//        ) // delay for a minute before checking the transaction status
-//            .switchMap { collectResponse ->
-////                println("collectResponse.......${collectResponse}")
-//                ussDCode.postValue(collectResponse.ussdCode)
-//                return@switchMap camPay.transactionStatus(collectResponse.reference) //  check the transaction status
-//            }.subscribe { transactionStatusResponse ->
-//
-//                var transactionStatus = transactionStatusResponse.status
-//                viewModelScope.launch {
-//                    while (transactionStatus == "PENDING") {
-//                        delay(100)
-//                        camPay.transactionStatus(transactionStatusResponse.reference).subscribe {
-//                            transactionStatus = it.status
-//                            transactionId.postValue(it.code)
-//
-//                        }
-//                    }
-//
-//                    when (transactionStatus) {
-//                        "SUCCESSFUL" -> {
-//                            isTransactionSuccessful.postValue(true)
-//                        }
-//                        "FAILED" -> {
-//                            isTransactionSuccessful.postValue(false)
-//                        }
-//                    }
-//                }
-//
-//            }
-////
-//    }
-
 
     fun getMomoPartner(): LiveData<String> {
         return momoPartner
@@ -182,7 +132,7 @@ class RequestToPayViewModel : ViewModel() {
                     ussDCode.postValue(json["ussd_code"].toString())
                     val referenceId = json["reference"].toString()
                     viewModelScope.launch {
-                        delay(1000)
+//                        delay(1000)
                         checkTransactionStatus(token, referenceId)
                         while(transactionStatus.value == "PENDING"){
                             delay(1000)

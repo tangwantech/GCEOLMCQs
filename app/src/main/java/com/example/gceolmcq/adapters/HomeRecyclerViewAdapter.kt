@@ -1,48 +1,45 @@
 package com.example.gceolmcq.adapters
 
 import android.content.Context
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
-import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.R
-import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusData
-import com.example.gceolmcq.fragments.HomeFragment
+import com.example.gceolmcq.datamodels.SubjectPackageData
 
 
 class HomeRecyclerViewAdapter(
     private val context: Context,
-//    private val subjectPackageExpiryStatusList: List<SubjectPackageExpiryStatusData>,
-    private val onHomeRecyclerItemClickListener: OnHomeRecyclerItemClickListener
+    private var subjectPackageDataList: ArrayList<SubjectPackageData>,
+    private val onHomeRecyclerItemClickListener: OnHomeRecyclerItemClickListener,
+    private val onCheckPackageExpiryListener: OnCheckPackageExpiryListener
 
 ) : RecyclerView.Adapter<HomeRecyclerViewAdapter.ViewHolder>() {
-    private var subjectPackageExpiryStatusList: ArrayList<SubjectPackageExpiryStatusData> = ArrayList()
-
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val tvSubjectName = view.findViewById(R.id.tvSubjectNavItem) as TextView
-        val tvSubjectStatus = view.findViewById(R.id.tvSubjectStatus) as TextView
-        val btnSubjectPackageDetails = view.findViewById(R.id.btnPackage) as Button
-        val btnSubscribe = view.findViewById(R.id.btnSubscribe) as Button
+        val tvSubjectName: TextView = view.findViewById(R.id.tvSubjectNavItem)
+        val tvSubjectStatus: TextView = view.findViewById(R.id.tvSubjectStatus)
+        val btnSubjectPackageDetails: Button = view.findViewById(R.id.btnPackage)
+        val btnSubscribe: Button = view.findViewById(R.id.btnSubscribe)
 
-        private val layoutSubjectItem = view.findViewById(R.id.layoutSubjectNavItem) as LinearLayout
+        private val layoutSubjectItem: LinearLayout = view.findViewById(R.id.layoutSubjectNavItem)
 //
 
         init {
 
             layoutSubjectItem.setOnClickListener {
-                onHomeRecyclerItemClickListener.onSubjectItemClicked(
-                    this.adapterPosition,
-                    subjectPackageExpiryStatusList[this.adapterPosition].status
-                )
+                if(subjectPackageDataList.isNotEmpty()){
+                    onHomeRecyclerItemClickListener.onSubjectItemClicked(
+                        this.adapterPosition,
+                        subjectPackageDataList[adapterPosition].isPackageActive!!
+                    )
+
+                }
+
             }
             btnSubjectPackageDetails.setOnClickListener {
                 onHomeRecyclerItemClickListener.onPackageDetailsButtonClicked(this.adapterPosition)
@@ -51,22 +48,12 @@ class HomeRecyclerViewAdapter(
                 onHomeRecyclerItemClickListener.onSubscribeButtonClicked(this.adapterPosition)
             }
 
-
         }
 
     }
 
-    fun setSubjectPackageExpiryStatusList(subjectPackageExpiryStatusList: ArrayList<SubjectPackageExpiryStatusData>){
-        this.subjectPackageExpiryStatusList = subjectPackageExpiryStatusList
-    }
-
-    fun updateSubjectPackageExpiryStatusListAt(position: Int, subjectPackageExpiryStatus: SubjectPackageExpiryStatusData){
-
-        this.subjectPackageExpiryStatusList[position] = subjectPackageExpiryStatus
-    }
-
-    fun updateExpiryStatusAt(position: Int, status: Boolean){
-        this.subjectPackageExpiryStatusList[position].status = status
+    fun upSubjectPackageData(subjectPackageDataList: ArrayList<SubjectPackageData>){
+        this.subjectPackageDataList = subjectPackageDataList
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -75,33 +62,33 @@ class HomeRecyclerViewAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.tvSubjectName.text = subjectPackageExpiryStatusList[position].subject
-        holder.btnSubjectPackageDetails.text = subjectPackageExpiryStatusList[position].packageName
+        if(subjectPackageDataList.isNotEmpty()){
+            holder.tvSubjectName.text = subjectPackageDataList[position].subjectName
+            holder.btnSubjectPackageDetails.text = subjectPackageDataList[position].packageName
 
-        if (subjectPackageExpiryStatusList[position].status){
-            holder.tvSubjectStatus.text = context.resources.getString(
-                R.string.active
-            )
-            holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.correct_answer))
-            holder.btnSubscribe.isEnabled = false
+            if ((subjectPackageDataList[position].isPackageActive!!)){
+                onCheckPackageExpiryListener.onCheckPackageExpiry(position)
+                holder.tvSubjectStatus.text = context.resources.getString(R.string.active)
+                holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.blue_color))
+                holder.btnSubscribe.isEnabled = false
 
-        } else{
-            holder.tvSubjectStatus.text = context.resources.getString(
-                R.string.expired
-            )
-            holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.wrong_answer))
-            holder.btnSubscribe.isEnabled = true
+            } else{
+                holder.tvSubjectStatus.text = context.resources.getString(R.string.expired)
+                holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.red_color))
+                holder.btnSubscribe.isEnabled = true
+            }
+
+
+            if(subjectPackageDataList[position].packageName == context.resources.getString(R.string.trial)){
+                holder.btnSubscribe.isEnabled = true
+            }
         }
 
-        if(subjectPackageExpiryStatusList[position].packageName == context.resources.getString(R.string.trial)){
-            holder.btnSubscribe.isEnabled = true
-        }
 
     }
 
     override fun getItemCount(): Int {
-//        println(subjectPackageExpiryStatusList.size)
-        return subjectPackageExpiryStatusList.size
+        return subjectPackageDataList.size
     }
 
     interface OnHomeRecyclerItemClickListener {
@@ -109,5 +96,8 @@ class HomeRecyclerViewAdapter(
         fun onSubscribeButtonClicked(position: Int)
         fun onPackageDetailsButtonClicked(position: Int)
 
+    }
+    interface OnCheckPackageExpiryListener{
+        fun onCheckPackageExpiry(position: Int)
     }
 }

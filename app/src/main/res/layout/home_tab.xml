@@ -10,20 +10,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/homeTab"
         app:tabTextAppearance="@style/CustomTabStyle"
-        android:background="@color/color_primary"
-        app:tabIndicatorColor="@color/color_accent"
-        app:tabSelectedTextColor="@color/primary_text"
-        app:tabTextColor="@color/design_default_color_on_primary"
+        android:background="@color/primary_color"
+        app:tabIndicatorColor="@color/accent_color"
+        app:tabTextColor="@color/text_color"
         app:tabGravity="fill"
-        app:tabIndicatorGravity="center"
         app:tabIndicatorFullWidth="true"
-        app:tabIndicatorHeight="40dp"
         app:tabInlineLabel="true"
         app:tabMode="fixed"
-        app:tabIndicator="@drawable/tab_indicator"
+        app:tabSelectedTextColor="@color/accent_color"
 
         />
-
+<!--    app:tabIndicatorGravity="center"-->
+<!--    app:tabIndicatorHeight="40dp"-->
+<!--    app:tabIndicator="@drawable/tab_indicator"-->
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"

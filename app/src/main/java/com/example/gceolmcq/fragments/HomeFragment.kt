@@ -9,28 +9,20 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.HomeRecyclerViewAdapter
-import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusData
-import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusDataSerializable
 import com.example.gceolmcq.viewmodels.HomeFragmentViewModel
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryListener {
 
     private lateinit var homeRecyclerView: RecyclerView
     private lateinit var homeFragmentViewModel: HomeFragmentViewModel
     private lateinit var onPackageActivatedListener: OnPackageActivatedListener
     private lateinit var homeRecyclerViewAdapter: HomeRecyclerViewAdapter
-    private lateinit var onRequestSubjectPackageExpiryStatusDataListListener: OnRequestSubjectPackageExpiryStatusDataListListener
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        homeFragmentViewModel = ViewModelProvider(this)[HomeFragmentViewModel::class.java]
-
-
-    }
+    private lateinit var onHomeRecyclerItemClickListener: HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -38,10 +30,9 @@ class HomeFragment : Fragment() {
             onPackageActivatedListener = context
         }
 
-        if (context is OnRequestSubjectPackageExpiryStatusDataListListener) {
-            onRequestSubjectPackageExpiryStatusDataListListener = context
+        if (context is HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener){
+            onHomeRecyclerItemClickListener = context
         }
-
     }
 
     override fun onCreateView(
@@ -54,57 +45,70 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initViewModel()
+        initHomeFragmentViews(view)
+        setupHomeFragmentRecyclerView()
+        setupHomeFragmentViewObservers()
+    }
 
+    private fun initViewModel(){
+        homeFragmentViewModel = ViewModelProvider(this)[HomeFragmentViewModel::class.java]
+        homeFragmentViewModel.initGceOLMcqDatabase(requireContext())
+
+    }
+
+    private fun initHomeFragmentViews(view: View){
         homeRecyclerView = view.findViewById(R.id.homeRecyclerView)
+    }
+
+    private fun setupHomeFragmentAdapter(){
+        homeRecyclerViewAdapter = HomeRecyclerViewAdapter(
+            requireContext(),
+            homeFragmentViewModel.subjectPackageDataList.value!!,
+            onHomeRecyclerItemClickListener,
+            this
+        )
+
+    }
+
+    private fun setupHomeFragmentRecyclerView() {
+        setupHomeFragmentAdapter()
+        val loMan = LinearLayoutManager(requireContext())
+        loMan.orientation = LinearLayoutManager.VERTICAL
+        homeRecyclerView.layoutManager = loMan
+        homeRecyclerView.addItemDecoration(
+            DividerItemDecoration(
+                requireContext(),
+                DividerItemDecoration.VERTICAL
+            )
+        )
+        homeRecyclerView.adapter = homeRecyclerViewAdapter
+
+    }
+
+    private fun setupHomeFragmentViewObservers(){
+
+        onPackageActivatedListener.onPackageActivated().observe(viewLifecycleOwner, Observer {
+            homeFragmentViewModel.initSubjectPackagesDataListFromLocalDatabase()
+        })
+
+        homeFragmentViewModel.subjectPackageDataList.observe(viewLifecycleOwner, Observer {
+            if(it!!.isNotEmpty()){
+                homeRecyclerViewAdapter.upSubjectPackageData(it)
+                homeRecyclerView.adapter!!.notifyDataSetChanged()
+
+            }
+        })
+
+        homeFragmentViewModel.packageExpiredIndex.observe(viewLifecycleOwner, Observer {
+            homeFragmentViewModel.initSubjectPackagesDataListFromLocalDatabase()
+        })
     }
 
     override fun onResume() {
         super.onResume()
+        homeFragmentViewModel.initSubjectPackagesDataListFromLocalDatabase()
 
-        onRequestSubjectPackageExpiryStatusDataListListener.onRequestSubjectPackageExpiryStatusLiveData()
-            .observe(viewLifecycleOwner, Observer {
-                homeFragmentViewModel.setSubjectPackageExpiryStatusDataList(it)
-
-                homeRecyclerViewAdapter = HomeRecyclerViewAdapter(
-                    requireContext(),
-//                    it,
-                    requireContext() as HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener
-                )
-
-                homeRecyclerViewAdapter.setSubjectPackageExpiryStatusList(it)
-                val loMan = LinearLayoutManager(requireContext())
-                loMan.orientation = LinearLayoutManager.VERTICAL
-                homeRecyclerView.layoutManager = loMan
-                homeRecyclerView.adapter = homeRecyclerViewAdapter
-
-            })
-
-
-        homeFragmentViewModel.packagesInitialExpiryCheck()
-
-//        block runs only when package is activated
-        onPackageActivatedListener.onPackageActivated()
-            .observe(viewLifecycleOwner, Observer { subjectPackageExpiryBundle ->
-                val position = subjectPackageExpiryBundle.getInt("position")
-                val subjectName = subjectPackageExpiryBundle.getString("subject")!!
-                val packageName = subjectPackageExpiryBundle.getString("package")!!
-                val expiresOn = subjectPackageExpiryBundle.getString("expiresOn")!!
-                val status = subjectPackageExpiryBundle.getBoolean("status")
-
-                val subjectPackageExpiryStatusData = SubjectPackageExpiryStatusData(subjectName, packageName, expiresOn, status)
-                homeRecyclerViewAdapter.updateSubjectPackageExpiryStatusListAt(position, subjectPackageExpiryStatusData)
-//                homeFragmentViewModel.updateSubjectExpiryStatusListAt(subjectPackageExpiryBundle)
-                homeRecyclerViewAdapter.notifyItemChanged(position)
-                homeFragmentViewModel.checkPackageExpiry(position, expiresOn)
-            })
-
-        homeFragmentViewModel.subjectPackageExpiredIndexAndStatusBundle()
-            .observe(viewLifecycleOwner, Observer { bundle ->
-                val position = bundle.getInt("position")
-                val status = bundle.getBoolean("status")
-                homeRecyclerViewAdapter.updateExpiryStatusAt(position, status)
-                homeRecyclerViewAdapter.notifyItemChanged(position)
-            })
     }
 
     companion object {
@@ -116,12 +120,11 @@ class HomeFragment : Fragment() {
     }
 
     interface OnPackageActivatedListener {
-        fun onPackageActivated(): LiveData<Bundle>
+        fun onPackageActivated(): LiveData<Int>
     }
 
-    interface OnRequestSubjectPackageExpiryStatusDataListListener {
-        fun onRequestSubjectPackageExpiryStatusDataList(): ArrayList<SubjectPackageExpiryStatusData>
-        fun onRequestSubjectPackageExpiryStatusLiveData(): LiveData<ArrayList<SubjectPackageExpiryStatusData>>
+    override fun onCheckPackageExpiry(position: Int) {
+        homeFragmentViewModel.checkPackageExpiry(position)
     }
 
 

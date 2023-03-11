@@ -1,6 +1,7 @@
 package com.example.gceolmcq.adapters
 
 import android.content.Context
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +14,7 @@ import com.example.gceolmcq.R
 
 class SectionNavigationRecyclerViewAdapter(
     private val context: Context,
-    private val listSections: Array<String>,
+    private val listSections: Array<Bundle>,
     private val listener: OnRecyclerItemClickListener,
     private val sectionsAnswered: List<Boolean>
 ) :
@@ -21,6 +22,7 @@ class SectionNavigationRecyclerViewAdapter(
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val tvSectionNavItem: TextView = view.findViewById(R.id.tvSectionNavItem)
+        val tvSectionNumberOfQuestions: TextView = view.findViewById(R.id.tvSectionNumberOfQuestions)
         val sectionNavItemLayout: LinearLayout = view.findViewById(R.id.sectionNavItemLayout)
         val imgSectionAnsweredCheck: ImageView = view.findViewById(R.id.imgSectionAnsweredCheck)
 
@@ -42,10 +44,12 @@ class SectionNavigationRecyclerViewAdapter(
 //        holder.sectionNavItemLayout.setOnClickListener{
 //            listener.onRecyclerItemClick(position)
 //        }
-        holder.tvSectionNavItem.text = listSections[position]
+        holder.tvSectionNavItem.text = listSections[position].getString("sectionName")
+        holder.tvSectionNumberOfQuestions.text = "Number of questions: ${listSections[position].getString("numberOfQuestions")}"
 
         if(sectionsAnswered[position]){
             holder.tvSectionNavItem.setTextColor(context.resources.getColor(R.color.color_primary_dark))
+            holder.tvSectionNumberOfQuestions.setTextColor(context.resources.getColor(R.color.color_primary_dark))
             holder.imgSectionAnsweredCheck.visibility = View.VISIBLE
 //            holder.sectionNavItemLayout.isEnabled = false
 

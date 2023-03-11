@@ -71,7 +71,7 @@ class SubjectItemFragment : Fragment() {
                     btnSubscribe.isEnabled = false
                     btnSubjectPackageDetails.isEnabled = true
                     tvSubjectStatus.text = requireContext().resources.getString(R.string.active)
-                    tvSubjectStatus.setTextColor(requireContext().resources.getColor(R.color.correct_answer))
+                    tvSubjectStatus.setTextColor(requireContext().resources.getColor(R.color.blue_color))
                     btnSubjectPackageDetails.setOnClickListener {
                         onSubjectItemClickedListener.onPackageDetailsButtonClicked(
                             subjectItemFragmentViewModel.getSubjectPosition(),
@@ -83,7 +83,7 @@ class SubjectItemFragment : Fragment() {
                     btnSubscribe.isEnabled = true
                     btnSubjectPackageDetails.isEnabled = false
                     tvSubjectStatus.text = requireContext().resources.getString(R.string.expired)
-                    tvSubjectStatus.setTextColor(requireContext().resources.getColor(R.color.wrong_answer))
+                    tvSubjectStatus.setTextColor(requireContext().resources.getColor(R.color.red_color))
 
                     btnSubscribe.setOnClickListener {
                         onSubjectItemClickedListener.onSubscribeButtonClicked(

@@ -3,18 +3,18 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:minHeight="@dimen/button_minimum_height"
+
     android:paddingLeft="@dimen/margin_16"
     android:paddingRight="@dimen/margin_16"
-    android:paddingTop="@dimen/margin_14"
-    android:paddingBottom="@dimen/margin_14">
+    android:layout_marginTop="@dimen/margin_8"
+    android:layout_marginBottom="@dimen/margin_8">
     <TextView
         android:id="@+id/tvQuestion"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.95"
         android:text="Replace this text with actual question"
         android:textSize="@dimen/text_size_16"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
 
 </LinearLayout>

@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:text="Replace with correct answer"
         android:textSize="@dimen/text_size_14"
-        android:textColor="@color/correct_answer"
+        android:textColor="@color/blue_color"
         android:paddingTop="@dimen/margin_14"
         android:paddingBottom="@dimen/margin_14"
         android:paddingRight="@dimen/margin_14"

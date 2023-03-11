@@ -11,7 +11,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.activities.PaperActivity
 import com.example.gceolmcq.R
 //import com.example.gceolmcq.activities.OnPackageExpiredListener
@@ -21,10 +20,24 @@ import com.example.gceolmcq.viewmodels.ExamTypeFragmentViewModel
 
 
 class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemClickListener {
-//    private lateinit var examContents: ExamTypeDataModel
     private lateinit var examTypeFragmentViewModel: ExamTypeFragmentViewModel
     private lateinit var onPackageExpiredListener: OnPackageExpiredListener
-    private lateinit var onContentAccessListener: OnContentAccessListener
+    private lateinit var onContentAccessDeniedListener: OnContentAccessDeniedListener
+
+    private lateinit var rvExamTypeFragment: RecyclerView
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        if(context is OnPackageExpiredListener){
+            onPackageExpiredListener = context
+        }
+
+        if(context is OnContentAccessDeniedListener){
+            onContentAccessDeniedListener = context
+        }
+
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -34,11 +47,24 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
         return inflater.inflate(R.layout.fragment_exam_type, container, false)
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val rvExamTypeFragment: RecyclerView = view.findViewById(R.id.rvExamTypeFragment)
+        initViews(view)
+        initVieModel()
+        setupRecyclerView()
+    }
 
+    private fun initViews(view: View){
+        rvExamTypeFragment = view.findViewById(R.id.rvExamTypeFragment)
+    }
+
+    private fun initVieModel(){
+        examTypeFragmentViewModel = ViewModelProvider(this)[ExamTypeFragmentViewModel::class.java]
+        val examTypeDataModel = requireArguments().getSerializable("examTypeData") as ExamTypeDataModel
+        examTypeFragmentViewModel.setExamTypeData(examTypeDataModel)
+    }
+
+    private fun setupRecyclerView(){
         val rvLayoutMan = LinearLayoutManager(requireActivity())
         rvLayoutMan.orientation = LinearLayoutManager.VERTICAL
         rvExamTypeFragment.addItemDecoration(
@@ -56,23 +82,6 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
         )
         rvExamTypeFragment.adapter = rvAdapter
         rvExamTypeFragment.setHasFixedSize(true)
-
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        examTypeFragmentViewModel = ViewModelProvider(this)[ExamTypeFragmentViewModel::class.java]
-        val examTypeDataModel = requireArguments().getSerializable("examTypeData") as ExamTypeDataModel
-        examTypeFragmentViewModel.setExamTypeData(examTypeDataModel)
-
-        if(context is OnPackageExpiredListener){
-            onPackageExpiredListener = context
-        }
-
-        if(context is OnContentAccessListener){
-            onContentAccessListener = context
-        }
-
     }
 
 
@@ -95,21 +104,15 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
             if(position == 0){
                 gotoPaperActivity(position)
             }else{
-                onContentAccessListener.onContentAccessDenied()
+                onContentAccessDeniedListener.onContentAccessDenied()
             }
         }else{
-            if(!ActivationExpiryDatesGenerator().checkExpiry(requireArguments().getString("expiresOn")!!)){
-                onPackageExpiredListener.onPackageExpired()
+            if(!onPackageExpiredListener.onCheckIfPackageHasExpired()){
+                onPackageExpiredListener.onShowPackageExpired()
             }else{
                 gotoPaperActivity(position)
             }
         }
-//        if(!ActivationExpiryDatesGenerator().checkExpiry(requireArguments().getString("expiresOn")!!)){
-//            onPackageExpiredListener.onPackageExpired()
-//        }else{
-//            gotoPaperActivity(position)
-//        }
-
 
     }
     private fun gotoPaperActivity(position: Int){
@@ -118,18 +121,17 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
         bundle.putString("expiresOn", requireArguments().getString("expiresOn"))
         bundle.putString("subjectName", requireArguments().getString("subjectName"))
         bundle.putSerializable("paperSerializable", examTypeFragmentViewModel.getExamItemDataAt(position))
-//        bundle.putString("subjectName", )
         intent.putExtra("paperData", bundle)
         startActivity(intent)
     }
 
 
     interface OnPackageExpiredListener{
-        fun onPackageExpired()
+        fun onShowPackageExpired()
+        fun onCheckIfPackageHasExpired():Boolean
     }
-    interface OnContentAccessListener{
+    interface OnContentAccessDeniedListener{
         fun onContentAccessDenied()
     }
-
 
 }

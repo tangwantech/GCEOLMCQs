@@ -24,11 +24,13 @@ private const val SUBJECT_PACKAGE_DATA_LIST = "subjectPackageDataList"
 private const val INIT_DATA_BUNDLE = "initDataBundle"
 private const val MOBILE_ID = "mobileID"
 private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
+private const val SUBJECT_DATA_FILE = "subject_data.json"
 val TAG = "InitializingActivity"
 class InitializingActivity : AppCompatActivity() {
 
     private lateinit var initializingActivityViewModel: InitializingActivityViewModel
-    private var fadeOut: Animation? = null
+    private lateinit var indeterminateProgress: ProgressBar
+//    private var fadeOut: Animation? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,23 +38,36 @@ class InitializingActivity : AppCompatActivity() {
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         supportActionBar?.hide()
 
+        setupViewModel()
+        initViews()
+        setUpViewObservers()
+
+    }
+
+    private fun setupViewModel(){
         initializingActivityViewModel =
             ViewModelProvider(this)[InitializingActivityViewModel::class.java]
         initializingActivityViewModel.initAppDataBase(GceOLMcqDatabase.getDatabase(this))
 
         initializingActivityViewModel.setMobileId(getMobileID())
+    }
+
+    private fun initViews(){
+        indeterminateProgress = findViewById(R.id.indeterminateProgressBar)
+    }
+
+    private fun setUpViewObservers(){
         getJsonFromAssets()?.let {
 
             initializingActivityViewModel.initialiseApp(it).observe(this, Observer{isInitialised ->
 
                 if (isInitialised == null || isInitialised == false) {
-                    val indeterminateProgress: ProgressBar =
-                        findViewById(R.id.indeterminateProgressBar)
+
                     indeterminateProgress.visibility = View.GONE
                     val alertDialog = AlertDialog.Builder(this@InitializingActivity)
                     alertDialog.apply {
-                        setTitle("Error")
-                        setMessage("Application failed to initialize. Please verify that you have an active internet connection and try again")
+                        setTitle(resources.getString(R.string.error))
+                        setMessage(resources.getString(R.string.initialise_error_message))
                         setPositiveButton("Ok") { _, _ ->
                             initializingActivityViewModel.nullifyIsAppInitialised()
                             finish()
@@ -85,7 +100,7 @@ class InitializingActivity : AppCompatActivity() {
 
                     intent.putExtra(INIT_DATA_BUNDLE, bundle)
                     CoroutineScope(Dispatchers.IO).launch{
-                        delay(3000L)
+                        delay(2000L)
                         withContext(Dispatchers.Main){
                             startActivity(intent)
                             finish()
@@ -98,6 +113,7 @@ class InitializingActivity : AppCompatActivity() {
         }
     }
 
+
     @SuppressLint("HardwareIds")
     private fun getMobileID(): String {
         return Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
@@ -107,7 +123,7 @@ class InitializingActivity : AppCompatActivity() {
         val charset: Charset = Charsets.UTF_8
 
         return try {
-            val jsonFile = assets.open("subject_data.json")
+            val jsonFile = assets.open(SUBJECT_DATA_FILE)
             val size = jsonFile.available()
             val buffer = ByteArray(size)
 

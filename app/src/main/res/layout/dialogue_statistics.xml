@@ -8,7 +8,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/recycler_item_view_min_height"
-        android:background="@color/color_secondary_dark"
+        android:background="@color/primary_color"
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/margin_16"
         android:paddingRight="@dimen/margin_16"

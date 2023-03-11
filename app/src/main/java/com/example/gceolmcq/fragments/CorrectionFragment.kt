@@ -8,10 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.gceolmcq.*
-import com.example.gceolmcq.activities.OnGetNumberOfSectionsListener
-import com.example.gceolmcq.activities.OnIsSectionAnsweredListener
-import com.example.gceolmcq.activities.OnNextSectionListener
-import com.example.gceolmcq.activities.OnRetrySectionListener
+import com.example.gceolmcq.activities.*
 import com.example.gceolmcq.datamodels.UserMarkedAnswersSheetData
 
 private const val CORRECTION_DATA = "Correction data"
@@ -21,7 +18,7 @@ class CorrectionFragment : Fragment() {
     private lateinit var onNextSectionListener: OnNextSectionListener
     private lateinit var onRetrySectionListener: OnRetrySectionListener
     private lateinit var onGetNumberOfSectionsListener: OnGetNumberOfSectionsListener
-    private lateinit var onPackageExpiredListener: SectionNavigationFragment.OnPackageExpiredListener
+    private lateinit var onCheckPackageExpiredListener: OnCheckPackageExpiredListener
     private lateinit var onIsSectionAnsweredListener: OnIsSectionAnsweredListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,8 +40,8 @@ class CorrectionFragment : Fragment() {
             onGetNumberOfSectionsListener = context
         }
 
-        if(context is SectionNavigationFragment.OnPackageExpiredListener){
-            onPackageExpiredListener = context
+        if(context is OnCheckPackageExpiredListener){
+            onCheckPackageExpiredListener = context
         }
 
         if (context is OnIsSectionAnsweredListener) {
@@ -92,8 +89,8 @@ class CorrectionFragment : Fragment() {
             btnNextSection.isEnabled = true
         }
         btnNextSection.setOnClickListener {
-            if(!ActivationExpiryDatesGenerator().checkExpiry(requireArguments().getString("expiresOn")!!)){
-                onPackageExpiredListener.onPackageExpired()
+            if(!onCheckPackageExpiredListener.onCheckPackageExpired()){
+                onCheckPackageExpiredListener.onShowPackageExpiredDialog()
             }else{
                 onNextSectionListener.onNextSection(nextSectionIndex)
             }

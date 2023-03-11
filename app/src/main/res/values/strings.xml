@@ -22,11 +22,6 @@
     <string name="momo_number">MoMo Number</string>
     <string name="subscribe">Subscribe</string>
 
-    <string-array name="momo_partners">
-        <item>MTN</item>
-        <item>ORANGE</item>
-    </string-array>
-
     <string name="activated_on_value">Oct 6, 2022 00:22:49 PM</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -95,7 +90,7 @@
     <string name="next_question">Next question</string>
     <string name="retry_limit_message">"Your have reached the maximum number of retries allowed"</string>
     <string name="subjects">Subjects</string>
-    <string name="retry_message">Your current score for this section will reset to zero</string>
+    <string name="retry_message">Your current score for this section will be reset to zero</string>
     <string name="_continue">Continue</string>
     <string name="cancel">Cancel</string>
     <string name="payment_received">Payment received successfully</string>
@@ -109,6 +104,13 @@
     <string name="do_not_show_this_message_again">Do not show this message again</string>
     <string name="instruction">Replace with instruction text Replace with instruction text Replace with instruction text</string>
 
+    <string name="initialise_error_message">Application failed to initialize. Please verify that you have an active internet connection and try again</string>
+    <string name="error">Error</string>
+    <string name="exit_message">Do you want to exit?</string>
+    <string name="be_patient">Please be patient. Activating package…</string>
+    <string name="has_been_answered">has been answered</string>
+    <string name="activated_successfully">activated successfully</string>
+
     <string-array name="paper_instruction">
         <item>contains</item>
         <item>questions divided into</item>
@@ -116,9 +118,39 @@
         <item>Please read and understand each question before selecting your answer. If you change your mind about a selected answer, you can always select another.</item>
         <item>There is no option to go back to the previous question.</item>
         <item>You must score at least</item>
-        <item>in order to see corrections to all wrong answers at the end of each section</item>
+        <item>in order to see corrections to all wrong answers at the end of each section.</item>
     </string-array>
         <string name="minimum_percentage">40%</string>
 
+    <string-array name="package_types">
+        <item>MCQ 1H</item>
+        <item>MCQ 2H</item>
+        <item>MCQ 3H</item>
+        <item>MCQ 4H</item>
+        <item>MCQ 5H</item>
+        <item>MCQ 6H</item>
+    </string-array>
 
+    <string-array name="package_durations">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="package_prices">
+        <item>75</item>
+        <item>150</item>
+        <item>225</item>
+        <item>300</item>
+        <item>350</item>
+        <item>425</item>
+    </string-array>
+
+    <string-array name="momo_partners">
+        <item>MTN</item>
+        <item>ORANGE</item>
+    </string-array>
 </resources>

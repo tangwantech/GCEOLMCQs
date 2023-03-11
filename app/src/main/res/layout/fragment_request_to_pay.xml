@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_minimum_height"
             android:text="@string/pending_transaction"
-            android:textSize="@dimen/text_size_18"
+            android:textSize="@dimen/text_size_16"
             android:gravity="center_vertical"
             android:textStyle="bold"
             android:background="@color/color_secondary_dark"
@@ -29,17 +29,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-<!--            <com.google.android.material.progressindicator.LinearProgressIndicator-->
-<!--                style="@style/Widget.MaterialComponents.CircularProgressIndicator"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:indeterminate="true"-->
-<!--                android:paddingTop="24dp"-->
-<!--                android:paddingBottom="24dp"-->
-<!--                android:progressBackgroundTint="@color/color_accent"-->
-<!--                android:visibility="gone"/>-->
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -86,12 +75,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_weight="@dimen/weight_pending_transaction_amount_label"
                             android:gravity="center_vertical"
                             android:text="@string/subject"
-                            android:textSize="@dimen/text_size_16" />
+                            android:layout_marginEnd="@dimen/margin_12"/>
 
                         <com.google.android.material.divider.MaterialDivider
                             android:layout_width="@dimen/divided_width_2"
@@ -99,15 +87,13 @@
                             android:layout_marginTop="@dimen/margin_2"
                             android:layout_marginBottom="@dimen/margin_2"
                             android:layout_marginStart="@dimen/margin_8"
-                            android:layout_marginEnd="@dimen/margin_14"/>
+                            android:layout_marginEnd="@dimen/margin_8"/>
 
                         <TextView
                             android:id="@+id/tvRequestToPaySubject"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_weight="@dimen/weight_pending_transaction_amount_value"
                             android:gravity="center_vertical"
-                            android:textSize="@dimen/text_size_16"
                             android:text="@string/subject"
                             android:textStyle="bold" />
 
@@ -121,12 +107,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_weight="@dimen/weight_pending_transaction_amount_label"
                             android:gravity="center_vertical"
                             android:text="@string/package_type"
-                            android:textSize="@dimen/text_size_16" />
+                            android:layout_marginEnd="@dimen/margin_4"/>
 
                         <com.google.android.material.divider.MaterialDivider
                             android:layout_width="@dimen/divided_width_2"
@@ -134,15 +119,13 @@
                             android:layout_marginTop="@dimen/margin_2"
                             android:layout_marginBottom="@dimen/margin_2"
                             android:layout_marginStart="@dimen/margin_8"
-                            android:layout_marginEnd="@dimen/margin_14"/>
+                            android:layout_marginEnd="@dimen/margin_8"/>
 
                         <TextView
                             android:id="@+id/tvRequestToPayPackage"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_weight="@dimen/weight_pending_transaction_amount_value"
                             android:gravity="center_vertical"
-                            android:textSize="@dimen/text_size_16"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -155,12 +138,11 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:gravity="center_vertical"
-                            android:layout_weight="@dimen/weight_pending_transaction_amount_label"
                             android:text="@string/amount"
-                            android:textSize="@dimen/text_size_16" />
+                            android:layout_marginEnd="@dimen/margin_8"/>
 
                         <com.google.android.material.divider.MaterialDivider
                             android:layout_width="@dimen/divided_width_2"
@@ -168,15 +150,14 @@
                             android:layout_marginTop="@dimen/margin_2"
                             android:layout_marginBottom="@dimen/margin_2"
                             android:layout_marginStart="@dimen/margin_8"
-                            android:layout_marginEnd="@dimen/margin_14"/>
+                            android:layout_marginEnd="@dimen/margin_8"/>
 
                         <TextView
                             android:id="@+id/tvRequestToPayAmount"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_weight="@dimen/weight_pending_transaction_amount_value"
                             android:gravity="center_vertical"
-                            android:textSize="@dimen/text_size_16"
+
                             android:textStyle="bold" />
 
                     </LinearLayout>

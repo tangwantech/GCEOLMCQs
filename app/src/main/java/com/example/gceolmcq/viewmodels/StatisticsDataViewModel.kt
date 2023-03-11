@@ -10,9 +10,6 @@ import com.example.gceolmcq.datamodels.StatisticsData
 import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
-import com.github.mikephil.charting.data.PieData
-import com.github.mikephil.charting.data.PieDataSet
-import com.github.mikephil.charting.data.PieEntry
 import kotlin.math.roundToInt
 
 class StatisticsDataViewModel: ViewModel() {
@@ -67,27 +64,27 @@ class StatisticsDataViewModel: ViewModel() {
         when(score * 2){
             in 75..100 -> {
                 bundle.putString("grade", "A")
-                bundle.putInt("gradeColor", context.resources.getColor(R.color.correct_answer))
+                bundle.putInt("gradeColor", context.resources.getColor(R.color.blue_color))
             }
             in 65..74 -> {
                 bundle.putString("grade", "B")
-                bundle.putInt("gradeColor", context.resources.getColor(R.color.correct_answer))
+                bundle.putInt("gradeColor", context.resources.getColor(R.color.blue_color))
             }
             in 50.. 64 -> {
                 bundle.putString("grade", "C")
-                bundle.putInt("gradeColor", context.resources.getColor(R.color.correct_answer))
+                bundle.putInt("gradeColor", context.resources.getColor(R.color.blue_color))
             }
             in 40..49 -> {
                 bundle.putString("grade", "D")
-                bundle.putInt("gradeColor", context.resources.getColor(R.color.wrong_answer))
+                bundle.putInt("gradeColor", context.resources.getColor(R.color.red_color))
             }
             in 30..39 -> {
                 bundle.putString("grade", "E")
-                bundle.putInt("gradeColor", context.resources.getColor(R.color.wrong_answer))
+                bundle.putInt("gradeColor", context.resources.getColor(R.color.red_color))
             }
             else->{
                 bundle.putString("grade", "U")
-                bundle.putInt("gradeColor", context.resources.getColor(R.color.wrong_answer))
+                bundle.putInt("gradeColor", context.resources.getColor(R.color.red_color))
             }
         }
         return bundle
@@ -119,9 +116,9 @@ class StatisticsDataViewModel: ViewModel() {
         val barColors = ArrayList<Int>()
         scores.forEachIndexed { _, score ->
             if(score >= 25){
-               barColors.add(context.resources.getColor(R.color.correct_answer))
+               barColors.add(context.resources.getColor(R.color.blue_color))
             }else{
-                barColors.add(context.resources.getColor(R.color.wrong_answer))
+                barColors.add(context.resources.getColor(R.color.red_color))
             }
         }
         return barColors

@@ -20,6 +20,8 @@ class StatisticsFragment : Fragment() {
     private lateinit var recyclerItemClickListener: SubjectListFragmentRecyclerAdapter.OnRecyclerViewItemClick
     private lateinit var statisticsFragmentViewModel: StatisticsFragmentViewModel
 
+    private lateinit var rv: RecyclerView
+
     override fun onAttach(context: Context) {
         super.onAttach(context)
         if(context is SubjectListFragmentRecyclerAdapter.OnRecyclerViewItemClick){
@@ -27,8 +29,28 @@ class StatisticsFragment : Fragment() {
         }
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_statistics, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initViews(view)
+        initViewModel()
+        setupRecyclerView()
+
+
+    }
+
+    private fun initViews(view: View){
+        rv = view.findViewById(R.id.rvStatisticsSubjectList)
+    }
+
+    private fun initViewModel(){
         statisticsFragmentViewModel = ViewModelProvider(this)[StatisticsFragmentViewModel::class.java]
         arguments?.let {
             val bundle = it.getBundle(INIT_DATA_BUNDLE)
@@ -43,20 +65,7 @@ class StatisticsFragment : Fragment() {
         }
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_statistics, container, false)
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
-
-
-        super.onViewCreated(view, savedInstanceState)
-        val rv: RecyclerView = view.findViewById(R.id.rvStatisticsSubjectList)
+    private fun setupRecyclerView(){
         val layoutMan = LinearLayoutManager(requireContext())
         layoutMan.orientation = LinearLayoutManager.VERTICAL
 

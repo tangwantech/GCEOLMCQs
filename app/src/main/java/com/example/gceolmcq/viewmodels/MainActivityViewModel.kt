@@ -1,6 +1,5 @@
 package com.example.gceolmcq.viewmodels
 
-import android.os.Bundle
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,13 +7,10 @@ import androidx.lifecycle.viewModelScope
 import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.datamodels.SubjectAndFileNameData
 import com.example.gceolmcq.datamodels.SubjectPackageData
-import com.example.gceolmcq.datamodels.SubjectPackageDataList
-import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusData
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.parse.ParseObject
 import com.parse.ParseQuery
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONArray
@@ -36,22 +32,21 @@ class MainActivityViewModel : ViewModel() {
 
     private var mobileId: String? = null
 
-    private val subjectPackageExpiryStatusDataListLiveData =
-        MutableLiveData<ArrayList<SubjectPackageExpiryStatusData>>()
-
-    private val subjectPackageExpiryBundle = MutableLiveData<Bundle>()
-
     private lateinit var subjectPackageDB: GceOLMcqDatabase
 
     private val mutableSubjectPackageDataList = MutableLiveData<ArrayList<SubjectPackageData>?>()
 
-    private val isActivatedPackageUpdatedInLocalDatabase = MutableLiveData<Boolean>()
+    private val _activatedPackageIndex = MutableLiveData<Int>()
+    val activatedPackageIndex: LiveData<Int> = _activatedPackageIndex
 
-    private val activatedPackageIndex = MutableLiveData<Int>()
+    private val _activatedPackageIndexChangedAt = MutableLiveData<Int>()
+    val activatedPackageIndexChangedAt: LiveData<Int> = _activatedPackageIndexChangedAt
+
+
 
     init {
-        mutableSubjectPackageDataList.value = null
-        isActivatedPackageUpdatedInLocalDatabase.value = false
+//        mutableSubjectPackageDataList.value = null
+//        isActivatedPackageUpdatedInLocalDatabase.value = false
     }
 
     fun setMobileId(mobileID: String) {
@@ -62,35 +57,32 @@ class MainActivityViewModel : ViewModel() {
         this.subjectNames = subjectNames
     }
 
-    fun getActivatedPackageIndex(): LiveData<Int>{
-        return activatedPackageIndex
-    }
-
     fun initSubjectDataBase(gceOLMcqDatabase: GceOLMcqDatabase) {
         this.subjectPackageDB = gceOLMcqDatabase
     }
 
-    private fun setSubjectPackageExpiryStatusDataList(subjectPackageDataList: List<SubjectPackageData>) {
-        val subjectPackageExpiryStatusDataList = ArrayList<SubjectPackageExpiryStatusData>()
-        subjectPackageDataList.forEachIndexed { _, subjectPackageData ->
-            val subjectPackageExpiryStatusData =
-                SubjectPackageExpiryStatusData(
-                    subjectPackageData.subjectName!!,
-                    subjectPackageData.packageName!!,
-                    subjectPackageData.expiresOn!!,
-                    ActivationExpiryDatesGenerator().checkExpiry(subjectPackageData.expiresOn!!)
-                )
-            subjectPackageExpiryStatusDataList.add(subjectPackageExpiryStatusData)
+    fun initializeSubjectPackageDataFromLocalDb() {
+
+        viewModelScope.launch(Dispatchers.IO) {
+            val tempSubjectPackageDataList =
+                subjectPackageDB.subjectPackageDao().getAllSubjectsPackages()
+            if(tempSubjectPackageDataList.isNotEmpty()){
+                withContext(Dispatchers.Main) {
+                    println("Reading from db within main activity")
+                    val packageDataList = ArrayList<SubjectPackageData>()
+                    val expiryDataList = ArrayList<String>()
+                    tempSubjectPackageDataList.forEach {
+                        packageDataList.add(it)
+                        expiryDataList.add(it.expiresOn!!)
+                    }
+
+                    mutableSubjectPackageDataList.value = packageDataList
+                    println("Reading from db within main activity complete: $packageDataList")
+
+                }
+            }
+
         }
-        this.subjectPackageExpiryStatusDataListLiveData.value = subjectPackageExpiryStatusDataList
-    }
-
-    fun getSubjectPackageExpiryStatusDataList(): ArrayList<SubjectPackageExpiryStatusData> {
-        return this.subjectPackageExpiryStatusDataListLiveData.value!!
-    }
-
-    fun getSubjectPackageExpiryStatusDataListLiveData(): LiveData<ArrayList<SubjectPackageExpiryStatusData>> {
-        return this.subjectPackageExpiryStatusDataListLiveData
     }
 
     fun setSubjectFileNameList(subjectFileNameList: ArrayList<String>) {
@@ -121,6 +113,10 @@ class MainActivityViewModel : ViewModel() {
         )
     }
 
+    fun updateActivatedPackageIndexChangedAt(position: Int){
+        _activatedPackageIndexChangedAt.postValue(position)
+
+    }
 
     fun getSubjectExpiryDataAt(position: Int): String {
         return mutableSubjectPackageDataList.value!![position].expiresOn!!
@@ -141,28 +137,9 @@ class MainActivityViewModel : ViewModel() {
     ) {
         viewModelScope.launch(Dispatchers.IO) {
 
-            val id = subjectPackageDB.subjectPackageDao().update(subjectPackageData)
-            withContext(Dispatchers.Main) {
-
-                println("package at Id:$id was updated successfully")
-                getActivatedSubjectPackageDataFromLocalDatabase(id, position)
-            }
+            subjectPackageDB.subjectPackageDao().update(subjectPackageData)
+            _activatedPackageIndex.postValue(position)
         }
-    }
-
-    private fun getActivatedSubjectPackageDataFromLocalDatabase(id: Int, position: Int) {
-        viewModelScope.launch(Dispatchers.IO) {
-            val subjectPackageData =
-                subjectPackageDB.subjectPackageDao().findBySubjectName(subjectNames[position])
-//            delay(3000)
-            withContext(Dispatchers.Main) {
-                mutableSubjectPackageDataList.value!![position] = subjectPackageData
-                isActivatedPackageUpdatedInLocalDatabase.value = true
-                activatedPackageIndex.value = position
-
-            }
-        }
-
     }
 
     fun getActivatedPackageName(position: Int): String?{
@@ -206,50 +183,10 @@ class MainActivityViewModel : ViewModel() {
 
     }
 
-    fun updateSubjectExpiryBundle(subjectIndex: Int) {
-        val bundle = Bundle()
-        bundle.putString("subject", subjectNames[subjectIndex])
-        bundle.putInt("position", subjectIndex)
-        bundle.putString("package", mutableSubjectPackageDataList.value!![subjectIndex].packageName)
-        bundle.putString("expiresOn", mutableSubjectPackageDataList.value!![subjectIndex].expiresOn)
-        val expiresOnTemp = mutableSubjectPackageDataList.value!![subjectIndex].expiresOn!!
-        bundle.putBoolean("status", ActivationExpiryDatesGenerator().checkExpiry(expiresOnTemp))
-
-        subjectPackageExpiryBundle.value = bundle
-
-    }
-
-    fun getSubjectExpiresOnBundle(): LiveData<Bundle> {
-        return subjectPackageExpiryBundle
-    }
-
-    fun initializeSubjectPackageDataFromLocalDb() {
-        viewModelScope.launch(Dispatchers.IO) {
-            val tempSubjectPackageDataList =
-                subjectPackageDB.subjectPackageDao().getAllSubjectsPackages()
-            withContext(Dispatchers.Main) {
-                val packageDataList = ArrayList<SubjectPackageData>()
-                val expiryDataList = ArrayList<String>()
-                tempSubjectPackageDataList.forEach {
-                    packageDataList.add(it)
-                    expiryDataList.add(it.expiresOn!!)
-                }
-
-//                println("Reading from db within main activity: $packageDataList")
-                setPackageDataList(packageDataList)
-                setSubjectPackageExpiryStatusDataList(packageDataList)
-
-            }
-        }
-    }
-
-    private fun setPackageDataList(packageDataList: ArrayList<SubjectPackageData>) {
-        this.mutableSubjectPackageDataList.value = packageDataList
-    }
-
     fun getPackageNameAt(position: Int): String {
-        return subjectPackageExpiryStatusDataListLiveData.value!![position].packageName
+        return mutableSubjectPackageDataList.value!![position].packageName!!
     }
+
 
 }
 

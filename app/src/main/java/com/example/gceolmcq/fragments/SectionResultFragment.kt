@@ -31,7 +31,8 @@ class SectionResultFragment : Fragment() {
 
     private lateinit var onIsSectionAnsweredListener: OnIsSectionAnsweredListener
     private lateinit var onPaperScoreListener: OnPaperScoreListener
-    private lateinit var onPackageExpiredListener: SectionNavigationFragment.OnPackageExpiredListener
+    private lateinit var onCheckPackageExpiredListener: OnCheckPackageExpiredListener
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,8 +72,8 @@ class SectionResultFragment : Fragment() {
         if (context is OnIsSectionAnsweredListener) {
             onIsSectionAnsweredListener = context
         }
-        if(context is SectionNavigationFragment.OnPackageExpiredListener){
-            onPackageExpiredListener = context
+        if(context is OnCheckPackageExpiredListener){
+            onCheckPackageExpiredListener = context
         }
     }
 
@@ -102,7 +103,7 @@ class SectionResultFragment : Fragment() {
             sectionResultFragmentViewModel.getScoreData().percentage.toString()
 
         val rvFragment = RecyclerViewFragment.newInstance(
-            requireActivity().title.toString(),
+            requireContext().resources.getString(R.string.result),
             sectionResultFragmentViewModel.getUserMarkedAnswersSheet()
         )
         val transaction = requireActivity().supportFragmentManager.beginTransaction()
@@ -122,10 +123,6 @@ class SectionResultFragment : Fragment() {
 
                 retryDialog(sectionIndex)
             }
-
-
-
-
         }
 
         val btnNextSection: Button = view.findViewById(R.id.btnNextSection)
@@ -140,10 +137,10 @@ class SectionResultFragment : Fragment() {
         }
 
         btnNextSection.setOnClickListener {
-            if(!ActivationExpiryDatesGenerator().checkExpiry(requireArguments().getString("expiresOn")!!)){
-                onPackageExpiredListener.onPackageExpired()
+            if(!onCheckPackageExpiredListener.onCheckPackageExpired()){
+                onCheckPackageExpiredListener.onShowPackageExpiredDialog()
             }else{
-                onNextSectionListener.onResetCurrentSectionRetryCount()
+//                onNextSectionListener.onResetCurrentSectionRetryCount()
                 onNextSectionListener.onNextSection(nextSectionIndex)
             }
 
@@ -179,14 +176,14 @@ class SectionResultFragment : Fragment() {
 
     }
 
-    fun retryDialog(sectionIndex: Int){
+    private fun retryDialog(sectionIndex: Int){
         val alertDialog = AlertDialog.Builder(requireContext())
         alertDialog.apply {
             setMessage(requireContext().resources.getString(R.string.retry_message))
             setPositiveButton(requireContext().resources.getString(R.string._continue)) { p0, _ ->
 
-                if(!ActivationExpiryDatesGenerator().checkExpiry(requireArguments().getString("expiresOn")!!)){
-                    onPackageExpiredListener.onPackageExpired()
+                if(!onCheckPackageExpiredListener.onCheckPackageExpired()){
+                    onCheckPackageExpiredListener.onShowPackageExpiredDialog()
                 }else{
 
                     onRetrySectionListener.onDecrementCurrentSectionRetryCount()
@@ -201,6 +198,11 @@ class SectionResultFragment : Fragment() {
             }
             setCancelable(false)
         }.create().show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        requireActivity().title = "${requireContext().resources.getString(R.string.result)}"
     }
 
 

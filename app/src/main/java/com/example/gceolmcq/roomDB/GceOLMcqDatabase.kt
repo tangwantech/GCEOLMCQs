@@ -33,7 +33,7 @@ abstract class GceOLMcqDatabase: RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     GceOLMcqDatabase::class.java,
-                    "app_database11"
+                    "app_database12"
                 ).build()
                 INSTANCE = instance
                 return instance

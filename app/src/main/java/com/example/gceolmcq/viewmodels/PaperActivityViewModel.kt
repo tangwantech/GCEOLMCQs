@@ -1,23 +1,28 @@
 package com.example.gceolmcq.viewmodels
 
+import android.os.Bundle
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import com.example.gceolmcq.ActivationExpiryDatesGenerator
+import com.example.gceolmcq.MomoPayService
 import com.example.gceolmcq.datamodels.*
 //import com.example.gceolmcq.datamodels.SectionAnsweredScoreData
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.google.gson.Gson
 import kotlinx.coroutines.*
-import kotlin.math.roundToInt
 
 private const val RETRY_COUNT = 2
 class PaperActivityViewModel:ViewModel() {
 
+    private val momoPayService = MomoPayService()
+
     private var mcqDatabase: GceOLMcqDatabase? = null
     private var examItemDataModel: ExamItemDataModel? = null
     private var paperDataModel: PaperDataModel? = null
-    private var currentViewIndex: Int? = null
+    private lateinit var subjectName: String
+    private var currentFragmentIndex: Int? = null
+    private var currentSectionIndex = 0
 
     private var isSectionsAnsweredData: ArrayList<Boolean> = ArrayList()
     private val paperScore = MutableLiveData<Int?>()
@@ -32,12 +37,25 @@ class PaperActivityViewModel:ViewModel() {
 
     private val unAnsweredSectionIndexes: ArrayList<Int> = ArrayList()
 
+    private lateinit var userMarkedAnswersSheetData: UserMarkedAnswersSheetData
+    private lateinit var sectionResultData: SectionResultData
+
+    private val _subjectPackage = MutableLiveData<SubjectPackageData>()
+
+    private val subscriptionFormData = SubscriptionFormDataModel()
+    private val _isSubscriptionFormFilled = MutableLiveData<Boolean>()
+    val isSubscriptionFormFilled: LiveData<Boolean> = _isSubscriptionFormFilled
+
+    private val _isPackageActivated = MutableLiveData<Boolean>()
+    val isPackageActivated: LiveData<Boolean> = _isPackageActivated
+
 
     init {
         sectionScores.value = ArrayList()
         paperScore.value = 0
         currentSectionRetryCount.value = RETRY_COUNT
     }
+
 
     private fun initStatisticsData(customId: String){
 
@@ -85,13 +103,22 @@ class PaperActivityViewModel:ViewModel() {
         return unAnsweredSectionIndexes
     }
 
-
-    fun setCurrentViewIndex(index: Int){
-        currentViewIndex = index
+    fun setCurrentSectionIndex(sectionIndex: Int){
+        currentSectionIndex = sectionIndex
     }
 
-    fun getCurrentViewIndex():Int?{
-        return currentViewIndex
+    fun getCurrentSectionIndex(): Int = currentSectionIndex
+
+    fun setCurrentFragmentIndex(index: Int){
+        currentFragmentIndex = index
+    }
+
+    fun getCurrentFragmentIndex():Int?{
+        return currentFragmentIndex
+    }
+
+    fun resetCurrentFragmentIndex(){
+        currentFragmentIndex = null
     }
 
     fun getTotalNumberOfQuestions():Int{
@@ -104,10 +131,27 @@ class PaperActivityViewModel:ViewModel() {
             sectionNames = Array(it.sections.size){""}
             it.sections.forEachIndexed { index, sectionDataModel ->
                 sectionNames!![index] = sectionDataModel.title
+
             }
         }
 
         return sectionNames
+
+    }
+    fun getSectionNameBundleList(): Array<Bundle>?{
+        var sectionNameBundleList: Array<Bundle>? = null
+        paperDataModel?.let {
+            sectionNameBundleList = Array(it.sections.size){Bundle()}
+            it.sections.forEachIndexed { index, sectionDataModel ->
+                sectionNameBundleList!![index].apply {
+                    putString("sectionName", sectionDataModel.title)
+                    putString("numberOfQuestions", sectionDataModel.numberOfQuestions.toString())
+                }
+
+            }
+        }
+
+        return sectionNameBundleList
 
     }
 
@@ -201,6 +245,19 @@ class PaperActivityViewModel:ViewModel() {
         this.mcqDatabase = mcqDatabase
     }
 
+    fun querySubjectPackageDataTableBySubjectName(){
+        CoroutineScope(Dispatchers.IO).launch{
+            val tempSubjectPackageData = mcqDatabase?.subjectPackageDao()?.findBySubjectName(subjectName)!!
+            _subjectPackage.postValue(tempSubjectPackageData)
+        }
+
+    }
+
+    fun checkSubjectPackageExpiry(): Boolean{
+//        _packageHasExpired.value = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
+        return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
+    }
+
     fun queryStatisticsDataTableByCustomId(customId: String){
         var tempStatisticsData: StatisticsData?
         CoroutineScope(Dispatchers.IO).launch {
@@ -266,5 +323,106 @@ class PaperActivityViewModel:ViewModel() {
     fun getCurrentSectionRetryCount(): LiveData<Int>{
         return currentSectionRetryCount
     }
+
+    fun setUserMarkedAnswerSheet(userMarkedAnswersSheetData: UserMarkedAnswersSheetData){
+        this.userMarkedAnswersSheetData = userMarkedAnswersSheetData
+    }
+
+    fun getUserMarkedAnswerSheet(): UserMarkedAnswersSheetData = userMarkedAnswersSheetData
+
+    fun setSectionResultData(sectionResultData: SectionResultData){
+        this.sectionResultData = sectionResultData
+    }
+
+    fun getSectionResultData(): SectionResultData = sectionResultData
+
+    fun setPackageType(packageType: String){
+        subscriptionFormData.packageType = packageType
+        updateIsSubscriptionFormFilled()
+    }
+
+    fun setPackageDuration(packageDuration: Int) {
+        subscriptionFormData.packageDuration = packageDuration
+    }
+
+    fun setPackagePrice(price: String){
+        subscriptionFormData.packagePrice = price
+    }
+
+    fun setMomoPartner(momoPartner: String){
+        subscriptionFormData.momoPartner = momoPartner
+        updateIsSubscriptionFormFilled()
+    }
+
+    fun setMomoNumber(momoNumber: String){
+        subscriptionFormData.momoNumber = momoNumber
+        updateIsSubscriptionFormFilled()
+    }
+
+    fun getPackageType(): String{
+        return subscriptionFormData.packageType!!
+    }
+
+    fun getMomoPartner(): String{
+        return subscriptionFormData.momoPartner!!
+    }
+
+    fun getPackagePrice(): String{
+        return subscriptionFormData.packagePrice!!
+    }
+
+    private fun updateIsSubscriptionFormFilled() {
+//
+        _isSubscriptionFormFilled.value = subscriptionFormData.packageType != null && subscriptionFormData.momoPartner != null && subscriptionFormData.momoNumber != null && subscriptionFormData.momoNumber!!.length == 9
+    }
+
+    fun requestToPay() {
+        CoroutineScope(Dispatchers.IO).launch {
+            momoPayService.initiatePayment(subscriptionFormData)
+        }
+
+    }
+
+    fun isPaymentSuccessful(): LiveData<Boolean>{
+        return momoPayService.isTransactionSuccessful
+    }
+
+    fun activateSubjectPackage() {
+        val activationExpiryDates =
+            ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
+                ActivationExpiryDatesGenerator.MINUTES,
+                subscriptionFormData.packageDuration!!
+            )
+        _subjectPackage.value?.let{
+            it.packageName = subscriptionFormData.packageType
+            it.activatedOn = activationExpiryDates.activatedOn
+            it.expiresOn = activationExpiryDates.expiresOn
+        }
+
+        updateSubjectPackageDataInLocalDatabase(_subjectPackage.value!!)
+
+    }
+
+    private fun updateSubjectPackageDataInLocalDatabase(subjectPackageData: SubjectPackageData){
+        CoroutineScope(Dispatchers.IO).launch{
+            println(subjectPackageData)
+            mcqDatabase?.subjectPackageDao()?.update(subjectPackageData)
+            withContext(Dispatchers.Main){
+                _isPackageActivated.value = true
+            }
+        }
+
+    }
+
+    fun setSubjectName(subjectName: String) {
+        this.subjectName = subjectName
+    }
+
+    fun getSubjectName(): String{
+        return subjectName
+    }
+
+
+
 
 }

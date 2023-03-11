@@ -2,7 +2,6 @@ package com.example.gceolmcq.activities
 
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -12,13 +11,14 @@ import androidx.viewpager.widget.ViewPager
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.SubjectContentTableViewPagerAdapter
 import com.example.gceolmcq.datamodels.SubjectAndFileNameData
+import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.fragments.ExamTypeFragment
 import com.example.gceolmcq.viewmodels.SubjectContentTableViewModel
 import com.google.android.material.tabs.TabLayout
 import java.io.IOException
 import java.nio.charset.Charset
 
-class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPackageExpiredListener, ExamTypeFragment.OnContentAccessListener {
+class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPackageExpiredListener, ExamTypeFragment.OnContentAccessDeniedListener{
 
     private lateinit var subjectContentTableViewModel: SubjectContentTableViewModel
     private var subjectTitle: String? = null
@@ -31,33 +31,46 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
         setContentView(R.layout.activity_subject_content_table)
 
         setAlertDialog()
+        initActivityViews()
+        initViewModel()
+        setupViewObservers()
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
+    }
+    private fun initActivityViews(){
+        tab = findViewById(R.id.homeTab)
+        viewPager = findViewById(R.id.homeViewPager)
+    }
+
+    private fun initViewModel(){
         val subjectAndFileNameData = intent.getBundleExtra("subject_and_file_name_bundle")!!
             .getSerializable("subject_and_file_name_data")!! as SubjectAndFileNameData
-
-        val expiryDate = intent.getStringExtra("Expiry date")!!
 
         subjectTitle = subjectAndFileNameData.subject
 
         subjectContentTableViewModel =
             ViewModelProvider(this)[SubjectContentTableViewModel::class.java]
 
+        subjectContentTableViewModel.setSubjectName(subjectTitle!!)
+
+        subjectContentTableViewModel.initDatabase(this)
+
         getJsonFromAssets(subjectAndFileNameData.fileName)?.let {
             subjectContentTableViewModel.initSubjectContentsData(it)
         }
 
-        subjectContentTableViewModel.setPackageName(intent.getStringExtra("packageName")!!)
-//        checkPackageExpiry()
-        subjectContentTableViewModel.checkPackageExpiry(expiryDate)
+    }
+
+    private fun setupViewObservers(){
         subjectContentTableViewModel.getIsPackageActive().observe(this, Observer {
             if (!it) {
                 showAlertDialog()
             }
         })
 
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        setUpSubjectContentTab()
-
+        subjectContentTableViewModel.subjectPackageData.observe(this, Observer{subjectPackageData ->
+            setUpSubjectContentTab(subjectPackageData)
+        })
     }
 
     private fun setAlertDialog(){
@@ -75,22 +88,13 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
         alertDialog.show()
     }
 
-//    private fun checkPackageExpiry(){
-//        subjectContentTableViewModel.checkPackageExpiry()
-//
-//    }
-
     private fun exitActivity() {
         this.finish()
     }
 
-    private fun setUpSubjectContentTab() {
-
-        tab = findViewById(R.id.homeTab)
-        viewPager = findViewById(R.id.homeViewPager)
+    private fun setUpSubjectContentTab(subjectPackageData: SubjectPackageData) {
 
         val tabFragments: ArrayList<Fragment> = ArrayList()
-
 
         for (fragmentIndex in 0 until subjectContentTableViewModel.getExamTypesCount()) {
             val fragment =
@@ -99,9 +103,8 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
                         fragmentIndex
                     ),
                     subjectTitle!!,
-                    intent.getStringExtra("Expiry date")!!,
-                    intent.getStringExtra("packageName")!!
-
+                    subjectPackageData.expiresOn!!,
+                    subjectPackageData.packageName!!,
 
                 )
             tabFragments.add(fragment)
@@ -134,6 +137,7 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
     override fun onResume() {
         super.onResume()
         title = subjectTitle
+        subjectContentTableViewModel.querySubjectPackageDataFromLocalDatabaseAtSubjectName(subjectTitle!!)
 
     }
 
@@ -154,8 +158,12 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
         }
     }
 
-    override fun onPackageExpired() {
+    override fun onShowPackageExpired() {
         showAlertDialog()
+    }
+
+    override fun onCheckIfPackageHasExpired(): Boolean {
+        return subjectContentTableViewModel.getPackageStatus()
     }
 
     override fun onContentAccessDenied() {
@@ -168,8 +176,5 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
         }.create().show()
     }
 
-
 }
-//interface OnPackageExpiredListener{
-//    fun onPackageExpired()
-//}
+

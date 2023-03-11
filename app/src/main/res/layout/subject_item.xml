@@ -30,16 +30,6 @@
                 android:text="Human Biology"
                 android:textSize="@dimen/text_size_14" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/tvSubjectStatus"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_weight="0.4"-->
-<!--                android:gravity="center"-->
-<!--                android:text="Expired"-->
-<!--                android:textSize="@dimen/text_size_12"-->
-<!--                android:textStyle="bold" />-->
-
             <Button
                 android:id="@+id/btnPackage"
                 style="?attr/borderlessButtonStyle"
@@ -66,15 +56,6 @@
                 android:textSize="@dimen/text_size_12"
                 android:textStyle="bold" />
 
-<!--            <Button-->
-<!--                android:id="@+id/btnPackage"-->
-<!--                style="?attr/borderlessButtonStyle"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_weight="0.5"-->
-<!--                android:text="Package details"-->
-<!--                android:textSize="@dimen/text_size_10" />-->
-
             <Button
                 android:id="@+id/btnSubscribe"
                 style="?attr/borderlessButtonStyle"
@@ -86,8 +67,8 @@
 
         </LinearLayout>
     </LinearLayout>
-    <com.google.android.material.divider.MaterialDivider
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/divided_width_2"/>
+<!--    <com.google.android.material.divider.MaterialDivider-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/divided_width_2"/>-->
 
 </LinearLayout>

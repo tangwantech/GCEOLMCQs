@@ -261,7 +261,13 @@ class SectionFragmentViewModel : ViewModel() {
         val percentage = ((sectionScore.toDouble() / sectionDataModel!!.numberOfQuestions.toDouble()) * 100).toInt()
         val scoreData = ScoreData(sectionScore, sectionDataModel!!.numberOfQuestions, percentage)
         val userMarkedAnswersSheetData = UserMarkedAnswersSheetData(userMarkedAnswerSheet)
-
+        println("section result: ${
+            SectionResultData(
+                sectionIndex!!,
+                scoreData,
+                userMarkedAnswersSheetData
+            )
+        }")
         return SectionResultData(sectionIndex!!, scoreData, userMarkedAnswersSheetData)
     }
 
