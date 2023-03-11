@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:minHeight="@dimen/button_minimum_height"
         android:paddingLeft="@dimen/margin_16"
-        android:paddingRight="@dimen/margin_16">
+        android:paddingRight="@dimen/margin_16"
+        android:background="?android:selectableItemBackground">
 
         <TextView
             android:id="@+id/tvSelectableOption1"
@@ -40,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/margin_16"
-        android:paddingRight="@dimen/margin_16">
+        android:paddingRight="@dimen/margin_16"
+        android:background="?android:selectableItemBackground">
         <TextView
             android:id="@+id/tvSelectableOption2"
             android:layout_width="match_parent"
@@ -64,7 +66,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/margin_16"
-        android:paddingRight="@dimen/margin_16">
+        android:paddingRight="@dimen/margin_16"
+        android:background="?android:selectableItemBackground">
 
         <TextView
             android:id="@+id/tvSelectableOption3"
@@ -89,7 +92,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/margin_16"
-        android:paddingRight="@dimen/margin_16">
+        android:paddingRight="@dimen/margin_16"
+        android:background="?android:selectableItemBackground">
 
         <TextView
             android:id="@+id/tvSelectableOption4"

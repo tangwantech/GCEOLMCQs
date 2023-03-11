@@ -2,12 +2,17 @@
   "title": "Human Biology",
   "contents":[
     {
-      "title": "Topics",
+      "title": "Mocks",
       "examItems": [
         {
-          "title": "Cell Division",
-          "fileName": "cell_division.json"
+          "title": "Mock 1",
+          "fileName": "biology_west_mock_2018.json"
+        },
+        {
+          "title": "Mock 2",
+          "fileName": "biology_northwest_mock_2020.json"
         }
+
       ]
     },
     {
@@ -15,16 +20,23 @@
       "examItems": [
         {
           "title": "Past GCE 1",
-          "fileName": "gce_2020.json"
-        }
-      ]
-    },
-    {
-      "title": "Mocks",
-      "examItems": [
+          "fileName": "biology_gce_2020.json"
+        },
         {
-          "title": "Mock1",
-          "fileName": "mock1.json"
+          "title": "Past GCE 2",
+          "fileName": "biology_gce_2021.json"
+        },
+        {
+          "title": "Past GCE 3",
+          "fileName": "biology_gce_2022.json"
+        },
+        {
+          "title": "Past GCE 4",
+          "fileName": "biology_gce_2019.json"
+        },
+        {
+          "title": "Past GCE 5",
+          "fileName": "biology_gce_2018.json"
         }
 
       ]

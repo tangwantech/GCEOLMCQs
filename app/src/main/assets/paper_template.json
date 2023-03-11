@@ -406,8 +406,8 @@
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "First statement is True. Second statement is True. Second statement is a correct explanation of the first",
-            "First statement is True. Second statement is True. Second statement is NOT a correct explanation of the first",
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
@@ -423,8 +423,8 @@
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "First statement is True. Second statement is True. Second statement is a correct explanation of the first",
-            "First statement is True. Second statement is True. Second statement is NOT a correct explanation of the first",
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
@@ -440,8 +440,8 @@
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "First statement is True. Second statement is True. Second statement is a correct explanation of the first",
-            "First statement is True. Second statement is True. Second statement is NOT a correct explanation of the first",
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
@@ -457,8 +457,8 @@
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "First statement is True. Second statement is True. Second statement is a correct explanation of the first",
-            "First statement is True. Second statement is True. Second statement is NOT a correct explanation of the first",
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
@@ -474,8 +474,8 @@
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "First statement is True. Second statement is True. Second statement is a correct explanation of the first",
-            "First statement is True. Second statement is True. Second statement is NOT a correct explanation of the first",
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],

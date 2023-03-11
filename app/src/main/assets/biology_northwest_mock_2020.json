@@ -1,0 +1,783 @@
+{
+  "privateTitle": "biology_northwest_mock_2020",
+  "publicTitle": "Mock 2",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 9,
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "A collection of cells that is similar in structure and function:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "tissue.",
+            "organ.",
+            "system.",
+            "organelle."
+          ],
+          "wordAnswer": "tissue."
+        },
+        {
+          "questionNumber": "2",
+          "question": "During DNA replication, the unzipping process of DNA fragment is done by:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "DNA ligase.",
+            "DNA polymerase.",
+            "DNA helicase.",
+            "DNA gyrase."
+          ],
+          "wordAnswer": "DNA helicase."
+        },
+        {
+          "questionNumber": "3",
+          "question": "Which blood vessel returns deoxygenated blood from all parts of the body into the heart?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vena cava.",
+            "Pulmonary artery.",
+            "Pulmonary vein.",
+            "Aorta."
+          ],
+          "wordAnswer": "Vena cava."
+        },
+        {
+          "questionNumber": "4",
+          "question": "An organism that has one pair of wings and a pupa in its life cycle:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bat.",
+            "Housefly.",
+            "Locust.",
+            "Grasshopper."
+          ],
+          "wordAnswer": "Housefly."
+        },
+        {
+          "questionNumber": "5",
+          "question": "The medium through which endocrine secretions reach their target cells:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Urine.",
+            "Lymph.",
+            "Blood.",
+            "Ducts."
+          ],
+          "wordAnswer": "Blood."
+        },
+        {
+          "questionNumber": "6",
+          "question": "Excess amounts of sulphur in the atmosphere can lead to rain which has",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "an alkaline pH.",
+            "an increased pH.",
+            "a neutral pH.",
+            "an acid pH."
+          ],
+          "wordAnswer": "an acid pH."
+        },
+        {
+          "questionNumber": "7",
+          "question": "An organelle involved in the conversion of light to chemical energy is the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "nucleus.",
+            "chloroplast.",
+            "ribosome.",
+            "mitochondrion."
+          ],
+          "wordAnswer": "chloroplast."
+        },
+        {
+          "questionNumber": "8",
+          "question": "Chemicals in tobacco smoke lead to breakdown of the elastic tissue in the alveoli. What is the name of this condition?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Heart disease.",
+            "Lung cancer.",
+            "Emphysema.",
+            "Bronchitis"
+          ],
+          "wordAnswer": "Emphysema."
+        },
+        {
+          "questionNumber": "9",
+          "question": "In the study of environmental factors that directly affect an animal, one needs to include the investigation of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "mineral salts.",
+            "edaphic.",
+            "carnivores.",
+            "herbivores."
+          ],
+          "wordAnswer": "carnivores."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "10",
+          "question": "The part labelled 1 is responsible for:",
+          "image": "animal_cell_northwest_mock_2020.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "protein synthesis.",
+            "production of energy.",
+            "production of RNA.",
+            "destruction of old and worn out parts of the cell."
+          ],
+          "wordAnswer": "production of energy."
+        },
+        {
+          "questionNumber": "11",
+          "question": "The graph below shows how the concentration of hormones that control the menstrual cycle vary over 28 days. The hormone B is",
+          "image": "graph_menstrual_cycle_northwest_mock_2020.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oestrogen.",
+            "Progesterone.",
+            "Follicle stimulating hormone.",
+            "Luteinizing hormone."
+          ],
+          "wordAnswer": "Oestrogen."
+        },
+        {
+          "questionNumber": "12",
+          "question": "Which bone connects the shoulders to the elbow joint?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Radius.",
+            "Ulna.",
+            "Femur.",
+            "Humerus."
+          ],
+          "wordAnswer": "Humerus."
+        },
+        {
+          "questionNumber": "13",
+          "question": "The right side of the heart",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "has thicker walls than the left.",
+            "pumps blood to the whole body.",
+            "carries deoxygenated blood.",
+            "carries oxygenated blood."
+          ],
+          "wordAnswer": "carries deoxygenated blood."
+        },
+        {
+          "questionNumber": "14",
+          "question": "If R and D were to move in the direction of the arrows, this would happen because;",
+          "image": "respiratory_system_northwest_mock_2020.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "the ribs were pushing the chest outwards.",
+            "the diaphragm was relaxing.",
+            "the lungs were pushing the chest and diaphragm outwards.",
+            "muscles were contracting in the chest wall and diaphragm."
+          ],
+          "wordAnswer": "muscles were contracting in the chest wall and diaphragm."
+        },
+        {
+          "questionNumber": "15",
+          "question": "Which of these would be covered by myelin sheath?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Short dendrite.",
+            "Globular cell bodies.",
+            "Long axons.",
+            "Interneurons."
+          ],
+          "wordAnswer": "Long axons."
+        },
+        {
+          "questionNumber": "16",
+          "question": "The labelled part that monitors the temperature of blood:",
+          "image": "ls_human_brain_northwest_mock_2020.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "W",
+            "X",
+            "Y",
+            "Z"
+          ],
+          "wordAnswer": "Z"
+        },
+        {
+          "questionNumber": "17",
+          "question": "Where are spermatozoa stored?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cowper's gland.",
+            "Seminiferous tubule.",
+            "Urethra.",
+            "Epididymis."
+          ],
+          "wordAnswer": "Epididymis."
+        },
+        {
+          "questionNumber": "18",
+          "question": "Shivering of the body is as a result of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "a high metabolic rate.",
+            "over-activity of the heart.",
+            "muscle fatigue.",
+            "contractions of muscles to generate heat."
+          ],
+          "wordAnswer": "contractions of muscles to generate heat."
+        },
+        {
+          "questionNumber": "19",
+          "question": "Upon germination of a seed, the plumule grew out of the soil. It is an example of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "positive geotropism.",
+            "nastic movements.",
+            "positive phototropism.",
+            "tactic movements."
+          ],
+          "wordAnswer": "positive phototropism."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 6,
+      "questions": [
+        {
+          "questionNumber": "20",
+          "question": "Mutagenic agents include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "gamma rays",
+            "x-rays",
+            "ultraviolet rays"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        },
+        {
+          "questionNumber": "21",
+          "question": "The medulla oblongata controls:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "balance and posture",
+            "heartbeat",
+            "breathing"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "22",
+          "question": "A gamete is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "diploid",
+            "formed by meiosis",
+            "produced by the pollen sac"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "23",
+          "question": "Which of the following joints lack synovial fliud?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Sutures",
+            "Hip joint",
+            "Elbow joint"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "24",
+          "question": "Plant adaptation to water loss",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "reduce the number of stomata",
+            "shedding leaves",
+            "develop waxy cuticle"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        },
+        {
+          "questionNumber": "25",
+          "question": "Water soluble vitamins include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Vitamin A",
+            "Vitamin C",
+            "Vitamin B1"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "A diabetic patient has insufficient insulin.",
+            "Insulin is produced by the pancreas."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Vegetables help to stimulate peristalsis.",
+            "Insufficient vegetables in the diet can cause constipation."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Viruses have either DNA or RNA as their genetic material.",
+            "Viruses can only reproduce inside another living cell."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The epiglottis prevents choking by closing the trachea during swallowing.",
+            "The rings of cartilage in the tracheal wall keeps it open."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Yeast cells carry out a form of anaerobic respiration called fermentation.",
+            "Yeast cells can also carry out fermentation using their gills."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Heterotrophs that feed on plant material.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Producer",
+            "Consumer",
+            "Decomposer",
+            "Herbivore"
+          ],
+          "wordAnswer": "Herbivore"
+        },
+        {
+          "questionNumber": "32",
+          "question": "The process of converting atmospheric nitrogen in the form that producers can use",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Photosynthesis",
+            "Respiration",
+            "Denitrification",
+            "Nitrogen fixation"
+          ],
+          "wordAnswer": "Nitrogen fixation"
+        },
+        {
+          "questionNumber": "33",
+          "question": "For gaseous exchange",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lateral line",
+            "Gills",
+            "Fins",
+            "Swim bladder"
+          ],
+          "wordAnswer": "Gills"
+        },
+        {
+          "questionNumber": "34",
+          "question": "Surgical cutting and tying of the fallopian tube",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vasectomy",
+            "Intrauterine device",
+            "Coitus interruptus",
+            "Tubal ligation"
+          ],
+          "wordAnswer": "Tubal ligation"
+        },
+        {
+          "questionNumber": "35",
+          "question": "Excessive growth of aquatic plants due to deposition of untreated sewage into a water body",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sedimentation",
+            "Eutrophication",
+            "Decomposition",
+            "Aeration of sewage"
+          ],
+          "wordAnswer": "Eutrophication"
+        },
+        {
+          "questionNumber": "36",
+          "question": "The red, pink and white color of snapdragons are controlled by genes that show",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Incomplete dominance",
+            "Complete dominance",
+            "Multiple alleles",
+            "Codominance"
+          ],
+          "wordAnswer": "Incomplete dominance"
+        },
+        {
+          "questionNumber": "37",
+          "question": "Raises blood calcium level",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Antidiuretic hormone",
+            "Parathyroid hormone",
+            "Insulin",
+            "Glucocorticoids"
+          ],
+          "wordAnswer": "Parathyroid hormone"
+        },
+        {
+          "questionNumber": "38",
+          "question": "Movement of synthesized organic materials from the leaves to regions of active growth and storag organ",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Diffusion",
+            "Osmosis",
+            "Active transport",
+            "Translocation"
+          ],
+          "wordAnswer": "Translocation"
+        },
+        {
+          "questionNumber": "39",
+          "question": "Carry impulses from the central nervous system to an effector muscle",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Motor neurones",
+            "Sensory neurones",
+            "Dendrites",
+            "Dendrons"
+          ],
+          "wordAnswer": "Motor neurones"
+        },
+        {
+          "questionNumber": "40",
+          "question": "Tissue with lignin deposited on its walls for mechanical support",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Phloem",
+            "Sclerenchyma",
+            "Xylem",
+            "Parenchyma"
+          ],
+          "wordAnswer": "Xylem"
+        },
+        {
+          "questionNumber": "41",
+          "question": "A plant with insect pollinated flower",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bahama grass",
+            "Leeks",
+            "Groundnut plant",
+            "Maize plant"
+          ],
+          "wordAnswer": "Groundnut plant"
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "questions": [
+        {
+          "questionNumber": "42",
+          "question": "Biological response by man to hot environmental conditions include",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vasoconstriction",
+            "Vaso-dilation",
+            "Drinking",
+            "Sweating"
+          ],
+          "wordAnswer": "Sweating"
+        },
+        {
+          "questionNumber": "43",
+          "question": "A laboratory technician was cleaning out a cupboard. Dust from the cupboard made her sneeze. In this response, dust is the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "coordinator",
+            "effector",
+            "receptor",
+            "stimulus"
+          ],
+          "wordAnswer": "stimulus"
+        },
+        {
+          "questionNumber": "44",
+          "question": "When reading. older people are often seen holding books at arm's length. Which of the following would account for this",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The eye ball has become larger with age.",
+            "The refractive power of the lens has decreased with age.",
+            "The eye ball has shrunk with age.",
+            "The refractive power of the lens has increased with age."
+          ],
+          "wordAnswer": "The refractive power of the lens has decreased with age."
+        },
+        {
+          "questionNumber": "45",
+          "question": "The figure below is a de-starched plant to which were added various pieces of apparatus. The plant was then exposed to 8 hours of sunlight before having its leaves tested for starch. Te completely brown ones corresponded with",
+          "image": "setup_photosynthesis_northwest_mock_2020.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1 and 4",
+            "1 and 5",
+            "1 and 3",
+            "3 and 4"
+          ],
+          "wordAnswer": "1 and 4"
+        },
+        {
+          "questionNumber": "46",
+          "question": "Breathing through the nostrils is healthier than breathing through the mouth.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The nose is small in size and only the required amount of air enters.",
+            "The mouth is open into the oesophagus and not into the trachea.",
+            "The mouth is too wide and so too much air passes in.",
+            "The nose has hairs to filter dirt and microorganisms."
+          ],
+          "wordAnswer": "The nose has hairs to filter dirt and microorganisms."
+        },
+        {
+          "questionNumber": "47",
+          "question": "To test for reducing sugar in a food sample, the food sample is warmed with",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Benedict's solution",
+            "Millon's reagent",
+            "Iodine solution",
+            "Sudan III solution"
+          ],
+          "wordAnswer": "Benedict's solution"
+        },
+        {
+          "questionNumber": "48",
+          "question": "The allele for black hair is dominant over the allele for brown hair. A man who is heterozygous for black hair marries a woman who is heterozygous for black hair. What is the probability of them having a child with black hair?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "0%",
+            "25%",
+            "50%",
+            "75%"
+          ],
+          "wordAnswer": "75%"
+        },
+        {
+          "questionNumber": "49",
+          "question": "Fabrice has haemophilia but his parents do not have. Using H for normal and h for haemophilia, give the genotypes of his father, mother and himself in that order.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hh, Hh, hh",
+            "XHY, hh, XHy",
+            "XHY XHXh, XhY",
+            "Xhy, XHXH, XhY"
+          ],
+          "wordAnswer": "XHY XHXh, XhY"
+        },
+        {
+          "questionNumber": "50",
+          "question": "Fish suffocates out of water due to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "excess oxygen in the air.",
+            "clogging of the gill filaments.",
+            "closure of the operculum.",
+            "lack of an efficient respiratory organ."
+          ],
+          "wordAnswer": "clogging of the gill filaments."
+        }
+      ]
+    }
+  ]
+}

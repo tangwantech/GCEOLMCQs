@@ -5,8 +5,12 @@
       "title": "Mocks",
       "examItems": [
         {
-          "title": "Mock1",
+          "title": "Mock 1",
           "fileName": "biology_west_mock_2018.json"
+        },
+        {
+          "title": "Mock 2",
+          "fileName": "biology_northwest_mock_2020.json"
         }
 
       ]

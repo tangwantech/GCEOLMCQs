@@ -74,7 +74,7 @@ class ResourceImages {
             images["human_blood_sample_result_june_2022.jpg"] = R.drawable.human_blood_sample_result_june_2022
 
 //            Mock images
-//            Northwest mock
+//            Northwest mock 2020
             images["animal_cell_northwest_mock_2020.jpg"] = R.drawable.animal_cell_northwest_mock_2020
             images["graph_menstrual_cycle_northwest_mock_2020.jpg"] = R.drawable.graph_menstrual_cycle_northwest_mock_2020
             images["respiratory_system_northwest_mock_2020.jpg"] = R.drawable.respiratory_system_northwest_mock_2020
