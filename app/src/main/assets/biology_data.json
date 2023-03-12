@@ -41,6 +41,10 @@
         {
           "title": "Past GCE 5",
           "fileName": "biology_gce_2018.json"
+        },
+        {
+          "title": "Past GCE 6",
+          "fileName": "biology_gce_2017.json"
         }
 
       ]
