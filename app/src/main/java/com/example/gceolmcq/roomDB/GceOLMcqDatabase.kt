@@ -5,17 +5,16 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.example.gceolmcq.datamodels.ScoresTypeConverter
-import com.example.gceolmcq.datamodels.StatisticsData
+//import com.example.gceolmcq.datamodels.ScoresTypeConverter
+//import com.example.gceolmcq.datamodels.StatisticsData
 import com.example.gceolmcq.datamodels.SubjectPackageData
 //import com.example.gceolmcq.datamodels.TestData
 
-@Database(entities = [SubjectPackageData::class, StatisticsData::class], version = 1)
-@TypeConverters(ScoresTypeConverter::class)
+@Database(entities = [SubjectPackageData::class], version = 1)
+//@TypeConverters(ScoresTypeConverter::class)
 abstract class GceOLMcqDatabase: RoomDatabase() {
 
     abstract fun subjectPackageDao(): SubjectPackageDao
-    abstract fun statisticsDataDao(): StatisticsDataDao
 
     companion object {
 

@@ -33,14 +33,14 @@ private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
 class MainActivity : AppCompatActivity(),
     SubscriptionFormDialogFragment.OnActivateButtonClickListener,
     RequestToPayDialogFragment.RequestToPayTransactionStatusListener,
-    SubjectListFragmentRecyclerAdapter.OnRecyclerViewItemClick,
+//    SubjectListFragmentRecyclerAdapter.OnRecyclerViewItemClick,
     HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener,
 //    HomeFragment.OnRequestSubjectPackageExpiryStatusDataListListener,
     HomeFragment.OnPackageActivatedListener
 {
 
     private lateinit var mainActivityViewModel: MainActivityViewModel
-    private lateinit var bottomNavView: BottomNavigationView
+//    private lateinit var bottomNavView: BottomNavigationView
     private lateinit var header: LinearLayout
 
     private var currentFragmentIndex: Int? = null
@@ -63,9 +63,9 @@ class MainActivity : AppCompatActivity(),
         setupViewModel()
         initViews()
         setupViewObservers()
-        setViewListeners()
+//        setViewListeners()
 
-        gotoHomeFragment()
+//        gotoHomeFragment()
     }
 
     private fun setupViewModel(){
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity(),
 
     private fun initViews(){
         header = findViewById(R.id.header)
-        bottomNavView = findViewById(R.id.bottomNav)
+//        bottomNavView = findViewById(R.id.bottomNav)
     }
 
     private fun setupViewObservers(){
@@ -101,21 +101,21 @@ class MainActivity : AppCompatActivity(),
         })
     }
 
-    private fun setViewListeners(){
-        bottomNavView.setOnItemSelectedListener {
-            when(it.itemId){
-                R.id.home -> {
-                    gotoHomeFragment()
-
-                }
-                R.id.statistics ->{
+//    private fun setViewListeners(){
+//        bottomNavView.setOnItemSelectedListener {
+//            when(it.itemId){
+//                R.id.home -> {
+//                    gotoHomeFragment()
 //
-                    gotoStatisticsFragment()
-                }
-            }
-            true
-        }
-    }
+//                }
+//                R.id.statistics ->{
+////
+//                    gotoStatisticsFragment()
+//                }
+//            }
+//            true
+//        }
+//    }
 
     private fun gotoHomeFragment(){
         title = resources.getString(R.string.app_name)
@@ -124,13 +124,13 @@ class MainActivity : AppCompatActivity(),
         replaceFragment(homeFragment, 0)
     }
 
-    private fun gotoStatisticsFragment(){
-        title = resources.getString(R.string.statistics)
-        header.visibility = View.GONE
-        statisticsInitBundle = intent.getBundleExtra(INIT_DATA_BUNDLE)
-        val statisticsFragment = StatisticsFragment.newInstance(statisticsInitBundle)
-        replaceFragment(statisticsFragment, 1)
-    }
+//    private fun gotoStatisticsFragment(){
+//        title = resources.getString(R.string.statistics)
+//        header.visibility = View.GONE
+//        statisticsInitBundle = intent.getBundleExtra(INIT_DATA_BUNDLE)
+//        val statisticsFragment = StatisticsFragment.newInstance(statisticsInitBundle)
+//        replaceFragment(statisticsFragment, 1)
+//    }
 
     private fun replaceFragment(fragment: Fragment, currentFragmentIndex: Int){
         this.currentFragmentIndex = currentFragmentIndex
@@ -144,13 +144,15 @@ class MainActivity : AppCompatActivity(),
 
     override fun onResume() {
         super.onResume()
+        mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
+        gotoHomeFragment()
 
-        if(currentFragmentIndex!! == 0){
-            mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
-            gotoHomeFragment()
-        }else{
-            gotoStatisticsFragment()
-        }
+//        if(currentFragmentIndex!! == 0){
+//            mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
+//            gotoHomeFragment()
+//        }else{
+//            gotoStatisticsFragment()
+//        }
 
     }
 
@@ -273,18 +275,18 @@ class MainActivity : AppCompatActivity(),
         }.create().show()
     }
 
-    override fun onRecyclerViewItemClicked(position: Int) {
-        gotoSubjectStatisticsTabActivity(mainActivityViewModel.getSubjectAndFileNameDataAt(position))
-    }
+//    override fun onRecyclerViewItemClicked(position: Int) {
+//        gotoSubjectStatisticsTabActivity(mainActivityViewModel.getSubjectAndFileNameDataAt(position))
+//    }
 
-    private fun gotoSubjectStatisticsTabActivity(subjectAndFileNameData: SubjectAndFileNameData) {
-        val intent = Intent(this, SubjectStatisticsTabActivity::class.java)
-
-        val bundle = Bundle()
-        bundle.putSerializable("subject_and_file_name_data", subjectAndFileNameData)
-        intent.putExtra("bundle", bundle)
-        startActivity(intent)
-    }
+//    private fun gotoSubjectStatisticsTabActivity(subjectAndFileNameData: SubjectAndFileNameData) {
+//        val intent = Intent(this, SubjectStatisticsTabActivity::class.java)
+//
+//        val bundle = Bundle()
+//        bundle.putSerializable("subject_and_file_name_data", subjectAndFileNameData)
+//        intent.putExtra("bundle", bundle)
+//        startActivity(intent)
+//    }
 
     override fun onPackageActivated(): LiveData<Int> {
         return mainActivityViewModel.activatedPackageIndexChangedAt

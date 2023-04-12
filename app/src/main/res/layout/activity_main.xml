@@ -17,16 +17,17 @@
         android:layout_height="match_parent"
         android:id="@+id/mainActivityFragmentHolder"
         android:layout_below="@id/header"
-        android:layout_above="@id/bottomNav">
+        android:layout_alignParentBottom="true">
 
     </FrameLayout>
+<!--    android:layout_above="@id/bottomNav"-->
     
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav_menu"/>
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNav"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:menu="@menu/bottom_nav_menu"/>-->
 
 
 </RelativeLayout>

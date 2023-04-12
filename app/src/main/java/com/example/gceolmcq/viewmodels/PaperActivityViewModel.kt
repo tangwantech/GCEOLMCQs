@@ -29,9 +29,8 @@ class PaperActivityViewModel:ViewModel() {
 
     private val sectionScores = MutableLiveData<ArrayList<Int>>()
 
-    private var statisticsData1: StatisticsData? = null
     private var sectionsAnsweredCount = 0
-    private var isPaperAttempted:Boolean = false
+//    private var isPaperAttempted:Boolean = false
 
     private var currentSectionRetryCount = MutableLiveData<Int>()
 
@@ -56,22 +55,6 @@ class PaperActivityViewModel:ViewModel() {
         currentSectionRetryCount.value = RETRY_COUNT
     }
 
-
-    private fun initStatisticsData(customId: String){
-
-        if(this.statisticsData1 == null){
-            statisticsData1 = StatisticsData(
-                id=null,
-                customId = customId,
-                numberOfQuestions = paperDataModel!!.numberOfQuestions,
-                attemptsCount = 0,
-                scores = null
-
-            )
-
-        }
-
-    }
 
     fun setExamItemData(examItemDataModel: ExamItemDataModel){
         this.examItemDataModel = examItemDataModel
@@ -173,21 +156,8 @@ class PaperActivityViewModel:ViewModel() {
     fun updateSectionsScore(sectionIndex: Int, score: Int){
         updateIsSectionsAnswered(sectionIndex)
         sectionScores.value!![sectionIndex] = score
-        setIsPaperAttempted()
         updatePaperScore(sectionScores.value!!)
 
-    }
-
-    private fun setIsPaperAttempted(){
-        if(!isPaperAttempted){
-            isPaperAttempted = true
-            updateStatisticsDataAttemptsCount()
-        }
-
-    }
-
-    fun getIsPaperAttempted(): Boolean{
-        return isPaperAttempted
     }
 
     fun resetSectionScore(sectionIndex: Int){
@@ -197,24 +167,6 @@ class PaperActivityViewModel:ViewModel() {
 
     private fun updatePaperScore(sectionScores: List<Int>){
         paperScore.value = sectionScores.sum()
-
-    }
-
-    fun setStatisticsDataScores(){
-        val score = Score(paperScore.value!!)
-        val scores = ArrayList<Score>()
-        scores.add(score)
-        statisticsData1?.scores = scores
-    }
-
-    fun updateStatisticsDataScores(){
-        val score = Score(paperScore.value!!)
-        val scores = ArrayList<Score>()
-        statisticsData1!!.scores!!.forEachIndexed { _, tempScore ->
-            scores.add(tempScore)
-        }
-        scores.add(score)
-        statisticsData1?.scores = scores
 
     }
 
@@ -257,51 +209,6 @@ class PaperActivityViewModel:ViewModel() {
 //        _packageHasExpired.value = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
         return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
     }
-
-    fun queryStatisticsDataTableByCustomId(customId: String){
-        var tempStatisticsData: StatisticsData?
-        CoroutineScope(Dispatchers.IO).launch {
-
-//            mcqDatabase?.statisticsDataDao()?.deleteAll()
-            tempStatisticsData = mcqDatabase?.statisticsDataDao()?.findByCustomId(customId)
-            withContext(Dispatchers.IO){
-               statisticsData1 = tempStatisticsData
-                println("PaperScores: $statisticsData1")
-                initStatisticsData(customId)
-            }
-//
-
-        }
-
-    }
-
-
-    fun updateStatisticsDataTable(){
-        if(statisticsData1?.attemptsCount!! != 0){
-            CoroutineScope(Dispatchers.IO).launch {
-                mcqDatabase?.statisticsDataDao()?.update(statisticsData1!!)
-            }
-        }
-    }
-
-    fun insertToStatisticsDataTable(){
-        CoroutineScope(Dispatchers.IO).launch {
-            mcqDatabase?.statisticsDataDao()?.insert(statisticsData1!!)
-        }
-
-    }
-
-    private fun updateStatisticsDataAttemptsCount(){
-        statisticsData1?.attemptsCount = statisticsData1?.attemptsCount!! + 1
-    }
-
-
-
-    fun getAttemptCount(): Int {
-        return this.statisticsData1?.attemptsCount!!
-
-    }
-
 
     fun getSectionNumberAt(position: Int): String {
         return getSectionNames()!![position]

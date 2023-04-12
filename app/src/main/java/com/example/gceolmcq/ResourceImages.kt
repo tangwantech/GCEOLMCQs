@@ -4,11 +4,6 @@ class ResourceImages {
     companion object{
         var images:HashMap<String?, Int> = HashMap()
         init {
-            images["summary_nitrogen_cycle.jpg"] = R.drawable.summary_nitrogen_cycle
-            images["setup_carbondioxide_necessary_photosynthesis.jpg"] = R.drawable.setup_carbondioxide_necessary_photosynthesis
-            images["part_human_digestive_system.jpg"] = R.drawable.part_human_digestive_system
-            images["bean_seedling_rotating_klinostat.jpg"] = R.drawable.bean_seedling_rotating_klinostat
-
 //            images june 2015
             images["ls_kidney_june_2015.jpg"] = R.drawable.ls_kidney_june_2015
             images["ls_hibiscus_flower_june_2015.jpg"] = R.drawable.ls_hibiscus_flower_june_2015
@@ -53,6 +48,12 @@ class ResourceImages {
             images["experiment_photosynthesis_june_2019.jpg"] = R.drawable.experiment_photosynthesis_june_2019
             images["graph_factors_affecting_photosynthesis_june_2019.jpg"] = R.drawable.graph_factors_affecting_phototosynthesis_june_2019
             images["table_food_samples_june_2019.jpg"] = R.drawable.table_food_samples_june_2019
+
+//            images june 2020
+            images["summary_nitrogen_cycle_june_2020.jpg"] = R.drawable.summary_nitrogen_cycle_june_2020
+            images["setup_carbondioxide_necessary_photosynthesis_june_2020.jpg"] = R.drawable.setup_carbondioxide_necessary_photosynthesis_june_2020
+            images["part_human_digestive_system_june_2020.jpg"] = R.drawable.part_human_digestive_system_june_2020
+            images["bean_seedling_rotating_klinostat_june_2020.jpg"] = R.drawable.bean_seedling_rotating_klinostat_june_2020
 
 //            images june 2021
             images["human_forearm_june_2021.jpg"] = R.drawable.human_forearm_june_2021

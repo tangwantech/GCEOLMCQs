@@ -30,7 +30,7 @@
           "nonSelectableOptions": null,
           "selectableOptions": [
             "Unicellular and saprophytic",
-            "Unicellular an autotrophic",
+            "Unicellular and autotrophic",
             "Multicellular and holozoic",
             "Multicelular and saprophytic"
           ],
@@ -124,7 +124,7 @@
             "A termite",
             "A cockroach"
           ],
-          "wordAnswer": ""
+          "wordAnswer": "A housefly"
         },
         {
           "questionNumber": "9",
@@ -691,7 +691,7 @@
         },
         {
           "questionNumber": "45",
-          "question": "The fore-ar is withdrawn when it is touched by a hot object. Which of the following statements is true about the withdrawal?",
+          "question": "The fore-arm is withdrawn when it is touched by a hot object. Which of the following statements is true about the withdrawal?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

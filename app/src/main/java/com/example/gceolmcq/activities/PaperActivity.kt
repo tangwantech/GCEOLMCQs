@@ -111,7 +111,7 @@ class PaperActivity : AppCompatActivity(),
 
         val customId =
             "${bundle.getString("subjectName")!!} ${paperActivityViewModel.getExamTitle()}"
-        paperActivityViewModel.queryStatisticsDataTableByCustomId(customId)
+//        paperActivityViewModel.queryStatisticsDataTableByCustomId(customId)
 
         this.title = paperActivityViewModel.getExamTitle()
     }
@@ -315,17 +315,10 @@ class PaperActivity : AppCompatActivity(),
     }
 
 
-    override fun onStop() {
-        if (paperActivityViewModel.getIsPaperAttempted() && paperActivityViewModel.getAttemptCount() == 1) {
-            paperActivityViewModel.setStatisticsDataScores()
-            paperActivityViewModel.insertToStatisticsDataTable()
-
-        } else if (paperActivityViewModel.getIsPaperAttempted() && paperActivityViewModel.getAttemptCount() > 1) {
-            paperActivityViewModel.updateStatisticsDataScores()
-            paperActivityViewModel.updateStatisticsDataTable()
-        }
-        super.onStop()
-    }
+//    override fun onStop() {
+//
+//        super.onStop()
+//    }
 
     private fun showPackageExpiredDialog() {
         val alertDialog = AlertDialog.Builder(this)
