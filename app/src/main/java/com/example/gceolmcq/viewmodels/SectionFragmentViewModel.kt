@@ -65,7 +65,7 @@ class SectionFragmentViewModel : ViewModel() {
             initUserMarkedAnswerSheet(index)
         }
         updateUserMarkedAnswerSheet()
-        setQuestionCorrectAnswer()
+//        setQuestionCorrectAnswer()
 
     }
 
@@ -162,7 +162,7 @@ class SectionFragmentViewModel : ViewModel() {
 
             }
         }
-        setQuestionCorrectAnswer()
+//        setQuestionCorrectAnswer()
         return sectionDataModel!!.questions[questionIndex.value!!]
     }
 
@@ -175,6 +175,22 @@ class SectionFragmentViewModel : ViewModel() {
             userMarkedAnswerSheet[index].nonSelectableOptions =
                 questionDataModel.nonSelectableOptions
         }
+    }
+    private fun setQuestionsCorrectAnswers(){
+        sectionDataModel!!.questions.forEachIndexed { index, questionDataModel ->
+            questionDataModel.selectableOptions.forEachIndexed { optionIndex, s ->
+                if (s == questionDataModel.wordAnswer) {
+                    userMarkedAnswerSheet[index].correctAnswer =
+                        "${letters[optionIndex]}. ${questionDataModel.wordAnswer}"
+                }
+            }
+        }
+//        sectionDataModel!!.questions[questionIndex.value!!].selectableOptions.forEachIndexed { index, s ->
+//            if (s == sectionDataModel!!.questions[questionIndex.value!!].wordAnswer) {
+//                userMarkedAnswerSheet[questionIndex.value!!].correctAnswer =
+//                    "${letters[index]}. ${sectionDataModel!!.questions[questionIndex.value!!].wordAnswer}"
+//            }
+//        }
     }
 
     private fun setQuestionCorrectAnswer() {
@@ -219,6 +235,7 @@ class SectionFragmentViewModel : ViewModel() {
 
         sumSectionQuestionScores()
 
+
     }
 
 
@@ -258,6 +275,8 @@ class SectionFragmentViewModel : ViewModel() {
     }
 
     fun getSectionResultData():SectionResultData{
+//        setQuestionCorrectAnswer()
+        setQuestionsCorrectAnswers()
         val percentage = ((sectionScore.toDouble() / sectionDataModel!!.numberOfQuestions.toDouble()) * 100).toInt()
         val scoreData = ScoreData(sectionScore, sectionDataModel!!.numberOfQuestions, percentage)
         val userMarkedAnswersSheetData = UserMarkedAnswersSheetData(userMarkedAnswerSheet)

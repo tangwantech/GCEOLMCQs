@@ -116,12 +116,21 @@ class SectionRecyclerAdapter(
         }else{
             holder.layoutUserAnswer.visibility = View.VISIBLE
             holder.tvUserAnswer.text = "${questionData.userSelection!!.optionLetter}. ${questionData.userSelection!!.optionSelected}"
-            if(questionData.userSelection!!.remark!!){
-                holder.imgRemark.setImageResource(R.drawable.ic_baseline_check_24)
-                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.blue_color))
-            }else{
+
+//            if(questionData.userSelection!!.remark!!){
+//                holder.imgRemark.setImageResource(R.drawable.ic_baseline_check_24)
+//                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.blue_color))
+//            }else{
+//                holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
+//                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
+//            }
+
+            if(questionData.userSelection?.remark == null || !questionData.userSelection!!.remark!!){
                 holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
                 holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
+            }else{
+                holder.imgRemark.setImageResource(R.drawable.ic_baseline_check_24)
+                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.blue_color))
             }
 
         }
