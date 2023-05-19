@@ -1,6 +1,8 @@
 package com.example.gceolmcq.activities
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -189,7 +191,7 @@ class MainActivity : AppCompatActivity(),
                 shareApp()
             }
             R.id.rateUs ->{
-                Toast.makeText(this, "Rate Us", Toast.LENGTH_SHORT).show()
+                rateUs()
             }
             R.id.about -> {
                 Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
@@ -199,12 +201,26 @@ class MainActivity : AppCompatActivity(),
     }
 
     private fun shareApp(){
-        val intent = Intent(Intent.ACTION_SEND).apply {
-            type = TYPE
-            putExtra(SHARE_APP, APP_URL)
+//        val uri = Uri.parse(APP_URL)
+        val appMsg = "Check out this awesome GCE OL MCQs app. Link: $APP_URL"
+        val intent = Intent(Intent.ACTION_SEND)
+        intent.type = TYPE
+        intent.putExtra(Intent.EXTRA_TEXT, appMsg)
+        startActivity(intent)
+    }
+
+    private fun rateUs(){
+        val uri = Uri.parse(APP_URL)
+        val intent = Intent(Intent.ACTION_VIEW, uri)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
+                        Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
+                        Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
+
+        try{
+            startActivity(intent)
+        }catch (e: ActivityNotFoundException){
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(APP_URL)))
         }
-        val chooser = Intent.createChooser(intent, "Share using...")
-        startActivity(chooser)
     }
 
     private fun showExitDialog(){
