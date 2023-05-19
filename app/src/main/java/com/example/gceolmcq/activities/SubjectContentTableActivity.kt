@@ -1,5 +1,6 @@
 package com.example.gceolmcq.activities
 
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
@@ -18,27 +19,32 @@ import com.google.android.material.tabs.TabLayout
 import java.io.IOException
 import java.nio.charset.Charset
 
+
 class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPackageExpiredListener, ExamTypeFragment.OnContentAccessDeniedListener{
 
     private lateinit var subjectContentTableViewModel: SubjectContentTableViewModel
     private var subjectTitle: String? = null
-    private lateinit var tab: TabLayout
+    private lateinit var tabLayout: TabLayout
+    private var selectedTab: TabLayout.Tab? = null
     private lateinit var viewPager: ViewPager
     private lateinit var alertDialog: AlertDialog.Builder
+    private lateinit var pref: SharedPreferences
+    private var currentTabIndex  = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_subject_content_table)
-
+        pref = getSharedPreferences(SUBJECT_CONTENT_TABLE, MODE_PRIVATE)
         setAlertDialog()
         initActivityViews()
         initViewModel()
+        setupActivityViewListeners()
         setupViewObservers()
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
     }
     private fun initActivityViews(){
-        tab = findViewById(R.id.homeTab)
+        tabLayout = findViewById(R.id.homeTab)
         viewPager = findViewById(R.id.homeViewPager)
     }
 
@@ -94,6 +100,7 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
 
     private fun setUpSubjectContentTab(subjectPackageData: SubjectPackageData) {
 
+        val tabIndex = pref.getInt(TAB_INDEX, 0)
         val tabFragments: ArrayList<Fragment> = ArrayList()
 
         for (fragmentIndex in 0 until subjectContentTableViewModel.getExamTypesCount()) {
@@ -116,8 +123,27 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
             subjectContentTableViewModel.getExamTitles()
         )
         viewPager.adapter = viewPagerAdapter
-//
-        tab.setupWithViewPager(viewPager)
+        viewPager.currentItem = tabIndex
+        tabLayout.setupWithViewPager(viewPager)
+
+
+//         = viewPager.currentItem
+
+
+    }
+
+    private fun setupActivityViewListeners(){
+        tabLayout.setOnTabSelectedListener(object: TabLayout.OnTabSelectedListener{
+            override fun onTabSelected(tab: TabLayout.Tab?) {
+                currentTabIndex = tab?.position!!
+                saveSelectedTab(currentTabIndex)
+            }
+
+            override fun onTabUnselected(tab: TabLayout.Tab?) {}
+
+            override fun onTabReselected(tab: TabLayout.Tab?) {}
+
+        })
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -139,6 +165,11 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
         title = subjectTitle
         subjectContentTableViewModel.querySubjectPackageDataFromLocalDatabaseAtSubjectName(subjectTitle!!)
 
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        saveSelectedTab(0)
     }
 
     private fun getJsonFromAssets(fileName: String): String? {
@@ -176,5 +207,16 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
         }.create().show()
     }
 
+    private fun saveSelectedTab(index: Int){
+        pref.edit().apply {
+            putInt(TAB_INDEX, index)
+//            apply()
+        }.apply()
+    }
+
+    companion object{
+        private const val SUBJECT_CONTENT_TABLE = "subject content table"
+        private const val TAB_INDEX = "tab index"
+    }
 }
 

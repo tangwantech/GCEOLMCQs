@@ -153,4 +153,12 @@
         <item>MTN</item>
         <item>ORANGE</item>
     </string-array>
+    <string-array name="sections">
+        <item>section 1</item>
+        <item>section 2</item>
+        <item>section 3</item>
+        <item>section 4</item>
+        <item>section 5</item>
+        <item>section 6</item>
+    </string-array>
 </resources>

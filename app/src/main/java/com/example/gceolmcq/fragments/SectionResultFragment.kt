@@ -202,7 +202,7 @@ class SectionResultFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        requireActivity().title = "${requireContext().resources.getString(R.string.result)}"
+        requireActivity().title = "${requireContext().resources.getString(R.string.result)} ${requireContext().resources.getStringArray(R.array.sections)[sectionResultFragmentViewModel.getSectionIndex()]}"
     }
 
 

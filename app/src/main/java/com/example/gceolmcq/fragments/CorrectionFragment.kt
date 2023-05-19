@@ -99,6 +99,11 @@ class CorrectionFragment : Fragment() {
 
     }
 
+    override fun onResume() {
+        super.onResume()
+        requireActivity().title = "${requireContext().resources.getString(R.string.correction)} ${requireContext().resources.getStringArray(R.array.sections)[requireArguments().getInt(SECTION_INDEX)]}"
+    }
+
     companion object {
 
         fun newInstance(sectionIndex: Int, userMarkedAnswersSheetData: UserMarkedAnswersSheetData, expiresOn: String): Fragment {
