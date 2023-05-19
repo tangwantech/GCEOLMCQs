@@ -29,6 +29,9 @@ private const val SUBJECT_NAMES = "subjectNames"
 private const val INIT_DATA_BUNDLE = "initDataBundle"
 private const val MOBILE_ID = "mobileID"
 private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
+private const val SHARE_APP = "shareApp"
+private const val TYPE = "text/plain"
+private const val APP_URL = "https://google.com"
 
 class MainActivity : AppCompatActivity(),
     SubscriptionFormDialogFragment.OnActivateButtonClickListener,
@@ -182,7 +185,8 @@ class MainActivity : AppCompatActivity(),
         when(item.itemId){
 
             R.id.share ->{
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show()
+                shareApp()
             }
             R.id.rateUs ->{
                 Toast.makeText(this, "Rate Us", Toast.LENGTH_SHORT).show()
@@ -192,6 +196,15 @@ class MainActivity : AppCompatActivity(),
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun shareApp(){
+        val intent = Intent(Intent.ACTION_SEND).apply {
+            type = TYPE
+            putExtra(SHARE_APP, APP_URL)
+        }
+        val chooser = Intent.createChooser(intent, "Share using...")
+        startActivity(chooser)
     }
 
     private fun showExitDialog(){

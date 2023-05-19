@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GCE OL MCQs</string>
     <string name="recycler_item_text">Item test text</string>
@@ -119,7 +120,7 @@
         <item>You must score at least</item>
         <item>in order to see corrections to all wrong answers at the end of each section.</item>
     </string-array>
-        <string name="minimum_percentage">40%</string>
+    <string name="minimum_percentage">40%</string>
     <string name="rate_us">Rate us</string>
 
     <string-array name="package_types">
