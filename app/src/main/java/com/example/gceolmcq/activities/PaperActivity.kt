@@ -87,7 +87,9 @@ class PaperActivity : AppCompatActivity(),
         setupViewModel()
         setupPackageActivatedObserver()
         displayPaperInstructionDialog()
-        gotoSectionNavigationFragment()
+//        gotoSectionNavigationFragment()
+
+        loadFragment()
 
 
 
@@ -176,15 +178,23 @@ class PaperActivity : AppCompatActivity(),
     override fun onResume() {
         super.onResume()
         title = paperActivityViewModel.getExamTitle()
+//        loadFragment()
+
+    }
+
+    private fun loadFragment(){
         when(paperActivityViewModel.getCurrentFragmentIndex()){
             0 -> gotoSectionNavigationFragment()
             1 -> {
                 gotoSection(paperActivityViewModel.getCurrentSectionIndex())
             }
-            2 -> {gotoResult(paperActivityViewModel.getSectionResultData())}
-            3 -> {gotoSectionCorrection(paperActivityViewModel.getCurrentSectionIndex(), paperActivityViewModel.getUserMarkedAnswerSheet())}
+            2 -> {
+                gotoResult(paperActivityViewModel.getSectionResultData())
+            }
+            3 -> {
+                gotoSectionCorrection(paperActivityViewModel.getCurrentSectionIndex(), paperActivityViewModel.getUserMarkedAnswerSheet())
+            }
         }
-
     }
 
     private fun resetCurrentSectionFragment(){

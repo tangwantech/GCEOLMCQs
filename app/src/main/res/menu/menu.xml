@@ -12,7 +12,10 @@
         android:id="@+id/rateUs"
         android:title="@string/rate_us"
         app:showAsAction="never"/>
-    
+    <item
+        android:id="@+id/privacyPolicy"
+        android:title="@string/privacy_policy"
+        app:showAsAction="never"/>
     <item
         android:id="@+id/about"
         android:title="@string/about"

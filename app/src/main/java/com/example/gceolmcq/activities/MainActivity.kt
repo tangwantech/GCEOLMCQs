@@ -34,6 +34,7 @@ private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
 private const val SHARE_APP = "shareApp"
 private const val TYPE = "text/plain"
 private const val APP_URL = "https://google.com"
+private const val PRIVACY_POLICY = "https://gceolmcqs.w3spaces.com/Gceolmcqs_Privacy-Policy.pdf"
 
 class MainActivity : AppCompatActivity(),
     SubscriptionFormDialogFragment.OnActivateButtonClickListener,
@@ -193,6 +194,10 @@ class MainActivity : AppCompatActivity(),
             R.id.rateUs ->{
                 rateUs()
             }
+
+            R.id.privacyPolicy ->{
+                privacyPolicy()
+            }
             R.id.about -> {
                 Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
             }
@@ -220,6 +225,20 @@ class MainActivity : AppCompatActivity(),
             startActivity(intent)
         }catch (e: ActivityNotFoundException){
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(APP_URL)))
+        }
+    }
+
+    private fun privacyPolicy(){
+        val uri = Uri.parse(PRIVACY_POLICY)
+        val intent = Intent(Intent.ACTION_VIEW, uri)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
+                Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
+                Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
+
+        try{
+            startActivity(intent)
+        }catch (e: ActivityNotFoundException){
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(PRIVACY_POLICY)))
         }
     }
 
