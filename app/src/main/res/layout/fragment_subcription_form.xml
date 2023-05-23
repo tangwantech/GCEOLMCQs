@@ -29,38 +29,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingLeft="@dimen/text_size_16"
-            android:paddingRight="@dimen/text_size_16">
+            android:paddingRight="@dimen/text_size_16"
+            android:paddingBottom="@dimen/margin_4"
+            android:paddingTop="@dimen/margin_4">
 
-            <LinearLayout
-                android:id="@+id/layoutPackageTypes"
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/recycler_item_view_min_height"
-                android:layout_marginTop="@dimen/margin_2"
-                android:layout_marginBottom="@dimen/margin_2"
-                android:orientation="horizontal">
+                android:layout_height="@dimen/button_minimum_height">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompletePackageType"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/select_package"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
 
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="0.7"
-                    android:layout_height="70dp"
-                    android:orientation="vertical">
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/button_minimum_height">
-
-                        <AutoCompleteTextView
-                            android:id="@+id/autoCompletePackageType"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:hint="@string/select_package"
-                            android:inputType="none" />
-                    </com.google.android.material.textfield.TextInputLayout>
-                </LinearLayout>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/layoutPackagePrice"
@@ -98,59 +84,30 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/layoutMomoPartners"
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_minimum_height">
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteMomoPartner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/select_momo_partner"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/button_minimum_height"
-                android:layout_marginTop="@dimen/margin_2"
-                android:layout_marginBottom="@dimen/margin_2"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="0.7"
-                    android:layout_height="70dp"
-                    android:orientation="vertical">
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/button_minimum_height">
-
-                        <AutoCompleteTextView
-                            android:id="@+id/autoCompleteMomoPartner"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:hint="@string/select_momo_partner"
-                            android:inputType="none" />
-                    </com.google.android.material.textfield.TextInputLayout>
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/layoutMomoNumber"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_2"
-                android:layout_marginBottom="@dimen/margin_2"
-                android:orientation="horizontal">
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="0dp"
-                    android:layout_height="@dimen/button_minimum_height"
-                    android:layout_weight="@dimen/weight_current_package_label_value"
-                    android:hint="@string/enter_number"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/etMomoNumber"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:maxLength="9"
-                        android:inputType="phone"/>
-                </com.google.android.material.textfield.TextInputLayout>
-
-            </LinearLayout>
+                android:hint="@string/enter_number"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etMomoNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLength="9"
+                    android:inputType="phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 

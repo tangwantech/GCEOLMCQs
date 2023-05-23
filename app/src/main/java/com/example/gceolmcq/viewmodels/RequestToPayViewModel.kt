@@ -32,7 +32,7 @@ class RequestToPayViewModel : ViewModel() {
     fun setSubscriptionFormData(subscriptionFormDataModel: SubscriptionFormDataModel) {
         this.subscriptionFormDataModel = subscriptionFormDataModel
         setMoMoPartner()
-//        setAccessToken()
+        setAccessToken()
         testUpdateTransactionSuccessful(true)
 //        requestToPay()
     }

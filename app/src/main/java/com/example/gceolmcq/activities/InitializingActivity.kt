@@ -5,12 +5,12 @@ import android.content.Intent
 import android.os.Bundle
 import android.provider.Settings
 import android.view.View
-import android.view.animation.Animation
 import android.widget.ProgressBar
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.NetworkConnectionLiveData
 import com.example.gceolmcq.R
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.example.gceolmcq.viewmodels.InitializingActivityViewModel
@@ -27,7 +27,7 @@ private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
 private const val SUBJECT_DATA_FILE = "subject_data.json"
 val TAG = "InitializingActivity"
 class InitializingActivity : AppCompatActivity() {
-
+    private lateinit var networkConnectionLiveData: NetworkConnectionLiveData
     private lateinit var initializingActivityViewModel: InitializingActivityViewModel
     private lateinit var indeterminateProgress: ProgressBar
 //    private var fadeOut: Animation? = null
@@ -37,7 +37,7 @@ class InitializingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_initializing)
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         supportActionBar?.hide()
-
+        networkConnectionLiveData = NetworkConnectionLiveData(application)
         setupViewModel()
         initViews()
         setUpViewObservers()
@@ -57,24 +57,18 @@ class InitializingActivity : AppCompatActivity() {
     }
 
     private fun setUpViewObservers(){
+        initializingActivityViewModel.timeout.observe(this) {
+           if(it){
+               initializingActivityViewModel.setIsAppInitialisedFalse()
+           }
+        }
         getJsonFromAssets()?.let {
 
-            initializingActivityViewModel.initialiseApp(it).observe(this, Observer{isInitialised ->
-
-                if (isInitialised == null || isInitialised == false) {
-
-                    indeterminateProgress.visibility = View.GONE
-                    val alertDialog = AlertDialog.Builder(this@InitializingActivity)
-                    alertDialog.apply {
-                        setTitle(resources.getString(R.string.error))
-                        setMessage(resources.getString(R.string.initialise_error_message))
-                        setPositiveButton("Ok") { _, _ ->
-                            initializingActivityViewModel.nullifyIsAppInitialised()
-                            finish()
-
-                        }
-                        setCancelable(false)
-                    }.create().show()
+            initializingActivityViewModel.initSubjectAndFileNameDataList(it)
+            initializingActivityViewModel.isMcqAppInitialised.observe(this, Observer{isMcqAppInitialised ->
+                if (isMcqAppInitialised == null || isMcqAppInitialised == false) {
+                    displayNoConnectionDialog()
+//
                 } else {
                     val intent = Intent(this@InitializingActivity, MainActivity::class.java)
                     val bundle = Bundle()
@@ -102,8 +96,9 @@ class InitializingActivity : AppCompatActivity() {
                     CoroutineScope(Dispatchers.IO).launch{
                         delay(2000L)
                         withContext(Dispatchers.Main){
+                            initializingActivityViewModel.cancelNetworkQuery()
                             startActivity(intent)
-                            finish()
+                            exitActivity()
                         }
                     }
 
@@ -111,6 +106,23 @@ class InitializingActivity : AppCompatActivity() {
             })
 
         }
+    }
+
+    private fun displayNoConnectionDialog(){
+        indeterminateProgress.visibility = View.GONE
+        val alertDialog = AlertDialog.Builder(this)
+        alertDialog.apply {
+            setTitle(resources.getString(R.string.error))
+            setMessage(resources.getString(R.string.initialise_error_message))
+            setPositiveButton(resources.getString(R.string.exit)) { _, _ ->
+                exitActivity()
+            }
+            setCancelable(false)
+        }.create().show()
+    }
+    private fun exitActivity(){
+        initializingActivityViewModel.cancelNetworkQuery()
+        finish()
     }
 
 

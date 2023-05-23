@@ -26,8 +26,8 @@ class MomoPayService{
     }
     fun initiatePayment(subscriptionFormDataModel: SubscriptionFormDataModel) {
         this.subscriptionFormData = subscriptionFormDataModel
-//        setAccessToken()
-        testUpdateTransactionSuccessful(true)
+        setAccessToken()
+//        testUpdateTransactionSuccessful(true)
 
     }
 

@@ -6,6 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.gceolmcq.datamodels.*
+private const val MILLISEC_PER_QUESTION = 80000L
+private const val COUNT_DOWN_INTERVAL = 1000L
+private const val TIME_TO_ANIMATE_TIMER = 20000L
 
 class SectionFragmentViewModel : ViewModel() {
     private var sectionDataModel: SectionDataModel? = null
@@ -17,9 +20,7 @@ class SectionFragmentViewModel : ViewModel() {
     private val isQuestionAnswered = MutableLiveData<Boolean>()
     private val sectionQuestionScores: ArrayList<QuestionScore> = ArrayList()
     private var sectionScore: Int = 0
-    private val milliSecPerQuestion: Long = 30000L
     private var sectionDuration: Long = 0L
-    private val countDownInterval = 1000L
     private lateinit var timer: CountDownTimer
     private val questionIndex = MutableLiveData<Int>()
     private val userMarkedAnswerSheet: ArrayList<QuestionWithUserAnswerMarkedData> = ArrayList()
@@ -70,11 +71,11 @@ class SectionFragmentViewModel : ViewModel() {
     }
 
     private fun setSectionDuration() {
-        sectionDuration = sectionDataModel!!.numberOfQuestions * milliSecPerQuestion
+        sectionDuration = sectionDataModel!!.numberOfQuestions * MILLISEC_PER_QUESTION
     }
 
     fun startTimer() {
-        timer = object : CountDownTimer(sectionDuration, countDownInterval) {
+        timer = object : CountDownTimer(sectionDuration, COUNT_DOWN_INTERVAL) {
             override fun onTick(p0: Long) {
                 val t = Time()
                 updateIsTimeAlmostOut(p0)
@@ -94,7 +95,7 @@ class SectionFragmentViewModel : ViewModel() {
     }
 
     fun updateIsTimeAlmostOut(timeLeft: Long){
-        if(timeLeft < isTimeAlmostOutStartTime){
+        if(timeLeft < TIME_TO_ANIMATE_TIMER){
             isTimeAlmostOut.value = true
         }
     }

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gceolmcq.R
 import com.example.gceolmcq.datamodels.SubjectPackageData
@@ -25,8 +26,9 @@ class HomeRecyclerViewAdapter(
         val tvSubjectStatus: TextView = view.findViewById(R.id.tvSubjectStatus)
         val btnSubjectPackageDetails: Button = view.findViewById(R.id.btnPackage)
         val btnSubscribe: Button = view.findViewById(R.id.btnSubscribe)
+        val tvPackageType: TextView = view.findViewById(R.id.tvPackageType)
 
-        private val layoutSubjectItem: LinearLayout = view.findViewById(R.id.layoutSubjectNavItem)
+        private val layoutSubjectItem: CardView = view.findViewById(R.id.layoutSubjectNavItem)
 //
 
         init {
@@ -57,23 +59,24 @@ class HomeRecyclerViewAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(context).inflate(R.layout.subject_item, parent, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.subject_item_card, parent, false)
         return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         if(subjectPackageDataList.isNotEmpty()){
             holder.tvSubjectName.text = subjectPackageDataList[position].subjectName
-            holder.btnSubjectPackageDetails.text = subjectPackageDataList[position].packageName
+            holder.tvPackageType.text = "Package type: ${subjectPackageDataList[position].packageName}"
+//            holder.btnSubjectPackageDetails.text = subjectPackageDataList[position].packageName
 
             if ((subjectPackageDataList[position].isPackageActive!!)){
                 onCheckPackageExpiryListener.onCheckPackageExpiry(position)
-                holder.tvSubjectStatus.text = context.resources.getString(R.string.active)
+                holder.tvSubjectStatus.text = "Status: ${context.resources.getString(R.string.active)}"
                 holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.blue_color))
                 holder.btnSubscribe.isEnabled = false
 
             } else{
-                holder.tvSubjectStatus.text = context.resources.getString(R.string.expired)
+                holder.tvSubjectStatus.text = "Status: ${context.resources.getString(R.string.expired)}"
                 holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.red_color))
                 holder.btnSubscribe.isEnabled = true
             }

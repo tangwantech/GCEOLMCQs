@@ -76,12 +76,12 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
         val loMan = LinearLayoutManager(requireContext())
         loMan.orientation = LinearLayoutManager.VERTICAL
         homeRecyclerView.layoutManager = loMan
-        homeRecyclerView.addItemDecoration(
-            DividerItemDecoration(
-                requireContext(),
-                DividerItemDecoration.VERTICAL
-            )
-        )
+//        homeRecyclerView.addItemDecoration(
+//            DividerItemDecoration(
+//                requireContext(),
+//                DividerItemDecoration.VERTICAL
+//            )
+//        )
         homeRecyclerView.adapter = homeRecyclerViewAdapter
 
     }

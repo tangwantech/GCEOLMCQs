@@ -44,11 +44,6 @@ class MainActivityViewModel : ViewModel() {
 
 
 
-    init {
-//        mutableSubjectPackageDataList.value = null
-//        isActivatedPackageUpdatedInLocalDatabase.value = false
-    }
-
     fun setMobileId(mobileID: String) {
         this.mobileId = mobileID
     }
@@ -96,7 +91,7 @@ class MainActivityViewModel : ViewModel() {
     fun activatePackage(subjectIndex: Int, packageType: String, packageDuration: Int) {
         val activationExpiryDates =
             ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
-                ActivationExpiryDatesGenerator.MINUTES,
+                ActivationExpiryDatesGenerator.HOURS,
                 packageDuration
             )
         mutableSubjectPackageDataList.value!![subjectIndex].apply {

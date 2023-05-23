@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingLeft="@dimen/margin_14"
-    android:paddingRight="@dimen/margin_14">
+    android:paddingRight="@dimen/margin_14"
+    android:paddingTop="@dimen/margin_8">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,20 +13,21 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <ImageView
-            android:layout_width="@dimen/transaction_status_icon_width"
-            android:layout_height="@dimen/transaction_status_icon_height"
-            android:contentDescription="@string/payment_status_image"
-            app:srcCompat="@drawable/ic_baseline_cancel_24" />
+<!--        <ImageView-->
+<!--            android:layout_width="@dimen/transaction_status_icon_width"-->
+<!--            android:layout_height="@dimen/transaction_status_icon_height"-->
+<!--            android:contentDescription="@string/payment_status_image"-->
+<!--            app:srcCompat="@drawable/ic_baseline_cancel_24" />-->
 
         <TextView
             android:id="@+id/tvPackageActivationFailed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Package activation failed"
+            android:gravity="center_vertical"
+            android:text="@string/failed_to_activate_package"
             android:textSize="@dimen/text_size_16"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_error"/>
 
         <LinearLayout
             android:orientation="vertical"
@@ -36,7 +38,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Please verify that:"
+                android:text="Possible reasons:"
                 android:textStyle="bold"
                 android:gravity="center_vertical"/>
             <LinearLayout
@@ -47,17 +49,22 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1. You have an active internet connection"
+                    android:text="1. You might not have an active internet connection."
                     android:gravity="center_vertical"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2. You entered a valid mobile money number"
+                    android:text="2. You might have entered an invalid mobile money number."
                     android:gravity="center_vertical"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3. You have sufficient funds in your account"
+                    android:text="3. You might not have sufficient funds in your account."
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. You might have canceled the transaction."
                     android:gravity="center_vertical"/>
 
             </LinearLayout>

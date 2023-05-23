@@ -31,7 +31,6 @@ private const val SUBJECT_NAMES = "subjectNames"
 private const val INIT_DATA_BUNDLE = "initDataBundle"
 private const val MOBILE_ID = "mobileID"
 private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
-private const val SHARE_APP = "shareApp"
 private const val TYPE = "text/plain"
 private const val APP_URL = "https://google.com"
 private const val PRIVACY_POLICY = "https://gceolmcqs.w3spaces.com/Gceolmcqs_Privacy-Policy.pdf"
@@ -51,9 +50,6 @@ class MainActivity : AppCompatActivity(),
 
     private var currentFragmentIndex: Int? = null
     private lateinit var activatingPackageAlertDialog: AlertDialog
-
-    private var statisticsInitBundle: Bundle? = null
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -107,36 +103,12 @@ class MainActivity : AppCompatActivity(),
         })
     }
 
-//    private fun setViewListeners(){
-//        bottomNavView.setOnItemSelectedListener {
-//            when(it.itemId){
-//                R.id.home -> {
-//                    gotoHomeFragment()
-//
-//                }
-//                R.id.statistics ->{
-////
-//                    gotoStatisticsFragment()
-//                }
-//            }
-//            true
-//        }
-//    }
-
     private fun gotoHomeFragment(){
         title = resources.getString(R.string.app_name)
-        header.visibility = View.VISIBLE
+//        header.visibility = View.VISIBLE
         val homeFragment = HomeFragment.newInstance()
         replaceFragment(homeFragment, 0)
     }
-
-//    private fun gotoStatisticsFragment(){
-//        title = resources.getString(R.string.statistics)
-//        header.visibility = View.GONE
-//        statisticsInitBundle = intent.getBundleExtra(INIT_DATA_BUNDLE)
-//        val statisticsFragment = StatisticsFragment.newInstance(statisticsInitBundle)
-//        replaceFragment(statisticsFragment, 1)
-//    }
 
     private fun replaceFragment(fragment: Fragment, currentFragmentIndex: Int){
         this.currentFragmentIndex = currentFragmentIndex
@@ -152,13 +124,6 @@ class MainActivity : AppCompatActivity(),
         super.onResume()
         mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
         gotoHomeFragment()
-
-//        if(currentFragmentIndex!! == 0){
-//            mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
-//            gotoHomeFragment()
-//        }else{
-//            gotoStatisticsFragment()
-//        }
 
     }
 
@@ -315,26 +280,13 @@ class MainActivity : AppCompatActivity(),
         val alertDialog = AlertDialog.Builder(this)
         val view = this.layoutInflater.inflate(R.layout.package_activation_failed_dialog, null)
         val tvFailedMessage: TextView = view.findViewById(R.id.tvPackageActivationFailed)
-        tvFailedMessage.text = "$packageType ${resources.getString(R.string.activation_failed)}"
+        tvFailedMessage.text = "${resources.getString(R.string.failed_to_activate_package)} $packageType "
         alertDialog.apply {
             setView(view)
             setPositiveButton("Ok") { _, _ ->
             }
         }.create().show()
     }
-
-//    override fun onRecyclerViewItemClicked(position: Int) {
-//        gotoSubjectStatisticsTabActivity(mainActivityViewModel.getSubjectAndFileNameDataAt(position))
-//    }
-
-//    private fun gotoSubjectStatisticsTabActivity(subjectAndFileNameData: SubjectAndFileNameData) {
-//        val intent = Intent(this, SubjectStatisticsTabActivity::class.java)
-//
-//        val bundle = Bundle()
-//        bundle.putSerializable("subject_and_file_name_data", subjectAndFileNameData)
-//        intent.putExtra("bundle", bundle)
-//        startActivity(intent)
-//    }
 
     override fun onPackageActivated(): LiveData<Int> {
         return mainActivityViewModel.activatedPackageIndexChangedAt
@@ -376,7 +328,7 @@ class MainActivity : AppCompatActivity(),
         val tvPackageActivationSuccessful: TextView =
             view.findViewById(R.id.tvPackageActivationSuccessful)
         tvPackageActivationSuccessful.text =
-            "${mainActivityViewModel.getActivatedPackageName(position)} ${resources.getString(R.string.activation_successful)}"
+            "${mainActivityViewModel.getActivatedPackageName(position)} ${resources.getString(R.string.activated_successfully)}"
         alertDialog.apply {
             setView(view)
             setPositiveButton("Ok") { _, _ ->

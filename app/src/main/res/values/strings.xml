@@ -91,9 +91,9 @@
     <string name="subjects">Subjects</string>
     <string name="retry_message">Your current score for this section will be reset to zero</string>
     <string name="_continue">Continue</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Cancel</string>access to all contents
     <string name="payment_received">Payment received successfully</string>
-    <string name="content_access_denied_Message">This content is not available in TRIAL mode. Please subscribe to any of the available packages to have full access to all contents</string>
+    <string name="content_access_denied_Message">This content is not available with TRIAL package. Please subscribe to another package to gain access to all contents</string>
     <string name="grade">Grade</string>
     <string name="lowest">Lowest</string>
     <string name="highest">Highest</string>
@@ -110,6 +110,9 @@
     <string name="has_been_answered">has been answered</string>
     <string name="activated_successfully">activated successfully</string>
 
+    <string name="exit">Exit</string>
+
+
     <string-array name="paper_instruction">
         <item>contains</item>
         <item>questions divided into</item>
@@ -122,6 +125,7 @@
         <string name="minimum_percentage">40%</string>
     <string name="rate_us">Rate us</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="failed_to_activate_package">Failed to activate</string>
 
     <string-array name="package_types">
         <item>MCQ 1H</item>
