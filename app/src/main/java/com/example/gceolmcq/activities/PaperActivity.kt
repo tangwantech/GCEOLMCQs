@@ -277,6 +277,10 @@ class PaperActivity : AppCompatActivity(),
         return paperActivityViewModel.getTotalNumberOfQuestions()
     }
 
+    override fun onRequestSectionsScores(): ArrayList<Int> {
+        return paperActivityViewModel.getSectionScores()
+    }
+
     override fun onRequestToGoToResult(sectionResultData: SectionResultData) {
         gotoResult(sectionResultData)
     }

@@ -100,11 +100,11 @@
           "nonSelectableOptions": null,
           "selectableOptions": [
             "Shivering.",
-            "Vasodilation.",
-            "Vasoconstriction.",
+            "Vaso-dilation.",
+            "Vaso-constriction.",
             "Increased metabolism."
           ],
-          "wordAnswer": "Vasodilation."
+          "wordAnswer": "Vaso-dilation."
         }
       ]
     },
@@ -245,12 +245,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "2."
+          "wordAnswer": "2"
         },
         {
           "questionNumber": "18",
@@ -499,7 +499,7 @@
             "Restriction enzyme.",
             "Enterokinase."
           ],
-          "wordAnswer": "Ligase."
+          "wordAnswer": "Restriction enzyme."
         },
         {
           "questionNumber": "32",
@@ -691,7 +691,7 @@
         },
         {
           "questionNumber": "45",
-          "question": "The following is a food chain. Grass -> Grasshopper -> Bird -> Dog. In which organism is energy most likely to be abundant?",
+          "question": "The following is a food chain. Grass-->Grasshopper-->Bird-->Dog. In which organism is energy most likely to be abundant?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

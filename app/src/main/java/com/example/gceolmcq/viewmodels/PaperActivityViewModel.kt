@@ -48,6 +48,8 @@ class PaperActivityViewModel:ViewModel() {
     private val _isPackageActivated = MutableLiveData<Boolean>()
     val isPackageActivated: LiveData<Boolean> = _isPackageActivated
 
+//    private var sectionNameBundleList: Array<Bundle>? = null
+
 
     init {
         sectionScores.value = ArrayList()
@@ -158,6 +160,10 @@ class PaperActivityViewModel:ViewModel() {
         sectionScores.value!![sectionIndex] = score
         updatePaperScore(sectionScores.value!!)
 
+    }
+
+    fun getSectionScores(): ArrayList<Int>{
+        return sectionScores.value!!
     }
 
     fun resetSectionScore(sectionIndex: Int){

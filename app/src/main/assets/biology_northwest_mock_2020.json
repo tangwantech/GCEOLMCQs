@@ -498,12 +498,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Producer",
-            "Consumer",
-            "Decomposer",
-            "Herbivore"
+            "Producers",
+            "Consumers",
+            "Decomposers",
+            "Herbivores"
           ],
-          "wordAnswer": "Herbivore"
+          "wordAnswer": "Herbivores"
         },
         {
           "questionNumber": "32",

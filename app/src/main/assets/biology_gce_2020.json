@@ -606,12 +606,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Lettuce --> grasshopper --> hawk --> chicken",
-            "Lettuce --> hawk--> chicken--> grasshopper",
-            "Lettuce --> grasshopper --> chicken --> hawk",
-            "Lettuce --> chicken --> hawk --> grasshopper"
+            "Lettuce-->grasshopper-->hawk-->chicken",
+            "Lettuce-->hawk-->chicken-->grasshopper",
+            "Lettuce-->grasshopper-->chicken-->hawk",
+            "Lettuce-->chicken-->hawk-->grasshopper"
           ],
-          "wordAnswer": "Lettuce --> grasshopper --> chicken --> hawk"
+          "wordAnswer": "Lettuce-->grasshopper-->chicken-->hawk"
         },
         {
           "questionNumber": "40",
@@ -677,7 +677,7 @@
         },
         {
           "questionNumber": "44",
-          "question": "In setting up a potometer, it is important to cut and mount the leafy shoot under water s as to",
+          "question": "In setting up a potometer, it is important to cut and mount the leafy shoot under water so as to",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

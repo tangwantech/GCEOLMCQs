@@ -37,7 +37,7 @@ class InitializingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_initializing)
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         supportActionBar?.hide()
-        networkConnectionLiveData = NetworkConnectionLiveData(application)
+//        networkConnectionLiveData = NetworkConnectionLiveData(application)
         setupViewModel()
         initViews()
         setUpViewObservers()
@@ -57,11 +57,11 @@ class InitializingActivity : AppCompatActivity() {
     }
 
     private fun setUpViewObservers(){
-        initializingActivityViewModel.timeout.observe(this) {
-           if(it){
-               initializingActivityViewModel.setIsAppInitialisedFalse()
-           }
-        }
+//        initializingActivityViewModel.timeout.observe(this) {
+//           if(it){
+//               initializingActivityViewModel.setIsAppInitialisedFalse()
+//           }
+//        }
         getJsonFromAssets()?.let {
 
             initializingActivityViewModel.initSubjectAndFileNameDataList(it)

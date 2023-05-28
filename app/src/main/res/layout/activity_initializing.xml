@@ -35,18 +35,23 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_minimum_height"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_16">
 
         <ProgressBar
             android:id="@+id/indeterminateProgressBar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:indeterminate="true"
-            android:indeterminateTint="@color/color_primary_dark" />
-
-<!--        <androidx.core.widget.ContentLoadingProgressBar-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="@dimen/button_minimum_height"/>-->
+            android:indeterminateTint="@color/color_primary_dark"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Initializing..."
+            android:gravity="center"
+            android:textSize="@dimen/text_size_24"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
     </LinearLayout>
 
 </RelativeLayout>

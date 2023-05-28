@@ -2,7 +2,6 @@ package com.example.gceolmcq.viewmodels
 
 
 import android.os.CountDownTimer
-import android.text.format.Time
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -16,7 +15,9 @@ import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.google.gson.Gson
 import com.parse.ParseObject
 import com.parse.ParseQuery
-import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -32,6 +33,7 @@ private const val TRIAL_PACKAGE_DURATION = 3
 
 class InitializingActivityViewModel : ViewModel() {
     private val myNetworkTimeout = MyNetworkTimeout()
+
     private val _timeout: MutableLiveData<Boolean> = myNetworkTimeout.timeout
     val timeout: LiveData<Boolean> = _timeout
 
@@ -40,21 +42,16 @@ class InitializingActivityViewModel : ViewModel() {
 
     private lateinit var gceOLMcqDatabase: GceOLMcqDatabase
 
-    private var back4AppParseObjectId = MutableLiveData<String?>()
+    private var back4AppParseObject = MutableLiveData<ParseObject>()
     private var mobileId: String? = null
 
     private val mutableExpiresOnList = MutableLiveData<ArrayList<String>?>()
     private val mutableSubjectPackageDataList = MutableLiveData<ArrayList<SubjectPackageData>?>()
 
     private val _isMcqAppInitialised = MutableLiveData<Boolean?>()
-    val isMcqAppInitialised:  LiveData<Boolean?> = _isMcqAppInitialised
-    private val query: ParseQuery<ParseObject> = ParseQuery(BACK4APP_PACKAGE_NAME)
-    private var back4AppParseObject: ParseObject? = null
+    val isMcqAppInitialised: LiveData<Boolean?> = _isMcqAppInitialised
 
-    private val milliSecPerQuestion: Long = 30000L
-    private var networkTimeoutDuration: Long = 5000L
-    private val countDownInterval = 1000L
-    private lateinit var timer: CountDownTimer
+    private val query: ParseQuery<ParseObject> = ParseQuery.getQuery(BACK4APP_PACKAGE_NAME)
 
     init {
 
@@ -67,20 +64,12 @@ class InitializingActivityViewModel : ViewModel() {
         this.gceOLMcqDatabase = gceOLMcqDatabase
     }
 
-    fun initialiseApp(subjectsDataJsonString: String?): LiveData<Boolean?> {
-        initSubjectAndFileNameDataList(subjectsDataJsonString)
-        return _isMcqAppInitialised
-    }
-
     fun initSubjectAndFileNameDataList(subjectsDataJsonString: String?) {
         subjectAndFileNameDataList =
             Gson().fromJson(subjectsDataJsonString, SubjectAndFileNameDataList::class.java)
-        if(subjectAndFileNameDataList.subjectAndFileNameDataArrayList.isNotEmpty()){
+        if (subjectAndFileNameDataList.subjectAndFileNameDataArrayList.isNotEmpty()) {
             initSubjectNames()
         }
-        println(subjectAndFileNameDataList)
-//        initSubjectNames()
-//        setSubjectPackageDataListFromLocalDatabase()
     }
 
     private fun setSubjectPackageDataListFromLocalDatabase() {
@@ -100,22 +89,15 @@ class InitializingActivityViewModel : ViewModel() {
                         expiryDataList.add(it.expiresOn!!)
                     }
 
-//                    println("Package database is not empty")
                     syncSubjectPackageList(packageDataList, expiryDataList)
-//                    setLocalInitData(packageDataList, expiryDataList, true)
-                    return@withContext
 
                 } else {
                     queryBack4AppSubjectPackageByMobileId()
-//                    _startNetworkCheck.postValue(true)
-//                    queryBack4App()
 
                 }
             }
         }
 
-
-//
     }
 
     private fun syncSubjectPackageList(
@@ -152,30 +134,26 @@ class InitializingActivityViewModel : ViewModel() {
 //
     }
 
-     private suspend fun queryBack4AppSubjectPackageByMobileId() {
-         println("Query back4app")
-//        val query: ParseQuery<ParseObject> = ParseQuery(BACK4APP_PACKAGE_NAME)
-        query.cancel()
-        query.whereContains("mobileId", mobileId)
-        query.limit = 1
+    private fun queryBack4AppSubjectPackageByMobileId() {
+        println("Query back4app")
 
-         myNetworkTimeout.startTimer(10000L, 1000L)
+//        query.cancel()
+        query.whereEqualTo("mobileId", mobileId)
+//        query.limit = 1
+//        checkForNetworkTimeout()
+
 //         startTimer()
         query.findInBackground { objects, e ->
             val packageDataList = ArrayList<SubjectPackageData>()
             val expiryDataList = ArrayList<String>()
-
+            println("ParseObjects: $objects")
             if (e == null) {
-//                println("ParseObjects: $objects")
+
                 if (objects.isNotEmpty()) {
-//                    back4AppParseObjectId.value = objects[0].objectId
+                    back4AppParseObject.value = objects[0]
 
-                    back4AppParseObject = objects[0]
-
-//
-//                    val packageDataList = ArrayList<SubjectPackageData>()
                     val jsonArraySubjectPackages: JSONArray? =
-                        back4AppParseObject!!.getJSONArray("jsonArraySubjectPackages")
+                        back4AppParseObject.value!!.getJSONArray("jsonArraySubjectPackages")
                     for (index in 0 until jsonArraySubjectPackages!!.length()) {
 
                         val jsonObject = jsonArraySubjectPackages.getJSONObject(index)
@@ -195,37 +173,23 @@ class InitializingActivityViewModel : ViewModel() {
                     syncSubjectPackageList(packageDataList, expiryDataList)
 //                    setLocalInitData(packageDataList, expiryDataList, true)
 //                    saveCurrentPackageToLocalDB(packageDataList)
-
-                    return@findInBackground
 //
 
                 } else {
                     println("back4App data list is empty")
                     activateTrialAccounts()
-//                    saveCurrentPackageToBack4App()
+//
 
                 }
 
             } else {
-//                mutableBck4AppSubjectPackageDataList.value = null
                 println("exception.... ${e.localizedMessage}")
-//                _isMcqAppInitialised.value = false
                 setInitData(null, null, false)
 
 
             }
         }
     }
-
-//    private fun setLocalInitData(
-//        packageDataList: ArrayList<SubjectPackageData>?,
-//        expiresOnList: ArrayList<String>?,
-//        isMcqAppInitialised: Boolean?
-//    ) {
-//        mutableSubjectPackageDataList.value = packageDataList
-//        mutableExpiresOnList.value = expiresOnList
-//        this._isMcqAppInitialised.value = isMcqAppInitialised
-//    }
 
     private fun setInitData(
         packageDataList: ArrayList<SubjectPackageData>?,
@@ -235,10 +199,9 @@ class InitializingActivityViewModel : ViewModel() {
         mutableSubjectPackageDataList.value = packageDataList
         mutableExpiresOnList.value = expiresOnList
 
-        saveCurrentPackageToBack4App(packageDataList)
+//        saveCurrentPackageToBack4App(packageDataList)
         saveCurrentPackageToLocalDB(packageDataList)
         this._isMcqAppInitialised.value = isMcqAppInitialised
-
 
 
     }
@@ -249,7 +212,7 @@ class InitializingActivityViewModel : ViewModel() {
         }
 
         println("subject names: $subjectNames")
-        if(subjectNames.isNotEmpty()){
+        if (subjectNames.isNotEmpty()) {
             setSubjectPackageDataListFromLocalDatabase()
         }
     }
@@ -293,8 +256,9 @@ class InitializingActivityViewModel : ViewModel() {
             expiryDataList.add(activationExpiryDates.expiresOn)
 
         }
-
+        saveCurrentPackageToBack4App(packageDataList)
         setInitData(packageDataList, expiryDataList, true)
+
 
 //        println("Trial accounts activated ${mutableSubjectPackageDataList.value}")
 
@@ -308,11 +272,6 @@ class InitializingActivityViewModel : ViewModel() {
     fun setMobileId(ID: String) {
         mobileId = ID
         println("device id: $ID")
-    }
-
-
-    fun nullifyIsAppInitialised() {
-        _isMcqAppInitialised.value = null
     }
 
     private fun saveCurrentPackageToLocalDB(subjectPackageDataList: List<SubjectPackageData>?) {
@@ -329,19 +288,12 @@ class InitializingActivityViewModel : ViewModel() {
     }
 
     private fun saveCurrentPackageToBack4App(subjectPackageDataList: List<SubjectPackageData>?) {
-        val query: ParseQuery<ParseObject> = ParseQuery.getQuery(BACK4APP_PACKAGE_NAME)
-        query.whereEqualTo("mobileId", mobileId)
-        query.findInBackground { objects, e ->
-            if(e == null){
-                objects.forEach {
-                    it.deleteInBackground()
-                }
-            }
-        }
 
         subjectPackageDataList?.let {
-            val back4AppParseObject = ParseObject(BACK4APP_PACKAGE_NAME)
-
+            if(back4AppParseObject.value == null){
+                println("Object is null....")
+                back4AppParseObject.value = ParseObject(BACK4APP_PACKAGE_NAME)
+            }
             val jsonArray = JSONArray()
             subjectPackageDataList.forEachIndexed { _, subjectPackageData ->
                 val jsonObject = JSONObject()
@@ -356,55 +308,39 @@ class InitializingActivityViewModel : ViewModel() {
 
             }
 
-            back4AppParseObject.put(MOBILE_ID, mobileId!!)
-            back4AppParseObject.put(JSON_ARRAY_SUBJECT_PACKAGES, jsonArray)
+            back4AppParseObject.value?.put(MOBILE_ID, mobileId!!)
+            back4AppParseObject.value?.put(JSON_ARRAY_SUBJECT_PACKAGES, jsonArray)
 //        back4AppParseObject.saveEventually()
-            back4AppParseObject.saveInBackground {
+            back4AppParseObject.value?.saveInBackground {
                 println("Saving......")
                 if (it == null) {
 //                isMcqAppInitialised.value = true
                     println("Saving to Back4App database successful......")
                 } else {
-                    back4AppParseObjectId.value = null
+//                    back4AppParseObjectId.value = null
                 }
             }
+//
 
-        }
-    }
-
-    private fun insertSubjectPackageDataInDatabase(subjectPackageData: SubjectPackageData) {
-        viewModelScope.launch(Dispatchers.IO) {
-            gceOLMcqDatabase.subjectPackageDao().insert(subjectPackageData)
 
 
         }
     }
 
-    private fun startTimer() {
-        timer = object : CountDownTimer(networkTimeoutDuration, countDownInterval) {
-            override fun onTick(p0: Long) {
-                val t = Time()
-                t.set(p0)
-            }
-
-            override fun onFinish() {
-                _timeout.value = true
-            }
-
-        }.start()
+    fun cancelNetworkQuery() {
+        query.cancel()
+        myNetworkTimeout.cancelTimer()
     }
 
-    fun cancelNetworkQuery(){
-//        myNetworkTimeout.cancelTimer()
-        query.cancel()
-    }
-
-    fun setIsAppInitialisedFalse(){
-        query.cancel()
+    fun setIsAppInitialisedFalse() {
+//        query.cancel()
         _isMcqAppInitialised.value = false
     }
 
+    private fun checkForNetworkTimeout() {
+        myNetworkTimeout.startTimer(15000L, 1000L)
 
+    }
 
 
 }

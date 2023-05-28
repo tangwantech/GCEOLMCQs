@@ -10,7 +10,7 @@
       "questions": [
         {
           "questionNumber": "1",
-          "question": "In fungi, which of the following is the main component of te cell wall? ",
+          "question": "In fungi, which of the following is the main component of the cell wall? ",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -80,7 +80,7 @@
         },
         {
           "questionNumber": "6",
-          "question": "Which of te hormones listed below causes an increase in heartbeat when secreted in blood?",
+          "question": "Which of the hormones listed below causes an increase in heartbeat when secreted in blood?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -127,12 +127,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Nose -> trachea -> bronchi -> bronchioles.",
-            "Nostrils -> trachea -> bronchi -> bronchioles -> alveoli.",
-            "Nose -> bronchioles -> trachea -> alveoli.",
-            "Nostrils -> bronchi -> trachea -> bronchioles -> alveoli."
+            "Nose-->trachea-->bronchi-->bronchioles",
+            "Nostrils-->trachea-->bronchi-->bronchioles-->alveoli",
+            "Nose-->bronchioles-->trachea-->alveoli",
+            "Nostrils-->bronchi-->trachea-->bronchioles-->alveoli"
           ],
-          "wordAnswer": "Nostrils -> trachea -> bronchi -> bronchioles -> alveoli."
+          "wordAnswer": "Nostrils-->trachea-->bronchi-->bronchioles-->alveoli"
         }
       ]
     },
@@ -147,26 +147,26 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "4.",
-            "3.",
-            "9.",
-            "5."
+            "4",
+            "3",
+            "9",
+            "5"
           ],
-          "wordAnswer": "5."
+          "wordAnswer": "5"
         },
         {
           "questionNumber": "11",
-          "question": "Where is completely digested food absorbed into te blood stream?",
+          "question": "Where is completely digested food absorbed into the blood stream?",
           "image": "human_digestive_system_west_mock_2018.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "2.",
-            "9.",
-            "10.",
-            "11."
+            "2",
+            "9",
+            "10",
+            "11"
           ],
-          "wordAnswer": "11."
+          "wordAnswer": "11"
         },
         {
           "questionNumber": "12",
@@ -175,12 +175,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "4.",
-            "9.",
-            "12."
+            "1",
+            "4",
+            "9",
+            "12"
           ],
-          "wordAnswer": "1."
+          "wordAnswer": "1"
         },
         {
           "questionNumber": "13",
@@ -189,12 +189,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "3.",
-            "6.",
-            "10.",
-            "12."
+            "3",
+            "6",
+            "10",
+            "12"
           ],
-          "wordAnswer": "10."
+          "wordAnswer": "10"
         },
         {
           "questionNumber": "14",
@@ -203,12 +203,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "2."
+          "wordAnswer": "2"
         },
         {
           "questionNumber": "15",
@@ -217,12 +217,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "3."
+          "wordAnswer": "3"
         },
         {
           "questionNumber": "16",
@@ -231,12 +231,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "4."
+          "wordAnswer": "4"
         },
         {
           "questionNumber": "17",
@@ -245,12 +245,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "2."
+          "wordAnswer": "2"
         },
         {
           "questionNumber": "18",
@@ -259,12 +259,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "2.",
-            "3.",
-            "4.",
-            "5."
+            "2",
+            "3",
+            "4",
+            "5"
           ],
-          "wordAnswer": "5."
+          "wordAnswer": "5"
         },
         {
           "questionNumber": "19",
@@ -273,12 +273,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "1."
+          "wordAnswer": "1"
         },
         {
           "questionNumber": "20",
@@ -287,12 +287,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "3."
+          "wordAnswer": "3"
         }
       ]
     },

@@ -3,10 +3,6 @@
     {
       "subject": "Biology",
       "fileName": "biology_data.json"
-    },
-    {
-      "subject": "Human Biology",
-      "fileName": "human_biology_data.json"
     }
   ]
 }

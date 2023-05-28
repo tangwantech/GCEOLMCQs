@@ -19,7 +19,7 @@ import com.example.gceolmcq.datamodels.SectionResultData
 import com.example.gceolmcq.viewmodels.SectionResultFragmentViewModel
 
 private const val SECTION_RESULT_DATA = "Section Result data"
-private const val MINIMUM_PERCENTAGE = 40
+private const val MINIMUM_PERCENTAGE = 30
 
 class SectionResultFragment : Fragment() {
 

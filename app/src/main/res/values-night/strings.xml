@@ -92,9 +92,9 @@
     <string name="subjects">Subjects</string>
     <string name="retry_message">Your current score for this section will be reset to zero</string>
     <string name="_continue">Continue</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Cancel</string>access to all contents
     <string name="payment_received">Payment received successfully</string>
-    <string name="content_access_denied_Message">This content is not available in TRIAL mode. Please subscribe to any of the available packages to have full access to all contents</string>
+    <string name="content_access_denied_Message">This content is not available with TRIAL package. Please subscribe to another package to gain access to all contents</string>
     <string name="grade">Grade</string>
     <string name="lowest">Lowest</string>
     <string name="highest">Highest</string>
@@ -111,6 +111,9 @@
     <string name="has_been_answered">has been answered</string>
     <string name="activated_successfully">activated successfully</string>
 
+    <string name="exit">Exit</string>
+
+
     <string-array name="paper_instruction">
         <item>contains</item>
         <item>questions divided into</item>
@@ -123,32 +126,33 @@
     <string name="minimum_percentage">40%</string>
     <string name="rate_us">Rate us</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="failed_to_activate_package">Failed to activate</string>
 
     <string-array name="package_types">
         <item>MCQ 1H</item>
         <item>MCQ 2H</item>
-        <item>MCQ 3H</item>
-        <item>MCQ 4H</item>
-        <item>MCQ 5H</item>
-        <item>MCQ 6H</item>
+        <!--        <item>MCQ 3H</item>-->
+        <!--        <item>MCQ 4H</item>-->
+        <!--        <item>MCQ 5H</item>-->
+        <!--        <item>MCQ 6H</item>-->
     </string-array>
 
     <string-array name="package_durations">
         <item>1</item>
         <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
+        <!--        <item>3</item>-->
+        <!--        <item>4</item>-->
+        <!--        <item>5</item>-->
+        <!--        <item>6</item>-->
     </string-array>
 
     <string-array name="package_prices">
-        <item>75</item>
-        <item>150</item>
-        <item>225</item>
-        <item>300</item>
-        <item>350</item>
-        <item>425</item>
+        <item>50</item>
+        <item>100</item>
+        <!--        <item>150</item>-->
+        <!--        <item>200</item>-->
+        <!--        <item>250</item>-->
+        <!--        <item>300</item>-->
     </string-array>
 
     <string-array name="momo_partners">
@@ -156,11 +160,11 @@
         <item>ORANGE</item>
     </string-array>
     <string-array name="sections">
-        <item>section 1</item>
-        <item>section 2</item>
-        <item>section 3</item>
-        <item>section 4</item>
-        <item>section 5</item>
-        <item>section 6</item>
+        <item>section I</item>
+        <item>section II</item>
+        <item>section III</item>
+        <item>section IV</item>
+        <item>section V</item>
+        <item>section VI</item>
     </string-array>
 </resources>

@@ -34,7 +34,7 @@
             "Multicellular and holozoic",
             "Multicelular and saprophytic"
           ],
-          "wordAnswer": "Unicellular an autotrophic"
+          "wordAnswer": "Unicellular and autotrophic"
         },
         {
           "questionNumber": "3",
@@ -94,7 +94,7 @@
         },
         {
           "questionNumber": "7",
-          "question": "Rennin is produced in:",
+          "question": "Renin is produced in:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -184,7 +184,7 @@
         },
         {
           "questionNumber": "13",
-          "question": "The function of the part labelled 4 is to",
+          "question": "The function of the part labeled 4 is to",
           "image": "joint_june_2017.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -262,7 +262,7 @@
             "The aorta carries oxygenated blood out of the left atrium.",
             "The wall of the left ventricle is thicker than that of the right ventricle.",
             "The tricuspid valve separates the left atrium and the left ventricle.",
-            "A semi-lunar valve prevents backward flow of blood into the right atrim."
+            "A semi-lunar valve prevents backward flow of blood into the right atrium."
           ],
           "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle."
         },
@@ -733,7 +733,7 @@
         },
         {
           "questionNumber": "48",
-          "question": "What will be the possible parental genotypes of an individual wit blood group O?",
+          "question": "What will be the possible parental genotypes of an individual with blood group O?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

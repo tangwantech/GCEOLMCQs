@@ -133,12 +133,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Dendrite -> Dendron -> Axon -> Effector.",
-            "Dendron -> Dendrite -> Axon -> Effector.",
-            "Dendrite -> Axon -> Dendron -> Effector.",
-            "Axon -> Dendron -> Dendrite -> Effector."
+            "Dendrite-->Dendron-->Axon-->Effector.",
+            "Dendron-->Dendrite-->Axon-->Effector.",
+            "Dendrite-->Axon-->Dendron-->Effector.",
+            "Axon-->Dendron-->Dendrite-->Effector."
           ],
-          "wordAnswer": "Dendrite -> Dendron -> Axon -> Effector."
+          "wordAnswer": "Dendrite-->Dendron-->Axon-->Effector."
         },
         {
           "questionNumber": "10",
@@ -374,7 +374,7 @@
         },
         {
           "questionNumber": "25",
-          "question": "Auxins;",
+          "question": "Auxin;",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": [
@@ -673,7 +673,7 @@
             "Flask K (Pyrogallic acid), Flask L (Caustic soda), Gas (Carbon dioxide)",
             "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
           ],
-          "wordAnswer": "Flask (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
+          "wordAnswer": "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
         },
         {
           "questionNumber": "44",
@@ -740,14 +740,14 @@
           "selectableOptions": [
             "are numerous.",
             "can withstand atmospheric conditions.",
-            "are capable of converting solar energy.",
+            "are capable of converting solar energy into chemical energy.",
             "have roots that anchor them into the soil."
           ],
-          "wordAnswer": "are capable of converting solar energy."
+          "wordAnswer": "are capable of converting solar energy into chemical energy."
         },
         {
           "questionNumber": "49",
-          "question": "The following is a food chain. Grass -> Grasshopper -> Praying mantis -> Toad. Which organism in the food chain is a secondary consumer?",
+          "question": "The following is a food chain. Grass-->Grasshopper-->Praying mantis-->Toad. Which organism in the food chain is a secondary consumer?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

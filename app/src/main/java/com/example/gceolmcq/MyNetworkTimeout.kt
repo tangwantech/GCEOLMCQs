@@ -8,7 +8,7 @@ import androidx.lifecycle.MutableLiveData
 class MyNetworkTimeout {
 
     val timeout: MutableLiveData<Boolean> = MutableLiveData()
-    private lateinit var timer: CountDownTimer
+    private var timer: CountDownTimer? = null
 
     fun startTimer(networkTimeoutDuration: Long, countDownInterval: Long=1000L) {
         timer = object : CountDownTimer(networkTimeoutDuration, countDownInterval) {
@@ -25,6 +25,7 @@ class MyNetworkTimeout {
     }
 
     fun cancelTimer(){
-        timer.cancel()
+        timer?.cancel()
+
     }
 }

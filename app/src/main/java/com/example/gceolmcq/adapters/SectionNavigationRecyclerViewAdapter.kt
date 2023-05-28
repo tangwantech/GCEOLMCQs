@@ -20,11 +20,14 @@ class SectionNavigationRecyclerViewAdapter(
 ) :
     RecyclerView.Adapter<SectionNavigationRecyclerViewAdapter.ViewHolder>() {
 
+    private var sectionScores: ArrayList<Int>? = null
+
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val tvSectionNavItem: TextView = view.findViewById(R.id.tvSectionNavItem)
         val tvSectionNumberOfQuestions: TextView = view.findViewById(R.id.tvSectionNumberOfQuestions)
         val sectionNavItemLayout: LinearLayout = view.findViewById(R.id.sectionNavItemLayout)
         val imgSectionAnsweredCheck: ImageView = view.findViewById(R.id.imgSectionAnsweredCheck)
+        val tvSectionScore: TextView = view.findViewById(R.id.tvSectionScore)
 
         init{
             sectionNavItemLayout.setOnClickListener{
@@ -48,13 +51,27 @@ class SectionNavigationRecyclerViewAdapter(
         holder.tvSectionNumberOfQuestions.text = "Number of questions: ${listSections[position].getString("numberOfQuestions")}"
 
         if(sectionsAnswered[position]){
+            val numberOfQuestionsInSection = listSections[position].getString("numberOfQuestions")?.toInt()
+            val sectionScore = sectionScores!![position]
+            val scorePercentage =(( sectionScore.toDouble() / numberOfQuestionsInSection!!.toDouble()) * 100).toInt()
             holder.tvSectionNavItem.setTextColor(context.resources.getColor(R.color.color_primary_dark))
             holder.tvSectionNumberOfQuestions.setTextColor(context.resources.getColor(R.color.color_primary_dark))
             holder.imgSectionAnsweredCheck.visibility = View.VISIBLE
+            holder.tvSectionScore.visibility = View.VISIBLE
+            holder.tvSectionScore.text = "$sectionScore/$numberOfQuestionsInSection"
+
+            if (scorePercentage > 50){
+                holder.tvSectionScore.setTextColor(context.resources.getColor(R.color.blue_color))
+            }else{
+                holder.tvSectionScore.setTextColor(context.resources.getColor(R.color.red_color))
+            }
 //            holder.sectionNavItemLayout.isEnabled = false
+
+
 
         }else{
             holder.imgSectionAnsweredCheck.visibility = View.GONE
+            holder.tvSectionScore.visibility = View.GONE
         }
 
 
@@ -62,6 +79,10 @@ class SectionNavigationRecyclerViewAdapter(
 
     override fun getItemCount(): Int {
         return listSections.size
+    }
+
+    fun updateSectionScore(sectionScores: ArrayList<Int>){
+        this.sectionScores = sectionScores
     }
 
     interface OnRecyclerItemClickListener{

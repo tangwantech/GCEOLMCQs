@@ -100,18 +100,23 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
 
     override fun onRecyclerItemClick(position: Int) {
 
-        if(requireArguments().getString("packageName")!! == requireContext().getString(R.string.trial)){
-            if(position == 0){
-                gotoPaperActivity(position)
-            }else{
-                onContentAccessDeniedListener.onContentAccessDenied()
-            }
+//        if(requireArguments().getString("packageName")!! == requireContext().getString(R.string.trial)){
+//            if(position == 0){
+//                gotoPaperActivity(position)
+//            }else{
+//                onContentAccessDeniedListener.onContentAccessDenied()
+//            }
+//        }else{
+//            if(!onPackageExpiredListener.onCheckIfPackageHasExpired()){
+//                onPackageExpiredListener.onShowPackageExpired()
+//            }else{
+//                gotoPaperActivity(position)
+//            }
+//        }
+        if(!onPackageExpiredListener.onCheckIfPackageHasExpired()){
+            onPackageExpiredListener.onShowPackageExpired()
         }else{
-            if(!onPackageExpiredListener.onCheckIfPackageHasExpired()){
-                onPackageExpiredListener.onShowPackageExpired()
-            }else{
-                gotoPaperActivity(position)
-            }
+            gotoPaperActivity(position)
         }
 
     }

@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.gceolmcq.datamodels.*
-private const val MILLISEC_PER_QUESTION = 80000L
+private const val MILLISEC_PER_QUESTION = 50000L
 private const val COUNT_DOWN_INTERVAL = 1000L
 private const val TIME_TO_ANIMATE_TIMER = 20000L
 

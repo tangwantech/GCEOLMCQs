@@ -75,12 +75,28 @@ class ResourceImages {
             images["human_blood_sample_result_june_2022.jpg"] = R.drawable.human_blood_sample_result_june_2022
 
 //            Mock images
+
 //            Northwest mock 2020
             images["animal_cell_northwest_mock_2020.jpg"] = R.drawable.animal_cell_northwest_mock_2020
             images["graph_menstrual_cycle_northwest_mock_2020.jpg"] = R.drawable.graph_menstrual_cycle_northwest_mock_2020
             images["respiratory_system_northwest_mock_2020.jpg"] = R.drawable.respiratory_system_northwest_mock_2020
             images["ls_human_brain_northwest_mock_2020.jpg"] = R.drawable.ls_human_brain_northwest_mock_2020
             images["setup_photosynthesis_northwest_mock_2020.jpg"] = R.drawable.setup_photosynthesis_northwest_mock_2020
+
+//            2021
+
+//            2022
+
+//            2023
+            images["nitrogen_cycle_nw_mock_2023.jpg"] = R.drawable.nitrogen_cycle_nw_mock_2023
+            images["kidney_nw_mock_2023.jpg"] = R.drawable.kidney_nw_mock_2023
+            images["skin_nw_mock_2023.jpg"] = R.drawable.skin_nw_mock_2023
+            images["respiratory_system_nw_mock_2023.jpg"] = R.drawable.respiratory_system_nw_mock_2023
+            images["experiment_respiration_nw_mock_2023.jpg"] = R.drawable.experiment_respiration_nw_mock_2023
+
+
+
+
 
 //            West mock
 //            2016
@@ -89,6 +105,8 @@ class ResourceImages {
             images["fish_west_mock_2016.jpg"] = R.drawable.fish_west_mock_2016
             images["co2_collected_vs_time_west_mock_2016.jpg"] = R.drawable.co2_collected_vs_time_west_mock_2016
 
+//            2017
+
 //            2018
             images["human_digestive_system_west_mock_2018.jpg"] = R.drawable.human_digestive_system_west_mock_2018
             images["ls_flower_west_mock_2018.jpg"] = R.drawable.ls_flower_west_mock_2018
@@ -96,6 +114,26 @@ class ResourceImages {
             images["setup_respiration_west_mock_2018.jpg"] = R.drawable.setup_respiration_west_mock_2018
             images["equation_photosynthesis_west_mock_2018.jpg"] = R.drawable.equation_photosynthesis_west_mock_2018
             images["table_menstrual_cycle_west_mock_2018.jpg"] = R.drawable.table_menstrual_cycle_west_mock_2018
+
+//            2019
+
+//            2020
+
+//            2021
+
+//            2022
+
+//            2023
+            images["carbon_cycle_west_mock_2023.jpg"] = R.drawable.carbon_cycle_west_mock_2023
+            images["part_digestive_system_west_mock_2023.jpg"] = R.drawable.part_digestive_system_west_mock_2023
+            images["lungs_west_mock_2023.jpg"] = R.drawable.lungs_west_mock_2023
+            images["yeast_cell_west_mock_2023.jpg"] = R.drawable.yeast_cell_west_mock_2023
+            images["foetus_west_mock_2023.jpg"] = R.drawable.foetus_west_mock_2023
+            images["plant_cell_west_mock_2023.jpg"] = R.drawable.plant_cell_west_mock_2023
+            images["bacterium_west_mock_2023.jpg"] = R.drawable.bacterium_west_mock_2023
+            images["potometer_west_mock_2023.jpg"] = R.drawable.potometer_west_mock_2023
+            images["joint_west_mock_2023.jpg"] = R.drawable.joint_west_mock_2023
+
 
         }
 

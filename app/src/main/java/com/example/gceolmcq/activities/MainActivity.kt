@@ -154,17 +154,17 @@ class MainActivity : AppCompatActivity(),
 
             R.id.share ->{
 //                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show()
-                shareApp()
+//                shareApp()
             }
             R.id.rateUs ->{
-                rateUs()
+//                rateUs()
             }
 
             R.id.privacyPolicy ->{
                 privacyPolicy()
             }
             R.id.about -> {
-                Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
             }
         }
         return super.onOptionsItemSelected(item)

@@ -45,6 +45,8 @@ class SectionNavigationFragment : Fragment(){
     private lateinit var paperGradeLayout: LinearLayout
     private lateinit var rvSectionNav: RecyclerView
 
+    private lateinit var sectionNavigationRecyclerViewAdapter: SectionNavigationRecyclerViewAdapter
+
     private var fadeInOut: Animation? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -133,7 +135,7 @@ class SectionNavigationFragment : Fragment(){
         )
         rvSectionNav.layoutManager = rvLayoutMan
 
-        val sectionNavigationRecyclerViewAdapter =
+        sectionNavigationRecyclerViewAdapter =
             SectionNavigationRecyclerViewAdapter(
                 requireContext(),
 //                sectionNames!!,
@@ -180,6 +182,8 @@ class SectionNavigationFragment : Fragment(){
         super.onResume()
         sectionNavigationFragmentViewModel.updateSectionsAnswered(onIsSectionAnsweredListener.onGetSectionsAnswered())
         sectionNavigationFragmentViewModel.updatePaperScore(onPaperScoreListener.onGetPaperScore())
+        sectionNavigationRecyclerViewAdapter.updateSectionScore(onRequestNavigationDataListener.onRequestSectionsScores())
+        sectionNavigationRecyclerViewAdapter.notifyDataSetChanged()
     }
 
     companion object {
@@ -194,6 +198,7 @@ class SectionNavigationFragment : Fragment(){
         fun onRequestSectionNames(): Array<String>?
         fun onRequestSectionNameBundleList(): Array<Bundle>?
         fun onRequestTotalNumberOfQuestions(): Int
+        fun onRequestSectionsScores(): ArrayList<Int>
     }
 
 //    interface OnPackageExpiredListener{

@@ -114,7 +114,7 @@
       "questions": [
         {
           "questionNumber": "8",
-          "question": "Below is a food chain in which the letters W, Q, X and Y represent some organisms. Plants -> W -> Q -> X -> Y. Extinction of organism Q will",
+          "question": "Below is a food chain in which the letters W, Q, X and Y represent some organisms. Plants-->W-->Q-->X-->Y. Extinction of organism Q will",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -161,12 +161,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "4.",
-            "3.",
-            "2.",
-            "1."
+            "4",
+            "3",
+            "2",
+            "1"
           ],
-          "wordAnswer": "3."
+          "wordAnswer": "3"
         },
         {
           "questionNumber": "12",
@@ -175,12 +175,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "2.",
-            "3.",
-            "4.",
-            "5."
+            "2",
+            "3",
+            "4",
+            "5"
           ],
-          "wordAnswer": "2."
+          "wordAnswer": "2"
         },
         {
           "questionNumber": "13",
@@ -189,12 +189,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "2, 3.",
-            "1, 3.",
-            "3, 4.",
-            "1, 2."
+            "2, 3",
+            "1, 3",
+            "3, 4",
+            "1, 2"
           ],
-          "wordAnswer": "1, 2."
+          "wordAnswer": "1, 2"
         },
         {
           "questionNumber": "14",
@@ -231,12 +231,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1.",
-            "2.",
-            "3.",
-            "4."
+            "1",
+            "2",
+            "3",
+            "4"
           ],
-          "wordAnswer": "3."
+          "wordAnswer": "3"
         },
         {
           "questionNumber": "17",
@@ -360,7 +360,7 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": [
-            "Introduction of tilapia fish into a lake to eat misquito larvae.",
+            "Introduction of tilapia fish into a lake to eat mosquito larvae.",
             "Use of herbicides.",
             "Spraying oil on ponds to kill aquatic organisms."
           ],
@@ -587,7 +587,7 @@
         },
         {
           "questionNumber": "38",
-          "question": "Washing away of nutrients from top sol into the depth",
+          "question": "Washing away of nutrients from top soil into the depth",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -615,7 +615,7 @@
         },
         {
           "questionNumber": "40",
-          "question": "A good food for an anemic person",
+          "question": "A good food for an anaemic person",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -696,12 +696,12 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "A.",
-            "B.",
-            "C.",
-            "D."
+            "A",
+            "B",
+            "C",
+            "D"
           ],
-          "wordAnswer": "B."
+          "wordAnswer": "B"
         },
         {
           "questionNumber": "46",

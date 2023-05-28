@@ -226,7 +226,7 @@
         },
         {
           "questionNumber": "16",
-          "question": "Below is the diagram of the transverse section of the leaf lamina. Where is photosynthesis occuring most?",
+          "question": "Below is the diagram of the transverse section of the leaf lamina. Where is photosynthesis occurring most?",
           "image": "ts_leaf_june_2018.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -306,7 +306,7 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": [
-            "Hairs on te body are raised.",
+            "Hairs on the body are raised.",
             "Superficial blood vessels constrict.",
             "Rate of metabolic activities increase."
           ],
@@ -470,7 +470,7 @@
           "image": null,
           "twoStatements": [
             "A pink coloration is observed when saliva is tested with Millon's reagent.",
-            "Saliva contain is protein digesting enzyme."
+            "Saliva contains a protein digesting enzyme."
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
@@ -671,7 +671,7 @@
             "To soften the seed.",
             "To activate enzymes.",
             "For photosynthesis.",
-            "To activate auxins."
+            "To activate auxin."
           ],
           "wordAnswer": "To activate enzymes."
         },

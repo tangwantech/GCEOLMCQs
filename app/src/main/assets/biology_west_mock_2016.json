@@ -240,7 +240,7 @@
         },
         {
           "questionNumber": "17",
-          "question": "Which structures act as brakes in slowing down the speed during movement?",
+          "question": "Which structures act as brakes in slowing down the speed of fish during movement?",
           "image": "fish_west_mock_2016.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -468,7 +468,7 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
         },
         {
           "questionNumber": "30",
@@ -697,7 +697,7 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "To decolourise the leaf.",
+            "To decolorize the leaf.",
             "To test the leaf for reducing sugar.",
             "To test the leaf for starch.",
             "To test the leaf for protein."
@@ -788,20 +788,6 @@
             "Lungs"
           ],
           "wordAnswer": "Mitochondrion"
-        },
-        {
-          "questionNumber": "50",
-          "question": "",
-          "image": "",
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "wordAnswer": ""
         }
       ]
     }
