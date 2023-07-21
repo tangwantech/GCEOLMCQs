@@ -78,6 +78,7 @@
     <string name="campay_app_id">HGK6XAyi8eeq9ZrUZFZXPXsnVQEg0B6nPYxSQYb-pZ7NXSobLJSfRsRp-jWKZbmP-p8O2HFyiqB6fq8I1U_E7A</string>
     <string name="campay_app_user_name">GG0hAnE81DMQEXqANvG27hFkLmxf3PEhKh4UMSh5CFCOhlNBiwAQ2L9wWI3k3q0lvzZJH_p1CRIoQF7by-nApw</string>
     <string name="campay_app_pass_word">jkMl4mmFSuBE2KGQAgjy1DuHPKNH6qUMWxpZ8LQIY-NzjuYwW1CzCccU0oIzMRxItd7RbjSWelmI7QuFTvfhSw</string>
+
     <string name="statistics">Statistics</string>
     <string name="contact_us">Contact Us</string>
     <string name="share">Share</string>
@@ -111,6 +112,13 @@
     <string name="activated_successfully">activated successfully</string>
 
     <string name="exit">Exit</string>
+    <string name="minimum_percentage">40%</string>
+    <string name="rate_us">Rate us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="failed_to_activate_package">Failed to activate</string>
+    <string name="subjects_available">Subjects Available:</string>
+    <string name="duration">Duration:</string>
+    <string name="start_off_message">Start off by activating a trial package for all available subjects</string>
 
 
     <string-array name="paper_instruction">
@@ -122,36 +130,32 @@
         <item>You must score at least</item>
         <item>in order to see corrections to all wrong answers at the end of each section.</item>
     </string-array>
-        <string name="minimum_percentage">40%</string>
-    <string name="rate_us">Rate us</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="failed_to_activate_package">Failed to activate</string>
 
     <string-array name="package_types">
         <item>MCQ 1H</item>
         <item>MCQ 2H</item>
-<!--        <item>MCQ 3H</item>-->
-<!--        <item>MCQ 4H</item>-->
-<!--        <item>MCQ 5H</item>-->
-<!--        <item>MCQ 6H</item>-->
+        <!--        <item>MCQ 3H</item>-->
+        <!--        <item>MCQ 4H</item>-->
+        <!--        <item>MCQ 5H</item>-->
+        <!--        <item>MCQ 6H</item>-->
     </string-array>
 
     <string-array name="package_durations">
         <item>1</item>
         <item>2</item>
-<!--        <item>3</item>-->
-<!--        <item>4</item>-->
-<!--        <item>5</item>-->
-<!--        <item>6</item>-->
+        <!--        <item>3</item>-->
+        <!--        <item>4</item>-->
+        <!--        <item>5</item>-->
+        <!--        <item>6</item>-->
     </string-array>
 
     <string-array name="package_prices">
         <item>50</item>
         <item>100</item>
-<!--        <item>150</item>-->
-<!--        <item>200</item>-->
-<!--        <item>250</item>-->
-<!--        <item>300</item>-->
+        <!--        <item>150</item>-->
+        <!--        <item>200</item>-->
+        <!--        <item>250</item>-->
+        <!--        <item>300</item>-->
     </string-array>
 
     <string-array name="momo_partners">

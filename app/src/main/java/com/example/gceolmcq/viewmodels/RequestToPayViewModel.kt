@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
+import com.example.gceolmcq.datamodels.SubscriptionFormData
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 //import net.compay.android.CamPay
@@ -14,12 +14,10 @@ import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
-import java.util.*
-import java.util.concurrent.TimeUnit
 
 
 class RequestToPayViewModel : ViewModel() {
-    private lateinit var subscriptionFormDataModel: SubscriptionFormDataModel
+    private lateinit var subscriptionFormData: SubscriptionFormData
     private var isTransactionSuccessful = MutableLiveData<Boolean>()
     private var transactionId = MutableLiveData<String>()
     private var momoPartner = MutableLiveData<String>()
@@ -29,8 +27,8 @@ class RequestToPayViewModel : ViewModel() {
     init {
         transactionStatus.value = "PENDING"
     }
-    fun setSubscriptionFormData(subscriptionFormDataModel: SubscriptionFormDataModel) {
-        this.subscriptionFormDataModel = subscriptionFormDataModel
+    fun setSubscriptionFormData(subscriptionFormData: SubscriptionFormData) {
+        this.subscriptionFormData = subscriptionFormData
         setMoMoPartner()
         setAccessToken()
 //        testUpdateTransactionSuccessful(true)
@@ -38,15 +36,15 @@ class RequestToPayViewModel : ViewModel() {
     }
 
     private fun setMoMoPartner(){
-        momoPartner.value = subscriptionFormDataModel.momoPartner!!
+        momoPartner.value = subscriptionFormData.momoPartner!!
     }
 
     fun getPackageType(): String {
-        return subscriptionFormDataModel.packageType!!
+        return subscriptionFormData.packageType!!
     }
 
     fun getPackagePrice(): String {
-        return subscriptionFormDataModel.packagePrice!!
+        return subscriptionFormData.packagePrice!!
     }
 
     fun getIsTransactionSuccessful(): LiveData<Boolean> {
@@ -66,11 +64,11 @@ class RequestToPayViewModel : ViewModel() {
     }
 
     fun getSubjectIndex(): Int {
-        return subscriptionFormDataModel.subjectPosition!!
+        return subscriptionFormData.subjectPosition!!
     }
 
     fun getPackageDuration(): Int {
-        return subscriptionFormDataModel.packageDuration!!
+        return subscriptionFormData.packageDuration!!
     }
 
 
@@ -98,7 +96,7 @@ class RequestToPayViewModel : ViewModel() {
                 val json = JSONObject(responseBody!!)
 //                accessToken.postValue(json["token"].toString())
                 val accessToken = json["token"].toString()
-                requestToPay(accessToken, subscriptionFormDataModel.packagePrice,subscriptionFormDataModel.momoNumber)
+                requestToPay(accessToken, subscriptionFormData.packagePrice,subscriptionFormData.momoNumber)
             }
 
         })
@@ -110,7 +108,7 @@ class RequestToPayViewModel : ViewModel() {
         val mediaType = "application/json".toMediaTypeOrNull()
         val requestBody: RequestBody = RequestBody.create(
             mediaType,
-            "{\"amount\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"description\":\"${subscriptionFormDataModel.subject} ${subscriptionFormDataModel.packageType} subscription\",\"external_reference\": \"\"}"
+            "{\"amount\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"description\":\"${subscriptionFormData.subject} ${subscriptionFormData.packageType} subscription\",\"external_reference\": \"\"}"
         )
         val request: Request = Request.Builder()
             .url("https://demo.campay.net/api/collect/")
@@ -198,7 +196,7 @@ class RequestToPayViewModel : ViewModel() {
     }
 
     fun getSubjectName(): String {
-        return subscriptionFormDataModel.subject!!
+        return subscriptionFormData.subject!!
     }
 
 }

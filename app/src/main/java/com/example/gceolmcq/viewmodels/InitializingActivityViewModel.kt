@@ -1,14 +1,13 @@
 package com.example.gceolmcq.viewmodels
 
 
-import android.os.CountDownTimer
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.MyNetworkTimeout
-import com.example.gceolmcq.datamodels.SubjectAndFileNameDataList
+import com.example.gceolmcq.datamodels.SubjectAndFileNameDataListModel
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubjectPackageDataList
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
@@ -38,11 +37,11 @@ class InitializingActivityViewModel : ViewModel() {
     val timeout: LiveData<Boolean> = _timeout
 
     private val subjectNames = ArrayList<String>()
-    private lateinit var subjectAndFileNameDataList: SubjectAndFileNameDataList
+    private lateinit var subjectAndFileNameDataListModel: SubjectAndFileNameDataListModel
 
     private lateinit var gceOLMcqDatabase: GceOLMcqDatabase
 
-    private var back4AppParseObject = MutableLiveData<ParseObject>()
+    private var userRemoteParseObject = MutableLiveData<ParseObject>()
     private var mobileId: String? = null
 
     private val mutableExpiresOnList = MutableLiveData<ArrayList<String>?>()
@@ -65,15 +64,14 @@ class InitializingActivityViewModel : ViewModel() {
     }
 
     fun initSubjectAndFileNameDataList(subjectsDataJsonString: String?) {
-        subjectAndFileNameDataList =
-            Gson().fromJson(subjectsDataJsonString, SubjectAndFileNameDataList::class.java)
-        if (subjectAndFileNameDataList.subjectAndFileNameDataArrayList.isNotEmpty()) {
+        subjectAndFileNameDataListModel =
+            Gson().fromJson(subjectsDataJsonString, SubjectAndFileNameDataListModel::class.java)
+        if (subjectAndFileNameDataListModel.subjectAndFileNameDataList.isNotEmpty()) {
             initSubjectNames()
         }
     }
 
     private fun setSubjectPackageDataListFromLocalDatabase() {
-
 
         viewModelScope.launch(Dispatchers.IO) {
             val tempSubjectPackageDataList =
@@ -92,7 +90,7 @@ class InitializingActivityViewModel : ViewModel() {
                     syncSubjectPackageList(packageDataList, expiryDataList)
 
                 } else {
-                    queryBack4AppSubjectPackageByMobileId()
+                    querySubjectsPackagesByMobileIdFromRemoteRepo()
 
                 }
             }
@@ -134,7 +132,7 @@ class InitializingActivityViewModel : ViewModel() {
 //
     }
 
-    private fun queryBack4AppSubjectPackageByMobileId() {
+    private fun querySubjectsPackagesByMobileIdFromRemoteRepo() {
         println("Query back4app")
 
 //        query.cancel()
@@ -150,10 +148,10 @@ class InitializingActivityViewModel : ViewModel() {
             if (e == null) {
 
                 if (objects.isNotEmpty()) {
-                    back4AppParseObject.value = objects[0]
+                    userRemoteParseObject.value = objects[0]
 
                     val jsonArraySubjectPackages: JSONArray? =
-                        back4AppParseObject.value!!.getJSONArray("jsonArraySubjectPackages")
+                        userRemoteParseObject.value!!.getJSONArray("jsonArraySubjectPackages")
                     for (index in 0 until jsonArraySubjectPackages!!.length()) {
 
                         val jsonObject = jsonArraySubjectPackages.getJSONObject(index)
@@ -207,7 +205,7 @@ class InitializingActivityViewModel : ViewModel() {
     }
 
     private fun initSubjectNames() {
-        subjectAndFileNameDataList.subjectAndFileNameDataArrayList.forEach {
+        subjectAndFileNameDataListModel.subjectAndFileNameDataList.forEach {
             subjectNames.add(it.subject)
         }
 
@@ -219,7 +217,7 @@ class InitializingActivityViewModel : ViewModel() {
 
     fun getSubjectFileNameList(): ArrayList<String> {
         val subjectFileNames = ArrayList<String>()
-        subjectAndFileNameDataList.subjectAndFileNameDataArrayList.forEach {
+        subjectAndFileNameDataListModel.subjectAndFileNameDataList.forEach {
             subjectFileNames.add(it.fileName)
         }
         return subjectFileNames
@@ -290,9 +288,9 @@ class InitializingActivityViewModel : ViewModel() {
     private fun saveCurrentPackageToBack4App(subjectPackageDataList: List<SubjectPackageData>?) {
 
         subjectPackageDataList?.let {
-            if(back4AppParseObject.value == null){
+            if(userRemoteParseObject.value == null){
                 println("Object is null....")
-                back4AppParseObject.value = ParseObject(BACK4APP_PACKAGE_NAME)
+                userRemoteParseObject.value = ParseObject(BACK4APP_PACKAGE_NAME)
             }
             val jsonArray = JSONArray()
             subjectPackageDataList.forEachIndexed { _, subjectPackageData ->
@@ -308,10 +306,10 @@ class InitializingActivityViewModel : ViewModel() {
 
             }
 
-            back4AppParseObject.value?.put(MOBILE_ID, mobileId!!)
-            back4AppParseObject.value?.put(JSON_ARRAY_SUBJECT_PACKAGES, jsonArray)
+            userRemoteParseObject.value?.put(MOBILE_ID, mobileId!!)
+            userRemoteParseObject.value?.put(JSON_ARRAY_SUBJECT_PACKAGES, jsonArray)
 //        back4AppParseObject.saveEventually()
-            back4AppParseObject.value?.saveInBackground {
+            userRemoteParseObject.value?.saveInBackground {
                 println("Saving......")
                 if (it == null) {
 //                isMcqAppInitialised.value = true

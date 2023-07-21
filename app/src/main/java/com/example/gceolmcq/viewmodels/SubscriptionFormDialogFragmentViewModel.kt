@@ -3,10 +3,10 @@ package com.example.gceolmcq.viewmodels
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
+import com.example.gceolmcq.datamodels.SubscriptionFormData
 
 class SubscriptionFormDialogFragmentViewModel : ViewModel() {
-    private val subscriptionFormData = SubscriptionFormDataModel()
+    private val subscriptionFormData = SubscriptionFormData()
     private var dialogTitle = ""
 
     private val _isSubscriptionFormFilled = MutableLiveData<Boolean>()
@@ -37,7 +37,7 @@ class SubscriptionFormDialogFragmentViewModel : ViewModel() {
 
     }
 
-    fun getSubscriptionFormData(): SubscriptionFormDataModel {
+    fun getSubscriptionFormData(): SubscriptionFormData {
         return subscriptionFormData
     }
 

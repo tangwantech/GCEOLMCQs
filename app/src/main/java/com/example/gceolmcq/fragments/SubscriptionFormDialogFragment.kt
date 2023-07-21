@@ -15,7 +15,7 @@ import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.R
-import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
+import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.viewmodels.SubscriptionFormDialogFragmentViewModel
 import com.google.android.material.textfield.TextInputEditText
 
@@ -159,6 +159,6 @@ class SubscriptionFormDialogFragment : DialogFragment() {
 
 
     interface OnActivateButtonClickListener {
-        fun onActivateButtonClicked(subscriptionFormDataModel: SubscriptionFormDataModel)
+        fun onActivateButtonClicked(subscriptionFormData: SubscriptionFormData)
     }
 }

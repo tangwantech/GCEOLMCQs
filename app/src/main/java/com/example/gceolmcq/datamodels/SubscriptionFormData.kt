@@ -2,7 +2,7 @@ package com.example.gceolmcq.datamodels
 
 import java.io.Serializable
 
-data class SubscriptionFormDataModel(
+data class SubscriptionFormData(
     var subjectPosition: Int? = null,
     var subject: String? = null,
     var packageType: String? = null,

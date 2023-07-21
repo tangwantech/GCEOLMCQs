@@ -9,16 +9,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-<!--    <ScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:visibility="visible">-->
-
-<!--        <LinearLayout-->
-<!--            android:id="@+id/linearLayoutFragmentHome"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="vertical" />-->
-<!--    </ScrollView>-->
 
 </FrameLayout>

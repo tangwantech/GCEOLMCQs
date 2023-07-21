@@ -1,12 +1,14 @@
 package com.example.gceolmcq.activities
 
+import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
 import android.content.Intent
+import android.content.SharedPreferences
 import android.net.Uri
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
@@ -16,44 +18,44 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.HomeRecyclerViewAdapter
-import com.example.gceolmcq.adapters.SubjectListFragmentRecyclerAdapter
-import com.example.gceolmcq.datamodels.SubjectAndFileNameData
-import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
+import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.fragments.*
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.example.gceolmcq.viewmodels.MainActivityViewModel
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.coroutines.*
+import java.io.IOException
+import java.nio.charset.Charset
 
-private const val SUBJECT_NAMES = "subjectNames"
-private const val INIT_DATA_BUNDLE = "initDataBundle"
-private const val MOBILE_ID = "mobileID"
-private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
-private const val TYPE = "text/plain"
-private const val APP_URL = "https://google.com"
-private const val PRIVACY_POLICY = "https://gceolmcqs.w3spaces.com/Gceolmcqs_Privacy-Policy.pdf"
+//private const val SUBJECT_NAMES = "subjectNames"
+//private const val INIT_DATA_BUNDLE = "initDataBundle"
+//private const val MOBILE_ID = "mobileID"
+//private const val SUBJECT_FILENAME_LIST = "subjectAndFileNameList"
+//private const val TYPE = "text/plain"
+//private const val APP_URL = "https://google.com"
+//private const val PRIVACY_POLICY = "https://gceolmcqs.w3spaces.com/Gceolmcqs_Privacy-Policy.pdf"
 
 class MainActivity : AppCompatActivity(),
     SubscriptionFormDialogFragment.OnActivateButtonClickListener,
     RequestToPayDialogFragment.RequestToPayTransactionStatusListener,
-//    SubjectListFragmentRecyclerAdapter.OnRecyclerViewItemClick,
     HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener,
-//    HomeFragment.OnRequestSubjectPackageExpiryStatusDataListListener,
-    HomeFragment.OnPackageActivatedListener
+    HomeFragment.OnPackageActivatedListener,
+    ActivateTrialPackageFragment.OnSubjectsPackagesAvailableListener
 {
 
-    private lateinit var mainActivityViewModel: MainActivityViewModel
-//    private lateinit var bottomNavView: BottomNavigationView
+    private lateinit var viewModel: MainActivityViewModel
     private lateinit var header: LinearLayout
 
     private var currentFragmentIndex: Int? = null
     private lateinit var activatingPackageAlertDialog: AlertDialog
+    private lateinit var pref: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        pref = getSharedPreferences("Main", MODE_PRIVATE)
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
 
         activatingPackageAlertDialog = AlertDialog.Builder(this).create()
@@ -61,35 +63,32 @@ class MainActivity : AppCompatActivity(),
             setMessage(resources.getString(R.string.be_patient))
             setCancelable(false)
         }
-
         setupViewModel()
         initViews()
         setupViewObservers()
-//        setViewListeners()
 
-//        gotoHomeFragment()
+
+    }
+
+    private fun areSubjectsPackagesAvailable(): Boolean{
+        return pref.getBoolean(MCQConstants.AVAILABLE, false)
+    }
+
+    private fun saveSubjectsPackagesAvailabilityState(state: Boolean){
+        val editor = pref.edit()
+        editor.apply {
+            putBoolean(MCQConstants.AVAILABLE, state)
+        }.apply()
     }
 
     private fun setupViewModel(){
-        mainActivityViewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
-        mainActivityViewModel.initSubjectDataBase(GceOLMcqDatabase.getDatabase(this))
-        mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
-
-        val bundle = intent.getBundleExtra(INIT_DATA_BUNDLE)
-        bundle.apply {
-            this?.let {
-                mainActivityViewModel.setMobileId(it.getString(MOBILE_ID)!!)
-                mainActivityViewModel.setSubjectNameList(it.getStringArrayList(SUBJECT_NAMES)!!)
-
-                mainActivityViewModel.setSubjectFileNameList(
-                    it.getStringArrayList(
-                        SUBJECT_FILENAME_LIST
-                    )!!
-                )
-
-            }
-
-        }
+        viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
+        viewModel.initSubjectDataBase(GceOLMcqDatabase.getDatabase(this))
+//
+        viewModel.setMobileId(getMobileID())
+//        println(getJsonFromAssets())
+        viewModel.setSubjectAndFileNameDataListModel(getJsonFromAssets())
+//
     }
 
     private fun initViews(){
@@ -98,16 +97,27 @@ class MainActivity : AppCompatActivity(),
     }
 
     private fun setupViewObservers(){
-        mainActivityViewModel.activatedPackageIndex.observe(this, Observer{
+        viewModel.activatedPackageIndex.observe(this, Observer{
             hideActivatingPackageActivatedDialog(it)
         })
+
+        viewModel.subjectsPackageDataList.observe(this){
+
+        }
     }
 
     private fun gotoHomeFragment(){
         title = resources.getString(R.string.app_name)
 //        header.visibility = View.VISIBLE
         val homeFragment = HomeFragment.newInstance()
-        replaceFragment(homeFragment, 0)
+        replaceFragment(homeFragment, 1)
+    }
+
+    private fun gotoActivateTrialPackageFragment(){
+        val subjects = viewModel.liveSubjectsAvailable.value!!
+//        println(subjects)
+        val activateTrialFragment = ActivateTrialPackageFragment.newInstance(subjects, getMobileID())
+        replaceFragment(activateTrialFragment, 0)
     }
 
     private fun replaceFragment(fragment: Fragment, currentFragmentIndex: Int){
@@ -122,9 +132,18 @@ class MainActivity : AppCompatActivity(),
 
     override fun onResume() {
         super.onResume()
-        mainActivityViewModel.initializeSubjectPackageDataFromLocalDb()
-        gotoHomeFragment()
+        displayView()
 
+    }
+
+    private fun displayView(){
+        if(!areSubjectsPackagesAvailable()){
+            gotoActivateTrialPackageFragment()
+        }else{
+//            viewModel.readSubjectsPackageDataFromLocalDb()
+            gotoHomeFragment()
+
+        }
     }
 
 
@@ -133,7 +152,7 @@ class MainActivity : AppCompatActivity(),
         val bundle = Bundle()
         bundle.putSerializable(
             "subject_and_file_name_data",
-            mainActivityViewModel.getSubjectAndFileNameDataAt(position)
+            viewModel.getSubjectAndFileNameDataAt(position)
 
         )
         intent.apply {
@@ -172,15 +191,15 @@ class MainActivity : AppCompatActivity(),
 
     private fun shareApp(){
 //        val uri = Uri.parse(APP_URL)
-        val appMsg = "Check out this awesome GCE OL MCQs app. Link: $APP_URL"
+        val appMsg = "Check out this awesome GCE OL MCQs app. Link: ${MCQConstants.APP_URL}"
         val intent = Intent(Intent.ACTION_SEND)
-        intent.type = TYPE
+        intent.type = MCQConstants.TYPE
         intent.putExtra(Intent.EXTRA_TEXT, appMsg)
         startActivity(intent)
     }
 
     private fun rateUs(){
-        val uri = Uri.parse(APP_URL)
+        val uri = Uri.parse(MCQConstants.APP_URL)
         val intent = Intent(Intent.ACTION_VIEW, uri)
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
                         Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
@@ -189,12 +208,12 @@ class MainActivity : AppCompatActivity(),
         try{
             startActivity(intent)
         }catch (e: ActivityNotFoundException){
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(APP_URL)))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(MCQConstants.APP_URL)))
         }
     }
 
     private fun privacyPolicy(){
-        val uri = Uri.parse(PRIVACY_POLICY)
+        val uri = Uri.parse(MCQConstants.PRIVACY_POLICY)
         val intent = Intent(Intent.ACTION_VIEW, uri)
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
                 Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
@@ -203,7 +222,7 @@ class MainActivity : AppCompatActivity(),
         try{
             startActivity(intent)
         }catch (e: ActivityNotFoundException){
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(PRIVACY_POLICY)))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(MCQConstants.PRIVACY_POLICY)))
         }
     }
 
@@ -244,24 +263,24 @@ class MainActivity : AppCompatActivity(),
     override fun onSubscribeButtonClicked(position: Int) {
         val subscriptionFormDialogFragment = SubscriptionFormDialogFragment.newInstance(
             position,
-            mainActivityViewModel.getSubjectNameAt(position)
+            viewModel.getSubjectNameAt(position)
         )
         subscriptionFormDialogFragment.isCancelable = false
         subscriptionFormDialogFragment.show(supportFragmentManager, "subscription_form_dialog")
     }
 
-    override fun onPackageDetailsButtonClicked(position: Int) {
+//    override fun onPackageDetailsButtonClicked(position: Int) {
+//
+//        val subjectPackageDetailsDialogFragment = SubjectPackageDetailsDialogFragment.newInstance(
+//            viewModel.getSubjectPackageDataAt(position)
+//        )
+//        subjectPackageDetailsDialogFragment.show(supportFragmentManager, "package_details_dialog")
+//    }
 
-        val subjectPackageDetailsDialogFragment = SubjectPackageDetailsDialogFragment.newInstance(
-            mainActivityViewModel.getSubjectPackageDataAt(position)
-        )
-        subjectPackageDetailsDialogFragment.show(supportFragmentManager, "package_details_dialog")
-    }
-
-    override fun onActivateButtonClicked(subscriptionFormDataModel: SubscriptionFormDataModel) {
+    override fun onActivateButtonClicked(subscriptionFormData: SubscriptionFormData) {
 
         val requestToPayDialogFragment =
-            RequestToPayDialogFragment.newInstance(subscriptionFormDataModel)
+            RequestToPayDialogFragment.newInstance(subscriptionFormData)
         requestToPayDialogFragment.show(supportFragmentManager, "Request_to_pay")
     }
 
@@ -289,7 +308,7 @@ class MainActivity : AppCompatActivity(),
     }
 
     override fun onPackageActivated(): LiveData<Int> {
-        return mainActivityViewModel.activatedPackageIndexChangedAt
+        return viewModel.activatedPackageIndexChangedAt
     }
 
     private fun showPaymentReceivedDialog(subjectIndex: Int, packageType: String, packageDuration: Int){
@@ -306,7 +325,7 @@ class MainActivity : AppCompatActivity(),
     }
 
     private fun activatePackage(subjectIndex: Int, packageType: String, packageDuration: Int){
-        mainActivityViewModel.activatePackage(subjectIndex, packageType, packageDuration)
+        viewModel.activateSubjectPackageAt(subjectIndex, packageType, packageDuration)
     }
 
     private fun hideActivatingPackageActivatedDialog(position: Int){
@@ -314,7 +333,7 @@ class MainActivity : AppCompatActivity(),
             delay(5000)
             withContext(Dispatchers.Main){
                 activatingPackageAlertDialog.hide()
-                mainActivityViewModel.updateActivatedPackageIndexChangedAt(position)
+                viewModel.updateActivatedPackageIndexChangedAt(position)
                 showPackageActivatedDialog(position)
             }
 
@@ -328,12 +347,41 @@ class MainActivity : AppCompatActivity(),
         val tvPackageActivationSuccessful: TextView =
             view.findViewById(R.id.tvPackageActivationSuccessful)
         tvPackageActivationSuccessful.text =
-            "${mainActivityViewModel.getActivatedPackageName(position)} ${resources.getString(R.string.activated_successfully)}"
+            "${viewModel.getActivatedPackageName(position)} ${resources.getString(R.string.activated_successfully)}"
         alertDialog.apply {
             setView(view)
             setPositiveButton("Ok") { _, _ ->
             }
         }.create().show()
+    }
+
+    @SuppressLint("HardwareIds")
+    private fun getMobileID(): String {
+        return Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
+    }
+
+    private fun getJsonFromAssets(): String? {
+        val charset: Charset = Charsets.UTF_8
+
+        return try {
+            val jsonFile = assets.open("subject_data.json")
+            val size = jsonFile.available()
+            val buffer = ByteArray(size)
+
+            jsonFile.read(buffer)
+            jsonFile.close()
+            String(buffer, charset)
+
+        } catch (e: IOException) {
+            null
+        }
+    }
+
+    override fun onSubjectsPackagesAvailable(isAvailable: Boolean) {
+        println("is available $isAvailable")
+        saveSubjectsPackagesAvailabilityState(isAvailable)
+        displayView()
+
     }
 
 }

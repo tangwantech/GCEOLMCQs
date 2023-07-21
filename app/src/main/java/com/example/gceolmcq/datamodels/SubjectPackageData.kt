@@ -26,7 +26,7 @@ data class SubjectPackageData(
     var expiresOn: String? = null,
 
     @ColumnInfo(name="package_status")
-    var isPackageActive: Boolean? = null,
+    var isPackageActive: Boolean? = null
 ): Serializable
 
 

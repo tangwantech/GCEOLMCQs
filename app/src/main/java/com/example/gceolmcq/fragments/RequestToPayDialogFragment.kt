@@ -5,14 +5,12 @@ import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
-import android.view.View
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.R
-import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
+import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.viewmodels.RequestToPayViewModel
 
 private const val SUBSCRIPTION_DATA = "Subscription data"
@@ -32,7 +30,7 @@ class RequestToPayDialogFragment : DialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestToPayViewModel = ViewModelProvider(this)[RequestToPayViewModel::class.java]
-        requestToPayViewModel.setSubscriptionFormData(requireArguments()[SUBSCRIPTION_DATA] as SubscriptionFormDataModel)
+        requestToPayViewModel.setSubscriptionFormData(requireArguments()[SUBSCRIPTION_DATA] as SubscriptionFormData)
     }
 
     @SuppressLint("SetTextI18n")
@@ -94,9 +92,9 @@ class RequestToPayDialogFragment : DialogFragment() {
     }
 
     companion object {
-        fun newInstance(subscriptionFormDataModel: SubscriptionFormDataModel): DialogFragment {
+        fun newInstance(subscriptionFormData: SubscriptionFormData): DialogFragment {
             val bundle = Bundle().apply {
-                putSerializable(SUBSCRIPTION_DATA, subscriptionFormDataModel)
+                putSerializable(SUBSCRIPTION_DATA, subscriptionFormData)
             }
             val requestToPayDialogFragment = RequestToPayDialogFragment()
             requestToPayDialogFragment.arguments = bundle

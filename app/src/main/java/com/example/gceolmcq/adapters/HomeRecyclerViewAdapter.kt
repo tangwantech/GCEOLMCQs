@@ -22,11 +22,12 @@ class HomeRecyclerViewAdapter(
 ) : RecyclerView.Adapter<HomeRecyclerViewAdapter.ViewHolder>() {
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val tvSubjectName: TextView = view.findViewById(R.id.tvSubjectNavItem)
+        val tvSubjectName: TextView = view.findViewById(R.id.subjectTitleTv)
         val tvSubjectStatus: TextView = view.findViewById(R.id.tvSubjectStatus)
-        val btnSubjectPackageDetails: Button = view.findViewById(R.id.btnPackage)
         val btnSubscribe: Button = view.findViewById(R.id.btnSubscribe)
         val tvPackageType: TextView = view.findViewById(R.id.tvPackageType)
+        val activatedOnTv: TextView = view.findViewById(R.id.activatedOnTv)
+        val expiresOnTv: TextView = view.findViewById(R.id.expiresOnTv)
 
         private val layoutSubjectItem: CardView = view.findViewById(R.id.layoutSubjectNavItem)
 //
@@ -43,9 +44,9 @@ class HomeRecyclerViewAdapter(
                 }
 
             }
-            btnSubjectPackageDetails.setOnClickListener {
-                onHomeRecyclerItemClickListener.onPackageDetailsButtonClicked(this.adapterPosition)
-            }
+//            btnSubjectPackageDetails.setOnClickListener {
+//                onHomeRecyclerItemClickListener.onPackageDetailsButtonClicked(this.adapterPosition)
+//            }
             btnSubscribe.setOnClickListener {
                 onHomeRecyclerItemClickListener.onSubscribeButtonClicked(this.adapterPosition)
             }
@@ -66,17 +67,18 @@ class HomeRecyclerViewAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         if(subjectPackageDataList.isNotEmpty()){
             holder.tvSubjectName.text = subjectPackageDataList[position].subjectName
-            holder.tvPackageType.text = "Package type: ${subjectPackageDataList[position].packageName}"
-//            holder.btnSubjectPackageDetails.text = subjectPackageDataList[position].packageName
+            holder.tvPackageType.text = subjectPackageDataList[position].packageName
+            holder.activatedOnTv.text = subjectPackageDataList[position].activatedOn
+            holder.expiresOnTv.text = subjectPackageDataList[position].expiresOn
 
             if ((subjectPackageDataList[position].isPackageActive!!)){
                 onCheckPackageExpiryListener.onCheckPackageExpiry(position)
-                holder.tvSubjectStatus.text = "Status: ${context.resources.getString(R.string.active)}"
+                holder.tvSubjectStatus.text = context.resources.getString(R.string.active)
                 holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.blue_color))
                 holder.btnSubscribe.isEnabled = false
 
             } else{
-                holder.tvSubjectStatus.text = "Status: ${context.resources.getString(R.string.expired)}"
+                holder.tvSubjectStatus.text = context.resources.getString(R.string.expired)
                 holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.red_color))
                 holder.btnSubscribe.isEnabled = true
             }
@@ -97,7 +99,6 @@ class HomeRecyclerViewAdapter(
     interface OnHomeRecyclerItemClickListener {
         fun onSubjectItemClicked(position: Int, isPackageActive: Boolean)
         fun onSubscribeButtonClicked(position: Int)
-        fun onPackageDetailsButtonClicked(position: Int)
 
     }
     interface OnCheckPackageExpiryListener{

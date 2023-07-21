@@ -41,7 +41,7 @@ class PaperActivityViewModel:ViewModel() {
 
     private val _subjectPackage = MutableLiveData<SubjectPackageData>()
 
-    private val subscriptionFormData = SubscriptionFormDataModel()
+    private val subscriptionFormData = SubscriptionFormData()
     private val _isSubscriptionFormFilled = MutableLiveData<Boolean>()
     val isSubscriptionFormFilled: LiveData<Boolean> = _isSubscriptionFormFilled
 

@@ -2,7 +2,7 @@ package com.example.gceolmcq
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.gceolmcq.datamodels.SubscriptionFormDataModel
+import com.example.gceolmcq.datamodels.SubscriptionFormData
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -14,7 +14,7 @@ import org.json.JSONObject
 import java.io.IOException
 
 class MomoPayService{
-    private lateinit var subscriptionFormData: SubscriptionFormDataModel
+    private lateinit var subscriptionFormData: SubscriptionFormData
     private var _isTransactionSuccessful = MutableLiveData<Boolean>()
     val isTransactionSuccessful: LiveData<Boolean> = _isTransactionSuccessful
     private var transactionId = MutableLiveData<String>()
@@ -24,8 +24,8 @@ class MomoPayService{
     init {
         transactionStatus.value = "PENDING"
     }
-    fun initiatePayment(subscriptionFormDataModel: SubscriptionFormDataModel) {
-        this.subscriptionFormData = subscriptionFormDataModel
+    fun initiatePayment(subscriptionFormData: SubscriptionFormData) {
+        this.subscriptionFormData = subscriptionFormData
         setAccessToken()
 //        testUpdateTransactionSuccessful(true)
 
