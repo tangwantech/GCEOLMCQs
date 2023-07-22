@@ -65,7 +65,6 @@ dependencies {
     implementation 'com.github.CamPay.android-sdk:android-sdk:latest.release'
     implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
 
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
 
 

@@ -55,7 +55,7 @@
     <string name="no_answer_selected">No answer was selected</string>
     <string name="next_section">Next section</string>
     <string name="correction">Correction</string>
-    <string name="package_expired_message">Your package has expired. Please click on subscribe to activate a new package</string>
+    <string name="package_expired_message">Your package has expired. Please subscribe to a new package</string>
     <string name="mtn_request_to_pay_message">Please dial *126# and enter your PIN to complete payment</string>
     <string name="orange_request_to_pay_message">Please dial #150*5O# and enter your PIN to complete payment</string>
     <string name="transaction_successful">Transaction was successful</string>
@@ -108,9 +108,11 @@
     <string name="initialise_error_message">Application failed to initialize. Please verify that you have an active internet connection and try again</string>
     <string name="error">Error</string>
     <string name="exit_message">Do you want to exit?</string>
-    <string name="activating_package_message">Please be patient. Activating package…</string>
+    <string name="activating_package_message">Activating package…</string>
     <string name="has_been_answered">has been answered</string>
     <string name="activated_successfully">activated successfully</string>
+    <string name="processing_request">Processing request</string>
+    <string name="pay">Pay</string>
 
     <string name="exit">Exit</string>
     <string name="minimum_percentage">40%</string>

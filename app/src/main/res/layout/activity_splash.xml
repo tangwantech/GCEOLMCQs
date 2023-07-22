@@ -5,7 +5,7 @@
     android:id="@+id/rootLoInitializingActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.SplashActivity"
+    tools:context=".activities.GCESplashActivity"
     android:orientation="vertical"
     style="@style/Theme.GCEOLMCQ.Fullscreen">
     <LinearLayout
