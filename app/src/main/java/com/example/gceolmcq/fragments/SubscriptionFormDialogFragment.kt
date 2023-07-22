@@ -24,7 +24,7 @@ private const val SUBJECT_TITLE = "subject_title"
 
 class SubscriptionFormDialogFragment : DialogFragment() {
     private lateinit var subscriptionFormDialogFragmentViewModel: SubscriptionFormDialogFragmentViewModel
-    private lateinit var onActivateButtonClickListener: OnActivateButtonClickListener
+    private lateinit var onPayButtonClickListener: OnPayButtonClickListener
 
     private lateinit var dialogTitle: TextView
     private lateinit var autoPackageType: AutoCompleteTextView
@@ -35,8 +35,8 @@ class SubscriptionFormDialogFragment : DialogFragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        if (context is OnActivateButtonClickListener) {
-            onActivateButtonClickListener = context
+        if (context is OnPayButtonClickListener) {
+            onPayButtonClickListener = context
         }
 
         setUpViewModel()
@@ -122,27 +122,34 @@ class SubscriptionFormDialogFragment : DialogFragment() {
         return setUpAlertDialog(view)
     }
     private fun setUpAlertDialog(view: View): Dialog{
-        val builder = AlertDialog.Builder(requireContext())
-        builder.apply {
+        val builder = AlertDialog.Builder(requireContext()).apply {
             setView(view)
-            setPositiveButton("Activate"){ _, _ ->
-                onActivateButtonClickListener.onActivateButtonClicked(
+            setPositiveButton(requireContext().resources.getString(R.string.pay)){ btn, _ ->
+                onPayButtonClickListener.onPayButtonClicked(
                     subscriptionFormDialogFragmentViewModel.getSubscriptionFormData())
-            }
-            setNegativeButton("Cancel") { btn, _ ->
                 btn.dismiss()
             }
-        }
+            setNegativeButton(requireContext().resources.getString(R.string.cancel)) { btn, _ ->
+                btn.dismiss()
+            }
+        }.create()
 
-        val dialog = builder.create()
-        dialog.setOnShowListener {
-            val positiveBtn = (dialog as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE)
+//        val dialog = builder.create()
+
+//        val positiveBtn = (dialog as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE)
+
+//        val positiveBtn = builder.getButton(AlertDialog.BUTTON_POSITIVE)
+//        positiveBtn.isEnabled = false
+//        setUpViewObservers(positiveBtn)
+        builder.setOnShowListener {
+            val positiveBtn = builder.getButton(AlertDialog.BUTTON_POSITIVE)
+//            val positiveBtn = (dialog as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE)
             positiveBtn.isEnabled = false
 
             setUpViewObservers(positiveBtn)
 
         }
-        return dialog
+        return builder
     }
 
     companion object {
@@ -158,7 +165,7 @@ class SubscriptionFormDialogFragment : DialogFragment() {
     }
 
 
-    interface OnActivateButtonClickListener {
-        fun onActivateButtonClicked(subscriptionFormData: SubscriptionFormData)
+    interface OnPayButtonClickListener {
+        fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData)
     }
 }

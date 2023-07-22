@@ -17,7 +17,8 @@ class HomeRecyclerViewAdapter(
     private val context: Context,
     private var subjectPackageDataList: ArrayList<SubjectPackageData>,
     private val onHomeRecyclerItemClickListener: OnHomeRecyclerItemClickListener,
-    private val onCheckPackageExpiryListener: OnCheckPackageExpiryListener
+    private val onCheckPackageExpiryListener: OnCheckPackageExpiryListener,
+//    private val onSubscribeButtonClickListener: OnSubscribeButtonClickListener
 
 ) : RecyclerView.Adapter<HomeRecyclerViewAdapter.ViewHolder>() {
 
@@ -48,7 +49,8 @@ class HomeRecyclerViewAdapter(
 //                onHomeRecyclerItemClickListener.onPackageDetailsButtonClicked(this.adapterPosition)
 //            }
             btnSubscribe.setOnClickListener {
-                onHomeRecyclerItemClickListener.onSubscribeButtonClicked(this.adapterPosition)
+                onHomeRecyclerItemClickListener.onSubscribeButtonClicked(adapterPosition, subjectPackageDataList[adapterPosition])
+//                onSubscribeButtonClickListener.onSubscribeButtonClicked(adapterPosition)
             }
 
         }
@@ -98,8 +100,11 @@ class HomeRecyclerViewAdapter(
 
     interface OnHomeRecyclerItemClickListener {
         fun onSubjectItemClicked(position: Int, isPackageActive: Boolean)
-        fun onSubscribeButtonClicked(position: Int)
+        fun onSubscribeButtonClicked(position: Int, subjectPackageData: SubjectPackageData)
 
+    }
+    interface OnSubscribeButtonClickListener{
+        fun onSubscribeButtonClicked(position: Int)
     }
     interface OnCheckPackageExpiryListener{
         fun onCheckPackageExpiry(position: Int)

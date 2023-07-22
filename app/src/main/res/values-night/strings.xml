@@ -108,7 +108,7 @@
     <string name="initialise_error_message">Application failed to initialize. Please verify that you have an active internet connection and try again</string>
     <string name="error">Error</string>
     <string name="exit_message">Do you want to exit?</string>
-    <string name="be_patient">Please be patient. Activating package…</string>
+    <string name="activating_package_message">Please be patient. Activating package…</string>
     <string name="has_been_answered">has been answered</string>
     <string name="activated_successfully">activated successfully</string>
 

@@ -21,6 +21,7 @@ class MCQConstants{
         const val MINUTES = "minutes"
         const val HOURS = "hours"
         const val DAYS = "days"
+        const val PENDING = "PENDING"
         const val SUCCESSFUL = "SUCCESSFUL"
         const val FAILED = "FAILED"
         const val AVAILABLE = "available"

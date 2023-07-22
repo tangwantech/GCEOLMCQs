@@ -4,14 +4,11 @@ package com.example.gceolmcq.activities
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.MenuItem
-import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.SectionNavigationRecyclerViewAdapter
@@ -21,8 +18,6 @@ import com.example.gceolmcq.datamodels.UserMarkedAnswersSheetData
 import com.example.gceolmcq.fragments.*
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.example.gceolmcq.viewmodels.PaperActivityViewModel
-import com.google.android.material.textfield.TextInputEditText
-import kotlinx.coroutines.*
 import java.io.IOException
 import java.nio.charset.Charset
 private const val SHOW_INSTRUCTION = "showInstruction"
@@ -30,7 +25,6 @@ private const val SHOW_INSTRUCTION = "showInstruction"
 class PaperActivity : AppCompatActivity(),
     SectionNavigationRecyclerViewAdapter.OnRecyclerItemClickListener,
     SectionNavigationFragment.OnRequestNavigationDataListener,
-//    SectionNavigationFragment.OnPackageExpiredListener,
     OnCheckPackageExpiredListener,
     OnRetrySectionListener,
     OnNextSectionListener,
@@ -41,36 +35,10 @@ class PaperActivity : AppCompatActivity(),
     OnIsSectionAnsweredListener {
 
     private lateinit var paperActivityViewModel: PaperActivityViewModel
-//    private val paperFragmentsStack = ArrayList<Fragment>()
-//    private var currentFragmentIndex = 0
     private lateinit var pref: SharedPreferences
 
     private lateinit var checkBox: CheckBox
     private lateinit var tvInstruction: TextView
-
-    private lateinit var tvSubscriptionFormTitle: TextView
-    private lateinit var layoutPackagePrice: LinearLayout
-    private lateinit var autoCompletePackageType: AutoCompleteTextView
-    private lateinit var tvPackagePrice: TextView
-    private lateinit var autoCompleteMomoPartner: AutoCompleteTextView
-    private lateinit var etMomoNumber: TextInputEditText
-    private lateinit var subscriptionFormView: View
-    private lateinit var subscriptionFormDialogPositiveBtn: Button
-
-    private lateinit var requestToPayDialogView: View
-    private lateinit var tvRequestToPayMessage: TextView
-    private lateinit var tvRequestToPaySubject: TextView
-    private lateinit var tvRequestToPayPackage: TextView
-    private lateinit var tvRequestToPayAmount: TextView
-
-    private lateinit var requestToPayDialog: AlertDialog
-
-    private lateinit var activationSuccessfulDialog: AlertDialog
-    private lateinit var activationSuccessfulDialogView: View
-    private lateinit var tvPackageActivationSuccessful: TextView
-
-    private lateinit var activationFailedDialog: AlertDialog
-    private lateinit var activationFailedDialogView: View
 
     private var currentSectionFragment: Fragment? = null
 
@@ -78,17 +46,9 @@ class PaperActivity : AppCompatActivity(),
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_paper)
-        initRequestToPayDialog()
-//        initRequestToPayDialogViews()
-        initActivationSuccessfulDialog()
-        initActivationFailedDialog()
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-
         setupViewModel()
-        setupPackageActivatedObserver()
         displayPaperInstructionDialog()
-//        gotoSectionNavigationFragment()
-
         loadFragment()
 
 
@@ -109,7 +69,7 @@ class PaperActivity : AppCompatActivity(),
 
 
         paperActivityViewModel.setDataBase(GceOLMcqDatabase.getDatabase(this))
-        paperActivityViewModel.querySubjectPackageDataTableBySubjectName()
+        paperActivityViewModel.getSubjectPackageDataFromLocalDbWhereSubjectName()
 
         val customId =
             "${bundle.getString("subjectName")!!} ${paperActivityViewModel.getExamTitle()}"
@@ -231,8 +191,6 @@ class PaperActivity : AppCompatActivity(),
         }
 
     }
-
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         when (item.itemId) {
@@ -338,12 +296,9 @@ class PaperActivity : AppCompatActivity(),
         val alertDialog = AlertDialog.Builder(this)
         alertDialog.apply {
             setMessage(resources.getString(R.string.package_expired_message))
-            setPositiveButton(resources.getString(R.string.subscribe)) { _, _ ->
-//                on subscribe button clicked, show subscription form dialog
-                displaySubscriptionFormDialog()
+            setPositiveButton(resources.getString(R.string.ok)) { _, _ ->
+                gotoSectionNavigationFragment()
             }
-            setNegativeButton(resources.getString(R.string.cancel)){_, _ ->}
-//            setCancelable(false)
         }.create().show()
     }
 
@@ -397,194 +352,6 @@ class PaperActivity : AppCompatActivity(),
         }
 
     }
-
-    private fun initSubscriptionFormViews(){
-        subscriptionFormView = layoutInflater.inflate(R.layout.fragment_subcription_form, null)
-        tvSubscriptionFormTitle = subscriptionFormView.findViewById(R.id.tvSubscriptionFormTitle)
-        tvSubscriptionFormTitle.text = paperActivityViewModel.getSubjectName()
-        layoutPackagePrice = subscriptionFormView.findViewById(R.id.layoutPackagePrice)
-        autoCompletePackageType = subscriptionFormView.findViewById(R.id.autoCompletePackageType)
-        tvPackagePrice = subscriptionFormView.findViewById(R.id.tvPackagePrice)
-        autoCompleteMomoPartner = subscriptionFormView.findViewById(R.id.autoCompleteMomoPartner)
-        etMomoNumber = subscriptionFormView.findViewById(R.id.etMomoNumber)
-
-    }
-
-    private fun setupSubscriptionFormViewAdapters(){
-        autoCompletePackageType.setAdapter(
-            ArrayAdapter<String>(
-                this,
-                R.layout.drop_down_item,
-                resources.getStringArray(R.array.package_types)
-            )
-        )
-
-        autoCompleteMomoPartner.setAdapter(
-            ArrayAdapter<String>(
-                this,
-                R.layout.drop_down_item,
-                resources.getStringArray(R.array.momo_partners)
-            )
-        )
-    }
-
-    private fun setupSubscriptionFormViewListeners(){
-        autoCompletePackageType.setOnItemClickListener { _, _, packageIndex, _ ->
-            paperActivityViewModel.setPackageType(resources.getStringArray(R.array.package_types)[packageIndex])
-            layoutPackagePrice.visibility = View.VISIBLE
-            tvPackagePrice.text = "${resources.getStringArray(R.array.package_prices)[packageIndex]} FCFA"
-            paperActivityViewModel.setPackagePrice(resources.getStringArray(R.array.package_prices)[packageIndex])
-            paperActivityViewModel.setPackageDuration(resources.getStringArray(R.array.package_durations)[packageIndex].toInt())
-        }
-
-        autoCompleteMomoPartner.setOnItemClickListener { _, _, momoPartnerIndex, _ ->
-            Toast.makeText(this, "$momoPartnerIndex", Toast.LENGTH_LONG).show()
-            paperActivityViewModel.setMomoPartner(resources.getStringArray(R.array.momo_partners)[momoPartnerIndex])
-        }
-
-        etMomoNumber.doOnTextChanged { text, _, _, _ ->
-            paperActivityViewModel.setMomoNumber(text.toString())
-
-        }
-    }
-
-    private fun setupSubscriptionFormViewObservers(){
-        paperActivityViewModel.isSubscriptionFormFilled.observe(this, Observer{
-            subscriptionFormDialogPositiveBtn.isEnabled = it
-        })
-    }
-
-    private fun displaySubscriptionFormDialog() {
-        initSubscriptionFormViews()
-        setupSubscriptionFormViewAdapters()
-        setupSubscriptionFormViewListeners()
-        setupSubscriptionFormViewObservers()
-        val subscriptionFormDialog = AlertDialog.Builder(this)
-        subscriptionFormDialog.apply {
-            setView(subscriptionFormView)
-            setPositiveButton(resources.getString(R.string.activate)) { _, _ ->
-//                display request to pay dialog
-
-                displayRequestToPayDialog()
-//                initiate payment in a background thread
-                paperActivityViewModel.requestToPay()
-
-            }
-            setNegativeButton(resources.getString(R.string.cancel)){p, _ ->
-                p.dismiss()
-            }
-            setCancelable(false)
-        }
-        val dialog = subscriptionFormDialog.create()
-        dialog.show()
-        subscriptionFormDialogPositiveBtn = dialog.getButton(AlertDialog.BUTTON_POSITIVE)
-        subscriptionFormDialogPositiveBtn.isEnabled = false
-    }
-    private fun initRequestToPayDialogViews(){
-        requestToPayDialogView = layoutInflater.inflate(R.layout.fragment_request_to_pay, null)
-        tvRequestToPayMessage = requestToPayDialogView.findViewById(R.id.tvRequestToPayMessage)
-        tvRequestToPaySubject = requestToPayDialogView.findViewById(R.id.tvRequestToPaySubject)
-        tvRequestToPayPackage = requestToPayDialogView.findViewById(R.id.tvRequestToPayPackage)
-        tvRequestToPayAmount = requestToPayDialogView.findViewById(R.id.tvRequestToPayAmount)
-    }
-
-    private fun setUpRequestToPayDialogViews(){
-        if(paperActivityViewModel.getMomoPartner() == resources.getStringArray(R.array.momo_partners)[0]){
-            tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
-        }else{
-            tvRequestToPayMessage.text = resources.getString(R.string.orange_request_to_pay_message)
-        }
-        tvRequestToPayPackage.text = paperActivityViewModel.getPackageType()
-        tvRequestToPayAmount.text = "${paperActivityViewModel.getPackagePrice()} FCFA"
-    }
-
-    private fun initRequestToPayDialog(){
-        requestToPayDialog = AlertDialog.Builder(this).create()
-    }
-
-    private fun displayRequestToPayDialog(){
-        initRequestToPayDialogViews()
-        setUpRequestToPayDialogViews()
-        setupTransactionStatusObserver()
-        requestToPayDialog = AlertDialog.Builder(this).apply {
-            setView(requestToPayDialogView)
-            setCancelable(false)
-        }.create()
-        requestToPayDialog.show()
-    }
-
-    private fun dismissRequestToPayDialog(){
-        requestToPayDialog.dismiss()
-    }
-
-    private fun setupTransactionStatusObserver(){
-        paperActivityViewModel.isPaymentSuccessful().observe(this, Observer{
-            if(it){
-                dismissRequestToPayDialog()
-                Toast.makeText(this, resources.getString(R.string.payment_received), Toast.LENGTH_LONG).show()
-                paperActivityViewModel.activateSubjectPackage()
-
-            }else{
-                showActivationFailedDialog()
-            }
-        })
-    }
-
-    private fun initActivationSuccessfulDialog(){
-        activationSuccessfulDialogView = layoutInflater.inflate(R.layout.package_activation_successful_dialog, null)
-        tvPackageActivationSuccessful = activationSuccessfulDialogView.findViewById(R.id.tvPackageActivationSuccessful)
-        activationSuccessfulDialog = AlertDialog.Builder(this).apply{
-            setView(activationSuccessfulDialogView)
-            setPositiveButton("OK"){_, _ ->}
-        }.create()
-
-    }
-
-    private fun setupPackageActivationSuccessfulViews(){
-        tvPackageActivationSuccessful.text = "${paperActivityViewModel.getPackageType()} ${resources.getString(R.string.activated_successfully)}"
-    }
-
-    private fun showActivationSuccessfulDialog(){
-        setupPackageActivationSuccessfulViews()
-        activationSuccessfulDialog.show()
-
-    }
-
-    private fun initActivationFailedDialogView(){
-        activationFailedDialogView = layoutInflater.inflate(R.layout.package_activation_failed_dialog, null)
-    }
-
-    private fun initActivationFailedDialog(){
-        initActivationFailedDialogView()
-        activationFailedDialog = AlertDialog.Builder(this).apply{
-            setView(activationFailedDialogView)
-            setPositiveButton("Ok"){btn, _ ->
-                btn.dismiss()
-            }
-        }.create()
-
-    }
-
-    private fun showActivationFailedDialog(){
-        activationFailedDialog.show()
-    }
-
-
-    private fun setupPackageActivatedObserver(){
-        paperActivityViewModel.isPackageActivated.observe(this, Observer{
-            if(it){
-                CoroutineScope(Dispatchers.IO).launch {
-//                    paperActivityViewModel.querySubjectPackageDataTableBySubjectName()
-                    delay(2000)
-                    withContext(Dispatchers.Main){
-                        showActivationSuccessfulDialog()
-                    }
-                }
-            }
-        })
-    }
-
-
 }
 
 interface OnRequestToGoToResultListener {

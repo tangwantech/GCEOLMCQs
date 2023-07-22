@@ -59,15 +59,6 @@ class RequestToPayDialogFragment : DialogFragment() {
         tvRequestToPaySubject.text = requestToPayViewModel.getSubjectName()
         tvRequestToPayPackageType.text = requestToPayViewModel.getPackageType()
         tvRequestToPayPackagePrice.text = "${requestToPayViewModel.getPackagePrice()} FCFA"
-//        requestToPayViewModel.getUssdCode().observe(this, Observer {ussdCode ->
-//            layoutInvoice.visibility = View.VISIBLE
-//
-//            tvRequestToPaySubject.text = requestToPayViewModel.getSubjectName()
-//            tvRequestToPayPackageType.text = requestToPayViewModel.getPackageType()
-//            tvRequestToPayPackagePrice.text = requestToPayViewModel.getPackagePrice()
-//        })
-
-
 
         requestToPayViewModel.getIsTransactionSuccessful().observe(this, Observer { isSuccessful ->
             if (isSuccessful) {

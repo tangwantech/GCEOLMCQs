@@ -63,8 +63,8 @@ dependencies {
     implementation "com.github.parse-community.Parse-SDK-Android:parse:1.26.0"
 
     implementation 'com.github.CamPay.android-sdk:android-sdk:latest.release'
-    // Peer dependency
     implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
+
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
 

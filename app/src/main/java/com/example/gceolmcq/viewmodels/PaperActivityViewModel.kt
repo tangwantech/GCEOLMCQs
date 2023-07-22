@@ -15,7 +15,7 @@ import kotlinx.coroutines.*
 private const val RETRY_COUNT = 2
 class PaperActivityViewModel:ViewModel() {
 
-    private val momoPayService = MomoPayService()
+//    private val momoPayService = MomoPayService()
 
     private var mcqDatabase: GceOLMcqDatabase? = null
     private var examItemDataModel: ExamItemDataModel? = null
@@ -30,7 +30,6 @@ class PaperActivityViewModel:ViewModel() {
     private val sectionScores = MutableLiveData<ArrayList<Int>>()
 
     private var sectionsAnsweredCount = 0
-//    private var isPaperAttempted:Boolean = false
 
     private var currentSectionRetryCount = MutableLiveData<Int>()
 
@@ -41,22 +40,11 @@ class PaperActivityViewModel:ViewModel() {
 
     private val _subjectPackage = MutableLiveData<SubjectPackageData>()
 
-    private val subscriptionFormData = SubscriptionFormData()
-    private val _isSubscriptionFormFilled = MutableLiveData<Boolean>()
-    val isSubscriptionFormFilled: LiveData<Boolean> = _isSubscriptionFormFilled
-
-    private val _isPackageActivated = MutableLiveData<Boolean>()
-    val isPackageActivated: LiveData<Boolean> = _isPackageActivated
-
-//    private var sectionNameBundleList: Array<Bundle>? = null
-
-
     init {
         sectionScores.value = ArrayList()
         paperScore.value = 0
         currentSectionRetryCount.value = RETRY_COUNT
     }
-
 
     fun setExamItemData(examItemDataModel: ExamItemDataModel){
         this.examItemDataModel = examItemDataModel
@@ -203,7 +191,7 @@ class PaperActivityViewModel:ViewModel() {
         this.mcqDatabase = mcqDatabase
     }
 
-    fun querySubjectPackageDataTableBySubjectName(){
+    fun getSubjectPackageDataFromLocalDbWhereSubjectName(){
         CoroutineScope(Dispatchers.IO).launch{
             val tempSubjectPackageData = mcqDatabase?.subjectPackageDao()?.findBySubjectName(subjectName)!!
             _subjectPackage.postValue(tempSubjectPackageData)
@@ -212,7 +200,6 @@ class PaperActivityViewModel:ViewModel() {
     }
 
     fun checkSubjectPackageExpiry(): Boolean{
-//        _packageHasExpired.value = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
         return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
     }
 
@@ -248,84 +235,6 @@ class PaperActivityViewModel:ViewModel() {
     }
 
     fun getSectionResultData(): SectionResultData = sectionResultData
-
-    fun setPackageType(packageType: String){
-        subscriptionFormData.packageType = packageType
-        updateIsSubscriptionFormFilled()
-    }
-
-    fun setPackageDuration(packageDuration: Int) {
-        subscriptionFormData.packageDuration = packageDuration
-    }
-
-    fun setPackagePrice(price: String){
-        subscriptionFormData.packagePrice = price
-    }
-
-    fun setMomoPartner(momoPartner: String){
-        subscriptionFormData.momoPartner = momoPartner
-        updateIsSubscriptionFormFilled()
-    }
-
-    fun setMomoNumber(momoNumber: String){
-        subscriptionFormData.momoNumber = momoNumber
-        updateIsSubscriptionFormFilled()
-    }
-
-    fun getPackageType(): String{
-        return subscriptionFormData.packageType!!
-    }
-
-    fun getMomoPartner(): String{
-        return subscriptionFormData.momoPartner!!
-    }
-
-    fun getPackagePrice(): String{
-        return subscriptionFormData.packagePrice!!
-    }
-
-    private fun updateIsSubscriptionFormFilled() {
-//
-        _isSubscriptionFormFilled.value = subscriptionFormData.packageType != null && subscriptionFormData.momoPartner != null && subscriptionFormData.momoNumber != null && subscriptionFormData.momoNumber!!.length == 9
-    }
-
-    fun requestToPay() {
-        CoroutineScope(Dispatchers.IO).launch {
-            momoPayService.initiatePayment(subscriptionFormData)
-        }
-
-    }
-
-    fun isPaymentSuccessful(): LiveData<Boolean>{
-        return momoPayService.isTransactionSuccessful
-    }
-
-    fun activateSubjectPackage() {
-        val activationExpiryDates =
-            ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
-                ActivationExpiryDatesGenerator.MINUTES,
-                subscriptionFormData.packageDuration!!
-            )
-        _subjectPackage.value?.let{
-            it.packageName = subscriptionFormData.packageType
-            it.activatedOn = activationExpiryDates.activatedOn
-            it.expiresOn = activationExpiryDates.expiresOn
-        }
-
-        updateSubjectPackageDataInLocalDatabase(_subjectPackage.value!!)
-
-    }
-
-    private fun updateSubjectPackageDataInLocalDatabase(subjectPackageData: SubjectPackageData){
-        CoroutineScope(Dispatchers.IO).launch{
-            println(subjectPackageData)
-            mcqDatabase?.subjectPackageDao()?.update(subjectPackageData)
-            withContext(Dispatchers.Main){
-                _isPackageActivated.value = true
-            }
-        }
-
-    }
 
     fun setSubjectName(subjectName: String) {
         this.subjectName = subjectName

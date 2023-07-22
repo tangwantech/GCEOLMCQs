@@ -16,7 +16,7 @@ import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.HomeRecyclerViewAdapter
 import com.example.gceolmcq.viewmodels.HomeFragmentViewModel
 
-class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryListener {
+class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryListener{
 
     private lateinit var homeRecyclerView: RecyclerView
     private lateinit var homeFragmentViewModel: HomeFragmentViewModel
@@ -66,8 +66,7 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
             requireContext(),
             homeFragmentViewModel.subjectPackageDataList.value!!,
             onHomeRecyclerItemClickListener,
-            this
-        )
+            this)
 
     }
 
@@ -76,12 +75,7 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
         val loMan = LinearLayoutManager(requireContext())
         loMan.orientation = LinearLayoutManager.VERTICAL
         homeRecyclerView.layoutManager = loMan
-//        homeRecyclerView.addItemDecoration(
-//            DividerItemDecoration(
-//                requireContext(),
-//                DividerItemDecoration.VERTICAL
-//            )
-//        )
+
         homeRecyclerView.adapter = homeRecyclerViewAdapter
 
     }
@@ -126,6 +120,5 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
     override fun onCheckPackageExpiry(position: Int) {
         homeFragmentViewModel.checkPackageExpiry(position)
     }
-
 
 }

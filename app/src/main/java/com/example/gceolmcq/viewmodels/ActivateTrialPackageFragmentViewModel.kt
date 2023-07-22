@@ -171,7 +171,7 @@ class ActivateTrialPackageFragmentViewModel: ViewModel() {
     private fun activateTrialPackageForAllSubjectsAvailable(){
         val activationExpiryDates =
             ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
-                MCQConstants.HOURS,
+                MCQConstants.MINUTES,
                 MCQConstants.TRIAL_DURATION
             )
 

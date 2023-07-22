@@ -2,33 +2,51 @@ package com.example.gceolmcq
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
 import com.example.gceolmcq.datamodels.SubscriptionFormData
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import com.example.gceolmcq.datamodels.TransactionStatus
+import kotlinx.coroutines.*
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 
-class MomoPayService{
-    private lateinit var subscriptionFormData: SubscriptionFormData
-    private var _isTransactionSuccessful = MutableLiveData<Boolean>()
-    val isTransactionSuccessful: LiveData<Boolean> = _isTransactionSuccessful
+class MomoPayService {
+//    companion object {
+//
+//
+//    }
+private var subscriptionFormData: SubscriptionFormData? = null
+    private var isTransactionSuccessful = MutableLiveData<Boolean>()
     private var transactionId = MutableLiveData<String>()
+    private var momoPartner = MutableLiveData<String>()
     private var ussDCode = MutableLiveData<String>()
-    private var transactionStatus = MutableLiveData<String>()
+    private var transactionStatus = MutableLiveData<TransactionStatus>()
 
-    init {
-        transactionStatus.value = "PENDING"
-    }
+
     fun initiatePayment(subscriptionFormData: SubscriptionFormData) {
         this.subscriptionFormData = subscriptionFormData
-        setAccessToken()
-//        testUpdateTransactionSuccessful(true)
+//        setMoMoPartner()
+//        setAccessToken()
+        testUpdateTransactionSuccessful()
+//        requestToPay()
+    }
 
+    private fun setMoMoPartner() {
+        momoPartner.value = subscriptionFormData?.momoPartner!!
+    }
+
+    fun getPackageType(): String {
+        return subscriptionFormData?.packageType!!
+    }
+
+    fun getPackagePrice(): String {
+        return subscriptionFormData?.packagePrice!!
+    }
+
+    fun getMomoPartner(): LiveData<String> {
+        return momoPartner
     }
 
     fun getUssdCode(): LiveData<String> {
@@ -38,6 +56,15 @@ class MomoPayService{
     fun getTransactionId(): LiveData<String> {
         return transactionId
     }
+
+    fun getSubjectIndex(): Int {
+        return subscriptionFormData?.subjectPosition!!
+    }
+
+    fun getPackageDuration(): Int {
+        return subscriptionFormData?.packageDuration!!
+    }
+
 
     private fun setAccessToken() {
         val client = OkHttpClient().newBuilder().build();
@@ -55,27 +82,31 @@ class MomoPayService{
 
         client.newCall(request).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) {
-                _isTransactionSuccessful.postValue(false)
+                call.cancel()
+                isTransactionSuccessful.postValue(false)
             }
 
             override fun onResponse(call: Call, response: Response) {
                 val responseBody = response.body?.string()
                 val json = JSONObject(responseBody!!)
-//                accessToken.postValue(json["token"].toString())
                 val accessToken = json["token"].toString()
-                requestToPay(accessToken, subscriptionFormData.packagePrice,subscriptionFormData.momoNumber)
+                requestToPay(
+                    accessToken,
+                    subscriptionFormData?.packagePrice,
+                    subscriptionFormData?.momoNumber
+                )
             }
 
         })
     }
 
-    private fun requestToPay(token: String, amountToPay: String?, momoNumber: String?) {
+    fun requestToPay(token: String, amountToPay: String?, momoNumber: String?) {
         val client = OkHttpClient().newBuilder()
             .build()
         val mediaType = "application/json".toMediaTypeOrNull()
         val requestBody: RequestBody = RequestBody.create(
             mediaType,
-            "{\"amount\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"description\":\"${subscriptionFormData.subject} ${subscriptionFormData.packageType} subscription\",\"external_reference\": \"\"}"
+            "{\"amount\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"description\":\"${subscriptionFormData?.subject} ${subscriptionFormData?.packageType} subscription\",\"external_reference\": \"\"}"
         )
         val request: Request = Request.Builder()
             .url("https://demo.campay.net/api/collect/")
@@ -83,39 +114,45 @@ class MomoPayService{
             .addHeader("Authorization", "Token ${token}")
             .addHeader("Content-Type", "application/json")
             .build()
-        client.newCall(request).enqueue(object: Callback {
+        client.newCall(request).enqueue(object : Callback {
+            val status = TransactionStatus(MCQConstants.PENDING)
             override fun onFailure(call: Call, e: IOException) {
-                _isTransactionSuccessful.postValue(false)
-            }
+//                    call.cancel()
+                isTransactionSuccessful.postValue(false)
+                call.cancel()
 
+            }
             override fun onResponse(call: Call, response: Response) {
 
-//                println(responseBody)
                 try {
                     val responseBody = response.body?.string()
                     val json = JSONObject(responseBody!!)
                     ussDCode.postValue(json["ussd_code"].toString())
                     val referenceId = json["reference"].toString()
-                    CoroutineScope(Dispatchers.Main).launch {
-//                        delay(1000)
-                        checkTransactionStatus(token, referenceId)
-                        while(transactionStatus.value == "PENDING"){
-                            delay(1000)
-                            checkTransactionStatus(token, referenceId)
-//
+
+                    transactionStatus.postValue(status)
+
+                    CoroutineScope(Dispatchers.IO).launch{
+                        checkTransactionStatus(token, referenceId, status)
+                        while (status.status == MCQConstants.PENDING){
+                            delay(5000)
+                            checkTransactionStatus(token, referenceId, status)
+                            println(status)
                         }
-                        when (transactionStatus.value) {
-                            "SUCCESSFUL" -> {
-                                _isTransactionSuccessful.postValue(true)
+
+                        when(status.status){
+                            MCQConstants.SUCCESSFUL -> {
+                                isTransactionSuccessful.postValue(true)
                             }
-                            "FAILED" -> {
-                                _isTransactionSuccessful.postValue(false)
+                            MCQConstants.FAILED -> {
+                                isTransactionSuccessful.postValue(false)
                             }
                         }
                     }
                 }catch (e: JSONException){
                     println("Exception $e")
-                    _isTransactionSuccessful.postValue(false)
+                    isTransactionSuccessful.postValue(false)
+
                 }
 
             }
@@ -123,7 +160,7 @@ class MomoPayService{
         })
     }
 
-    fun checkTransactionStatus(token: String, referenceId: String){
+    fun checkTransactionStatus(token: String, referenceId: String, status: TransactionStatus) {
         val client = OkHttpClient().newBuilder()
             .build()
         val mediaType = "".toMediaTypeOrNull()
@@ -134,32 +171,47 @@ class MomoPayService{
             .addHeader("Authorization", "Token $token")
             .addHeader("Content-Type", "application/json")
             .build()
-        client.newCall(request).enqueue(object: Callback {
+        client.newCall(request).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) {
-                _isTransactionSuccessful.postValue(false)
+                isTransactionSuccessful.postValue(false)
             }
 
             override fun onResponse(call: Call, response: Response) {
+
                 val responseBody = response.body?.string()
                 val jsonResponse = JSONObject(responseBody!!)
-                println("transaction status: $responseBody")
-                transactionId.postValue(jsonResponse["operator_reference"].toString())
-                transactionStatus.postValue(jsonResponse["status"].toString())
-
+                status.status = jsonResponse["status"].toString()
             }
 
         })
 
+
     }
 
 
-
-    private fun testUpdateTransactionSuccessful(status: Boolean){
-        _isTransactionSuccessful.postValue(status)
+    private fun testUpdateTransactionSuccessful() {
+        isTransactionSuccessful.value = true
     }
 
     fun getSubjectName(): String {
-        return subscriptionFormData.subject!!
+        return subscriptionFormData?.subject!!
     }
+
+    fun getTransactionStatus(): LiveData<TransactionStatus> {
+        return transactionStatus
+    }
+
+    fun getIsTransactionSuccessful(): LiveData<Boolean>{
+        return isTransactionSuccessful
+    }
+
+
+    fun reset() {
+        isTransactionSuccessful = MutableLiveData()
+        transactionStatus = MutableLiveData()
+        subscriptionFormData = null
+    }
+
+
 
 }
