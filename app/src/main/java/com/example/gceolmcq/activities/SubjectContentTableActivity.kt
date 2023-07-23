@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager.widget.ViewPager
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.SubjectContentTableViewPagerAdapter
 import com.example.gceolmcq.datamodels.SubjectAndFileNameData
@@ -99,6 +100,7 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
     }
 
     private fun setUpSubjectContentTab(subjectPackageData: SubjectPackageData) {
+        val subjectIndex = intent.getIntExtra(MCQConstants.SUBJECT_INDEX, 0)
 
         val tabIndex = pref.getInt(TAB_INDEX, 0)
         val tabFragments: ArrayList<Fragment> = ArrayList()
@@ -112,6 +114,7 @@ class SubjectContentTableActivity : AppCompatActivity(), ExamTypeFragment.OnPack
                     subjectTitle!!,
                     subjectPackageData.expiresOn!!,
                     subjectPackageData.packageName!!,
+                    subjectIndex
 
                 )
             tabFragments.add(fragment)

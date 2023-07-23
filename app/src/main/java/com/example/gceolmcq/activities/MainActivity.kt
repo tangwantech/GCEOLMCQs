@@ -33,9 +33,7 @@ import kotlinx.coroutines.*
 import java.io.IOException
 import java.nio.charset.Charset
 
-class MainActivity : AppCompatActivity(),
-    SubscriptionFormDialogFragment.OnPayButtonClickListener,
-    RequestToPayDialogFragment.RequestToPayTransactionStatusListener,
+class MainActivity : SubscriptionActivity(),
     HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener,
     HomeFragment.OnPackageActivatedListener,
     ActivateTrialPackageFragment.OnSubjectsPackagesAvailableListener {
@@ -44,9 +42,6 @@ class MainActivity : AppCompatActivity(),
     private lateinit var header: LinearLayout
 
     private var currentFragmentIndex: Int? = null
-    private lateinit var processingAlertDialog: AlertDialog
-    private lateinit var requestToPayDialog: AlertDialog
-    private lateinit var activatingPackageDialog: AlertDialog
     private lateinit var pref: SharedPreferences
 
 
@@ -55,15 +50,8 @@ class MainActivity : AppCompatActivity(),
         setContentView(R.layout.activity_main)
         pref = getSharedPreferences("Main", MODE_PRIVATE)
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
-
-        initProcessingDialog()
-        initRequestToPayDialog()
-        initActivatingPackageDialog()
         setupViewModel()
         initViews()
-        setupViewObservers()
-
-
     }
 
     private fun areSubjectsPackagesAvailable(): Boolean {
@@ -79,71 +67,21 @@ class MainActivity : AppCompatActivity(),
 
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
-        viewModel.initSubjectDataBase(GceOLMcqDatabase.getDatabase(this))
-//
-        viewModel.setMobileId(getMobileID())
-//        println(getJsonFromAssets())
         viewModel.setSubjectAndFileNameDataListModel(getJsonFromAssets())
-//
     }
 
     private fun initViews() {
         header = findViewById(R.id.header)
-//        bottomNavView = findViewById(R.id.bottomNav)
-    }
-
-    private fun setupViewObservers() {
-        viewModel.activatedPackageIndexChangedAt.observe(this, Observer {
-//            println("canceling activating package dialog")
-            if(activatingPackageDialog.isShowing){
-                activatingPackageDialog.cancel()
-            }
-            showPackageActivatedDialog(it)
-            displayView()
-//            resetMomoPayService()
-
-        })
-
-        viewModel.getTransactionStatus().observe(this) {
-            if (it.status == MCQConstants.PENDING) {
-                cancelProcessingRequestDialog()
-                if (!requestToPayDialog.isShowing) {
-                    requestUserToPayDialog()
-                }
-            }
-        }
-
-        viewModel.isTransactionSuccessful().observe(this) {
-            if (processingAlertDialog.isShowing) {
-               cancelProcessingRequestDialog()
-            }
-            cancelRequestToPayDialog()
-            if (it) {
-                Toast.makeText(
-                    this,
-                    resources.getString(R.string.payment_received),
-                    Toast.LENGTH_LONG
-                ).show()
-                showActivatingPackageDialog()
-                activateUserPackage()
-            } else {
-                showTransactionFailedDialog(viewModel.subscriptionData.value?.packageType!!)
-                resetMomoPayService()
-            }
-        }
-
     }
 
     private fun gotoHomeFragment() {
         title = resources.getString(R.string.app_name)
-//        header.visibility = View.VISIBLE
         val homeFragment = HomeFragment.newInstance()
         replaceFragment(homeFragment, 1)
     }
 
     private fun gotoActivateTrialPackageFragment() {
         val subjects = viewModel.liveSubjectsAvailable.value!!
-//        println(subjects)
         val activateTrialFragment =
             ActivateTrialPackageFragment.newInstance(subjects, getMobileID())
         replaceFragment(activateTrialFragment, 0)
@@ -163,7 +101,6 @@ class MainActivity : AppCompatActivity(),
         if (!areSubjectsPackagesAvailable()) {
             gotoActivateTrialPackageFragment()
         } else {
-//            viewModel.readSubjectsPackageDataFromLocalDb()
             gotoHomeFragment()
 
         }
@@ -180,6 +117,7 @@ class MainActivity : AppCompatActivity(),
         )
         intent.apply {
             putExtra("subject_and_file_name_bundle", bundle)
+            putExtra(MCQConstants.SUBJECT_INDEX, position)
 
         }
         startActivity(intent)
@@ -226,14 +164,7 @@ class MainActivity : AppCompatActivity(),
         }
     }
 
-    private fun resetMomoPayService() {
-        viewModel.restMomoPayService()
-    }
 
-    @SuppressLint("HardwareIds")
-    private fun getMobileID(): String {
-        return Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
-    }
 
     private fun getJsonFromAssets(): String? {
         val charset: Charset = Charsets.UTF_8
@@ -250,14 +181,6 @@ class MainActivity : AppCompatActivity(),
         } catch (e: IOException) {
             null
         }
-    }
-
-    private fun activateUserPackage() {
-
-        val subjectIndex = viewModel.subscriptionData.value?.subjectPosition!!
-        val packageType = viewModel.subscriptionData.value?.packageType!!
-        val packageDuration = viewModel.subscriptionData.value?.packageDuration!!
-        viewModel.activateSubjectPackageAt(subjectIndex, packageType, packageDuration)
     }
 
     override fun onResume() {
@@ -315,38 +238,12 @@ class MainActivity : AppCompatActivity(),
     }
 
     override fun onSubscribeButtonClicked(position: Int, subjectPackageData: SubjectPackageData) {
-        viewModel.setSubjectPackageDataToActivate(subjectPackageData)
-        showSubscriptionForm(position)
+        setSubjectPackageDataToActivate(position, subjectPackageData)
     }
-
-    override fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData) {
-        showProcessingRequestDialog()
-        viewModel.pay(subscriptionFormData)
-    }
-
-    override fun onTransactionSuccessful(
-        subjectIndex: Int,
-        packageType: String,
-        packageDuration: Int
-    ) {
-
-//        showPaymentReceivedDialog(subjectIndex, packageType, packageDuration)
-
-    }
-
-    override fun onTransactionFailed(packageType: String) {
-//        showTransactionFailedDialog(packageType)
-    }
-
 
     override fun onPackageActivated(): LiveData<Int> {
-        return viewModel.activatedPackageIndexChangedAt
+        return getActivatedPackageIndex()
     }
-
-    private fun activatePackage(subjectIndex: Int, packageType: String, packageDuration: Int) {
-        viewModel.activateSubjectPackageAt(subjectIndex, packageType, packageDuration)
-    }
-
 
     override fun onSubjectsPackagesAvailable(isAvailable: Boolean) {
         println("is available $isAvailable")
@@ -354,59 +251,6 @@ class MainActivity : AppCompatActivity(),
         displayView()
 
     }
-
-    private fun initProcessingDialog() {
-        processingAlertDialog = AlertDialog.Builder(this).create()
-        processingAlertDialog.apply {
-            setCancelable(false)
-        }
-    }
-
-    private fun initRequestToPayDialog() {
-        requestToPayDialog = AlertDialog.Builder(this).create()
-        requestToPayDialog.apply {
-            setCancelable(false)
-        }
-    }
-
-    private fun initActivatingPackageDialog() {
-        activatingPackageDialog = AlertDialog.Builder(this).create()
-        activatingPackageDialog.apply {
-            setCancelable(false)
-        }
-    }
-
-    private fun hideProcessingDialog(position: Int) {
-        CoroutineScope(Dispatchers.IO).launch {
-            delay(5000)
-            withContext(Dispatchers.Main) {
-                processingAlertDialog.hide()
-                viewModel.updateActivatedPackageIndexChangedAt(position)
-                showPackageActivatedDialog(position)
-            }
-
-        }
-
-    }
-
-    private fun showProcessingRequestDialog() {
-        processingAlertDialog.setMessage(resources.getString(R.string.processing_request))
-        processingAlertDialog.show()
-    }
-
-    private fun cancelProcessingRequestDialog() {
-        processingAlertDialog.cancel()
-    }
-
-    private fun showActivatingPackageDialog() {
-        activatingPackageDialog.setMessage(resources.getString(R.string.activating_package_message))
-        activatingPackageDialog.show()
-    }
-
-    private fun cancelActivatingPackageDialog() {
-        activatingPackageDialog.cancel()
-    }
-
     private fun showExitDialog() {
         val dialogExit = AlertDialog.Builder(this)
         dialogExit.apply {
@@ -414,81 +258,10 @@ class MainActivity : AppCompatActivity(),
             setNegativeButton(resources.getString(R.string.cancel)) { p, _ ->
                 p.dismiss()
             }
-            setPositiveButton("OK") { _, _ ->
+            setPositiveButton(resources.getString(R.string.exit)) { _, _ ->
                 this@MainActivity.finish()
             }
             setCancelable(false)
-        }.create().show()
-    }
-
-    private fun showSubscriptionForm(position: Int) {
-        val subscriptionFormDialogFragment = SubscriptionFormDialogFragment.newInstance(
-            position,
-            viewModel.getSubjectNameAt(position)
-        )
-        subscriptionFormDialogFragment.isCancelable = false
-        subscriptionFormDialogFragment.show(supportFragmentManager, "subscription_form_dialog")
-    }
-
-    private fun requestUserToPayDialog() {
-        val dialogView = layoutInflater.inflate(R.layout.fragment_request_to_pay, null)
-
-        val tvRequestToPayMessage: TextView = dialogView.findViewById(R.id.tvRequestToPayMessage)
-        val tvRequestToPaySubject: TextView =
-            dialogView.findViewById(R.id.tvRequestToPaySubject)
-        val tvRequestToPayPackageType: TextView =
-            dialogView.findViewById(R.id.tvRequestToPayPackage)
-        val tvRequestToPayPackagePrice: TextView =
-            dialogView.findViewById(R.id.tvRequestToPayAmount)
-//        val layoutInvoice: LinearLayout = dialogView.findViewById(R.id.layoutInvoice)
-        if (viewModel.subscriptionData.value?.momoPartner == "MTN") {
-            tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
-        } else {
-            tvRequestToPayMessage.text = resources.getString(R.string.orange_request_to_pay_message)
-        }
-
-        tvRequestToPaySubject.text = viewModel.subscriptionData.value?.subject
-        tvRequestToPayPackageType.text = viewModel.subscriptionData.value?.packageType
-        tvRequestToPayPackagePrice.text = "${viewModel.subscriptionData.value?.packagePrice} FCFA"
-
-
-        requestToPayDialog.setView(dialogView)
-        requestToPayDialog.show()
-
-    }
-
-    private fun cancelRequestToPayDialog() {
-        requestToPayDialog.cancel()
-//        requestToPayDialog.hide()
-    }
-
-    private fun showPackageActivatedDialog(position: Int) {
-        val alertDialog = AlertDialog.Builder(this@MainActivity)
-        val view = this@MainActivity.layoutInflater.inflate(
-            R.layout.package_activation_successful_dialog,
-            null
-        )
-        val tvPackageActivationSuccessful: TextView =
-            view.findViewById(R.id.tvPackageActivationSuccessful)
-        tvPackageActivationSuccessful.text =
-            "${viewModel.subscriptionData.value?.packageType} ${resources.getString(R.string.activated_successfully)}"
-        alertDialog.apply {
-            setView(view)
-            setPositiveButton("Ok") { _, _ ->
-            }
-        }.create().show()
-    }
-
-    private fun showTransactionFailedDialog(packageType: String) {
-        val alertDialog = AlertDialog.Builder(this)
-        val view = this.layoutInflater.inflate(R.layout.package_activation_failed_dialog, null)
-        val tvFailedMessage: TextView = view.findViewById(R.id.tvPackageActivationFailed)
-        tvFailedMessage.text =
-            "${resources.getString(R.string.failed_to_activate_package)} ${viewModel.subscriptionData.value?.packageType} "
-        alertDialog.apply {
-            setView(view)
-            setPositiveButton("Ok") { _, _ ->
-            }
         }.create().show()
     }
 

@@ -79,6 +79,8 @@
     <string name="campay_app_id">HGK6XAyi8eeq9ZrUZFZXPXsnVQEg0B6nPYxSQYb-pZ7NXSobLJSfRsRp-jWKZbmP-p8O2HFyiqB6fq8I1U_E7A</string>
     <string name="campay_app_user_name">GG0hAnE81DMQEXqANvG27hFkLmxf3PEhKh4UMSh5CFCOhlNBiwAQ2L9wWI3k3q0lvzZJH_p1CRIoQF7by-nApw</string>
     <string name="campay_app_pass_word">jkMl4mmFSuBE2KGQAgjy1DuHPKNH6qUMWxpZ8LQIY-NzjuYwW1CzCccU0oIzMRxItd7RbjSWelmI7QuFTvfhSw</string>
+    <string name="campay_token_url">https://demo.campay.net/api/token/</string>
+    <string name="campay_requestToPay_url">https://demo.campay.net/api/collect/</string>
 
     <string name="statistics">Statistics</string>
     <string name="contact_us">Contact Us</string>

@@ -10,10 +10,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.SectionNavigationRecyclerViewAdapter
 import com.example.gceolmcq.datamodels.ExamItemDataModel
 import com.example.gceolmcq.datamodels.SectionResultData
+import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.UserMarkedAnswersSheetData
 import com.example.gceolmcq.fragments.*
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
@@ -22,7 +24,7 @@ import java.io.IOException
 import java.nio.charset.Charset
 private const val SHOW_INSTRUCTION = "showInstruction"
 
-class PaperActivity : AppCompatActivity(),
+class PaperActivity : SubscriptionActivity(),
     SectionNavigationRecyclerViewAdapter.OnRecyclerItemClickListener,
     SectionNavigationFragment.OnRequestNavigationDataListener,
     OnCheckPackageExpiredListener,
@@ -50,8 +52,6 @@ class PaperActivity : AppCompatActivity(),
         setupViewModel()
         displayPaperInstructionDialog()
         loadFragment()
-
-
 
     }
 
@@ -286,22 +286,27 @@ class PaperActivity : AppCompatActivity(),
         return paperActivityViewModel.getIsSectionsAnswered()
     }
 
-
-//    override fun onStop() {
-//
-//        super.onStop()
-//    }
-
-    private fun showPackageExpiredDialog() {
+    override fun showPackageExpiredDialog() {
         val alertDialog = AlertDialog.Builder(this)
         alertDialog.apply {
             setMessage(resources.getString(R.string.package_expired_message))
-            setPositiveButton(resources.getString(R.string.ok)) { _, _ ->
-                gotoSectionNavigationFragment()
+            setPositiveButton(resources.getString(R.string.subscribe)) { _, _ ->
+                val subjectIndex = intent.getIntExtra(MCQConstants.SUBJECT_INDEX, 0)
+                val subjectPackageData = paperActivityViewModel.getSubjectPackageData()
+                setSubjectPackageDataToActivate(subjectIndex, subjectPackageData)
             }
+            setNegativeButton(resources.getString(R.string.cancel)){_, _ ->}
         }.create().show()
     }
 
+    override fun showPackageActivatedDialog() {
+        super.showPackageActivatedDialog()
+        updatedSubjectPackageData()
+    }
+
+    private fun updatedSubjectPackageData(){
+        paperActivityViewModel.updateSubjectPackageData(getActivatedSubjectPackageData())
+    }
 
     override fun onDecrementCurrentSectionRetryCount() {
         paperActivityViewModel.decrementCurrentSectionRetryCount()

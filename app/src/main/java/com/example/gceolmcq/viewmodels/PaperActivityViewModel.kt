@@ -15,8 +15,6 @@ import kotlinx.coroutines.*
 private const val RETRY_COUNT = 2
 class PaperActivityViewModel:ViewModel() {
 
-//    private val momoPayService = MomoPayService()
-
     private var mcqDatabase: GceOLMcqDatabase? = null
     private var examItemDataModel: ExamItemDataModel? = null
     private var paperDataModel: PaperDataModel? = null
@@ -199,6 +197,14 @@ class PaperActivityViewModel:ViewModel() {
 
     }
 
+    fun getSubjectPackageData(): SubjectPackageData{
+        return _subjectPackage.value!!
+    }
+
+    fun updateSubjectPackageData(subjectPackageData: SubjectPackageData){
+        _subjectPackage.value = subjectPackageData
+    }
+
     fun checkSubjectPackageExpiry(): Boolean{
         return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
     }
@@ -239,12 +245,9 @@ class PaperActivityViewModel:ViewModel() {
     fun setSubjectName(subjectName: String) {
         this.subjectName = subjectName
     }
-
-    fun getSubjectName(): String{
-        return subjectName
-    }
-
-
-
+//
+//    fun getSubjectName(): String{
+//        return subjectName
+//    }
 
 }

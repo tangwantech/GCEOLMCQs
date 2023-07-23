@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.activities.PaperActivity
 import com.example.gceolmcq.R
 //import com.example.gceolmcq.activities.OnPackageExpiredListener
@@ -86,13 +87,14 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
 
 
     companion object {
-        fun newInstance(examTypeDataModel: ExamTypeDataModel, subjectName: String, expiresOn: String, packageName: String): Fragment {
+        fun newInstance(examTypeDataModel: ExamTypeDataModel, subjectName: String, expiresOn: String, packageName: String, subjectIndex:Int): Fragment {
             val examFragment = ExamTypeFragment()
             val bundle = Bundle()
             bundle.putString("expiresOn", expiresOn)
             bundle.putSerializable("examTypeData", examTypeDataModel)
             bundle.putString("subjectName", subjectName)
             bundle.putString("packageName", packageName)
+            bundle.putInt(MCQConstants.SUBJECT_INDEX, subjectIndex)
             examFragment.arguments = bundle
             return examFragment
         }
@@ -100,32 +102,24 @@ class ExamTypeFragment : Fragment(), ExamTypeRecyclerViewAdapter.OnRecyclerItemC
 
     override fun onRecyclerItemClick(position: Int) {
 
-//        if(requireArguments().getString("packageName")!! == requireContext().getString(R.string.trial)){
-//            if(position == 0){
-//                gotoPaperActivity(position)
-//            }else{
-//                onContentAccessDeniedListener.onContentAccessDenied()
-//            }
-//        }else{
-//            if(!onPackageExpiredListener.onCheckIfPackageHasExpired()){
-//                onPackageExpiredListener.onShowPackageExpired()
-//            }else{
-//                gotoPaperActivity(position)
-//            }
-//        }
         if(!onPackageExpiredListener.onCheckIfPackageHasExpired()){
             onPackageExpiredListener.onShowPackageExpired()
         }else{
+
             gotoPaperActivity(position)
         }
 
     }
-    private fun gotoPaperActivity(position: Int){
+    private fun gotoPaperActivity(examYearIndex: Int){
+        val subjectIndex = requireArguments().getInt(MCQConstants.SUBJECT_INDEX)
         val intent = Intent(requireContext(), PaperActivity::class.java)
-        val bundle = Bundle()
-        bundle.putString("expiresOn", requireArguments().getString("expiresOn"))
-        bundle.putString("subjectName", requireArguments().getString("subjectName"))
-        bundle.putSerializable("paperSerializable", examTypeFragmentViewModel.getExamItemDataAt(position))
+        val bundle = Bundle().apply {
+            putInt(MCQConstants.SUBJECT_INDEX, subjectIndex)
+            putString("expiresOn", requireArguments().getString("expiresOn"))
+            putString("subjectName", requireArguments().getString("subjectName"))
+            putSerializable("paperSerializable", examTypeFragmentViewModel.getExamItemDataAt(examYearIndex))
+        }
+
         intent.putExtra("paperData", bundle)
         startActivity(intent)
     }
