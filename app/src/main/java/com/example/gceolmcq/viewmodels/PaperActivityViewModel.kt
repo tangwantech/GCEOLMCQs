@@ -4,18 +4,13 @@ import android.os.Bundle
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.gceolmcq.ActivationExpiryDatesGenerator
-import com.example.gceolmcq.MomoPayService
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.datamodels.*
 //import com.example.gceolmcq.datamodels.SectionAnsweredScoreData
-import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.google.gson.Gson
-import kotlinx.coroutines.*
 
-private const val RETRY_COUNT = 2
 class PaperActivityViewModel:ViewModel() {
 
-    private var mcqDatabase: GceOLMcqDatabase? = null
     private var examItemDataModel: ExamItemDataModel? = null
     private var paperDataModel: PaperDataModel? = null
     private lateinit var subjectName: String
@@ -41,7 +36,7 @@ class PaperActivityViewModel:ViewModel() {
     init {
         sectionScores.value = ArrayList()
         paperScore.value = 0
-        currentSectionRetryCount.value = RETRY_COUNT
+        currentSectionRetryCount.value = MCQConstants.SECTION_RETRY_LIMIT
     }
 
     fun setExamItemData(examItemDataModel: ExamItemDataModel){
@@ -185,28 +180,8 @@ class PaperActivityViewModel:ViewModel() {
         return isSectionsAnsweredData
     }
 
-    fun setDataBase(mcqDatabase: GceOLMcqDatabase){
-        this.mcqDatabase = mcqDatabase
-    }
-
-    fun getSubjectPackageDataFromLocalDbWhereSubjectName(){
-        CoroutineScope(Dispatchers.IO).launch{
-            val tempSubjectPackageData = mcqDatabase?.subjectPackageDao()?.findBySubjectName(subjectName)!!
-            _subjectPackage.postValue(tempSubjectPackageData)
-        }
-
-    }
-
-    fun getSubjectPackageData(): SubjectPackageData{
-        return _subjectPackage.value!!
-    }
-
     fun updateSubjectPackageData(subjectPackageData: SubjectPackageData){
         _subjectPackage.value = subjectPackageData
-    }
-
-    fun checkSubjectPackageExpiry(): Boolean{
-        return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackage.value?.expiresOn!!)
     }
 
     fun getSectionNumberAt(position: Int): String {
@@ -223,7 +198,7 @@ class PaperActivityViewModel:ViewModel() {
     }
 
     fun resetCurrentSectionRetryCount(){
-        currentSectionRetryCount.value = RETRY_COUNT
+        currentSectionRetryCount.value = MCQConstants.SECTION_RETRY_LIMIT
     }
 
     fun getCurrentSectionRetryCount(): LiveData<Int>{

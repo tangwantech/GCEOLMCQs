@@ -17,6 +17,9 @@ class LocalRepository(private val context: Context){
     private val _indexOfActivatedPackage = MutableLiveData<Int>()
     val indexOfActivatedPackage: LiveData<Int> = _indexOfActivatedPackage
 
+    private val _subjectPackageData = MutableLiveData<SubjectPackageData>()
+    val subjectPackageData: LiveData<SubjectPackageData> = _subjectPackageData
+
     fun getAreSubjectsPackagesAvailable(): MutableLiveData<Boolean?>{
         return _areSubjectsPackagesAvailable
     }
@@ -39,6 +42,16 @@ class LocalRepository(private val context: Context){
 
             }
         }
+    }
+
+    fun getSubjectPackageDataFromLocalDbWhereSubjectName(subjectName: String){
+        CoroutineScope(Dispatchers.IO).launch{
+            val tempSubjectPackageData = localDatabase.subjectPackageDao().findBySubjectName(subjectName)
+            withContext(Dispatchers.Main){
+                _subjectPackageData.value = tempSubjectPackageData
+            }
+        }
+
     }
 
 }

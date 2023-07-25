@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.MomoPayService
 import com.example.gceolmcq.SubjectPackageActivator
 import com.example.gceolmcq.datamodels.SubjectPackageData
@@ -17,8 +18,8 @@ import com.parse.ParseObject
 class SubscriptionActivityViewModel: ViewModel() {
     private lateinit var momoPay: MomoPayService
     private var mobileId: String? = null
-    private var userRemoteParseObject = MutableLiveData<ParseObject?>(null)
-    private lateinit var localDatabase: GceOLMcqDatabase
+
+//    private lateinit var localDatabase: GceOLMcqDatabase
 
     private val _subjectPackageDataToActivated = MutableLiveData<SubjectPackageData?>()
     val subjectPackageDataToActivated: LiveData<SubjectPackageData?> = _subjectPackageDataToActivated
@@ -62,9 +63,9 @@ class SubscriptionActivityViewModel: ViewModel() {
         this.mobileId = mobileID
     }
 
-    fun initSubjectDataBase(context: Context) {
-        this.localDatabase = GceOLMcqDatabase.getDatabase(context)
-    }
+//    fun initSubjectDataBase(context: Context) {
+//        this.localDatabase = GceOLMcqDatabase.getDatabase(context)
+//    }
 
     private fun setSubscriptionData(subscriptionFormData: SubscriptionFormData){
         _subscriptionData.value = subscriptionFormData
@@ -106,4 +107,15 @@ class SubscriptionActivityViewModel: ViewModel() {
         repositoriesLink.getRemoteRepository().updateActivatedPackageInRemoteRepo(subjectPackageData, position)
     }
 
+    fun loadSubjectPackageDataFromLocalDbWhere(subjectName: String){
+        repositoriesLink.getLocalRepository().getSubjectPackageDataFromLocalDbWhereSubjectName(subjectName)
+    }
+
+    fun checkSubjectPackageExpiry(): Boolean{
+        return ActivationExpiryDatesGenerator().checkExpiry(repositoriesLink.getLocalRepository().subjectPackageData.value?.expiresOn!!)
+    }
+
+    fun getSubjectPackageData(): SubjectPackageData{
+        return repositoriesLink.getLocalRepository().subjectPackageData.value!!
+    }
 }

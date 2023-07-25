@@ -27,6 +27,8 @@ class MCQConstants{
         const val AVAILABLE = "available"
         const val PACKAGE_STATUS = "status"
         const val SUBJECT_INDEX = "subjectIndex"
+        const val MINIMUM_PERCENT_SCORE = 25
+        const val SECTION_RETRY_LIMIT = 2
 
         const val SUBJECT_NAMES = "subjectNames"
         const val SUBJECT_EXPIRY_LIST = "subjectExpiryList"

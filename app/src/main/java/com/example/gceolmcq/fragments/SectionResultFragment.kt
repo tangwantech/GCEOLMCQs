@@ -19,7 +19,7 @@ import com.example.gceolmcq.datamodels.SectionResultData
 import com.example.gceolmcq.viewmodels.SectionResultFragmentViewModel
 
 private const val SECTION_RESULT_DATA = "Section Result data"
-private const val MINIMUM_PERCENTAGE = 30
+//private const val MINIMUM_PERCENTAGE = 30
 
 class SectionResultFragment : Fragment() {
 
@@ -149,10 +149,10 @@ class SectionResultFragment : Fragment() {
 
         val btnCorrection: Button = view.findViewById(R.id.btnCorrection)
         btnCorrection.setOnClickListener {
-            if (sectionResultFragmentViewModel.getScoreData().percentage < MINIMUM_PERCENTAGE) {
+            if (sectionResultFragmentViewModel.getScoreData().percentage < MCQConstants.MINIMUM_PERCENT_SCORE) {
                 val alertDialog = AlertDialog.Builder(requireContext())
                 alertDialog.apply {
-                    setMessage("Get a percentage of at least $MINIMUM_PERCENTAGE to view corrections to all wrong answers")
+                    setMessage("Get a percentage of at least ${MCQConstants.MINIMUM_PERCENT_SCORE} in order to view corrections to all wrong answers")
                     setPositiveButton("Ok") { p0, _ ->
                         p0.dismiss()
                     }

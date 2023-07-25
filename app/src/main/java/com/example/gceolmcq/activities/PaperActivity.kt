@@ -1,12 +1,10 @@
 package com.example.gceolmcq.activities
 
-//import com.example.gceolmcq.datamodels.SectionAnsweredScoreData
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
@@ -15,7 +13,6 @@ import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.SectionNavigationRecyclerViewAdapter
 import com.example.gceolmcq.datamodels.ExamItemDataModel
 import com.example.gceolmcq.datamodels.SectionResultData
-import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.UserMarkedAnswersSheetData
 import com.example.gceolmcq.fragments.*
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
@@ -43,6 +40,7 @@ class PaperActivity : SubscriptionActivity(),
     private lateinit var tvInstruction: TextView
 
     private var currentSectionFragment: Fragment? = null
+    private var subjectName: String? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -67,13 +65,8 @@ class PaperActivity : SubscriptionActivity(),
         paperActivityViewModel.initPaperData(paperDataJsonString)
         paperActivityViewModel.setCurrentFragmentIndex(0)
 
-
-        paperActivityViewModel.setDataBase(GceOLMcqDatabase.getDatabase(this))
-        paperActivityViewModel.getSubjectPackageDataFromLocalDbWhereSubjectName()
-
-        val customId =
-            "${bundle.getString("subjectName")!!} ${paperActivityViewModel.getExamTitle()}"
-//        paperActivityViewModel.queryStatisticsDataTableByCustomId(customId)
+        subjectName = bundle.getString("subjectName")
+        loadSubjectPackageDataFromLocalDbWhere(subjectName!!)
 
         this.title = paperActivityViewModel.getExamTitle()
     }
@@ -165,7 +158,7 @@ class PaperActivity : SubscriptionActivity(),
         resetCurrentSectionFragment()
         paperActivityViewModel.setCurrentSectionIndex(position)
 
-        if (!paperActivityViewModel.checkSubjectPackageExpiry() && !paperActivityViewModel.getIsSectionAnsweredAt(position)
+        if (!getIsPackageActive() && !paperActivityViewModel.getIsSectionAnsweredAt(position)
         ) {
             showPackageExpiredDialog()
 
@@ -292,8 +285,8 @@ class PaperActivity : SubscriptionActivity(),
             setMessage(resources.getString(R.string.package_expired_message))
             setPositiveButton(resources.getString(R.string.subscribe)) { _, _ ->
                 val subjectIndex = intent.getIntExtra(MCQConstants.SUBJECT_INDEX, 0)
-                val subjectPackageData = paperActivityViewModel.getSubjectPackageData()
-                setSubjectPackageDataToActivate(subjectIndex, subjectPackageData)
+//                val subjectPackageData = paperActivityViewModel.getSubjectPackageData()
+                setSubjectPackageDataToActivate(subjectIndex, getSubjectPackageData())
             }
             setNegativeButton(resources.getString(R.string.cancel)){_, _ ->}
         }.create().show()
@@ -301,10 +294,11 @@ class PaperActivity : SubscriptionActivity(),
 
     override fun showPackageActivatedDialog() {
         super.showPackageActivatedDialog()
-        updatedSubjectPackageData()
+        loadSubjectPackageDataFromLocalDbWhere(subjectName!!)
+//        updateSubjectPackageData()
     }
 
-    private fun updatedSubjectPackageData(){
+    private fun updateSubjectPackageData(){
         paperActivityViewModel.updateSubjectPackageData(getActivatedSubjectPackageData())
     }
 
@@ -317,7 +311,7 @@ class PaperActivity : SubscriptionActivity(),
     }
 
     override fun onCheckPackageExpired(): Boolean {
-        return paperActivityViewModel.checkSubjectPackageExpiry()
+        return getIsPackageActive()
     }
 
     override fun onShowPackageExpiredDialog() {

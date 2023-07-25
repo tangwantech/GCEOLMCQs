@@ -38,8 +38,8 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this)[SubscriptionActivityViewModel::class.java]
         viewModel.setRepositoryLink(this, getMobileID())
-
-        viewModel.initSubjectDataBase(this)
+//
+//        viewModel.initSubjectDataBase(this)
 
         viewModel.setMobileId(getMobileID())
         viewModel.setMomoPayService(MomoPayService(this))
@@ -230,6 +230,19 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     fun getActivatedSubjectPackageData(): SubjectPackageData{
         return viewModel.subjectPackageDataToActivated.value!!
     }
+
+    fun loadSubjectPackageDataFromLocalDbWhere(subjectName: String){
+        viewModel.loadSubjectPackageDataFromLocalDbWhere(subjectName)
+    }
+
+    fun getIsPackageActive(): Boolean{
+        return viewModel.checkSubjectPackageExpiry()
+    }
+
+    fun getSubjectPackageData(): SubjectPackageData{
+        return viewModel.getSubjectPackageData()
+    }
+
 
     @SuppressLint("HardwareIds")
     fun getMobileID(): String {
