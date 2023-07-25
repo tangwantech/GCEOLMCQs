@@ -134,13 +134,6 @@ class SubscriptionFormDialogFragment : DialogFragment() {
             }
         }.create()
 
-//        val dialog = builder.create()
-
-//        val positiveBtn = (dialog as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE)
-
-//        val positiveBtn = builder.getButton(AlertDialog.BUTTON_POSITIVE)
-//        positiveBtn.isEnabled = false
-//        setUpViewObservers(positiveBtn)
         builder.setOnShowListener {
             val positiveBtn = builder.getButton(AlertDialog.BUTTON_POSITIVE)
 //            val positiveBtn = (dialog as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE)

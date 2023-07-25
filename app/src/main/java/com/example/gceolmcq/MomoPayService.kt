@@ -21,8 +21,8 @@ private var subscriptionFormData: SubscriptionFormData? = null
 
     fun initiatePayment(subscriptionFormData: SubscriptionFormData) {
         this.subscriptionFormData = subscriptionFormData
-        setAccessToken()
-//        testUpdateTransactionSuccessful()
+//        setAccessToken()
+        testUpdateTransactionSuccessful()
 //        requestToPay()
     }
     private fun setAccessToken() {

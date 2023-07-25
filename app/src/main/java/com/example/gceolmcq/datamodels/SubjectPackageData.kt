@@ -9,9 +9,8 @@ import java.io.Serializable
 data class SubjectPackageData(
 
     @PrimaryKey(autoGenerate = true)
-    var packageIndex: Int? = null,
+    var subjectIndex: Int? = null,
 //    @ColumnInfo(name="package_index")
-
 
     @ColumnInfo(name="subject_name")
     var subjectName: String? = null,

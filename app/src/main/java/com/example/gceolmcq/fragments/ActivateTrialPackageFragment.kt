@@ -11,7 +11,6 @@ import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
-import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.example.gceolmcq.viewmodels.ActivateTrialPackageFragmentViewModel
 
 class ActivateTrialPackageFragment : Fragment() {
@@ -46,20 +45,14 @@ class ActivateTrialPackageFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initViewModel()
-        setDatabase()
+//        setMobileId()
         setSubjects()
-        setMobileId()
+        setRepository()
+
         initViews(view)
         setupViewsListeners()
         setViewObservers()
 
-    }
-
-    private fun setMobileId(){
-        arguments?.let {
-            val id = it.getString(MCQConstants.MOBILE_ID)!!
-            viewModel.setMobileId(id)
-        }
     }
 
     private fun setSubjects(){
@@ -75,8 +68,12 @@ class ActivateTrialPackageFragment : Fragment() {
         viewModel = ViewModelProvider(this)[ActivateTrialPackageFragmentViewModel::class.java]
     }
 
-    private fun setDatabase(){
-        viewModel.setSubjectDataBase(GceOLMcqDatabase.getDatabase(requireContext()))
+    private fun setRepository(){
+        arguments?.let {
+            val id = it.getString(MCQConstants.MOBILE_ID)!!
+            viewModel.setRepositoryLink(requireContext(), id)
+        }
+
     }
 
     private fun initViews(view: View){
@@ -94,7 +91,7 @@ class ActivateTrialPackageFragment : Fragment() {
     }
 
     private fun setViewObservers(){
-        viewModel.areSubjectsPackageDataAvailable.observe(viewLifecycleOwner){
+        viewModel.getAreSubjectsPackagesAvailable().observe(viewLifecycleOwner){
             it?.let {
                 onSubjectsPackagesAvailableListener.onSubjectsPackagesAvailable(it)
             }

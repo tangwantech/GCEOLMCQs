@@ -10,11 +10,13 @@ import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.datamodels.SubjectAndFileNameData
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusData
+import com.example.gceolmcq.repository.LocalRepository
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import kotlinx.coroutines.*
 
 class HomeFragmentViewModel: ViewModel() {
     private lateinit var gceOLMcqDatabase: GceOLMcqDatabase
+    private lateinit var localRepo: LocalRepository
     private val _subjectPackageDataList = MutableLiveData<ArrayList<SubjectPackageData>?>(ArrayList())
     val subjectPackageDataList: LiveData<ArrayList<SubjectPackageData>?> = _subjectPackageDataList
 
@@ -24,6 +26,10 @@ class HomeFragmentViewModel: ViewModel() {
 
     fun initGceOLMcqDatabase(context: Context){
         gceOLMcqDatabase = GceOLMcqDatabase.getDatabase(context)
+    }
+
+    fun initLocalRepo(context: Context){
+        localRepo = LocalRepository(context)
     }
 
     fun initSubjectPackagesDataListFromLocalDatabase(){

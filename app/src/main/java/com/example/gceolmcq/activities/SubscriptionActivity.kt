@@ -15,7 +15,6 @@ import com.example.gceolmcq.R
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.fragments.SubscriptionFormDialogFragment
-import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.example.gceolmcq.viewmodels.SubscriptionActivityViewModel
 
 abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialogFragment.OnPayButtonClickListener{
@@ -38,7 +37,10 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
 
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this)[SubscriptionActivityViewModel::class.java]
+        viewModel.setRepositoryLink(this, getMobileID())
+
         viewModel.initSubjectDataBase(this)
+
         viewModel.setMobileId(getMobileID())
         viewModel.setMomoPayService(MomoPayService(this))
     }
@@ -65,14 +67,15 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     }
 
     private fun setupViewObservers() {
-
-        viewModel.activatedPackageIndexChangedAt.observe(this){
+        viewModel.getAreSubjectsPackagesAvailable().observe(this){
             if(activatingPackageDialog.isShowing){
                 cancelActivatingPackageDialog()
             }
             showPackageActivatedDialog()
-//            resetMomoPayService()
+        }
 
+        viewModel.getRemoteRepoErrorEncountered().observe(this){
+            println("Error encountered: $it")
         }
 
         viewModel.getTransactionStatus().observe(this) {
@@ -151,7 +154,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
             dialogView.findViewById(R.id.tvRequestToPayPackage)
         val tvRequestToPayPackagePrice: TextView =
             dialogView.findViewById(R.id.tvRequestToPayAmount)
-//        val layoutInvoice: LinearLayout = dialogView.findViewById(R.id.layoutInvoice)
+
         if (viewModel.subscriptionData.value?.momoPartner == "MTN") {
             tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
         } else {
@@ -203,15 +206,11 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     }
 
     private fun activateUserPackage() {
-
-        val subjectIndex = viewModel.subscriptionData.value?.subjectPosition!!
-        val packageType = viewModel.subscriptionData.value?.packageType!!
-        val packageDuration = viewModel.subscriptionData.value?.packageDuration!!
-        viewModel.activateSubjectPackageAt(subjectIndex, packageType, packageDuration)
+        viewModel.activateSubjectPackage()
     }
 
     fun getActivatedPackageIndex(): LiveData<Int> {
-        return viewModel.activatedPackageIndexChangedAt
+        return viewModel.getIndexOfActivatedPackage()
     }
 
     override fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData) {
