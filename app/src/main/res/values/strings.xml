@@ -11,12 +11,12 @@
     <string name="mcq_week">MCQ Week</string>
     <string name="mcq_month">MCQ Month</string>
     <string name="type">Type</string>
-    <string name="status">Status</string>
+    <string name="status">Status:</string>
     <string name="trial">TRIAL</string>
     <string name="active">ACTIVE</string>
     <string name="expired">EXPIRED</string>
-    <string name="activate_on">Activated on</string>
-    <string name="expires_on">Expires on</string>
+    <string name="activate_on">Activated on:</string>
+    <string name="expires_on">Expires on:</string>
     <string name="price">Price</string>
     <string name="momo_number">MoMo Number</string>
     <string name="subscribe">Subscribe</string>
@@ -62,7 +62,7 @@
 
     <string name="activation_successful">activation successful</string>
     <string name="activation_failed">activation failed</string>
-    <string name="package_type">Package</string>
+    <string name="package_type">Package:</string>
     <string name="amount_to_pay">Amount to pay:</string>
     <string name="transaction_id">Transaction ID:</string>
 

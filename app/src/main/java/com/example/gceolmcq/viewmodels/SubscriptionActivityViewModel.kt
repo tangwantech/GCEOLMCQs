@@ -112,7 +112,9 @@ class SubscriptionActivityViewModel: ViewModel() {
     }
 
     fun checkSubjectPackageExpiry(): Boolean{
-        return ActivationExpiryDatesGenerator().checkExpiry(repositoriesLink.getLocalRepository().subjectPackageData.value?.expiresOn!!)
+        val activatedOn = repositoriesLink.getLocalRepository().subjectPackageData.value?.activatedOn!!
+        val expiresOn = repositoriesLink.getLocalRepository().subjectPackageData.value?.expiresOn!!
+        return ActivationExpiryDatesGenerator().checkExpiry(activatedOn, expiresOn)
     }
 
     fun getSubjectPackageData(): SubjectPackageData{

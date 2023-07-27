@@ -40,7 +40,7 @@ class HomeFragmentViewModel: ViewModel() {
             val tempSubjectPackageDataList2 = ArrayList<SubjectPackageData>()
             if (tempSubjectPackageDataList1.isNotEmpty()){
                 tempSubjectPackageDataList1.forEachIndexed { index, subjectPackageData ->
-                    val isActive = ActivationExpiryDatesGenerator().checkExpiry(subjectPackageData.expiresOn!!)
+                    val isActive = ActivationExpiryDatesGenerator().checkExpiry(subjectPackageData.activatedOn!!, subjectPackageData.expiresOn!!)
                     tempSubjectPackageDataList2.add(subjectPackageData)
                     tempSubjectPackageDataList2[index].isPackageActive = isActive
                     println("Is package Active: ${subjectPackageData.isPackageActive}")
@@ -54,10 +54,10 @@ class HomeFragmentViewModel: ViewModel() {
 
         viewModelScope.launch(Dispatchers.IO) {
 
-            var notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].expiresOn!!)
+            var notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
             while (notExpired){
                 delay(1000)
-                notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].expiresOn!!)
+                notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
 
             }
 

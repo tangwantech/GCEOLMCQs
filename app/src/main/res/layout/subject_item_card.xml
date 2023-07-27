@@ -47,15 +47,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/package_type"
-                    android:textSize="@dimen/text_size_10"
                     android:padding="@dimen/margin_4"/>
                 <TextView
                     android:id="@+id/tvPackageType"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="MCQ 1H"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10" />
+                    android:padding="@dimen/margin_4" />
             </LinearLayout>
 
             <LinearLayout
@@ -66,15 +64,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/activate_on"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10"/>
+                    android:padding="@dimen/margin_4" />
                 <TextView
                     android:id="@+id/activatedOnTv"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/activated_on_value"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10" />
+                    android:padding="@dimen/margin_4" />
             </LinearLayout>
 
             <LinearLayout
@@ -85,15 +81,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/expires_on"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10"/>
+                    android:padding="@dimen/margin_4" />
                 <TextView
                     android:id="@+id/expiresOnTv"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/activated_on_value"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10" />
+                    android:padding="@dimen/margin_4" />
             </LinearLayout>
 
             <LinearLayout
@@ -104,15 +98,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/status"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10"/>
+                    android:padding="@dimen/margin_4" />
                 <TextView
                     android:id="@+id/tvSubjectStatus"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="Active"
-                    android:padding="@dimen/margin_4"
-                    android:textSize="@dimen/text_size_10" />
+                    android:padding="@dimen/margin_4" />
             </LinearLayout>
 
         </LinearLayout>

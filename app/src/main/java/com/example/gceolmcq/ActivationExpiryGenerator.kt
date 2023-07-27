@@ -5,10 +5,11 @@ import java.util.*
 
 class ActivationExpiryDatesGenerator() {
 
-   fun checkExpiry(expiresOn: String): Boolean{
+   fun checkExpiry(activatedOn: String, expiresOn: String): Boolean{
         val currentDate = Date()
+        val activationDate = Date(Date.parse(activatedOn))
         val expiryDate = Date(Date.parse(expiresOn))
-        return currentDate < expiryDate
+        return currentDate > activationDate && currentDate < expiryDate
     }
 
     companion object {

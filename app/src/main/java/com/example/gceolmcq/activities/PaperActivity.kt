@@ -335,7 +335,7 @@ class PaperActivity : SubscriptionActivity(),
                 "${paperActivityViewModel.getExamTitle()} ${resources.getStringArray(R.array.paper_instruction)[0]} ${paperActivityViewModel.getTotalNumberOfQuestions()} " +
                         "${resources.getStringArray(R.array.paper_instruction)[1]} ${paperActivityViewModel.getNumberOfSections()} ${resources.getStringArray(R.array.paper_instruction)[2]} " +
                         "${resources.getStringArray(R.array.paper_instruction)[3]} ${resources.getStringArray(R.array.paper_instruction)[4]} " +
-                        "${resources.getStringArray(R.array.paper_instruction)[5]} ${resources.getString(R.string.minimum_percentage)} ${resources.getStringArray(R.array.paper_instruction)[6]}"
+                        "${resources.getStringArray(R.array.paper_instruction)[5]} ${MCQConstants.MINIMUM_PERCENT_SCORE} ${resources.getStringArray(R.array.paper_instruction)[6]}"
             tvInstruction.text = message
             instruction.apply {
                 setView(view)

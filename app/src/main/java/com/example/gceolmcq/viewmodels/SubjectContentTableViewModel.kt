@@ -89,8 +89,7 @@ class SubjectContentTableViewModel : ViewModel() {
     fun setSubjectName(subjectTitle: String) {
         subjectName = subjectTitle
     }
-
     fun getPackageStatus(): Boolean{
-        return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageData.value!!.expiresOn!!)
+        return ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageData.value!!.activatedOn!!, _subjectPackageData.value!!.expiresOn!!)
     }
 }
