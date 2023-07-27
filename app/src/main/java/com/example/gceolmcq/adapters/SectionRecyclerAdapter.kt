@@ -112,25 +112,17 @@ class SectionRecyclerAdapter(
             holder.layoutUserAnswer.visibility = View.VISIBLE
             holder.tvUserAnswer.text = context.resources.getString(R.string.no_answer_selected)
             holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
-            holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
+            holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.color_red))
         }else{
             holder.layoutUserAnswer.visibility = View.VISIBLE
             holder.tvUserAnswer.text = "${questionData.userSelection!!.optionLetter}. ${questionData.userSelection!!.optionSelected}"
 
-//            if(questionData.userSelection!!.remark!!){
-//                holder.imgRemark.setImageResource(R.drawable.ic_baseline_check_24)
-//                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.blue_color))
-//            }else{
-//                holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
-//                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
-//            }
-
             if(questionData.userSelection?.remark == null || !questionData.userSelection!!.remark!!){
                 holder.imgRemark.setImageResource(R.drawable.ic_baseline_close_24)
-                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.red_color))
+                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.color_red))
             }else{
                 holder.imgRemark.setImageResource(R.drawable.ic_baseline_check_24)
-                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.blue_color))
+                holder.tvUserAnswer.setTextColor(context.resources.getColor(R.color.color_green))
             }
 
         }

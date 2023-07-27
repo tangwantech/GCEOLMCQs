@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
@@ -76,12 +75,12 @@ class HomeRecyclerViewAdapter(
             if ((subjectPackageDataList[position].isPackageActive!!)){
                 onCheckPackageExpiryListener.onCheckPackageExpiry(position)
                 holder.tvSubjectStatus.text = context.resources.getString(R.string.active)
-                holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.blue_color))
+                holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.color_green))
                 holder.btnSubscribe.isEnabled = false
 
             } else{
                 holder.tvSubjectStatus.text = context.resources.getString(R.string.expired)
-                holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.red_color))
+                holder.tvSubjectStatus.setTextColor(context.resources.getColor(R.color.color_red))
                 holder.btnSubscribe.isEnabled = true
             }
 

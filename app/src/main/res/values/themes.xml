@@ -2,13 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.GCEOLMCQ" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorPrimaryVariant">@color/dark_primary_color</item>
-        <item name="colorOnPrimary">@color/text_color</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
 
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/accent_color</item>
-        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_dark</item>
         <item name="colorOnSecondary">@color/white</item>
 
         <!-- Status bar color. -->
@@ -28,7 +28,7 @@
     <style name="Theme.GCEOLMCQ.Fullscreen" parent="Theme.AppCompat.NoActionBar">
         <item name="android:actionBarStyle">@style/Widget.Theme.GCEOLMCQ.ActionBar.Fullscreen</item>
         <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
+<!--        <item name="android:windowBackground">@null</item>-->
     </style>
 
 

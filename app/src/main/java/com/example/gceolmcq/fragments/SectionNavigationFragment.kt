@@ -171,9 +171,9 @@ class SectionNavigationFragment : Fragment(){
 
         sectionNavigationFragmentViewModel.getPaperPercentage().observe(viewLifecycleOwner, Observer {
             if(it >= MINIMUM_PASS_PERCENTAGE){
-                tvPaperGrade.setTextColor(requireContext().resources.getColor(R.color.blue_color))
+                tvPaperGrade.setTextColor(requireContext().resources.getColor(R.color.color_green))
             }else{
-                tvPaperGrade.setTextColor(requireContext().resources.getColor(R.color.red_color))
+                tvPaperGrade.setTextColor(requireContext().resources.getColor(R.color.color_red))
             }
         })
     }

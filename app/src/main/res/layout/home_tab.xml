@@ -10,14 +10,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/homeTab"
         app:tabTextAppearance="@style/CustomTabStyle"
-        android:background="@color/primary_color"
-        app:tabIndicatorColor="@color/accent_color"
-        app:tabTextColor="@color/text_color"
+        android:background="@color/color_primary"
+        app:tabIndicatorColor="@color/color_secondary"
+        app:tabTextColor="@color/color_on_primary"
         app:tabGravity="fill"
         app:tabIndicatorFullWidth="true"
         app:tabInlineLabel="true"
         app:tabMode="fixed"
-        app:tabSelectedTextColor="@color/accent_color"
+        app:tabSelectedTextColor="@color/color_secondary"
 
         />
 <!--    app:tabIndicatorGravity="center"-->

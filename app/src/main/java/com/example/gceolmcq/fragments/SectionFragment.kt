@@ -359,7 +359,7 @@ class SectionFragment : Fragment(), OnClickListener {
     private fun changeSelectedQuestionOptionBackground(optionSelectedIndex: Int) {
 
         optionsLayouts[optionSelectedIndex].setBackgroundColor(
-            requireContext().resources.getColor(R.color.color_accent)
+            requireContext().resources.getColor(R.color.color_secondary)
         )
         sectionFragmentViewModel.getIndexPreviousAndCurrentItemOfQuestion().indexPreviousItem?.let {
             optionsLayouts[sectionFragmentViewModel.getIndexPreviousAndCurrentItemOfQuestion().indexPreviousItem!!].setBackgroundColor(

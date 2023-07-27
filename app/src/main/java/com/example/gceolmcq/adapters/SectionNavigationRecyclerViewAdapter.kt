@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -26,7 +25,8 @@ class SectionNavigationRecyclerViewAdapter(
         val tvSectionNavItem: TextView = view.findViewById(R.id.tvSectionNavItem)
         val tvSectionNumberOfQuestions: TextView = view.findViewById(R.id.tvSectionNumberOfQuestions)
         val sectionNavItemLayout: LinearLayout = view.findViewById(R.id.sectionNavItemLayout)
-        val imgSectionAnsweredCheck: ImageView = view.findViewById(R.id.imgSectionAnsweredCheck)
+//        val imgSectionAnsweredCheck: ImageView = view.findViewById(R.id.imgSectionAnsweredCheck)
+        val scoreLo: LinearLayout = view.findViewById(R.id.scoreLo)
         val tvSectionScore: TextView = view.findViewById(R.id.tvSectionScore)
 
         init{
@@ -56,22 +56,22 @@ class SectionNavigationRecyclerViewAdapter(
             val scorePercentage =(( sectionScore.toDouble() / numberOfQuestionsInSection!!.toDouble()) * 100).toInt()
             holder.tvSectionNavItem.setTextColor(context.resources.getColor(R.color.color_primary_dark))
             holder.tvSectionNumberOfQuestions.setTextColor(context.resources.getColor(R.color.color_primary_dark))
-            holder.imgSectionAnsweredCheck.visibility = View.VISIBLE
-            holder.tvSectionScore.visibility = View.VISIBLE
+//            holder.imgSectionAnsweredCheck.visibility = View.VISIBLE
+            holder.scoreLo.visibility = View.VISIBLE
+//            holder.tvSectionScore.visibility = View.VISIBLE
             holder.tvSectionScore.text = "$sectionScore/$numberOfQuestionsInSection"
 
             if (scorePercentage > 50){
-                holder.tvSectionScore.setTextColor(context.resources.getColor(R.color.blue_color))
+                holder.tvSectionScore.setTextColor(context.resources.getColor(R.color.color_green))
             }else{
-                holder.tvSectionScore.setTextColor(context.resources.getColor(R.color.red_color))
+                holder.tvSectionScore.setTextColor(context.resources.getColor(R.color.color_red))
             }
 //            holder.sectionNavItemLayout.isEnabled = false
 
 
 
         }else{
-            holder.imgSectionAnsweredCheck.visibility = View.GONE
-            holder.tvSectionScore.visibility = View.GONE
+            holder.scoreLo.visibility = View.GONE
         }
 
 
