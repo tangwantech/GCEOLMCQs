@@ -13,7 +13,7 @@ class SubjectPackageDataSynchronizer {
                 if (it.size > packageDataList.size) {
                     val activationExpiryDates =
                         ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
-                            MCQConstants.MINUTES,
+                            MCQConstants.HOURS,
                             MCQConstants.TRIAL_DURATION
                         )
                     for (index in packageDataList.size until it.size) {
@@ -31,9 +31,26 @@ class SubjectPackageDataSynchronizer {
                     }
 
                 }
+
+                if(it.size < packageDataList.size){
+                    val subjectNamesInPackageDataList = getSubjectNamesFromPackageDataList(packageDataList)
+                    subjectNamesInPackageDataList.forEachIndexed { index, subjectNameInPackageDataList ->
+                        if(!it.contains(subjectNameInPackageDataList)){
+                            packageDataList.removeAt(index)
+                        }
+                    }
+                }
             }
 
             return packageDataList
+        }
+
+        private fun getSubjectNamesFromPackageDataList(subjectPackages: List<SubjectPackageData>):List<String>{
+            val subjectNames = ArrayList<String>()
+            subjectPackages.forEach {
+                subjectNames.add(it.subjectName!!)
+            }
+            return subjectNames
         }
 
 

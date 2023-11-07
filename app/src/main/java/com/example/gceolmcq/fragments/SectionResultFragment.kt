@@ -33,17 +33,16 @@ class SectionResultFragment : Fragment() {
     private lateinit var onPaperScoreListener: OnPaperScoreListener
     private lateinit var onCheckPackageExpiredListener: OnCheckPackageExpiredListener
 
+    private lateinit var btnRetry: Button
+    private lateinit var btnNextSection: Button
+    private lateinit var btnCorrection: Button
+//    private  var nextSectionIndex: Int? = null
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        sectionResultFragmentViewModel =
-            ViewModelProvider(this)[SectionResultFragmentViewModel::class.java]
-        sectionResultFragmentViewModel.setResultData(
-            requireArguments().getSerializable(
-                SECTION_RESULT_DATA
-            ) as SectionResultData
-        )
+        initViewModel()
 
     }
 
@@ -88,19 +87,13 @@ class SectionResultFragment : Fragment() {
     @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val sectionIndex = sectionResultFragmentViewModel.getSectionIndex()
-        val score = sectionResultFragmentViewModel.getScoreData().numberOfCorrectAnswers
+//        val sectionIndex = sectionResultFragmentViewModel.getSectionIndex()
+//        val score = sectionResultFragmentViewModel.getNumberOfCorrectAnswers()
 
-        onPaperScoreListener.onUpdatePaperScore(sectionIndex, score)
-        onIsSectionAnsweredListener.onUpdateIsSectionAnswered(sectionIndex)
+        initViews(view)
+        setupViewListeners()
+        setupViewObservers()
 
-        val tvSectionScore: TextView = view.findViewById(R.id.tvSectionScore)
-        tvSectionScore.text =
-            "${sectionResultFragmentViewModel.getScoreData().numberOfCorrectAnswers}/${sectionResultFragmentViewModel.getScoreData().numberOfQuestions}"
-
-        val tvSectionPercentage: TextView = view.findViewById(R.id.tvSectionPercentage)
-        tvSectionPercentage.text =
-            sectionResultFragmentViewModel.getScoreData().percentage.toString()
 
         val rvFragment = RecyclerViewFragment.newInstance(
             requireContext().resources.getString(R.string.result),
@@ -112,68 +105,97 @@ class SectionResultFragment : Fragment() {
             commit()
         }
 
-        val btnRetry: Button = view.findViewById(R.id.btnRetry)
-//
+        updateNextBtnState()
+
+
+    }
+
+    private fun updateNextBtnState(){
+        sectionResultFragmentViewModel.updateNextBtnState()
+
+    }
+
+    private fun initViewModel(){
+        sectionResultFragmentViewModel =
+            ViewModelProvider(this)[SectionResultFragmentViewModel::class.java]
+        sectionResultFragmentViewModel.setResultData(
+            requireArguments().getSerializable(
+                SECTION_RESULT_DATA
+            ) as SectionResultData
+        )
+    }
+
+    private fun initViews(view: View){
+        val tvSectionScore: TextView = view.findViewById(R.id.tvSectionScore)
+        tvSectionScore.text =
+            "${sectionResultFragmentViewModel.getNumberOfCorrectAnswers()}/${sectionResultFragmentViewModel.getNumberOfQuestions()}"
+
+        val tvSectionPercentage: TextView = view.findViewById(R.id.tvSectionPercentage)
+        tvSectionPercentage.text =
+            sectionResultFragmentViewModel.getScorePercentage().toString()
+
+        btnRetry = view.findViewById(R.id.btnRetry)
+        btnNextSection = view.findViewById(R.id.btnNextSection)
+        btnCorrection = view.findViewById(R.id.btnCorrection)
+    }
+
+    private fun retrySection(){
+        if(onRetrySectionListener.onGetCurrentSectionRetryCount().value == 0){
+            Toast.makeText(requireContext(), requireContext().resources.getString(R.string.retry_limit_message), Toast.LENGTH_LONG).show()
+            btnRetry.isEnabled = false
+        }else{
+
+            retryDialog(sectionResultFragmentViewModel.getSectionIndex())
+        }
+    }
+
+    private fun setupViewListeners(){
         btnRetry.setOnClickListener {
-
-            if(onRetrySectionListener.onGetCurrentSectionRetryCount().value == 0){
-                Toast.makeText(requireContext(), requireContext().resources.getString(R.string.retry_limit_message), Toast.LENGTH_LONG).show()
-                btnRetry.isEnabled = false
-            }else{
-
-                retryDialog(sectionIndex)
-            }
-        }
-
-        val btnNextSection: Button = view.findViewById(R.id.btnNextSection)
-        var nextSectionIndex = sectionIndex + 1
-
-        while(nextSectionIndex < onGetNumberOfSectionsListener.onGetNumberOfSections() && onIsSectionAnsweredListener.onGetSectionsAnswered()[nextSectionIndex]){
-            nextSectionIndex += 1
-        }
-
-        if (nextSectionIndex < onGetNumberOfSectionsListener.onGetNumberOfSections()){
-            btnNextSection.isEnabled = true
+            retrySection()
         }
 
         btnNextSection.setOnClickListener {
             if(!onCheckPackageExpiredListener.onCheckPackageExpired()){
                 onCheckPackageExpiredListener.onShowPackageExpiredDialog()
             }else{
-//                onNextSectionListener.onResetCurrentSectionRetryCount()
-                onNextSectionListener.onNextSection(nextSectionIndex)
+                onNextSectionListener.onNextSection(sectionResultFragmentViewModel.getNextSectionIndex())
             }
 
         }
 
-
-        val btnCorrection: Button = view.findViewById(R.id.btnCorrection)
         btnCorrection.setOnClickListener {
-            if (sectionResultFragmentViewModel.getScoreData().percentage < MCQConstants.MINIMUM_PERCENT_SCORE) {
+            if (sectionResultFragmentViewModel.getScorePercentage() < MCQConstants.MINIMUM_PERCENT_SCORE) {
                 val alertDialog = AlertDialog.Builder(requireContext())
                 alertDialog.apply {
-                    setMessage("Get a percentage of at least ${MCQConstants.MINIMUM_PERCENT_SCORE} in order to view corrections to all wrong answers")
-                    setPositiveButton("Ok") { p0, _ ->
+                    setMessage("Get a minimum percentage score of ${MCQConstants.MINIMUM_PERCENT_SCORE} in order to see corrections to all wrong answers")
+                    setPositiveButton(resources.getString(R.string.ok)) { p0, _ ->
+//                        retrySection()
                         p0.dismiss()
                     }
+//                    setNegativeButton(resources.getString(R.string.cancel)){_, _ ->}
 //                    setCancelable(false)
                 }.create().show()
             } else {
                 onGotoSectionCorrectionListener.onGotoSectionCorrection(
-                    sectionIndex,
+                    sectionResultFragmentViewModel.getSectionIndex(),
                     sectionResultFragmentViewModel.getQuestionsWithCorrectAnswer()
                 )
             }
         }
+    }
 
-        sectionResultFragmentViewModel.getHasPerfectScore().observe(viewLifecycleOwner, Observer {
+    private fun setupViewObservers(){
+        sectionResultFragmentViewModel.nextButtonState.observe(viewLifecycleOwner){
+            btnNextSection.isEnabled = it
+        }
+
+        sectionResultFragmentViewModel.getHasPerfectScore().observe(viewLifecycleOwner){
+            btnRetry.isEnabled = !it
+            btnCorrection.isEnabled = !it
             if(it){
-                btnRetry.isEnabled = false
-                btnCorrection.isEnabled = false
                 Toast.makeText(requireContext(), requireContext().getString(R.string.excellent), Toast.LENGTH_LONG).show()
             }
-        })
-
+        }
     }
 
     private fun retryDialog(sectionIndex: Int){

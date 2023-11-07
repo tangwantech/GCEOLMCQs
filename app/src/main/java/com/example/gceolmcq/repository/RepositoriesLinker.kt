@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 
-class RepositoriesLink {
+class RepositoriesLinker {
     private lateinit var localRepository: LocalRepository
     private lateinit var remoteRepository: RemoteRepository
     private lateinit var _areSubjectsPackagesAvailable: MutableLiveData<Boolean?>

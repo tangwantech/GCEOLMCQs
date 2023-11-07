@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.SubjectPackageActivator
 import com.example.gceolmcq.SubjectPackageDataSynchronizer
+import com.example.gceolmcq.SubjectsPackagesBuilder
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.parse.ParseObject
 import com.parse.ParseQuery
@@ -13,8 +14,8 @@ import org.json.JSONObject
 
 class RemoteRepository(private val localRepository: LocalRepository) {
     private var userRemoteParseObject = MutableLiveData<ParseObject?>(null)
-    private val _remoteRepoErrorEncountered = MutableLiveData<Boolean>()
-    val remoteRepoErrorEncountered: LiveData<Boolean> = _remoteRepoErrorEncountered
+    private val _remoteRepoErrorExceptionRaised = MutableLiveData<Boolean>()
+    val remoteRepoErrorExceptionRaised: LiveData<Boolean> = _remoteRepoErrorExceptionRaised
 
     private val _areSubjectsPackagesAvailable = localRepository.getAreSubjectsPackagesAvailable()
 //
@@ -28,11 +29,10 @@ class RemoteRepository(private val localRepository: LocalRepository) {
 
         subjectPackageDataList?.let {
             if(userRemoteParseObject.value == null){
-                userRemoteParseObject.value = ParseObject(MCQConstants.BACK4APP_PACKAGE_NAME)
+                userRemoteParseObject.value = ParseObject(MCQConstants.PARSE_CLASS)
             }
             val jsonArray = JSONArray()
-            println(userRemoteParseObject.value)
-            subjectPackageDataList.forEachIndexed { _, subjectPackageData ->
+            it.forEachIndexed { _, subjectPackageData ->
                 val jsonObject = JSONObject()
                 jsonObject.apply {
                     put(MCQConstants.SUBJECT_INDEX, subjectPackageData.subjectIndex)
@@ -48,20 +48,22 @@ class RemoteRepository(private val localRepository: LocalRepository) {
             userRemoteParseObject.value?.put(MCQConstants.MOBILE_ID, mobileId!!)
             userRemoteParseObject.value?.put(MCQConstants.SUBJECTS_PACKAGES, jsonArray)
 
-            userRemoteParseObject.value?.saveInBackground {
+            userRemoteParseObject.value?.saveInBackground {e ->
 //                println("Saving......")
-                if (it == null) {
-                    readSubjectsPackagesByMobileIdFromRemoteRepo(subjectsAvailable)
+                if (e == null) {
+                    readUserSubjectsPackagesFromRemoteRepoAtMobileId(subjectsAvailable)
                 } else {
-                    _remoteRepoErrorEncountered.value = true
+                    _remoteRepoErrorExceptionRaised.value = true
                 }
             }
         }
     }
 
-    fun readSubjectsPackagesByMobileIdFromRemoteRepo(subjectsAvailable: List<String>?=null, position: Int?=null)  {
-        val query: ParseQuery<ParseObject> = ParseQuery(MCQConstants.BACK4APP_PACKAGE_NAME)
+    fun readUserSubjectsPackagesFromRemoteRepoAtMobileId(subjectsAvailable: List<String>?=null, position: Int?=null)  {
+        val query: ParseQuery<ParseObject> = ParseQuery(MCQConstants.PARSE_CLASS)
+//        println("Where exist: ${query.whereExists(MCQConstants.SUBJECTS_PACKAGES)}")
         query.whereEqualTo(MCQConstants.MOBILE_ID, mobileId)
+
         query.findInBackground { objects, e ->
             val packageDataList = ArrayList<SubjectPackageData>()
             if (e == null) {
@@ -90,20 +92,23 @@ class RemoteRepository(private val localRepository: LocalRepository) {
 
                 } else {
 
-                    val activatedPackages = SubjectPackageActivator.activateTrialPackageForAllSubjectsAvailable(subjectsAvailable)
-                    insertUserSubjectsPackageDataToRemoteRepo(activatedPackages, subjectsAvailable)
+//                    val activatedPackages = SubjectPackageActivator.activateTrialPackageForAllSubjectsAvailable(subjectsAvailable)
+//                    insertUserSubjectsPackageDataToRemoteRepo(activatedPackages, subjectsAvailable)
+                    val subjectsPackages = SubjectsPackagesBuilder().apply{}.build(subjectsAvailable)
+                    insertUserSubjectsPackageDataToRemoteRepo(subjectsPackages, subjectsAvailable)
                 }
 
             } else {
-                _remoteRepoErrorEncountered.value = true
+                _remoteRepoErrorExceptionRaised.value = true
                 _areSubjectsPackagesAvailable.value = false
+                println("Failed to activate trial package ${e.localizedMessage?.toString()}")
             }
         }
     }
 
     fun updateActivatedPackageInRemoteRepo(subjectPackageData: SubjectPackageData, position: Int){
-        val query: ParseQuery<ParseObject> = ParseQuery(MCQConstants.BACK4APP_PACKAGE_NAME)
-        query.whereContains(MCQConstants.MOBILE_ID, mobileId)
+        val query: ParseQuery<ParseObject> = ParseQuery(MCQConstants.PARSE_CLASS)
+        query.whereEqualTo(MCQConstants.MOBILE_ID, mobileId)
         query.limit = 1
         query.findInBackground { objects, e ->
             if (e == null) {
@@ -122,9 +127,9 @@ class RemoteRepository(private val localRepository: LocalRepository) {
                 parseObject.saveInBackground {
                     if (it == null) {
                         println("Updated successfully")
-                        readSubjectsPackagesByMobileIdFromRemoteRepo(position=position)
+                        readUserSubjectsPackagesFromRemoteRepoAtMobileId(position=position)
                     } else {
-                        _remoteRepoErrorEncountered.value = true
+                        _remoteRepoErrorExceptionRaised.value = true
                     }
                 }
             }

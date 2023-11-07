@@ -9,7 +9,6 @@
         android:id="@+id/tvPaperGrade"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="A Grade"
         android:gravity="center"
         android:textSize="@dimen/text_size_18"
         android:textStyle="bold"/>

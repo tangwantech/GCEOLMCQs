@@ -11,25 +11,31 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.MomoPayService
+
 import com.example.gceolmcq.R
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.fragments.SubscriptionFormDialogFragment
+
+//import com.example.gceolmcq.momoPay.MomoPayService
 import com.example.gceolmcq.viewmodels.SubscriptionActivityViewModel
+import kotlinx.coroutines.*
 
 abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialogFragment.OnPayButtonClickListener{
 
-    private lateinit var processingAlertDialog: AlertDialog
-    private lateinit var requestToPayDialog: AlertDialog
-    private lateinit var activatingPackageDialog: AlertDialog
+    private var processingAlertDialog: AlertDialog? = null
+    private var requestToPayDialog: AlertDialog? = null
+    private var failedToActivatePackageDialog: AlertDialog? = null
+    private var activatingPackageDialog: AlertDialog? = null
+    private var packageActivatedDialog: AlertDialog? = null
+    private var paymentReceivedDialog: AlertDialog? = null
+    private var activatingTrialPackageDialog: AlertDialog? = null
 
     private lateinit var viewModel: SubscriptionActivityViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        initProcessingDialog()
-        initRequestToPayDialog()
-        initActivatingPackageDialog()
+
         setupViewModel()
         setupViewObservers()
     }
@@ -38,74 +44,188 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this)[SubscriptionActivityViewModel::class.java]
         viewModel.setRepositoryLink(this, getMobileID())
-//
-//        viewModel.initSubjectDataBase(this)
-
         viewModel.setMobileId(getMobileID())
         viewModel.setMomoPayService(MomoPayService(this))
-    }
-
-    private fun initRequestToPayDialog() {
-        requestToPayDialog = AlertDialog.Builder(this).create()
-        requestToPayDialog.apply {
-            setCancelable(false)
-        }
-    }
-
-    private fun initActivatingPackageDialog() {
-        activatingPackageDialog = AlertDialog.Builder(this).create()
-        activatingPackageDialog.apply {
-            setCancelable(false)
-        }
-    }
-
-    private fun initProcessingDialog() {
-        processingAlertDialog = AlertDialog.Builder(this).create()
-        processingAlertDialog.apply {
-            setCancelable(false)
-        }
+        viewModel.initMomoPay2(com.example.gceolmcq.momoPay.MomoPayService(this))
     }
 
     private fun setupViewObservers() {
-        viewModel.getAreSubjectsPackagesAvailable().observe(this){
-            if(activatingPackageDialog.isShowing){
-                cancelActivatingPackageDialog()
+        viewModel.getAreSubjectsPackagesAvailable().observe(this){areAvailable ->
+
+            areAvailable?.let{
+                if (it){
+                    if(activatingPackageDialog != null){
+                        cancelActivatingPackageDialog()
+                    }
+                    if (activatingTrialPackageDialog != null){
+                        dismissActivatingTrialPackageDialog()
+                    }
+                    if (packageActivatedDialog == null){
+                        showPackageActivatedDialog()
+                    }
+
+                }
+
             }
-            showPackageActivatedDialog()
+
         }
 
         viewModel.getRemoteRepoErrorEncountered().observe(this){
             println("Error encountered: $it")
         }
 
+
+        setMomoPayFlow1()
+
+//        setupMomoPayFlow2()
+
+    }
+
+    private fun setMomoPayFlow1(){
         viewModel.getTransactionStatus().observe(this) {
-            if (it.status == MCQConstants.PENDING) {
-                cancelProcessingRequestDialog()
-                if (!requestToPayDialog.isShowing) {
-                    requestUserToPayDialog()
+
+            it.status?.let{status ->
+                when(status) {
+                    MCQConstants.PENDING -> {
+                        if (processingAlertDialog != null){
+                            cancelProcessingRequestDialog()
+                        }
+                        if (failedToActivatePackageDialog != null){
+                            cancelFailedToActivateDialog()
+                        }
+
+                        if (requestToPayDialog == null){
+                            showRequestUserToPayDialog()
+                        }
+
+
+
+                    }
+                    MCQConstants.SUCCESSFUL -> {
+                        cancelProcessingAndRequestToPayDialogs()
+                        if(paymentReceivedDialog == null){
+                            showPaymentReceivedDialog()
+                        }
+
+                        CoroutineScope(Dispatchers.IO).launch {
+                            delay(2000)
+                            withContext(Dispatchers.Main){
+                                if(paymentReceivedDialog != null){
+                                    cancelPaymentReceivedDialog()
+                                }
+                                if(activatingPackageDialog == null){
+                                    showActivatingPackageDialog()
+                                    activateUserPackage()
+                                }
+                            }
+                        }
+                    }
+                    MCQConstants.FAILED -> {
+                        cancelProcessingAndRequestToPayDialogs()
+                        if(failedToActivatePackageDialog == null){
+                            showTransactionFailedDialog()
+                            resetMomoPayService()
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        viewModel.getIsPaymentSystemAvailable().observe(this){isPaymentSystemAvailable ->
+            isPaymentSystemAvailable?.let {
+                if(!it){
+                    Toast.makeText(this, "Payment system is temporarily unavailable. Please try again later", Toast.LENGTH_LONG).show()
                 }
             }
         }
+    }
 
-        viewModel.isTransactionSuccessful().observe(this) {
-            if (processingAlertDialog.isShowing) {
-                cancelProcessingRequestDialog()
-            }
-            cancelRequestToPayDialog()
-            if (it) {
-                Toast.makeText(
-                    this,
-                    resources.getString(R.string.payment_received),
-                    Toast.LENGTH_LONG
-                ).show()
-                showActivatingPackageDialog()
-                activateUserPackage()
-            } else {
-                showTransactionFailedDialog(viewModel.subscriptionData.value?.packageType!!)
-                resetMomoPayService()
+
+
+    private fun setupMomoPayFlow2(){
+        viewModel.getToken().observe(this){token ->
+            println("is token available.....")
+            if(token != null){
+                if (processingAlertDialog != null){
+                    cancelProcessingRequestDialog()
+                }
+                viewModel.pay()
+
+            }else{
+                if (processingAlertDialog != null){
+                    cancelProcessingRequestDialog()
+                }
+                if(failedToActivatePackageDialog == null){
+                    showTransactionFailedDialog()
+                    resetMomoPayService()
+                }
+
             }
         }
+        viewModel.getTransactionId().observe(this){transactionId ->
+            if(transactionId != null){
+                if (requestToPayDialog == null){
+                    showRequestUserToPayDialog()
+                }
+                viewModel.checkTransactionStatus()
+            }else{
+                if(failedToActivatePackageDialog == null){
+                    showTransactionFailedDialog()
+                    resetMomoPayService()
+                }
+            }
+        }
+        viewModel.getTransactionStatusChanged().observe(this){transactionStatus ->
+            println(transactionStatus)
+            if (transactionStatus != null){
+                when(transactionStatus) {
+//                    MCQConstants.PENDING -> {
+//                        if (processingAlertDialog != null){
+//                            cancelProcessingRequestDialog()
+//                        }
+//
+//                        if (requestToPayDialog == null){
+//                            showRequestUserToPayDialog()
+//                        }
+//
+//
+//
+//                    }
+                    MCQConstants.SUCCESSFUL -> {
+                        cancelProcessingAndRequestToPayDialogs()
+                        if(paymentReceivedDialog == null){
+                            showPaymentReceivedDialog()
+                        }
 
+                        CoroutineScope(Dispatchers.IO).launch {
+                            delay(2000)
+                            withContext(Dispatchers.Main){
+                                if(paymentReceivedDialog != null){
+                                    cancelPaymentReceivedDialog()
+                                }
+                                if(activatingPackageDialog == null){
+                                    showActivatingPackageDialog()
+                                    activateUserPackage()
+                                }
+                            }
+                        }
+                    }
+                    MCQConstants.FAILED -> {
+                        cancelProcessingAndRequestToPayDialogs()
+                        if(failedToActivatePackageDialog == null){
+                            showTransactionFailedDialog()
+                            resetMomoPayService()
+                        }
+                    }
+                }
+
+            }else{
+                cancelProcessingAndRequestToPayDialogs()
+                Toast.makeText(this, "Failed to activate package due to no internet connection", Toast.LENGTH_LONG).show()
+            }
+        }
     }
 
     open fun showPackageExpiredDialog(){
@@ -119,21 +239,32 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     }
 
     private fun showProcessingRequestDialog() {
-        processingAlertDialog.setMessage(resources.getString(R.string.processing_request))
-        processingAlertDialog.show()
+        processingAlertDialog = AlertDialog.Builder(this).create()
+        processingAlertDialog?.apply {
+            setCancelable(false)
+        }
+        processingAlertDialog?.setMessage(resources.getString(R.string.processing_request))
+        processingAlertDialog?.show()
     }
 
     private fun cancelProcessingRequestDialog() {
-        processingAlertDialog.cancel()
+        processingAlertDialog?.dismiss()
+        processingAlertDialog = null
     }
 
     private fun showActivatingPackageDialog() {
-        activatingPackageDialog.setMessage(resources.getString(R.string.activating_package_message))
-        activatingPackageDialog.show()
+        activatingPackageDialog = AlertDialog.Builder(this).create()
+        activatingPackageDialog?.apply {
+            setCancelable(false)
+        }
+        activatingPackageDialog?.setMessage(resources.getString(R.string.activating_package_message))
+        activatingPackageDialog?.show()
+//        activateUserPackage()
     }
 
     private fun cancelActivatingPackageDialog() {
-        activatingPackageDialog.cancel()
+        activatingPackageDialog?.dismiss()
+        activatingPackageDialog = null
     }
 
     private fun showSubscriptionForm(position: Int, subjectName: String) {
@@ -145,7 +276,8 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         subscriptionFormDialogFragment.show(supportFragmentManager, "subscription_form_dialog")
     }
 
-    private fun requestUserToPayDialog() {
+    private fun showRequestUserToPayDialog() {
+
         val dialogView = layoutInflater.inflate(R.layout.fragment_request_to_pay, null)
         val tvRequestToPayMessage: TextView = dialogView.findViewById(R.id.tvRequestToPayMessage)
         val tvRequestToPaySubject: TextView =
@@ -155,7 +287,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         val tvRequestToPayPackagePrice: TextView =
             dialogView.findViewById(R.id.tvRequestToPayAmount)
 
-        if (viewModel.subscriptionData.value?.momoPartner == "MTN") {
+        if (viewModel.subscriptionData.value?.momoPartner == "${resources.getStringArray(R.array.momo_partners)[0]}") {
             tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
         } else {
             tvRequestToPayMessage.text = resources.getString(R.string.orange_request_to_pay_message)
@@ -165,18 +297,33 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         tvRequestToPayPackageType.text = viewModel.subscriptionData.value?.packageType
         tvRequestToPayPackagePrice.text = "${viewModel.subscriptionData.value?.packagePrice} FCFA"
 
-
-        requestToPayDialog.setView(dialogView)
-        requestToPayDialog.show()
+        requestToPayDialog = AlertDialog.Builder(this).create()
+        requestToPayDialog?.apply {
+            setCancelable(false)
+        }
+        requestToPayDialog?.setView(dialogView)
+        requestToPayDialog?.show()
 
     }
 
     private fun cancelRequestToPayDialog() {
-        requestToPayDialog.cancel()
+//        requestToPayDialog.cancel()
+        requestToPayDialog?.dismiss()
+        requestToPayDialog =  null
+    }
+
+    private fun cancelProcessingAndRequestToPayDialogs(){
+        if(processingAlertDialog != null){
+            cancelProcessingRequestDialog()
+        }
+
+        if(requestToPayDialog != null){
+            cancelRequestToPayDialog()
+        }
     }
 
     open fun showPackageActivatedDialog() {
-        val alertDialog = AlertDialog.Builder(this)
+        packageActivatedDialog = AlertDialog.Builder(this).create()
         val view = layoutInflater.inflate(
             R.layout.package_activation_successful_dialog,
             null
@@ -185,28 +332,66 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
             view.findViewById(R.id.tvPackageActivationSuccessful)
         tvPackageActivationSuccessful.text =
             "${viewModel.subscriptionData.value?.packageType} ${resources.getString(R.string.activated_successfully)}"
-        alertDialog.apply {
-            setView(view)
-            setPositiveButton("Ok") { _, _ ->
-            }
-        }.create().show()
+
+        packageActivatedDialog?.setView(view)
+        packageActivatedDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "OK"){ _, _ ->
+            packageActivatedDialog = null
+        }
+        packageActivatedDialog?.show()
     }
 
-    private fun showTransactionFailedDialog(packageType: String) {
-        val alertDialog = AlertDialog.Builder(this)
+    private fun showTransactionFailedDialog() {
+
+        failedToActivatePackageDialog = AlertDialog.Builder(this).create()
         val view = this.layoutInflater.inflate(R.layout.package_activation_failed_dialog, null)
         val tvFailedMessage: TextView = view.findViewById(R.id.tvPackageActivationFailed)
         tvFailedMessage.text =
             "${resources.getString(R.string.failed_to_activate_package)} ${viewModel.subscriptionData.value?.packageType} "
-        alertDialog.apply {
-            setView(view)
-            setPositiveButton("Ok") { _, _ ->
-            }
-        }.create().show()
+
+        failedToActivatePackageDialog?.setView(view)
+        failedToActivatePackageDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "Ok") { _, _ ->
+//            d.dismiss()
+            failedToActivatePackageDialog = null
+
+        }
+        failedToActivatePackageDialog?.show()
+
+    }
+
+    private fun cancelFailedToActivateDialog(){
+        failedToActivatePackageDialog?.dismiss()
+        failedToActivatePackageDialog = null
+    }
+
+    private fun showPaymentReceivedDialog(){
+        paymentReceivedDialog = AlertDialog.Builder(this).create()
+        paymentReceivedDialog?.setMessage(resources.getString(R.string.payment_received))
+        paymentReceivedDialog?.show()
+    }
+
+    private fun cancelPaymentReceivedDialog(){
+        paymentReceivedDialog?.dismiss()
+        paymentReceivedDialog = null
+    }
+
+    fun showActivatingTrialPackageDialog(){
+        activatingTrialPackageDialog = AlertDialog.Builder(this).create()
+        activatingTrialPackageDialog?.setMessage("Activating trial package...")
+        activatingTrialPackageDialog?.setCancelable(false)
+        activatingTrialPackageDialog?.show()
+    }
+
+    fun dismissActivatingTrialPackageDialog(){
+        activatingTrialPackageDialog?.dismiss()
+        activatingTrialPackageDialog = null
     }
 
     private fun activateUserPackage() {
         viewModel.activateSubjectPackage()
+    }
+
+    fun activateTrialPackage(position: Int, subjectName: String){
+        viewModel.activateSubjectTrialPackage(position, subjectName)
     }
 
     fun getActivatedPackageIndex(): LiveData<Int> {
@@ -214,12 +399,17 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     }
 
     override fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData) {
+        viewModel.setSubscriptionData(subscriptionFormData)
         showProcessingRequestDialog()
-        viewModel.pay(subscriptionFormData)
+//        viewModel.generateToken(com.example.gceolmcq.momoPay.MomoPayService(this))
+//        viewModel.testPay()
+
+        viewModel.initiatePayment()
     }
 
     private fun resetMomoPayService() {
         viewModel.restMomoPayService()
+        viewModel.initMomoPay2(com.example.gceolmcq.momoPay.MomoPayService(this))
     }
 
     fun setSubjectPackageDataToActivate(position: Int, subjectPackageData: SubjectPackageData){

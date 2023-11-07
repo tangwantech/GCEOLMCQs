@@ -1,0 +1,785 @@
+{
+  "privateTitle": "GCE 2023",
+  "publicTitle": "Past GCE 8",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "An organism which stores food in the pyrenoid.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bacteria",
+            "Amoeba",
+            "Spirogyra",
+            "Fungi"
+          ],
+          "wordAnswer": "Spirogyra"
+        },
+        {
+          "questionNumber": "2",
+          "question": "Where does deamination occur in the body?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Liver",
+            "Stomach",
+            "Lungs",
+            "kidney"
+          ],
+          "wordAnswer": "Liver"
+        },
+        {
+          "questionNumber": "3",
+          "question": "What is the effect of untreated sewage in water?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Increases the population of aquatic organisms.",
+            "Increases oxygen solubility in water.",
+            "Causes turbidity.",
+            "Causes Eutrophication."
+          ],
+          "wordAnswer": "Causes Eutrophication."
+        },
+        {
+          "questionNumber": "4",
+          "question": "Where in the nephron is glucose reabsorbed?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Loop of Henle.",
+            "Distal convoluted tubule.",
+            "Collecting duct.",
+            "Proximal convoluted tubule."
+          ],
+          "wordAnswer": "Proximal convoluted tubule."
+        },
+        {
+          "questionNumber": "5",
+          "question": "In the water cycle which process causes water molecules to return to the atmosphere?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Absorption",
+            "Condensation",
+            "Evaporation",
+            "Precipitation"
+          ],
+          "wordAnswer": "Evaporation"
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of these prevents contraction of the uterine wall during pregnancy?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Progesterone",
+            "Oestrogen",
+            "Luteinizing hormone",
+            "Follicle stimulating hormone"
+          ],
+          "wordAnswer": "Progesterone"
+        },
+        {
+          "questionNumber": "7",
+          "question": "The following organisms make up a food chain: Snake, man, frog, locust, groundnut plant. Which of these is a primary consumer?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Man",
+            "Frog",
+            "Locust",
+            "Snake"
+          ],
+          "wordAnswer": "Locust"
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Which blood vessel carries deoxygenated blood from the heart to the lungs?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Renal artery",
+            "Renal vein",
+            "Pulmonary vein",
+            "Pulmonary artery"
+          ],
+          "wordAnswer": "Pulmonary artery"
+        },
+        {
+          "questionNumber": "9",
+          "question": "Below is the diagram of an animal cell. Which number structure controls all the activities of the cell?",
+          "image": "animal_cell_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "3"
+        },
+        {
+          "questionNumber": "10",
+          "question": "Which of the following parts of a flower make up the stamen?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Filament and anthers.",
+            "Stigma and anthers.",
+            "Stigma and style.",
+            "Style and filament"
+          ],
+          "wordAnswer": "Filament and anthers."
+        },
+        {
+          "questionNumber": "11",
+          "question": "Which numbered structures in the diagram of the fish control rolling and yawing?",
+          "image": "fish_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1 and 3",
+            "1 and 4",
+            "4 and 5",
+            "5 and 6"
+          ],
+          "wordAnswer": "1 and 4"
+        },
+        {
+          "questionNumber": "12",
+          "question": "Where in the digestive system of man is hydrochloric acid produced?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ileum",
+            "Colon",
+            "Stomach",
+            "Liver"
+          ],
+          "wordAnswer": "Stomach"
+        },
+        {
+          "questionNumber": "13",
+          "question": "In which numbered structure of the villus are fatty acids and glycerol transported?",
+          "image": "villus_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "3"
+        },
+        {
+          "questionNumber": "14",
+          "question": "Which structure in the mammalian brain is concerned with involuntary and reflex activities?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hypothalamus",
+            "Medulla oblongata",
+            "Cerebellum",
+            "Cerebrum"
+          ],
+          "wordAnswer": "Medulla oblongata"
+        },
+        {
+          "questionNumber": "15",
+          "question": "Water enters a germinating seed through the:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Testa",
+            "Hilium",
+            "Cotyledon",
+            "Micropyle"
+          ],
+          "wordAnswer": "Micropyle"
+        },
+        {
+          "questionNumber": "16",
+          "question": "Where does implantation take place in the female reproductive system?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oviduct",
+            "Uterus",
+            "Cervix",
+            "Ovary"
+          ],
+          "wordAnswer": "Oviduct"
+        },
+        {
+          "questionNumber": "17",
+          "question": "The diagram below shows the positions of endocrine glands in man. Which numbered structure secrets adrenaline?",
+          "image": "endocrine_glands_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "3"
+        },
+        {
+          "questionNumber": "18",
+          "question": "Below is the diagram of the fore arm. What happens during stretching of the arm?",
+          "image": "fore_arm_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "3 contracts and 7 also contracts.",
+            "3 relaxes and 7 contracts.",
+            "3 contracts and 7 relaxes.",
+            "3 relaxes and 7 also relaxes."
+          ],
+          "wordAnswer": "3 contracts and 7 relaxes."
+        },
+        {
+          "questionNumber": "19",
+          "question": "Refraction of light rays in the eye follows this order:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cornea, lens, aqueous humour, vitreous humour.",
+            "Cornea, vitreous humour, lens, aqueous humour.",
+            "Lens, aqueous humour, Cornea, vitreous humour.",
+            "Cornea, aqueous humour, lens, vitreous humour."
+          ],
+          "wordAnswer": "Cornea, aqueous humour, lens, vitreous humour."
+        },
+        {
+          "questionNumber": "20",
+          "question": "Which structure in the mammalian skin is sensitive to pressure?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pacinian corpuscles.",
+            "Meissner's corpuscles.",
+            "Hair plexus",
+            "Nerve fibre."
+          ],
+          "wordAnswer": "Pacinian corpuscles."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "A solution with the same water potential as its surrounding can be described as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Isotonic",
+            "Hypertonic and hypotonic",
+            "Hypertonic and Isotonic"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "22",
+          "question": "In which form(s) do plants obtain nitrogen from the soil?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Nitrates",
+            "Nitrites",
+            "Ammonium compounds"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        },
+        {
+          "questionNumber": "23",
+          "question": "An insect pollinated flower has:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Feathery stigma.",
+            "Brightly coloured petals.",
+            "Sticky pollen grains."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "24",
+          "question": "What makes the alveolus a good respiratory surface?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "It is highly permeable.",
+            "It is highly vascularized.",
+            "It has a thick epithelium."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        },
+        {
+          "questionNumber": "25",
+          "question": "Arteries can be distinguished from veins in that:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Arteries carry blood at higher pressure than veins.",
+            "Arteries have thicker walls than veins.",
+            "Arteries have many valves than veins."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Glucose is completely broken down during aerobic respiration.",
+            "The end products of aerobic respiration are more toxic."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Anopheles mosquito transmits Plasmodium.",
+            "Anopheles mosquito feeds on blood of its host causing malaria"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "In a food web, each organism has more than one food source.",
+            "A food web is made up of several food chains."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "During photosynthesis, light energy is converted to chemical energy.",
+            "Green plants combine carbon dioxide and water using solar energy to produce organic food."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The cell wall in plant cell is made up of chitin.",
+            "Cellulose provides roughage and prevents constipation in human diet."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True"
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Destroys leaves of plants through the formation of acid rain.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon dioxide",
+            "Carbon monoxide",
+            "Chlorofluorocarbons",
+            "Sulphur dioxide"
+          ],
+          "wordAnswer": "Sulphur dioxide"
+        },
+        {
+          "questionNumber": "32",
+          "question": "Selectively controls materials entering and leaving the cell.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cell membrane",
+            "Chloroplast",
+            "Nucleus",
+            "Cellulose cell wall"
+          ],
+          "wordAnswer": "Cell membrane"
+        },
+        {
+          "questionNumber": "33",
+          "question": "Plays a vital role in the regulation of blood glucose level.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Salivary gland",
+            "Gastric gland",
+            "Pancreas",
+            "Kidney"
+          ],
+          "wordAnswer": "Pancreas"
+        },
+        {
+          "questionNumber": "34",
+          "question": "Causes uterine contractions during labour",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Testosterone",
+            "Oxytocin",
+            "Oestrogen",
+            "Progesterone"
+          ],
+          "wordAnswer": "Oxytocin"
+        },
+        {
+          "questionNumber": "35",
+          "question": "Contributes to extension of the fore limb.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hip joint",
+            "knee joint",
+            "Elbow joint",
+            "Wrist joint"
+          ],
+          "wordAnswer": "Elbow joint"
+        },
+        {
+          "questionNumber": "36",
+          "question": "An inactive form of an enzyme produced in the stomach.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pepsinogen",
+            "Trypsinogen",
+            "Androgen",
+            "Glycogen"
+          ],
+          "wordAnswer": "Pepsinogen"
+        },
+        {
+          "questionNumber": "37",
+          "question": "An example of a social insect.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mosquito",
+            "Cockroach",
+            "Housefly",
+            "Honey bee"
+          ],
+          "wordAnswer": "Honey bee"
+        },
+        {
+          "questionNumber": "38",
+          "question": "Are viviparous",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Fish",
+            "Reptiles",
+            "Mammals",
+            "Birds"
+          ],
+          "wordAnswer": "Mammals"
+        },
+        {
+          "questionNumber": "39",
+          "question": "Relationship between rhizobium and leguminous plant.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mutualism",
+            "Commensalism",
+            "Parasitism",
+            "Predation"
+          ],
+          "wordAnswer": "Mutualism"
+        },
+        {
+          "questionNumber": "40",
+          "question": "Converts soil nitrates into atmospheric nitrogen.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nitrobacter",
+            "Azobacter",
+            "Denitrifying bacteria",
+            "Nitrosomonas"
+          ],
+          "wordAnswer": "Denitrifying bacteria"
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "In an experiment to measure the rate of water uptake, a leafy shoot is cut under water and the cut end fitted into a rubber tubing of potometer. Why was the shoot cut under water?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To prevent the leaves from drying.",
+            "To prevent air bubbles entering the xylem.",
+            "To enable the shoot take in enough water.",
+            "To enable the shoot remain fresh through out the experiment."
+          ],
+          "wordAnswer": "To prevent air bubbles entering the xylem."
+        },
+        {
+          "questionNumber": "42",
+          "question": "In a demonstration to find out the food sample being tested for, 1 cm3 of dilute sodium hydroxide was added to 3 cm3 of test solution drop wise. The test tube was shaken thoroughly. A purple colour was observed at the end. What food sample was being tested and what is the name of the test?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Fats; Osmic acid test.",
+            "Fats; Sudan III test.",
+            "Protein; Biuret test.",
+            "Protein; Millon's test."
+          ],
+          "wordAnswer": "Protein; Biuret test."
+        },
+        {
+          "questionNumber": "43",
+          "question": "A couple both have blood group AB. What percentage of offspring will have the same blood group AB as their parents?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "100%",
+            "75%",
+            "50%",
+            "25%"
+          ],
+          "wordAnswer": "50%"
+        },
+        {
+          "questionNumber": "44",
+          "question": "In testing a leaf for starch, a leaf from a green plant that has been exposed to sunlight for at least 5 hours was detached and dipped in boiling water for 30 seconds. Why was the leaf dipped in boiling water for 30 seconds?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To remove the chlorophyll.",
+            "To activate enzymes.",
+            "To convert glucose to starch.",
+            "To kill the protoplasm."
+          ],
+          "wordAnswer": "To kill the protoplasm."
+        },
+        {
+          "questionNumber": "45",
+          "question": "In an experiment to find out if heat is given off by germinating seeds. The seeds were initially soaked in water for 24 hours and later soaked for 15 minutes in sodium oxo chlorate and rinsed in water. Why were the seeds soaked in oxo chlorate?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To increase the rate of germination.",
+            "To kill fungal spores on the grains.",
+            "To prevent oxygen entering the seeds.",
+            "To absorb carbon dioxide present in the flask."
+          ],
+          "wordAnswer": "To kill fungal spores on the grains."
+        },
+        {
+          "questionNumber": "46",
+          "question": "During epigeal germination, the plumule and cotyledons are carried out of the soil. This is brought about by:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Elongation of both hypocotyl and epicotyl.",
+            "Elongation of both plumule and radicle.",
+            "Elongation of epicotyl.",
+            "Elongation of hypocotyl."
+          ],
+          "wordAnswer": "Elongation of hypocotyl."
+        },
+        {
+          "questionNumber": "47",
+          "question": "When a marine amoeba is put in fresh water environment, it will:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Absorb much water, swell and burst.",
+            "Give out much water, become dehydrated and dies.",
+            "Develop a contractile vacuole to collect excess water.",
+            "Form pseudopodia and moves away."
+          ],
+          "wordAnswer": "Absorb much water, swell and burst."
+        },
+        {
+          "questionNumber": "48",
+          "question": "Excess chemical fertilizer from an industry were washed off by rain water into a pond. What was the effect on the organisms in the pond?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "They suffocated and died due to lack of oxygen.",
+            "They grew rapidly occupying other areas.",
+            "They were exposed to predators as the water became hot.",
+            "Their number increased tremendously."
+          ],
+          "wordAnswer": "They suffocated and died due to lack of oxygen."
+        },
+        {
+          "questionNumber": "49",
+          "question": "The graph below refers to the level of two hormones observed in blood within a month in a sixteen year old girl. The increase in the level of oestrogen between Day 13 and 15 is due to:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Thickening of the uterine wall.",
+            "Development of corpus luteum.",
+            "Release of egg from the ovary.",
+            "Peeling off of the uterine wall."
+          ],
+          "wordAnswer": "Release of egg from the ovary."
+        },
+        {
+          "questionNumber": "50",
+          "question": "During vigorous activity there is overheating which results in much heat being lost through the skin. This is as a result of:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Increased metabolism.",
+            "Shivering.",
+            "Vasoconstriction.",
+            "Vasodilation."
+          ],
+          "wordAnswer": "Vasodilation."
+        }
+      ]
+    }
+  ]
+}

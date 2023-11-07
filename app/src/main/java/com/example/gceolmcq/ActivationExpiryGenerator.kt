@@ -1,5 +1,6 @@
 package com.example.gceolmcq
 
+import android.os.Bundle
 import com.example.gceolmcq.datamodels.ActivationExpiryDates
 import java.util.*
 
@@ -37,6 +38,14 @@ class ActivationExpiryDatesGenerator() {
             }
 
             return ActivationExpiryDates( activationDate.toLocaleString(), expiry.toLocaleString())
+        }
+
+        fun getTimeRemaining(activatedOn: String, expiresOn: String): Long{
+            val activationDate = Date(activatedOn)
+            val expiry = Date(expiresOn)
+            return expiry.time - activationDate.time
+
+
         }
 
     }

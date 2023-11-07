@@ -1,0 +1,785 @@
+{
+  "privateTitle": "Nutrition in Mammals",
+  "publicTitle": "Nutrition in Mammals",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "A food sample had some Benedict's solution added and the resulting mixture was boiled. An orange-red precipitate appeared. This means the food contained",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Protein",
+            "Starch",
+            "Reducing sugar",
+            "Fats"
+          ],
+          "wordAnswer": "Reducing sugar"
+        },
+        {
+          "questionNumber": "2",
+          "question": "Which region of the alimentary canal has the lowest PH?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mouth",
+            "Duodenum",
+            "Stomach",
+            "Ileum"
+          ],
+          "wordAnswer": "Stomach"
+        },
+        {
+          "questionNumber": "3",
+          "question": "All enzymes are",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Proteins",
+            "Carbohydrate",
+            "Fats",
+            "Vitamins"
+          ],
+          "wordAnswer": "Proteins"
+        },
+        {
+          "questionNumber": "4",
+          "question": "Which of the following is the best source of starch?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Beans",
+            "Groundnut",
+            "Eggs",
+            "Maize"
+          ],
+          "wordAnswer": "Maize"
+        },
+        {
+          "questionNumber": "5",
+          "question": "Lipids contain the elements",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon, Hydrogen and Oxygen",
+            "Carbon, Hydrogen, Oxygen and Nitrogen",
+            "Carbon, Hydrogen and Nitrogen",
+            "Carbon, Oxygen and Nitrogen"
+          ],
+          "wordAnswer": "Carbon, Hydrogen and Oxygen"
+        },
+        {
+          "questionNumber": "6",
+          "question": "Proteins contain the elements",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon, Hydrogen and Oxygen",
+            "Carbon, Hydrogen, Oxygen and Nitrogen",
+            "Carbon, Hydrogen and Nitrogen",
+            "Carbon, Oxygen and Nitrogen"
+          ],
+          "wordAnswer": "Carbon, Hydrogen, Oxygen and Nitrogen"
+        },
+        {
+          "questionNumber": "7",
+          "question": "Which of the following elements is present in proteins but absent in Carbohydrates and lipids?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon",
+            "Nitrogen",
+            "Hydrogen",
+            "Oxygen"
+          ],
+          "wordAnswer": "Nitrogen"
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Which two organs are connected by the hepatic portal vein?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Intestines and kidneys",
+            "Liver and Intestines",
+            "Liver and spleen",
+            "Lungs and heart"
+          ],
+          "wordAnswer": "Liver and Intestines"
+        },
+        {
+          "questionNumber": "9",
+          "question": "Which chemical element is common to carbohydrates, proteins and lipids?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nitrogen",
+            "Phosphorus",
+            "Oxygen",
+            "Sulphur"
+          ],
+          "wordAnswer": "Oxygen"
+        },
+        {
+          "questionNumber": "10",
+          "question": "Absorption of most water from the gut occurs in",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Stomach",
+            "Duodenum",
+            "Ileum",
+            "Large Intestine"
+          ],
+          "wordAnswer": "Large Intestine"
+        },
+        {
+          "questionNumber": "11",
+          "question": "Which of the following is present in saliva?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pepsin",
+            "Ptyalin",
+            "Trypsin",
+            "Erepsin"
+          ],
+          "wordAnswer": "Ptyalin"
+        },
+        {
+          "questionNumber": "12",
+          "question": "In man, chemical digestion of carbohydrate begins in the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Stomach",
+            "Mouth",
+            "Duodenum",
+            "Ileum"
+          ],
+          "wordAnswer": "Mouth"
+        },
+        {
+          "questionNumber": "13",
+          "question": "Physical digestion of food in the mouth is performed by",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Saliva",
+            "Salivary Amylase",
+            "Teeth",
+            "Hard palette"
+          ],
+          "wordAnswer": "Teeth"
+        },
+        {
+          "questionNumber": "14",
+          "question": "Which of the following prevents autodigestion of the stomach wall by gastric juice?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mucus",
+            "Smooth muscles",
+            "Food",
+            "HCl"
+          ],
+          "wordAnswer": "Mucus"
+        },
+        {
+          "questionNumber": "15",
+          "question": "It regulates the release of chyme from the stomach into the duodenum",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pyloric sphincter",
+            "Cardiac sphincter",
+            "Epiglottis",
+            "Pancreas"
+          ],
+          "wordAnswer": "Pyloric sphincter"
+        },
+        {
+          "questionNumber": "16",
+          "question": "Which component of the diet prevents constipation?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Proteins",
+            "Vitamins",
+            "Minerals",
+            "Fibres"
+          ],
+          "wordAnswer": "Fibres"
+        },
+        {
+          "questionNumber": "17",
+          "question": "It helps to emulsify fats",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pancreatic lipase",
+            "Pancreatic amylase",
+            "Bile",
+            "Trypsin"
+          ],
+          "wordAnswer": "Bile"
+        },
+        {
+          "questionNumber": "18",
+          "question": "It prevents food from entering the trachea during swallowing.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Epiglottis",
+            "Glottis",
+            "Oesophagus",
+            "Larynx"
+          ],
+          "wordAnswer": "Epiglottis"
+        },
+        {
+          "questionNumber": "19",
+          "question": "Which of the following is absent in the milk dentition of man?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Incisors",
+            "Premolars",
+            "Molars",
+            "Canines"
+          ],
+          "wordAnswer": "Molars"
+        },
+        {
+          "questionNumber": "20",
+          "question": "Bile is produced by",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Duodenum",
+            "Pancreas",
+            "Liver",
+            "Gall bladder"
+          ],
+          "wordAnswer": "Liver"
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "Types of heterotrophic nutrition include",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Photosynthesis",
+            "Parasitism",
+            "Saprophytism"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct"
+        },
+        {
+          "questionNumber": "22",
+          "question": "Which of the following end products of digestion will enter the lacteal of the villus?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Fatty acids and glycerol",
+            "Amino acids",
+            "Glucose"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct"
+        },
+        {
+          "questionNumber": "23",
+          "question": "Fat soluble vitamins include",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Vitamin A",
+            "Vitamin K",
+            "Vitamin C"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        },
+        {
+          "questionNumber": "24",
+          "question": "Food is masticated in order to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "facilitate swallowing",
+            "increase surface area for enzyme action",
+            "kill bacteria"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct"
+        },
+        {
+          "questionNumber": "25",
+          "question": "The role of HCL in the stomach is to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "activate pepsinogen to pepsin",
+            "kill bacteria",
+            "provide optimum PH for enzyme action"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct"
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are TRUE and the second statement is a correct explanation of the first. \nB. If both statements are TRUE and the second statement is NOT a correct explanation of the first. \nC. If the first statement is TRUE and the second statement is FALSE. \nD. If the first statement is FALSE and the second statement is TRUE.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Gastrin stimulates gastric glands to secrete gastric juice into the stomach.",
+            "Gastric juice contains HCL which activates pepsinogen to pepsin"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The enamel of the teeth is very hard",
+            "The enamel contains calcium salts"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Man is unable to digest cellulose.",
+            "The digestive system of man cannot produce cellulase"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Amino acids are the end products of carbohydrate digestion.",
+            "Excess amino acids are deaminated in the liver."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True"
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Vitamin A is important for vision.",
+            "Deficiency of vitamin A causes scurvy."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False"
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "An organ that stores bile",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pancreas",
+            "Liver",
+            "Gall bladder",
+            "Duodenum"
+          ],
+          "wordAnswer": "Gall bladder"
+        },
+        {
+          "questionNumber": "32",
+          "question": "A protein digesting enzyme present in pancreatic juice.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pepsin",
+            "Erepsin",
+            "Enterokinase",
+            "Trypsin"
+          ],
+          "wordAnswer": "Trypsin"
+        },
+        {
+          "questionNumber": "33",
+          "question": "Its deficiency leads to beriberi",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vitamin A",
+            "Vitamin B1",
+            "Vitamin D",
+            "Vitamin C"
+          ],
+          "wordAnswer": "Vitamin B1"
+        },
+        {
+          "questionNumber": "34",
+          "question": "Its deficiency leads to night blindness",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vitamin A",
+            "Vitamin B1",
+            "Vitamin D",
+            "Vitamin C"
+          ],
+          "wordAnswer": "Vitamin A"
+        },
+        {
+          "questionNumber": "35",
+          "question": "Its deficiency leads to rickets",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vitamin A",
+            "Vitamin C",
+            "Vitamin D",
+            "Vitamin K"
+          ],
+          "wordAnswer": "Vitamin D"
+        },
+        {
+          "questionNumber": "36",
+          "question": "Deficiency of proteins in the diet",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "kwashiorkor",
+            "scurvy",
+            "Ricket",
+            "Goitre"
+          ],
+          "wordAnswer": "kwashiorkor"
+        },
+        {
+          "questionNumber": "37",
+          "question": "Its deficiency leads to scurvy",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vitamin A",
+            "Vitamin C",
+            "Vitamin D",
+            "Vitamin K"
+          ],
+          "wordAnswer": "Vitamin C"
+        },
+        {
+          "questionNumber": "38",
+          "question": "Deficiency of iodine in the diet",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Goitre",
+            "Night blindness",
+            "Scurvy",
+            "Constipation"
+          ],
+          "wordAnswer": "Goitre"
+        },
+        {
+          "questionNumber": "39",
+          "question": "A chemical used to test for proteins",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Benedict's solution",
+            "Millon's reagent",
+            "Iodine solution",
+            "Sudan III solution"
+          ],
+          "wordAnswer": "Millon's reagent"
+        },
+        {
+          "questionNumber": "40",
+          "question": "Movement of food along the alimentary canal",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Digestion",
+            "Peristalsis",
+            "Ingestion",
+            "Defecation"
+          ],
+          "wordAnswer": "Peristalsis"
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "Trypsinogen is activated to Trypsin by",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Enterokinase",
+            "HCL",
+            "Chymotrypsin",
+            "Bile"
+          ],
+          "wordAnswer": "Enterokinase"
+        },
+        {
+          "questionNumber": "42",
+          "question": "The role of rennin in the stomach of a young mammal is to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "digest proteins to peptones",
+            "emulsify fat",
+            "coagulate soluble caseinogen to insoluble casein",
+            "digest lactose to glucose and galactose to maltose"
+          ],
+          "wordAnswer": "coagulate soluble caseinogen to insoluble casein"
+        },
+        {
+          "questionNumber": "43",
+          "question": "Which of the following synthesizes vitamin K in the colon of a human?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Escherichia coli",
+            "Cellulase",
+            "Tape worm",
+            "Vibrio cholerae"
+          ],
+          "wordAnswer": "Escherichia coli"
+        },
+        {
+          "questionNumber": "44",
+          "question": "An animal that feeds only on plants",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carnivore",
+            "Omnivore",
+            "Herbivore",
+            "Scavenger"
+          ],
+          "wordAnswer": "Herbivore"
+        },
+        {
+          "questionNumber": "45",
+          "question": "An animal that feeds on both plants and animals",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carnivore",
+            "Omnivore",
+            "Herbivore",
+            "Scavenger"
+          ],
+          "wordAnswer": "Omnivore"
+        },
+        {
+          "questionNumber": "46",
+          "question": "The process of regurgitating food and chewing it again for the second time is known as",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rumination",
+            "Vomitting",
+            "Caecotrophy",
+            "Egestion"
+          ],
+          "wordAnswer": "Rumination"
+        },
+        {
+          "questionNumber": "47",
+          "question": "Which secretion released into the alimentary canal contains no enzyme but speeds up fat digestion?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bile",
+            "Intestinal juice",
+            "Pancreatic juice",
+            "Saliva"
+          ],
+          "wordAnswer": "Bile"
+        },
+        {
+          "questionNumber": "48",
+          "question": "Which of the following acts as a solvent for vitamins A, D E and K?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbohydrate",
+            "Water",
+            "Fats",
+            "Proteins"
+          ],
+          "wordAnswer": "Fats"
+        },
+        {
+          "questionNumber": "49",
+          "question": "Which of the following enters the lymphatic system after digestion?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Fatty acids and glycerol",
+            "Amino acids and glucose",
+            "Fructose and glucose",
+            "Amino acids and glycerol"
+          ],
+          "wordAnswer": "Fatty acids and glycerol"
+        },
+        {
+          "questionNumber": "50",
+          "question": "Their canines are well developed for piercing and tearing flesh",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carnivores",
+            "Omnivores",
+            "Herbivores",
+            "Ruminants"
+          ],
+          "wordAnswer": "Carnivores"
+        }
+      ]
+    }
+  ]
+}

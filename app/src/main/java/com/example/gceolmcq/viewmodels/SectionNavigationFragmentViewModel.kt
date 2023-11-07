@@ -5,130 +5,56 @@ import androidx.core.os.persistableBundleOf
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.gceolmcq.repository.PaperRepository
 
 class SectionNavigationFragmentViewModel : ViewModel() {
-    private var sectionNames: Array<String>? = null
-    private var sectionNameBundleList: Array<Bundle>? = null
-    private var numberOfSections: Int? = null
-    private var sectionsAnswered: List<Boolean>? = null
-//    private val sectionScores = ArrayList<Int>()
-    private var numberOfSectionsAnswered = MutableLiveData<Int>()
-    private var score = MutableLiveData<Int>()
 
-    private val paperScore = MutableLiveData<Int>()
-    private val paperGrade = MutableLiveData<String>()
-    private val areAllSectionsAnswered = MutableLiveData<Boolean>()
-    private val paperPercentage = MutableLiveData<Int>()
-
-
-    private var totalNumberOfQuestions: Int? = null
-
-    init {
-//        score.value = 0
-        numberOfSectionsAnswered.value = 0
-        paperScore.value = 0
-        paperGrade.value = "U Grade"
-        areAllSectionsAnswered.value = false
-        paperPercentage.value = 0
-    }
-
-    fun setSectionNames(sectionNames: Array<String>?) {
-        this.sectionNames = sectionNames
-        setNumberOfSections()
-//        initSectionScores()
-    }
-
-    fun getSectionNames(): Array<String>? {
-        return this.sectionNames
-    }
-    fun setSectionNameBundleList(sectionNameBundleList: Array<Bundle>?) {
-        this.sectionNameBundleList = sectionNameBundleList
-    }
+//    fun getSectionNames(): Array<String>? {
+//        return PaperRepository.getSectionNames()
+//    }
 
     fun getSectionNameBundleList():Array<Bundle>?{
-        return sectionNameBundleList
+        return PaperRepository.getSectionNameBundleList()
     }
 
-    private fun setNumberOfSections() {
-        numberOfSections = this.sectionNames?.size
-    }
-
-    fun getNumberOfSections(): Int? {
-        return numberOfSections
-    }
-
-    fun updateSectionsAnswered(sectionsAnswered: List<Boolean>) {
-        this.sectionsAnswered = sectionsAnswered
-        updateNumberOfSectionsAnswered()
+    fun getNumberOfSections(): Int {
+        return PaperRepository.getNumberOfSections()
     }
 
     fun getSectionsAnswered(): List<Boolean> {
-        return sectionsAnswered!!
-    }
-
-    private fun updateNumberOfSectionsAnswered() {
-        numberOfSectionsAnswered.value = sectionsAnswered!!.count { it }
-
+        return PaperRepository.getSectionsAnswered()
     }
 
     fun getNumberOfSectionsAnswered(): LiveData<Int> {
-        return numberOfSectionsAnswered
-    }
-
-//    fun updateSectionScore(sectionIndex: Int, score: Int){
-//        sectionScores[sectionIndex] = score
-//    }
-
-    fun updatePaperScore(score: Int) {
-        this.paperScore.value = score
-        updateGrade()
+        return PaperRepository.getNumberOfSectionsAnswered()
     }
 
     fun getPaperScore(): LiveData<Int> {
-        return paperScore
-    }
-
-    fun setTotalNumberOfQuestions(numberOfQuestions: Int) {
-        totalNumberOfQuestions = numberOfQuestions
+        return PaperRepository.getPaperScore()
     }
 
     fun getTotalNumberOfQuestions(): Int {
-        return totalNumberOfQuestions!!
+        return PaperRepository.getTotalNumberOfQuestions()
     }
 
-    private fun updateGrade() {
-//        println((paperScore.value!!.toDouble() / totalNumberOfQuestions!!.toDouble() * 100).toInt())
-        if(numberOfSectionsAnswered.value == numberOfSections){
-            updateAreAllSectionsAnswered()
-            paperPercentage.value = (paperScore.value!!.toDouble() / totalNumberOfQuestions!!.toDouble() * 100).toInt()
-
-            paperGrade.value = when(paperPercentage.value){
-                in 75..100 -> {"A Grade"}
-                in 65..74 -> {"B Grade"}
-                in 50.. 64 -> {"C Grade"}
-                in 40..49 -> {"D Grade"}
-                in 30..39 -> {"E Grade"}
-                else->{"U Grade"}
-            }
-
-        }
-//        println(paperGrade.value)
-    }
-
-    fun getPaperGrade():LiveData<String>{
-        return paperGrade
+    fun getPaperGrade():LiveData<String?>{
+        return PaperRepository.getPaperGrade()
     }
 
     fun getPaperPercentage():LiveData<Int>{
-        return paperPercentage
-    }
-
-    private fun updateAreAllSectionsAnswered(){
-        areAllSectionsAnswered.value = true
+        return PaperRepository.getPaperPercentage()
     }
 
     fun getAreAllSectionsAnswered(): LiveData<Boolean>{
-        return areAllSectionsAnswered
+        return PaperRepository.getAreAllSectionsAnswered()
+    }
+
+    fun getSectionsScores(): ArrayList<Int>{
+        return PaperRepository.getSectionsScores()
+    }
+
+    fun resetPaperRepo(){
+        PaperRepository.resetPaperRepo()
     }
 
 

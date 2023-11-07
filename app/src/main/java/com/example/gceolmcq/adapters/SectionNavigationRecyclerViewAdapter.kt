@@ -44,11 +44,9 @@ class SectionNavigationRecyclerViewAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-//        holder.sectionNavItemLayout.setOnClickListener{
-//            listener.onRecyclerItemClick(position)
-//        }
         holder.tvSectionNavItem.text = listSections[position].getString("sectionName")
         holder.tvSectionNumberOfQuestions.text = "Number of questions: ${listSections[position].getString("numberOfQuestions")}"
+
 
         if(sectionsAnswered[position]){
             val numberOfQuestionsInSection = listSections[position].getString("numberOfQuestions")?.toInt()
@@ -56,7 +54,6 @@ class SectionNavigationRecyclerViewAdapter(
             val scorePercentage =(( sectionScore.toDouble() / numberOfQuestionsInSection!!.toDouble()) * 100).toInt()
             holder.tvSectionNavItem.setTextColor(context.resources.getColor(R.color.color_primary_dark))
             holder.tvSectionNumberOfQuestions.setTextColor(context.resources.getColor(R.color.color_primary_dark))
-//            holder.imgSectionAnsweredCheck.visibility = View.VISIBLE
             holder.scoreLo.visibility = View.VISIBLE
 //            holder.tvSectionScore.visibility = View.VISIBLE
             holder.tvSectionScore.text = "$sectionScore/$numberOfQuestionsInSection"

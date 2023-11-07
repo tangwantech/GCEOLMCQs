@@ -5,19 +5,23 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.gceolmcq.ActivationExpiryDatesGenerator
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.MomoPayService
+
 import com.example.gceolmcq.SubjectPackageActivator
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.datamodels.TransactionStatus
-import com.example.gceolmcq.repository.RepositoriesLink
-import com.example.gceolmcq.roomDB.GceOLMcqDatabase
-import com.parse.ParseObject
+
+//import com.example.gceolmcq.momoPay.MomoPayService
+import com.example.gceolmcq.repository.RepositoriesLinker
 
 
 class SubscriptionActivityViewModel: ViewModel() {
     private lateinit var momoPay: MomoPayService
+    private lateinit var momoPay2: com.example.gceolmcq.momoPay.MomoPayService
     private var mobileId: String? = null
+
 
 //    private lateinit var localDatabase: GceOLMcqDatabase
 
@@ -30,7 +34,8 @@ class SubscriptionActivityViewModel: ViewModel() {
     private val _subscriptionData = MutableLiveData<SubscriptionFormData>()
     val subscriptionData: LiveData<SubscriptionFormData> = _subscriptionData
 
-    private lateinit var repositoriesLink: RepositoriesLink
+    private lateinit var repositoriesLinker: RepositoriesLinker
+    private val transactionStatus = MutableLiveData<String?>()
 
 
 
@@ -39,35 +44,32 @@ class SubscriptionActivityViewModel: ViewModel() {
     }
 
     fun setRepositoryLink(context: Context, mobileId: String){
-        repositoriesLink = RepositoriesLink().apply {
+        repositoriesLinker = RepositoriesLinker().apply {
             setLocalRepo(context, mobileId)
         }
     }
     fun getAreSubjectsPackagesAvailable(): LiveData<Boolean?>{
-        return repositoriesLink.getAreSubjectsPackagesAvailable()
+        return repositoriesLinker.getAreSubjectsPackagesAvailable()
     }
 
     fun getIndexOfActivatedPackage():LiveData<Int>{
-        return repositoriesLink.getIndexOfActivatedPackage()
+        return repositoriesLinker.getIndexOfActivatedPackage()
     }
 
     fun getRemoteRepoErrorEncountered():LiveData<Boolean>{
-        return repositoriesLink.getRemoteRepository().remoteRepoErrorEncountered
+        return repositoriesLinker.getRemoteRepository().remoteRepoErrorExceptionRaised
     }
 
     fun setMomoPayService(momoPayService: MomoPayService){
         momoPay = momoPayService
+
     }
 
     fun setMobileId(mobileID: String) {
         this.mobileId = mobileID
     }
 
-//    fun initSubjectDataBase(context: Context) {
-//        this.localDatabase = GceOLMcqDatabase.getDatabase(context)
-//    }
-
-    private fun setSubscriptionData(subscriptionFormData: SubscriptionFormData){
+    fun setSubscriptionData(subscriptionFormData: SubscriptionFormData){
         _subscriptionData.value = subscriptionFormData
     }
 
@@ -80,44 +82,114 @@ class SubscriptionActivityViewModel: ViewModel() {
         updateActivatedPackageInRemoteRepo(activatedSubjectPackage, subjectIndex)
 
     }
+
+    fun activateSubjectTrialPackage(subjectIndex: Int, subjectName: String){
+        val subscriptionForm = SubscriptionFormData(
+            subjectPosition = subjectIndex,
+            subject = subjectName,
+            packageType = MCQConstants.TRIAL,
+            packageDuration = MCQConstants.TRIAL_DURATION
+        )
+        _subscriptionData.value = subscriptionForm
+        activateSubjectPackage()
+        
+    }
     private fun updateActivatedPackageIndexChangedAt(position: Int){
         _activatedPackageIndexChangedAt.postValue(position)
 
     }
 
-    fun pay(subscriptionFormData: SubscriptionFormData){
-        setSubscriptionData(subscriptionFormData)
-        momoPay.initiatePayment(subscriptionFormData)
+
+
+    fun initiatePayment(){
+//        setSubscriptionData(subscriptionFormData)
+        println("Pay")
+        momoPay.initiatePayment(subscriptionData.value!!)
+
     }
 
     fun getTransactionStatus(): LiveData<TransactionStatus>{
         return momoPay.getTransactionStatus()
     }
 
-    fun isTransactionSuccessful(): LiveData<Boolean>{
+    fun isTransactionSuccessful(): LiveData<Boolean?>{
         return momoPay.getIsTransactionSuccessful()
     }
 
 
     fun restMomoPayService() {
         momoPay.reset()
+//        momoPay = null
+
+    }
+
+    fun getIsPaymentSystemAvailable():LiveData<Boolean?>{
+        return momoPay.isPaymentSystemAvailable
     }
 
     private fun updateActivatedPackageInRemoteRepo(subjectPackageData: SubjectPackageData, position: Int){
-        repositoriesLink.getRemoteRepository().updateActivatedPackageInRemoteRepo(subjectPackageData, position)
+        repositoriesLinker.getRemoteRepository().updateActivatedPackageInRemoteRepo(subjectPackageData, position)
     }
 
     fun loadSubjectPackageDataFromLocalDbWhere(subjectName: String){
-        repositoriesLink.getLocalRepository().getSubjectPackageDataFromLocalDbWhereSubjectName(subjectName)
+        repositoriesLinker.getLocalRepository().getSubjectPackageDataFromLocalDbWhereSubjectName(subjectName)
     }
 
     fun checkSubjectPackageExpiry(): Boolean{
-        val activatedOn = repositoriesLink.getLocalRepository().subjectPackageData.value?.activatedOn!!
-        val expiresOn = repositoriesLink.getLocalRepository().subjectPackageData.value?.expiresOn!!
+        val activatedOn = repositoriesLinker.getLocalRepository().subjectPackageData.value?.activatedOn!!
+        val expiresOn = repositoriesLinker.getLocalRepository().subjectPackageData.value?.expiresOn!!
         return ActivationExpiryDatesGenerator().checkExpiry(activatedOn, expiresOn)
     }
 
     fun getSubjectPackageData(): SubjectPackageData{
-        return repositoriesLink.getLocalRepository().subjectPackageData.value!!
+        return repositoriesLinker.getLocalRepository().subjectPackageData.value!!
+    }
+
+
+
+
+
+
+    fun initMomoPay2(momoPayService2: com.example.gceolmcq.momoPay.MomoPayService){
+        momoPay2 = momoPayService2
+    }
+
+    fun testPay(){
+//        momoPay2 = momoPayService2
+        momoPay2.testPaySuccessful()
+    }
+
+    fun pay(){
+        momoPay2.pay(this.subscriptionData.value!!)
+    }
+
+    fun generateToken( momoPayService2: com.example.gceolmcq.momoPay.MomoPayService){
+        momoPay2 = momoPayService2
+        momoPay2.apply {
+            generateToken()
+        }
+
+    }
+
+    fun getToken(): LiveData<String?>{
+        return momoPay2.getToken()
+    }
+
+    fun getTransactionId(): LiveData<String?>{
+        return momoPay2.getTransactionId()
+    }
+
+    fun getTransactionStatusChanged(): LiveData<String?>{
+        return momoPay2.getTransactionStatusChanged()
+    }
+
+    fun getIsTransactionIdAvailable(): LiveData<Boolean?>{
+        return momoPay2.getIsTransactionIdAvailable()
+    }
+
+
+
+    fun checkTransactionStatus(){
+        momoPay2.checkTransactionStatus()
     }
 }

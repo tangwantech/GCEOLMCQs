@@ -27,7 +27,7 @@ class LocalRepository(private val context: Context){
     fun insertUserSubjectsPackageDataToLocalDB(tempSubjectPackageDataList: List<SubjectPackageData>?, subjectIndex: Int?=null){
         tempSubjectPackageDataList?.let {subjectPackageDataList ->
 
-            CoroutineScope(Dispatchers.IO).launch(Dispatchers.IO) {
+            CoroutineScope(Dispatchers.IO).launch {
                 localDatabase.subjectPackageDao().deleteAll()
                 subjectPackageDataList.forEach {
                     localDatabase.subjectPackageDao().insert(it)

@@ -7,113 +7,152 @@
     android:layout_marginStart="@dimen/margin_14"
     android:layout_marginEnd="@dimen/margin_14"
     android:layout_marginTop="@dimen/margin_12"
-    android:layout_marginBottom="@dimen/margin_8"
+    android:layout_marginBottom="@dimen/margin_12"
     app:cardCornerRadius="@dimen/margin_8"
-    android:elevation="@dimen/margin_8">
+    android:elevation="@dimen/margin_14">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingStart="@dimen/margin_8"
-        android:paddingEnd="@dimen/margin_8"
+        android:layout_height="wrap_content"
+
         android:background="?android:selectableItemBackground">
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="36dp"
-            android:paddingStart="@dimen/margin_4"
-            android:paddingEnd="@dimen/margin_4">
+            android:paddingStart="@dimen/margin_14"
+            android:paddingEnd="@dimen/margin_14"
+            android:background="@color/color_primary">
             <TextView
                 android:id="@+id/subjectTitleTv"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
                 android:text="Biology"
                 android:textStyle="bold"
+                android:textColor="@color/color_on_primary"
                 android:textSize="@dimen/text_size_16"
                 android:gravity="center_vertical"
                 android:textAllCaps="true"/>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="vertical"
+        <RelativeLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/margin_14"
+            android:paddingEnd="@dimen/margin_14">
             <LinearLayout
-                android:orientation="horizontal"
+                android:id="@+id/contentLo"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/package_type"
-                    android:padding="@dimen/margin_4"/>
-                <TextView
-                    android:id="@+id/tvPackageType"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="MCQ 1H"
-                    android:padding="@dimen/margin_4" />
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/navArrowLo">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/package_type"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4"
+                        android:layout_marginEnd="@dimen/margin_8"/>
+                    <TextView
+                        android:id="@+id/tvPackageType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="MCQ 1H"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/activate_on"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4"
+                        android:layout_marginEnd="@dimen/margin_8"/>
+                    <TextView
+                        android:id="@+id/activatedOnTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/activated_on_value"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/expires_on"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4"
+                        android:layout_marginEnd="@dimen/margin_8"/>
+                    <TextView
+                        android:id="@+id/expiresOnTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/activated_on_value"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/status"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4"
+                        android:layout_marginEnd="@dimen/margin_8"/>
+                    <TextView
+                        android:id="@+id/tvSubjectStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Active"
+                        android:paddingTop="@dimen/margin_4"
+                        android:paddingBottom="@dimen/margin_4" />
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
+                android:id="@+id/navArrowLo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true">
+                <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/activate_on"
-                    android:padding="@dimen/margin_4" />
-                <TextView
-                    android:id="@+id/activatedOnTv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/activated_on_value"
-                    android:padding="@dimen/margin_4" />
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_navigate_next"/>
             </LinearLayout>
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/expires_on"
-                    android:padding="@dimen/margin_4" />
-                <TextView
-                    android:id="@+id/expiresOnTv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/activated_on_value"
-                    android:padding="@dimen/margin_4" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/status"
-                    android:padding="@dimen/margin_4" />
-                <TextView
-                    android:id="@+id/tvSubjectStatus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Active"
-                    android:padding="@dimen/margin_4" />
-            </LinearLayout>
-
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="end">
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            android:gravity="end"
+            android:paddingStart="@dimen/margin_14"
+            android:paddingEnd="@dimen/margin_14">
             <Button
                 android:id="@+id/btnSubscribe"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -121,6 +160,24 @@
                 android:layout_height="match_parent"
                 android:text="@string/subscribe"
                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activateButtonLo"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            android:paddingStart="@dimen/margin_14"
+            android:paddingEnd="@dimen/margin_14"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/activateButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Activate Trial" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

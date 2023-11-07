@@ -70,7 +70,7 @@ class SubscriptionFormDialogFragment : DialogFragment() {
     }
 
     private fun setUpViews(){
-        dialogTitle.text = subscriptionFormDialogFragmentViewModel.getDialogTitle()
+        dialogTitle.text = "${subscriptionFormDialogFragmentViewModel.getDialogTitle()} ${requireContext().resources.getString(R.string.subscription)}"
         autoPackageType.setAdapter(
             ArrayAdapter<String>(
                 requireContext(),

@@ -20,22 +20,24 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/sections_answered"
-                android:textColor="@color/white"
+                android:textColor="@color/color_on_primary"
                 android:textSize="@dimen/text_size_16"
                 android:textStyle="bold" />
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/divided_width_2"
-                android:layout_margin="@dimen/margin_8"
-                android:background="@color/white" />
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:background="@color/color_on_primary" />
 
             <TextView
                 android:id="@+id/tvSectionsAnswered"
@@ -43,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="6/6"
-                android:textColor="@color/white"
+                android:textColor="@color/color_on_primary"
                 android:textSize="@dimen/text_size_16"
                 android:textStyle="bold" />
 
@@ -61,22 +63,24 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/tvPaperScore"
-                android:textColor="@color/white"
+                android:textColor="@color/color_on_primary"
                 android:textSize="@dimen/text_size_16"
                 android:textStyle="bold" />
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/divided_width_2"
-                android:layout_margin="@dimen/margin_8"
-                android:background="@color/white" />
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:background="@color/color_on_primary" />
 
             <TextView
                 android:id="@+id/tvScore"
@@ -84,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10/50"
-                android:textColor="@color/white"
+                android:textColor="@color/color_on_primary"
                 android:textSize="@dimen/text_size_16"
                 android:textStyle="bold" />
 

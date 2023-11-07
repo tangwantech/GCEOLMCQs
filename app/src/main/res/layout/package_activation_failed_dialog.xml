@@ -27,7 +27,7 @@
             android:text="@string/failed_to_activate_package"
             android:textSize="@dimen/text_size_16"
             android:textStyle="bold"
-            android:textColor="@color/design_default_color_error"/>
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
 
         <LinearLayout
             android:orientation="vertical"

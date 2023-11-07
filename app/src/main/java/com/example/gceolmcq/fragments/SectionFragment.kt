@@ -2,6 +2,8 @@ package com.example.gceolmcq.fragments
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.res.ColorStateList
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,16 +12,17 @@ import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.activities.OnRequestToGoToResultListener
 import com.example.gceolmcq.R
 import com.example.gceolmcq.ResourceImages
@@ -31,7 +34,7 @@ private const val SECTION_INDEX = "Section index"
 class SectionFragment : Fragment(), OnClickListener {
     private lateinit var onRequestToGoToResultListener: OnRequestToGoToResultListener
 
-    private lateinit var sectionFragmentViewModel: SectionFragmentViewModel
+    private lateinit var viewModel: SectionFragmentViewModel
 
     private lateinit var svQuestion: ScrollView
 
@@ -76,14 +79,18 @@ class SectionFragment : Fragment(), OnClickListener {
     private var fadeInOut: Animation? = null
     private var fadeTransition: Animation? = null
 
+    private var isPositiveBtnClicked = false
+
+    private var preLayoutOption: LinearLayout? = null
+    private var currentLayoutOption: LinearLayout? = null
+
+    private var background: Drawable? = null
+    private var textColor: ColorStateList? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        sectionFragmentViewModel = ViewModelProvider(this)[SectionFragmentViewModel::class.java]
-        sectionFragmentViewModel.setSectionData(requireArguments().getSerializable(SECTION_DATA) as SectionDataModel)
-        sectionFragmentViewModel.setSectionIndex(requireArguments().getInt(SECTION_INDEX))
-
-        fadeInOut = AnimationUtils.loadAnimation(requireContext(), R.anim.cross_fade)
-        fadeTransition = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_transition)
+        setupViewModel()
+        initFadeTransitions()
 
     }
 
@@ -106,17 +113,75 @@ class SectionFragment : Fragment(), OnClickListener {
     @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initViews(view)
 
-        getViewsFromLayout(view)
+//        startTimer()
+        btnNextQuestion.setOnClickListener(this)
+        btnResult.setOnClickListener(this)
+        setupViewObservers()
+        displayDirectionsDialog()
 
-        startTimer()
-        sectionFragmentViewModel.getTimeRemaining().observe(viewLifecycleOwner, Observer {
+
+    }
+
+    private fun displayDirections(){
+        val view = requireActivity().layoutInflater.inflate(R.layout.section_directions, null)
+        val tvDirections: TextView = view.findViewById(R.id.tvSectionInstruction)
+        tvDirections.text = viewModel.getSectionDirections()
+        val directionsCheckBox: CheckBox = view.findViewById(R.id.instructionCheckBox)
+        directionsCheckBox.setOnCheckedChangeListener { _, state ->
+            saveDirectionsCheckBoxState(state)
+        }
+        val dialog = AlertDialog.Builder(requireContext()).apply{
+            setTitle("Directions")
+            setView(view)
+            setPositiveButton(requireContext().resources.getString(R.string.ok)){_, _ ->
+                isPositiveBtnClicked = true
+                startTimer()
+            }
+            setCancelable(false)
+        }.create()
+
+        dialog.show()
+    }
+
+    private fun saveDirectionsCheckBoxState(state: Boolean){
+        val pref = requireActivity().getSharedPreferences("${viewModel.getSectionIndex()}",
+            AppCompatActivity.MODE_PRIVATE
+        )
+        pref.edit().apply{
+           putBoolean("checkState", state)
+        }.apply()
+    }
+
+    private fun getDirectionsCheckBoxState(): Boolean {
+        val pref = requireActivity().getSharedPreferences(
+            "${viewModel.getSectionIndex()}",
+            AppCompatActivity.MODE_PRIVATE
+        )
+        return pref.getBoolean("checkState", false)
+    }
+
+    private fun initFadeTransitions(){
+        fadeInOut = AnimationUtils.loadAnimation(requireContext(), R.anim.cross_fade)
+        fadeTransition = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_transition)
+    }
+
+    private fun setupViewModel(){
+        viewModel = ViewModelProvider(this)[SectionFragmentViewModel::class.java]
+        viewModel.setSectionIndex(requireArguments().getInt(SECTION_INDEX))
+    }
+
+
+    @SuppressLint("SetTextI18n")
+    private fun setupViewObservers(){
+        viewModel.getTimeRemaining().observe(viewLifecycleOwner, Observer {
             tvTimer.text =
                 "${it.minute.toString().padStart(2, '0')}:${it.second.toString().padStart(2, '0')}"
 
         })
 
-        sectionFragmentViewModel.getIsTimeAlmostOut().observe(viewLifecycleOwner, Observer {
+        viewModel.getIsTimeAlmostOut().observe(viewLifecycleOwner, Observer {
             if(it){
 //                tvTimer.setTextColor(requireContext().resources.getColor(R.color.color_accent))
                 tvTimer.startAnimation(fadeInOut)
@@ -124,13 +189,13 @@ class SectionFragment : Fragment(), OnClickListener {
 
         })
 
-        sectionFragmentViewModel.getIsTimeOut().observe(viewLifecycleOwner, Observer {
+        viewModel.getIsTimeOut().observe(viewLifecycleOwner, Observer {
             if(it){
                 val alertDialog = AlertDialog.Builder(requireContext())
                 alertDialog.apply {
                     setMessage("Timeout")
                     setPositiveButton("Ok") { _,_ ->
-                        onRequestToGoToResultListener.onRequestToGoToResult(sectionFragmentViewModel.getSectionResultData())
+                        onRequestToGoToResultListener.onRequestToGoToResult(viewModel.getSectionResultData())
                     }
                     setCancelable(false)
                 }.create().show()
@@ -141,22 +206,20 @@ class SectionFragment : Fragment(), OnClickListener {
 
         })
 
-        btnNextQuestion.setOnClickListener(this)
-        btnResult.setOnClickListener(this)
 
-        sectionFragmentViewModel.getQuestionIndex()
+        viewModel.getQuestionIndex()
             .observe(viewLifecycleOwner, Observer { questionIndex ->
 //                svQuestion.startAnimation(fadeInOut)
                 setAnimationOnQuestionViewItems()
 
                 tvCurrentQuestionNumberOfTotal.text =
-                    "Question ${questionIndex + 1} of ${sectionFragmentViewModel.getNumberOfQuestionsInSection()}"
+                    "${questionIndex + 1} of ${viewModel.getNumberOfQuestionsInSection()}"
 
-                if (questionIndex + 1 == sectionFragmentViewModel.getNumberOfQuestionsInSection()) {
+                if (questionIndex + 1 == viewModel.getNumberOfQuestionsInSection()) {
                     btnNextQuestion.isEnabled = false
                 }
 
-                val questionData = sectionFragmentViewModel.getQuestion()
+                val questionData = viewModel.getQuestion()
 
                 if (questionData.question == null) {
 
@@ -171,8 +234,6 @@ class SectionFragment : Fragment(), OnClickListener {
 //
                     imageLo.visibility = View.VISIBLE
                     imageView.setImageResource(ResourceImages.images[questionData.image]!!)
-
-//                    println(questionData.image)
 
                 }
 
@@ -194,15 +255,15 @@ class SectionFragment : Fragment(), OnClickListener {
                 }
 
                 questionData.selectableOptions.forEachIndexed { index, s ->
-                    selectableOptions[index].text = "${sectionFragmentViewModel.getLetters()[index]}. $s"
+                    selectableOptions[index].text = "${viewModel.getLetters()[index]}. $s"
                 }
 
-                sectionFragmentViewModel.getIsQuestionAnswered()
+                viewModel.getIsQuestionAnswered()
                     .observe(viewLifecycleOwner, Observer { isQuestionAnswered ->
                         when (isQuestionAnswered) {
                             true -> {
                                 btnNextQuestion.isEnabled = true
-                                if (questionIndex + 1 == sectionFragmentViewModel.getNumberOfQuestionsInSection()) {
+                                if (questionIndex + 1 == viewModel.getNumberOfQuestionsInSection()) {
                                     btnNextQuestion.isEnabled = false
                                 }
                             }
@@ -215,27 +276,26 @@ class SectionFragment : Fragment(), OnClickListener {
 
             })
 
-        sectionFragmentViewModel.getNumberOfQuestionsAnswered()
+        viewModel.getNumberOfQuestionsAnswered()
             .observe(viewLifecycleOwner, Observer {
-                if (it == sectionFragmentViewModel.getNumberOfQuestionsInSection()) {
+                if (it == viewModel.getNumberOfQuestionsInSection()) {
                     btnResult.isEnabled = true
                 }
             })
     }
 
     private fun startTimer() {
-        sectionFragmentViewModel.startTimer()
+        viewModel.startTimer()
     }
 
     private fun nextQuestion() {
         resetSelectedQuestionOptionBackground()
-        sectionFragmentViewModel.incrementQuestionIndex()
+//        resetAllSelectableOptions()
+        viewModel.incrementQuestionIndex()
 
     }
 
-
-
-    private fun getViewsFromLayout(view: View) {
+    private fun initViews(view: View) {
 
         svQuestion = view.findViewById(R.id.svQuestion)
         tvTimer = view.findViewById(R.id.tvTimer)
@@ -292,7 +352,18 @@ class SectionFragment : Fragment(), OnClickListener {
 
     override fun onResume() {
         super.onResume()
-        requireActivity().title = sectionFragmentViewModel.getSectionTitle()
+        requireActivity().title = viewModel.getSectionTitle()
+//        displayDirectionsDialog()
+
+
+    }
+
+    private fun displayDirectionsDialog(){
+        if(!getDirectionsCheckBoxState() && !isPositiveBtnClicked){
+            displayDirections()
+        }else{
+            startTimer()
+        }
     }
 
     private fun setAnimationOnQuestionViewItems(){
@@ -322,21 +393,21 @@ class SectionFragment : Fragment(), OnClickListener {
             }
             R.id.btnResult -> {
 
-                onRequestToGoToResultListener.onRequestToGoToResult(sectionFragmentViewModel.getSectionResultData())
+                onRequestToGoToResultListener.onRequestToGoToResult(viewModel.getSectionResultData())
             }
             R.id.layoutOption1, R.id.layoutOption2, R.id.layoutOption3, R.id.layoutOption4 -> {
                 when (p0.id) {
                     R.id.layoutOption1 -> {
-                        updateOptionSelected(0)
+                        updateOptionSelected(p0,0)
                     }
                     R.id.layoutOption2 -> {
-                        updateOptionSelected(1)
+                        updateOptionSelected(p0, 1)
                     }
                     R.id.layoutOption3 -> {
-                        updateOptionSelected(2)
+                        updateOptionSelected(p0, 2)
                     }
                     R.id.layoutOption4 -> {
-                        updateOptionSelected(3)
+                        updateOptionSelected(p0, 3)
                     }
                 }
             }
@@ -350,31 +421,48 @@ class SectionFragment : Fragment(), OnClickListener {
 
     }
 
-    private fun updateOptionSelected(optionSelectedIndex: Int) {
-        sectionFragmentViewModel.updateUserSelection(optionSelectedIndex)
-        changeSelectedQuestionOptionBackground(optionSelectedIndex)
+    private fun updateOptionSelected(view: View, optionSelectedIndex: Int) {
+        viewModel.updateUserSelection(optionSelectedIndex)
+        changeSelectedQuestionOptionBackground(view, optionSelectedIndex)
 
     }
 
-    private fun changeSelectedQuestionOptionBackground(optionSelectedIndex: Int) {
 
-        optionsLayouts[optionSelectedIndex].setBackgroundColor(
-            requireContext().resources.getColor(R.color.color_secondary)
-        )
-        sectionFragmentViewModel.getIndexPreviousAndCurrentItemOfQuestion().indexPreviousItem?.let {
-            optionsLayouts[sectionFragmentViewModel.getIndexPreviousAndCurrentItemOfQuestion().indexPreviousItem!!].setBackgroundColor(
-                requireContext().resources.getColor(R.color.white)
-            )
+    private fun changeSelectedQuestionOptionBackground(view: View, optionSelectedIndex: Int) {
+        if(background == null){
+            background = optionsLayouts[optionSelectedIndex].background
+            textColor = selectableOptions[optionSelectedIndex].textColors
+
         }
+
+
+//        optionsLayouts[optionSelectedIndex].setBackgroundColor(
+//            requireContext().resources.getColor(R.color.color_secondary)
+//        )
+        optionsLayouts[optionSelectedIndex].background = requireContext().resources.getDrawable(R.drawable.selected_drawable)
+
+
+
+        selectableOptions[optionSelectedIndex].setTextColor(resources.getColor(R.color.primary_text_color))
+
+        viewModel.getIndexPreviousAndCurrentItemOfQuestion().indexPreviousItem?.let {
+
+            optionsLayouts[it].background = background
+            selectableOptions[it].setTextColor(textColor)
+
+        }
+
     }
+
 
     private fun resetSelectedQuestionOptionBackground() {
-        sectionFragmentViewModel.getIndexPreviousAndCurrentItemOfQuestion().indexCurrentItem?.let {
-            optionsLayouts[sectionFragmentViewModel.getIndexPreviousAndCurrentItemOfQuestion().indexCurrentItem!!].setBackgroundColor(
-                requireContext().resources.getColor(R.color.white)
-            )
+        viewModel.getIndexPreviousAndCurrentItemOfQuestion().indexCurrentItem?.let {
+            optionsLayouts[it].background = background
+            selectableOptions[it].setTextColor(textColor)
 
         }
     }
+
+
 
 }

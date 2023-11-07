@@ -7,9 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.*
 import com.example.gceolmcq.activities.*
 import com.example.gceolmcq.datamodels.UserMarkedAnswersSheetData
+import com.example.gceolmcq.viewmodels.CorrectionFragmentViewModel
 
 private const val CORRECTION_DATA = "Correction data"
 private const val SECTION_INDEX = "index"
@@ -20,6 +22,7 @@ class CorrectionFragment : Fragment() {
     private lateinit var onGetNumberOfSectionsListener: OnGetNumberOfSectionsListener
     private lateinit var onCheckPackageExpiredListener: OnCheckPackageExpiredListener
     private lateinit var onIsSectionAnsweredListener: OnIsSectionAnsweredListener
+    private lateinit var viewModel: CorrectionFragmentViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,7 +53,10 @@ class CorrectionFragment : Fragment() {
 
     }
 
-
+    private fun initViewModel(){
+        viewModel = ViewModelProvider(requireActivity())[CorrectionFragmentViewModel::class.java]
+        viewModel.setUserMarkedAnswersSheetData(requireArguments().getSerializable(CORRECTION_DATA) as UserMarkedAnswersSheetData)
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -60,11 +66,13 @@ class CorrectionFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initViewModel()
         val sectionIndex = requireArguments().getInt(SECTION_INDEX)
 
         val rvCorrectionFragment = RecyclerViewFragment.newInstance(
             requireActivity().title.toString(),
-            requireArguments().getSerializable(CORRECTION_DATA) as UserMarkedAnswersSheetData
+            viewModel.getUserMarkedAnswersSheetData()
+//            requireArguments().getSerializable(CORRECTION_DATA) as UserMarkedAnswersSheetData
         )
 
         val transaction = requireActivity().supportFragmentManager.beginTransaction()

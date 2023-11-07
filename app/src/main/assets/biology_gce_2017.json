@@ -7,6 +7,7 @@
     {
       "title": "Section I",
       "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "1",
@@ -20,7 +21,8 @@
             "High carbon dioxide concentration, high light intensity and availability of water.",
             "High light intensity, high atmospheric pressure and low carbon dioxide concentration."
           ],
-          "wordAnswer": "High carbon dioxide concentration, high light intensity and availability of water."
+          "wordAnswer": "High carbon dioxide concentration, high light intensity and availability of water.",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -32,9 +34,10 @@
             "Unicellular and saprophytic",
             "Unicellular and autotrophic",
             "Multicellular and holozoic",
-            "Multicelular and saprophytic"
+            "Multicellular and saprophytic"
           ],
-          "wordAnswer": "Unicellular and autotrophic"
+          "wordAnswer": "Unicellular and autotrophic",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -48,7 +51,8 @@
             "Reducing sugar",
             "Lipid"
           ],
-          "wordAnswer": "Reducing sugar"
+          "wordAnswer": "Reducing sugar",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -62,7 +66,8 @@
             "Vagina, cervix, uterus, fallopian tube",
             "Vagina, uterus, cervix, fallopian tube"
           ],
-          "wordAnswer": "Vagina, cervix, uterus, fallopian tube"
+          "wordAnswer": "Vagina, cervix, uterus, fallopian tube",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -76,7 +81,8 @@
             "Diffusion of auxin to illuminated side.",
             "More auxin on the un-illuminated side."
           ],
-          "wordAnswer": "More auxin on the un-illuminated side."
+          "wordAnswer": "More auxin on the un-illuminated side.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -90,7 +96,8 @@
             "Prevent dehydration",
             "Keep the skin moist"
           ],
-          "wordAnswer": "Reduce body temperature"
+          "wordAnswer": "Reduce body temperature",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -104,13 +111,15 @@
             "Liver",
             "Pancreas"
           ],
-          "wordAnswer": "Stomach"
+          "wordAnswer": "Stomach",
+          "explanation": null
         }
       ]
     },
     {
       "title": "Section II",
       "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "8",
@@ -124,7 +133,8 @@
             "A termite",
             "A cockroach"
           ],
-          "wordAnswer": "A housefly"
+          "wordAnswer": "A housefly",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -138,7 +148,8 @@
             "Has two pairs of antennae",
             "Is covered by a cuticle made up of cellulose."
           ],
-          "wordAnswer":  "Has jointed appendages."
+          "wordAnswer":  "Has jointed appendages.",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -152,7 +163,8 @@
             "Intestine",
             "Gizzard"
           ],
-          "wordAnswer": "Gizzard"
+          "wordAnswer": "Gizzard",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -166,7 +178,8 @@
             "Condensation",
             "Precipitation"
           ],
-          "wordAnswer": "Evaporation"
+          "wordAnswer": "Evaporation",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -180,7 +193,8 @@
             "The number of organisms at each level increases from level 1 to 4.",
             "Energy flows from level 1 to 4."
           ],
-          "wordAnswer": "Energy flows from level 1 to 4."
+          "wordAnswer": "Energy flows from level 1 to 4.",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -194,7 +208,8 @@
             "produce antibodies.",
             "produce synovial fluid."
           ],
-          "wordAnswer": "produce synovial fluid."
+          "wordAnswer": "produce synovial fluid.",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -208,7 +223,8 @@
             "Synovial fluid and cartilage.",
             "Tendon and cartilage."
           ],
-          "wordAnswer": "Synovial fluid and cartilage."
+          "wordAnswer": "Synovial fluid and cartilage.",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -222,7 +238,8 @@
             "Goat",
             "Mushroom"
           ],
-          "wordAnswer":  "Hawk"
+          "wordAnswer":  "Hawk",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -236,7 +253,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "2"
+          "wordAnswer": "2",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -250,7 +268,8 @@
             "5",
             "6"
           ],
-          "wordAnswer": "1"
+          "wordAnswer": "1",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -264,7 +283,8 @@
             "The tricuspid valve separates the left atrium and the left ventricle.",
             "A semi-lunar valve prevents backward flow of blood into the right atrium."
           ],
-          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle."
+          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle.",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -278,7 +298,8 @@
             "2 and 3",
             "3 and 4"
           ],
-          "wordAnswer": "2 and 4"
+          "wordAnswer": "2 and 4",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -292,13 +313,15 @@
             "3 and 4",
             "5 and 6"
           ],
-          "wordAnswer": "2 and 6"
+          "wordAnswer": "2 and 6",
+          "explanation": null
         }
       ]
     },
     {
       "title": "Section III",
       "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
           "questionNumber": "21",
@@ -316,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -334,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -352,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -370,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -388,13 +415,15 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         }
       ]
     },
     {
       "title": "Section IV",
       "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
       "questions": [
         {
           "questionNumber": "26",
@@ -411,7 +440,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -428,7 +458,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -445,7 +476,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -462,7 +494,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are false"
+          "wordAnswer": "Both statements are false",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -479,13 +512,15 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
     {
       "title": "Section V",
       "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
           "questionNumber": "31",
@@ -499,7 +534,8 @@
             "Pepsin",
             "Enterokinase"
           ],
-          "wordAnswer": "Bile"
+          "wordAnswer": "Bile",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -513,7 +549,8 @@
             "Wilting",
             "Turgidity"
           ],
-          "wordAnswer": "Turgidity"
+          "wordAnswer": "Turgidity",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -527,7 +564,8 @@
             "Gametes",
             "Zygotes"
           ],
-          "wordAnswer": "Gametes"
+          "wordAnswer": "Gametes",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -541,7 +579,8 @@
             "Predation",
             "Saprophytism"
           ],
-          "wordAnswer": "Mutualism"
+          "wordAnswer": "Mutualism",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -555,7 +594,8 @@
             "Biome",
             "Population"
           ],
-          "wordAnswer": "Population"
+          "wordAnswer": "Population",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -569,7 +609,8 @@
             "Plasma",
             "Restriction enzyme"
           ],
-          "wordAnswer": "Ligase"
+          "wordAnswer": "Ligase",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -583,7 +624,8 @@
             "Uterus",
             "Oviduct"
           ],
-          "wordAnswer": "Placenta"
+          "wordAnswer": "Placenta",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -597,7 +639,8 @@
             "Little of no wind.",
             "Low temperature."
           ],
-          "wordAnswer": "Low relative humidity."
+          "wordAnswer": "Low relative humidity.",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -611,7 +654,8 @@
             "Meiosis",
             "Fission"
           ],
-          "wordAnswer": "Meiosis"
+          "wordAnswer": "Meiosis",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -625,13 +669,15 @@
             "Water vapour",
             "Oxygen"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         }
       ]
     },
     {
       "title": "Section VI",
       "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "41",
@@ -645,7 +691,8 @@
             "Calcium",
             "Iodine"
           ],
-          "wordAnswer": "Iron"
+          "wordAnswer": "Iron",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -659,7 +706,8 @@
             "Relax the suspensory ligaments and ciliary muscles",
             "Relax the lens and retina"
           ],
-          "wordAnswer": "Relax the suspensory ligaments and ciliary muscles"
+          "wordAnswer": "Relax the suspensory ligaments and ciliary muscles",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -673,7 +721,8 @@
             "More auxin on lower side of root.",
             "Gravitational pull on the root."
           ],
-          "wordAnswer": "More auxin on lower side of root."
+          "wordAnswer": "More auxin on lower side of root.",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -687,7 +736,8 @@
             "Lack of starch",
             "No photosynthesis"
           ],
-          "wordAnswer": "No chlorophyll formation"
+          "wordAnswer": "No chlorophyll formation",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -701,7 +751,8 @@
             "It is due to secretion of adrenaline.",
             "It is due to contraction of biceps."
           ],
-          "wordAnswer": "It is due to contraction of biceps."
+          "wordAnswer": "It is due to contraction of biceps.",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -715,7 +766,8 @@
             "A reduction in transpiration rate.",
             "A swelling of the bark on the upper side where the ring was removed."
           ],
-          "wordAnswer": "A swelling of the bark on the upper side where the ring was removed."
+          "wordAnswer": "A swelling of the bark on the upper side where the ring was removed.",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -729,7 +781,8 @@
             "Ensure that no dust particles enter the xylem.",
             "Ensure that water does not leave the xylem."
           ],
-          "wordAnswer": "Ensure that no air bubbles enter the xylem."
+          "wordAnswer": "Ensure that no air bubbles enter the xylem.",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -743,7 +796,8 @@
             "AO, BO",
             "AO, AB"
           ],
-          "wordAnswer": "AO, BO"
+          "wordAnswer": "AO, BO",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -757,7 +811,8 @@
             "Lime water becoming clear.",
             "Pyrogallic acid becoming clear."
           ],
-          "wordAnswer": "Lime water becoming milky."
+          "wordAnswer": "Lime water becoming milky.",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -771,7 +826,8 @@
             "To detect the presence of bacteria.",
             "To trap impurities."
           ],
-          "wordAnswer": "To trap impurities."
+          "wordAnswer": "To trap impurities.",
+          "explanation": null
         }
       ]
     }

@@ -8,42 +8,34 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.gceolmcq.activities.OnIsSectionAnsweredListener
-import com.example.gceolmcq.activities.OnPaperScoreListener
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 //import com.example.gceolmcq.activities.OnPackageExpiredListener
 import com.example.gceolmcq.adapters.SectionNavigationRecyclerViewAdapter
 //import com.example.gceolmcq.datamodels.SectionAnsweredScoreData
 import com.example.gceolmcq.viewmodels.SectionNavigationFragmentViewModel
-
-private const val SECTION_NAMES = "Section names"
-private const val NUMBER_OF_QUESTIONS = "Number of questions"
-private const val MINIMUM_PASS_PERCENTAGE = 50
-
 class SectionNavigationFragment : Fragment(){
     private lateinit var onRecyclerItemClickListener: SectionNavigationRecyclerViewAdapter.OnRecyclerItemClickListener
+//    private lateinit var onRestartPaperListener: OnRestartPaperListener
 
-    private lateinit var onRequestNavigationDataListener: OnRequestNavigationDataListener
-
-    private lateinit var onPaperScoreListener: OnPaperScoreListener
-    private lateinit var onIsSectionAnsweredListener: OnIsSectionAnsweredListener
-
-    private lateinit var sectionNavigationFragmentViewModel: SectionNavigationFragmentViewModel
-//    private lateinit var onCheckPackageExpiredListener: OnCheckPackageExpiredListener
+    private lateinit var viewModel: SectionNavigationFragmentViewModel
 
     private lateinit var tvSectionsAnswered: TextView
     private lateinit var tvScore: TextView
     private lateinit var tvPaperGrade: TextView
     private lateinit var paperGradeLayout: LinearLayout
     private lateinit var rvSectionNav: RecyclerView
+    private lateinit var restartPaperBtn: Button
+
 
     private lateinit var sectionNavigationRecyclerViewAdapter: SectionNavigationRecyclerViewAdapter
 
@@ -60,7 +52,6 @@ class SectionNavigationFragment : Fragment(){
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_section_navigation, container, false)
     }
 
@@ -78,6 +69,7 @@ class SectionNavigationFragment : Fragment(){
         initViews(view)
         setupAdapters()
         setupViewObservers()
+        setupViewListeners()
 
     }
 
@@ -86,20 +78,8 @@ class SectionNavigationFragment : Fragment(){
             onRecyclerItemClickListener = context
         }
 
-        if (context is OnRequestNavigationDataListener) {
-            onRequestNavigationDataListener = context
-        }
-
-        if (context is OnPaperScoreListener){
-            onPaperScoreListener = context
-        }
-
-        if (context is OnIsSectionAnsweredListener){
-            onIsSectionAnsweredListener = context
-        }
-
-//        if (context is OnCheckPackageExpiredListener){
-//            onCheckPackageExpiredListener = context
+//        if (context is OnRestartPaperListener){
+//            onRestartPaperListener = context
 //        }
     }
 
@@ -109,22 +89,17 @@ class SectionNavigationFragment : Fragment(){
         rvSectionNav = view.findViewById(R.id.rvSectionNavigation)
         tvSectionsAnswered = view.findViewById(R.id.tvSectionsAnswered)
         tvScore = view.findViewById(R.id.tvScore)
+        restartPaperBtn = view.findViewById(R.id.restartPaperBtn)
+        restartPaperBtn.text = "${requireContext().resources.getString(R.string.restart)} ${requireActivity().title}"
     }
 
     private fun setupViewModel(){
-        sectionNavigationFragmentViewModel =
+        viewModel =
             ViewModelProvider(this)[SectionNavigationFragmentViewModel::class.java]
-
-        sectionNavigationFragmentViewModel.setSectionNames(onRequestNavigationDataListener.onRequestSectionNames())
-        sectionNavigationFragmentViewModel.setSectionNameBundleList(onRequestNavigationDataListener.onRequestSectionNameBundleList())
-        sectionNavigationFragmentViewModel.setTotalNumberOfQuestions(onRequestNavigationDataListener.onRequestTotalNumberOfQuestions())
-        sectionNavigationFragmentViewModel.updateSectionsAnswered(onIsSectionAnsweredListener.onGetSectionsAnswered())
-        sectionNavigationFragmentViewModel.updatePaperScore(onPaperScoreListener.onGetPaperScore())
     }
 
     private fun setupAdapters(){
-        val sectionNames = sectionNavigationFragmentViewModel.getSectionNames()
-        val sectionNameBundleList = sectionNavigationFragmentViewModel.getSectionNameBundleList()
+        val sectionNameBundleList = viewModel.getSectionNameBundleList()
         val rvLayoutMan = LinearLayoutManager(requireContext())
         rvLayoutMan.orientation = LinearLayoutManager.VERTICAL
         rvSectionNav.addItemDecoration(
@@ -138,51 +113,75 @@ class SectionNavigationFragment : Fragment(){
         sectionNavigationRecyclerViewAdapter =
             SectionNavigationRecyclerViewAdapter(
                 requireContext(),
-//                sectionNames!!,
                 sectionNameBundleList!!,
                 onRecyclerItemClickListener,
-                sectionNavigationFragmentViewModel.getSectionsAnswered()
+                viewModel.getSectionsAnswered()
             )
-
         rvSectionNav.adapter = sectionNavigationRecyclerViewAdapter
     }
 
+    @SuppressLint("SetTextI18n")
     private fun setupViewObservers(){
-        sectionNavigationFragmentViewModel.getNumberOfSectionsAnswered().observe(viewLifecycleOwner, Observer {
+        viewModel.getNumberOfSectionsAnswered().observe(viewLifecycleOwner) {
             tvSectionsAnswered.text =
-                "$it/${sectionNavigationFragmentViewModel.getNumberOfSections()}"
-        })
+                "$it of ${viewModel.getNumberOfSections()}"
+            restartPaperBtn.isEnabled = it > 0
+        }
 
-        sectionNavigationFragmentViewModel.getPaperScore().observe(viewLifecycleOwner, Observer {
-            tvScore.text = "$it/${sectionNavigationFragmentViewModel.getTotalNumberOfQuestions()}"
+        viewModel.getPaperScore().observe(viewLifecycleOwner){
+            tvScore.text = "$it/${viewModel.getTotalNumberOfQuestions()}"
 
-        })
+        }
 
-        sectionNavigationFragmentViewModel.getPaperGrade().observe(viewLifecycleOwner, Observer {
+        viewModel.getPaperGrade().observe(viewLifecycleOwner){
             tvPaperGrade.text = it
-        })
+        }
 
-        sectionNavigationFragmentViewModel.getAreAllSectionsAnswered().observe(viewLifecycleOwner, Observer {
+        viewModel.getAreAllSectionsAnswered().observe(viewLifecycleOwner){
             if(it){
                 paperGradeLayout.visibility = View.VISIBLE
                 tvPaperGrade.startAnimation(fadeInOut)
+            }else{
+                paperGradeLayout.visibility = View.GONE
             }
-        })
+        }
 
-        sectionNavigationFragmentViewModel.getPaperPercentage().observe(viewLifecycleOwner, Observer {
-            if(it >= MINIMUM_PASS_PERCENTAGE){
+        viewModel.getPaperPercentage().observe(viewLifecycleOwner){
+            if(it >= MCQConstants.MINIMUM_PASS_PERCENTAGE){
                 tvPaperGrade.setTextColor(requireContext().resources.getColor(R.color.color_green))
             }else{
                 tvPaperGrade.setTextColor(requireContext().resources.getColor(R.color.color_red))
             }
-        })
+        }
+    }
+
+    private fun setupViewListeners(){
+        restartPaperBtn.setOnClickListener {
+//            onRestartPaperListener.onRestartPaper()
+            displayRestartDialog()
+        }
+    }
+
+    private fun resetPaperRepository(){
+        viewModel.resetPaperRepo()
+    }
+
+    private fun displayRestartDialog(){
+        val dialog = AlertDialog.Builder(requireContext()).apply {
+            setMessage("${requireContext().resources.getString(R.string.restart)} ${requireActivity().title}?")
+            setPositiveButton(requireContext().resources.getString(R.string.restart)){_, _ ->
+                resetPaperRepository()
+                setupAdapters()
+            }
+            setNegativeButton(requireContext().resources.getString(R.string.cancel)){_, _ ->}
+        }.create()
+        dialog.show()
+
     }
 
     override fun onResume() {
         super.onResume()
-        sectionNavigationFragmentViewModel.updateSectionsAnswered(onIsSectionAnsweredListener.onGetSectionsAnswered())
-        sectionNavigationFragmentViewModel.updatePaperScore(onPaperScoreListener.onGetPaperScore())
-        sectionNavigationRecyclerViewAdapter.updateSectionScore(onRequestNavigationDataListener.onRequestSectionsScores())
+        sectionNavigationRecyclerViewAdapter.updateSectionScore(viewModel.getSectionsScores())
         sectionNavigationRecyclerViewAdapter.notifyDataSetChanged()
     }
 
@@ -194,15 +193,8 @@ class SectionNavigationFragment : Fragment(){
 
     }
 
-    interface OnRequestNavigationDataListener {
-        fun onRequestSectionNames(): Array<String>?
-        fun onRequestSectionNameBundleList(): Array<Bundle>?
-        fun onRequestTotalNumberOfQuestions(): Int
-        fun onRequestSectionsScores(): ArrayList<Int>
-    }
-
-//    interface OnPackageExpiredListener{
-//        fun onPackageExpired()
+//    interface OnRestartPaperListener{
+//        fun onRestartPaper()
 //    }
 
 }

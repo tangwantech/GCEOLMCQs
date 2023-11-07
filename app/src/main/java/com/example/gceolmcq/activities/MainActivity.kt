@@ -36,13 +36,17 @@ import java.nio.charset.Charset
 class MainActivity : SubscriptionActivity(),
     HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener,
     HomeFragment.OnPackageActivatedListener,
-    ActivateTrialPackageFragment.OnSubjectsPackagesAvailableListener {
+    ActivateTrialPackageFragment.OnSubjectsPackagesAvailableListener,
+    HomeRecyclerViewAdapter.OnActivateTrialButtonClickListener
+{
 
     private lateinit var viewModel: MainActivityViewModel
     private lateinit var header: LinearLayout
 
     private var currentFragmentIndex: Int? = null
     private lateinit var pref: SharedPreferences
+
+    private lateinit var activatingTrialPackageDialog: AlertDialog
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -98,12 +102,13 @@ class MainActivity : SubscriptionActivity(),
     }
 
     private fun displayView() {
-        if (!areSubjectsPackagesAvailable()) {
-            gotoActivateTrialPackageFragment()
-        } else {
-            gotoHomeFragment()
-
-        }
+//        if (!areSubjectsPackagesAvailable()) {
+//            gotoActivateTrialPackageFragment()
+//        } else {
+//            gotoHomeFragment()
+//
+//        }
+        gotoHomeFragment()
     }
 
 
@@ -222,19 +227,27 @@ class MainActivity : SubscriptionActivity(),
 
     }
 
-    override fun onSubjectItemClicked(position: Int, isPackageActive: Boolean) {
-        if (isPackageActive) {
-            gotoSubjectContentTableActivity(position)
+    override fun onSubjectItemClicked(position: Int, isPackageActive: Boolean?, packageName: String?) {
+        if(packageName == MCQConstants.NA){
+            Toast.makeText(this, "Please activate your Trial Package", Toast.LENGTH_LONG).show()
+        }else{
+            isPackageActive?.let{
+                if (it) {
+                    gotoSubjectContentTableActivity(position)
 
-        } else {
-            val alertDialog = AlertDialog.Builder(this)
-            alertDialog.apply {
-                setMessage(resources.getString(R.string.package_expired_message))
-                setPositiveButton("Ok") { _, _ ->
+                } else {
+                    val alertDialog = AlertDialog.Builder(this)
+                    alertDialog.apply {
+                        setMessage(resources.getString(R.string.package_expired_message))
+                        setPositiveButton("Ok") { _, _ ->
 
+                        }
+                    }.create().show()
                 }
-            }.create().show()
+            }
+
         }
+
     }
 
     override fun onSubscribeButtonClicked(position: Int, subjectPackageData: SubjectPackageData) {
@@ -246,7 +259,8 @@ class MainActivity : SubscriptionActivity(),
     }
 
     override fun onSubjectsPackagesAvailable(isAvailable: Boolean) {
-        println("is available $isAvailable")
+//        println("is available $isAvailable")
+        dismissActivatingTrialPackageDialog()
         saveSubjectsPackagesAvailabilityState(isAvailable)
         displayView()
 
@@ -264,5 +278,25 @@ class MainActivity : SubscriptionActivity(),
             setCancelable(false)
         }.create().show()
     }
+
+    override fun onActivateTrialButtonClicked(position: Int, subjectName: String) {
+        showActivatingTrialPackageDialog()
+        activateTrialPackage(position, subjectName)
+    }
+
+//    private fun showActivatingTrialPackageDialog(){
+//        activatingTrialPackageDialog = AlertDialog.Builder(this).create()
+//        activatingTrialPackageDialog.apply {
+//            setMessage("Activating trial package...")
+//            setCancelable(false)
+//        }
+//        activatingTrialPackageDialog.show()
+//    }
+//
+//    private fun dismissActivatingTrialPackageDialog(){
+//        activatingTrialPackageDialog.dismiss()
+//    }
+
+
 
 }

@@ -3,7 +3,6 @@ package com.example.gceolmcq
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewModelScope
 import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.datamodels.TransactionStatus
 import kotlinx.coroutines.*
@@ -14,104 +13,75 @@ import org.json.JSONObject
 import java.io.IOException
 
 class MomoPayService(private val context: Context) {
-
-private var subscriptionFormData: SubscriptionFormData? = null
-    private var isTransactionSuccessful = MutableLiveData<Boolean>()
-    private var transactionStatus = MutableLiveData<TransactionStatus>()
-
-    fun initiatePayment(subscriptionFormData: SubscriptionFormData) {
-        this.subscriptionFormData = subscriptionFormData
-//        setAccessToken()
-        testUpdateTransactionSuccessful()
-//        requestToPay()
+    companion object{
+        const val REFERENCE_ID = "reference"
+        const val TOKEN = "token"
+        const val STATUS = "status"
+        const val PENDING = "PENDING"
+        const val SUCCESSFUL = "SUCCESSFUL"
+        const val FAILED = "FAILED"
     }
-    private fun setAccessToken() {
-        val client = OkHttpClient().newBuilder().build();
-        val mediaType: MediaType? = MCQConstants.APPLICATION_JSON.toMediaTypeOrNull()
-        val requestBody: RequestBody = RequestBody.create(
-            mediaType,
-            "{\n    \"${MCQConstants.USER_NAME}\": \"${context.resources.getString(R.string.campay_app_user_name)}\",\n    \"${MCQConstants.PASS_WORD}\": \"${context.resources.getString(R.string.campay_app_pass_word)}\"\n}"
-        );
+    private val client = OkHttpClient().newBuilder().build()
+    private var subscriptionFormData: SubscriptionFormData? = null
+    private var isTransactionSuccessful = MutableLiveData<Boolean?>()
+    private var transactionStatus = MutableLiveData<TransactionStatus>()
+    private val _isPaymentSystemAvailable = MutableLiveData<Boolean?>(true)
+    val isPaymentSystemAvailable: LiveData<Boolean?> = _isPaymentSystemAvailable
+
+
+    fun initiatePayment(subscriptionFormData: SubscriptionFormData){
+
+        println("Initiating payment")
+
+        this.subscriptionFormData = subscriptionFormData
+//        generateAccessToken()
+        testUpdateTransactionSuccessful()
+
+    }
+    private fun generateAccessToken(){
+
+        val requestBody = FormBody.Builder()
+            .add(MCQConstants.USER_NAME, context.resources.getString(R.string.campay_app_user_name))
+            .add(MCQConstants.PASS_WORD, context.resources.getString(R.string.campay_app_pass_word))
+            .build()
+
         val request = Request.Builder()
             .url(context.resources.getString(R.string.campay_token_url))
-            .method(MCQConstants.POST, requestBody)
-            .addHeader(MCQConstants.CONTENT_TYPE, MCQConstants.APPLICATION_JSON)
-            .build()
-
-
-        client.newCall(request).enqueue(object : Callback {
-            override fun onFailure(call: Call, e: IOException) {
-                call.cancel()
-                isTransactionSuccessful.postValue(false)
-            }
-
-            override fun onResponse(call: Call, response: Response) {
-                val responseBody = response.body?.string()
-                val json = JSONObject(responseBody!!)
-                val accessToken = json["token"].toString()
-                requestToPay(
-                    accessToken,
-                    subscriptionFormData?.packagePrice,
-                    subscriptionFormData?.momoNumber
-                )
-            }
-
-        })
-    }
-
-    fun requestToPay(token: String, amountToPay: String?, momoNumber: String?) {
-        val client = OkHttpClient().newBuilder()
-            .build()
-        val mediaType = MCQConstants.APPLICATION_JSON.toMediaTypeOrNull()
-        val requestBody: RequestBody = RequestBody.create(
-            mediaType,
-            "{\"${MCQConstants.AMOUNT}\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"${MCQConstants.DESCRIPTION}\":\"${subscriptionFormData?.subject} ${subscriptionFormData?.packageType} ${MCQConstants.SUBSCRIPTION}\",\"${MCQConstants.EXTERNAL_REFERENCE}\": \"\"}"
-        )
-        val request: Request = Request.Builder()
-            .url(context.resources.getString(R.string.campay_requestToPay_url))
-            .method(MCQConstants.POST, requestBody)
-            .addHeader(MCQConstants.AUTHORIZATION, "${MCQConstants.TOKEN} $token")
-            .addHeader(MCQConstants.CONTENT_TYPE, MCQConstants.APPLICATION_JSON)
+            .post(requestBody)
             .build()
         client.newCall(request).enqueue(object : Callback {
-            val status = TransactionStatus(MCQConstants.PENDING)
             override fun onFailure(call: Call, e: IOException) {
-//                    call.cancel()
-                isTransactionSuccessful.postValue(false)
+                println("failed generating token due to ${e.message}")
+//                isTransactionSuccessful.postValue(false)
+                if(e.message.toString().contains("timed out")){
+                    _isPaymentSystemAvailable.postValue(false)
+                }else{
+//                    isTransactionSuccessful.postValue(false)
+                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+                }
                 call.cancel()
 
             }
-            override fun onResponse(call: Call, response: Response) {
 
-                try {
+            override fun onResponse(call: Call, response: Response) {
+                try{
                     val responseBody = response.body?.string()
+                    println(responseBody)
                     val json = JSONObject(responseBody!!)
-//                    ussDCode.postValue(json["ussd_code"].toString())
-                    val referenceId = json["reference"].toString()
+                    val transaction = TransactionStatus()
+                    transaction.token = json[TOKEN].toString()
+//                    println("Access token $transaction")
 
-                    transactionStatus.postValue(status)
-
-                    CoroutineScope(Dispatchers.IO).launch{
-                        checkTransactionStatus(token, referenceId, status)
-                        while (status.status == MCQConstants.PENDING){
-                            delay(3000)
-                            checkTransactionStatus(token, referenceId, status)
-                            println(status)
-                        }
-
-                        when(status.status){
-                            MCQConstants.SUCCESSFUL -> {
-                                isTransactionSuccessful.postValue(true)
-                            }
-                            MCQConstants.FAILED -> {
-                                isTransactionSuccessful.postValue(false)
-                            }
-                        }
-                    }
-                }catch (e: JSONException){
-                    println("Exception $e")
-                    isTransactionSuccessful.postValue(false)
-
+                    requestToPay(
+                        transaction,
+                        subscriptionFormData?.packagePrice,
+                        subscriptionFormData?.momoNumber
+                    )
+                }catch (e:JSONException){
+//                    isTransactionSuccessful.postValue(false)
+                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+                    call.cancel()
+//                    println("failed getting token from server due to ${e.message}")
                 }
 
             }
@@ -119,50 +89,138 @@ private var subscriptionFormData: SubscriptionFormData? = null
         })
     }
 
-    fun checkTransactionStatus(token: String, referenceId: String, status: TransactionStatus) {
-        val client = OkHttpClient().newBuilder()
+    fun requestToPay(transaction: TransactionStatus, amountToPay: String?, momoNumber: String?){
+//        val client = OkHttpClient().newBuilder()
+//            .build()
+//        val mediaType = MCQConstants.APPLICATION_JSON.toMediaTypeOrNull()
+//        val requestBody: RequestBody = RequestBody.create(
+//            mediaType,
+//            "{\"${MCQConstants.AMOUNT}\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"${MCQConstants.DESCRIPTION}\":\"${subscriptionFormData?.subject} ${subscriptionFormData?.packageType} ${MCQConstants.SUBSCRIPTION}\",\"${MCQConstants.EXTERNAL_REFERENCE}\": \"\"}"
+//        )
+        val requestBody = FormBody.Builder()
+            .add(MCQConstants.AMOUNT, "$amountToPay")
+            .add(MCQConstants.FROM, "${MCQConstants.COUNTRY_CODE}$momoNumber")
+            .add(MCQConstants.DESCRIPTION, "${subscriptionFormData?.subject} ${subscriptionFormData?.packageType} ${MCQConstants.SUBSCRIPTION}")
+            .add(MCQConstants.EXTERNAL_REFERENCE, "")
             .build()
-        val request: Request = Request.Builder()
-            .url("https://demo.campay.net/api/transaction/$referenceId/")
 
-            .addHeader(MCQConstants.AUTHORIZATION, "${MCQConstants.TOKEN} $token")
-            .addHeader(MCQConstants.CONTENT_TYPE, MCQConstants.APPLICATION_JSON)
+        val request = Request.Builder()
+            .url(context.resources.getString(R.string.campay_requestToPay_url))
+            .post(requestBody)
+            .addHeader(MCQConstants.AUTHORIZATION, "${MCQConstants.TOKEN} ${transaction.token}")
             .build()
+
         client.newCall(request).enqueue(object : Callback {
+
             override fun onFailure(call: Call, e: IOException) {
-                isTransactionSuccessful.postValue(false)
+                println("failed initiating request to pay ...... $transaction due to ${e.message}")
+                if(e.message.toString().contains("timed out")){
+                    _isPaymentSystemAvailable.postValue(false)
+                }else{
+//                    isTransactionSuccessful.postValue(false)
+                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+                }
+
             }
-
             override fun onResponse(call: Call, response: Response) {
+                try {
+                    val responseBody = response.body?.string()
+                    val json = JSONObject(responseBody!!)
+                    transaction.refId = json[REFERENCE_ID].toString()
 
-                val responseBody = response.body?.string()
-                val jsonResponse = JSONObject(responseBody!!)
-                status.status = jsonResponse["status"].toString()
+                    runBlocking {
+                        transaction.status = MCQConstants.PENDING
+                        while (transaction.status!! == MCQConstants.PENDING){
+                            checkTransactionStatus(transaction)
+                            delay(3000)
+
+                        }
+                    }
+
+                }catch (e: JSONException){
+//                    println("Failed retrieving transaction reference id due to ${e.message}")
+//                    isTransactionSuccessful.postValue(false)
+                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+                }
+
             }
 
         })
+    }
 
+    fun checkTransactionStatus(transaction: TransactionStatus){
+
+        val request: Request = Request.Builder()
+            .url("${MCQConstants.TRANSACTION_STATUS_URL}${transaction.refId}/")
+            .addHeader(MCQConstants.AUTHORIZATION, "${MCQConstants.TOKEN} ${transaction.token}")
+            .addHeader(MCQConstants.CONTENT_TYPE, MCQConstants.APPLICATION_JSON)
+            .build()
+
+        client.newCall(request).enqueue(object : Callback {
+            override fun onFailure(call: Call, e: IOException) {
+//                isTransactionSuccessful.postValue(false)
+                transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                println("failed checking transaction status ...... $transaction due to ${e.message}")
+
+            }
+
+            override fun onResponse(call: Call, response: Response) {
+                try{
+                    val responseBody = response.body?.string()
+//                    println(responseBody)
+                    val jsonResponse = JSONObject(responseBody!!)
+                    transaction.status = jsonResponse[STATUS].toString()
+                    transactionStatus.postValue(TransactionStatus(status = transaction.status))
+//                    if(transaction.status == SUCCESSFUL){
+//                        isTransactionSuccessful.postValue(true)
+////
+//                    }
+//                    if (transaction.status == FAILED){
+//                        isTransactionSuccessful.postValue(false)
+////                        transactionStatus.postValue(TransactionStatus(status = transaction.status))
+//                    }
+                    println(transaction.status)
+                }catch (e: JSONException){
+//                    isTransactionSuccessful.postValue(false)
+                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+                    println("failed checking transaction status ...... $transaction due to ${e.message}")
+                }
+
+
+            }
+
+        })
     }
 
     private fun testUpdateTransactionSuccessful() {
         isTransactionSuccessful.value = true
+        transactionStatus.value = TransactionStatus(status = SUCCESSFUL)
     }
 
     fun getTransactionStatus(): LiveData<TransactionStatus> {
         return transactionStatus
     }
 
-    fun getIsTransactionSuccessful(): LiveData<Boolean>{
+    fun getIsTransactionSuccessful(): LiveData<Boolean?>{
         return isTransactionSuccessful
     }
 
 
     fun reset() {
-        isTransactionSuccessful = MutableLiveData()
-        transactionStatus = MutableLiveData()
+        isTransactionSuccessful.postValue(null)
+        transactionStatus.postValue(TransactionStatus())
         subscriptionFormData = null
     }
 
 
+
+
+
+    interface PaymentStatus{
+        fun onPaymentSuccessful()
+        fun onPaymentPending()
+        fun onPaymentFailed()
+
+    }
 
 }

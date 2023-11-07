@@ -9,46 +9,25 @@
     <color name="white">#FFFFFFFF</color>
 
 
-<!--    <color name="color_primary">#009688</color>-->
-<!--    <color name="color_primary_dark">#00796B</color>-->
-<!--    <color name="light_primary_color">#B2DFDB</color>-->
-<!--    <color name="color_on_primary">#FFFFFF</color>-->
-<!--    -->
-<!--    <color name="color_secondary">#F3C885</color>-->
-<!--    <color name="color_secondary_dark">#9C8157</color>-->
-<!--    <color name="color_on_secondary">#757575</color>-->
-<!--    -->
-<!--    <color name="primary_text_color">#212121</color>-->
-<!--    <color name="divider_color">#BDBDBD</color>-->
-<!--    <color name="red_color">#C62828</color>-->
-<!--    <color name="blue_color">#1565C0</color>-->
-<!--    <color name="card_background">#F9FBFB</color>-->
+    <color name="color_primary">#7E57C2</color>
+    <color name="color_primary_dark">#5E4885</color>
+    <color name="color_primary_light">#B2DFDB</color>
+    <color name="color_on_primary">#FFFFFFFF</color>
+    <color name="background">#FFFFFF</color>
 
-    <color name="color_primary">#2C335A</color>
-    <color name="color_primary_dark">#1F2440</color>
-    <color name="light_primary_color">#B2DFDB</color>
-    <color name="color_on_primary">#FFFFFF</color>
+<!--    <color name="color_secondary">#FFF3C885</color>-->
+    <color name="color_secondary_light">#FAE4CC</color>
+    <color name="color_secondary">#F6D0A7</color>
+    <color name="color_secondary_dark">#FFAC8E5F</color>
+    <color name="color_on_secondary">#FF000000</color>
 
-    <color name="color_secondary">#F3C885</color>
-    <color name="color_secondary_dark">#AC8E5F</color>
-    <color name="color_on_secondary">#CDCCCC</color>
+    <color name="primary_text_color">#FF171717</color>
+    <color name="divider_color">#FFBDBDBD</color>
+    <color name="color_red">#BE4545</color>
+    <color name="color_green">#0E60A5</color>
+    <color name="card_background">#FFF9FBFB</color>
 
-    <color name="primary_text_color">#212121</color>
-    <color name="divider_color">#BDBDBD</color>
-    <color name="color_red">#C62828</color>
-    <color name="color_green">#026908</color>
-    <color name="card_background">#F9FBFB</color>
+    <color name="dark_background">#292929</color>
 
-<!--    <color name="primary_color">#F56B658D</color>-->
-<!--    <color name="dark_primary_color">#F51F1E29</color>-->
-<!--    <color name="light_primary_color">#F578719E</color>-->
-<!--    <color name="color_on_primary">#FFFFFF</color>-->
 
-<!--    <color name="secondary_color">#F57F6AF1</color>-->
-<!--    <color name="dark_secondary_color">#F5594AA6</color>-->
-<!--    <color name="primary_text_color">#212121</color>-->
-<!--    <color name="secondary_text_color">#757575</color>-->
-<!--    <color name="divider_color">#BDBDBD</color>-->
-<!--    <color name="red_color">#C62828</color>-->
-<!--    <color name="blue_color">#1565C0</color>-->
 </resources>

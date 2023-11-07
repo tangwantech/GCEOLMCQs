@@ -54,7 +54,8 @@
             android:name=".activities.PaperActivity"
             android:exported="false"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|fontScale">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

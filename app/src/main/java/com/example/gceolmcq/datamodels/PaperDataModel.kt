@@ -11,6 +11,7 @@ data class PaperDataModel(
 data class SectionDataModel(
     val title: String,
     val numberOfQuestions: Int,
+    val directions: String,
     val questions: ArrayList<QuestionDataModel>
 ) : java.io.Serializable
 
@@ -21,7 +22,8 @@ data class QuestionDataModel(
     val twoStatements: ArrayList<String>?,
     val nonSelectableOptions: ArrayList<String>?,
     val selectableOptions: ArrayList<String>,
-    val wordAnswer: String
+    val wordAnswer: String,
+    val explanation: String?
 ) : java.io.Serializable
 
 data class UserSectionQuestionAnswers(
@@ -48,8 +50,10 @@ data class QuestionWithUserAnswerMarkedData(
     var image: String? = null,
     var twoStatements: ArrayList<String>? = null,
     var nonSelectableOptions: ArrayList<String>? = null,
+    var fourOptions: String? = null,
     var userSelection: UserSelection? = null,
-    var correctAnswer: String? = null
+    var correctAnswer: String? = null,
+    var explanation: String? = null
 ) : java.io.Serializable
 
 data class UserMarkedAnswersSheetData(val questionsWithUserAnswerMarkedData: List<QuestionWithUserAnswerMarkedData>) :

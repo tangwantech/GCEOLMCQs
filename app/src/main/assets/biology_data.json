@@ -2,6 +2,40 @@
   "title": "Biology",
   "contents":[
     {
+      "title": "Topics",
+      "examItems": [
+        {
+          "title": "Transport in Plants",
+          "fileName": "transport-in-plants.json"
+        },
+        {
+          "title": "Transport in Mammals",
+          "fileName": "transport-in-mammals.json"
+        },
+        {
+          "title": "Nutrition in Green plants",
+          "fileName": "nutrition-in-plants.json"
+        },
+        {
+          "title": "Nutrition in Mammals",
+          "fileName": "nutrition-in-mammals.json"
+        },
+        {
+          "title": "Breathing, Gaseous exchange and Respiration",
+          "fileName": "breathing-gaseous exchange-respiration.json"
+        },
+        {
+          "title": "Excretion, Osmoregulation and Homeostasis",
+          "fileName": "excretion-osmoregulation-homeostasis.json"
+        },
+        {
+          "title": "Reproduction in Plants and Animals",
+          "fileName": "Reproduction-in-plants-and-animals.json"
+        }
+
+      ]
+    },
+    {
       "title": "Mocks",
       "examItems": [
         {
@@ -32,11 +66,11 @@
       "examItems": [
         {
           "title": "Past GCE 1",
-          "fileName": "biology_gce_2020.json"
+          "fileName": "biology-gce-2015.json"
         },
         {
           "title": "Past GCE 2",
-          "fileName": "biology_gce_2021.json"
+          "fileName": "biology_gce_2020.json"
         },
         {
           "title": "Past GCE 3",
@@ -53,8 +87,19 @@
         {
           "title": "Past GCE 6",
           "fileName": "biology_gce_2017.json"
+        },
+        {
+          "title": "Past GCE 7",
+          "fileName": "biology_gce_2021.json"
+        },
+        {
+          "title": "Past GCE 8",
+          "fileName": "biology_gce_2023.json"
+        },
+        {
+          "title": "Past GCE 9",
+          "fileName": "biology_gce_2016.json"
         }
-
       ]
     }
   ]

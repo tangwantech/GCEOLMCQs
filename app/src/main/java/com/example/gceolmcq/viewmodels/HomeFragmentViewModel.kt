@@ -7,6 +7,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.gceolmcq.ActivationExpiryDatesGenerator
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.datamodels.SubjectAndFileNameData
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusData
@@ -40,10 +41,14 @@ class HomeFragmentViewModel: ViewModel() {
             val tempSubjectPackageDataList2 = ArrayList<SubjectPackageData>()
             if (tempSubjectPackageDataList1.isNotEmpty()){
                 tempSubjectPackageDataList1.forEachIndexed { index, subjectPackageData ->
-                    val isActive = ActivationExpiryDatesGenerator().checkExpiry(subjectPackageData.activatedOn!!, subjectPackageData.expiresOn!!)
                     tempSubjectPackageDataList2.add(subjectPackageData)
-                    tempSubjectPackageDataList2[index].isPackageActive = isActive
-                    println("Is package Active: ${subjectPackageData.isPackageActive}")
+                    if(subjectPackageData.packageName != MCQConstants.NA){
+                        val isActive = ActivationExpiryDatesGenerator().checkExpiry(subjectPackageData.activatedOn!!, subjectPackageData.expiresOn!!)
+
+                        tempSubjectPackageDataList2[index].isPackageActive = isActive
+                        println("Is package Active: ${subjectPackageData.isPackageActive}")
+                    }
+
                 }
             }
             _subjectPackageDataList.postValue(tempSubjectPackageDataList2)
@@ -53,6 +58,7 @@ class HomeFragmentViewModel: ViewModel() {
     fun checkPackageExpiry(position: Int){
 
         viewModelScope.launch(Dispatchers.IO) {
+//            println(_subjectPackageDataList.value)
 
             var notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
             while (notExpired){

@@ -23,6 +23,7 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
     private lateinit var onPackageActivatedListener: OnPackageActivatedListener
     private lateinit var homeRecyclerViewAdapter: HomeRecyclerViewAdapter
     private lateinit var onHomeRecyclerItemClickListener: HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener
+    private lateinit var onActivateTrialButtonClickListener: HomeRecyclerViewAdapter.OnActivateTrialButtonClickListener
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -32,6 +33,10 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
 
         if (context is HomeRecyclerViewAdapter.OnHomeRecyclerItemClickListener){
             onHomeRecyclerItemClickListener = context
+        }
+
+        if (context is HomeRecyclerViewAdapter.OnActivateTrialButtonClickListener){
+            onActivateTrialButtonClickListener = context
         }
     }
 
@@ -66,7 +71,9 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
             requireContext(),
             homeFragmentViewModel.subjectPackageDataList.value!!,
             onHomeRecyclerItemClickListener,
-            this)
+            this,
+            onActivateTrialButtonClickListener
+        )
 
     }
 

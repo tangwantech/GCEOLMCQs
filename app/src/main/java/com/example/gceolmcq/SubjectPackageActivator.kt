@@ -4,10 +4,11 @@ import com.example.gceolmcq.datamodels.SubjectPackageData
 
 class SubjectPackageActivator {
     companion object{
+
         fun activateTrialPackageForAllSubjectsAvailable(availableSubjects: List<String>?): List<SubjectPackageData>{
             val activationExpiryDates =
                 ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
-                    MCQConstants.MINUTES,
+                    MCQConstants.HOURS,
                     MCQConstants.TRIAL_DURATION
                 )
 

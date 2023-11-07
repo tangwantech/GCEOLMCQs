@@ -4,9 +4,9 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:minHeight="@dimen/button_minimum_height"
-    android:paddingRight="@dimen/margin_14"
-    android:paddingLeft="@dimen/margin_14">
+    android:minHeight="24dp"
+    android:paddingRight="@dimen/margin_16"
+    android:paddingLeft="@dimen/margin_16">
 
     <TextView
         android:id="@+id/tvUserAnswer"

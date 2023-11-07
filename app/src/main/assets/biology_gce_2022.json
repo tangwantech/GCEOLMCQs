@@ -7,6 +7,7 @@
     {
       "title": "Section I",
       "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "1",
@@ -32,7 +33,7 @@
             "They have wings that enable them reach out to distant environments.",
             "They have an endoskeleton that protects their inner structure.",
             "They have only simple eyes which are well adapted for vision.",
-            "The reproduce sexually."
+            "They reproduce sexually."
           ],
           "wordAnswer": "They have wings that enable them reach out to distant environments."
         },
@@ -111,6 +112,7 @@
     {
       "title": "Section II",
       "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "8",
@@ -299,6 +301,7 @@
     {
       "title": "Section III",
       "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
           "questionNumber": "21",
@@ -395,6 +398,7 @@
     {
       "title": "Section IV",
       "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
       "questions": [
         {
           "questionNumber": "26",
@@ -486,6 +490,7 @@
     {
       "title": "Section V",
       "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
           "questionNumber": "31",
@@ -632,6 +637,7 @@
     {
       "title": "Section VI",
       "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "41",

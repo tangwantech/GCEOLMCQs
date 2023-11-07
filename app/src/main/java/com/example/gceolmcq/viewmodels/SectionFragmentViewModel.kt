@@ -5,10 +5,11 @@ import android.text.format.Time
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.datamodels.*
-private const val MILLISEC_PER_QUESTION = 50000L
-private const val COUNT_DOWN_INTERVAL = 1000L
-private const val TIME_TO_ANIMATE_TIMER = 20000L
+import com.example.gceolmcq.repository.PaperRepository
+
+
 
 class SectionFragmentViewModel : ViewModel() {
     private var sectionDataModel: SectionDataModel? = null
@@ -18,12 +19,13 @@ class SectionFragmentViewModel : ViewModel() {
         IndexPreviousAndCurrentSelectedOptionOfQuestion()
     private val numberOfQuestionsAnswered: MutableLiveData<Int> = MutableLiveData()
     private val isQuestionAnswered = MutableLiveData<Boolean>()
-    private val sectionQuestionScores: ArrayList<QuestionScore> = ArrayList()
+    private val sectionQuestionsScores: ArrayList<QuestionScore> = ArrayList()
     private var sectionScore: Int = 0
     private var sectionDuration: Long = 0L
     private lateinit var timer: CountDownTimer
     private val questionIndex = MutableLiveData<Int>()
     private val userMarkedAnswerSheet: ArrayList<QuestionWithUserAnswerMarkedData> = ArrayList()
+
     private var sectionIndex: Int? = null
 
     private val isTimeOut = MutableLiveData<Boolean>()
@@ -44,38 +46,39 @@ class SectionFragmentViewModel : ViewModel() {
         isTimeOut.value = false
         isTimeAlmostOut.value = false
 
+
+    }
+
+    fun setSectionIndex(index:Int){
+        sectionIndex = index
+        initSectionData(index)
+        setSectionDuration()
+        shuffleSectionQuestions()
+        initUserMarkedAnswerSheet()
+        updateUserMarkedAnswerSheet()
+    }
+
+    private fun initSectionData(sectionIndex: Int){
+        sectionDataModel = PaperRepository.getSectionDataAt(sectionIndex)
     }
 
     fun getLetters():Array<String>{
         return letters
     }
 
-    fun setSectionIndex(index:Int){
-        sectionIndex = index
-    }
-
-    fun setSectionData(sectionDataModel: SectionDataModel) {
-        this.sectionDataModel = sectionDataModel
-        sectionDataModel.questions.shuffle()
-
-        this.sectionDataModel!!.questions.forEachIndexed { index, _ ->
-            initUserSelections()
-//            initIsQuestionAnswered(index)
-            initSectionQuestionScores()
-            setSectionDuration()
-            initUserMarkedAnswerSheet(index)
+    private fun shuffleSectionQuestions(){
+        for (i in 0..2){
+            sectionDataModel?.questions?.shuffle()
         }
-        updateUserMarkedAnswerSheet()
-//        setQuestionCorrectAnswer()
 
     }
 
     private fun setSectionDuration() {
-        sectionDuration = sectionDataModel!!.numberOfQuestions * MILLISEC_PER_QUESTION
+        sectionDuration = sectionDataModel!!.numberOfQuestions * MCQConstants.MILLI_SEC_PER_QUESTION
     }
 
     fun startTimer() {
-        timer = object : CountDownTimer(sectionDuration, COUNT_DOWN_INTERVAL) {
+        timer = object : CountDownTimer(sectionDuration, MCQConstants.COUNT_DOWN_INTERVAL) {
             override fun onTick(p0: Long) {
                 val t = Time()
                 updateIsTimeAlmostOut(p0)
@@ -95,7 +98,7 @@ class SectionFragmentViewModel : ViewModel() {
     }
 
     fun updateIsTimeAlmostOut(timeLeft: Long){
-        if(timeLeft < TIME_TO_ANIMATE_TIMER){
+        if(timeLeft < MCQConstants.TIME_TO_ANIMATE_TIMER){
             isTimeAlmostOut.value = true
         }
     }
@@ -144,26 +147,30 @@ class SectionFragmentViewModel : ViewModel() {
         return isQuestionAnswered
     }
 
-    private fun initUserMarkedAnswerSheet(questionIndex: Int) {
-        userMarkedAnswerSheet.add(QuestionWithUserAnswerMarkedData((questionIndex + 1).toString()))
+    private fun initUserMarkedAnswerSheet() {
+        this.sectionDataModel!!.questions.forEachIndexed { questionIndex, _ ->
+            initUserSelections()
+            initSectionQuestionsScores()
+            userMarkedAnswerSheet.add(QuestionWithUserAnswerMarkedData((questionIndex + 1).toString()))
+        }
+
     }
 
     private fun initUserSelections() {
         userSelections.add(UserSelection())
     }
 
-    private fun initSectionQuestionScores() {
-        sectionQuestionScores.add(QuestionScore())
+    private fun initSectionQuestionsScores() {
+        sectionQuestionsScores.add(QuestionScore())
     }
 
     fun getQuestion(): QuestionDataModel {
         when(sectionDataModel!!.title){
-            "Section I", "Section II", "Section V", "Section VI" ->{
+            MCQConstants.SECTION_I, MCQConstants.SECTION_II, MCQConstants.SECTION_V, MCQConstants.SECTION_VI ->{
                 sectionDataModel!!.questions[questionIndex.value!!].selectableOptions.shuffle()
 
             }
         }
-//        setQuestionCorrectAnswer()
         return sectionDataModel!!.questions[questionIndex.value!!]
     }
 
@@ -175,6 +182,8 @@ class SectionFragmentViewModel : ViewModel() {
             userMarkedAnswerSheet[index].twoStatements = questionDataModel.twoStatements
             userMarkedAnswerSheet[index].nonSelectableOptions =
                 questionDataModel.nonSelectableOptions
+            userMarkedAnswerSheet[index].explanation = questionDataModel.explanation
+
         }
     }
     private fun setQuestionsCorrectAnswers(){
@@ -184,21 +193,6 @@ class SectionFragmentViewModel : ViewModel() {
                     userMarkedAnswerSheet[index].correctAnswer =
                         "${letters[optionIndex]}. ${questionDataModel.wordAnswer}"
                 }
-            }
-        }
-//        sectionDataModel!!.questions[questionIndex.value!!].selectableOptions.forEachIndexed { index, s ->
-//            if (s == sectionDataModel!!.questions[questionIndex.value!!].wordAnswer) {
-//                userMarkedAnswerSheet[questionIndex.value!!].correctAnswer =
-//                    "${letters[index]}. ${sectionDataModel!!.questions[questionIndex.value!!].wordAnswer}"
-//            }
-//        }
-    }
-
-    private fun setQuestionCorrectAnswer() {
-        sectionDataModel!!.questions[questionIndex.value!!].selectableOptions.forEachIndexed { index, s ->
-            if (s == sectionDataModel!!.questions[questionIndex.value!!].wordAnswer) {
-                userMarkedAnswerSheet[questionIndex.value!!].correctAnswer =
-                    "${letters[index]}. ${sectionDataModel!!.questions[questionIndex.value!!].wordAnswer}"
             }
         }
 
@@ -214,6 +208,9 @@ class SectionFragmentViewModel : ViewModel() {
             sectionDataModel!!.questions[questionIndex.value!!].selectableOptions[optionSelectedIndex]
         )
         userSelections[questionIndex.value!!] = userSelection
+
+        appendLetterToFourOptions()
+
         userMarkedAnswerSheet[questionIndex.value!!].userSelection = userSelection
 
         updateIndexQuestionOptionSelected(optionSelectedIndex)
@@ -224,13 +221,22 @@ class SectionFragmentViewModel : ViewModel() {
         evaluateUserSelections(questionIndex.value!!)
     }
 
+    private fun appendLetterToFourOptions(){
+        var optionsWithLetterPrepended = ""
+        sectionDataModel!!.questions[questionIndex.value!!].selectableOptions.forEachIndexed { index, s ->
+            optionsWithLetterPrepended += "${letters[index]}. $s\n"
+        }
+        userMarkedAnswerSheet[questionIndex.value!!].fourOptions = optionsWithLetterPrepended
+//        userMarkedAnswerSheet[questionIndex.value!!].fourOptions = sectionDataModel!!.questions[questionIndex.value!!].selectableOptions.joinToString("\n")
+    }
+
     private fun evaluateUserSelections(questionIndex: Int) {
         if (userSelections[questionIndex].optionSelected == sectionDataModel!!.questions[questionIndex].wordAnswer) {
-            sectionQuestionScores[questionIndex].score = 1
+            sectionQuestionsScores[questionIndex].score = 1
             userMarkedAnswerSheet[questionIndex].userSelection!!.remark = true
 
         } else {
-            sectionQuestionScores[questionIndex].score = 0
+            sectionQuestionsScores[questionIndex].score = 0
             userMarkedAnswerSheet[questionIndex].userSelection!!.remark = false
         }
 
@@ -241,11 +247,7 @@ class SectionFragmentViewModel : ViewModel() {
 
 
     private fun sumSectionQuestionScores() {
-        sectionScore = sectionQuestionScores.count { it.score == 1 }
-    }
-
-    fun getSectionScore(): Int {
-        return sectionScore
+        sectionScore = sectionQuestionsScores.count { it.score == 1 }
     }
 
     private fun updateIndexQuestionOptionSelected(indexOptionSelected: Int) {
@@ -276,19 +278,20 @@ class SectionFragmentViewModel : ViewModel() {
     }
 
     fun getSectionResultData():SectionResultData{
-//        setQuestionCorrectAnswer()
         setQuestionsCorrectAnswers()
         val percentage = ((sectionScore.toDouble() / sectionDataModel!!.numberOfQuestions.toDouble()) * 100).toInt()
         val scoreData = ScoreData(sectionScore, sectionDataModel!!.numberOfQuestions, percentage)
         val userMarkedAnswersSheetData = UserMarkedAnswersSheetData(userMarkedAnswerSheet)
-        println("section result: ${
-            SectionResultData(
-                sectionIndex!!,
-                scoreData,
-                userMarkedAnswersSheetData
-            )
-        }")
         return SectionResultData(sectionIndex!!, scoreData, userMarkedAnswersSheetData)
+    }
+
+    fun getSectionDirections(): String {
+
+        return sectionDataModel?.directions!!
+    }
+
+    fun getSectionIndex(): String {
+        return sectionIndex.toString()
     }
 
 

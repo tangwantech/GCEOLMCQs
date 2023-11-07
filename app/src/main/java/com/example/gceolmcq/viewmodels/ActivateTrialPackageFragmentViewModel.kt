@@ -4,15 +4,11 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.gceolmcq.repository.LocalRepository
-import com.example.gceolmcq.repository.RemoteRepository
-import com.example.gceolmcq.repository.RepositoriesLink
-import com.example.gceolmcq.roomDB.GceOLMcqDatabase
-import com.parse.ParseObject
+import com.example.gceolmcq.repository.RepositoriesLinker
 
 class ActivateTrialPackageFragmentViewModel: ViewModel() {
 
-    private lateinit var repositoriesLink: RepositoriesLink
+    private lateinit var repositoriesLinker: RepositoriesLinker
 
     private val _remoteRepoErrorMessage = MutableLiveData<String>()
     val remoteRepoErrorMessage: LiveData<String> = _remoteRepoErrorMessage
@@ -21,13 +17,13 @@ class ActivateTrialPackageFragmentViewModel: ViewModel() {
     val subjectsAvailable: LiveData<List<String>> = _liveSubjectsAvailable
 
     fun setRepositoryLink(context: Context, mobileId: String){
-        repositoriesLink = RepositoriesLink().apply {
+        repositoriesLinker = RepositoriesLinker().apply {
             setLocalRepo(context, mobileId)
         }
     }
 
     fun getAreSubjectsPackagesAvailable(): LiveData<Boolean?>{
-        return repositoriesLink.getAreSubjectsPackagesAvailable()
+        return repositoriesLinker.getAreSubjectsPackagesAvailable()
     }
 
     fun setSubjectNames(subjectNames: List<String>) {
@@ -35,7 +31,8 @@ class ActivateTrialPackageFragmentViewModel: ViewModel() {
     }
 
     fun readSubjectsPackagesByMobileIdFromRemoteRepo() {
-        repositoriesLink.getRemoteRepository().readSubjectsPackagesByMobileIdFromRemoteRepo(_liveSubjectsAvailable.value)
+        repositoriesLinker.getRemoteRepository().readUserSubjectsPackagesFromRemoteRepoAtMobileId(_liveSubjectsAvailable.value)
+
     }
 
 }

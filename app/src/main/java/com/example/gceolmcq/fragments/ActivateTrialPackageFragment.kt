@@ -8,16 +8,19 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.viewmodels.ActivateTrialPackageFragmentViewModel
+import kotlinx.coroutines.*
 
 class ActivateTrialPackageFragment : Fragment() {
 
     private lateinit var viewModel: ActivateTrialPackageFragmentViewModel
     private var subjects: ArrayList<String>? = null
     private lateinit var onSubjectsPackagesAvailableListener: OnSubjectsPackagesAvailableListener
+    private lateinit var onActivateTrialButtonClickListener: OnActivateTrialButtonClickListener
 
     private lateinit var subjectsAvailableTv: TextView
     private lateinit var packageDurationTV: TextView
@@ -31,6 +34,10 @@ class ActivateTrialPackageFragment : Fragment() {
         super.onAttach(context)
         if(context is OnSubjectsPackagesAvailableListener){
             onSubjectsPackagesAvailableListener = context
+        }
+
+        if(context is OnActivateTrialButtonClickListener){
+            onActivateTrialButtonClickListener = context
         }
     }
 
@@ -85,8 +92,11 @@ class ActivateTrialPackageFragment : Fragment() {
 
     private fun setupViewsListeners(){
         activateBtn.setOnClickListener {
-            println("Activate button clicked")
+//            println("Activate button clicked")
+            onActivateTrialButtonClickListener.onActivateTrialButtonClicked()
             viewModel.readSubjectsPackagesByMobileIdFromRemoteRepo()
+
+
         }
     }
 
@@ -107,6 +117,7 @@ class ActivateTrialPackageFragment : Fragment() {
         }
     }
 
+
     companion object {
         @JvmStatic
         fun newInstance(subjects: ArrayList<String>, mobileId: String) =
@@ -120,5 +131,9 @@ class ActivateTrialPackageFragment : Fragment() {
 
     interface OnSubjectsPackagesAvailableListener{
         fun onSubjectsPackagesAvailable(isAvailable: Boolean)
+    }
+
+    interface OnActivateTrialButtonClickListener{
+        fun onActivateTrialButtonClicked()
     }
 }

@@ -17,6 +17,15 @@ class ResourceImages {
             images["graph_rate_lactic_acid_removal_june_2015.jpg"] = R.drawable.graph_rate_lactic_acid_removal_june_2015
             images["experiment_test_for_starch_june_2015.jpg"] = R.drawable.experiment_test_for_starch_june_2015
 
+//            june 2017
+            images["lifecycle_housefly_june_2016.jpg"] = R.drawable.lifecycle_housefly_june_2016
+            images["foodweb_june_2016.jpg"] = R.drawable.foodweb_june_2016
+            images["neuron_june_2016.jpg"] = R.drawable.neuron_june_2016
+            images["graph_enzyme_activity_june_2016.jpg"] = R.drawable.graph_enzyme_activity_june_2016
+
+
+
+
 //            images june 2017
             images["life_cycle_insect_june_2017.jpg"] = R.drawable.life_cycle_insect_june_2017
             images["pyramid_of_numbers_june_2017.jpg"] = R.drawable.pyramid_of_numbers_june_2017
@@ -73,6 +82,14 @@ class ResourceImages {
             images["seedling_june_2022.jpg"] = R.drawable.seedling_june_2022
             images["experiment_photosynthesis_june_2022.jpg"] = R.drawable.experiment_photosynthesis_june_2022
             images["human_blood_sample_result_june_2022.jpg"] = R.drawable.human_blood_sample_result_june_2022
+
+//            june 2023
+            images["animal_cell_june_2023.jpg"] = R.drawable.animal_cell_june_2023
+            images["fish_june_2023.jpg"] = R.drawable.fish_june_2023
+            images["villus_june_2023.jpg"] = R.drawable.villus_june_2023
+            images["endocrine_glands_june_2023.jpg"] = R.drawable.endocrine_glands_june_2023
+            images["fore_arm_june_2023.jpg"] = R.drawable.fore_arm_june_2023
+            images["graph_hormone_level_girl_june_2023.jpg"] = R.drawable.graph_hormone_level_girl_june_2023
 
 //            Mock images
 
@@ -134,6 +151,15 @@ class ResourceImages {
             images["potometer_west_mock_2023.jpg"] = R.drawable.potometer_west_mock_2023
             images["joint_west_mock_2023.jpg"] = R.drawable.joint_west_mock_2023
 
+
+//            Topics
+//            Transport in plants
+            images["graphs_transpiration_rate_transport_plants.jpg"] = R.drawable.graphs_transpiration_rate_transport_plants
+            images["setup_transpiration1_transport_plants.jpg"] = R.drawable.setup_transpiration1_transport_plants
+            images["setup_transpiration2_transport_plants.jpg"] = R.drawable.setup_transpiration2_transport_plants
+
+//            Breathing, gaseous exchange and respiration
+            images["setup_aerobic_respiration_mammals.jpg"] = R.drawable.setup_aerobic_respiration_mammals
 
         }
 

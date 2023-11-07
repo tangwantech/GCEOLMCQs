@@ -113,12 +113,13 @@ class RequestToPayViewModel : ViewModel() {
         val request: Request = Request.Builder()
             .url("https://demo.campay.net/api/collect/")
             .method("POST", requestBody)
-            .addHeader("Authorization", "Token ${token}")
+            .addHeader("Authorization", "Token $token")
             .addHeader("Content-Type", "application/json")
             .build()
         client.newCall(request).enqueue(object: Callback{
             override fun onFailure(call: Call, e: IOException) {
                 isTransactionSuccessful.postValue(false)
+                call.cancel()
             }
 
             override fun onResponse(call: Call, response: Response) {
@@ -148,6 +149,7 @@ class RequestToPayViewModel : ViewModel() {
                     }
                 }catch (e: JSONException){
                     println("Exception $e")
+                    call.cancel()
                     isTransactionSuccessful.postValue(false)
                 }
 
@@ -173,6 +175,7 @@ class RequestToPayViewModel : ViewModel() {
             .build()
         client.newCall(request).enqueue(object: Callback{
             override fun onFailure(call: Call, e: IOException) {
+                call.cancel()
                 isTransactionSuccessful.postValue(false)
             }
 

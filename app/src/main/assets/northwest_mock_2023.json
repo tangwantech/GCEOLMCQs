@@ -7,6 +7,7 @@
     {
       "title": "Section I",
       "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "1",
@@ -111,6 +112,7 @@
     {
       "title": "Section II",
       "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "8",
@@ -170,7 +172,7 @@
         },
         {
           "questionNumber": "12",
-          "question": "In the vertical section of the mammalian eye which structure conatains a high concentration of cones?",
+          "question": "In the vertical section of the mammalian eye which structure contains a high concentration of cones?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -299,6 +301,7 @@
     {
       "title": "Section III",
       "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
           "questionNumber": "21",
@@ -395,6 +398,7 @@
     {
       "title": "Section IV",
       "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are True and the second statement is a correct explanation of the first. \nB. If both statements are True and the second statement is not a correct explanation of the first. \nC. If the first statement is True and the second statement is False. \nD. If the first statement is False and the second statement is True.",
       "questions": [
         {
           "questionNumber": "26",
@@ -486,6 +490,7 @@
     {
       "title": "Section V",
       "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
           "questionNumber": "31",
@@ -632,6 +637,7 @@
     {
       "title": "Section VI",
       "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
           "questionNumber": "41",
@@ -683,7 +689,7 @@
           "nonSelectableOptions": null,
           "selectableOptions": [
             "Gizzard",
-            "Stomachh",
+            "Stomach",
             "Duodenum",
             "Crop"
           ],
@@ -705,7 +711,7 @@
         },
         {
           "questionNumber": "46",
-          "question": "What prevents the entry of bacteria throught the skin?",
+          "question": "What prevents the entry of bacteria through the skin?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -740,10 +746,10 @@
           "selectableOptions": [
             "Millon's reagent",
             "Sudan III solution",
-            "Benedict's reagent",
+            "Benedict's solution",
             "Copper II sulphate solution"
           ],
-          "wordAnswer": "Benedict's reagent"
+          "wordAnswer": "Benedict's solution"
         },
         {
           "questionNumber": "49",
@@ -761,7 +767,7 @@
         },
         {
           "questionNumber": "50",
-          "question": "When someone sustains an injury, some blood corpuscles cause the blood to clot and prevent further loss of blood as well as entry of pathogens. Which blood cells are resposible for the formation of this clot?",
+          "question": "When someone sustains an injury, some blood corpuscles cause the blood to clot and prevent further loss of blood as well as entry of pathogens. Which blood cells are responsible for the formation of this clot?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

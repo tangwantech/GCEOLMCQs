@@ -89,6 +89,7 @@
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:minHeight="56dp"
                             android:gravity="end"
                             android:paddingStart="@dimen/margin_14"
                             android:paddingEnd="@dimen/margin_14">
@@ -97,7 +98,7 @@
                                 android:id="@+id/activateButton"
                                 style="?attr/borderlessButtonStyle"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="match_parent"
                                 android:text="@string/activate" />
                         </LinearLayout>
                     </LinearLayout>
