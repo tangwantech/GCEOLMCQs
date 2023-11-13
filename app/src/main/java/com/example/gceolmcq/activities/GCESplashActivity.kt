@@ -49,7 +49,6 @@ class GCESplashActivity : AppCompatActivity() {
                 cancelInitializingAppDialog()
                 if(it){
                     decrementServerRetryCount()
-
                     checkRetryCount()
                 }
             }
@@ -57,8 +56,7 @@ class GCESplashActivity : AppCompatActivity() {
 
         viewModel.getAreSubjectsPackagesAvailable().observe(this){subjectPackagesAvailable ->
             subjectPackagesAvailable?.let{
-                saveTermsOfServiceAcceptedStatus(it)
-                checkIsTermsOfServiceAccepted()
+                gotoMainActivity()
             }
         }
 
@@ -90,7 +88,8 @@ class GCESplashActivity : AppCompatActivity() {
         val termsAccepted = pref.getBoolean(MCQConstants.TERMS_ACCEPTED, false)
         if (termsAccepted){
             cancelInitializingAppDialog()
-            gotoMainActivity()
+            syncSubjectsPackages()
+//            gotoMainActivity()
         }else{
             displayTermsOfServiceDialog()
         }
@@ -101,7 +100,9 @@ class GCESplashActivity : AppCompatActivity() {
         termsOfServiceDialog = AlertDialog.Builder(this).create()
         termsOfServiceDialog?.setTitle("Terms of use of service")
         termsOfServiceDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "Accept") { _, _ ->
+            saveTermsOfServiceAcceptedStatus(true)
             displayInitializingAppDialog()
+            checkIsTermsOfServiceAccepted()
 
         }
         termsOfServiceDialog?.setButton(AlertDialog.BUTTON_NEGATIVE, "Decline") { _, _ ->
@@ -119,7 +120,6 @@ class GCESplashActivity : AppCompatActivity() {
             setCancelable(false)
         }
         initializingAppDialog?.show()
-        viewModel.readSubjectsPackagesByMobileIdFromRemoteRepo()
 
     }
 
@@ -146,7 +146,7 @@ class GCESplashActivity : AppCompatActivity() {
 
     private fun gotoMainActivity(){
         CoroutineScope(Dispatchers.IO).launch{
-            delay(2000L)
+            delay(3000L)
             withContext(Dispatchers.Main){
                 val intent = Intent(this@GCESplashActivity, MainActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -179,7 +179,6 @@ class GCESplashActivity : AppCompatActivity() {
             putBoolean(MCQConstants.TERMS_ACCEPTED, state)
             apply()
         }
-
     }
 
     @SuppressLint("HardwareIds")
@@ -187,6 +186,7 @@ class GCESplashActivity : AppCompatActivity() {
         return Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
     }
 
-
-
+    private fun syncSubjectsPackages(){
+        viewModel.synchronizeSubjectsPackageData()
+    }
 }

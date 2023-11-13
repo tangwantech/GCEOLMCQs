@@ -9,7 +9,7 @@
       "numberOfQuestions": 7,
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
-        {
+            {
           "questionNumber": "1",
           "question": "Which of the following sets of environmental factors would most likely cause the release of much oxygen in green plants?",
           "image": null,
@@ -22,7 +22,7 @@
             "High light intensity, high atmospheric pressure and low carbon dioxide concentration."
           ],
           "wordAnswer": "High carbon dioxide concentration, high light intensity and availability of water.",
-          "explanation": null
+          "explanation": "The correct answer is 'High carbon dioxide concentration, high light intensity and availability of water.'\n\nExplanation:\n- High carbon dioxide concentration: Green plants require carbon dioxide for photosynthesis, and a high concentration of carbon dioxide would support the release of more oxygen.\n- High light intensity: Light is essential for photosynthesis, and a high light intensity would enhance the rate of photosynthesis, leading to more oxygen release.\n- Availability of water: Water is another crucial factor for photosynthesis. Sufficient water availability ensures efficient photosynthesis, resulting in increased oxygen production.\n\nThe other selectable options are incorrect because:\n- Option 1: Low wind velocity would not have a significant impact on oxygen release. Additionally, it does not include the availability of water.\n- Option 2: High relative humidity and high wind velocity are not directly related to oxygen release in green plants.\n- Option 4: High atmospheric pressure and low carbon dioxide concentration do not promote oxygen release in green plants."
         },
         {
           "questionNumber": "2",
@@ -37,7 +37,7 @@
             "Multicellular and saprophytic"
           ],
           "wordAnswer": "Unicellular and autotrophic",
-          "explanation": null
+          "explanation": "The correct answer is 'Unicellular and autotrophic.'\n\nExplanation:\n- Unicellular: Spirogyra is a filamentous algae that consists of single cells arranged end-to-end to form filaments.\n- Autotrophic: Spirogyra is capable of performing photosynthesis to produce its own food using sunlight, carbon dioxide, and water.\n\nThe other selectable options are incorrect because:\n- Option 1: Spirogyra is not saprophytic, which means it does not obtain nutrients from decaying organic matter.\n- Option 3: Spirogyra is not multicellular, as it consists of individual cells forming filaments.\n- Option 4: Spirogyra is not saprophytic, and it is not multicellular."
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Lipid"
           ],
           "wordAnswer": "Reducing sugar",
-          "explanation": null
+          "explanation": "The correct answer is 'Reducing sugar.'\n\nExplanation:\n- Benedict's solution is used to test for the presence of reducing sugars.\n- The brick red precipitate indicates a positive result for reducing sugars in the food solution.\n\nThe other selectable options are incorrect because:\n- Option 1: Proteins do not produce a brick red precipitate with Benedict's solution.\n- Option 2: Starch does not produce a brick red precipitate with Benedict's solution.\n- Option 4: Lipids do not produce a brick red precipitate with Benedict's solution."
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "Vagina, uterus, cervix, fallopian tube"
           ],
           "wordAnswer": "Vagina, cervix, uterus, fallopian tube",
-          "explanation": null
+          "explanation": "The correct answer is 'Vagina, cervix, uterus, fallopian tube.'\n\nExplanation:\n- Sperms enter the female reproductive system through the vagina during sexual intercourse.\n- From the vagina, sperms travel through the cervix, which is the lower narrow part of the uterus.\n- The sperms then move into the uterus.\n- From the uterus, the sperms enter the fallopian tube (also known as the oviduct), where they can meet the egg for fertilization.\n\nThe other selectable options are incorrect because they do not follow the correct route of sperms in the female reproductive system."
         },
         {
           "questionNumber": "5",
@@ -101,7 +101,7 @@
         },
         {
           "questionNumber": "7",
-          "question": "Renin is produced in:",
+          "question": "Rennin is produced in:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -112,7 +112,7 @@
             "Pancreas"
           ],
           "wordAnswer": "Stomach",
-          "explanation": null
+          "explanation": "The correct answer is 'Stomach.'\n\nExplanation:\n- Rennin (also known as rennet) is an enzyme that is produced in the stomach of mammals, including humans.\n- It is primarily involved in the digestion of milk proteins, particularly casein.\n- Rennin helps coagulate milk, causing it to separate into curds and whey.\n- This coagulation process is important for the digestion and absorption of milk proteins.\n\nThe other selectable options are incorrect because:\n- Option 2: Rennin is not produced in the kidney. The kidney is primarily responsible for the filtration and regulation of blood and urine production.\n- Option 3: Rennin is not produced in the liver. The liver has many important functions, but the production of rennin is not one of them.\n- Option 4: Rennin is not produced in the pancreas. The pancreas produces various enzymes, but rennin is not one of them."
         }
       ]
     },
@@ -134,7 +134,7 @@
             "A cockroach"
           ],
           "wordAnswer": "A housefly",
-          "explanation": null
+          "explanation": "The correct answer is 'A housefly.'\n\nExplanation:\n- The life cycle depicted in the diagram is typical of a housefly.\n- Houseflies undergo a complete metamorphosis, which includes four stages: egg, larva (maggot), pupa, and adult.\n- The diagram shows these stages, with the adult housefly being the final stage.\n\nThe other options are incorrect because:\n- Grasshopper, termite and cockroach undergo incomplete metamorphosis, which includes three stages: egg, nymph and adult."
         },
         {
           "questionNumber": "9",
@@ -148,8 +148,8 @@
             "Has two pairs of antennae",
             "Is covered by a cuticle made up of cellulose."
           ],
-          "wordAnswer":  "Has jointed appendages.",
-          "explanation": null
+          "wordAnswer": "Has jointed appendages.",
+          "explanation": "The correct answer is 'Has jointed appendages.'\n\nExplanation:\n- The diagram of an adult housefly shows that it has jointed appendages.\n- Jointed appendages are a characteristic feature of insects, including houseflies.\n- These jointed appendages allow insects to have flexible movement and perform various functions.\n\nThe other options are incorrect because:\n- Option 1: Houseflies have six legs (three pairs of legs), not four pairs.\n- Option 3: Houseflies have one pair of antennae, not two pairs.\n- Option 4: The cuticle of a housefly is made up of chitin, not cellulose."
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Gizzard"
           ],
           "wordAnswer": "Gizzard",
-          "explanation": null
+          "explanation": "The correct answer is 'Gizzard.'\n\nExplanation:\n- The gizzard is a part of the bird's digestive system that contains sand and gravel.\n- Birds do not have teeth, so they use the gizzard to grind and break down food.\n- The sand and gravel act as grinding agents, helping to mechanically digest tough food items.\n\nThe other options are incorrect because:\n- Option 1: While the stomach of a bird plays a role in digestion, it does not specifically contain sand and gravel.\n- Option 2: The crop is a specialized part of the bird's digestive system that stores and moistens food, but it does not contain sand and gravel.\n- Option 3: The intestine is responsible for absorbing nutrients, but it does not contain sand and gravel."
         },
         {
           "questionNumber": "11",
@@ -179,9 +179,9 @@
             "Precipitation"
           ],
           "wordAnswer": "Evaporation",
-          "explanation": null
+          "explanation": "The correct answer is 'Evaporation.'\n\nExplanation:\n- Evaporation is the process in the water cycle that causes water to return to the atmosphere.\n- It occurs when water changes from a liquid state to a gaseous state due to heat energy.\n- This process happens primarily from the Earth's surface, such as bodies of water, soil, and plants.\n- The water vapor then rises into the atmosphere, where it can later condense and form clouds.\n\nThe other options are incorrect because:\n- Option 2: Urination is a biological process by which waste products are eliminated from the body and not directly related to the water cycle.\n- Option 3: Condensation is the process of water vapor turning into liquid water, which leads to cloud formation, but it does not cause water to return to the atmosphere.\n- Option 4: Precipitation refers to the process by which water falls from the atmosphere to the Earth's surface in the form of rain, snow, sleet, or hail. It does not involve water returning to the atmosphere."
         },
-        {
+            {
           "questionNumber": "12",
           "question": "The diagram is a pyramid of numbers in an ecosystem. Which of the following is true of the diagram?",
           "image": "pyramid_of_numbers_june_2017.jpg",
@@ -194,7 +194,7 @@
             "Energy flows from level 1 to 4."
           ],
           "wordAnswer": "Energy flows from level 1 to 4.",
-          "explanation": null
+          "explanation": "The word answer 'Energy flows from level 1 to 4.' is correct because in a pyramid of numbers, the energy flows from one trophic level to the next. As you move up the pyramid, the energy available decreases because energy is lost as heat, waste, and through the metabolic processes of organisms. Therefore, the energy flows from the base (level 1) to the top (level 4). \n\n\t'Energy decreases from level 4 to 1.' is incorrect because energy actually decreases as you move up the pyramid. \n\n\t'The largest organisms are found at the base.' is incorrect because the largest organisms are usually found at higher trophic levels. \n\n\t'The number of organisms at each level increases from level 1 to 4.' is incorrect because the number of organisms generally decreases as you move up the pyramid due to the energy limitations."
         },
         {
           "questionNumber": "13",
@@ -209,7 +209,7 @@
             "produce synovial fluid."
           ],
           "wordAnswer": "produce synovial fluid.",
-          "explanation": null
+          "explanation": "The word answer 'produce synovial fluid.' is correct because the part labeled 4 in the image is a synovial membrane, which secretes synovial fluid. Synovial fluid lubricates the joint and reduces friction between the bones during movement. This fluid also provides nutrients to the cartilage and helps in shock absorption. \n\n\t'Keep the bones in place.' is incorrect because the part labeled 4 is not responsible for bone stability. \n\n\t'Produce Red Blood Cells.' and 'Produce antibodies.' are incorrect because these functions are performed by other parts of the body, such as the bone marrow and immune system."
         },
         {
           "questionNumber": "14",
@@ -224,11 +224,11 @@
             "Tendon and cartilage."
           ],
           "wordAnswer": "Synovial fluid and cartilage.",
-          "explanation": null
+          "explanation": "The word answer 'Synovial fluid and cartilage.' is correct because these two substances play a crucial role in preventing friction at joints. Synovial fluid lubricates the joint, reducing friction between the moving bones. It also provides nutrients to the cartilage and helps in shock absorption. Cartilage acts as a cushion between the bones, reducing friction and allowing smooth movement. \n\n\t'Ligament and synovial fluid.' is incorrect because ligaments are responsible for connecting bones, not preventing friction. \n\n\t'Capsule and tendon.' is incorrect because the joint capsule surrounds the joint, providing stability, while tendons connect muscles to bones and are not directly involved in preventing friction."
         },
         {
           "questionNumber": "15",
-          "question": "The diagram below shows the flow of matter in a forest ecosystem. Which of these organisms will be secondary consumer?",
+          "question": "The diagram below shows the flow of matter in a forest ecosystem. Which of these organisms will be a secondary consumer?",
           "image": "flow_of_matter_june_2017.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -238,10 +238,10 @@
             "Goat",
             "Mushroom"
           ],
-          "wordAnswer":  "Hawk",
-          "explanation": null
+          "wordAnswer": "Hawk",
+          "explanation": "The word answer 'Hawk' is correct because a secondary consumer is an organism that feeds on primary consumers. In the given diagram, the organisms at the primary consumer level (e.g., Beetles) consume producers (e.g., Plants). The secondary consumers (e.g., Hawks) feed on the primary consumers. Therefore, the Hawk is the correct answer. \n\n\t'Beetle' is incorrect because it is a primary consumer, not a secondary consumer. \n\n\t'Goat' is incorrect because it is a herbivore and consumes plants, making it a primary consumer. \n\n\t'Mushroom' is incorrect because it is a decomposer and feeds on dead organic matter, not other organisms."
         },
-        {
+            {
           "questionNumber": "16",
           "question": "Below are diagrams of various types of seeds. Which seed would be dispersed by wind?",
           "image": "seed_types_june_2017.jpg",
@@ -254,7 +254,7 @@
             "4"
           ],
           "wordAnswer": "2",
-          "explanation": null
+          "explanation": "The seed labeled as '2' would be dispersed by wind because it has structures such as wings or hairs that help it catch the wind and travel long distances. This adaptation allows the seed to be carried away from the parent plant, increasing its chances of finding suitable conditions to grow. \n\n\tThe other options, 1, 3, and 4, do not have any adaptations for wind dispersal."
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "6"
           ],
           "wordAnswer": "1",
-          "explanation": null
+          "explanation": "The structure labeled as '1' serves as a shock absorber. It is the amniotic fluid surrounding the foetus in the womb. The amniotic fluid acts as a cushion, protecting the developing foetus from external shocks and impacts. \n\n\tThe other options, 2(Amniotic membrane), 5(Umbilical cord), and 6(Placenta), do not serve as shock absorbers."
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "A semi-lunar valve prevents backward flow of blood into the right atrium."
           ],
           "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle.",
-          "explanation": null
+          "explanation": "The statement 'The wall of the left ventricle is thicker than that of the right ventricle' is true. The left ventricle of the heart has a thicker muscular wall compared to the right ventricle. This is because the left ventricle pumps oxygenated blood to the rest of the body, requiring more forceful contractions. \n\n\tThe other options, The aorta carries oxygenated blood out of the left atrium, The tricuspid valve separates the left atrium and the left ventricle, and A semi-lunar valve prevents backward flow of blood into the right atrium, are all incorrect statements."
         },
         {
           "questionNumber": "19",
@@ -299,9 +299,9 @@
             "3 and 4"
           ],
           "wordAnswer": "2 and 4",
-          "explanation": null
+          "explanation": "The structures labeled as '2' and '4' make up the protoplasm in a plant cell. Protoplasm refers to the living components within a cell, including the cytoplasm and the nucleus. In this diagram, the cytoplasm (labeled as '4') and the nucleus (labeled as '2') are the structures that constitute the protoplasm. \n\n\tThe other options, 1(cell wall) and 2, 2 and 3(sap vacuole), and 3 and 4, do not correctly identify the structures that make up the protoplasm."
         },
-        {
+            {
           "questionNumber": "20",
           "question": "Below is the diagram of a bacterium. Which of the numbered structures are absent in an animal cell?",
           "image": "bacterium_june_2017.jpg",
@@ -314,7 +314,7 @@
             "5 and 6"
           ],
           "wordAnswer": "2 and 6",
-          "explanation": null
+          "explanation": "The structures labeled as '2' (Slime capsule) and '6' (Cell wall) are absent in an animal cell. The slime capsule is a protective layer found in some bacteria, but it is not present in animal cells. Similarly, the cell wall, which provides structural support and protection in bacteria, is not present in animal cells. Therefore, the wordAnswer '2 and 6' is correct because these structures are specific to bacteria and not found in animal cells.\n\n\tThe other options, '2(Slime capsule) and 4(Cytoplasm)', '3(Circular DNA) and 4', and '5(Plasma membrane) and 6(Cell wall)', are incorrect because they either include structures that are present in animal cells (such as the cytoplasm and plasma membrane) or exclude structures that are absent in animal cells (such as the slime capsule or cell wall)."
         }
       ]
     },
@@ -324,6 +324,7 @@
       "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
+          
           "questionNumber": "21",
           "question": "Amoeba",
           "image": null,
@@ -340,7 +341,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "The correct answer is '2 and 3 only are correct' because:\n\n- Amoeba has a small surface area to volume ratio, which allows for efficient exchange of materials through its cell membrane. This is important for its survival.\n\n- Amoeba has an excretory structure called contractile vacuole, which helps in the removal of excess water and waste substances from its body.\n\n- Amoeba is holozoic, which means it obtains its nutrition by ingesting solid food particles.\n\nThe other options are wrong because:\n\n- Option '1, 2 and 3 are all correct' is incorrect because Amoeba does not have an excretory structure. It has a contractile vacuole, which serves a similar function.\n\n- Option '1 and 2 only are correct' is incorrect because Amoeba is holozoic, not holophytic. Holophytic organisms obtain their nutrition through photosynthesis.\n\n- Option '1 only is correct' is incorrect because Amoeba has an excretory structure, i.e., contractile vacuole, in addition to having a small surface area to volume ratio."
         },
         {
           "questionNumber": "22",
@@ -359,7 +360,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "The correct answer is '1 and 2 only are correct' because:\n\n- An ecosystem is sustained by the interaction of its biotic (living) and abiotic (non-living) components. The living organisms in an ecosystem depend on the non-living factors for their survival.\n\n- An ecosystem constitutes a stable unit where the biotic and abiotic components are interdependent and maintain a balance.\n\nThe other options are wrong because:\n\n- Option '2 and 3 only are correct' is incorrect because an ecosystem is not an artificial unit. It is a natural system that exists in nature.\n\n- Option '1 only is correct' is incorrect because an ecosystem is not solely constituted by a stable unit. It also requires the interaction of biotic and abiotic components to function properly."
         },
         {
           "questionNumber": "23",
@@ -378,7 +379,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": null
+          "explanation": "The correct answer is '1 only is correct' because:\n\n- The absorption of mineral salts by plants is mainly due to active transport. Active transport is the movement of substances against the concentration gradient with the help of energy.\n\nThe other options are wrong because:\n\n- Option '1 and 2 only are correct' is incorrect because the absorption of mineral salts in plants is not due to osmosis. Osmosis is the movement of water molecules across a semi-permeable membrane.\n\n- Option '2 and 3 only are correct' is incorrect because root pressure is not the main mechanism responsible for the absorption of mineral salts in plants.\n\n- Option '1, 2 and 3 are all correct' is incorrect because only active transport is the correct mechanism for the absorption of mineral salts in plants."
         },
         {
           "questionNumber": "24",
@@ -397,7 +398,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "The correct answer is '2 and 3 only are correct' because:\n\n- Glomerular filtrate contains glucose, which is a small molecule that can pass through the filtration barrier in the kidney.\n\n- Glomerular filtrate also contains salts, such as sodium and potassium ions, which are filtered from the blood.\n\nThe other options are wrong because:\n\n- Option '1, 2 and 3 are all correct' is incorrect because fibrinogen is a large protein molecule and is not filtered through the glomerular filtration barrier.\n\n- Option '1 and 2 only are correct' is incorrect because salt (sodium and potassium ions) is also a component of the glomerular filtrate.\n\n- Option '1 only is correct' is incorrect because both glucose and salt are components of the glomerular filtrate."
         },
         {
           "questionNumber": "25",
@@ -416,7 +417,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "The correct answer is '1, 2 and 3 are all correct' because:\n\n- When body temperature rises above normal, there is an increased metabolic rate to generate more energy and dissipate heat.\n\n- Much blood is redirected to the skin to facilitate heat loss through radiation and convection.\n\n- The hair lies flat on the skin to allow better heat dissipation.\n\nThe other options are wrong because:\n\n- Option '1 and 2 only are correct' is incorrect because the hair lying flat on the skin is also a corrective action that takes place when body temperature rises above normal.\n\n- Option '2 and 3 only are correct' is incorrect because decreased metabolism is not a corrective action that takes place when body temperature rises above normal.\n\n- Option '1 only is correct' is incorrect because both the redirection of blood to the skin and the hair lying flat on the skin are corrective actions that take place when body temperature rises above normal."
         }
       ]
     },
@@ -441,7 +442,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": null
+          "explanation": "The first statement is false because viruses cannot reproduce on their own. They require a host cell to replicate and multiply. The second statement is true because viruses are not cells. They are considered to be acellular entities as they lack cellular structures and organelles found in living cells."
         },
         {
           "questionNumber": "27",
@@ -459,7 +460,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Both statements are true. Bony fish extract dissolved oxygen from water through their gills. The second statement is a correct explanation of the first because bony fish have specialized gills that allow them to extract oxygen from water, which they need for respiration."
         },
         {
           "questionNumber": "28",
@@ -477,9 +478,9 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
-          "explanation": null
+          "explanation": "Both statements are true. Light is indeed needed to manufacture food in plants through the process of photosynthesis. However, the second statement is not a correct explanation of the first because plants grown in the dark become yellowish due to a lack of chlorophyll, the green pigment responsible for capturing light energy during photosynthesis. The yellow color is a result of the breakdown of chlorophyll without its constant renewal in the presence of light."
         },
-        {
+            {
           "questionNumber": "29",
           "question": null,
           "image": null,
@@ -495,7 +496,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are false",
-          "explanation": null
+          "explanation": "Both statements are false. Arteries carry oxygenated blood away from the heart, not towards the heart. Veins carry blood towards the heart. Additionally, not all blood vessels have valves to prevent backflow. Valves are present in veins to ensure one-way flow of blood, but arteries do not have valves."
         },
         {
           "questionNumber": "30",
@@ -503,7 +504,7 @@
           "image": null,
           "twoStatements": [
             "Deforestation reduces the concentration of oxygen in the atmosphere.",
-            "Plants produces oxygen during photosynthesis."
+            "Plants produce oxygen during photosynthesis."
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
@@ -513,7 +514,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Both statements are true. Deforestation does reduce the concentration of oxygen in the atmosphere because trees play a crucial role in producing oxygen through photosynthesis. When trees are cut down, there are fewer plants available to produce oxygen. Hence, the second statement is a correct explanation of the first."
         }
       ]
     },
@@ -535,7 +536,7 @@
             "Enterokinase"
           ],
           "wordAnswer": "Bile",
-          "explanation": null
+          "explanation": "The correct wordAnswer is 'Bile' because it is the substance that emulsifies fat. Bile is produced by the liver and stored in the gallbladder. It helps in the digestion and absorption of fats by breaking them down into smaller droplets, increasing their surface area for enzymes to act upon.\n\nThe other options, 'Amylase', 'Pepsin', and 'Enterokinase', are incorrect because they are not involved in the emulsification of fats. \n\n\tAmylase is an enzyme that breaks down carbohydrates, \n\n\tPepsin is an enzyme that breaks down proteins. \n\n\tEnterokinase is an enzyme involved in the activation of the protein digestive enzyme Trypsinogen to Trypsin."
         },
         {
           "questionNumber": "32",
@@ -550,7 +551,7 @@
             "Turgidity"
           ],
           "wordAnswer": "Turgidity",
-          "explanation": null
+          "explanation": "The correct wordAnswer is 'Turgidity' because it results from the intake of water into the cell. Turgidity refers to the state of a cell or plant tissue being swollen and firm due to the osmotic entry of water. It is a result of water being absorbed into the cell, creating internal pressure and providing structural support.\n\n\ntThe other selectable options, 'Flaccidity', 'Plasmolysis', and 'Wilting', are incorrect because they describe the opposite conditions. \n\n\tFlaccidity refers to the lack of water and loss of turgor pressure. \n\n\tPlasmolysis is the shrinkage of the cell's contents due to water loss. \n\n\tWilting is the loss of rigidity and drooping of plant parts due to water deficiency."
         },
         {
           "questionNumber": "33",
@@ -565,7 +566,7 @@
             "Zygotes"
           ],
           "wordAnswer": "Gametes",
-          "explanation": null
+          "explanation": "The correct wordAnswer is 'Gametes' because they fuse during fertilization. Gametes are reproductive cells, such as sperm and egg cells, that carry half the genetic information. During fertilization, a sperm (male gamete) fuses with an egg (female gamete) to form a zygote, which develops into a new organism.\n\n\tThe other options, 'Genes', 'Chromosomes', and 'Zygotes', are incorrect. Genes are segments of DNA that determine traits, Chromosomes are structures that carry genes, and Zygotes are the result of the fusion of gametes."
         },
         {
           "questionNumber": "34",
@@ -580,9 +581,9 @@
             "Saprophytism"
           ],
           "wordAnswer": "Mutualism",
-          "explanation": null
+          "explanation": "The correct wordAnswer is 'Mutualism' because it describes a relationship in which both organisms benefit. Mutualism is a type of symbiotic relationship where both organisms involved derive benefits from each other. They provide mutual aid, protection, or resources, resulting in a mutually beneficial interaction.\n\n\tThe other options, 'Parasitism', 'Predation', and 'Saprophytism', are incorrect. \n\n\tParasitism is a relationship where one organism (parasite) benefits while the other (host) is harmed. \n\n\tPredation is a relationship where one organism (predator) hunts and consumes another (prey). \n\n\tSaprophytism is a relationship where an organism feeds on dead or decaying organic matter."
         },
-        {
+            {
           "questionNumber": "35",
           "question": "Individuals of the same species in a particular habitat.",
           "image": null,
@@ -595,7 +596,7 @@
             "Population"
           ],
           "wordAnswer": "Population",
-          "explanation": null
+          "explanation": "The word answer 'Population' is correct because it refers to individuals of the same species in a particular habitat. A population consists of all the organisms of the same species living in the same area at the same time. It describes a specific group of organisms that share similar characteristics and can interbreed with one another. In this context, the other options are incorrect:\n\n- 'Community' refers to all the populations of different species that live and interact in a particular area.\n\n- 'Ecosystem' refers to the biotic (living) and abiotic (non-living) components of a specific area and the interactions between them.\n\n- 'Biome' refers to a large-scale community of plants and animals that occupy a distinct geographical region with similar climate conditions.\n\nThese options do not specifically describe individuals of the same species in a particular habitat like 'Population' does."
         },
         {
           "questionNumber": "36",
@@ -610,7 +611,7 @@
             "Restriction enzyme"
           ],
           "wordAnswer": "Ligase",
-          "explanation": null
+          "explanation": "The word answer 'Ligase' is correct because it is an enzyme that joins pieces of DNA together. Ligase plays a crucial role in DNA replication, repair, and recombination by catalyzing the formation of phosphodiester bonds between adjacent DNA fragments. In this context, the other options are incorrect:\n\n- 'Vector' refers to a carrier molecule, often a plasmid or a virus, used to transfer foreign genetic material into a host organism.\n\n- 'Plasma' refers to the liquid component of blood.\n\n- 'Restriction enzyme' refers to enzymes that cut DNA at specific recognition sites. They are used in genetic engineering to manipulate DNA sequences.\n\nThese options do not specifically describe the process of joining pieces of DNA together like 'Ligase' does."
         },
         {
           "questionNumber": "37",
@@ -625,7 +626,7 @@
             "Oviduct"
           ],
           "wordAnswer": "Placenta",
-          "explanation": null
+          "explanation": "The word answer 'Placenta' is correct because it is an organ that produces hormones during pregnancy. The placenta connects the developing fetus to the uterine wall and facilitates the exchange of nutrients, oxygen, and waste products between the mother and the fetus. It also produces hormones such as progesterone, estrogen, and human chorionic gonadotropin (hCG). The other options are incorrect:\n\n- 'Vagina' refers to the muscular canal that connects the uterus to the external genitalia in females.\n\n- 'Uterus' refers to the organ in the female reproductive system where the fetus develops during pregnancy.\n\n- 'Oviduct' refers to the tube through which eggs pass from the ovary to the uterus.\n\nThese options do not specifically describe the organ that produces hormones during pregnancy like 'Placenta' does."
         },
         {
           "questionNumber": "38",
@@ -636,13 +637,13 @@
           "selectableOptions": [
             "Low relative humidity.",
             "Low light intensity.",
-            "Little of no wind.",
+            "Little or no wind.",
             "Low temperature."
           ],
           "wordAnswer": "Low relative humidity.",
-          "explanation": null
+          "explanation": "The word answer 'Low relative humidity.' is correct because it will increase the rate of transpiration. Transpiration is the process by which water is lost from plants through the stomata in their leaves. When the relative humidity is low, the air is drier, creating a greater difference in water potential between the plant and the surrounding environment. This difference drives the movement of water from the plant to the atmosphere through transpiration. The other selectable options are incorrect:\n\n- 'Low light intensity.' would generally decrease the rate of transpiration as the stomata would close in low light conditions.\n\n- 'Little or no wind.' would also decrease the rate of transpiration as wind helps in the diffusion of water vapor away from the leaf surface.\n\n- 'Low temperature.' would decrease the rate of transpiration as it slows down the evaporation of water.\n\nThese options do not specifically describe a condition that would increase the rate of transpiration like 'Low relative humidity.' does."
         },
-        {
+            {
           "questionNumber": "39",
           "question": "Production of gametes.",
           "image": null,
@@ -655,7 +656,7 @@
             "Fission"
           ],
           "wordAnswer": "Meiosis",
-          "explanation": null
+          "explanation": "The word answer 'Meiosis' is correct because it refers to the production of gametes. Meiosis is a type of cell division that occurs in sexually reproducing organisms. It involves two rounds of division that result in the formation of four haploid cells (gametes) with half the number of chromosomes as the parent cell. This process ensures genetic diversity in offspring. In this context, the other options are incorrect:\n\n- 'Mitosis' refers to the process of cell division that produces two identical daughter cells with the same number of chromosomes as the parent cell. It is involved in growth, repair, and asexual reproduction.\n\n- 'Cell division' is a general term that encompasses both mitosis and meiosis. It does not specifically describe the production of gametes like 'Meiosis' does.\n\n- 'Fission' refers to a form of asexual reproduction in which an organism splits into two or more parts, each of which develops into a separate individual.\n\nThese options do not specifically describe the production of gametes like 'Meiosis' does."
         },
         {
           "questionNumber": "40",
@@ -670,7 +671,7 @@
             "Oxygen"
           ],
           "wordAnswer": "Oxygen",
-          "explanation": null
+          "explanation": "The word answer 'Oxygen' is correct because it is an excretory product of plants only. During photosynthesis, plants produce oxygen as a byproduct and release it into the air. This oxygen is then used by other organisms, including animals, for respiration. In this context, the other options are incorrect:\n\n- 'Carbon dioxide' is not an excretory product of plants but rather a waste product of respiration in both plants and animals.\n\n- 'Nitrogen' is a component of air, but it is not an excretory product of plants. Nitrogen is an essential element for plant growth and is obtained from the soil through their roots.\n\n- 'Water vapor' is the gaseous form of water and is not specifically an excretory product of plants. It is released into the air through the process of transpiration.\n\nThese options do not specifically describe a component of air that is an excretory product of plants only like 'Oxygen' does."
         }
       ]
     },
@@ -692,7 +693,7 @@
             "Iodine"
           ],
           "wordAnswer": "Iron",
-          "explanation": null
+          "explanation": "The option 'Iron' is correct because anaemia is often due to a lack of iron. Iron is an essential mineral that is needed for the production of red blood cells, which carry oxygen throughout the body. When there is a deficiency of iron, the body cannot produce enough healthy red blood cells, leading to anaemia. In this context, the other options are incorrect:\n\n- 'Sodium' is not directly related to anaemia. Sodium is an electrolyte that plays a role in fluid balance and nerve function.\n\n- 'Calcium' is not directly related to anaemia. Calcium is important for bone health, muscle function, and other processes in the body.\n\n- 'Iodine' is not directly related to anaemia. Iodine is a mineral that is essential for the production of thyroid hormones, which regulate metabolism.\n\nThese options do not specifically describe a lack of a component that is associated with anaemia like 'Iron' does."
         },
         {
           "questionNumber": "42",
@@ -707,22 +708,22 @@
             "Relax the lens and retina"
           ],
           "wordAnswer": "Relax the suspensory ligaments and ciliary muscles",
-          "explanation": null
+          "explanation": "The option 'Relax the suspensory ligaments and ciliary muscles' is correct because looking at distant objects after reading for a while helps relax these structures in the eye. When we read or focus on nearby objects for an extended period, the ciliary muscles in the eye contract to adjust the shape of the lens for near vision. This sustained contraction can lead to eye strain and fatigue. By looking at distant objects, the ciliary muscles relax, and the suspensory ligaments of the lens loosen, allowing the lens to flatten and relieve strain. In this context, the other options are incorrect:\n\n- 'Relax the iris and pupil' is not specifically related to the need for looking at distant objects after reading. The iris and pupil control the amount of light entering the eye.\n\n- 'Relax the lens and optic nerve' is not directly related to the need for looking at distant objects after reading. The lens focuses light onto the retina, and the optic nerve transmits visual information to the brain.\n\n- 'Relax the lens and retina' is not specifically related to the need for looking at distant objects after reading. The retina is the layer of tissue at the back of the eye that contains photoreceptor cells.\n\nThese options do not specifically describe the need to relax the suspensory ligaments and ciliary muscles like 'Relax the suspensory ligaments and ciliary muscles' does."
         },
         {
           "questionNumber": "43",
-          "question": "Below is the diagram of a seedling after being placed horizontally for 3 days on moist saw dust. The bending of X is due to:",
+          "question": "Below is the diagram of a seedling after being placed horizontally for 3 days on moist sawdust. The bending of X is due to:",
           "image": "seedling_geotropism_june_2017.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
             "Exposure to light.",
-            "More auxin on the upper side of root.",
-            "More auxin on lower side of root.",
+            "More auxin on the upper side of the root.",
+            "More auxin on the lower side of the root.",
             "Gravitational pull on the root."
           ],
-          "wordAnswer": "More auxin on lower side of root.",
-          "explanation": null
+          "wordAnswer": "More auxin on the lower side of the root",
+          "explanation": "The option 'More auxin on the lower side of the root' is correct because the bending of the seedling is due to differential auxin distribution. Auxin is a plant hormone that plays a crucial role in plant growth and development. When the seedling is placed horizontally, auxin accumulates on the lower side of the root due to gravity. This differential distribution of auxin causes the cells on the lower side to elongate more, resulting in the bending of the seedling (positive geotropism). In this context, the other options are incorrect:\n\n- 'Exposure to light' is not the primary cause of the bending observed in the seedling. Although light can affect plant growth and phototropism, it is not the reason for the bending in this specific scenario.\n\n- 'More auxin on the upper side of the root' is the opposite of what occurs during positive geotropism. Auxin accumulates on the lower side of the root, not the upper side.\n\n- 'Gravitational pull on the root' is a general statement that does not explain the specific mechanism of auxin distribution and the resulting bending. The gravitational pull influences the redistribution of auxin, but it is not the direct cause of the bending.\n\nThese options do not specifically describe the differential auxin distribution and its effect on the bending of the seedling like 'More auxin on the lower side of the root' does."
         },
         {
           "questionNumber": "44",
@@ -737,9 +738,9 @@
             "No photosynthesis"
           ],
           "wordAnswer": "No chlorophyll formation",
-          "explanation": null
+          "explanation": "The option 'No chlorophyll formation' is correct because chlorophyll is responsible for the green color in plants. In the absence of light, plants cannot perform photosynthesis, and as a result, they do not produce chlorophyll. Without chlorophyll, the seedling appears yellowish or pale. In this context, the other options are incorrect:\n\n- 'No absorption of water' is not the primary reason for the yellowish appearance of the seedling. Water absorption is crucial for plant survival, but it does not directly cause the lack of chlorophyll.\n\n- 'Lack of starch' is not the primary reason for the yellowish appearance of the seedling. Starch is a storage carbohydrate in plants and is not directly related to the production of chlorophyll."
         },
-        {
+            {
           "questionNumber": "45",
           "question": "The fore-arm is withdrawn when it is touched by a hot object. Which of the following statements is true about the withdrawal?",
           "image": null,
@@ -752,7 +753,7 @@
             "It is due to contraction of biceps."
           ],
           "wordAnswer": "It is due to contraction of biceps.",
-          "explanation": null
+          "explanation": "The correct answer is 'It is due to contraction of biceps.' When the forearm is touched by a hot object, the sensory receptors in the skin send a message to the brain. The brain then sends a signal to the muscles in the forearm, causing the biceps muscle to contract. This contraction pulls the forearm away from the hot object, resulting in the withdrawal. The other options are incorrect because: - 'It is due to information from the brain' is incorrect because while the brain is involved in the process, the withdrawal itself is caused by the contraction of the biceps muscle. - 'It is a slow action' is incorrect because the withdrawal is a rapid and reflexive action. - 'It is due to secretion of adrenaline' is incorrect because adrenaline is not directly involved in the withdrawal of the forearm."
         },
         {
           "questionNumber": "46",
@@ -767,7 +768,7 @@
             "A swelling of the bark on the upper side where the ring was removed."
           ],
           "wordAnswer": "A swelling of the bark on the upper side where the ring was removed.",
-          "explanation": null
+          "explanation": "The correct answer is 'A swelling of the bark on the upper side where the ring was removed.' When the ring of the bark of a tree is removed, it creates a barrier that interrupts the flow of nutrients and sugars (such as sucrose) from the leaves to the roots. The phloem tissue, which is responsible for transporting these materials, is located just beneath the bark. As a result, the sugars produced in the leaves cannot be transported past the ringed area, causing them to accumulate above the ring. Meanwhile, the xylem tissue, responsible for transporting water and minerals from the roots to the leaves, remains intact below the ring. This allows the uninterrupted flow of water from the roots to the leaves. \n\nThefore, the other options: \n\n- 'Lack of water in the leaves', 'Lack of minerals in the leaves' and 'A reduction in transpiration rate' are incorrect."
         },
         {
           "questionNumber": "47",
@@ -782,7 +783,7 @@
             "Ensure that water does not leave the xylem."
           ],
           "wordAnswer": "Ensure that no air bubbles enter the xylem.",
-          "explanation": null
+          "explanation": "The correct answer is 'Ensure that no air bubbles enter the xylem.' When the leafy shoot in the potometer setup is cut under water, it helps to prevent the entry of air bubbles into the xylem. Air bubbles can disrupt the continuous flow of water through the xylem vessels, affecting the accuracy of the transpiration rate measurements. By cutting the leafy shoot underwater, the chances of air bubbles entering the xylem are minimized."
         },
         {
           "questionNumber": "48",
@@ -797,9 +798,9 @@
             "AO, AB"
           ],
           "wordAnswer": "AO, BO",
-          "explanation": null
+          "explanation": "The correct answer is 'AO, BO.' The allele O is recessive to both A and B alleles. Blood group O can be obtained only in OO (homozygous) condition. The possible parental genotypes for an individual with blood group O are AO and BO. When an individual with blood group A (AO) and an individual with blood group B (BO) have a child, there is a chance for the child to inherit one O allele from each parent, resulting in blood group O. \n\n- 'AO, BB' is incorrect because one parent is homozygous for the B allele. \n\n- 'AA, BO' is incorrect because one parent is homozygous for the A allele. - 'AO, AB' is incorrect because one of the parents has the both A and B alleles which dominant over O allele."
         },
-        {
+            {
           "questionNumber": "49",
           "question": "The presence of carbon dioxide in inspired air is detected by:",
           "image": null,
@@ -812,7 +813,7 @@
             "Pyrogallic acid becoming clear."
           ],
           "wordAnswer": "Lime water becoming milky.",
-          "explanation": null
+          "explanation": "The correct option is 'Lime water becoming milky.' Lime water, which is a solution of calcium hydroxide, turns milky in the presence of carbon dioxide. This is due to the formation of calcium carbonate, which is insoluble and appears as a milky precipitate. The milky appearance indicates the presence of carbon dioxide. The other options are incorrect because sodium bicarbonate does not become milky in the presence of carbon dioxide, lime water does not become clear, and pyrogallic acid does not react in this manner."
         },
         {
           "questionNumber": "50",
@@ -827,7 +828,7 @@
             "To trap impurities."
           ],
           "wordAnswer": "To trap impurities.",
-          "explanation": null
+          "explanation": "The correct option is 'To trap impurities.' Mucus is produced by the cells lining the trachea to trap dust, pathogens, and other impurities present in the inhaled air. The mucus acts as a protective barrier, preventing these impurities from reaching the lungs and causing damage. The other options are incorrect because mucus does not dissolve oxygen, its primary function is not to reduce friction."
         }
       ]
     }

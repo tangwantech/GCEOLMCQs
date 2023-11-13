@@ -13,7 +13,7 @@ class SubjectPackageDataSynchronizer {
                 if (it.size > packageDataList.size) {
                     val activationExpiryDates =
                         ActivationExpiryDatesGenerator.generateTrialActivationExpiryDates(
-                            MCQConstants.HOURS,
+                            MCQConstants.MINUTES,
                             MCQConstants.TRIAL_DURATION
                         )
                     for (index in packageDataList.size until it.size) {

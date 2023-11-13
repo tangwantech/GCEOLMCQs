@@ -78,6 +78,7 @@ class SectionFragment : Fragment(), OnClickListener {
 
     private var fadeInOut: Animation? = null
     private var fadeTransition: Animation? = null
+    private var fadeScale: Animation? = null
 
     private var isPositiveBtnClicked = false
 
@@ -90,7 +91,7 @@ class SectionFragment : Fragment(), OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setupViewModel()
-        initFadeTransitions()
+        initTransitions()
 
     }
 
@@ -162,9 +163,10 @@ class SectionFragment : Fragment(), OnClickListener {
         return pref.getBoolean("checkState", false)
     }
 
-    private fun initFadeTransitions(){
+    private fun initTransitions(){
         fadeInOut = AnimationUtils.loadAnimation(requireContext(), R.anim.cross_fade)
         fadeTransition = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_transition)
+        fadeScale = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_scale)
     }
 
     private fun setupViewModel(){
@@ -210,8 +212,8 @@ class SectionFragment : Fragment(), OnClickListener {
         viewModel.getQuestionIndex()
             .observe(viewLifecycleOwner, Observer { questionIndex ->
 //                svQuestion.startAnimation(fadeInOut)
-                setAnimationOnQuestionViewItems()
 
+                setAnimationOnQuestionViewItems()
                 tvCurrentQuestionNumberOfTotal.text =
                     "${questionIndex + 1} of ${viewModel.getNumberOfQuestionsInSection()}"
 
@@ -221,17 +223,18 @@ class SectionFragment : Fragment(), OnClickListener {
 
                 val questionData = viewModel.getQuestion()
 
-                if (questionData.question == null) {
 
+                if (questionData.question == null) {
                     questionLayout.visibility = View.GONE
                 } else {
+                    animateQuestionLo()
                     tvQuestion.text = questionData.question
                 }
 
                 if (questionData.image == null) {
                     imageLo.visibility = View.GONE
                 } else {
-//
+                    animateImageLo()
                     imageLo.visibility = View.VISIBLE
                     imageView.setImageResource(ResourceImages.images[questionData.image]!!)
 
@@ -239,11 +242,11 @@ class SectionFragment : Fragment(), OnClickListener {
 
                 if (questionData.twoStatements == null) {
                     twoStatementLo.visibility = View.GONE
-
                 } else {
                     questionData.twoStatements.forEachIndexed { index, s ->
                         twoStatements[index].text = s
                     }
+                    animateTwoStatementsLo()
                 }
 
                 if (questionData.nonSelectableOptions == null) {
@@ -252,11 +255,13 @@ class SectionFragment : Fragment(), OnClickListener {
                     questionData.nonSelectableOptions.forEachIndexed { index, s ->
                         nonSelectableOptions[index].text = s
                     }
+                    animateNonSelectableOptionsLo()
                 }
 
                 questionData.selectableOptions.forEachIndexed { index, s ->
                     selectableOptions[index].text = "${viewModel.getLetters()[index]}. $s"
                 }
+                animateSelectableOptionsLo()
 
                 viewModel.getIsQuestionAnswered()
                     .observe(viewLifecycleOwner, Observer { isQuestionAnswered ->
@@ -367,8 +372,26 @@ class SectionFragment : Fragment(), OnClickListener {
     }
 
     private fun setAnimationOnQuestionViewItems(){
-        svQuestion.startAnimation(fadeTransition)
+//        svQuestion.startAnimation(fadeTransition)
 
+    }
+    private fun animateQuestionLo(){
+        questionLayout.startAnimation(fadeScale)
+    }
+
+    private fun animateImageLo(){
+        imageLo.startAnimation(fadeScale)
+    }
+    private fun animateTwoStatementsLo(){
+        twoStatementLo.startAnimation(fadeScale)
+    }
+    private fun animateNonSelectableOptionsLo(){
+        nonSelectableOptionsLo.startAnimation(fadeScale)
+    }
+    private fun animateSelectableOptionsLo(){
+        optionsLayouts.forEach {
+            it.startAnimation(fadeScale)
+        }
     }
 
     companion object {
@@ -435,10 +458,6 @@ class SectionFragment : Fragment(), OnClickListener {
 
         }
 
-
-//        optionsLayouts[optionSelectedIndex].setBackgroundColor(
-//            requireContext().resources.getColor(R.color.color_secondary)
-//        )
         optionsLayouts[optionSelectedIndex].background = requireContext().resources.getDrawable(R.drawable.selected_drawable)
 
 

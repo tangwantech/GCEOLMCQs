@@ -16,7 +16,7 @@ import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.HomeRecyclerViewAdapter
 import com.example.gceolmcq.viewmodels.HomeFragmentViewModel
 
-class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryListener{
+class HomeFragment : Fragment(){
 
     private lateinit var homeRecyclerView: RecyclerView
     private lateinit var homeFragmentViewModel: HomeFragmentViewModel
@@ -71,7 +71,6 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
             requireContext(),
             homeFragmentViewModel.subjectPackageDataList.value!!,
             onHomeRecyclerItemClickListener,
-            this,
             onActivateTrialButtonClickListener
         )
 
@@ -122,10 +121,6 @@ class HomeFragment : Fragment(), HomeRecyclerViewAdapter.OnCheckPackageExpiryLis
 
     interface OnPackageActivatedListener {
         fun onPackageActivated(): LiveData<Int>
-    }
-
-    override fun onCheckPackageExpiry(position: Int) {
-        homeFragmentViewModel.checkPackageExpiry(position)
     }
 
 }

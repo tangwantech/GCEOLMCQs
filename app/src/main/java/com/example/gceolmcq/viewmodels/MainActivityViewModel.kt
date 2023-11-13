@@ -1,5 +1,6 @@
 package com.example.gceolmcq.viewmodels
 
+import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,6 +9,7 @@ import com.example.gceolmcq.ActivationExpiryDatesGenerator
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.MomoPayService
 import com.example.gceolmcq.datamodels.*
+import com.example.gceolmcq.repository.RepositoriesLinker
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import com.google.gson.Gson
 import com.parse.ParseObject
@@ -43,6 +45,5 @@ class MainActivityViewModel : ViewModel() {
 
         _liveSubjectsAvailable.value = tempSubjectNames
     }
-
 }
 

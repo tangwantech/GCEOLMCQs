@@ -323,7 +323,6 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     }
 
     open fun showPackageActivatedDialog() {
-        packageActivatedDialog = AlertDialog.Builder(this).create()
         val view = layoutInflater.inflate(
             R.layout.package_activation_successful_dialog,
             null
@@ -332,12 +331,14 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
             view.findViewById(R.id.tvPackageActivationSuccessful)
         tvPackageActivationSuccessful.text =
             "${viewModel.subscriptionData.value?.packageType} ${resources.getString(R.string.activated_successfully)}"
+        val packageActivatedDialog = AlertDialog.Builder(this).apply {
+            setView(view)
+            setPositiveButton("Ok"){ _, _ ->
+//            packageActivatedDialog = null
+            }
+        }.create()
+        packageActivatedDialog.show()
 
-        packageActivatedDialog?.setView(view)
-        packageActivatedDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "OK"){ _, _ ->
-            packageActivatedDialog = null
-        }
-        packageActivatedDialog?.show()
     }
 
     private fun showTransactionFailedDialog() {

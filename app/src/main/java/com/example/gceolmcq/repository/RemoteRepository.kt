@@ -61,7 +61,6 @@ class RemoteRepository(private val localRepository: LocalRepository) {
 
     fun readUserSubjectsPackagesFromRemoteRepoAtMobileId(subjectsAvailable: List<String>?=null, position: Int?=null)  {
         val query: ParseQuery<ParseObject> = ParseQuery(MCQConstants.PARSE_CLASS)
-//        println("Where exist: ${query.whereExists(MCQConstants.SUBJECTS_PACKAGES)}")
         query.whereEqualTo(MCQConstants.MOBILE_ID, mobileId)
 
         query.findInBackground { objects, e ->
@@ -90,12 +89,13 @@ class RemoteRepository(private val localRepository: LocalRepository) {
                     val synchronizedData = SubjectPackageDataSynchronizer.syncSubjectPackageList(packageDataList, subjectsAvailable)
                     insertUserSubjectsPackageDataToLocalDB(synchronizedData, position)
 
+
                 } else {
 
-//                    val activatedPackages = SubjectPackageActivator.activateTrialPackageForAllSubjectsAvailable(subjectsAvailable)
+                    val activatedPackages = SubjectPackageActivator.activateTrialPackageForAllSubjectsAvailable(subjectsAvailable)
 //                    insertUserSubjectsPackageDataToRemoteRepo(activatedPackages, subjectsAvailable)
-                    val subjectsPackages = SubjectsPackagesBuilder().apply{}.build(subjectsAvailable)
-                    insertUserSubjectsPackageDataToRemoteRepo(subjectsPackages, subjectsAvailable)
+//                    val subjectsPackages = SubjectsPackagesBuilder().apply{}.build(subjectsAvailable)
+                    insertUserSubjectsPackageDataToRemoteRepo(activatedPackages, subjectsAvailable)
                 }
 
             } else {
@@ -113,17 +113,20 @@ class RemoteRepository(private val localRepository: LocalRepository) {
         query.findInBackground { objects, e ->
             if (e == null) {
                 val parseObject = objects[0]
-                val jsonArray = JSONArray()
-                val jsonObject = JSONObject()
-                jsonObject.apply {
+
+//                val jsonArray = JSONArray()
+                val jsonArray = parseObject.getJSONArray(MCQConstants.SUBJECTS_PACKAGES)
+                val jsonObject = jsonArray?.getJSONObject(position)
+//                val jsonObject = JSONObject()
+                jsonObject?.apply {
                     put(MCQConstants.SUBJECT_INDEX, subjectPackageData.subjectIndex)
                     put(MCQConstants.SUBJECT_NAME, subjectPackageData.subjectName)
                     put(MCQConstants.PACKAGE_NAME, subjectPackageData.packageName)
                     put(MCQConstants.ACTIVATED_ON, subjectPackageData.activatedOn)
                     put(MCQConstants.EXPIRES_ON, subjectPackageData.expiresOn)
                 }
-                jsonArray.put(jsonObject)
-                parseObject.put(MCQConstants.SUBJECTS_PACKAGES, jsonArray)
+                jsonArray?.put(jsonObject)
+                parseObject.put(MCQConstants.SUBJECTS_PACKAGES, jsonArray!!)
                 parseObject.saveInBackground {
                     if (it == null) {
                         println("Updated successfully")
@@ -138,6 +141,40 @@ class RemoteRepository(private val localRepository: LocalRepository) {
 
     private fun insertUserSubjectsPackageDataToLocalDB(tempSubjectPackageDataList: List<SubjectPackageData>?, position: Int?){
         localRepository.insertUserSubjectsPackageDataToLocalDB(tempSubjectPackageDataList, position)
+    }
+
+    fun syncSubjectsPackageDataInRemoteRepo(subjectPackageDataList: List<SubjectPackageData>?){
+        val query: ParseQuery<ParseObject> = ParseQuery(MCQConstants.PARSE_CLASS)
+        query.whereEqualTo(MCQConstants.MOBILE_ID, mobileId)
+        query.findInBackground { objects, e ->
+            if (e == null) {
+
+                if (objects.isNotEmpty()) {
+                    val parseObject = objects[0]
+                    val jsonArray = JSONArray()
+
+                    subjectPackageDataList?.forEach {
+                        val jsonObject = JSONObject()
+                        jsonObject.apply {
+                            put(MCQConstants.SUBJECT_INDEX, it.subjectIndex)
+                            put(MCQConstants.SUBJECT_NAME, it.subjectName)
+                            put(MCQConstants.PACKAGE_NAME, it.packageName)
+                            put(MCQConstants.ACTIVATED_ON, it.activatedOn)
+                            put(MCQConstants.EXPIRES_ON, it.expiresOn)
+                        }
+                        jsonArray.put(jsonObject)
+                    }
+
+                    parseObject.put(MCQConstants.MOBILE_ID, mobileId!!)
+                    parseObject.put(MCQConstants.SUBJECTS_PACKAGES, jsonArray)
+
+                    parseObject.saveInBackground {_ -> }
+
+                }
+
+            }
+        }
+
     }
 
 

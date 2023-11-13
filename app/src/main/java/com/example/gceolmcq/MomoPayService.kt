@@ -90,13 +90,6 @@ class MomoPayService(private val context: Context) {
     }
 
     fun requestToPay(transaction: TransactionStatus, amountToPay: String?, momoNumber: String?){
-//        val client = OkHttpClient().newBuilder()
-//            .build()
-//        val mediaType = MCQConstants.APPLICATION_JSON.toMediaTypeOrNull()
-//        val requestBody: RequestBody = RequestBody.create(
-//            mediaType,
-//            "{\"${MCQConstants.AMOUNT}\":\"${amountToPay}\",\"from\":\"237${momoNumber}\",\"${MCQConstants.DESCRIPTION}\":\"${subscriptionFormData?.subject} ${subscriptionFormData?.packageType} ${MCQConstants.SUBSCRIPTION}\",\"${MCQConstants.EXTERNAL_REFERENCE}\": \"\"}"
-//        )
         val requestBody = FormBody.Builder()
             .add(MCQConstants.AMOUNT, "$amountToPay")
             .add(MCQConstants.FROM, "${MCQConstants.COUNTRY_CODE}$momoNumber")
@@ -133,13 +126,11 @@ class MomoPayService(private val context: Context) {
                         while (transaction.status!! == MCQConstants.PENDING){
                             checkTransactionStatus(transaction)
                             delay(3000)
-
                         }
                     }
 
                 }catch (e: JSONException){
-//                    println("Failed retrieving transaction reference id due to ${e.message}")
-//                    isTransactionSuccessful.postValue(false)
+
                     transactionStatus.postValue(TransactionStatus(status = FAILED))
                 }
 
@@ -158,35 +149,24 @@ class MomoPayService(private val context: Context) {
 
         client.newCall(request).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) {
-//                isTransactionSuccessful.postValue(false)
+//
                 transactionStatus.postValue(TransactionStatus(status = FAILED))
-//                println("failed checking transaction status ...... $transaction due to ${e.message}")
-
+//
             }
 
             override fun onResponse(call: Call, response: Response) {
                 try{
                     val responseBody = response.body?.string()
-//                    println(responseBody)
                     val jsonResponse = JSONObject(responseBody!!)
                     transaction.status = jsonResponse[STATUS].toString()
                     transactionStatus.postValue(TransactionStatus(status = transaction.status))
-//                    if(transaction.status == SUCCESSFUL){
-//                        isTransactionSuccessful.postValue(true)
-////
-//                    }
-//                    if (transaction.status == FAILED){
-//                        isTransactionSuccessful.postValue(false)
-////                        transactionStatus.postValue(TransactionStatus(status = transaction.status))
-//                    }
+
                     println(transaction.status)
                 }catch (e: JSONException){
 //                    isTransactionSuccessful.postValue(false)
                     transactionStatus.postValue(TransactionStatus(status = FAILED))
                     println("failed checking transaction status ...... $transaction due to ${e.message}")
                 }
-
-
             }
 
         })
@@ -205,22 +185,11 @@ class MomoPayService(private val context: Context) {
         return isTransactionSuccessful
     }
 
-
     fun reset() {
         isTransactionSuccessful.postValue(null)
         transactionStatus.postValue(TransactionStatus())
         subscriptionFormData = null
     }
 
-
-
-
-
-    interface PaymentStatus{
-        fun onPaymentSuccessful()
-        fun onPaymentPending()
-        fun onPaymentFailed()
-
-    }
 
 }

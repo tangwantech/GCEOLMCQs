@@ -46,7 +46,7 @@ class MainActivity : SubscriptionActivity(),
     private var currentFragmentIndex: Int? = null
     private lateinit var pref: SharedPreferences
 
-    private lateinit var activatingTrialPackageDialog: AlertDialog
+//    private lateinit var activatingTrialPackageDialog: AlertDialog
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,6 +56,7 @@ class MainActivity : SubscriptionActivity(),
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         setupViewModel()
         initViews()
+//        syncSubjectsPackages()
     }
 
     private fun areSubjectsPackagesAvailable(): Boolean {
@@ -72,6 +73,7 @@ class MainActivity : SubscriptionActivity(),
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
         viewModel.setSubjectAndFileNameDataListModel(getJsonFromAssets())
+//        viewModel.setRepositoryLink(this, getMobileID())
     }
 
     private fun initViews() {
@@ -283,20 +285,6 @@ class MainActivity : SubscriptionActivity(),
         showActivatingTrialPackageDialog()
         activateTrialPackage(position, subjectName)
     }
-
-//    private fun showActivatingTrialPackageDialog(){
-//        activatingTrialPackageDialog = AlertDialog.Builder(this).create()
-//        activatingTrialPackageDialog.apply {
-//            setMessage("Activating trial package...")
-//            setCancelable(false)
-//        }
-//        activatingTrialPackageDialog.show()
-//    }
-//
-//    private fun dismissActivatingTrialPackageDialog(){
-//        activatingTrialPackageDialog.dismiss()
-//    }
-
 
 
 }

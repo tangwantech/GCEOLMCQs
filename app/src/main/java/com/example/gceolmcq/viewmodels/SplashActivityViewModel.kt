@@ -57,9 +57,10 @@ class SplashActivityViewModel : ViewModel() {
     }
 
 
-    fun readSubjectsPackagesByMobileIdFromRemoteRepo() {
-        repositoriesLinker.getRemoteRepository().readUserSubjectsPackagesFromRemoteRepoAtMobileId(_liveSubjectNames.value)
-
+    fun synchronizeSubjectsPackageData(){
+        repositoriesLinker.getLocalRepository().syncSubjectsPackageDataFromLocalDbOffLine(
+            _liveSubjectNames.value!!,
+            repositoriesLinker.getRemoteRepository())
     }
 
     fun remoteRepoErrorExceptionRaised(): LiveData<Boolean>{
@@ -81,6 +82,7 @@ class SplashActivityViewModel : ViewModel() {
     fun resetServerRetryCount(limit: Int){
         _serverRetryCountLeft = limit
     }
+
 
 
 }

@@ -172,7 +172,7 @@
         },
         {
           "questionNumber": "12",
-          "question": "Which of the following does NOT affect the rate of photosynthesis?",
+          "question": "Which one of the following does NOT affect the rate of photosynthesis?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -200,7 +200,7 @@
         },
         {
           "questionNumber": "14",
-          "question": "Which of the following chemicals could be added to water to help ensure that Elodea would photosynthesize?",
+          "question": "Which one of the following chemicals could be added to water to help ensure that Elodea would photosynthesize?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -270,7 +270,7 @@
         },
         {
           "questionNumber": "19",
-          "question": "Which of the following is autotrophic?",
+          "question": "Which one of the following organisms is autotrophic?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -494,7 +494,7 @@
       "questions": [
         {
           "questionNumber": "31",
-          "question": "Storage polysaccharide in plants",
+          "question": "A storage polysaccharide in plants:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -508,7 +508,7 @@
         },
         {
           "questionNumber": "32",
-          "question": "Structural polysaccharide in plants",
+          "question": "A structural polysaccharide in plants:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -522,7 +522,7 @@
         },
         {
           "questionNumber": "33",
-          "question": "Color observed when iodine solution is dropped on boiled rice",
+          "question": "The color observed when iodine solution is dropped on boiled rice:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -669,7 +669,7 @@
         },
         {
           "questionNumber": "43",
-          "question": "In an experiment to test a leaf for starch, the last step involved placing few drops of iodine unto the leaf. Which color indicates the presence of starch?",
+          "question": "In an experiment to test a leaf for starch, the last step involves placing few drops of iodine unto the leaf. Which color indicates the presence of starch?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -683,7 +683,7 @@
         },
         {
           "questionNumber": "44",
-          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, two experiments are usually carried out simultaneous. Before the start of the experiments, the two potted plants used were placed in darkness for at least 48 hours. \nWhy were the potted plants placed in darkness for at least 48 hours?",
+          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, two experiments are carried out simultaneously. Before the start of the experiments, the two potted plants to use were placed in darkness for at least 48 hours. \nWhy were the plants placed in darkness for at least 48 hours?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -697,7 +697,7 @@
         },
         {
           "questionNumber": "45",
-          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, the pot containing the plant is placed in a polythene bag and tied around the plant's stem. \nWhat is the role of the polythene bag in this experiment?",
+          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, the pot containing the plant is placed in a polythene bag and the mouth of the bag tied around the plant's stem. \nWhat is the role of the polythene bag in this experiment?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -711,7 +711,7 @@
         },
         {
           "questionNumber": "46",
-          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, two experiments labelled A and B were carried out simultaneous. Both experiments were similar in all aspects except in Experiment A, Caustic Soda solution was placed next to the potted plant in a bell jar while Caustic Soda was absent in Experiment B. \nWhat is the role of Caustic Soda?",
+          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, two experiments labelled A and B were carried out simultaneously. Both experiments were similar in all aspects except in Experiment A, Caustic Soda solution is placed next to the potted plant in a bell jar while Caustic Soda is absent in Experiment B. \nWhat is the role of Caustic Soda?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -753,7 +753,7 @@
         },
         {
           "questionNumber": "49",
-          "question": "What chemical substance is tested for to show that photosynthesis has taken place in a leaf?",
+          "question": "Which one of the following compounds is tested for to show that photosynthesis has taken place in a leaf?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -767,7 +767,7 @@
         },
         {
           "questionNumber": "50",
-          "question": "The effect of absence of light in plants include",
+          "question": "The effect of the absence of light in plants is:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,

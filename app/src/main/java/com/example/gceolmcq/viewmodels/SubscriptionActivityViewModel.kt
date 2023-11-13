@@ -146,10 +146,6 @@ class SubscriptionActivityViewModel: ViewModel() {
     }
 
 
-
-
-
-
     fun initMomoPay2(momoPayService2: com.example.gceolmcq.momoPay.MomoPayService){
         momoPay2 = momoPayService2
     }

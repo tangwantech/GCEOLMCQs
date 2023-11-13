@@ -12,6 +12,7 @@ import com.example.gceolmcq.datamodels.SubjectAndFileNameData
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubjectPackageExpiryStatusData
 import com.example.gceolmcq.repository.LocalRepository
+import com.example.gceolmcq.repository.RepositoriesLinker
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import kotlinx.coroutines.*
 
@@ -29,14 +30,16 @@ class HomeFragmentViewModel: ViewModel() {
         gceOLMcqDatabase = GceOLMcqDatabase.getDatabase(context)
     }
 
-    fun initLocalRepo(context: Context){
-        localRepo = LocalRepository(context)
-    }
+//    fun initLocalRepo(context: Context){
+//        localRepo = LocalRepository(context)
+//    }
 
     fun initSubjectPackagesDataListFromLocalDatabase(){
         viewModelScope.launch(Dispatchers.IO) {
             _subjectPackageDataList.value!!.clear()
+
             val tempSubjectPackageDataList1 = gceOLMcqDatabase.subjectPackageDao().getAllSubjectsPackages()
+
             println("TempSubjectPackageList: $tempSubjectPackageDataList1")
             val tempSubjectPackageDataList2 = ArrayList<SubjectPackageData>()
             if (tempSubjectPackageDataList1.isNotEmpty()){
@@ -55,27 +58,25 @@ class HomeFragmentViewModel: ViewModel() {
         }
     }
 
-    fun checkPackageExpiry(position: Int){
-
-        viewModelScope.launch(Dispatchers.IO) {
-//            println(_subjectPackageDataList.value)
-
-            var notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
-            while (notExpired){
-                delay(1000)
-                notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
-
-            }
-
-            withContext(Dispatchers.Main){
-                this@HomeFragmentViewModel._subjectPackageDataList.value!![position].isPackageActive = notExpired
-                _packageExpiredIndex.value = position
-
-            }
-
-        }
-    }
-
-
+//    fun checkPackageExpiry(position: Int){
+//
+//        viewModelScope.launch(Dispatchers.IO) {
+////            println(_subjectPackageDataList.value)
+//
+//            var notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
+//            while (notExpired){
+//                delay(1000)
+//                notExpired = ActivationExpiryDatesGenerator().checkExpiry(_subjectPackageDataList.value!![position].activatedOn!!, _subjectPackageDataList.value!![position].expiresOn!!)
+//
+//            }
+//
+//            withContext(Dispatchers.Main){
+//                this@HomeFragmentViewModel._subjectPackageDataList.value!![position].isPackageActive = notExpired
+//                _packageExpiredIndex.value = position
+//
+//            }
+//
+//        }
+//    }
 
 }

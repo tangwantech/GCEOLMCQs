@@ -3,12 +3,14 @@ package com.example.gceolmcq.repository
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.example.gceolmcq.SubjectPackageDataSynchronizer
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.roomDB.GceOLMcqDatabase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import okhttp3.Dispatcher
 
 class LocalRepository(private val context: Context){
     private val localDatabase: GceOLMcqDatabase = GceOLMcqDatabase.getDatabase(context)
@@ -53,5 +55,27 @@ class LocalRepository(private val context: Context){
         }
 
     }
+
+    fun syncSubjectsPackageDataFromLocalDbOffLine(subjectNames: List<String>, remoteRepository: RemoteRepository){
+        CoroutineScope(Dispatchers.IO).launch {
+            val subjectsData = ArrayList<SubjectPackageData>()
+            val tempSubjectPackageData = localDatabase.subjectPackageDao().getAllSubjectsPackages()
+            if(tempSubjectPackageData.isEmpty()){
+                remoteRepository.readUserSubjectsPackagesFromRemoteRepoAtMobileId(subjectNames)
+            }else{
+                withContext(Dispatchers.Main){
+                    subjectsData.addAll(tempSubjectPackageData)
+                    val synchronizedData = SubjectPackageDataSynchronizer.syncSubjectPackageList(subjectsData, subjectNames)
+                    insertUserSubjectsPackageDataToLocalDB(synchronizedData)
+                    remoteRepository.syncSubjectsPackageDataInRemoteRepo(synchronizedData)
+                }
+
+            }
+
+        }
+
+    }
+
+
 
 }

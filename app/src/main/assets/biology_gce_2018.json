@@ -21,7 +21,8 @@
             "Cerebellum.",
             "Medulla oblongata."
           ],
-          "wordAnswer": "Medulla oblongata."
+          "wordAnswer": "Medulla oblongata.",
+          "explanation": "The correct answer is Medulla oblongata. This region of the brain is responsible for controlling involuntary functions, including the regulation of the heartbeat. \n\n\tThe other options are incorrect because:\n- The cerebrum is responsible for higher brain functions such as thinking, memory, and voluntary movements, but not specifically for controlling the heartbeat.\n- The midbrain is involved in relaying sensory and motor information, but it does not directly control the heartbeat.\n- The cerebellum is responsible for coordinating movement and balance, but it does not play a role in controlling the heartbeat."
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Starch.",
             "Glycerol."
           ],
-          "wordAnswer": "Starch."
+          "wordAnswer": "Starch.",
+          "explanation": "The correct answer is Starch. A polysaccharide is a complex carbohydrate composed of multiple sugar molecules. Starch is a polysaccharide made up of glucose units. \n\n\tThe other options are incorrect because:\n- Maltose is a disaccharide, not a polysaccharide, as it consists of two glucose molecules.\n- Peptide refers to a compound made up of amino acids, not a polysaccharide.\n- Glycerol is a simple alcohol, not a polysaccharide."
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Wilting.",
             "Phototropism."
           ],
-          "wordAnswer": "Yellowing of leaves."
+          "wordAnswer": "Yellowing of leaves.",
+          "explanation": "The correct answer is Yellowing of leaves. When plants are deprived of light, the chlorophyll responsible for the green color in leaves starts to degrade, resulting in the yellowing of leaves."
         },
         {
           "questionNumber": "4",
@@ -63,9 +66,10 @@
             "Movement against a concentration gradient.",
             "Movement of solutes."
           ],
-          "wordAnswer": "Movement of water molecules."
+          "wordAnswer": "Movement of water molecules.",
+          "explanation": "The correct answer is Movement of water molecules. Osmosis is the process of water molecules moving from an area of lower solute concentration to an area of higher solute concentration through a selectively permeable membrane. \n\n\tThe other options are incorrect because:\n- The movement of ions is not specific to osmosis but can occur through other processes like diffusion or active transport.\n- Osmosis involves the movement of water molecules along the concentration gradient, not against it.\n- Osmosis specifically refers to the movement of water molecules, not solutes."
         },
-        {
+            {
           "questionNumber": "5",
           "question": "Which of the following is common to epidermis in both plants and animals?",
           "image": null,
@@ -77,7 +81,8 @@
             "It is one cell thick.",
             "It is made up of dead cells."
           ],
-          "wordAnswer": "The absence of chloroplast."
+          "wordAnswer": "The absence of chloroplast.",
+          "explanation": "The correct answer is The absence of chloroplast. The epidermis in both plants and animals does not contain chloroplasts, which are responsible for photosynthesis. \n\n\tThe other options are incorrect because:\n- The presence of pores is not common to the epidermis in both plants and animals. While the epidermis in animals may have pores, plant epidermis typically has stomata for gas exchange.\n- While the epidermis in plants is generally one cell thick, the epidermis in animals can vary in thickness.\n- It is made up of dead cells: The epidermis in plants is often made up of living cells, while the epidermis in animals can consist of both living and dead cells."
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Light.",
             "Predation."
           ],
-          "wordAnswer": "Predation."
+          "wordAnswer": "Predation.",
+          "explanation": "The correct answer is Predation. Biotic factors in an ecosystem are living organisms or their products that directly or indirectly affect other organisms. Predation, which involves the hunting and killing of one organism by another, is an example of a biotic factor. \n\n\tThe other options are incorrect because:\n- Temperature is an abiotic factor, as it refers to the physical condition of the environment, not a living organism.\n- Humidity is also an abiotic factor, as it relates to the moisture content of the air, not a living organism.\n- Light is an abiotic."
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Fehling's solution.",
             "Millon's reagent."
           ],
-          "wordAnswer": "Millon's reagent."
+          "wordAnswer": "Millon's reagent.",
+          "explanation": "The correct answer is Millon's reagent. Millon's reagent is a chemical solution used to test for the presence of phenolic compounds, including tyrosine and other amino acids, which are building blocks of proteins. The other options are incorrect because:\n\n- Iodine: Iodine is commonly used to test for the presence of starch, not proteins.\n- Benedict's solution: Benedict's solution is used to test for the presence of reducing sugars, such as glucose, fructose, and maltose, not proteins.\n- Fehling's solution: Fehling's solution is also used to test for the presence of reducing sugars, not proteins."
         }
       ]
     },
@@ -126,7 +133,8 @@
             "4",
             "5"
           ],
-          "wordAnswer": "2"
+          "wordAnswer": "2",
+          "explanation": "The correct answer is 2. The structure labeled as 2 in the diagram represents the phloem, which is responsible for transporting the manufactured food, such as sugars, from the leaves to other parts of the plant. The other options are incorrect because:\n\n- 3: Structure 3 represents the xylem, which is responsible for transporting water and minerals, not manufactured food.\n- 4: Structure 4 represents the pith, which is primarily involved in storing and providing mechanical support to the stem, not transporting food.\n- 5: Structure 5 represents the cortex, which also provides mechanical support and storage, but it is not directly involved in transporting manufactured food."
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Nucleus.",
             "Vacuole."
           ],
-          "wordAnswer": "Pyrenoid."
+          "wordAnswer": "Pyrenoid.",
+          "explanation": "The correct answer is Pyrenoid. The pyrenoid is the structure in spirogyra where food is stored. It is a specialized organelle within the chloroplast that accumulates and stores starch, which is the primary food reserve in spirogyra. The other options are incorrect because:\n\n- Chloroplast: While the chloroplast is involved in photosynthesis and the production of food, it is not the specific structure where food is stored.\n- Nucleus: The nucleus is the control center of the cell and contains genetic material, but it is not directly involved in storing food.\n- Vacuole: The vacuole is responsible for storing water, ions, and other substances, but it is not the primary site for food storage in spirogyra."
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "5",
             "7"
           ],
-          "wordAnswer": "5"
+          "wordAnswer": "5",
+          "explanation": "The correct answer is 5. Implantation, the process by which a fertilized egg attaches to the uterus and establishes pregnancy, takes place in the uterus. Structure 5 in the diagram represents the uterus, which provides a suitable environment for the implantation and development of the embryo. The other options are incorrect because:\n\n- Structure 3 represents the fallopian tube, where fertilization take place, but it is not the site of implantation.\n- Structure 4 represents the ovary, which is responsible for producing eggs but not the site of implantation\n- Structure 7 represents the vagina, which is not the site of implantation."
         },
         {
           "questionNumber": "11",
@@ -168,9 +178,10 @@
             "Vagina.",
             "Fallopian tube."
           ],
-          "wordAnswer": "Fallopian tube."
+          "wordAnswer": "Fallopian tube.",
+          "explanation": "The correct answer is Fallopian tube. Fertilization, the fusion of sperm and egg to form a zygote, typically takes place in the fallopian tube. The fallopian tube provides a suitable environment for the meeting of sperm and egg, allowing fertilization to occur before the fertilized egg travels to the uterus for implantation. The other options are incorrect because:\n\n- Uterus: The uterus is the site of implantation, where the fertilized egg attaches and develops into an embryo, but fertilization itself does not occur in the uterus.\n- Ovary: The ovary is responsible for producing eggs, but fertilization typically occurs in the fallopian tube, not in the ovary.\n- Vagina: The vagina is part of the female reproductive system, but it is not the site of fertilization. It serves as the birth canal and the site of sperm deposition during sexual intercourse."
         },
-        {
+            {
           "questionNumber": "12",
           "question": "Which of the following parts of the human digestive system is vestigial?",
           "image": null,
@@ -182,7 +193,8 @@
             "Pancreas.",
             "Anus."
           ],
-          "wordAnswer": "Appendix."
+          "wordAnswer": "Appendix.",
+          "explanation": "The correct answer is Appendix. The appendix is considered a vestigial structure in the human digestive system. It is a small, finger-like projection located at the junction of the small intestine and the large intestine. While it may have had a role in digestion in our ancestors, it is no longer essential for human digestion. The other options are incorrect because:\n\n- Duodenum: The duodenum is the first part of the small intestine and plays a crucial role in the digestion and absorption of nutrients.\n- Pancreas: The pancreas is an important organ that produces enzymes and hormones involved in digestion, such as insulin.\n- Anus: The anus is the opening at the end of the digestive tract through which waste materials are eliminated from the body."
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Stolon.",
             "Columella."
           ],
-          "wordAnswer": "Rhizoids."
+          "wordAnswer": "Rhizoids.",
+          "explanation": "The correct answer is Rhizoids. Rhizoids are structures in mould fungus that release extra-cellular enzymes. These enzymes help in the breakdown of organic matter and aid in the absorption of nutrients by the fungus. The other options are incorrect because:\n\n- Sporangiophore: Sporangiophore is a structure in mould fungus that bears sporangia, which are responsible for producing spores, not releasing enzymes.\n- Stolon: Stolon is a horizontal, stem-like structure that helps in the spread of the fungus, but it does not release enzymes.\n- Columella: Columella is a structure found in some fungi, but it is not involved in the release of extra-cellular enzymes."
         },
         {
           "questionNumber": "14",
@@ -210,9 +223,10 @@
             "Anther.",
             "Pollen grain."
           ],
-          "wordAnswer": "Anther."
+          "wordAnswer": "Anther.",
+          "explanation": "The correct answer is Anther. Meiosis, the process of cell division that produces haploid cells, occurs in the anther of a flower. The anther is part of the stamen, which is the male reproductive organ of a flower. The other options are incorrect because:\n\n- Filament: The filament is the stalk-like structure that supports the anther, but meiosis does not occur in the filament.\n- Style: The style is part of the female reproductive organ (pistil) and is not involved in meiosis.\n- Pollen grain: The pollen grain is the male gametophyte produced by meiosis in the anther, so it is not the site of meiosis itself."
         },
-        {
+            {
           "questionNumber": "15",
           "question": "Where are guard cells found in the leaf?",
           "image": null,
@@ -224,7 +238,8 @@
             "Upper epidermis.",
             "Mesophyll."
           ],
-          "wordAnswer": "Lower epidermis."
+          "wordAnswer": "Lower epidermis.",
+          "explanation": "The correct answer is Lower epidermis. Guard cells, which control the opening and closing of stomata, are found in the lower epidermis of the leaf. The other options are incorrect because:\n\n- Palisade layer: The palisade layer is responsible for photosynthesis and is located in the upper part of the mesophyll, not in the lower epidermis.\n- Upper epidermis: The upper epidermis of a leaf serves as a protective layer and does not contain guard cells.\n- Mesophyll: The mesophyll is the inner tissue of the leaf where photosynthesis occurs, but it does not contain guard cells."
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "3"
+          "wordAnswer": "3",
+          "explanation": "The correct answer is 3. In the transverse section of the leaf lamina, photosynthesis occurs most in the palisade mesophyll layer, which are located below the upper epidermis of the leaf. The other options are incorrect because:\n\n- 1 represents the stoma which is a pore that allows for gaseous exchange.\n- 2 represents the spongy mesophyll layer, which is involved in photosynthesis but not to the same extent as the palisade mesophyll layer.\n- 4 represents cuticle which prevents excess water loss by evaporation."
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "1"
+          "wordAnswer": "1",
+          "explanation": "The correct answer is 1. The part numbered 1 in the diagram represents the cell membrane, which controls the movement of substances into and out of the cell. The other options are incorrect because:\n\n- 2: This represents the cell wall, which prevents bursting of the cell when it absorbs water by osmosis. It does not control the movement of substances.\n- 3: This represents the nucleus, which contains genetic material but does not control the movement of substances.\n- 4: This represents the chloroplast, which is involved in photosynthesis but not in the movement of substances."
         },
         {
           "questionNumber": "18",
@@ -266,9 +283,10 @@
             "Nucleus.",
             "Chloroplast."
           ],
-          "wordAnswer": "Chloroplast."
+          "wordAnswer": "Chloroplast.",
+          "explanation": "The correct answer is Chloroplast. Chloroplasts are present in plant cells but absent in animal cells. Chloroplasts are responsible for carrying out photosynthesis, the process by which plants convert sunlight into energy. The other options are incorrect because:\n\n- Cytoplasm: Cytoplasm is present in both plant and animal cells. It is a gel-like substance that fills the cell.\n- Cell membrane: The cell membrane is present in both plant and animal cells. It forms the outer boundary of the cell and controls the movement of substances.\n- Nucleus: The nucleus is present in both plant and animal cells. It contains the genetic material and controls the cell's activities."
         },
-        {
+           {
           "questionNumber": "19",
           "question": "In which structure in the human respiratory system does gaseous exchange take place?",
           "image": null,
@@ -280,7 +298,8 @@
             "Trachea.",
             "Bronchiole."
           ],
-          "wordAnswer": "Alveolus."
+          "wordAnswer": "Alveolus.",
+          "explanation": "The correct answer is Alveolus. Gaseous exchange takes place in the alveoli of the human respiratory system. The alveoli are small air sacs located at the ends of the bronchioles. They have thin walls and are surrounded by capillaries, allowing for the exchange of oxygen and carbon dioxide. The other options are incorrect because:\n\n- Nostril: The nostrils are the openings of the nose through which air enters, but gaseous exchange does not occur there.\n- Trachea: The trachea, also known as the windpipe, is a tube that connects the larynx to the bronchi. It does not directly participate in gaseous exchange.\n- Bronchiole: Bronchioles are small branches of the bronchi, and while they play a role in air distribution, gaseous exchange primarily occurs at the alveoli."
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Inability to detect vibrations.",
             "Inability to change direction."
           ],
-          "wordAnswer": "Inability to detect vibrations."
+          "wordAnswer": "Inability to detect vibrations.",
+          "explanation": "The correct answer is Inability to detect vibrations. Structure X in the diagram represents the lateral line system, which is responsible for detecting vibrations in the water. Destruction of the lateral line system would result in the bony fish being unable to detect vibrations, affecting its ability to navigate and locate prey or predators. The other options are incorrect because:\n\n- Inability to swim: The destruction of structure X, the lateral line system, does not directly affect the fish's ability to swim.\n- Inability to be buoyant: The buoyancy of a bony fish is primarily regulated by its swim bladder, not the lateral line system.\n- Inability to change direction: The ability to change direction is controlled by the fish's fins and muscles, not the lateral line system."
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": "The correct option is '1, 2 and 3 are all correct.' During over cooling of the body, multiple physiological responses occur. The hairs on the body are raised (option 1), which helps to trap a layer of air close to the skin, providing insulation. The superficial blood vessels constrict (option 2), reducing blood flow to the skin surface and minimizing heat loss. Additionally, the rate of metabolic activities increases (option 3) to generate more heat and maintain body temperature."
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": "The correct option is '1 only is correct.' Among the listed secondary characteristics, the deepening of voice (option 1) occurs only in human males due to the growth of the larynx during puberty. Both hair on the pubis (option 2) and sexual urge (option 3) can occur in both males and females. Therefore, only option 1 is exclusively correct for human males."
         },
         {
           "questionNumber": "23",
@@ -355,9 +377,10 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": "The correct option is '2 and 3 only are correct.' During inspiration, the diaphragm contracts (not relaxes), causing it to flatten and move downward, which increases the volume of the thoracic cavity (option 2). The expansion of the thoracic cavity leads to a decrease in pressure within the lungs (option 3), creating a pressure gradient that allows air to flow into the lungs."
         },
-        {
+            {
           "questionNumber": "24",
           "question": "The process(es) by which nitrates are removed from the soil.",
           "image": null,
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": "The correct option is '1 and 2 only are correct.' Nitrates are removed from the soil through two processes: denitrification (option 1) and absorption by plants (option 2). Denitrification is the conversion of nitrates to nitrogen gas by bacteria, which reduces the availability of nitrates in the soil. Plants can absorb nitrates from the soil through their roots, reducing the nitrate concentration in the soil. Lightning (option 3) can fix atmospheric nitrogen into nitrates, but it does not remove nitrates from the soil."
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": "The correct option is '1 and 2 only are correct.' When blood passing through the brain is concentrated, the body releases antidiuretic hormone (ADH) (option 1), which promotes water reabsorption in the kidneys. As a result, more water is reabsorbed (option 2) from the filtrate, reducing the volume of urine and increasing its concentration. The concentration of urine being hypotonic (option 3) is incorrect because concentrated urine is hypertonic, not hypotonic."
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first."
+          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first.",
+          "explanation": "The correct option is 'Both statements are true and the second statement is NOT a correct explanation of the first.' While both statements are true, the second statement is not a correct explanation of the first. The efficiency of energy transfer in an ecosystem is indeed low, but the reason for this is not solely because there are always fewer organisms at each trophic level. The low efficiency is due to energy loss through heat, waste products, and incomplete digestion. The other options are incorrect because the second statement is either a correct explanation or the first statement is false, which is not the case here."
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
+          "explanation": "The correct option is 'Both statements are true and the second statement is a correct explanation of the first.' Amoeba does lack a respiratory system, and it is indeed unicellular. The absence of a respiratory system in amoeba is due to its small size and high surface area-to-volume ratio, which allows for efficient gas exchange through diffusion. The second statement correctly explains why amoeba lacks a respiratory system. The other options are incorrect because the second statement is either not a correct explanation or the first statement is false, which is not the case here."
         },
         {
           "questionNumber": "28",
@@ -449,9 +476,10 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": "The correct option is 'First statement is True. Second statement is False.' While the first statement is true that two normal parents can give birth to an albino child, albinism is not caused by a dominant gene. In fact, albinism is typically caused by a recessive gene mutation that affects the production of melanin, the pigment responsible for the coloration of skin, hair, and eyes. The other options are incorrect because the second statement is either a correct explanation or the first statement is false, which is not the case here."
         },
-        {
+            {
           "questionNumber": "29",
           "question": null,
           "image": null,
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first."
+          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first.",
+          "explanation": "While both statements are true, the second statement is not a correct explanation of the first. Amino acids are indeed the end products of protein digestion. Excess amino acids are indeed deaminated in the liver. However, the deamination of excess amino acids in the liver does not explain why amino acids are the end products of protein digestion."
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": "The correct option is 'First statement is True. Second statement is False.' The first statement is true that a pink coloration is observed when saliva is tested with Millon's reagent. However, saliva does not contain a protein digesting enzyme. Saliva contains enzymes like amylase for the digestion of carbohydrates, but not specific enzymes for protein digestion."
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Granular layer.",
             "Sebaceous gland."
           ],
-          "wordAnswer": "Malpighian layer."
+          "wordAnswer": "Malpighian layer.",
+          "explanation": "The correct option is 'Malpighian layer.' The Malpighian layer is responsible for producing melanin, which is the pigment that gives color to the skin, hair, and eyes. \n\n- Meissner's corpuscle is a touch receptor. It does not produce melanin. \n- Granular layer does not produce melanin. Its cells replace those of the cornified layer. \n- Sebaceous gland does not produce melanin. It secretes sebum which keeps the skin supple and also has antiseptic properties to prevent bacterial growth."
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Water vapour.",
             "Nitrogen."
           ],
-          "wordAnswer": "Nitrogen."
+          "wordAnswer": "Nitrogen.",
+          "explanation": "The correct option is 'Nitrogen.' The percentage of nitrogen in inspired air and expired air remains the same because it is neither used nor produce by the body. Oxygen, carbon dioxide, and water vapor undergo changes in concentration due to tissue respiration."
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Parasitism.",
             "Predation."
           ],
-          "wordAnswer": "Saprophytism."
+          "wordAnswer": "Saprophytism.",
+          "explanation": "The correct option is 'Saprophytism.' Saprophytism refers to the feeding on dead organic matter. Organisms that exhibit saprophytic nutrition obtain nutrients by decomposing and absorbing nutrients from dead organic material. \n\n- Photosynthesis (option 2), parasitism (option 3), and predation (option 4) are incorrect options because they involve different feeding mechanisms that are not related to dead organic matter."
         },
         {
           "questionNumber": "34",
@@ -546,9 +579,10 @@
             "Cornea.",
             "Optic nerve."
           ],
-          "wordAnswer": "Cornea."
+          "wordAnswer": "Cornea.",
+          "explanation": "The correct option is 'Cornea.' The cornea is the transparent front part of the eye that is responsible for the initial refraction of light before it is focused onto the retina. \n- The iris (option 1) controls the size of the pupil (option 2). It is not involved in the refraction of light. \n- The optic nerve (option 4) transmits visual information from the retina to the brain. It does not refract light"
         },
-        {
+            {
           "questionNumber": "35",
           "question": "Carries impulses to the spinal cord in a reflex arc.",
           "image": null,
@@ -560,7 +594,8 @@
             "Ventral root.",
             "Motor neuron."
           ],
-          "wordAnswer": "Sensory neuron."
+          "wordAnswer": "Sensory neuron.",
+          "explanation": "The correct option is 'Sensory neuron.' In a reflex arc, the sensory neuron carries impulses from the sensory receptor to the spinal cord. It is responsible for transmitting sensory information to the central nervous system. The relay neuron (option 1), ventral root (option 3), and motor neuron (option 4) are incorrect options because they do not carry impulses to the spinal cord in a reflex arc."
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Sulphur dioxide.",
             "Carbon dioxide."
           ],
-          "wordAnswer": "Carbon monoxide."
+          "wordAnswer": "Carbon monoxide.",
+          "explanation": "The correct option is 'Carbon monoxide.' Carbon monoxide prevents the normal binding of oxygen to hemoglobin in the blood, leading to a decreased oxygen-carrying capacity. Nitrogen oxide, sulphur dioxide, and carbon dioxide (options 1, 3, and 4) are incorrect options because they do not have the same inhibitory effect on oxygen carriage by blood."
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Saprophyte.",
             "Herbivore."
           ],
-          "wordAnswer": "Herbivore."
+          "wordAnswer": "Herbivore.",
+          "explanation": "The correct option is 'Herbivore.' A primary consumer is an organism that feeds on plants or other producers only. Herbivores obtain their energy by consuming plant material. \n\n- Omnivore feeds on both plant and animal material, \n- Carnivore feeds on primary consumers. \n- Saprophyte feeds on dead decaying organic matter of plants and animals."
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Rickets.",
             "Anaemia."
           ],
-          "wordAnswer": "Goitre."
+          "wordAnswer": "Goitre.",
+          "explanation": "The correct option is 'Goitre.' Goitre is a deficiency disease caused by the lack of iodine in the diet. It leads to the enlargement of the thyroid gland in the neck. \n\n- Scurvy (option 2), rickets (option 3), and anaemia (option 4) are incorrect options because they are caused by deficiencies of vitamin C, vitamin D, and iron, respectively, not iodine."
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Fleshy fruit.",
             "Spongy fruit."
           ],
-          "wordAnswer": "Winged fruit."
+          "wordAnswer": "Winged fruit.",
+          "explanation": "The correct option is 'Winged fruit.' Winged fruits have adaptations (such as wings or feathery structures) that allow them to be easily dispersed by wind. This adaptation helps the plant spread its seeds over a wider area. Brightly coloured fruit (option 1), fleshy fruit (option 3), and spongy fruit (option 4) are incorrect options because they do not have specific adaptations for dispersal by wind."
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Shortage of oxygen.",
             "Floods."
           ],
-          "wordAnswer": "Floods."
+          "wordAnswer": "Floods.",
+          "explanation": "The correct option is 'Floods.' Global warming can lead to an increase in extreme weather events, including heavy rainfall and flooding. Rising temperatures can cause changes in weather patterns, leading to an increased risk of floods in certain regions. Desertification (option 1), more heat leaving the earth (option 2), and shortage of oxygen (option 3) are incorrect options because they are not directly associated with the effects of global warming."
         }
       ]
     },
@@ -651,21 +691,23 @@
             "More auxin production",
             "More auxin accumulated on the un-illuminated side."
           ],
-          "wordAnswer": "More auxin accumulated on the un-illuminated side."
+          "wordAnswer": "More auxin accumulated on the un-illuminated side.",
+          "explanation": "The correct option is 'More auxin accumulated on the un-illuminated side.' Phototropism is the growth or bending of a plant in response to light. In this case, the shoot bends towards the direction of light because more auxin (a plant hormone) accumulates on the un-illuminated side, causing faster growth on that side. This leads to the bending of the shoot towards the light source."
         },
         {
           "questionNumber": "42",
-          "question": "The heart beats faster in the face of danger.",
+          "question": "The heart beats faster in the face of danger:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "due to secretion of glucagon.",
-            "due to secretion of thyroxine.",
-            "due to secretion of adrenaline.",
-            "due to secretion of insulin."
+            "Due to secretion of glucagon.",
+            "Due to secretion of thyroxine.",
+            "Due to secretion of adrenaline.",
+            "Due to secretion of insulin."
           ],
-          "wordAnswer": "due to secretion of adrenaline."
+          "wordAnswer": "Due to secretion of adrenaline.",
+          "explanation": "The correct option is 'Due to secretion of adrenaline.' Adrenaline, also known as epinephrine, is a hormone released by the adrenal glands in response to stress or danger. It increases heart rate and blood flow, preparing the body for a fight-or-flight response. \n\n- Glucagon (option 1), thyroxine (option 2), and insulin (option 4) are incorrect options because they do not directly affect heart rate in the face of danger."
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "For photosynthesis.",
             "To activate auxin."
           ],
-          "wordAnswer": "To activate enzymes."
+          "wordAnswer": "To activate enzymes.",
+          "explanation": "The correct option is 'To activate enzymes.' Water is essential for seed germination because it activates enzymes that break down stored nutrients in the seed, allowing the embryo to grow. This process is known as hydrolysis. \n\n- Softening the seed (option 1), photosynthesis (option 3), and activating auxin (option 4) are incorrect options because they are not the primary roles of water in seed germination."
         },
         {
           "questionNumber": "44",
@@ -693,9 +736,10 @@
             "kill the protoplasm.",
             "soften the leaf."
           ],
-          "wordAnswer": "remove chlorophyll."
+          "wordAnswer": "remove chlorophyll.",
+          "explanation": "The correct option is 'remove chlorophyll.' Boiling a leaf in alcohol dissolves chlorophyll, which is a green pigment responsible for photosynthesis. This allows the starch grains to become more visible during the starch test. Bursting starch grains (option 2), killing the protoplasm (option 3), and softening the leaf (option 4) are incorrect options because they do not represent the purpose of boiling the leaf in alcohol during the starch test."
         },
-        {
+            {
           "questionNumber": "45",
           "question": "Inhaled air contains 21% by volume of oxygen but exhaled air contains 16% by volume of oxygen. The percentage of the oxygen in inhaled air absorbed by the lungs is about",
           "image": null,
@@ -707,7 +751,8 @@
             "24%",
             "76%"
           ],
-          "wordAnswer": "5%"
+          "wordAnswer": "5%",
+          "explanation": "The correct answer is 5%. When we inhale air, it contains 21% oxygen. However, when we exhale, the oxygen content reduces to 16%. This drop in oxygen percentage indicates that the lungs absorb approximately 5% of the oxygen from the inhaled air."
         },
         {
           "questionNumber": "46",
@@ -721,25 +766,27 @@
             "the production of carbon dioxide.",
             "the production of alcohol."
           ],
-          "wordAnswer": "the production of carbon dioxide."
+          "wordAnswer": "the production of carbon dioxide.",
+          "explanation": "The correct answer is the production of carbon dioxide. During bread making, yeast ferments the sugars present in the dough, producing carbon dioxide gas as a byproduct. This gas gets trapped in the dough, causing it to rise."
         },
         {
           "questionNumber": "47",
-          "question": "Food webs differ from food chains in that",
+          "question": "Food webs differ from food chains in that:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "little energy lost in food webs.",
-            "each organism in a food web has more than one food source.",
-            "each organism in a food chain has more than one food source.",
-            "food chains are complex."
+            "Little energy lost in food webs.",
+            "Each organism in a food web has more than one food source.",
+            "Each organism in a food chain has more than one food source.",
+            "Food chains are complex."
           ],
-          "wordAnswer":  "each organism in a food web has more than one food source."
+          "wordAnswer": "Each organism in a food web has more than one food source.",
+          "explanation": "The correct answer is that each organism in a food web has more than one food source. Food webs are interconnected networks of multiple food chains, where each organism can have multiple sources of food. This allows for more complexity and stability in the ecosystem. The other options are incorrect because:\n\n- Little energy lost in food webs: Energy is transferred and lost at each trophic level in both food chains and food webs.\n- Each organism in a food chain has more than one food source is not correct: In a food chain, each organism typically has a single primary food source.\n- Food chains are complex: While food chains can be complex, the defining difference between food chains and food webs is the presence of multiple food sources for each organism in a food web."
         },
         {
           "questionNumber": "48",
-          "question": "The surface of the soil around a potted plant was covered with polythene and the potted plant was placed on a balance. The mass of the potted plant and pot was read after every 30 minutes and the results were recorded as shown in the table below. The amount of water lost by the plant after one an a half hours constituted what percentage of the initial mass?",
+          "question": "The surface of the soil around a potted plant was covered with polythene and the potted plant was placed on a balance. The mass of the potted plant and pot was read after every 30 minutes and the results were recorded as shown in the table below. The amount of water lost by the plant after one and a half hours constituted what percentage of the initial mass?",
           "image": "result_transpiration_june_2018.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -749,9 +796,10 @@
             "60%",
             "20%"
           ],
-          "wordAnswer": "20%"
+          "wordAnswer": "20%",
+          "explanation": "The correct answer is 20%. To calculate the percentage of water lost, we need to compare the initial mass of the potted plant and pot with the mass after one and a half hours. \n\tThe initial mass of the potted plant and pot(M1) = 500g. \n\tMass of potted plant and pot after one and a half hour(M2) = 400g. \n\tThe percentage of water lost = (M1-M2)/M1 * 100.\n\t= (100/500)*100 = 20%."
         },
-        {
+            {
           "questionNumber": "49",
           "question": "The allele for brown eye colour (B) is dominant over the allele for green eye colour (b). What is the probability of two heterozygotes producing an individual with the green eye colour?",
           "image": null,
@@ -763,7 +811,8 @@
             "1/4",
             "1"
           ],
-          "wordAnswer": "1/4"
+          "wordAnswer": "1/4",
+          "explanation": "The correct answer is 1/4. When two heterozygotes (Bb) mate, they can produce offspring with different combinations of alleles. In this case, the possible genotypes of the offspring are BB, Bb, and bb. The genotype bb represents the green eye colour. As per the given information, the allele for brown eye colour (B) is dominant over the allele for green eye colour (b). Therefore, the only way to produce an individual with green eye colour is if both parents contribute the recessive allele (b). This occurs with a probability of 1/4. The other options are incorrect because:\n\n- 3/4: This option represents the probability of producing an individual with the dominant allele (B), not the green eye colour (bb).\n- 1/4: This is the correct answer.\n- 1: This option represents the probability of producing an individual with any eye colour, not specifically green eye colour."
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "22",
             "19.5"
           ],
-          "wordAnswer": "20.5"
+          "wordAnswer": "20.5",
+          "explanation": "The correct answer is 20.5. From the graph, we can see that the rate of photosynthesis increases with increasing carbon dioxide concentration up to a certain point, after which it levels off. At a carbon dioxide concentration of 0.7%, the rate of photosynthesis is approximately 20.5"
         }
       ]
     }
