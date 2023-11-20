@@ -9,6 +9,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.AssertReader
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.SectionNavigationRecyclerViewAdapter
@@ -66,7 +67,8 @@ class PaperActivity : SubscriptionActivity(),
         _viewModel.setExamItemData(examItemDataModel)
         _viewModel.setSubjectName(bundle.getString("subjectName")!!)
 
-        paperDataJsonString = getJsonFromAssets(_viewModel.getExamFileName())
+//        paperDataJsonString = getJsonFromAssets(_viewModel.getExamFileName())
+        paperDataJsonString = AssertReader.getJsonFromAssets(this, _viewModel.getExamFileName())
         _viewModel.initPaperData(paperDataJsonString)
         _viewModel.setCurrentFragmentIndex(0)
 
@@ -138,10 +140,6 @@ class PaperActivity : SubscriptionActivity(),
 
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-
-    }
 
     private fun loadFragment(){
         when(_viewModel.getCurrentFragmentIndex()){
@@ -166,19 +164,21 @@ class PaperActivity : SubscriptionActivity(),
         resetCurrentSectionFragment()
         _viewModel.setCurrentSectionIndex(position)
 
-        if (!getIsPackageActive() && !_viewModel.getIsSectionAnsweredAt(position)
-        ) {
+        if (!getIsPackageActive()) {
             showPackageExpiredDialog()
-
-        } else if (!_viewModel.getIsSectionAnsweredAt(position)) {
+//                    && !_viewModel.getIsSectionAnsweredAt(position)
+        }else{
             gotoSection(position)
-        } else {
-            Toast.makeText(
-                this,
-                "${_viewModel.getSectionNumberAt(position)} ${resources.getString(R.string.has_been_answered)}",
-                Toast.LENGTH_LONG
-            ).show()
         }
+        //        else if (!_viewModel.getIsSectionAnsweredAt(position)) {
+//            gotoSection(position)
+//        } else {
+//            Toast.makeText(
+//                this,
+//                "${_viewModel.getSectionNumberAt(position)} ${resources.getString(R.string.has_been_answered)}",
+//                Toast.LENGTH_LONG
+//            ).show()
+//        }
 
     }
 
@@ -210,25 +210,6 @@ class PaperActivity : SubscriptionActivity(),
 
         }
         return super.onOptionsItemSelected(item)
-    }
-
-    private fun getJsonFromAssets(fileName: String): String? {
-        lateinit var json: String
-        val charset: Charset = Charsets.UTF_8
-
-        try {
-            val jsonFile = assets.open(fileName)
-            val size = jsonFile.available()
-            val buffer = ByteArray(size)
-
-            jsonFile.read(buffer)
-            jsonFile.close()
-            json = String(buffer, charset)
-
-        } catch (e: IOException) {
-            return null
-        }
-        return json
     }
 
     override fun onRequestToGoToResult(sectionResultData: SectionResultData) {

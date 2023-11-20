@@ -13,7 +13,7 @@
     <color name="color_primary_dark">#5E4885</color>
     <color name="color_primary_light">#B2DFDB</color>
     <color name="color_on_primary">#FFFFFFFF</color>
-    <color name="background">#FFFFFF</color>
+    <color name="background">#E9E8E8</color>
 
 <!--    <color name="color_secondary">#FFF3C885</color>-->
     <color name="color_secondary_light">#FAE4CC</color>

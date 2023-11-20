@@ -101,18 +101,18 @@
         },
         {
           "questionNumber": "7",
-          "question": "Which graph shows the effect of increase humidity on the transpiration rate of a plants?",
-          "image": "graphs_transpiration_rate_transport_plants.jpg",
+          "question": "Which of the following structures regulate the opening and closing of stomata in plants?",
+          "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "Guard cells",
+            "Xylem vessels",
+            "Phloem sieve tubes",
+            "Epidermal cells"
           ],
-          "wordAnswer": "B",
-          "explanation": "Increase in humidity decreases the rate of transpiration as shown in graph B.\n\n- According to graph A an B, increase in humidity increases the rate of transpiration which is not correct.\n- Graph C is also wrong because it shows an increased transpiration rate for increasing values of humidity up to a certain point. "
+          "wordAnswer": "Guard cells",
+          "explanation": "The opening and closing of stomata in plants are regulated by specialized cells called guard cells. Guard cells are located on the surface of leaves and surround each stoma (pore). These cells have the ability to change shape, which controls the size of the stomatal opening. When water enters the guard cells, they become turgid and swell, causing the stomata to open. Conversely, when water leaves the guard cells, they become flaccid and shrink, leading to the closure of stomata. This mechanism helps regulate the exchange of gases (such as oxygen and carbon dioxide) and the loss of water vapor through transpiration."
         }
       ]
     },
@@ -198,17 +198,17 @@
         },
         {
           "questionNumber": "13",
-          "question": "Setup A was left for 6 hours in an environment with the following characteristics; warm, windy and bright sunshine. Which process explains the result in B?",
-          "image": "setup_transpiration1_transport_plants.jpg",
+          "question": "Which of the following is the main force responsible for the movement of water in the xylem of plants?",
+          "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Active transport of water into the root hairs.",
-            "Evaporation of water from the flask.",
-            "Transpiration from the leaves of the plant.",
-            "Photosynthesis in the leaves of the plant."
+            "Capillary action",
+            "Active transport",
+            "Root pressure",
+            "Transpiration pull"
           ],
-          "wordAnswer": "Transpiration from the leaves of the plant.",
+          "wordAnswer": "Transpiration pull",
           "explanation": null
         },
         {

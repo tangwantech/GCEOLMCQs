@@ -5,6 +5,8 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.provider.Settings
+import android.view.LayoutInflater
+import android.webkit.WebView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -97,15 +99,18 @@ class GCESplashActivity : AppCompatActivity() {
     }
 
     private fun displayTermsOfServiceDialog(){
+        val view = LayoutInflater.from(this).inflate(R.layout.terms_of_use_layout, null)
+        val webView: WebView = view.findViewById(R.id.webView)
+        webView.loadUrl(MCQConstants.TERMS_URL)
         termsOfServiceDialog = AlertDialog.Builder(this).create()
-        termsOfServiceDialog?.setTitle("Terms of use of service")
-        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "Accept") { _, _ ->
+        termsOfServiceDialog?.setView(view)
+        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_POSITIVE, resources.getString(R.string.accept)) { _, _ ->
             saveTermsOfServiceAcceptedStatus(true)
             displayInitializingAppDialog()
             checkIsTermsOfServiceAccepted()
 
         }
-        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_NEGATIVE, "Decline") { _, _ ->
+        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_NEGATIVE, resources.getString(R.string.decline)) { _, _ ->
             finish()
         }
         termsOfServiceDialog?.show()

@@ -29,8 +29,16 @@
           "fileName": "excretion-osmoregulation-homeostasis.json"
         },
         {
+          "title": "Cell division",
+          "fileName": "cell_division.json"
+        },
+        {
           "title": "Reproduction in Plants and Animals",
           "fileName": "Reproduction-in-plants-and-animals.json"
+        },
+        {
+          "title": "Coordination in Animals",
+          "fileName": "coordination-in-animals.json"
         }
 
       ]

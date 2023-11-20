@@ -71,6 +71,9 @@ class MCQConstants{
         const val COUNT_DOWN_INTERVAL = 1000L
         const val TIME_TO_ANIMATE_TIMER = 60000L
 
+        const val SUBJECT_FILE_DATA_NAME = "subject_data.json"
+        const val TERMS_URL = "file:///android_asset/Terms of Use of Service.html"
+
 
 
     }

@@ -18,6 +18,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.AssertReader
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.adapters.HomeRecyclerViewAdapter
@@ -72,8 +73,9 @@ class MainActivity : SubscriptionActivity(),
 
     private fun setupViewModel() {
         viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
-        viewModel.setSubjectAndFileNameDataListModel(getJsonFromAssets())
-//        viewModel.setRepositoryLink(this, getMobileID())
+//        viewModel.setSubjectAndFileNameDataListModel(getJsonFromAssets())
+        viewModel.setSubjectAndFileNameDataListModel(AssertReader.getJsonFromAssets(this, MCQConstants.SUBJECT_FILE_DATA_NAME))
+//
     }
 
     private fun initViews() {
@@ -171,24 +173,6 @@ class MainActivity : SubscriptionActivity(),
         }
     }
 
-
-
-    private fun getJsonFromAssets(): String? {
-        val charset: Charset = Charsets.UTF_8
-
-        return try {
-            val jsonFile = assets.open("subject_data.json")
-            val size = jsonFile.available()
-            val buffer = ByteArray(size)
-
-            jsonFile.read(buffer)
-            jsonFile.close()
-            String(buffer, charset)
-
-        } catch (e: IOException) {
-            null
-        }
-    }
 
     override fun onResume() {
         super.onResume()
