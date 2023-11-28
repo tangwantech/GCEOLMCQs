@@ -66,18 +66,18 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/score"
-            android:textColor="@color/white"
+            android:textColor="@color/color_on_primary"
             android:textSize="24dp"
             android:textStyle="bold"
             android:paddingStart="@dimen/margin_14"
             android:paddingEnd="@dimen/margin_8"/>
 
-        <com.google.android.material.divider.MaterialDivider
-            android:layout_width="2dp"
-            android:layout_height="match_parent"
-            android:layout_margin="@dimen/margin_4"
-            android:background="@color/color_on_primary"
-            android:visibility="gone"/>
+<!--        <com.google.android.material.divider.MaterialDivider-->
+<!--            android:layout_width="2dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="@dimen/margin_4"-->
+<!--            android:background="@color/color_on_primary"-->
+<!--            android:visibility="gone"/>-->
 
         <TextView
             android:id="@+id/tvSectionScore"

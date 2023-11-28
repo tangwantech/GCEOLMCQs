@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
 
         <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
         <item name="colorOnPrimary">@color/primary_text_color</item>
 
         <!-- Secondary brand color. -->
@@ -13,10 +13,10 @@
         <item name="colorOnSecondary">@color/color_on_secondary</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/color_primary_variant</item>
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@drawable/background_gradient</item>
-        <item name="backgroundColor">@color/background</item>
+<!--        <item name="backgroundColor">@color/background</item>-->
     </style>
 
 
@@ -24,6 +24,16 @@
     <style name="CustomTabStyle" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">@dimen/text_size_14</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/color_primary</item>
+        <item name="tabIndicatorColor">@color/color_secondary</item>
+        <item name="tabTextColor">@color/color_on_primary</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabInlineLabel">true</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@color/color_secondary</item>
+        <item name="tabIndicatorHeight">4dp</item>
+
     </style>
 
 

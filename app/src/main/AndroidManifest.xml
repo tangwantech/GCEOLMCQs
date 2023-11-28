@@ -16,7 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GCEOLMCQ"
         tools:targetApi="33">
-
+        <activity
+            android:name=".activities.AboutActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".activities.GCESplashActivity"
             android:exported="true"
@@ -52,10 +58,10 @@
         </activity>
         <activity
             android:name=".activities.PaperActivity"
+            android:configChanges="orientation|fontScale"
             android:exported="false"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait"
-            android:configChanges="orientation|fontScale">
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

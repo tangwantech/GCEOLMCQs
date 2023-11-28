@@ -58,7 +58,12 @@ class GCESplashActivity : AppCompatActivity() {
 
         viewModel.getAreSubjectsPackagesAvailable().observe(this){subjectPackagesAvailable ->
             subjectPackagesAvailable?.let{
-                gotoMainActivity()
+                if(it){
+                    gotoMainActivity()
+                }else{
+                    displayServerTimeOutDialog()
+                }
+
             }
         }
 
@@ -130,11 +135,13 @@ class GCESplashActivity : AppCompatActivity() {
 
     private fun displayServerTimeOutDialog(){
         val timeoutDialog = AlertDialog.Builder(this).apply {
-            setTitle("Failed to Initialize")
-            setMessage("server timeout")
-            setPositiveButton("Retry"){_, _ ->
-                checkRetryCount()
-            }
+//            setTitle("GCE OL MCQs failed to Initialize")
+            setMessage("GCE OL MCQs failed to Initialize due to connection error. Please ensure you have an active internet connection.")
+//            setPositiveButton("Retry"){_, _ ->
+//                checkRetryCount()
+//                finish()
+//
+//            }
             setNegativeButton("Exit"){_, _ ->
                 finish()
             }
@@ -151,7 +158,7 @@ class GCESplashActivity : AppCompatActivity() {
 
     private fun gotoMainActivity(){
         CoroutineScope(Dispatchers.IO).launch{
-            delay(3000L)
+            delay(1500L)
             withContext(Dispatchers.Main){
                 val intent = Intent(this@GCESplashActivity, MainActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)

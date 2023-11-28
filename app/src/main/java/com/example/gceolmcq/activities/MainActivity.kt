@@ -173,6 +173,11 @@ class MainActivity : SubscriptionActivity(),
         }
     }
 
+    private fun gotoAboutUs(){
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
+    }
+
 
     override fun onResume() {
         super.onResume()
@@ -201,7 +206,7 @@ class MainActivity : SubscriptionActivity(),
                 privacyPolicy()
             }
             R.id.about -> {
-//                Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
+                gotoAboutUs()
             }
         }
         return super.onOptionsItemSelected(item)

@@ -170,15 +170,7 @@ class PaperActivity : SubscriptionActivity(),
         }else{
             gotoSection(position)
         }
-        //        else if (!_viewModel.getIsSectionAnsweredAt(position)) {
-//            gotoSection(position)
-//        } else {
-//            Toast.makeText(
-//                this,
-//                "${_viewModel.getSectionNumberAt(position)} ${resources.getString(R.string.has_been_answered)}",
-//                Toast.LENGTH_LONG
-//            ).show()
-//        }
+
 
     }
 

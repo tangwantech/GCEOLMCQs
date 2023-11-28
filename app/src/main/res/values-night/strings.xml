@@ -43,7 +43,7 @@
     <string name="retry">Retry</string>
     <string name="ok">OK</string>
     <string name="pending_transaction">Pending transaction</string>
-    <string name="time_remaining">Time remaining</string>
+    <string name="time_remaining">Time remaining:</string>
     <string name="result">Result</string>
     <string name="sections_answered">Sections answered</string>
     <string name="tvPaperScore">Total Score</string>
@@ -130,6 +130,8 @@
     <string name="see_explanation">See Explanation</string>
     <string name="accept">Accept</string>
     <string name="decline">Decline</string>
+    <string name="developer">Developer: Tangwan Tech</string>
+    <string name="email">Email: tangwantech@gmail.com</string>
 
 
     <string-array name="paper_instruction">
@@ -143,10 +145,10 @@
     </string-array>
 
     <string-array name="package_types">
-        <item>MCQ 1H</item>
-        <item>MCQ 2H</item>
+<!--        <item>MCQ 1H</item>-->
+<!--        <item>MCQ 2H</item>-->
         <item>MCQ 3H</item>
-        <item>MCQ 4H</item>
+<!--        <item>MCQ 4H</item>-->
 <!--        <item>MCQ 5H</item>-->
         <!--        <item>MCQ 6H</item>-->
         <!--        <item>MCQ 12H</item>-->
@@ -154,10 +156,10 @@
     </string-array>
 
     <string-array name="package_durations">
-        <item>1</item>
-        <item>2</item>
+<!--        <item>1</item>-->
+<!--        <item>2</item>-->
         <item>3</item>
-        <item>4</item>
+<!--        <item>4</item>-->
 <!--        <item>5</item>-->
         <!--        <item>6</item>-->
         <!--        <item>12</item>-->
@@ -165,10 +167,10 @@
     </string-array>
 
     <string-array name="package_prices">
-        <item>25</item>
-        <item>50</item>
-        <item>75</item>
-        <item>100</item>
+<!--        <item>25</item>-->
+<!--        <item>50</item>-->
+<!--        <item>75</item>-->
+        <item>5</item>
 <!--        <item>100</item>-->
         <!--        <item>120</item>-->
         <!--        <item>200</item>-->

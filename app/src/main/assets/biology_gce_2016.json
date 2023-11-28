@@ -10,109 +10,109 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-         "questionNumber":"1",
-         "question":"Which of the following atmospheric conditions would increase the rate of water loss in a plant?",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          "questionNumber": "1",
+          "question": "Which of the following atmospheric conditions would increase the rate of water loss in a plant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "Windy, cold and damp",
             "Windy, hot and dry",
             "Hot, windy and damp",
             "Damp, hot and no wind"
-         ],
-         "wordAnswer":"Windy, hot and dry",
-         "explanation":"The presence of wind increases the rate of transpiration in plants by creating a higher concentration gradient between the plant's leaves and the surrounding air. Hot and dry conditions further enhance water loss as the dry air absorbs moisture from the plant's leaves."
-      },
-      {
-         "questionNumber":"2",
-         "question":"Which of the following best describes a typical reptile?",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          ],
+          "wordAnswer": "Windy, hot and dry",
+          "explanation": "The presence of wind increases the rate of transpiration in plants by creating a higher concentration gradient between the plant's leaves and the surrounding air. Hot and dry conditions further enhance water loss as the dry air absorbs moisture from the plant's leaves."
+        },
+        {
+          "questionNumber": "2",
+          "question": "Which of the following best describes a typical reptile?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "Scaly, warm blooded and egg-laying",
             "Invertebrate, scaly and cold blooded",
             "Vertebrate, scaly and cold blooded",
             "Hairy, vertebrate and cold blooded"
-         ],
-         "wordAnswer":"Vertebrate, scaly and cold blooded",
-         "explanation":"Reptiles are vertebrates, meaning they have a backbone. They are also characterized by their scaly skin, which provides protection and helps reduce water loss. Reptiles are cold-blooded, meaning their body temperature is dependent on the external environment."
-      },
-      {
-         "questionNumber":"3",
-         "question":"A solution from crushed germinating beans was put in a test tube. Millon's reagent was added and the test tube was heated. Which of the following conclusions is correct?",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          ],
+          "wordAnswer": "Vertebrate, scaly and cold blooded",
+          "explanation": "Reptiles are vertebrates, meaning they have a backbone. They are also characterized by their scaly skin, which provides protection and helps reduce water loss. Reptiles are cold-blooded, meaning their body temperature is dependent on the external environment."
+        },
+        {
+          "questionNumber": "3",
+          "question": "A solution from crushed germinating beans was put in a test tube. Millon's reagent was added and the test tube was heated. Which of the following conclusions is correct?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "A blue coloration is observed.",
             "A purple coloration is observed.",
             "A red coloration is observed.",
             "No colour change."
-         ],
-         "wordAnswer":"A red coloration is observed.",
-         "explanation":"Millon's reagent is used to detect the presence of phenolic compounds, such as tyrosine and tryptophan. When heated, a red coloration is observed, indicating the presence of these compounds in the solution from crushed germinating beans."
-      },
-      {
-         "questionNumber":"4",
-         "question":"Which of the following best describes blood in the pulmonary artery?",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          ],
+          "wordAnswer": "A red coloration is observed.",
+          "explanation": "Millon's reagent is used to detect the presence of phenolic compounds, such as tyrosine and tryptophan. These are amino acids present in proteins. When heated, a red coloration is observed, indicating the presence of proteins in the solution from crushed germinating beans."
+        },
+        {
+          "questionNumber": "4",
+          "question": "Which of the following best describes blood in the pulmonary artery?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "Deoxygenated, poor in food and under low pressure.",
             "Oxygenated, rich in food and under high pressure.",
             "Oxygenated, poor in food and under low pressure.",
             "Deoxygenated, rich in food and under high pressure."
-         ],
-         "wordAnswer":"Deoxygenated, poor in food and under low pressure.",
-         "explanation":"The pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation. It is poor in food (nutrients) because nutrients are mainly transported through the systemic circulation. The blood in the pulmonary artery is under low pressure as it is pumped from the right ventricle of the heart."
-      },
-      {
-         "questionNumber":"5",
-         "question":"A shoot illuminated on one side will:",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          ],
+          "wordAnswer": "Deoxygenated, poor in food and under low pressure.",
+          "explanation": "The pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation. It is poor in food (nutrients) because the blood it transports comes from tissues where nutrients have been absorbed and metabolised. The blood in the pulmonary artery is under low pressure as it is pumped from the right ventricle of the heart."
+        },
+        {
+          "questionNumber": "5",
+          "question": "A shoot illuminated on one side will:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "Bend to one side.",
             "Bend towards the light source.",
             "Look weak.",
             "Lack chlorophyll."
-         ],
-         "wordAnswer":"Bend towards the light source.",
-         "explanation":"Phototropism is the growth response of plants to light. When a shoot is illuminated on one side, it produces a hormone called auxin, which causes the cells on the shaded side to elongate. This differential growth results in the shoot bending towards the light source."
-      },
-      {
-         "questionNumber":"6",
-         "question":"The pigment melanin that gives the skin its colour is found in:",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          ],
+          "wordAnswer": "Bend towards the light source.",
+          "explanation": "When a shoot is illuminated on one side, it causes auxin to migrate to the un-illuminated side, High auxin concentration on the shaded side stimulates rapid growth. This differential growth results in the shoot bending towards the light source."
+        },
+        {
+          "questionNumber": "6",
+          "question": "The pigment melanin that gives the skin its colour is found in:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "Malpighian layer.",
             "Granular layer.",
             "Cornified layer.",
             "Dermis."
-         ],
-         "wordAnswer":"Malpighian layer.",
-         "explanation":"Melanin, the pigment responsible for skin coloration, is produced by melanocytes located in the Malpighian layer of the skin. The Malpighian layer is the innermost layer of the epidermis and contains actively dividing cells."
-      },
-      {
-         "questionNumber":"7",
-         "question":"Trypsin is secreted by:",
-         "image":null,
-         "twoStatements":null,
-         "nonSelectableOptions":null,
-         "selectableOptions":[
+          ],
+          "wordAnswer": "Malpighian layer.",
+          "explanation": "Melanin is produced by melanocytes located in the Malpighian layer of the skin. The Malpighian layer is the innermost layer of the epidermis."
+        },
+        {
+          "questionNumber": "7",
+          "question": "Trypsin is secreted by:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
             "Duodenal wall.",
             "Stomach wall.",
             "Pancreas.",
             "Ileum."
-         ],
-         "wordAnswer":"Pancreas.",
-         "explanation":"Trypsin is an enzyme involved in the digestion of proteins. It is produced and secreted by the pancreas into the small intestine (duodenum) in its inactive form, trypsinogen. Once in the intestine, trypsinogen is activated to trypsin, which then helps break down proteins into smaller peptide fragments."
+          ],
+          "wordAnswer": "Pancreas.",
+          "explanation": "Trypsin is an enzyme produced and secreted by the pancreas into the small intestine (duodenum). Trypsin is initially secreted in an inactive form called Trypsinogen. Once in the intestine, trypsinogen is activated to trypsin by enterokinase. Trypsin breaks down proteins into smaller peptide fragments."
         }
       ]
     },
@@ -134,7 +134,7 @@
             "It is the cocoon."
           ],
           "wordAnswer": "It feeds heavily.",
-          "explanation": "The correct answer is 'It feeds heavily.' Stage X in the life cycle of a housefly is the larval stage, also known as the maggot stage. During this stage, the larva feeds heavily to grow and develop. The other options are incorrect because stage X is not segmented, dormant, or the cocoon."
+          "explanation": "Stage X in the life cycle of a housefly is the larval stage, also known as the maggot stage. During this stage, the larva feeds heavily to grow and develop."
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "Epidermal cells."
           ],
           "wordAnswer": "A cuticle",
-          "explanation": "The correct answer is 'A cuticle' because adult insects are covered by a waxy and waterproof layer called the cuticle. This cuticle provides protection and helps prevent water loss. The other options, such as scales, hairy skin, or epidermal cells, are not correct descriptions of the outer covering of adult insects."
+          "explanation": "Adult insects are covered by a waxy and waterproof layer called the cuticle. This cuticle provides protection and helps prevent water loss."
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Ureter"
           ],
           "wordAnswer": "Kidney",
-          "explanation": "The correct answer is 'Kidney' because the production of urine in mammals primarily occurs in the kidneys. The kidneys filter waste products and excess water from the blood, producing urine as a result. The other options, such as testis, bladder, or ureter, are not directly involved in urine production."
+          "explanation": "Production of urine in mammals occurs in the kidneys. The kidney contains structures known as nephrons which carry out ultra-filtration of blood, selective reasorption of useful substances from the glomrular filtate and tubular secretion of unwanted substance into the glomerular filtate, resulting in urine formation. \n The other structures do not produce urine.\n\n The testis produces sperm and male sex hormones such as testosterone. \n\n The ureter carries urine from the kidneys to the bladder. \n\n The bladder temporarily stores urine."
         },
         {
           "questionNumber": "11",
@@ -175,11 +175,11 @@
           "selectableOptions": [
             "Stigma",
             "Ovary",
-            "Pollen",
+            "Style",
             "Anthers"
           ],
           "wordAnswer": "Anthers",
-          "explanation": "The correct answer is 'Anthers' because pollen grains, which contain the male reproductive cells, are produced in the anthers of a flower. The anthers are part of the stamen, the male reproductive organ of a flower. The other options, such as stigma, ovary, or pollen, are not the correct sites of pollen grain production."
+          "explanation": "The Anther (a part of the male reproductive organ of a flower) produces pollen grains which contain the male gametes. \n\n The stigma receives pollen grains from the anthers during pollination.\n The style connects the stigma to the ovary and also provides nourishment to the pollen tube as it grows towards the ovule.\n\n The ovary contains and protects the ovules."
         },
         {
           "questionNumber": "12",
@@ -209,7 +209,7 @@
             "Choroid"
           ],
           "wordAnswer": "Retina",
-          "explanation": "Light-sensitive cells are found in the retina of the eye. These cells, called rods and cones, convert light into electrical signals that are sent to the brain, allowing us to see."
+          "explanation": "Light-sensitive cells are found in the retina of the eye. These cells, called rods and cones, convert light into electrical signals that are sent to the brain through the optic nerves, allowing us to see."
         },
         {
           "questionNumber": "14",
@@ -224,7 +224,7 @@
             "Pupil only"
           ],
           "wordAnswer": "Iris and pupil",
-          "explanation": "The amount of light entering the eye is controlled by the iris and pupil. The iris regulates the size of the pupil, which determines the amount of light that enters the eye."
+          "explanation": "The iris regulates the size of the pupil, which determines the amount of light that enters the eye."
         },
         {
           "questionNumber": "15",
@@ -239,7 +239,7 @@
             "Cornea, pupil, humours and retina"
           ],
           "wordAnswer": "Cornea, humour and lens",
-          "explanation": "The refraction of light in the eye is done by the cornea, humor, and lens. The cornea and lens help to bend and focus light onto the retina, allowing us to see objects clearly."
+          "explanation": "The cornea begins the initial refraction of light, followed by the aqueous humour, lens and finally the vitreous humour before it is focused onto the retina, allowing us to see objects clearly."
         },
         {
           "questionNumber": "16",
@@ -254,7 +254,7 @@
             "Hawk"
           ],
           "wordAnswer": "Hawk",
-          "explanation": "In the given food web, a tertiary consumer is an animal that feeds on secondary consumers. Hawk is the correct answer because it is the only option that is positioned at the top of the food chain and preys on other animals, making it a tertiary consumer. The other options, such as Toad, Rat, and Hen, are positioned lower in the food chain and are either primary or secondary consumers."
+          "explanation": "In the given food web, a tertiary consumer is an animal that feeds on secondary consumers. Hawk is the correct answer because it is the only animal that is positioned at the top of the food chain and preys on other animals, making it a tertiary consumer. \n\n The other options, such as Toad, Rat, and Hen, are positioned lower in the food chain and are either primary or secondary consumers."
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "Hed, legs and abdomen."
           ],
           "wordAnswer": "Head, thorax and abdomen.",
-          "explanation": "The body of an adult insect is divided into three main parts: Head, thorax, and abdomen. These parts are distinct and serve different functions. The head contains sensory organs and mouthparts, the thorax is where the legs and wings are attached, and the abdomen houses the digestive, reproductive, and respiratory systems. The other options do not accurately represent the division of the insect's body."
+          "explanation": "The body of an adult insect is divided into three main parts: Head, thorax, and abdomen. These parts are distinct and serve different functions. The head contains sensory organs and mouthparts, the thorax is where the legs and wings are attached, and the abdomen houses the digestive, reproductive, and respiratory systems."
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "Renal tubules"
           ],
           "wordAnswer": "Glomerulus",
-          "explanation": "Ultra-filtration, the process of filtering blood to form urine, takes place in the glomerulus of the mammalian kidney. The glomerulus is a network of tiny blood vessels called capillaries that allow small molecules, such as water, salts, and waste products, to pass through while retaining larger molecules like proteins and blood cells. The other options, such as Medulla, Pelvis, and Renal tubules, are not directly involved in the process of ultra-filtration."
+          "explanation": "Ultra-filtration, the process of filtering blood to form urine, takes place in the glomerulus of the mammalian kidney. The glomerulus is a network of tiny blood vessels called capillaries that allow small molecules, such as water, salts, and waste products, to pass through while retaining larger molecules like proteins and blood cells. \n The other options are wrong because:\n\n The medulla contains the renal tubules which do not carryout ultra-filtration. \n\n The pelvis collects urine from the collecting ducts. \n\n The renal tubules carry out selective reabsorption of useful substances and tubular secretion of unwaned substances before urine is formed."
         },
         {
           "questionNumber": "19",
@@ -314,7 +314,7 @@
             "Giving time for cellulose to be digested."
           ],
           "wordAnswer": "Giving time for cellulose to be digested.",
-          "explanation": "Herbivorous mammals have long guts to facilitate the digestion of cellulose, a complex carbohydrate found in plant cell walls. The lengthy digestive system provides time for cellulose to be digested by the action of specialized microorganisms, such as bacteria, that live in the gut. This process allows herbivores to extract nutrients from plant material that would otherwise be indigestible. The other options, such as Storing food, Regurgitation, and Grinding food, do not accurately explain the purpose of a herbivorous mammal's long gut."
+          "explanation": "Herbivorous mammals have long guts to facilitate the digestion of cellulose, a complex carbohydrate found in plant cell walls. The lengthy digestive system provides time for cellulose to be digested by the action of cellulase produced by specialized microorganisms, such as bacteria, that live in the gut."
         }
       ]
     },
@@ -340,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": "During inspiration, the diaphragm flattens, which increases the volume of the lungs. This allows air to enter the lungs. The statement 'The lower ribs move downward' is incorrect because during inspiration, the lower ribs actually move upward and outward to further expand the chest cavity."
+          "explanation": "During inspiration, the diaphragm flattens, which increases the volume of the lungs. This allows air to enter the lungs. \n\nDuring inspiration, the lower ribs actually move upward and outward to further expand the chest cavity."
         },
         {
           "questionNumber": "22",
@@ -359,7 +359,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": "A virus is a parasite. It is an infectious agent that requires a host cell to replicate. The statement 'Can contain DNA and RNA' is not correct because viruses can have either DNA or RNA as their genetic material but not both. The statement 'Has a nuclear membrane' is incorrect because viruses do not have a true nuclear membrane like eukaryotic cells."
+          "explanation": "A virus is a parasite. It is an infectious agent that requires a host cell to replicate. It usually causes harm to its host(characteristic of a parasite).\n\n A virus can have either DNA or RNA as its genetic material but not both. \n\n A virus does not have a nuclear membrane."
         },
         {
           "questionNumber": "23",
@@ -378,7 +378,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": "Biotic factors in an ecosystem can have favorable effects. Pollination is one such effect, as it enables the transfer of pollen from the male reproductive organs of a flower to the female reproductive organs, leading to fertilization and reproduction. Decomposition of dead organic matter is also beneficial as it recycles nutrients back into the ecosystem. However, eutrophication is not a favorable effect but rather an excessive nutrient enrichment that can lead to harmful algal blooms and oxygen depletion in aquatic ecosystems."
+          "explanation": "Biotic factors in an ecosystem refers to the living factors. Pollination is one of such effect produced by insect, bats, birds etc. During pollination, pollen grains are transferred from the male reproductive organs of a flower to the female reproductive organs, leading to fertilization and reproduction. Decomposition of dead organic matter by saprophytic bacteria and fungi is also beneficial as it recycles nutrients back into the ecosystem. \n\n Eutrophication is not a favorable effect but rather an excessive nutrient enrichment that can lead to harmful algal blooms and oxygen depletion in aquatic ecosystems, resulting in death of some aquatic organisms."
         },
         {
           "questionNumber": "24",
@@ -397,7 +397,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": "Mushroom is a saprophyte, which means it obtains nutrients by feeding on dead organisms(2). Additionally, mushrooms carry out extracellular digestion (3), breaking down organic matter outside their cells and absorbing the nutrients. Hence, '2 and 3 only are correct'. Statement 1, 'It has no pigment,' is incorrect because the presence or absence of pigment is not a defining characteristic of being a saprophyte."
+          "explanation": "Mushroom is a saprophyte, which means it obtains nutrients by feeding on dead organisms. Additionally, mushrooms carry out extracellular digestion, breaking down organic matter outside their cells and absorbing the nutrients. \n\n The presence or absence of pigment is not a defining characteristic of being a saprophyte."
         },
         {
           "questionNumber": "25",
@@ -416,7 +416,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": "The wordAnswer '2 and 3 only are correct'. Statement 2, 'Moisture on alveolar walls,' is correct because the presence of moisture helps in the exchange of gases between the alveoli and the capillaries. Statement 3, 'Highly vascularized,' is also correct because the lungs have an extensive network of blood vessels, allowing for the transport of oxygen and carbon dioxide. Statement 1, 'Presence of thick-walled alveoli,' is incorrect because the alveoli are actually thin-walled to facilitate efficient gas exchange."
+          "explanation": "The presence of moisture on the alveolar walls helps to dissolve respiratory gases to facilitate diffusion between the alveoli and the capillaries. The lungs are highly vascularized, meaning they have an extensive network of blood vessels, allowing for the transport of oxygen and carbon dioxide.\n\n Alveoli are actually 'thin-walled' and not 'thick-walled' to facilitate efficient gas exchange."
         }
       ]
     },
@@ -441,7 +441,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": "The wordAnswer 'Both statements are True and the second statement is a correct explanation of the first' is correct because both statements are indeed true. The first statement states that the heart beats fast at the face of danger, which is true. The second statement states that adrenaline is secreted into the blood stream during danger, which is also true. Furthermore, the second statement provides a correct explanation for the first statement, as the secretion of adrenaline into the blood stream is responsible for the increased heart rate during danger."
+          "explanation": "Both statements are True and the second statement is a correct explanation of the first. At the face of danger, adrenaline is secreted into the blood stream and carried to the heart where it stimulates the heart to beat faster. This increase in heart rate helps to supply oxygen and nutrients faster to the skeletal muscles in preparation for action."
         },
         {
           "questionNumber": "27",
@@ -459,7 +459,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": "The wordAnswer 'First statement is False. Second statement is True' is correct because the first statement 'ADH is secreted by the kidney' is actually false. ADH (Antidiuretic Hormone) is not secreted by the kidney, but rather it is synthesized and released by the hypothalamus and stored in the posterior pituitary gland. However, the second statement 'ADH is secreted when blood is concentrated' is true. ADH is released in response to high blood osmolality or low blood volume, which indicates a concentrated blood solution. Therefore, while the first statement is false, the second statement is true, making the wordAnswer correct."
+          "explanation": "First statement is False. Second statement is True.\n\n ADH (Antidiuretic Hormone) is not secreted by the kidney but rather by the posterior pituitary in the brain. ADH is secreted when blood is concentrated or when the osmotic pressure of blood is high. ADH is carried to the kidneys where it stimulates the distal convoluted tubules and collecting ducts to become more permeable to water. Much water is thus reabsorbed from the glomerular filtrate and return to blood."
         },
         {
           "questionNumber": "28",
@@ -477,7 +477,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": "The wordAnswer 'First statement is True. Second statement is False' is correct because the first statement 'During swallowing breathing stops' is true. When we swallow, a reflex action prevents air from entering the lungs, which temporarily stops breathing. However, the second statement 'Entrance into the glottis is blocked by food during swallowing' is false. The glottis, which is the opening to the windpipe, is actually closed by the epiglottis during swallowing to prevent food from entering the airway. Therefore, while the first statement is true, the second statement is false, making the wordAnswer correct."
+          "explanation": "First statement is True. Second statement is False. is correct because the first statement 'During swallowing breathing stops. The glottis, which is the opening to the windpipe, is actually closed by the 'epiglottis' and not 'food'. This prevents food from entering the trachea."
         },
         {
           "questionNumber": "29",
@@ -495,7 +495,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": "The wordAnswer 'Both statements are True and the second statement is a correct explanation of the first. The first statement 'Untreated sewage in water bodies causes eutrophication' is true, as the excess nutrients in sewage can lead to excessive plant growth and depletion of oxygen in water bodies, causing eutrophication. The second statement 'Untreated sewage causes algal bloom in water' is also true, as the excessive nutrients from sewage can specifically promote the growth of algae, leading to algal blooms. Therefore, both statements are true, and the second statement provides a correct explanation for the first statement."
+          "explanation": "Both statements are True and the second statement is a correct explanation of the first. \n\n Untreated sewage in water bodies causes eutrophication as the excess nutrients in sewage can lead to algal blooms and depletion of oxygen in water bodies."
         },
         {
           "questionNumber": "30",
@@ -513,7 +513,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": "The wordAnswer 'Both statements are True and the second statement is a correct explanation of the first' is correct because both statements are true. The first statement 'The number of organisms decreases as one moves from lower trophic level to higher trophic levels' is true, as energy transfer and biomass generally decrease as we move up the food chain. The second statement 'Much energy is lost as one moves from lower to higher trophic levels' is also true, as energy is lost at each trophic level due to metabolic processes and heat production. Therefore, both statements are true, and the second statement provides a correct explanation for the first statement, making the wordAnswer correct."
+          "explanation": "Both statements are True and the second statement is a correct explanation of the first'. \n\n The number of organisms decreases as one moves from lower trophic level to higher trophic levels. Energy transfer and biomass generally decrease as we move up the food chain. Energy is lost at each trophic level due to metabolic processes and heat production."
         }
       ]
     },
@@ -523,311 +523,318 @@
       "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
-          "questionNumber": "31",
-          "question": "A carbohydrate digesting enzyme:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Renin",
-            "Ptyalin",
-            "Trypsin",
-            "Pepsin"
-          ],
-          "wordAnswer": "Ptyalin",
-          "explanation": "The correct answer is Ptyalin. Ptyalin is a carbohydrate digesting enzyme that is produced in the salivary glands and helps in the digestion of starches in the mouth. Renin is a protein digesting enzyme, Trypsin is a protein digesting enzyme produced in the pancreas, and Pepsin is a protein digesting enzyme produced in the stomach. Therefore, the remaining options are wrong for this question."
+          "title": "Section V",
+          "numberOfQuestions": 10,
+          "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+          "questions": [
+            {
+              "questionNumber": "31",
+              "question": "A carbohydrate digesting enzyme:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Rennin",
+                "Ptyalin",
+                "Trypsin",
+                "Pepsin"
+              ],
+              "wordAnswer": "Ptyalin",
+              "explanation": "Ptyalin is a carbohydrate digesting enzyme that is produced by the salivary glands and helps in the digestion of starch to maltose in the mouth.\n\n Rennin, pepsin and trypsin are protein digesting enzymes."
+            },
+            {
+              "questionNumber": "32",
+              "question": "An edaphic factor:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Atmospheric temperature.",
+                "Light.",
+                "Atmospheric pressure.",
+                "Soil acidity."
+              ],
+              "wordAnswer": "Soil acidity.",
+              "explanation": "Edaphic factors are factors related to soil that influence plant growth and development. Soil acidity is one such factor that affects nutrient availability and plant health."
+            },
+            {
+              "questionNumber": "33",
+              "question": "Carrier of genes:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Genotype",
+                "Chromosome",
+                "Recessive",
+                "Phenotype"
+              ],
+              "wordAnswer": "Chromosome",
+              "explanation": "Chromosomes are the carriers of genes, which are the units of heredity.\n\n Genotype refers to the genetic makeup of an organism, \nRecessive refers to an allele that is masked by a dominant allele. \nPhenotype refers to the physical or observable characteristics of an organism."
+            },
+            {
+              "questionNumber": "34",
+              "question": "Made up of organisms of the same species:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Biosphere",
+                "Ecosystem",
+                "Population",
+                "Community"
+              ],
+              "wordAnswer": "Population",
+              "explanation": " A population refers to a group of organisms of the same species living in the same area and can interbreed. \n\n Biosphere refers to the sum of all ecosystems on Earth, \n\n Ecosystem refers to a natural unit consisting of living organisms interacting with each other and the non living (abiotic) factors to produce a self supporting system.\n\n Community refers to all the populations of different species in a given area.On"
+            },
+            {
+              "questionNumber": "35",
+              "question": "Production of antibodies:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Platelets",
+                "Plasma",
+                "Erythrocytes",
+                "Leucocytes"
+              ],
+              "wordAnswer": "Leucocytes",
+              "explanation": "Leucocytes (white blood cells) are responsible for the production of antibodies. Antibodies are produced by a type of leucocytes called lypmphocytes. Antibodies play a crucial role in the immune response by fighting against specific foreign substances or pathogens. \n\n Platelets are involved in blood clotting. \n\n Plasma is the liquid component of blood. \n\n Erythrocytes are red blood cells. Their function is to transport respiratory gases."
+            },
+            {
+              "questionNumber": "36",
+              "question": "Produces lubricant at joints:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Synovial membrane",
+                "Cartilage",
+                "Ligament",
+                "Bone"
+              ],
+              "wordAnswer": "Synovial membrane",
+              "explanation": "Synovial membrane is a specialized connective tissue membrane that lines the inner surface of joint capsules. It produces a lubricant called synovial fluid at joints. Synovial fluid reduces friction between the bones and facilitate smooth movement. \n\n Cartilage provides cushioning.\n Ligament connects bone to bone at joints."
+            },
+            {
+              "questionNumber": "37",
+              "question": "Deficiency of this vitamin results in bleeding gums:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Vitamin D",
+                "Vitamin C",
+                "Vitamin B",
+                "Vitamin A"
+              ],
+              "wordAnswer": "Vitamin C",
+              "explanation": "A deficiency of Vitamin C can result in bleeding gums. Vitamin C, also known as ascorbic acid, is essential for the synthesis of collagen, a protein that helps in maintaining the health of gums and connective tissues. Insufficient intake of Vitamin C can lead to weakened blood vessels, which can cause bleeding gums. \n\n Vitamin D is important in the absorption of calcium and phosphate salts which help in hardening of bones. \n\n Vitamin B is involved in tissue respiration. \n\n Vitamin A is important for vision."
+            },
+            {
+              "questionNumber": "38",
+              "question": "Where an organism lives:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Ecosystem",
+                "Environment",
+                "Community",
+                "Habitat"
+              ],
+              "wordAnswer": "Habitat",
+              "explanation": "Habitat' refers to the specific place where an organism lives.\n\n An ecosystem refers to the interactions between living organisms and their physical environment. \n\nThe environment encompasses the entire surroundings of an organism. \n\nA community refers to the various populations of different species in an area."
+            },
+            {
+              "questionNumber": "39",
+              "question": "Its destruction will interrupt movement of water in plants:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Phloem",
+                "Xylem",
+                "Cambium",
+                "Cortex"
+              ],
+              "wordAnswer": "Xylem",
+              "explanation": "Xylem is a specialized tissue in plants that transports water and minerals from the roots to the rest of the plant. It consists of long, hollow cells called tracheids and vessel elements that form a continuous pathway for water movement. If the xylem is destroyed, the movement of water in plants will be interrupted, leading to a lack of water supply to the leaves and other parts of the plant. \n\n Phloem, on the other hand, transports sugars and other nutrients, while cambium and cortex are tissues involved in plant growth and support."
+            },
+            {
+              "questionNumber": "40",
+              "question": "Deficiency of iodine in the diet will lead to its malfunctioning:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Thyroid gland",
+                "Adrenal gland",
+                "Pituitary gland",
+                "Pancreas"
+              ],
+              "wordAnswer": "Thyroid gland",
+              "explanation": "Thyroid gland is an important endocrine gland located in the neck that produces thyroxin involved in regulating metabolism and growth. Iodine is essential for the production of thyroid hormones, and a deficiency of iodine in the diet can lead to the malfunctioning of the thyroid gland. This can result in conditions such as goiter (enlarged thyroid gland) or hypothyroidism (underactive thyroid). \n\n The Adrenal gland, Pancreas and pituitary are not affected by Iodine deficiency in the diet."
+            }
+          ]
         },
         {
-          "questionNumber": "32",
-          "question": "An edaphic factor:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Atmospheric temperature.",
-            "Light.",
-            "Atmospheric pressure.",
-            "Soil acidity."
-          ],
-          "wordAnswer": "Soil acidity.",
-          "explanation": "The correct answer is Soil acidity. Edaphic factors are factors related to soil that influence plant growth and development. Soil acidity is one such factor that affects nutrient availability and plant health. Atmospheric temperature, light, and atmospheric pressure are not directly related to the soil and its properties. Therefore, the remaining options are wrong for this question."
-        },
-        {
-          "questionNumber": "33",
-          "question": "Carrier of genes:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Genotype",
-            "Chromosome",
-            "Recessive",
-            "Phenotype"
-          ],
-          "wordAnswer": "Chromosome",
-          "explanation": "The correct answer is Chromosome. Chromosomes are the carriers of genes, which are the units of heredity. Genotype refers to the genetic makeup of an organism, Recessive refers to an allele that is masked by a dominant allele, and Phenotype refers to the physical characteristics of an organism. Therefore, the remaining options are wrong for this question."
-        },
-        {
-          "questionNumber": "34",
-          "question": "Made up of organisms of the same species:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Biosphere",
-            "Ecosystem",
-            "Population",
-            "Community"
-          ],
-          "wordAnswer": "Population",
-          "explanation": "The correct answer is Population. A population refers to a group of organisms of the same species living in the same area and can interbreed. Biosphere refers to the sum of all ecosystems on Earth, Ecosystem refers to a community of organisms interacting with their environment, and Community refers to all the populations of different species in a given area. Therefore, the remaining options are wrong for this question."
-        },
-        {
-          "questionNumber": "35",
-          "question": "Production of antibodies:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Platelets",
-            "Plasma",
-            "Erythrocytes",
-            "Leucocytes"
-          ],
-          "wordAnswer": "Leucocytes",
-          "explanation": "Leucocytes are responsible for the production of antibodies. They are a type of white blood cells that play a crucial role in the immune response by producing antibodies to fight against foreign substances or pathogens. Platelets are involved in blood clotting, plasma is the liquid component of blood, and erythrocytes are red blood cells that carry oxygen."
-        },
-        {
-          "questionNumber": "36",
-          "question": "Produces lubricant at joints:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Synovial membrane",
-            "Cartilage",
-            "Ligament",
-            "Bone"
-          ],
-          "wordAnswer": "Synovial membrane",
-          "explanation": "The synovial membrane produces a lubricant at joints. It is a specialized connective tissue membrane that lines the inner surface of joint capsules and produces synovial fluid, which acts as a lubricant to reduce friction between the bones and facilitate smooth movement. Cartilage provides cushioning, ligaments connect bones, and bones form the structure of joints."
-        },
-        {
-          "questionNumber": "37",
-          "question": "Deficiency of this vitamin results in bleeding gums:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Vitamin D",
-            "Vitamin C",
-            "Vitamin B",
-            "Vitamin A"
-          ],
-          "wordAnswer": "Vitamin C",
-          "explanation": "A deficiency of Vitamin C can result in bleeding gums. Vitamin C, also known as ascorbic acid, is essential for the synthesis of collagen, a protein that helps in maintaining the health of gums and connective tissues. Insufficient intake of Vitamin C can lead to weakened blood vessels, which can cause bleeding gums. Vitamin D is important for bone health, Vitamin B is involved in various metabolic processes, and Vitamin A is important for vision and immune function."
-        },
-        {
-          "questionNumber": "38",
-          "question": "Where an organism lives:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Ecosystem",
-            "Environment",
-            "Community",
-            "Habitat"
-          ],
-          "wordAnswer": "Habitat",
-          "explanation": "The term 'habitat' refers to the specific place or environment where an organism lives. It includes the physical factors such as climate, soil, and resources, as well as the biotic factors such as other organisms that interact with the organism. An ecosystem refers to the interactions between living organisms and their physical environment, the environment encompasses the entire surroundings of an organism, and a community refers to the various populations of different species in an area."
-        },
-        {
-          "questionNumber": "39",
-          "question": "Its destruction will interrupt movement of water in plants:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Phloem",
-            "Xylem",
-            "Cambium",
-            "Cortex"
-          ],
-          "wordAnswer": "Xylem",
-          "explanation": "The correct answer is Xylem. Xylem is a specialized tissue in plants that transports water and minerals from the roots to the rest of the plant. It consists of long, hollow cells called tracheids and vessel elements that form a continuous pathway for water movement. If the xylem is destroyed, the movement of water in plants will be interrupted, leading to a lack of water supply to the leaves and other parts of the plant. Phloem, on the other hand, transports sugars and other nutrients, while cambium and cortex are tissues involved in plant growth and support."
-        },
-        {
-          "questionNumber": "40",
-          "question": "Deficiency of iodine in the diet will lead to its malfunctioning:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Thyroid gland",
-            "Adrenal gland",
-            "Pituitary gland",
-            "Pancreas"
-          ],
-          "wordAnswer": "Thyroid gland",
-          "explanation": "The correct answer is Thyroid gland. The thyroid gland is an important endocrine gland located in the neck that produces hormones involved in regulating metabolism and growth. Iodine is essential for the production of thyroid hormones, and a deficiency of iodine in the diet can lead to the malfunctioning of the thyroid gland. This can result in conditions such as goiter (enlarged thyroid gland) or hypothyroidism (underactive thyroid). The adrenal gland produces hormones related to stress and blood pressure regulation, the pituitary gland regulates various hormonal functions, and the pancreas is involved in producing insulin and regulating blood sugar levels."
-        }
-      ]
-    },
-    {
-      "title": "Section VI",
-      "numberOfQuestions": 10,
-      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
-      "questions": [
-        {
-          "questionNumber": "41",
-          "question": "Given that black fur is dominant over grey fur in mice, which of the following is a result of crossing a heterozygous black mouse and a grey mouse?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "All offspring are black.",
-            "3/4 of offspring are black.",
-            "1/2 of the offspring are black.",
-            "1/4 of the offspring are black."
-          ],
-          "wordAnswer": "1/2 of the offspring are black.",
-          "explanation": "The correct answer is 1/2 of the offspring are black. In this scenario, black fur is dominant over grey fur, and the heterozygous black mouse carries one dominant allele (B) and one recessive allele (b). When crossed with a grey mouse carrying two recessive alleles (bb), the possible genotypes of the offspring are Bb and bb. The Bb genotype represents black fur, while the bb genotype represents grey fur. Therefore, half of the offspring (1/2) will have black fur, and the other half will have grey fur."
-        },
-        {
-          "questionNumber": "42",
-          "question": "In testing a leaf for starch, the leaf is first boiled in water to:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Make the leaf soft.",
-            "Stop all chemical reactions.",
-            "Slow down enzyme activities.",
-            "Speed up the conversion of glucose to starch."
-          ],
-          "wordAnswer": "Stop all chemical reactions.",
-          "explanation": "The correct answer is Stop all chemical reactions. Boiling the leaf in water is done to stop all chemical reactions. By subjecting the leaf to boiling water, the heat denatures and deactivates enzymes present in the leaf tissue. This is important because enzymes are responsible for catalyzing the conversion of glucose to starch during photosynthesis. By stopping all chemical reactions through boiling, any starch present in the leaf will be preserved and can be detected through subsequent staining or testing methods."
-        },
-        {
-          "questionNumber": "43",
-          "question": "At the start of seed germination, water:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Activates enzymes.",
-            "Breaks testa.",
-            "Opens the micropyle",
-            "Is used to produce food."
-          ],
-          "wordAnswer": "Activates enzymes.",
-          "explanation": "The correct answer is Activates enzymes. During seed germination, water plays a crucial role in activating enzymes. Enzymes are responsible for breaking down stored nutrients in the seed, such as starch and proteins, into simpler forms that can be used by the growing embryo. Water acts as a trigger for the activation of these enzymes, initiating the metabolic processes required for the embryo to grow and develop. As a result, the seed begins to sprout, and the plant starts its journey towards growth and development."
-        },
-        {
-          "questionNumber": "44",
-          "question": "A drop in the dry mass of a seed occurs at the beginning of germination due to:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Water evaporation.",
-            "Stored food being used.",
-            "Excretion.",
-            "Digestion of food."
-          ],
-          "wordAnswer": "Stored food being used.",
-          "explanation": "The correct answer is Stored food being used. At the beginning of seed germination, there is a drop in the dry mass of the seed because stored food is being used. During germination, the embryo within the seed relies on the stored reserves of nutrients, such as starch, proteins, and lipids, to fuel its growth and development until it can establish a functional root system and start photosynthesis. As the embryo utilizes these stored food reserves, the dry mass of the seed decreases. This process ensures that the developing seedling has the necessary energy and nutrients to sustain its early growth."
-        },
-        {
-          "questionNumber": "45",
-          "question": "Maize plant interspersed with leguminous plants will look greener because:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "The leguminous plants give shed to the maize.",
-            "The leguminous plants reduce water loss.",
-            "The leguminous plants make more water available to the maize.",
-            "The leguminous plants increase the nitrogen content of the soil."
-          ],
-          "wordAnswer": "The leguminous plants increase the nitrogen content of the soil.",
-          "explanation": "The correct answer is 'The leguminous plants increase the nitrogen content of the soil.' This is because leguminous plants have a symbiotic relationship with nitrogen-fixing bacteria in their root nodules. These bacteria convert atmospheric nitrogen into a form that plants can use, which is then absorbed by the roots of the leguminous plants. This extra nitrogen is beneficial for the growth and development of surrounding plants, such as maize. The increased nitrogen content in the soil promotes greener and healthier growth of the maize plant."
-        },
-        {
-          "questionNumber": "46",
-          "question": "The percentage of carbon dioxide in expired air is more than that in inspired air because:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "It is produced in tissue respiration.",
-            "Much carbon dioxide is produced in the lungs.",
-            "It is not used in the body.",
-            "Carbon dioxide is poisonous"
-          ],
-          "wordAnswer": "It is produced in tissue respiration.",
-          "explanation": "The correct answer is 'It is produced in tissue respiration.' When we breathe in, oxygen is taken up by the body's cells during cellular respiration, which produces carbon dioxide as a waste product. This carbon dioxide is then transported back to the lungs through the bloodstream and exhaled during expiration. Therefore, the percentage of carbon dioxide in expired air is higher than that in inspired air because it is a byproduct of the body's metabolic processes, particularly tissue respiration."
-        },
-        {
-          "questionNumber": "47",
-          "question": "Roofs of houses in industrial areas are often corroded due to:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Poor quality of material.",
-            "Much rain.",
-            "Presence of dissolved chemicals in the atmosphere.",
-            "Smoke from industry."
-          ],
-          "wordAnswer": "Presence of dissolved chemicals in the atmosphere.",
-          "explanation": "The correct answer is 'Presence of dissolved chemicals in the atmosphere.' In industrial areas, there are often high levels of air pollution, which includes various chemicals and pollutants. These pollutants can react with the moisture in the air to form corrosive substances, such as acids. When these corrosive substances come into contact with the roofs of houses, they can cause corrosion and damage over time. Therefore, the presence of dissolved chemicals in the atmosphere is the primary reason for the corrosion of roofs in industrial areas."
-        },
-        {
-          "questionNumber": "48",
-          "question": "The wilting of a newly transplanted well-watered seedling on a sunny day is due to:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "High light intensity.",
-            "The weakness of the stem.",
-            "High temperature.",
-            "High rate of transpiration and little water uptake."
-          ],
-          "wordAnswer": "High rate of transpiration and little water uptake.",
-          "explanation": "The correct answer is 'High rate of transpiration and little water uptake.' When a newly transplanted seedling is exposed to high light intensity and high temperature on a sunny day, it leads to an increased rate of transpiration. Transpiration is the process by which water is lost from the leaves of plants through small openings called stomata. If the seedling is not able to take up enough water from the soil to compensate for the water loss through transpiration, it can result in wilting. Therefore, the wilting of a newly transplanted, well-watered seedling on a sunny day is primarily due to the combination of a high rate of transpiration and little water uptake."
-        },
-        {
-          "questionNumber": "49",
-          "question": "Bread left on the kitchen window for two days moulds due to: ",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Growth of fungal spores from the air.",
-            "Decay by bacteria.",
-            "Absorption of moisture from the air.",
-            "Decomposition by viruses and bacteria."
-          ],
-          "wordAnswer": "Growth of fungal spores from the air.",
-          "explanation": "The correct answer is 'Growth of fungal spores from the air.' Bread left on the kitchen window for two days tends to develop mold due to the presence of fungal spores in the air. Fungal spores are tiny reproductive structures produced by fungi, and they can be found in the environment, including the air. When bread is exposed to moisture and favorable conditions, such as warmth, these fungal spores can land on the bread's surface and start to grow. As they grow, they form visible mold patches, which are composed of fungal hyphae. Therefore, the growth of fungal spores from the air is the primary reason why bread left on the kitchen window for two days molds. The other options are incorrect because decay by bacteria, absorption of moisture, and decomposition by viruses and bacteria are not the main causes of mold growth in this scenario."
-        },
-        {
-          "questionNumber": "50",
-          "question": "From the graph below showing the effect of temperature on the rate of enzyme controlled reaction, which of the following is true?",
-          "image": "graph_enzyme_activity_june_2016.jpg",
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Increase in temperature always increases the rate of reaction.",
-            "Enzymes are active at all temperatures.",
-            "Enzymes are denatured at very high temperature.",
-            "Enzymes are inactive at very high temperature."
-          ],
-          "wordAnswer": "Enzymes are denatured at very high temperature.",
-          "explanation": "The correct answer is 'Enzymes are denatured at very high temperature.' The graph shows that as the temperature increases, the rate of the enzyme-controlled reaction initially increases, reaches an optimum point, and then starts to decrease. At very high temperatures, enzymes can become denatured. Denaturation is a process in which the three-dimensional structure of the enzyme is disrupted, leading to a loss of its function. The other options are incorrect because an increase in temperature doesn't always increase the rate of the reaction, enzymes are not active at all temperatures, and enzymes are not simply inactive at very high temperatures but rather denatured."
+          "title": "Section VI",
+          "numberOfQuestions": 10,
+          "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+          "questions": [
+            {
+              "questionNumber": "41",
+              "question": "Given that black fur is dominant over grey fur in mice, which of the following is a result of crossing a heterozygous black mouse and a grey mouse?",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "All offspring are black.",
+                "3/4 of offspring are black.",
+                "1/2 of the offspring are black.",
+                "1/4 of the offspring are black."
+              ],
+              "wordAnswer": "1/2 of the offspring are black.",
+              "explanation": "Allele for Black fur (B) is dominant over allele for grey fur (g). Crossing a heterozygous black mouse (Bb) with a grey fur mouse (bb) produces offspring with the genotypes Bb, Bb, bb, bb. The Bb genotype represents black fur, while the bb genotype represents grey fur. Therefore, half (1/2) of the offspring will have black fur, and the other half will have grey fur."
+            },
+            {
+              "questionNumber": "42",
+              "question": "In testing a leaf for starch, the leaf is first boiled in water to:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Make the leaf soft.",
+                "Stop all chemical reactions.",
+                "Slow down enzyme activities.",
+                "Speed up the conversion of glucose to starch."
+              ],
+              "wordAnswer": "Stop all chemical reactions.",
+              "explanation": "Boiling the leaf in water is done to stop all chemical reactions. By subjecting the leaf to boiling water, the heat denatures and deactivates enzymes present in the leaf tissue. This is important to ensure that no other chemical reactions can interfere with the test being done."
+            },
+            {
+              "questionNumber": "43",
+              "question": "At the start of seed germination, water:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Activates enzymes.",
+                "Breaks testa.",
+                "Opens the micropyle",
+                "Is used to produce food."
+              ],
+              "wordAnswer": "Activates enzymes.",
+              "explanation": "During seed germination, water plays a crucial role in activating enzymes. Enzymes are responsible for breaking down stored nutrients in the seed, such as starch and proteins, into simpler forms that can be used by the growing embryo. Water acts as a trigger for the activation of these enzymes, initiating the metabolic processes required for the embryo to grow and develop. As a result, the seed begins to sprout, and the plant starts its journey towards growth and development."
+            },
+            {
+              "questionNumber": "44",
+              "question": "A drop in the dry mass of a seed occurs at the beginning of germination due to:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Water evaporation.",
+                "Stored food being used.",
+                "Excretion.",
+                "Digestion of food."
+              ],
+              "wordAnswer": "Stored food being used.",
+              "explanation": "At the beginning of seed germination, there is a drop in the dry mass of the seed because stored food is being used. During germination, the embryo within the seed relies on the stored reserves of nutrients, such as starch, proteins, and lipids, to fuel its growth and development until it can establish a functional root and shoot system and start photosynthesizing."
+            },
+            {
+              "questionNumber": "45",
+              "question": "Maize plant interspersed with leguminous plants will look greener because:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "The leguminous plants give shed to the maize.",
+                "The leguminous plants reduce water loss.",
+                "The leguminous plants make more water available to the maize.",
+                "The leguminous plants increase the nitrogen content of the soil."
+              ],
+              "wordAnswer": "The leguminous plants increase the nitrogen content of the soil.",
+              "explanation": "Leguminous plants increase the nitrogen content of the soil. This is because leguminous plants have a symbiotic relationship with nitrogen-fixing bacteria in their root nodules. These bacteria convert atmospheric nitrogen into a form that plants can absorb and use. The increased nitrogen content in the soil promotes greener and healthier growth of the maize plant."
+            },
+            {
+              "questionNumber": "46",
+              "question": "The percentage of carbon dioxide in expired air is more than that in inspired air because:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Carbon dioxide is produced in tissue respiration.",
+                "Much carbon dioxide is produced in the lungs.",
+                "It is not used in the body.",
+                "Carbon dioxide is poisonous"
+              ],
+              "wordAnswer": "It is produced in tissue respiration.",
+              "explanation": "When we breathe in, oxygen is taken up by the body's cells and used during aerobic respiration to produce energy, with carbon dioxide being released as a waste product. This carbon dioxide is then transported back to the lungs through the bloodstream and exhaled during expiration. Therefore, the percentage of carbon dioxide in expired air becomes higher than that in inspired air because it is a byproduct of tissue respiration."
+            },
+            {
+              "questionNumber": "47",
+              "question": "Roofs of houses in industrial areas are often corroded due to:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Poor quality of material.",
+                "Much rain.",
+                "Presence of dissolved chemicals in the atmosphere.",
+                "Smoke from industry."
+              ],
+              "wordAnswer": "Presence of dissolved chemicals in the atmosphere.",
+              "explanation": "In industrial areas, there are often high levels of air pollutants such as sulphur dioxide, Nitrogen dioxide etc. These pollutants can react with the moisture in the air to form corrosive substances, such as acids. When these corrosive acids come into contact with the roofs of houses, they can cause corrosion and damage over time."
+            },
+            {
+              "questionNumber": "48",
+              "question": "The wilting of a newly transplanted well-watered seedling on a sunny day is due to:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "High light intensity.",
+                "The weakness of the stem.",
+                "High temperature.",
+                "High rate of transpiration and little water uptake."
+              ],
+              "wordAnswer": "High rate of transpiration and little water uptake.",
+              "explanation": "When a newly transplanted seedling is exposed to high light intensity and high temperature on a sunny day, it leads to an increased rate of transpiration. Transpiration is the process by which water is lost from the leaves of plants through small openings called stomata. If the seedling is not able to take up enough water from the soil to compensate for the water loss through transpiration, it can result in wilting."
+            },
+            {
+              "questionNumber": "49",
+              "question": "Bread left on the kitchen window for two days moulds due to: ",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Growth of fungal spores from the air.",
+                "Decay by bacteria.",
+                "Absorption of moisture from the air.",
+                "Decomposition by viruses and bacteria."
+              ],
+              "wordAnswer": "Growth of fungal spores from the air.",
+              "explanation": "Bread left on the kitchen window for two days tends to develop moulds due to the presence of fungal spores in the air. Fungal spores are tiny reproductive structures produced by fungi, and they can be found in the environment, including the air. When bread is exposed to moisture and favorable conditions, such as warmth, these fungal spores can land on the bread's surface and start to grow. As they grow, they form visible mold patches, which are composed of fungal hyphae."
+            },
+            {
+              "questionNumber": "50",
+              "question": "From the graph below showing the effect of temperature on the rate of enzyme controlled reaction, which of the following is true?",
+              "image": "graph_enzyme_activity_june_2016.jpg",
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Increase in temperature always increases the rate of reaction.",
+                "Enzymes are active at all temperatures.",
+                "Enzymes are denatured at very high temperature.",
+                "Enzymes are inactive at very high temperature."
+              ],
+              "wordAnswer": "Enzymes are denatured at very high temperature.",
+              "explanation": "The graph shows that as the temperature increases, the rate of the enzyme-controlled reaction initially increases, reaches an optimum point, and then starts to decrease. At very high temperatures, enzymes can become denatured. Denaturation is a process in which the three-dimensional structure of the enzyme is disrupted, leading to a loss of its function."
+            }
+          ]
         }
       ]
     }

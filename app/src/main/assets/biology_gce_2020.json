@@ -39,7 +39,37 @@
           "wordAnswer": "Wilting",
           "explanation": "The correct answer is Wilting. Wilting occurs when the leaves of a plant lose more water through transpiration than the plant receives from the soil. This water loss leads to a loss of turgor pressure in the cells, causing the leaves to become limp and droopy. Wilting is a response to water stress and is often observed in plants when they do not receive enough water.\n\nThe other options are incorrect:\n- Plasmolysis refers to the process where a plant cell loses water in a hypertonic solution, causing the protoplasm to shrink away from the cell wall. It is not specifically related to the loss of water from leaves.\n- Turgidity refers to the state of being swollen or distended due to the absorption of water. It is the opposite of wilting and is not related to water loss from leaves.\n- Guttation is the exudation of water droplets from the tips or edges of leaves, usually occurring in the morning or during periods of high humidity. It is not directly related to the loss of water from leaves."
         },
-            {
+        {
+          "questionNumber": "3",
+          "question": "Which of the following processes uses up energy?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Active transport",
+            "Enzymatic digestion",
+            "Osmosis",
+            "Ultrafiltration"
+          ],
+          "wordAnswer": "Active transport",
+          "explanation": "Active transport is a process that requires energy to move substances across a cell membrane against their concentration gradient. It uses energy in the form of ATP (adenosine triphosphate) to pump molecules or ions across the membrane, allowing cells to maintain concentration gradients and perform functions such as nutrient uptake, waste removal, and ion balance. \n\nThe other options are incorrect because:\n\n- Enzymatic digestion is a process that breaks down large molecules into smaller ones using enzymes. It does not require energy.\n\n- Osmosis is the passive movement of water molecules across a selectively permeable membrane from an area of lower solute concentration to an area of higher solute concentration. It does not require energy.\n\n- Ultrafiltration: Ultrafiltration is a process by which fluid and solutes are filtered through a semipermeable membrane under pressure. It is a passive process and does not use energy."
+        },
+        {
+          "questionNumber": "4",
+          "question": "The parts of the mammalian heart containing oxygenated blood are the:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Right atrium and left atrium",
+            "Right atrium and right ventricle",
+            "Left atrium and left ventricle",
+            "Left ventricle and right ventricle"
+          ],
+          "wordAnswer": "Left atrium and left ventricle",
+          "explanation": "The left atrium receives oxygenated blood from the lungs, and the left ventricle pumps this oxygenated blood to the rest of the body. These chambers of the heart are responsible for circulating oxygenated blood throughout the systemic circulation."
+        },
+        {
           "questionNumber": "5",
           "question": "The chloroplast of plant cells",
           "image": null,

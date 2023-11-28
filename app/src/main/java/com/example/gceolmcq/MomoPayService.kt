@@ -34,8 +34,8 @@ class MomoPayService(private val context: Context) {
         println("Initiating payment")
 
         this.subscriptionFormData = subscriptionFormData
-//        generateAccessToken()
-        testUpdateTransactionSuccessful()
+        generateAccessToken()
+//        testUpdateTransactionSuccessful()
 
     }
     private fun generateAccessToken(){
@@ -189,6 +189,12 @@ class MomoPayService(private val context: Context) {
         isTransactionSuccessful.postValue(null)
         transactionStatus.postValue(TransactionStatus())
         subscriptionFormData = null
+    }
+
+    interface TransactionStatusListener{
+        fun onTransactionPending()
+        fun onTransactionFailed()
+        fun onTransactionSuccessful()
     }
 
 

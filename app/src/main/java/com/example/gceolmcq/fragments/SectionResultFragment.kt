@@ -140,13 +140,14 @@ class SectionResultFragment : Fragment() {
     }
 
     private fun retrySection(){
-        if(onRetrySectionListener.onGetCurrentSectionRetryCount().value == 0){
-            Toast.makeText(requireContext(), requireContext().resources.getString(R.string.retry_limit_message), Toast.LENGTH_LONG).show()
-            btnRetry.isEnabled = false
-        }else{
-
-            retryDialog(sectionResultFragmentViewModel.getSectionIndex())
-        }
+//        if(onRetrySectionListener.onGetCurrentSectionRetryCount().value == 0){
+//            Toast.makeText(requireContext(), requireContext().resources.getString(R.string.retry_limit_message), Toast.LENGTH_LONG).show()
+//            btnRetry.isEnabled = false
+//        }else{
+//
+//            retryDialog(sectionResultFragmentViewModel.getSectionIndex())
+//        }
+        retryDialog(sectionResultFragmentViewModel.getSectionIndex())
     }
 
     private fun setupViewListeners(){
@@ -209,7 +210,7 @@ class SectionResultFragment : Fragment() {
                 }else{
 
                     onRetrySectionListener.onDecrementCurrentSectionRetryCount()
-                    Toast.makeText(requireContext(), "Retries left: ${onRetrySectionListener.onGetCurrentSectionRetryCount().value}", Toast.LENGTH_LONG).show()
+//                    Toast.makeText(requireContext(), "Retries left: ${onRetrySectionListener.onGetCurrentSectionRetryCount().value}", Toast.LENGTH_LONG).show()
                     onRetrySectionListener.onRetrySection(sectionIndex)
                 }
 
