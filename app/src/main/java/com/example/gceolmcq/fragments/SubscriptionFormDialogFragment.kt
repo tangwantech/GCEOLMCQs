@@ -124,7 +124,7 @@ class SubscriptionFormDialogFragment : DialogFragment() {
     private fun setUpAlertDialog(view: View): Dialog{
         val builder = AlertDialog.Builder(requireContext()).apply {
             setView(view)
-            setPositiveButton(requireContext().resources.getString(R.string.pay)){ btn, _ ->
+            setPositiveButton(requireContext().resources.getString(R.string.next)){ btn, _ ->
                 onPayButtonClickListener.onPayButtonClicked(
                     subscriptionFormDialogFragmentViewModel.getSubscriptionFormData())
                 btn.dismiss()

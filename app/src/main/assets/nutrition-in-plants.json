@@ -21,7 +21,8 @@
             "Vitamins",
             "Carbon dioxide"
           ],
-          "wordAnswer": "Carbohydrates"
+          "wordAnswer": "Carbohydrates",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "requires carbon dioxide to make starch.",
             "requires chlorophyll to make starch."
           ],
-          "wordAnswer": "requires light to make starch."
+          "wordAnswer": "requires light to make starch.",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Carbon dioxide, chlorophyll, oxygen and Light.",
             "Carbon dioxide, chlorophyll, light and water."
           ],
-          "wordAnswer": "Carbon dioxide, chlorophyll, light and water."
+          "wordAnswer": "Carbon dioxide, chlorophyll, light and water.",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Water vapour",
             "Nitrogen"
           ],
-          "wordAnswer": "Carbon dioxide"
+          "wordAnswer": "Carbon dioxide",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Water vapour",
             "Nitrogen"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "bicarbonate",
             "iodine solution"
           ],
-          "wordAnswer": "glowing splint"
+          "wordAnswer": "glowing splint",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "The cuticle is opaque for maximum penetration of sunlight.",
             "Numerous stomata on both surfaces of the leaf allow for exchange of carbon dioxide and oxygen with the atmosphere."
           ],
-          "wordAnswer": "The cuticle is opaque for maximum penetration of sunlight."
+          "wordAnswer": "The cuticle is opaque for maximum penetration of sunlight.",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "glucose and oxygen",
             "glucose and water"
           ],
-          "wordAnswer": "carbon dioxide and water"
+          "wordAnswer": "carbon dioxide and water",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "glucose and oxygen",
             "glucose and water"
           ],
-          "wordAnswer": "glucose and oxygen"
+          "wordAnswer": "glucose and oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "glucose",
             "carbon dioxide"
           ],
-          "wordAnswer": "sunlight"
+          "wordAnswer": "sunlight",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "Energy is released",
             "Oxygen is a waste product"
           ],
-          "wordAnswer": "Energy is released"
+          "wordAnswer": "Energy is released",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Temperature",
             "Humidity"
           ],
-          "wordAnswer": "Humidity"
+          "wordAnswer": "Humidity",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "absorb light",
             "absorb oxygen"
           ],
-          "wordAnswer": "absorb light"
+          "wordAnswer": "absorb light",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Caustic soda",
             "Lime water"
           ],
-          "wordAnswer": "Sodium bicarbonate"
+          "wordAnswer": "Sodium bicarbonate",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Vitamins",
             "Lipids"
           ],
-          "wordAnswer": "Starch"
+          "wordAnswer": "Starch",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Mitochondrion",
             "Cytoplasm"
           ],
-          "wordAnswer": "Chloroplast"
+          "wordAnswer": "Chloroplast",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Photosynthesis",
             "Breathing"
           ],
-          "wordAnswer": "Photosynthesis"
+          "wordAnswer": "Photosynthesis",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "Lime water",
             "Iodine solution"
           ],
-          "wordAnswer": "Iodine solution"
+          "wordAnswer": "Iodine solution",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Amoeba",
             "Man"
           ],
-          "wordAnswer": "Grass"
+          "wordAnswer": "Grass",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Palisade mesophyll cells contain more chloroplasts than spongy mesophyll cells.",
             "Palisade mesophyll cells are rectangular while spongy mesophyll cells are spherical"
           ],
-          "wordAnswer": "Palisade mesophyll cells contain more chloroplasts than spongy mesophyll cells."
+          "wordAnswer": "Palisade mesophyll cells contain more chloroplasts than spongy mesophyll cells.",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Starch",
             "Cellulose"
           ],
-          "wordAnswer": "Starch"
+          "wordAnswer": "Starch",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Starch",
             "Cellulose"
           ],
-          "wordAnswer": "Cellulose"
+          "wordAnswer": "Cellulose",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Red",
             "Orange"
           ],
-          "wordAnswer": "Blue black"
+          "wordAnswer": "Blue black",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Oxygen",
             "Carbon dioxide"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Glucose",
             "Carbon dioxide"
           ],
-          "wordAnswer": "Glucose"
+          "wordAnswer": "Glucose",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Phloem",
             "Epidermis"
           ],
-          "wordAnswer": "Mesophyll"
+          "wordAnswer": "Mesophyll",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Flower",
             "Roots"
           ],
-          "wordAnswer": "Leaf"
+          "wordAnswer": "Leaf",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,21 +639,23 @@
             "Diffusion",
             "Bull transport"
           ],
-          "wordAnswer": "Diffusion"
+          "wordAnswer": "Diffusion",
+          "explanation": null
         },
         {
           "questionNumber": "39",
-          "question": "Placing a potted plant in darkness for at least 48 hours before using it in an experiment",
+          "question": "Placing a potted plant in darkness for at least 48 hours is meant to:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Detaching",
-            "Destarching",
-            "Decolorizing",
-            "Dispatching"
+            "Detach the plant",
+            "Destarch the plant",
+            "Decolorize the plant",
+            "Kill the plant"
           ],
-          "wordAnswer": "Destarching"
+          "wordAnswer": "Destarch the plant",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Water",
             "Carbon dioxide"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "To remove chlorophyll from the leaf",
             "To stop starch grains from bursting"
           ],
-          "wordAnswer": "To kill the leaf."
+          "wordAnswer": "To kill the leaf.",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "To remove chlorophyll from the leaf.",
             "To burst starch grains."
           ],
-          "wordAnswer": "To remove chlorophyll from the leaf."
+          "wordAnswer": "To remove chlorophyll from the leaf.",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "Green",
             "Orange"
           ],
-          "wordAnswer": "Blue black"
+          "wordAnswer": "Blue black",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "To allow the leaves transpire",
             "To detach the leaves of the plants"
           ],
-          "wordAnswer": "To destarch the leaves of the plants"
+          "wordAnswer": "To destarch the leaves of the plants",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "To prevent carbon dioxide released by respiring soil organisms from reaching the leaves.",
             "To prevent soil organisms from escaping."
           ],
-          "wordAnswer": "To prevent carbon dioxide released by respiring soil organisms from reaching the leaves."
+          "wordAnswer": "To prevent carbon dioxide released by respiring soil organisms from reaching the leaves.",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "To absorb carbon dioxide from the atmosphere within then bell jar.",
             "To produce oxygen for use by the plant in tissue respiration"
           ],
-          "wordAnswer": "To absorb carbon dioxide from the atmosphere within then bell jar."
+          "wordAnswer": "To absorb carbon dioxide from the atmosphere within then bell jar.",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "Both experiments",
             "None"
           ],
-          "wordAnswer": "Experiment B"
+          "wordAnswer": "Experiment B",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "Both experiments",
             "None"
           ],
-          "wordAnswer": "Experiment A"
+          "wordAnswer": "Experiment A",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "Protein",
             "Starch"
           ],
-          "wordAnswer": "Starch"
+          "wordAnswer": "Starch",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Wilting",
             "Phototropism"
           ],
-          "wordAnswer": "Yellowing of leaves"
+          "wordAnswer": "Yellowing of leaves",
+          "explanation": null
         }
       ]
     }

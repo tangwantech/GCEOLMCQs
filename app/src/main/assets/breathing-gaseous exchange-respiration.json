@@ -21,7 +21,8 @@
             "Glucose and oxygen",
             "Alcohol and Lactic acid"
           ],
-          "wordAnswer": "Alcohol and carbon dioxide"
+          "wordAnswer": "Alcohol and carbon dioxide",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "production of energy",
             "production of water"
           ],
-          "wordAnswer": "production of energy"
+          "wordAnswer": "production of energy",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Glucose",
             "Bicarbonate ions"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "food and light",
             "light and oxygen"
           ],
-          "wordAnswer": "food and oxygen"
+          "wordAnswer": "food and oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "jumping produces energy.",
             "jumping consumes more energy."
           ],
-          "wordAnswer": "jumping consumes more energy."
+          "wordAnswer": "jumping consumes more energy.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Thirty press-ups",
             "Breathing pure oxygen at rest"
           ],
-          "wordAnswer": "Thirty press-ups"
+          "wordAnswer": "Thirty press-ups",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Volume of the thoracic cavity reduces.",
             "Air rushes into the lungs."
           ],
-          "wordAnswer": "Volume of the thoracic cavity reduces."
+          "wordAnswer": "Volume of the thoracic cavity reduces.",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Reading",
             "Running"
           ],
-          "wordAnswer": "Running"
+          "wordAnswer": "Running",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Trachea",
             "Alveoli"
           ],
-          "wordAnswer": "Alveoli"
+          "wordAnswer": "Alveoli",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "Carbon dioxide",
             "Water"
           ],
-          "wordAnswer": "Carbon dioxide"
+          "wordAnswer": "Carbon dioxide",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "Carbon dioxide",
             "Water"
           ],
-          "wordAnswer": "Alcohol"
+          "wordAnswer": "Alcohol",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Fats",
             "Glycogen"
           ],
-          "wordAnswer": "Glycogen"
+          "wordAnswer": "Glycogen",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Heart",
             "Diaphragm"
           ],
-          "wordAnswer": "Ribs"
+          "wordAnswer": "Ribs",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Lungs",
             "Alveoli"
           ],
-          "wordAnswer": "Trachea"
+          "wordAnswer": "Trachea",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Cilia",
             "Cartilage"
           ],
-          "wordAnswer": "Cilia"
+          "wordAnswer": "Cilia",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Diffusion",
             "Endocytosis"
           ],
-          "wordAnswer": "Diffusion"
+          "wordAnswer": "Diffusion",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Lipid",
             "Glycogen"
           ],
-          "wordAnswer": "Lipid"
+          "wordAnswer": "Lipid",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "Skin",
             "Tracheoles"
           ],
-          "wordAnswer": "Gills"
+          "wordAnswer": "Gills",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Nucleus",
             "Cytoplasm"
           ],
-          "wordAnswer": "Mitochondrion"
+          "wordAnswer": "Mitochondrion",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Nucleus",
             "Cytoplasm"
           ],
-          "wordAnswer": "Cytoplasm"
+          "wordAnswer": "Cytoplasm",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Diffusion",
             "Gaseous exchange"
           ],
-          "wordAnswer": "Breathing"
+          "wordAnswer": "Breathing",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Glycolysis",
             "Fermentation"
           ],
-          "wordAnswer": "Aerobic respiration"
+          "wordAnswer": "Aerobic respiration",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Expiratory reserve volume",
             "Total lung capacity"
           ],
-          "wordAnswer": "Tidal volume"
+          "wordAnswer": "Tidal volume",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Expiratory reserve volume",
             "Residual volume"
           ],
-          "wordAnswer": "Residual volume"
+          "wordAnswer": "Residual volume",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Medulla oblongata",
             "Heart"
           ],
-          "wordAnswer": "Medulla oblongata"
+          "wordAnswer": "Medulla oblongata",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Nucleus",
             "Sap vacuole"
           ],
-          "wordAnswer": "Mitochondrion"
+          "wordAnswer": "Mitochondrion",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Vital lung capacity",
             "Total lung capacity"
           ],
-          "wordAnswer": "Vital lung capacity"
+          "wordAnswer": "Vital lung capacity",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Vital lung capacity",
             "Total lung capacity"
           ],
-          "wordAnswer": "Inspiratory reserve volume"
+          "wordAnswer": "Inspiratory reserve volume",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Vital lung capacity",
             "Total lung capacity"
           ],
-          "wordAnswer": "Expiratory reserve volume"
+          "wordAnswer": "Expiratory reserve volume",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Protein",
             "Carbohydrate"
           ],
-          "wordAnswer": "Protein"
+          "wordAnswer": "Protein",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Pyrogallic acid",
             "Sodium Bicarbonate"
           ],
-          "wordAnswer": "Lime water"
+          "wordAnswer": "Lime water",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "Pyrogallic acid",
             "Sodium Bicarbonate"
           ],
-          "wordAnswer": "Caustic soda"
+          "wordAnswer": "Caustic soda",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "To produce oxygen used by the small mammal.",
             "To absorb oxygen"
           ],
-          "wordAnswer": "To detect carbon dioxide in the air coming from bottle C."
+          "wordAnswer": "To detect carbon dioxide in the air coming from bottle C.",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "To remove water vapour from the incoming air",
             "To produce oxygen used by the small mammal."
           ],
-          "wordAnswer": "To remove carbon dioxide from the incoming air."
+          "wordAnswer": "To remove carbon dioxide from the incoming air.",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "Solution in D turns Blue black.",
             "Solution in D remains clear."
           ],
-          "wordAnswer": "Solution in D turns milky."
+          "wordAnswer": "Solution in D turns milky.",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Animal in bottle C is removed.",
             "Animal in bottle C is killed and sterilized."
           ],
-          "wordAnswer": "Animal in bottle C is killed and sterilized."
+          "wordAnswer": "Animal in bottle C is killed and sterilized.",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "Cover bottle C with a dark cloth.",
             "Cover bottle C with a transparent cloth."
           ],
-          "wordAnswer": "Cover bottle C with a dark cloth."
+          "wordAnswer": "Cover bottle C with a dark cloth.",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "To detect the presence of bacteria",
             "To trap impurities"
           ],
-          "wordAnswer": "To trap impurities"
+          "wordAnswer": "To trap impurities",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "Pyrogallic acid becoming milky.",
             "Caustic soda becoming milky."
           ],
-          "wordAnswer": "Lime water becoming milky."
+          "wordAnswer": "Lime water becoming milky.",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Nitrogen",
             "Water vapour"
           ],
-          "wordAnswer": "Nitrogen"
+          "wordAnswer": "Nitrogen",
+          "explanation": null
         }
       ]
     }

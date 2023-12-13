@@ -26,7 +26,10 @@ class LocalRepository(private val context: Context){
         return _areSubjectsPackagesAvailable
     }
 
-    fun insertUserSubjectsPackageDataToLocalDB(tempSubjectPackageDataList: List<SubjectPackageData>?, subjectIndex: Int?=null){
+    fun insertUserSubjectsPackageDataToLocalDB(
+        tempSubjectPackageDataList: List<SubjectPackageData>?,
+        subjectIndex: Int?=null
+    ){
         tempSubjectPackageDataList?.let {subjectPackageDataList ->
 
             CoroutineScope(Dispatchers.IO).launch {
@@ -35,7 +38,6 @@ class LocalRepository(private val context: Context){
                     localDatabase.subjectPackageDao().insert(it)
                 }
                 withContext(Dispatchers.Main){
-
                     _areSubjectsPackagesAvailable.value = subjectPackageDataList.isNotEmpty()
                     subjectIndex?.let {
                         _indexOfActivatedPackage.value = it
@@ -77,5 +79,7 @@ class LocalRepository(private val context: Context){
     }
 
 
-
+    interface SubjectPackagesListener{
+        fun onSubjectPackagesAvailable(isAvailable: Boolean)
+    }
 }

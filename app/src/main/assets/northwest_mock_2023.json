@@ -21,7 +21,8 @@
             "Pancreatic juice",
             "Saliva"
           ],
-          "wordAnswer": "Bile"
+          "wordAnswer": "Bile",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Hinge joint",
             "Ball and socket joint"
           ],
-          "wordAnswer": "Ball and socket joint"
+          "wordAnswer": "Ball and socket joint",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Liver and duodenum",
             "Duodenum and colon"
           ],
-          "wordAnswer": "Colon and kidney"
+          "wordAnswer": "Colon and kidney",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Volume of thoracic cavity decreases.",
             "Pressure in thoracic cavity decreases."
           ],
-          "wordAnswer": "Volume of thoracic cavity decreases."
+          "wordAnswer": "Volume of thoracic cavity decreases.",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Chitin",
             "Sugars"
           ],
-          "wordAnswer": "Chitin"
+          "wordAnswer": "Chitin",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "An ecosystem",
             "A biosphere"
           ],
-          "wordAnswer": "An ecosystem"
+          "wordAnswer": "An ecosystem",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Secretion of water essential for photosynthesis.",
             "Loss of water vapour from the leaves of plants."
           ],
-          "wordAnswer": "Loss of water vapour from the leaves of plants."
+          "wordAnswer": "Loss of water vapour from the leaves of plants.",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Collecting duct",
             "Glomerulus"
           ],
-          "wordAnswer": "Glomerulus"
+          "wordAnswer": "Glomerulus",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Stigma",
             "Anthers"
           ],
-          "wordAnswer": "Pollen tube"
+          "wordAnswer": "Pollen tube",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "Fins",
             "Ear"
           ],
-          "wordAnswer": "Lateral line"
+          "wordAnswer": "Lateral line",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "Lightning",
             "Feeding"
           ],
-          "wordAnswer": "Lightning"
+          "wordAnswer": "Lightning",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Fovea",
             "Blind spot"
           ],
-          "wordAnswer": "Fovea"
+          "wordAnswer": "Fovea",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Urethra",
             "Pyramid"
           ],
-          "wordAnswer": "Ureter"
+          "wordAnswer": "Ureter",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Stolon",
             "Sporangiosphore"
           ],
-          "wordAnswer": "Rhizoid"
+          "wordAnswer": "Rhizoid",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "4"
+          "wordAnswer": "4",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "3",
             "2"
           ],
-          "wordAnswer": "5"
+          "wordAnswer": "5",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Medulla Oblongata",
             "Hypothalamus"
           ],
-          "wordAnswer": "Medulla Oblongata"
+          "wordAnswer": "Medulla Oblongata",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "Cell membrane",
             "Nucleus"
           ],
-          "wordAnswer": "Nucleus"
+          "wordAnswer": "Nucleus",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Pulmonary Vein",
             "Coronary Artery"
           ],
-          "wordAnswer": "Pulmonary Vein"
+          "wordAnswer": "Pulmonary Vein",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Cell wall",
             "Pyrenoid"
           ],
-          "wordAnswer": "Pyrenoid"
+          "wordAnswer": "Pyrenoid",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Zygote",
             "Gametes"
           ],
-          "wordAnswer": "Gametes"
+          "wordAnswer": "Gametes",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Water vapour",
             "Oxygen"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Sporangium",
             "Stolon"
           ],
-          "wordAnswer": "Mycelium"
+          "wordAnswer": "Mycelium",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Oestrogen",
             "Testosterone"
           ],
-          "wordAnswer": "Oxytocin"
+          "wordAnswer": "Oxytocin",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Community",
             "Ecosystem"
           ],
-          "wordAnswer": "Community"
+          "wordAnswer": "Community",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Uterus",
             "Cervix"
           ],
-          "wordAnswer": "Oviduct"
+          "wordAnswer": "Oviduct",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Vitamin B",
             "Vitamin A"
           ],
-          "wordAnswer": "Vitamin D"
+          "wordAnswer": "Vitamin D",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Spleen",
             "Liver"
           ],
-          "wordAnswer": "Liver"
+          "wordAnswer": "Liver",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Codominant",
             "Phenotype"
           ],
-          "wordAnswer": "Genotype"
+          "wordAnswer": "Genotype",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -628,9 +667,10 @@
             "Axon",
             "Dendrite",
             "Dendron",
-            "Neuron"
+            "Neurone"
           ],
-          "wordAnswer": "Neuron"
+          "wordAnswer": "Neurone",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Cartilage",
             "Humerus"
           ],
-          "wordAnswer": "Ligament"
+          "wordAnswer": "Ligament",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "Pituitary",
             "Ovary"
           ],
-          "wordAnswer": "The pancreas"
+          "wordAnswer": "The pancreas",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "Relax suspensory ligament and ciliary muscle",
             "Relax lens and retina"
           ],
-          "wordAnswer": "Relax suspensory ligament and ciliary muscle"
+          "wordAnswer": "Relax suspensory ligament and ciliary muscle",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "Duodenum",
             "Crop"
           ],
-          "wordAnswer": "Crop"
+          "wordAnswer": "Crop",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "Water",
             "Nutrients"
           ],
-          "wordAnswer": "The sun"
+          "wordAnswer": "The sun",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Malpighian layer",
             "Horny epidermal layer"
           ],
-          "wordAnswer": "Horny epidermal layer"
+          "wordAnswer": "Horny epidermal layer",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "To show that mammals give off oxygen during respiration",
             "To show that mammals give off carbon dioxide during respiration"
           ],
-          "wordAnswer": "To show that mammals give off carbon dioxide during respiration"
+          "wordAnswer": "To show that mammals give off carbon dioxide during respiration",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "Benedict's solution",
             "Copper II sulphate solution"
           ],
-          "wordAnswer": "Benedict's solution"
+          "wordAnswer": "Benedict's solution",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "75%",
             "100%"
           ],
-          "wordAnswer": "25%"
+          "wordAnswer": "25%",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Platelets",
             "Lymphocytes"
           ],
-          "wordAnswer": "Platelets"
+          "wordAnswer": "Platelets",
+          "explanation": null
         }
       ]
     }

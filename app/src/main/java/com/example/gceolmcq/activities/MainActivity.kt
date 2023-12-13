@@ -178,6 +178,10 @@ class MainActivity : SubscriptionActivity(),
         startActivity(intent)
     }
 
+    private fun gotoTermsOfServiceActivity(){
+        startActivity(TermsOfServiceActivity.getIntent(this))
+    }
+
 
     override fun onResume() {
         super.onResume()
@@ -200,6 +204,9 @@ class MainActivity : SubscriptionActivity(),
             }
             R.id.rateUs -> {
 //                rateUs()
+            }
+            R.id.terms -> {
+                gotoTermsOfServiceActivity()
             }
 
             R.id.privacyPolicy -> {

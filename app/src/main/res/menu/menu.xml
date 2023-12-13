@@ -13,6 +13,10 @@
         android:title="@string/rate_us"
         app:showAsAction="never"/>
     <item
+        android:id="@+id/terms"
+        android:title="@string/terms_of_service"
+        app:showAsAction="never"/>
+    <item
         android:id="@+id/privacyPolicy"
         android:title="@string/privacy_policy"
         app:showAsAction="never"/>

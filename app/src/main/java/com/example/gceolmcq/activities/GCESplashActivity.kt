@@ -6,7 +6,7 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.provider.Settings
 import android.view.LayoutInflater
-import android.webkit.WebView
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -28,7 +28,7 @@ class GCESplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        pref = getSharedPreferences("SplashActivity", MODE_PRIVATE)
+        pref = getSharedPreferences(resources.getString(R.string.app_name), MODE_PRIVATE)
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         supportActionBar?.hide()
         setupViewModel()
@@ -105,9 +105,17 @@ class GCESplashActivity : AppCompatActivity() {
 
     private fun displayTermsOfServiceDialog(){
         val view = LayoutInflater.from(this).inflate(R.layout.terms_of_use_layout, null)
-        val webView: WebView = view.findViewById(R.id.webView)
-        webView.loadUrl(MCQConstants.TERMS_URL)
+        val tvTermsOfService: TextView = view.findViewById(R.id.btnTerms)
+        val tvPrivacyPolicy: TextView = view.findViewById(R.id.btnPrivacyPolicy)
+        tvTermsOfService.setOnClickListener {
+            gotoTermsOfServiceActivity()
+        }
+        tvPrivacyPolicy.setOnClickListener {
+
+        }
+
         termsOfServiceDialog = AlertDialog.Builder(this).create()
+        termsOfServiceDialog?.setTitle(resources.getString(R.string.agreement))
         termsOfServiceDialog?.setView(view)
         termsOfServiceDialog?.setButton(AlertDialog.BUTTON_POSITIVE, resources.getString(R.string.accept)) { _, _ ->
             saveTermsOfServiceAcceptedStatus(true)
@@ -118,10 +126,13 @@ class GCESplashActivity : AppCompatActivity() {
         termsOfServiceDialog?.setButton(AlertDialog.BUTTON_NEGATIVE, resources.getString(R.string.decline)) { _, _ ->
             finish()
         }
+        termsOfServiceDialog?.setCancelable(false)
         termsOfServiceDialog?.show()
     }
 
-
+    private fun gotoTermsOfServiceActivity(){
+        startActivity(TermsOfServiceActivity.getIntent(this))
+    }
 
     private fun displayInitializingAppDialog(){
         initializingAppDialog = AlertDialog.Builder(this).create()

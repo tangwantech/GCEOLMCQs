@@ -22,7 +22,7 @@
             "Osmoregulation"
           ],
           "wordAnswer": "Osmosis",
-          "explanation": "The correct answer is Osmosis. Osmosis is the movement of water molecules from a region of high concentration of water molecules to a region of low concentration of water molecules through a semipermeable membrane. In this process, water molecules move across the membrane to equalize the concentration on both sides. This phenomenon is important for the balance of water in cells and plays a crucial role in various biological processes. \n\nThe other options are incorrect:\n- Absorption refers to the uptake of substances by cells or tissues.\n- Diffusion is the movement of molecules from an area of high concentration to an area of low concentration, but it does not specifically refer to water molecules.\n- Osmoregulation is the process of maintaining the balance of water and solutes in the body, but it does not specifically involve the movement of water molecules."
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -37,7 +37,7 @@
             "Guttation"
           ],
           "wordAnswer": "Wilting",
-          "explanation": "The correct answer is Wilting. Wilting occurs when the leaves of a plant lose more water through transpiration than the plant receives from the soil. This water loss leads to a loss of turgor pressure in the cells, causing the leaves to become limp and droopy. Wilting is a response to water stress and is often observed in plants when they do not receive enough water.\n\nThe other options are incorrect:\n- Plasmolysis refers to the process where a plant cell loses water in a hypertonic solution, causing the protoplasm to shrink away from the cell wall. It is not specifically related to the loss of water from leaves.\n- Turgidity refers to the state of being swollen or distended due to the absorption of water. It is the opposite of wilting and is not related to water loss from leaves.\n- Guttation is the exudation of water droplets from the tips or edges of leaves, usually occurring in the morning or during periods of high humidity. It is not directly related to the loss of water from leaves."
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Ultrafiltration"
           ],
           "wordAnswer": "Active transport",
-          "explanation": "Active transport is a process that requires energy to move substances across a cell membrane against their concentration gradient. It uses energy in the form of ATP (adenosine triphosphate) to pump molecules or ions across the membrane, allowing cells to maintain concentration gradients and perform functions such as nutrient uptake, waste removal, and ion balance. \n\nThe other options are incorrect because:\n\n- Enzymatic digestion is a process that breaks down large molecules into smaller ones using enzymes. It does not require energy.\n\n- Osmosis is the passive movement of water molecules across a selectively permeable membrane from an area of lower solute concentration to an area of higher solute concentration. It does not require energy.\n\n- Ultrafiltration: Ultrafiltration is a process by which fluid and solutes are filtered through a semipermeable membrane under pressure. It is a passive process and does not use energy."
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "Left ventricle and right ventricle"
           ],
           "wordAnswer": "Left atrium and left ventricle",
-          "explanation": "The left atrium receives oxygenated blood from the lungs, and the left ventricle pumps this oxygenated blood to the rest of the body. These chambers of the heart are responsible for circulating oxygenated blood throughout the systemic circulation."
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -82,7 +82,7 @@
             "Convert sugar into starch"
           ],
           "wordAnswer": "Absorb light energy for photosynthesis",
-          "explanation": "The correct answer is 'Absorb light energy for photosynthesis'. Chloroplasts are the organelles found in plant cells that contain chlorophyll, which absorbs light energy for the process of photosynthesis. During photosynthesis, chloroplasts capture light energy and convert it into chemical energy to produce glucose and oxygen.\n\nThe other options are incorrect:\n- 'Store food' is incorrect because while chloroplasts do participate in the production of carbohydrates, their primary function is not food storage.\n- 'Maintain shape of plant cells' is incorrect because the primary organelles responsible for maintaining cell shape are the cell wall and the central vacuole, not the chloroplasts.\n- 'Convert sugar into starch' is incorrect because the conversion of sugar into starch occurs in the cytoplasm and not specifically within the chloroplasts."
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -97,7 +97,7 @@
             "During unprotected sexual intercourse with an infected person"
           ],
           "wordAnswer": "During unprotected sexual intercourse with an infected person",
-          "explanation": "The correct answer is 'During unprotected sexual intercourse with an infected person'. AIDS, caused by the Human Immunodeficiency Virus (HIV), can be transmitted through various means, but one of the primary modes of transmission is through sexual contact with an infected person without using protection. HIV can be present in semen, vaginal fluids, and blood, and can enter the body through mucous membranes or open cuts or sores.\n\nThe other options are incorrect:\n- 'Through screened blood transfusion' is incorrect because blood transfusions are screened for HIV to prevent transmission. However, in rare cases, there can be a risk of transmission if the screening is not accurate or if the infection occurred after the screening.\n- 'Exchange of sterilized surgical equipment (blades, needles)' is incorrect because sterilized surgical equipment should not transmit HIV if proper sterilization protocols are followed.\n- 'During pregnancy' is incorrect because while HIV can be transmitted from an infected mother to her child during childbirth or through breastfeeding, it is not the primary method of spread."
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -112,7 +112,7 @@
             "Virus"
           ],
           "wordAnswer": "Plasmodium",
-          "explanation": "The correct answer is 'Plasmodium'. Malaria is caused by the Plasmodium parasite, which is transmitted to humans through the bite of infected female Anopheles mosquitoes. The parasite multiplies in the liver and then infects red blood cells, causing the characteristic symptoms of malaria.\n\nThe other options are incorrect:\n- 'Mosquito' is incorrect because while mosquitoes are the vectors that transmit the Plasmodium parasite, they themselves do not cause malaria.\n- 'Bacteria' is incorrect because malaria is not caused by a bacterial infection.\n- 'Virus' is incorrect because malaria is not caused by a viral infection."
+          "explanation": null
         }
       ]
     },
@@ -134,7 +134,7 @@
             "Gaseous exchange"
           ],
           "wordAnswer": "Osmoregulation",
-          "explanation": "The correct answer is 'Osmoregulation'. In an amoeba, the contractile vacuole is responsible for regulating the water balance or osmotic pressure within the cell. It helps to remove excess water from the cytoplasm and expel it out of the cell, maintaining the proper osmotic concentration.\n\nThe other options are incorrect:\n- 'Reproduction' is incorrect because the contractile vacuole is not involved in the reproductive processes of an amoeba.\n- 'Food storage' is incorrect because the primary organelle responsible for food storage in an amoeba is the food vacuole.\n- 'Gaseous exchange' is incorrect because amoebas do not have specialized respiratory structures and rely on simple diffusion for gas exchange."
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "Lightning"
           ],
           "wordAnswer": "Denitrification",
-          "explanation": "The correct answer is 'Denitrification'. Denitrification is the process represented by arrow 3 in the nitrogen cycle. It is the conversion of nitrates (NO3-) back into nitrogen gas (N2) by denitrifying bacteria. This process occurs in anaerobic conditions, such as waterlogged soils or oxygen-depleted environments.\n\nThe other options are incorrect:\n- 'Nitrogen fixation' is incorrect because nitrogen fixation is the conversion of atmospheric nitrogen gas (N2) into a usable form, such as ammonia or nitrate, by nitrogen-fixing bacteria or lightning.\n- 'Nitrification' is incorrect because nitrification is the oxidation of ammonia (NH3) to nitrite (NO2-) and then to nitrate (NO3-) by nitrifying bacteria.\n- 'Lightning' is incorrect because while lightning can contribute to nitrogen fixation by converting nitrogen gas (N2) into nitrogen oxides (NOx), it is not the specific process represented by arrow 3 in the nitrogen cycle."
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Cabbage"
           ],
           "wordAnswer": "Caterpillar",
-          "explanation": "The correct answer is 'Caterpillar'. In the given food chain, the herbivore is the organism that consumes plants. As the caterpillar directly feeds on the cabbage, which is a plant, it is considered the herbivore.\n\nThe other options are incorrect:\n- 'Hen' is incorrect because hens are omnivores and can consume both plants and animals.\n- 'Hawk' is incorrect because hawks are carnivores and primarily feed on other animals.\n- 'Cabbage' is incorrect because cabbages are plants and do not consume other organisms."
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -179,7 +179,7 @@
             "Chloroplast"
           ],
           "wordAnswer": "Chloroplast",
-          "explanation": "The correct answer is 'Chloroplast'. Spirogyra is autotrophic because it contains chloroplasts, which are responsible for photosynthesis. Chloroplasts contain chlorophyll, a pigment that captures light energy and converts it into chemical energy, allowing Spirogyra to produce its own food.\n\nThe other options are incorrect:\n- 'Cell wall' is incorrect because while Spirogyra does have a cell wall, the presence of a cell wall alone does not make an organism autotrophic.\n- 'Pyrenoid' is incorrect because a pyrenoid is a specialized structure within the chloroplast of some algae, including Spirogyra, but it is not directly responsible for photosynthesis.\n- 'Mucilage' is incorrect because mucilage is a slimy substance produced by Spirogyra to protect against drying out, but it is not involved in the process of photosynthesis."
+          "explanation": null
         },
             {
           "questionNumber": "12",
@@ -194,7 +194,7 @@
             "Retina"
           ],
           "wordAnswer": "Retina",
-          "explanation": "The correct answer is 'Retina'. The retina is the structure in the eye that contains a high concentration of light-sensitive cells called rods and cones. These cells are responsible for detecting and responding to light stimuli, initiating the process of vision.\n\nThe other options are incorrect:\n- 'Choroid' is incorrect because the choroid is a layer in the eye that provides nourishment to the retina, but it does not contain the light-sensitive cells.\n- 'Sclera' is incorrect because the sclera is the tough, white outer layer of the eye that provides structural support, but it does not contain the light-sensitive cells.\n- 'Cornea' is incorrect because the cornea is the transparent front part of the eye that helps to focus light onto the retina, but it does not contain the light-sensitive cells."
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -209,7 +209,7 @@
             "Vena cava"
           ],
           "wordAnswer": "Pulmonary vein",
-          "explanation": "The correct answer is 'Pulmonary vein'. The pulmonary vein is responsible for transporting oxygenated blood from the lungs to the heart in the mammalian circulatory system. After oxygen is exchanged in the lungs, the pulmonary vein carries the oxygen-rich blood back to the heart to be pumped to the rest of the body.\n\nThe other options are incorrect:\n- 'Pulmonary artery' is incorrect because the pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation.\n- 'Aorta' is incorrect because the aorta is the main artery that carries oxygenated blood from the heart to the rest of the body, not from the lungs to the heart.\n- 'Vena cava' is incorrect because the vena cava is a large vein that carries deoxygenated blood from the body back to the heart, not from the lungs to the heart."
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -224,7 +224,7 @@
             "Pituitary gland"
           ],
           "wordAnswer": "Adrenal gland",
-          "explanation": "The correct answer is 'Adrenal gland'. The adrenal gland is an endocrine gland in the human body that produces the hormone called adrenaline (epinephrine). Adrenaline increases the rate of heart beat and is involved in the body's response to stress or danger.\n\nThe other options are incorrect:\n- 'Thyroid gland' is incorrect because the thyroid gland produces hormones that regulate metabolism, but it does not directly increase the rate of heart beat.\n- 'Pancreas' is incorrect because the pancreas produces insulin and other hormones involved in regulating blood sugar levels, but it does not directly increase the rate of heart beat.\n- 'Pituitary gland' is incorrect because the pituitary gland produces various hormones that control other endocrine glands, but it does not directly increase the rate of heart beat."
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -239,7 +239,7 @@
             "Meissner's corpuscle"
           ],
           "wordAnswer": "Sebaceous gland",
-          "explanation": "The correct answer is 'Sebaceous gland'. The sebaceous gland produces an oily secretion called sebum, which helps keep the skin supple and moisturized. Sebum also helps to protect the skin from bacteria and other microorganisms.\n\nThe other options are incorrect:\n- 'Subcutaneous layer' is incorrect because the subcutaneous layer is a layer of fat and connective tissue beneath the skin, not a gland that produces an oily secretion.\n- 'Sweat gland' is incorrect because sweat glands produce sweat, a watery secretion that helps regulate body temperature, but it does not produce an oily secretion.\n- 'Meissner's corpuscle' is incorrect because Meissner's corpuscles are sensory receptors in the skin that are involved in detecting light touch and vibration, not in producing an oily secretion."
+          "explanation": null
         },
             {
           "questionNumber": "16",
@@ -254,7 +254,7 @@
             "Medulla Oblongata"
           ],
           "wordAnswer": "Cerebrum",
-          "explanation": "'Cerebrum' is responsible for voluntary (conscious) activities of the body. It controls functions such as movement, speech, memory, and reasoning. \n\nThe other options are incorrect:\n- Hypothalamus: It is responsible for regulating body temperature, hunger, thirst, and hormone production.\n- Mid-brain: It is involved in sensory and motor functions, but not primarily responsible for voluntary activities.\n- Medulla Oblongata: It controls involuntary functions like breathing, heartbeat, and blood pressure, but not voluntary activities."
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "Hypothalamus"
           ],
           "wordAnswer": "Cerebellum",
-          "explanation": "'Cerebellum' is responsible for balance and posture. It coordinates movements, maintains equilibrium, and helps regulate muscle tone. \n\nThe other options are incorrect:\n- Mid-brain: It is involved in sensory and motor functions, but not primarily responsible for balance and posture.\n- Medulla Oblongata: It controls involuntary functions like breathing, heartbeat, and blood pressure, but not balance and posture.\n- Hypothalamus: It is responsible for regulating body temperature, hunger, thirst, and hormone production, but not balance and posture."
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "Production of insulin"
           ],
           "wordAnswer": "Production of insulin",
-          "explanation": "'Production of insulin' is done by the pancreas (structure 3). Insulin helps regulate blood sugar levels and is essential for maintaining homeostasis in the body. \n\nThe other options are incorrect:\n- Carries out deamination: Deamination is the process of removing amino groups from amino acids, which occurs mainly in the liver.\n- Carries out detoxification: Detoxification primarily occurs in the liver, not in structure 3.\n- Breaks down red blood cell: The breakdown of red blood cells primarily occurs in the spleen and liver, not in structure 3."
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -299,7 +299,7 @@
             "Penis"
           ],
           "wordAnswer": "Testes",
-          "explanation": "'Testes' are the primary structures in the male reproductive system that produce sperm. They are responsible for the production of sperm cells through a process called spermatogenesis. \n\nThe other options are incorrect:\n- Epididymis: The epididymis is a structure that stores and transports mature sperm, but it does not produce sperm.\n- Prostate gland: The prostate gland produces seminal fluid that helps nourish and transport sperm, but it does not produce sperm itself.\n- Penis: The penis is an external organ involved in sexual intercourse and urination, but it does not produce sperm."
+          "explanation": null
         },
             {
           "questionNumber": "20",
@@ -314,7 +314,7 @@
             "It carries blood under low pressure"
           ],
           "wordAnswer": "It pumps blood over a long distance",
-          "explanation": "The left ventricle of the mammalian heart has thicker walls to generate enough force to pump oxygenated blood to the entire body over a long distance. The left ventricle receives oxygenated blood from the left atrium and pumps it out to the rest of the body through the systemic circulation. Since the body is a larger distance away from the heart compared to the lungs, the left ventricle needs to generate more force to push the blood throughout the systemic circulation, hence the thicker walls.\n\nThe other options are incorrect:\n\n- 'It holds more blood': The left ventricle and the right ventricle of the heart have similar capacities to hold blood. The difference in wall thickness is not related to the amount of blood the ventricle can hold.\n\n- 'It carries blood loaded with food and oxygen': The left ventricle pumps oxygenated blood, which is rich in oxygen and nutrients, to the body. However, the thickness of the left ventricle walls is not directly related to the oxygen and nutrient content of the blood.\n\n- 'It carries blood under low pressure': The left ventricle actually pumps blood under high pressure to overcome the resistance of the systemic circulation and ensure blood reaches all parts of the body. The thicker walls of the left ventricle help generate the necessary force to maintain adequate blood flow throughout the body."
+          "explanation": null
         }
       ]
     },
@@ -340,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": "Unicellular organisms have a large surface area to volume ratio, which allows for efficient diffusion of substances across their cell membrane.\n- Substances diffuse over short distances in unicellular organisms because they have a small size and simple structure, allowing for direct contact between the environment and their cells.\n- Unicellular organisms make intimate contact with their surroundings as their entire body is in direct contact with the environment, enabling efficient exchange of gases, nutrients, and waste products."
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -359,7 +359,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": "Mature Red Blood Cells function in transport, specifically in carrying oxygen from the lungs to the body tissues and carbon dioxide from the tissues to the lungs.\n- Mature Red Blood Cells lack a nucleus, allowing for more space to carry oxygen and increasing their flexibility to squeeze through narrow capillaries. This lack of nucleus also means that they have a limited lifespan and cannot divide.\n- Mature Red Blood Cells contain hemoglobin, a protein that binds to oxygen and enables its transport throughout the body."
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -378,7 +378,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": "During inspiration, the diaphragm muscle contracts, flattening and moving downwards. This action increases the volume of the thoracic cavity, creating a pressure gradient that allows air to enter the lungs.\n- The pressure in the lungs decreases during inspiration due to the expansion of the thoracic cavity, creating a lower pressure inside the lungs compared to the atmospheric pressure. This pressure difference facilitates the inflow of air.\n- The rib cage moves upwards and outwards during inspiration, further expanding the thoracic cavity and aiding in the inhalation of air."
+          "explanation": null
         },
             {
           "questionNumber": "24",
@@ -397,7 +397,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": "During overheating, more sweat is produced to help dissipate heat from the body through evaporation. This sweating response helps cool down the body.\n- The erector pili muscles relax during overheating. These muscles are responsible for making the hairs on our skin stand up (goosebumps) when we are cold. Relaxing these muscles allows for better heat dissipation.\n\nThe other options are incorrect:\n\n- Superficial blood vessels do not constrict during overheating. In fact, blood vessels in the skin dilate (expand) to increase blood flow and enhance heat loss through the skin."
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -416,7 +416,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": "To focus on near objects, the ciliary muscle contracts. This contraction changes the shape of the lens, making it more rounded and increasing its refractive power.\n- The suspensory ligament slackens when focusing on near objects. This allows the ciliary muscle to change the shape of the lens more easily.\n- The lens becomes thicker when focusing on near objects. This change in thickness helps to bring the image into focus on the retina."
+          "explanation": null
         }
       ]
     },
@@ -441,7 +441,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": "The correct answer is 'First statement is False. Second statement is True.'\n\nExplanation:\n- Gametes are not generally produced by mitosis. Gametes, which are sex cells (sperm and egg), are produced through a specialized cell division called meiosis. Meiosis involves two rounds of division, resulting in the formation of cells with half the number of chromosomes as the parent cell. This reduction in chromosome number is essential for sexual reproduction.\n\n- Body cells, on the other hand, are produced by mitosis. Mitosis is a type of cell division that results in the formation of two daughter cells that are genetically identical to the parent cell. It plays a crucial role in growth, development, and tissue repair."
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -459,7 +459,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first.",
-          "explanation": "The correct answer is 'Both statements are true and the second statement is NOT a correct explanation of the first.'\n\nExplanation:\n- The image of an object formed on the retina is indeed inverted. In the human eye, the lens refracts light rays, and the image is formed on the retina, which is located at the back of the eye. Due to the lens's shape, the light rays cross over each other, resulting in an inverted image on the retina.\n\n- Light-sensitive cells (photoreceptor cells) are found on the retina. These cells, known as rods and cones, detect light and convert it into electrical signals that can be interpreted by the brain. They play a crucial role in vision.\n\nHowever, the second statement is not a correct explanation of the first. The inversion of the image on the retina is primarily due to the optical properties of the lens, not the presence of light-sensitive cells on the retina."
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -477,7 +477,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": "The correct answer is 'First statement is False. Second statement is True.'\n\nExplanation:\n- In phototropism, the stimulus is not gravity. Phototropism is a plant's response to light, where the plant grows towards or away from a light source. The stimulus for phototropism is light, not gravity.\n\n- Shoots are positively phototropic, meaning they grow towards light. This is due to the plant hormone auxin, which accumulates on the shaded side of the shoot and promotes cell elongation, causing the shoot to bend towards the light."
+          "explanation": null
         },
             {
           "questionNumber": "29",
@@ -494,8 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
-          "explanation": "Short sightedness occurs when an individual can only see objects clearly when they are close to the eye. This is caused by the eyeball being slightly longer than usual, which causes the light to focus in front of the retina instead of directly on it. \nConcave or diverging lens helps to correct short sightedness by diverging the light before it enters the eye, allowing it to focus properly on the retina."
+          "wordAnswer": "Both statements are true and the second statement is NOT a correct explanation of the first.",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -513,7 +513,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
-          "explanation": "The bicuspid and tricuspid valves close when the ventricles contract. This is to prevent the backflow of blood from the ventricles into the atria. \nWhen the ventricles contract, the pressure inside them increases, causing the valves to close tightly and prevent the blood from flowing backward."
+          "explanation": null
         }
       ]
     },
@@ -534,7 +534,7 @@
             "Water and oxygen",
             "Carbon dioxide and glucose"
           ],
-          "wordAnswer": "'Glucose and oxygen' is correct because during photosynthesis, plants convert carbon dioxide and water into glucose and oxygen. Glucose is the primary end-product of photosynthesis and is used by plants for energy and growth. Oxygen is released as a byproduct.\n\nThe other options are incorrect:\n\n- 'Starch and water': Starch is a polysaccharide that can be formed from glucose, but it is not the immediate end-product of photosynthesis. Water is one of the reactants in photosynthesis, not a product.\n\n- 'Water and oxygen': Water is a reactant in photosynthesis, not a product. Oxygen is released as a byproduct, but it is not the immediate end-product.\n\n- 'Carbon dioxide and glucose': Carbon dioxide is a reactant in photosynthesis, not a product. Glucose is the end-product, not a reactant."
+          "wordAnswer": null
         },
         {
           "questionNumber": "32",
@@ -549,7 +549,7 @@
             "Holophytic nutrition"
           ],
           "wordAnswer": "Saprophytic nutrition",
-          "explanation": "'Saprophytic nutrition' is correct because it involves the extracellular digestion of dead and decaying organic matter. Saprophytic organisms obtain nutrients by secreting digestive enzymes onto the organic matter and absorbing the resulting nutrients.\n\nThe other options are incorrect:\n\n- 'Parasitic nutrition': Parasitic nutrition involves obtaining nutrients from a living host organism, not from dead organic matter.\n\n- 'Holozoic nutrition': Holozoic nutrition involves ingesting whole food and digesting it internally, not externally.\n\n- 'Holophytic nutrition': Holophytic nutrition, also known as autotrophic nutrition, involves synthesizing organic compounds from inorganic substances through photosynthesis, which is not related to extracellular digestion."
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -564,7 +564,7 @@
             "Population control"
           ],
           "wordAnswer": "Biological control",
-          "explanation": "'Biological control' is correct because it refers to the use of other living organisms to control or eliminate harmful organisms. This method involves introducing natural predators, parasites, or pathogens to reduce the population of pests or harmful organisms in an ecosystem.\n\nThe other options are incorrect:\n\n- 'Chemical control': Chemical control involves using chemical substances such as pesticides or herbicides to control or eliminate harmful organisms. It does not involve the use of other living organisms.\n\n- 'Vector control': Vector control refers to methods aimed at controlling the population of disease-carrying vectors, such as mosquitoes or ticks. It is not specifically focused on the elimination of harmful organisms in general.\n\n- 'Population control': Population control generally refers to measures taken to regulate the size or growth of a population, but it does not specifically involve the use of other living organisms to eliminate harmful organisms."
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -579,7 +579,7 @@
             "Nitrogen dioxide"
           ],
           "wordAnswer": "Carbon dioxide",
-          "explanation": "'Carbon dioxide' is correct because it is one of the main greenhouse gases responsible for the greenhouse effect. It traps heat in the atmosphere, contributing to global warming and climate change.\n\nThe other options are incorrect:\n\n- 'Carbon monoxide': Carbon monoxide is a pollutant and toxic gas, but it is not a significant greenhouse gas and does not contribute significantly to the greenhouse effect.\n\n- 'Sulphur dioxide': Sulphur dioxide is a pollutant released from burning fossil fuels and volcanic eruptions. It can contribute to air pollution and forms acid rain but is not a major greenhouse gas.\n\n- 'Nitrogen dioxide': Nitrogen dioxide is a pollutant released from burning fossil fuels and is a component of smog. It contributes to air pollution but is not a significant greenhouse gas."
+          "explanation": null
         },
             {
           "questionNumber": "35",
@@ -594,7 +594,7 @@
             "Species"
           ],
           "wordAnswer": "Community",
-          "explanation": "'Community' refers to all the living organisms of different species that inhabit a specific locality and interact with each other.\n\nThe other options are incorrect:\n\n- 'Ecosystem': An ecosystem refers to the community of living organisms along with their physical environment, including abiotic factors such as soil, water, and climate. It is a larger scale concept that includes both living and non-living components.\n\n- 'Population': A population refers to a group of individuals of the same species inhabiting a specific area or locality. It does not include different species interacting with each other.\n\n- 'Species': A species refers to a group of organisms that are able to interbreed and produce fertile offspring. It does not encompass the entire living community of a locality."
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -609,7 +609,7 @@
             "Deamination"
           ],
           "wordAnswer": "Decay",
-          "explanation": "'During the process of 'Decay', organic matter undergoes decomposition, releasing carbon dioxide into the atmosphere. Decay occurs when microorganisms break down dead plants, animals, and other organic materials.\n\nThe other options are incorrect:\n\n- 'Photosynthesis': Photosynthesis is the process by which green plants and some other organisms convert carbon dioxide and water into glucose and oxygen, resulting in a net decrease in atmospheric carbon dioxide.\n\n- 'Digestion': Digestion is the process of breaking down food in the digestive system of animals. It does not directly add carbon dioxide into the atmosphere.\n\n- 'Deamination': Deamination is a metabolic process that occurs in animals and involves the removal of the amino group from amino acids. It does not directly add carbon dioxide into the atmosphere."
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -624,7 +624,7 @@
             "Eutrophication"
           ],
           "wordAnswer": "Leaching",
-          "explanation": "'Leaching' refers to the process of nutrients being washed down from the topsoil to the subsoil or beyond, usually due to the movement of water. This can result in the loss of essential nutrients from the topsoil, affecting the fertility of the soil.\n\nThe other options are incorrect:\n\n- 'Erosion': Erosion refers to the physical removal of soil and its components by wind, water, or other forces. While erosion can contribute to the movement of nutrients, it does not specifically refer to the washing down of nutrients.\n\n- 'Drainage': Drainage refers to the removal of excess water from an area. It does not specifically involve the washing down of nutrients from the topsoil.\n\n- 'Eutrophication': Eutrophication refers to the excessive enrichment of water bodies with nutrients, often due to human activities. It is not directly related to the washing down of nutrients from the topsoil."
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -639,7 +639,7 @@
             "Presence of cell wall"
           ],
           "wordAnswer": "Presence of chlorophyll",
-          "explanation": "Chlorophyll is a pigment found in the chloroplasts of spirogyra and other autotrophic organisms. Chlorophyll is responsible for absorbing light energy during photosynthesis, which allows spirogyra to convert carbon dioxide and water into glucose and oxygen.\n\nThe other options are incorrect:\n\n- 'Presence of pyrenoids': Pyrenoids are specialized structures found in some algae, including spirogyra. They are involved in the storage of starch, but they are not directly responsible for the autotrophic nature of spirogyra.\n\n- 'Presence of starch': Starch is a storage carbohydrate produced by plants, including spirogyra, as a result of photosynthesis. While starch is present in spirogyra, it is not the reason why spirogyra is autotrophic.\n\n- 'Presence of cell wall': The cell wall is a rigid structure found in plant cells, including spirogyra. While the cell wall provides support and protection, it is not directly related to the autotrophic nature of spirogyra."
+          "explanation": null
         },
             {
           "questionNumber": "39",
@@ -654,7 +654,7 @@
             "Lettuce-->chicken-->hawk-->grasshopper"
           ],
           "wordAnswer": "Lettuce-->grasshopper-->chicken-->hawk",
-          "explanation": "'Lettuce-->grasshopper-->chicken-->hawk' is correct because it represents the correct flow of energy in a locality based on the concept of food chains and energy transfer.\n\nExplanation:\n\n- Lettuce is a producer that undergoes photosynthesis to produce energy-rich organic molecules.\n- Grasshoppers are primary consumers that feed on Lettuce, obtaining energy from the plant material.\n- Chickens are secondary consumers that feed on grasshoppers, obtaining energy from the herbivorous insects.\n- Hawks are tertiary consumers that feed on chickens, obtaining energy from the carnivorous birds.\n\nThe other options are incorrect because they do not represent the correct flow of energy in a locality:\n\n- 'Lettuce-->hawk-->chicken-->grasshopper': This option reverses the order of the energy flow, starting with Lettuce and ending with grasshoppers. It does not follow the natural progression of energy transfer in a food chain."
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -669,7 +669,7 @@
             "Glucose solution"
           ],
           "wordAnswer": "Glucose solution",
-          "explanation": "Glucose is a reducing sugar that reacts with Benedict's solution to produce a brick red precipitate. Benedict's solution contains copper ions, which are reduced by the glucose, resulting in the formation of a brick red-colored precipitate.\n\nThe other options are incorrect because they do not produce a brick red precipitate when tested with Benedict's solution:\n\n- 'Starch solution': Starch is a complex carbohydrate that does not react with Benedict's solution to produce a brick red precipitate.\n\n- 'Egg white': Egg white is primarily composed of proteins, which do not react with Benedict's solution to produce a brick red precipitate.\n\n- 'Bean extract': Bean extract contains various compounds, including proteins and carbohydrates, but it does not typically contain a high concentration of reducing sugars like glucose. Therefore, it may not produce a brick red precipitate with Benedict's solution.\n"
+          "explanation": null
         }
       ]
     },
@@ -691,7 +691,7 @@
             "Absorb oxygen"
           ],
           "wordAnswer": "Absorb carbon dioxide",
-          "explanation": "Caustic soda (sodium hydroxide) is used in the setup to absorb carbon dioxide. Carbon dioxide is necessary for photosynthesis, and by removing it using caustic soda, the experiment aims to demonstrate the importance of carbon dioxide in the process.\n\nThe other options are incorrect because:\n\n- 'Produce carbon dioxide': Caustic soda does not produce carbon dioxide. It is used to remove carbon dioxide from the setup.\n\n- 'Produce oxygen': Caustic soda does not produce oxygen. Oxygen is a product of photosynthesis, not a requirement for it.\n\n- 'Absorb oxygen': Caustic soda is not used to absorb oxygen. The experiment focuses on the role of carbon dioxide in photosynthesis, not oxygen absorption."
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -706,7 +706,7 @@
             "Gills not absorbing oxygen from air"
           ],
           "wordAnswer": "Gills not absorbing oxygen from air",
-          "explanation": "Fish suffocate out of water when their gills, which are specialized respiratory organs, are unable to extract oxygen from the air. Fish gills are adapted to extract dissolved oxygen from water, and they are not designed to extract oxygen efficiently from the air.\n\nThe other options are incorrect because:\n\n- 'More carbon dioxide on land': While there may be more carbon dioxide on land compared to water, fish suffocation is primarily caused by the inability to extract oxygen, not the presence of carbon dioxide.\n\n- 'Less oxygen on land than in water': There is however more oxygen on land than in water. Fish suffocation is primarily due to the gills' inability to extract oxygen from the air, rather than a comparison of oxygen levels.\n\n- 'High temperatures on land': While high temperatures on land can lead to reduced oxygen solubility in water, fish suffocation is primarily due to the gills' inability to extract oxygen from the air, not temperature-related factors."
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -721,7 +721,7 @@
             "Harden the leaf"
           ],
           "wordAnswer": "Remove chlorophyll",
-          "explanation": "Boiling the leaf in alcohol helps remove chlorophyll, which can interfere with the starch test. Chlorophyll is a green pigment in plants that can mask the presence of starch, making it difficult to detect.\n\nThe other options are incorrect because:\n\n- 'Burst starch grains': Boiling the leaf in alcohol does not burst starch grains. It primarily helps remove chlorophyll from the leaf.\n\n- 'Soften the leaf': Boiling the leaf in alcohol may soften the leaf to some extent, but the primary purpose is to remove chlorophyll, not to soften the leaf.\n\n- 'Harden the leaf': Boiling the leaf in alcohol does not harden the leaf. The process primarily focuses on chlorophyll removal, not leaf hardening."
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -736,7 +736,7 @@
             "Prevent wilting of the shoot"
           ],
           "wordAnswer": "Prevent the entry of air bubbles into the xylem",
-          "explanation": "Cutting and mounting the leafy shoot under water helps prevent the entry of air bubbles into the xylem, the vascular tissue responsible for transporting water in plants. Air bubbles can disrupt the water flow and affect the accuracy of the potometer measurements. By keeping the shoot submerged in water during the setup, the formation of air bubbles is minimized.\n\nThe other options are incorrect because:\n\n- 'Prevent water flowing backwards in the shoot': While cutting and mounting the leafy shoot under water may help prevent water flowing backwards to some extent, the primary purpose is to prevent the entry of air bubbles into the xylem.\n\n- 'Ensure sufficient supply of water to the shoot': While cutting and mounting the leafy shoot under water does ensure a continuous supply of water, the main reason is to prevent the entry of air bubbles into the xylem.\n\n- 'Prevent wilting of the shoot': Cutting and mounting the leafy shoot under water can help prevent wilting to a certain extent, but the main purpose is to prevent the entry of air bubbles into the xylem."
+          "explanation": null
         },
             {
           "questionNumber": "45",
@@ -751,7 +751,7 @@
             "1/2"
           ],
           "wordAnswer": "1/2",
-          "explanation": "The correct answer is 1/2. When a couple with genotypes BO and AB has a child, there is a 1/2 probability that the child will have blood group B. This is because blood group B can be inherited from either parent. The genotype BO represents blood group B with genotype BO, and the genotype AB represents blood group B with genotype AB. Therefore, there is a 1/2 chance that the child will have blood group B, as it can inherit the B allele from either parent."
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -766,7 +766,7 @@
             "High light intensity"
           ],
           "wordAnswer": "Even distribution of auxin",
-          "explanation": "The correct answer is 'Even distribution of auxin.' When a bean seedling is placed on a rotating klinostat, it grows straight upwards because of the even distribution of auxin. Auxin is a plant hormone that promotes cell elongation and growth. When the klinostat rotates, it prevents the accumulation of auxin on one side of the seedling, resulting in an even distribution of auxin. This leads to balanced growth and the seedling growing straight upwards."
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -781,7 +781,7 @@
             "Fast growth of axillary buds"
           ],
           "wordAnswer": "Fast growth of axillary buds",
-          "explanation": "The correct answer is 'Fast growth of axillary buds.' When the terminal bud of a tomato plant is cut off, it stimulates the fast growth of axillary buds. The terminal bud is responsible for suppressing the growth of axillary buds by producing a hormone called auxin. When the terminal bud is removed, the inhibition of axillary buds is released, leading to their rapid growth. This is a common horticultural practice known as pinching to encourage bushier growth in plants."
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -796,7 +796,7 @@
             "Plants are saprophytic"
           ],
           "wordAnswer": "Plants convert solar energy into chemical energy",
-          "explanation": "The correct answer is 'Plants convert solar energy into chemical energy.' Plants always occur at the first trophic level in a food chain because they are the primary producers. They have the ability to convert sunlight into chemical energy through the process of photosynthesis. This energy is then transferred to the organisms at higher trophic levels through consumption. Without plants, there would be no source of energy for the rest of the food chain, making them essential for sustaining life on Earth."
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -811,7 +811,7 @@
             "Contains carbon dioxide"
           ],
           "wordAnswer": "Contains carbon dioxide",
-          "explanation": "When exhaled air is bubbled through lime water, it turns milky due to the presence of carbon dioxide. Carbon dioxide (CO2) is produced as a waste product during cellular respiration in living organisms. When we exhale, we release carbon dioxide into the air. This carbon dioxide reacts with the calcium hydroxide (Ca(OH)2) in lime water (Ca(OH)2) to form a white precipitate called calcium carbonate (CaCO3), which gives the milky appearance. This reaction is known as the limewater test for carbon dioxide.\n\nThe other options are incorrect:\n- 'Contains oxygen': Exhaled air does contain oxygen, but it is not the cause of the milky appearance in lime water.\n- 'Contains carbon monoxide': Carbon monoxide is not typically present in exhaled air.\n- 'Contains nitrogen oxide': Nitrogen oxide is not typically present in significant amounts in exhaled air."
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -826,7 +826,7 @@
             "Anaerobic respiration by bacteria"
           ],
           "wordAnswer": "Anaerobic respiration by yeast",
-          "explanation": "Exposed palm wine loses its sweetness after several hours due to anaerobic respiration by yeast. Yeast is a type of microorganism that can carry out fermentation in the absence of oxygen. When palm wine is exposed to air, yeast present in the environment can contaminate it. These yeast cells metabolize the sugars present in the palm wine through anaerobic respiration, converting them into alcohol and carbon dioxide. This process is known as fermentation. As a result, the sweetness of the palm wine decreases as the sugars are converted into alcohol.\n\nThe other options are incorrect:\n- 'Conversion of sugar to starch': Conversion of sugar to starch is not a process that occurs in anaerobic conditions.\n- 'Evaporation of the wine': Evaporation of the wine may cause a loss of volume but does not directly affect its sweetness.\n- 'Anaerobic respiration by bacteria': While bacteria can also carry out anaerobic respiration, yeast is the primary microorganism responsible for fermentation in palm wine."
+          "explanation": null
         }
       ]
     }

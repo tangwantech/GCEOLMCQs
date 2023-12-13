@@ -22,7 +22,7 @@
             "Protein"
           ],
           "wordAnswer": "Fat",
-          "explanation": "Among the given food samples, Fat will generate the largest amount of energy upon oxidation. Fats have a higher energy content per gram compared to other macronutrients such as glycogen, starch, and protein."
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -37,7 +37,7 @@
             "Fermentation"
           ],
           "wordAnswer": "Fermentation",
-          "explanation": "The anaerobic respiration of yeast in a sugar solution is known as fermentation. During fermentation, yeast converts sugars into alcohol and carbon dioxide in the absence of oxygen."
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Consumers"
           ],
           "wordAnswer": "Producers",
-          "explanation": "Solar energy is converted to chemical energy by producers. Producers, such as plants, use sunlight through the process of photosynthesis to convert solar energy into chemical energy in the form of carbohydrates. \n\n Herbivores, decomposers, and consumers do not directly convert solar energy into chemical energy."
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "C57H104O6"
           ],
           "wordAnswer": "C6H12O6",
-          "explanation": "The formula C6H12O6 represents glucose. Glucose is a simple sugar with six carbon atoms, twelve hydrogen atoms, and six oxygen atoms. \n\n C2H5OH represents ethanol, C12H22O11 represents a disaccharide such as sucrose, and C57H104O6 represents lipid."
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -82,7 +82,7 @@
             "Reduce water loss"
           ],
           "wordAnswer": "Reduce water loss",
-          "explanation": "Both leaf and insect exoskeletons serve to reduce water loss. Leaves have a waxy cuticle that helps prevent excessive transpiration, while insect exoskeletons act as a protective barrier against water loss."
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -97,7 +97,7 @@
             "Nuchal crest"
           ],
           "wordAnswer": "Scaly skin",
-          "explanation": "The scaly skin of the Agama lizard serves as a protective adaptation in a terrestrial habitat. It helps to reduce water loss, provides physical protection against predators, and aids in thermoregulation. \n\n Claws, Gular fold, and Nuchal crest may also have specific functions but are not primarily protective adaptations."
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -112,7 +112,7 @@
             "Pancreas"
           ],
           "wordAnswer": "Pancreas",
-          "explanation": "The hormone insulin is produced by the pancreas. Insulin plays a crucial role in regulating blood sugar levels and facilitating the uptake of glucose by cells for energy."
+          "explanation": null
         }
       ]
     },
@@ -134,7 +134,7 @@
             "1"
           ],
           "wordAnswer": "5",
-          "explanation": "The cortex (5) is the outer region of the kidney where the glomeruli and Bowman's capsules are found. This is where the process of filtration takes place. \n\n- 1 (medulla), 4 (pelvis), 6 (ureter) do not contain Bowman's capsules."
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "Collecting duct"
           ],
           "wordAnswer": "Glomerulus",
-          "explanation": "Ultra-filtration takes place in the Glomerulus. The Glomerulus is a network of tiny blood vessels called capillaries that filter waste products and excess water from the blood. \nThe other options are wrong because:\n\n- Bowman's capsule is the structure that surrounds the Glomerulus and collects the filtered fluid.\n\n- Proximal convoluted tubule is the structure where reabsorption of important substances from the filtrate occurs.\n\n- Collecting duct is responsible for further concentration of urine and not the initial filtration."
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Sepal"
           ],
           "wordAnswer": "Ovule",
-          "explanation": "The ovule contains the female reproductive cells and is located within the ovary of the flower. After fertilization, the ovule develops into a seed, which contains the embryo of the plant.The other options are wrong because: \n\n- The ovary develops into the fruit of the flower and no the seed.\n\n- The stigma is the sticky structure at the top of the pistil that receives pollen during pollination.\n\n- The sepal is the outermost part of the flower that protects the bud before it blooms. The sepal withers and falls off after fertilization."
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -179,7 +179,7 @@
             "1 and 5"
           ],
           "wordAnswer": "1 and 2",
-          "explanation": "The cell body of a motor neuron consists of both the dendron (1) and the cell body itself (2). The dendron is responsible for receiving signals from other neurons, while the cell body contains the nucleus and other organelles necessary for the neuron's functioning. \n\n- 3, 4 and 5 refer to the axon, node of Ranvier and  myelin sheath respectively. They are not parts of the cell body."
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -194,7 +194,7 @@
             "Blind spot"
           ],
           "wordAnswer": "Fovea",
-          "explanation": "The fovea, a portion of the retina contains a high concentration of cones. Cones are photoreceptor cells responsible for color vision and high visual acuity. The other options are wrong because:\n\n- Sclera is the white outer layer of the eye. It lacks photoreceptor cells.\n\n- Choroid is the layer behind the retina that provides nourishment to the eye.\n\n- Blind spot is the area where the optic nerve exits the eye and lacks photoreceptor cells."
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -209,7 +209,7 @@
             "Algae"
           ],
           "wordAnswer": "Shark",
-          "explanation": " The shark, being a tertiary consumer, is at a higher trophic level and has the least total stored energy among the given options. In an energy pyramid, each level represents a trophic level in an ecosystem, with energy transfer occurring from one level to the next. Algae (Producer) has the highest amount of stored energy as it directly converts solar energy into chemical energy. As we move up the pyramid, energy is transferred and lost, resulting in less total stored energy at higher levels."
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -224,7 +224,7 @@
             "Transport absorbed glucose."
           ],
           "wordAnswer": "Transport fatty acids and glycerol or fat.",
-          "explanation": "The structure labeled T (lacteal) on the diagram is responsible for transporting fatty acids and glycerol or fat. Lacteals are specialized lymphatic capillaries found in the villi of the small intestine. They play a crucial role in absorbing dietary fats and fat-soluble vitamins from the digestive system and transporting them to the bloodstream for further distribution and utilization by the body. \n\n Amino acids and glucose are primarily absorbed by the blood capillaries in the villi of the small intestine."
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -239,7 +239,7 @@
             "Ankle joint"
           ],
           "wordAnswer": "Knee joint",
-          "explanation": "A hinge joint is a joint that allows movement in only one direction, like a door hinge. The Knee joint is an example of a hinge joint, allowing flexion and extension of the leg. \n\n- Shoulder joint is a ball and socket joint that allows a wide range of movement.\n\n- Wrist joint is a condyloid joint that allows for flexion, extension, circumduction.\n\n- Ankle joint is not a hinge joint."
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -254,7 +254,7 @@
             "Hypothalamus"
           ],
           "wordAnswer": "Medulla oblongata",
-          "explanation": "The Medulla oblongata controls vital involuntary functions such as the regulation of heart rate and breathing rate. \n\n- Cerebrum is responsible for higher cognitive functions such as thinking, memory, and perception.\n\n- Cerebellum is involved in coordinating movement and balance.\n\n- Hypothalamus is responsible for regulating body temperature, hunger, thirst, and hormone production."
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "Septum"
           ],
           "wordAnswer": "Septum",
-          "explanation": "The septum is a wall of muscle that divides the heart into the left and right sides, preventing mixing of oxygenated and deoxygenated blood. \n\n- Bicuspid valve prevents backflow of blood from the left ventricle to the left atrium.\n\n- Tendons are fibrous connective tissues that attach muscles to bones.\n\n- Tricuspid valve prevents backflow of blood from the right ventricle to the right atrium."
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "Lower epidermis"
           ],
           "wordAnswer": "Palisade layer",
-          "explanation": "The palisade layer contains numerous chloroplasts and is responsible for most of the photosynthesis in the leaf. \n\n- Spongy mesophyll contains fewer chloroplasts and more air spaces for gas exchange.\n\n- Upper and lower epidermis lack chloroplast except in guard cells."
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -299,7 +299,7 @@
             "Vacuole"
           ],
           "wordAnswer": "Mucilage",
-          "explanation": "Mucilage is a slimy substance secreted by the cells of spirogyra that forms a protective layer around the cells, reducing water loss through evaporation.\n\n- Cell wall, cell membrane, and vacuole are completely permeable to water and thus do prevent water evaporation."
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -314,7 +314,7 @@
             "Sporangiophore"
           ],
           "wordAnswer": "Sporangiophore",
-          "explanation": "The structure number 2 is called a Sporangiophore. Sporangiophores bear sporangia, which contain spores for reproduction. \n\n- Stolons are horizontal, branching filaments that help in the growth and spread of the fungus.\n\n- Hyphae are the branching, thread-like structures of fungi that make up the mycelium.\n\n- Mycelium refers to the mass of hyphae that forms the vegetative part of a fungus."
+          "explanation": null
         }
       ]
     },
@@ -340,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": "1 and 2 only are correct. In menopause, the female stops ovulating and can no longer become pregnant. Menstrual cycle actually ceases during menopause."
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -359,7 +359,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": "1 only is correct. Arteries have thick elastic walls, which help them withstand high blood pressure and maintain their shape. However, arteries do not have large lumens (option 2) or valves (option 3). Valves are characteristics of veins."
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -378,7 +378,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": "2 and 3 only are correct. Cell membranes are present in both plant and animal cells. However, in animal cells, chloroplast, cell wall and starch grains are absent. \n -Chloroplasts are responsible for photosynthesis, which is a process unique to plant cells. Animal cells do not have chloroplasts and therefore cannot carry out photosynthesis. \n\n -The cell wall made of cellulose, is a characteristic feature of plant cells. It provides structural support. \n\n -Starch grains are storage polysaccharides found in plant cells. Its equivalence in animal cells is glycogen."
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -397,7 +397,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": "2 and 3 only are correct. Platelets are responsible for blood clotting and play a role in blocking holes in damaged capillary walls. They do not cause hemorrhage."
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -416,7 +416,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": "1 and 2 only are correct. Plasmolysis occurs when the cell is placed in a hypertonic solution, causing water to be drawn from the vacuole. Placing the cell in a hypotonic solution would lead to turgidity rather than plasmolysis."
+          "explanation": null
         }
       ]
     },
@@ -441,7 +441,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": "Both statements are True and the second statement is a correct explanation of the first. \n\nDeforestation (the process of cutting down trees without replanting) leads to global warming because the lack of vegetation results in increased carbon dioxide concentration in the atmosphere. Green plants (vegetation) are responsible for removing carbon dioxide from the atmosphere by the process of photosynthesis. Therefore, in their absence, carbon dioxide accumulates, leading to global warming."
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -459,7 +459,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": "Both statements are True and the second statement is a correct explanation of the first. \n\n Denitrification deprives plants of nitrates by converting soil nitrates into atmospheric nitrogen which becoming unavailable to plants."
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -477,7 +477,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": "First statement is True. Second statement is False. \n\n Saprophytic bacteria help in the decay of dead plants and animals by breaking down organic matter, which contributes to nutrient recycling. They do not reduce soil fertility."
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -495,7 +495,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": "Both statements are True and the second statement is a correct explanation of the first. \n\n Phagocytic white blood cells, known as phagocytes, contribute to the body's defense by engulfing bacteria and other pathogens, forming food vacuoles to digest and eliminate them."
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -513,7 +513,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": "First statement is True. Second statement is False. \n\n Insects do undergo metamorphosis. However, the housefly undergoes complete metamorphosis (egg -> larva -> pupa -> adult), not incomplete metamorphosis (egg -> nymph -> adult)."
+          "explanation": null
         }
       ]
     },
@@ -535,7 +535,7 @@
             "Clone"
           ],
           "wordAnswer": "Ligase enzyme",
-          "explanation": "Ligase enzyme is responsible for joining DNA pieces to form recombinant DNA. \nThe other option are wrong because:\n\n Restriction enzymes are used to cut DNA at specific sites. \n\n Vector is a carrier molecule used to transfer foreign DNA into a host organism. \n\n Clone refers to organisms or a group of cells which are genetically identical."
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -550,7 +550,7 @@
             "Colony"
           ],
           "wordAnswer": "Community",
-          "explanation": "A community refers to a group of organisms of different species living together in a particular habitat. \nThe other options are wrong because:\n\n Population refers to a group of organisms of the same species in a given area. \n\n Ecosystem refers to a natural unit where living organisms interact with their physical environment. \n\n A Colony refers to a group of organisms of the same species living together."
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -565,7 +565,7 @@
             "Nitrogen dioxide"
           ],
           "wordAnswer": "Carbon dioxide",
-          "explanation": "Carbon dioxide is a greenhouse gas that promotes the greenhouse effect. Carbon monoxide, sulphur dioxide, and nitrogen dioxide are also air pollutants, but they do not have the same impact on the greenhouse effect as carbon dioxide."
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -580,7 +580,7 @@
             "Guttation"
           ],
           "wordAnswer": "Transpiration",
-          "explanation": "Transpiration is the process by which water vapor is lost from the aerial parts of plants, mainly through the stomata in their leaves.\n\n- Excretion refers to the elimination of metabolic waste products. \n\n- Evaporation is the process of liquid turning into vapor. Although evaporation occurs during transpiration, however, in this context, it is not the correc answer. \n\n- Guttation is the exudation of water droplets(liquid) from leaves of certain plants."
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -595,7 +595,7 @@
             "Sucrase"
           ],
           "wordAnswer": "Rennin",
-          "explanation": "Rennin is an enzyme that is present in the stomach of young mammals, but it is absent or produced in limited quantities in adult mammals. It helps in the coagulation of milk proteins for digestion.\n\n- Maltase, Lactase, and Sucrase are carbohydrates digesting enzymes present both young and adult mammals."
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -610,7 +610,7 @@
             "Neurone"
           ],
           "wordAnswer": "Neurone",
-          "explanation": "The Neurone is the functional unit of the nervous system. It consist of the dentrites, cell body, axon. The Neurone is responsible for transmitting and processing information in the form of nerve impulses.\n\n- Axon is a part of the neuron that carries nerve impulses away from the cell body, \n\n- Dendrites receive signals from other neurons.\n\n- Dendron receives signals from dendrites and sends to the cell body."
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -625,7 +625,7 @@
             "Homozygous tall pea plant and heterozygous tall pea plant."
           ],
           "wordAnswer": "Homozygous tall pea plant and heterozygous tall pea plant.",
-          "explanation": "The correct answer is 'Homozygous tall pea plant and heterozygous tall pea plant.'\n\n- The tall trait (T) is dominant over the dwarf trait (t). When a homozygous tall pea plant (TT) is crossed with a heterozygous tall pea plant (Tt), the resulting offspring will have the possible genotypes TT, TT, Tt, Tt where TT(homozygous tall) and Tt(heterozygous tall)."
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -640,7 +640,7 @@
             "Smooth and striated."
           ],
           "wordAnswer": "Triceps and biceps.",
-          "explanation": "Triceps and biceps are antagonistic muscles. \nAantagonistic muscles are pairs of muscles that work in opposition to each other. When one contracts, the other relaxes. For example, when the triceps contract, the biceps relax and the forearm extends. When the triceps relax, the biceps contract and the forearm flexes.\n\n- 'Striated and skeletal', 'Smooth and striated' 'Skeletal and smooth' do not represent specific muscle pairs and are not typically antagonistic to each other."
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -655,7 +655,7 @@
             "Adrenal gland"
           ],
           "wordAnswer": "Pituitary gland",
-          "explanation": "The pituitary gland is responsible for secreting antiduretic hormone (ADH), also known as vasopressin. ADH plays a key role in regulating water balance in the body by controlling the reabsorption of water by the kidneys.\n\n- Salivary gland secretes saliva.\n\n- Thyroid gland secretes thyroid hormones.\n\n- Adrenal gland produces hormones such as cortisol and adrenaline."
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -670,7 +670,7 @@
             "Vitamin A and Calcium"
           ],
           "wordAnswer": "Vitamin D and Calcium",
-          "explanation": "Vitamin D and Calcium are required for teeth and bone formation. Vitamin D is necessary for the absorption and utilization of calcium. Calcium is a major component of bones and teeth.\n\n- Iron, magnesium and Vitamin A are not involved in teeth and bone formation."
+          "explanation": null
         }
       ]
     },
@@ -692,7 +692,7 @@
             "It rekindles a glowing splint."
           ],
           "wordAnswer": "It rekindles a glowing splint.",
-          "explanation": "The setup in the image is used to investigate whether green plants release oxygen during photosynthesis. A glowing splint  is used to test for the gas released during photosynthesis. When the glowing splint is introduced into the test tube, and if the gas released is oxygen, it will rekindle."
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -707,7 +707,7 @@
             "Prevents entry of atmospheric carbon dioxide."
           ],
           "wordAnswer": "Prevents entry of atmospheric oxygen.",
-          "explanation": "In the experiment on respiration, the paraffin oil is used to prevent the entry of atmospheric oxygen. This creates an anaerobic environment, allowing the investigation of anaerobic respiration."
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -722,7 +722,7 @@
             "37"
           ],
           "wordAnswer": "37",
-          "explanation": "Based on the results obtained, the optimum temperature for the action of salivary amylase on the digestion of starch is 37°C. At 37°C, the highest rate of starch digestion occurred."
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -737,7 +737,7 @@
             "The roots have not adequately penetrated the soil."
           ],
           "wordAnswer": "The seedling loses more water than it can absorb.",
-          "explanation": "The seedling loses more water than it can absorb due to the combination of hot and windy conditions. Hot conditions speed up the rate of evaporation of water and hence transpiration. Wind increases the rate of transpiration in plants by creating a higher concentration gradient between the plant's leaves and the surrounding air. Wind prevents the air around the leaves from becoming saturated with water vapour"
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -752,7 +752,7 @@
             "Causes the shoot to bend away from light."
           ],
           "wordAnswer": "Promotes faster growth.",
-          "explanation": "High auxin concentration promotes faster growth in the shoot. Auxin is a plant hormone that plays a crucial role in regulating plant growth and development. In this case, the migration of auxins to the lower side of the shoot stimulates the shoot to grow at a faster rate."
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -767,7 +767,7 @@
             "50 minutes"
           ],
           "wordAnswer": "50 minutes",
-          "explanation": "The graph shows the rate of lactic acid removal over time. According to the graph, it took 50 minutes for the lactic acid level in the blood to return to normal (200mg/cm3 of blood)."
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -782,7 +782,7 @@
             "1048.5 KJ"
           ],
           "wordAnswer": "1048.5 KJ",
-          "explanation": "The producers receive 10% of the total energy from the sun, which is 10% of 10485KJ. Therefore, the amount of energy received by the producers is 10485KJ * 0.1 = 1048.5 KJ."
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -797,7 +797,7 @@
             "To make the leaf brittle and hard."
           ],
           "wordAnswer": "To remove chlorophyll from the leaf.",
-          "explanation": "The leaf is boiled in alcohol to remove chlorophyll from the leaf. Chlorophyll is a pigment responsible for the green color in plants. By boiling the leaf in alcohol, the chlorophyll is dissolved and removed, allowing for a clearer observation of the presence or absence of starch in the leaf."
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -812,7 +812,7 @@
             "Millon's reagent"
           ],
           "wordAnswer": "Sudan III",
-          "explanation": "Sudan III is the reagent that will stain pink red when mixed with groundnut oil. Sudan III is a lipid-soluble dye that is used to test for the presence of lipids, including oils. When mixed with groundnut oil, Sudan III will bind to the lipids and produce a pink-red color."
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -827,7 +827,7 @@
             "Violet"
           ],
           "wordAnswer": "Brick red",
-          "explanation": "When Fehling's solution is added to ground germinating maize seed paste and heated, a brick red color will be observed. Fehling's solution is used to test for the presence of reducing sugars. During germination, stored food reserves (starch) are hydrolysed to glucose (reducing sugar. The glucose is used during tissue respiration to produce energy for growth and other activities. In the presence of reducing sugars, such as glucose, Fehling's solution undergoes a chemical reaction that results in the formation of a brick red precipitate."
+          "explanation": null
         }
       ]
     }

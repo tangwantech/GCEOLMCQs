@@ -1,6 +1,9 @@
 package com.example.gceolmcq.viewmodels
 
 import android.content.Context
+import android.os.Build
+import android.os.Bundle
+import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -19,7 +22,7 @@ import com.example.gceolmcq.repository.RepositoriesLinker
 
 class SubscriptionActivityViewModel: ViewModel() {
     private lateinit var momoPay: MomoPayService
-    private lateinit var momoPay2: com.example.gceolmcq.momoPay.MomoPayService
+//    private lateinit var momoPay2: com.example.gceolmcq.momoPay.MomoPayService
     private var mobileId: String? = null
 
 
@@ -35,7 +38,14 @@ class SubscriptionActivityViewModel: ViewModel() {
     val subscriptionData: LiveData<SubscriptionFormData> = _subscriptionData
 
     private lateinit var repositoriesLinker: RepositoriesLinker
-    private val transactionStatus = MutableLiveData<String?>()
+    private val _transactionStatus = MutableLiveData<String?>()
+    val transactionStatus: LiveData<String?> = _transactionStatus
+
+    private val _transactionId = MutableLiveData<String?>()
+    val transactionId: LiveData<String?> = _transactionId
+
+    private val _currentTransaction = MutableLiveData<Bundle?>()
+    val currentTransaction: LiveData<Bundle?> = _currentTransaction
 
 
 
@@ -71,6 +81,41 @@ class SubscriptionActivityViewModel: ViewModel() {
 
     fun setSubscriptionData(subscriptionFormData: SubscriptionFormData){
         _subscriptionData.value = subscriptionFormData
+        initCurrentTransaction(subscriptionFormData)
+
+    }
+
+    private fun initCurrentTransaction(subscriptionFormData: SubscriptionFormData){
+        _currentTransaction.value = Bundle().apply {
+            putInt(MCQConstants.SUBJECT_INDEX, subscriptionFormData.subjectPosition!!)
+            putString(MCQConstants.SUBJECT_NAME, subscriptionFormData.subject)
+            putString(MCQConstants.PACKAGE_NAME, subscriptionFormData.packageType)
+            putInt(MCQConstants.PACKAGE_DURATION, subscriptionFormData.packageDuration!!)
+            putString(MCQConstants.PACKAGE_PRICE, subscriptionFormData.packagePrice)
+            putString(MCQConstants.MOMO_PARTNER, subscriptionFormData.momoPartner)
+//            putBoolean(MCQConstants.IS_ACTIVE, false)
+//            putString(MCQConstants.TOKEN, null)
+//            putString(MCQConstants.TRANSACTION_ID, null)
+//            putString(MCQConstants.TRANSACTION_STATUS, null)
+        }
+    }
+
+    private fun updateCurrentTransactionToken(token: String){
+        val bundle = _currentTransaction.value
+        bundle?.putString(MCQConstants.TOKEN, token)
+        _currentTransaction.postValue(bundle)
+    }
+
+    private fun updateCurrentTransactionId(transactionId: String){
+        val bundle = _currentTransaction.value
+        bundle?.putString(MCQConstants.TRANSACTION_ID, transactionId)
+        _currentTransaction.postValue(bundle)
+    }
+
+    private fun updateCurrentTransactionStatus(transactionStatus: String){
+        val bundle = _currentTransaction.value
+        bundle?.putString(MCQConstants.TRANSACTION_STATUS, transactionStatus)
+        _currentTransaction.postValue(bundle)
     }
 
     fun activateSubjectPackage() {
@@ -94,26 +139,53 @@ class SubscriptionActivityViewModel: ViewModel() {
         activateSubjectPackage()
         
     }
-    private fun updateActivatedPackageIndexChangedAt(position: Int){
-        _activatedPackageIndexChangedAt.postValue(position)
+//    private fun updateActivatedPackageIndexChangedAt(position: Int){
+//        _activatedPackageIndexChangedAt.postValue(position)
+//
+//    }
 
-    }
 
 
-
-    fun initiatePayment(){
+    fun initiatePayment(tokenTransactionIdBundle: Bundle?=null){
 //        setSubscriptionData(subscriptionFormData)
-        println("Pay")
-        momoPay.initiatePayment(subscriptionData.value!!)
+        println(tokenTransactionIdBundle)
+        momoPay.initiatePayment(subscriptionData.value!!, object: MomoPayService.TransactionStatusListener{
+            override fun onTransactionTokenAvailable(token: String?) {
+                println(token)
+                updateCurrentTransactionToken(token!!)
+            }
 
-    }
+            override fun onTransactionIdAvailable(transactionId: String?) {
+                println("Transaction id: $transactionId")
+                _transactionId.postValue(transactionId)
+                updateCurrentTransactionId(transactionId!!)
 
-    fun getTransactionStatus(): LiveData<TransactionStatus>{
-        return momoPay.getTransactionStatus()
-    }
+            }
 
-    fun isTransactionSuccessful(): LiveData<Boolean?>{
-        return momoPay.getIsTransactionSuccessful()
+            override fun onTransactionPending() {
+                println("Transaction pending......")
+                _transactionStatus.postValue(MCQConstants.PENDING)
+                updateCurrentTransactionStatus(MCQConstants.PENDING)
+
+
+            }
+
+            override fun onTransactionFailed() {
+                println("Transaction failed.......")
+                _transactionStatus.postValue(MCQConstants.FAILED)
+                updateCurrentTransactionStatus(MCQConstants.FAILED)
+
+            }
+
+            override fun onTransactionSuccessful() {
+                println("Transaction successful.....")
+                _transactionStatus.postValue(MCQConstants.SUCCESSFUL)
+                updateCurrentTransactionStatus(MCQConstants.SUCCESSFUL)
+
+            }
+
+        }, tokenTransactionIdBundle = tokenTransactionIdBundle)
+
     }
 
 
@@ -145,47 +217,4 @@ class SubscriptionActivityViewModel: ViewModel() {
         return repositoriesLinker.getLocalRepository().subjectPackageData.value!!
     }
 
-
-    fun initMomoPay2(momoPayService2: com.example.gceolmcq.momoPay.MomoPayService){
-        momoPay2 = momoPayService2
-    }
-
-    fun testPay(){
-//        momoPay2 = momoPayService2
-        momoPay2.testPaySuccessful()
-    }
-
-    fun pay(){
-        momoPay2.pay(this.subscriptionData.value!!)
-    }
-
-    fun generateToken( momoPayService2: com.example.gceolmcq.momoPay.MomoPayService){
-        momoPay2 = momoPayService2
-        momoPay2.apply {
-            generateToken()
-        }
-
-    }
-
-    fun getToken(): LiveData<String?>{
-        return momoPay2.getToken()
-    }
-
-    fun getTransactionId(): LiveData<String?>{
-        return momoPay2.getTransactionId()
-    }
-
-    fun getTransactionStatusChanged(): LiveData<String?>{
-        return momoPay2.getTransactionStatusChanged()
-    }
-
-    fun getIsTransactionIdAvailable(): LiveData<Boolean?>{
-        return momoPay2.getIsTransactionIdAvailable()
-    }
-
-
-
-    fun checkTransactionStatus(){
-        momoPay2.checkTransactionStatus()
-    }
 }

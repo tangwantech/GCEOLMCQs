@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,10 +15,18 @@
         android:roundIcon="@mipmap/ic_launcher_gce_ol_mcq_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GCEOLMCQ"
-        tools:targetApi="33">
+        tools:targetApi="33" >
+        <activity
+            android:name=".activities.TermsOfServiceActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
         <activity
             android:name=".activities.AboutActivity"
-            android:exported="false">
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -27,7 +35,7 @@
             android:name=".activities.GCESplashActivity"
             android:exported="true"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,7 +50,7 @@
             android:name=".activities.SubjectContentTableActivity"
             android:exported="false"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -51,7 +59,7 @@
             android:name=".activities.MainActivity"
             android:exported="false"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -61,7 +69,7 @@
             android:configChanges="orientation|fontScale"
             android:exported="false"
             android:resizeableActivity="false"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -21,7 +21,8 @@
             "Reducing sugar",
             "Fats"
           ],
-          "wordAnswer": "Reducing sugar"
+          "wordAnswer": "Reducing sugar",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Stomach",
             "Ileum"
           ],
-          "wordAnswer": "Stomach"
+          "wordAnswer": "Stomach",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Fats",
             "Vitamins"
           ],
-          "wordAnswer": "Proteins"
+          "wordAnswer": "Proteins",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Eggs",
             "Maize"
           ],
-          "wordAnswer": "Maize"
+          "wordAnswer": "Maize",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Carbon, Hydrogen and Nitrogen",
             "Carbon, Oxygen and Nitrogen"
           ],
-          "wordAnswer": "Carbon, Hydrogen and Oxygen"
+          "wordAnswer": "Carbon, Hydrogen and Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Carbon, Hydrogen and Nitrogen",
             "Carbon, Oxygen and Nitrogen"
           ],
-          "wordAnswer": "Carbon, Hydrogen, Oxygen and Nitrogen"
+          "wordAnswer": "Carbon, Hydrogen, Oxygen and Nitrogen",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Hydrogen",
             "Oxygen"
           ],
-          "wordAnswer": "Nitrogen"
+          "wordAnswer": "Nitrogen",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Liver and spleen",
             "Lungs and heart"
           ],
-          "wordAnswer": "Liver and Intestines"
+          "wordAnswer": "Liver and Intestines",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Oxygen",
             "Sulphur"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "Ileum",
             "Large Intestine"
           ],
-          "wordAnswer": "Large Intestine"
+          "wordAnswer": "Large Intestine",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "Trypsin",
             "Erepsin"
           ],
-          "wordAnswer": "Ptyalin"
+          "wordAnswer": "Ptyalin",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Duodenum",
             "Ileum"
           ],
-          "wordAnswer": "Mouth"
+          "wordAnswer": "Mouth",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Teeth",
             "Hard palette"
           ],
-          "wordAnswer": "Teeth"
+          "wordAnswer": "Teeth",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Food",
             "HCl"
           ],
-          "wordAnswer": "Mucus"
+          "wordAnswer": "Mucus",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Epiglottis",
             "Pancreas"
           ],
-          "wordAnswer": "Pyloric sphincter"
+          "wordAnswer": "Pyloric sphincter",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Minerals",
             "Fibres"
           ],
-          "wordAnswer": "Fibres"
+          "wordAnswer": "Fibres",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Bile",
             "Trypsin"
           ],
-          "wordAnswer": "Bile"
+          "wordAnswer": "Bile",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -261,12 +278,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Epiglottis",
-            "Glottis",
+            "Epiglotis",
+            "Glotis",
             "Oesophagus",
             "Larynx"
           ],
-          "wordAnswer": "Epiglottis"
+          "wordAnswer": "Epiglotis",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Molars",
             "Canines"
           ],
-          "wordAnswer": "Molars"
+          "wordAnswer": "Molars",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Liver",
             "Gall bladder"
           ],
-          "wordAnswer": "Liver"
+          "wordAnswer": "Liver",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Gall bladder",
             "Duodenum"
           ],
-          "wordAnswer": "Gall bladder"
+          "wordAnswer": "Gall bladder",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Enterokinase",
             "Trypsin"
           ],
-          "wordAnswer": "Trypsin"
+          "wordAnswer": "Trypsin",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Vitamin D",
             "Vitamin C"
           ],
-          "wordAnswer": "Vitamin B1"
+          "wordAnswer": "Vitamin B1",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Vitamin D",
             "Vitamin C"
           ],
-          "wordAnswer": "Vitamin A"
+          "wordAnswer": "Vitamin A",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,9 @@
             "Vitamin D",
             "Vitamin K"
           ],
-          "wordAnswer": "Vitamin D"
+          "wordAnswer": "Vitamin D",
+          "explanation": null
+
         },
         {
           "questionNumber": "36",
@@ -574,7 +610,8 @@
             "Ricket",
             "Goitre"
           ],
-          "wordAnswer": "kwashiorkor"
+          "wordAnswer": "kwashiorkor",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +625,8 @@
             "Vitamin D",
             "Vitamin K"
           ],
-          "wordAnswer": "Vitamin C"
+          "wordAnswer": "Vitamin C",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +640,8 @@
             "Scurvy",
             "Constipation"
           ],
-          "wordAnswer": "Goitre"
+          "wordAnswer": "Goitre",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +655,8 @@
             "Iodine solution",
             "Sudan III solution"
           ],
-          "wordAnswer": "Millon's reagent"
+          "wordAnswer": "Millon's reagent",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +670,8 @@
             "Ingestion",
             "Defecation"
           ],
-          "wordAnswer": "Peristalsis"
+          "wordAnswer": "Peristalsis",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +692,8 @@
             "Chymotrypsin",
             "Bile"
           ],
-          "wordAnswer": "Enterokinase"
+          "wordAnswer": "Enterokinase",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +707,8 @@
             "coagulate soluble caseinogen to insoluble casein",
             "digest lactose to glucose and galactose to maltose"
           ],
-          "wordAnswer": "coagulate soluble caseinogen to insoluble casein"
+          "wordAnswer": "coagulate soluble caseinogen to insoluble casein",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +722,8 @@
             "Tape worm",
             "Vibrio cholerae"
           ],
-          "wordAnswer": "Escherichia coli"
+          "wordAnswer": "Escherichia coli",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +737,8 @@
             "Herbivore",
             "Scavenger"
           ],
-          "wordAnswer": "Herbivore"
+          "wordAnswer": "Herbivore",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +752,8 @@
             "Herbivore",
             "Scavenger"
           ],
-          "wordAnswer": "Omnivore"
+          "wordAnswer": "Omnivore",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +767,8 @@
             "Caecotrophy",
             "Egestion"
           ],
-          "wordAnswer": "Rumination"
+          "wordAnswer": "Rumination",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +782,8 @@
             "Pancreatic juice",
             "Saliva"
           ],
-          "wordAnswer": "Bile"
+          "wordAnswer": "Bile",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +797,8 @@
             "Fats",
             "Proteins"
           ],
-          "wordAnswer": "Fats"
+          "wordAnswer": "Fats",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +812,8 @@
             "Fructose and glucose",
             "Amino acids and glycerol"
           ],
-          "wordAnswer": "Fatty acids and glycerol"
+          "wordAnswer": "Fatty acids and glycerol",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +827,8 @@
             "Herbivores",
             "Ruminants"
           ],
-          "wordAnswer": "Carnivores"
+          "wordAnswer": "Carnivores",
+          "explanation": null
         }
       ]
     }

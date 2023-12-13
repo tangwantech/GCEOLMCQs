@@ -31,5 +31,19 @@
             android:scaleType="centerCrop"
             android:src="@drawable/gce_app_splash_image" />
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tvInitializing"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Initializing..."
+            android:textSize="@dimen/text_size_18"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
+    </LinearLayout>
+
 
 </RelativeLayout>

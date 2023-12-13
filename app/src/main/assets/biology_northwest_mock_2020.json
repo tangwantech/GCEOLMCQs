@@ -21,7 +21,8 @@
             "system.",
             "organelle."
           ],
-          "wordAnswer": "tissue."
+          "wordAnswer": "tissue.",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "DNA helicase.",
             "DNA gyrase."
           ],
-          "wordAnswer": "DNA helicase."
+          "wordAnswer": "DNA helicase.",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Pulmonary vein.",
             "Aorta."
           ],
-          "wordAnswer": "Vena cava."
+          "wordAnswer": "Vena cava.",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,9 @@
             "Locust.",
             "Grasshopper."
           ],
-          "wordAnswer": "Housefly."
+          "wordAnswer": "Housefly.",
+          "explanation": null
+
         },
         {
           "questionNumber": "5",
@@ -77,7 +82,8 @@
             "Blood.",
             "Ducts."
           ],
-          "wordAnswer": "Blood."
+          "wordAnswer": "Blood.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +97,8 @@
             "a neutral pH.",
             "an acid pH."
           ],
-          "wordAnswer": "an acid pH."
+          "wordAnswer": "an acid pH.",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +112,8 @@
             "ribosome.",
             "mitochondrion."
           ],
-          "wordAnswer": "chloroplast."
+          "wordAnswer": "chloroplast.",
+          "explanation": null
         },
         {
           "questionNumber": "8",
@@ -119,7 +127,8 @@
             "Emphysema.",
             "Bronchitis"
           ],
-          "wordAnswer": "Emphysema."
+          "wordAnswer": "Emphysema.",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -133,7 +142,8 @@
             "carnivores.",
             "herbivores."
           ],
-          "wordAnswer": "carnivores."
+          "wordAnswer": "carnivores.",
+          "explanation": null
         }
       ]
     },
@@ -154,7 +164,8 @@
             "production of RNA.",
             "destruction of old and worn out parts of the cell."
           ],
-          "wordAnswer": "production of energy."
+          "wordAnswer": "production of energy.",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +179,8 @@
             "Follicle stimulating hormone.",
             "Luteinizing hormone."
           ],
-          "wordAnswer": "Oestrogen."
+          "wordAnswer": "Oestrogen.",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +194,8 @@
             "Femur.",
             "Humerus."
           ],
-          "wordAnswer": "Humerus."
+          "wordAnswer": "Humerus.",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +209,8 @@
             "carries deoxygenated blood.",
             "carries oxygenated blood."
           ],
-          "wordAnswer": "carries deoxygenated blood."
+          "wordAnswer": "carries deoxygenated blood.",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +224,8 @@
             "the lungs were pushing the chest and diaphragm outwards.",
             "muscles were contracting in the chest wall and diaphragm."
           ],
-          "wordAnswer": "muscles were contracting in the chest wall and diaphragm."
+          "wordAnswer": "muscles were contracting in the chest wall and diaphragm.",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +239,8 @@
             "Long axons.",
             "Interneurons."
           ],
-          "wordAnswer": "Long axons."
+          "wordAnswer": "Long axons.",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +254,8 @@
             "Y",
             "Z"
           ],
-          "wordAnswer": "Z"
+          "wordAnswer": "Z",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +269,8 @@
             "Urethra.",
             "Epididymis."
           ],
-          "wordAnswer": "Epididymis."
+          "wordAnswer": "Epididymis.",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +284,8 @@
             "muscle fatigue.",
             "contractions of muscles to generate heat."
           ],
-          "wordAnswer": "contractions of muscles to generate heat."
+          "wordAnswer": "contractions of muscles to generate heat.",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +299,8 @@
             "positive phototropism.",
             "tactic movements."
           ],
-          "wordAnswer": "positive phototropism."
+          "wordAnswer": "positive phototropism.",
+          "explanation": null
         }
       ]
     },
@@ -305,7 +325,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "21",
@@ -323,7 +344,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -341,7 +363,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -359,7 +382,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -377,7 +401,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -395,7 +420,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -419,7 +445,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -436,7 +463,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -453,7 +481,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -470,7 +499,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -487,7 +517,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         }
       ]
     },
@@ -508,7 +539,8 @@
             "Decomposers",
             "Herbivores"
           ],
-          "wordAnswer": "Herbivores"
+          "wordAnswer": "Herbivores",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -522,7 +554,8 @@
             "Denitrification",
             "Nitrogen fixation"
           ],
-          "wordAnswer": "Nitrogen fixation"
+          "wordAnswer": "Nitrogen fixation",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -536,7 +569,8 @@
             "Fins",
             "Swim bladder"
           ],
-          "wordAnswer": "Gills"
+          "wordAnswer": "Gills",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -550,7 +584,8 @@
             "Coitus interruptus",
             "Tubal ligation"
           ],
-          "wordAnswer": "Tubal ligation"
+          "wordAnswer": "Tubal ligation",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -564,7 +599,8 @@
             "Decomposition",
             "Aeration of sewage"
           ],
-          "wordAnswer": "Eutrophication"
+          "wordAnswer": "Eutrophication",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -578,7 +614,8 @@
             "Multiple alleles",
             "Codominance"
           ],
-          "wordAnswer": "Incomplete dominance"
+          "wordAnswer": "Incomplete dominance",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -592,7 +629,8 @@
             "Insulin",
             "Glucocorticoids"
           ],
-          "wordAnswer": "Parathyroid hormone"
+          "wordAnswer": "Parathyroid hormone",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -606,7 +644,8 @@
             "Active transport",
             "Translocation"
           ],
-          "wordAnswer": "Translocation"
+          "wordAnswer": "Translocation",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -620,7 +659,8 @@
             "Dendrites",
             "Dendrons"
           ],
-          "wordAnswer": "Motor neurones"
+          "wordAnswer": "Motor neurones",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -634,7 +674,8 @@
             "Xylem",
             "Parenchyma"
           ],
-          "wordAnswer": "Xylem"
+          "wordAnswer": "Xylem",
+          "explanation": null
         }
       ]
     },
@@ -655,7 +696,8 @@
         "Groundnut plant",
         "Maize plant"
       ],
-      "wordAnswer": "Groundnut plant"
+      "wordAnswer": "Groundnut plant",
+      "explanation": null
     },
         {
           "questionNumber": "42",
@@ -669,7 +711,8 @@
             "Drinking",
             "Sweating"
           ],
-          "wordAnswer": "Sweating"
+          "wordAnswer": "Sweating",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -683,7 +726,8 @@
             "receptor",
             "stimulus"
           ],
-          "wordAnswer": "stimulus"
+          "wordAnswer": "stimulus",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -697,7 +741,8 @@
             "The eye ball has shrunk with age.",
             "The refractive power of the lens has increased with age."
           ],
-          "wordAnswer": "The refractive power of the lens has decreased with age."
+          "wordAnswer": "The refractive power of the lens has decreased with age.",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -711,7 +756,8 @@
             "1 and 3",
             "3 and 4"
           ],
-          "wordAnswer": "1 and 4"
+          "wordAnswer": "1 and 4",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -725,7 +771,8 @@
             "The mouth is too wide and so too much air passes in.",
             "The nose has hairs to filter dirt and microorganisms."
           ],
-          "wordAnswer": "The nose has hairs to filter dirt and microorganisms."
+          "wordAnswer": "The nose has hairs to filter dirt and microorganisms.",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -739,7 +786,8 @@
             "Iodine solution",
             "Sudan III solution"
           ],
-          "wordAnswer": "Benedict's solution"
+          "wordAnswer": "Benedict's solution",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -753,7 +801,8 @@
             "50%",
             "75%"
           ],
-          "wordAnswer": "75%"
+          "wordAnswer": "75%",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -767,7 +816,8 @@
             "XHY XHXh, XhY",
             "Xhy, XHXH, XhY"
           ],
-          "wordAnswer": "XHY XHXh, XhY"
+          "wordAnswer": "XHY XHXh, XhY",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -781,7 +831,8 @@
             "closure of the operculum.",
             "lack of an efficient respiratory organ."
           ],
-          "wordAnswer": "clogging of the gill filaments."
+          "wordAnswer": "clogging of the gill filaments.",
+          "explanation": null
         }
       ]
     }
