@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\question_card_item.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\question_card_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_subject_statistics_tab.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_subject_statistics_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\explanation_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\explanation_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\four_alternatives_in_correction.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\four_alternatives_in_correction.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\selectable_options.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\selectable_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_subject_package_details.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_subject_package_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_subject_content_table.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_subject_content_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\timer_bar.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\timer_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\subject_item_card.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\subject_item_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\package_activation_successful_dialog.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\package_activation_successful_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\paper_score_bar.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\paper_score_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\home_list_item_header.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\home_list_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\layout_package_item.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\layout_package_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\two_statements.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\two_statements.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\package_item.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\package_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_activate_trial_package.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_activate_trial_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\subject_item.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\subject_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\section_nav_item.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\section_nav_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\image_card.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\image_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_terms_of_service.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_terms_of_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\subscription_summary_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\subscription_summary_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\momo_number_dialog.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\momo_number_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_section.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\result_score_percentage_bar.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\result_score_percentage_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\section_directions.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\section_directions.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\invoice_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\invoice_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_selectable_options.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_selectable_options.xml"
+    },
+    {
+        "merged": "com.example.gceolmcq.app-mergeReleaseResources-35:/layout/activity_splash.xml",
+        "source": "com.example.gceolmcq.app-main-37:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_recycler_view.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_recycler_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_subcription_form.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_subcription_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_no_internet_connection_status.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_no_internet_connection_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\terms_of_use_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\terms_of_use_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\drop_down_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\drop_down_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_exam_statistics.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_exam_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\explanation_button_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\explanation_button_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\layout_packages.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\layout_packages.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_activate_trial_package.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_activate_trial_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_subject_statistics_tab_content.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_subject_statistics_tab_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_terms.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_terms.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\dialogue_statistics.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\dialogue_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\question_layout.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\question_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\initializing_activity.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\initializing_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\recycler_item_view.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\recycler_item_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_statistic_data_view.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_statistic_data_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\user_marked_answer.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\user_marked_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\paper_remark.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\paper_remark.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\paper_instruction_dialog_lo.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\paper_instruction_dialog_lo.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\correct_answer.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\correct_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\home_tab.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\home_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\non_selectable_options.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\non_selectable_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_request_to_pay.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_request_to_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_correction.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_correction.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\package_activation_failed_dialog.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\package_activation_failed_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\payment_method.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\payment_method.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_exam_type.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_exam_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_about.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_section_result.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_section_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_section_navigation.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_section_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\package_status_bar.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\package_status_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_initializing.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_initializing.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_paper.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\activity_paper.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_package_expired.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_package_expired.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_packages_dialog.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_packages_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\drop_down_item.xml",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\drop_down_item.xml"
+    }
+]

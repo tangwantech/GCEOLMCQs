@@ -1,0 +1,835 @@
+{
+  "privateTitle": "Northwest mock 2023",
+  "publicTitle": "Mock 5",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "A secretion released into the alimentary canal which does not contain enzymes but speeds up fat digestion",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Intestinal juice",
+            "Bile",
+            "Pancreatic juice",
+            "Saliva"
+          ],
+          "wordAnswer": "Bile",
+          "explanation": null
+        },
+        {
+          "questionNumber": "2",
+          "question": "If a joint allows movement in any direction it is called:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rotating joint",
+            "Sliding joint",
+            "Hinge joint",
+            "Ball and socket joint"
+          ],
+          "wordAnswer": "Ball and socket joint",
+          "explanation": null
+        },
+        {
+          "questionNumber": "3",
+          "question": "Two body organs where reabsorption of water occurs include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Colon and kidney",
+            "Kidney and liver",
+            "Liver and duodenum",
+            "Duodenum and colon"
+          ],
+          "wordAnswer": "Colon and kidney",
+          "explanation": null
+        },
+        {
+          "questionNumber": "4",
+          "question": "Which of the following statements about exhalation is true?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Intercostal muscles contract moving ribs upward and outward.",
+            "Diaphragm contracts and flattens.",
+            "Volume of thoracic cavity decreases.",
+            "Pressure in thoracic cavity decreases."
+          ],
+          "wordAnswer": "Volume of thoracic cavity decreases.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "5",
+          "question": "In fungi, which of the following is the main component of the cell wall?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lipids",
+            "Cellulose",
+            "Chitin",
+            "Sugars"
+          ],
+          "wordAnswer": "Chitin",
+          "explanation": null
+        },
+        {
+          "questionNumber": "6",
+          "question": "A natural unit composed of living and non-living components whose interaction results in stable and self perpetuating system is an example of:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A community",
+            "A biome",
+            "An ecosystem",
+            "A biosphere"
+          ],
+          "wordAnswer": "An ecosystem",
+          "explanation": null
+        },
+        {
+          "questionNumber": "7",
+          "question": "What is transpiration?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rise of water up the stem of a plant.",
+            "Form of respiration in plants.",
+            "Secretion of water essential for photosynthesis.",
+            "Loss of water vapour from the leaves of plants."
+          ],
+          "wordAnswer": "Loss of water vapour from the leaves of plants.",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "In the diagram of a mammalian kidney, ultrafiltration occurs in the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bowman's capsule",
+            "Loop of Henle",
+            "Collecting duct",
+            "Glomerulus"
+          ],
+          "wordAnswer": "Glomerulus",
+          "explanation": null
+        },
+        {
+          "questionNumber": "9",
+          "question": "Which of the following parts conveys the male gamete to the ovary?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Style",
+            "Pollen tube",
+            "Stigma",
+            "Anthers"
+          ],
+          "wordAnswer": "Pollen tube",
+          "explanation": null
+        },
+        {
+          "questionNumber": "10",
+          "question": "The structure of the fish that helps it to detect changes in water is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lateral line",
+            "Eyes",
+            "Fins",
+            "Ear"
+          ],
+          "wordAnswer": "Lateral line",
+          "explanation": null
+        },
+        {
+          "questionNumber": "11",
+          "question": "This concerns the nitrogen cycle shown below. Which process is represented by the arrow 3?",
+          "image": "nitrogen_cycle_nw_mock_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Denitrification",
+            "Decay",
+            "Lightning",
+            "Feeding"
+          ],
+          "wordAnswer": "Lightning",
+          "explanation": null
+        },
+        {
+          "questionNumber": "12",
+          "question": "In the vertical section of the mammalian eye which structure contains a high concentration of cones?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sclera",
+            "Choroid",
+            "Fovea",
+            "Blind spot"
+          ],
+          "wordAnswer": "Fovea",
+          "explanation": null
+        },
+        {
+          "questionNumber": "13",
+          "question": "This concerns the section through the kidney below. The structure labeled 7 is the:",
+          "image": "kidney_nw_mock_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pelvis",
+            "Ureter",
+            "Urethra",
+            "Pyramid"
+          ],
+          "wordAnswer": "Ureter",
+          "explanation": null
+        },
+        {
+          "questionNumber": "14",
+          "question": "The structure that helps the bread mould to adhere to its substrate is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rhizoid",
+            "Roots",
+            "Stolon",
+            "Sporangiosphore"
+          ],
+          "wordAnswer": "Rhizoid",
+          "explanation": null
+        },
+        {
+          "questionNumber": "15",
+          "question": "Below is the diagram of the mammalian skin. Which numbered structure secretes sebum?",
+          "image": "skin_nw_mock_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "wordAnswer": "4",
+          "explanation": null
+        },
+        {
+          "questionNumber": "16",
+          "question": "Below is the diagram of the human respiratory system. The part of the respiratory system where gaseous exchange occurs is:",
+          "image": "respiratory_system_nw_mock_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "5",
+            "4",
+            "3",
+            "2"
+          ],
+          "wordAnswer": "5",
+          "explanation": null
+        },
+        {
+          "questionNumber": "17",
+          "question": "The part of the brain which controls involuntary activities is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cerebrum",
+            "Cerebellum",
+            "Medulla Oblongata",
+            "Hypothalamus"
+          ],
+          "wordAnswer": "Medulla Oblongata",
+          "explanation": null
+        },
+        {
+          "questionNumber": "18",
+          "question": "The part of the cell that controls all the activities of the cell:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cytoplasm",
+            "Vacuole",
+            "Cell membrane",
+            "Nucleus"
+          ],
+          "wordAnswer": "Nucleus",
+          "explanation": null
+        },
+        {
+          "questionNumber": "19",
+          "question": "The blood vessel that carries oxygenated blood from the lungs to the heart:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pulmonary Artery",
+            "Aorta",
+            "Pulmonary Vein",
+            "Coronary Artery"
+          ],
+          "wordAnswer": "Pulmonary Vein",
+          "explanation": null
+        },
+        {
+          "questionNumber": "20",
+          "question": "The part of spirogyra that stores food is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Chloroplast",
+            "Cytoplasm",
+            "Cell wall",
+            "Pyrenoid"
+          ],
+          "wordAnswer": "Pyrenoid",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "Hydrochloric acid in the stomach",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Kills bacteria in food",
+            "Activates pepsinogen to pepsin",
+            "Stops the action of ptyalin"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "22",
+          "question": "Relationship in which both organisms benefit",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Mutualism",
+            "Parasitism",
+            "Saprophytism"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "23",
+          "question": "After fertilization in flowering plants:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "The ovule forms the fruit",
+            "The ovary forms the fruit",
+            "The calyx and corolla wither and fall off"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "24",
+          "question": "What is the importance of meiosis?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Leads to the formation of haploid cells",
+            "Leads to the formation of gametic cells",
+            "Leads to variation"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "25",
+          "question": "Reflex actions in mammals require",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Receptors",
+            "Effectors",
+            "Terminators"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are True and the second statement is a correct explanation of the first. \nB. If both statements are True and the second statement is not a correct explanation of the first. \nC. If the first statement is True and the second statement is False. \nD. If the first statement is False and the second statement is True.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Insects undergo metamorphosis",
+            "The housefly undergoes incomplete metamorphosis"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Deforestation leads to global warming",
+            "Lack of vegetation increases carbon dioxide concentration in the atmosphere"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Enzymes are organic catalysts",
+            "They speed up the rate of biochemical reactions within the cell"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Antiduiretic hormone(ADH) is secreted by the kidney",
+            "ADH causes reabsorption of water by the kidney tubules"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "During bread making the dough rises due to yeast activity",
+            "Alcohol is produced during sugar fermentation by yeast"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Fuse during fertilization",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Genes",
+            "Chromosomes",
+            "Zygote",
+            "Gametes"
+          ],
+          "wordAnswer": "Gametes",
+          "explanation": null
+        },
+        {
+          "questionNumber": "32",
+          "question": "A component of air which is an excretory product in plants only",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon dioxide",
+            "Nitrogen",
+            "Water vapour",
+            "Oxygen"
+          ],
+          "wordAnswer": "Oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "33",
+          "question": "The vegetative structure of a mould fungus",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mycelium",
+            "Rhizoid",
+            "Sporangium",
+            "Stolon"
+          ],
+          "wordAnswer": "Mycelium",
+          "explanation": null
+        },
+        {
+          "questionNumber": "34",
+          "question": "Causes uterine contraction during labour",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Progesterone",
+            "Oxytocin",
+            "Oestrogen",
+            "Testosterone"
+          ],
+          "wordAnswer": "Oxytocin",
+          "explanation": null
+        },
+        {
+          "questionNumber": "35",
+          "question": "A group of organisms of different species living together",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Population",
+            "Colony",
+            "Community",
+            "Ecosystem"
+          ],
+          "wordAnswer": "Community",
+          "explanation": null
+        },
+        {
+          "questionNumber": "36",
+          "question": "Area where fertilization occurs in female mammals",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ovary",
+            "Oviduct",
+            "Uterus",
+            "Cervix"
+          ],
+          "wordAnswer": "Oviduct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "37",
+          "question": "Deficiency leads to poor development of bone and teeth",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vitamin D",
+            "Vitamin C",
+            "Vitamin B",
+            "Vitamin A"
+          ],
+          "wordAnswer": "Vitamin D",
+          "explanation": null
+        },
+        {
+          "questionNumber": "38",
+          "question": "Organ where deamination occurs",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Kidney",
+            "Pancreas",
+            "Spleen",
+            "Liver"
+          ],
+          "wordAnswer": "Liver",
+          "explanation": null
+        },
+        {
+          "questionNumber": "39",
+          "question": "Genetic constitution of an organism",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Genotype",
+            "Recessive",
+            "Codominant",
+            "Phenotype"
+          ],
+          "wordAnswer": "Genotype",
+          "explanation": null
+        },
+        {
+          "questionNumber": "40",
+          "question": "The functional unit of the nervous system",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Axon",
+            "Dendrite",
+            "Dendron",
+            "Neurone"
+          ],
+          "wordAnswer": "Neurone",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "Joins two bones",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Tendon",
+            "Ligament",
+            "Cartilage",
+            "Humerus"
+          ],
+          "wordAnswer": "Ligament",
+          "explanation": null
+        },
+        {
+          "questionNumber": "42",
+          "question": "Functions as an exocrine and endocrine gland",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The pancreas",
+            "The testes",
+            "Pituitary",
+            "Ovary"
+          ],
+          "wordAnswer": "The pancreas",
+          "explanation": null
+        },
+        {
+          "questionNumber": "43",
+          "question": "It is advisable to look at a distant object after reading for a while to:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Relax the iris and pupil",
+            "Relax the lens and optic nerve",
+            "Relax suspensory ligament and ciliary muscle",
+            "Relax lens and retina"
+          ],
+          "wordAnswer": "Relax suspensory ligament and ciliary muscle",
+          "explanation": null
+        },
+        {
+          "questionNumber": "44",
+          "question": "In birds, food is stored in the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Gizzard",
+            "Stomach",
+            "Duodenum",
+            "Crop"
+          ],
+          "wordAnswer": "Crop",
+          "explanation": null
+        },
+        {
+          "questionNumber": "45",
+          "question": "The ultimate source of energy in all living organisms",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Green plant",
+            "The sun",
+            "Water",
+            "Nutrients"
+          ],
+          "wordAnswer": "The sun",
+          "explanation": null
+        },
+        {
+          "questionNumber": "46",
+          "question": "What prevents the entry of bacteria through the skin?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sweat pores",
+            "Dermis",
+            "Malpighian layer",
+            "Horny epidermal layer"
+          ],
+          "wordAnswer": "Horny epidermal layer",
+          "explanation": null
+        },
+        {
+          "questionNumber": "47",
+          "question": "This question refers to the diagram below. What is the aim of the setup?",
+          "image": "experiment_respiration_nw_mock_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To show that mammals absorb oxygen during respiration",
+            "To show that mammals absorb carbon dioxide during respiration",
+            "To show that mammals give off oxygen during respiration",
+            "To show that mammals give off carbon dioxide during respiration"
+          ],
+          "wordAnswer": "To show that mammals give off carbon dioxide during respiration",
+          "explanation": null
+        },
+        {
+          "questionNumber": "48",
+          "question": "Which of these reagents is used to test for reducing sugars when germinating maize seeds are crushed and made into a solution?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Millon's reagent",
+            "Sudan III solution",
+            "Benedict's solution",
+            "Copper II sulphate solution"
+          ],
+          "wordAnswer": "Benedict's solution",
+          "explanation": null
+        },
+        {
+          "questionNumber": "49",
+          "question": "A certain couple is heterozygous for the recessive allele that causes albinism. What is the probability of this couple having an albino?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+          ],
+          "wordAnswer": "25%",
+          "explanation": null
+        },
+        {
+          "questionNumber": "50",
+          "question": "When someone sustains an injury, some blood corpuscles cause the blood to clot and prevent further loss of blood as well as entry of pathogens. Which blood cells are responsible for the formation of this clot?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "White blood cells",
+            "Red blood cells",
+            "Platelets",
+            "Lymphocytes"
+          ],
+          "wordAnswer": "Platelets",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

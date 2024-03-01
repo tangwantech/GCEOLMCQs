@@ -1,0 +1,835 @@
+{
+  "privateTitle": "Breathing, Gaseous Exchange and Respiration",
+  "publicTitle": "Breathing, Gaseous Exchange and Respiration",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "Products of anaerobic respiration in plants include",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Alcohol and carbon dioxide",
+            "Glucose and carbon dioxide",
+            "Glucose and oxygen",
+            "Alcohol and Lactic acid"
+          ],
+          "wordAnswer": "Alcohol and carbon dioxide",
+          "explanation": null
+        },
+        {
+          "questionNumber": "2",
+          "question": "Respiration always involves",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "production of alcohol",
+            "production of carbon dioxide",
+            "production of energy",
+            "production of water"
+          ],
+          "wordAnswer": "production of energy",
+          "explanation": null
+        },
+        {
+          "questionNumber": "3",
+          "question": "Which of the following results in accumulation of lactic acid in muscles when its supply is insufficient?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Glucose",
+            "Bicarbonate ions"
+          ],
+          "wordAnswer": "Oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "4",
+          "question": "In order to respire aerobically, an organism needs",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "food and carbon dioxide",
+            "food and oxygen",
+            "food and light",
+            "light and oxygen"
+          ],
+          "wordAnswer": "food and oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "5",
+          "question": "Respiratory rate increases when jumping because",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "jumping makes the heart beat faster.",
+            "jumping produces heat.",
+            "jumping produces energy.",
+            "jumping consumes more energy."
+          ],
+          "wordAnswer": "jumping consumes more energy.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of the following would produce the greatest oxygen debt?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sleeping",
+            "Having a heavy meal",
+            "Thirty press-ups",
+            "Breathing pure oxygen at rest"
+          ],
+          "wordAnswer": "Thirty press-ups",
+          "explanation": null
+        },
+        {
+          "questionNumber": "7",
+          "question": "During expiration",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rib cage moves outwards and upwards.",
+            "Diaphragm muscles contract.",
+            "Volume of the thoracic cavity reduces.",
+            "Air rushes into the lungs."
+          ],
+          "wordAnswer": "Volume of the thoracic cavity reduces.",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Which of the following requires the most amount of oxygen?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Writing",
+            "Walking",
+            "Reading",
+            "Running"
+          ],
+          "wordAnswer": "Running",
+          "explanation": null
+        },
+        {
+          "questionNumber": "9",
+          "question": "Which of the following acts as the site for gaseous exchange in the lungs?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bronchioles",
+            "Bronchi",
+            "Trachea",
+            "Alveoli"
+          ],
+          "wordAnswer": "Alveoli",
+          "explanation": null
+        },
+        {
+          "questionNumber": "10",
+          "question": "The product of anaerobic respiration most useful in baking is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lactic acid",
+            "Alcohol",
+            "Carbon dioxide",
+            "Water"
+          ],
+          "wordAnswer": "Carbon dioxide",
+          "explanation": null
+        },
+        {
+          "questionNumber": "11",
+          "question": "The product of anaerobic respiration most useful in brewing is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lactic acid",
+            "Alcohol",
+            "Carbon dioxide",
+            "Water"
+          ],
+          "wordAnswer": "Alcohol",
+          "explanation": null
+        },
+        {
+          "questionNumber": "12",
+          "question": "After vigorous exercise, the lactic acid in muscles of an athlete is converted to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Protein",
+            "Urea",
+            "Fats",
+            "Glycogen"
+          ],
+          "wordAnswer": "Glycogen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "13",
+          "question": "Which structure protects the lungs?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Trachea",
+            "Ribs",
+            "Heart",
+            "Diaphragm"
+          ],
+          "wordAnswer": "Ribs",
+          "explanation": null
+        },
+        {
+          "questionNumber": "14",
+          "question": "Which of the following contains C-shaped rings of cartilage",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Trachea",
+            "Ribs",
+            "Lungs",
+            "Alveoli"
+          ],
+          "wordAnswer": "Trachea",
+          "explanation": null
+        },
+        {
+          "questionNumber": "15",
+          "question": "Which of the following helps to move trapped dust particles and bacteria up the trachea?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Flagella",
+            "Mucus",
+            "Cilia",
+            "Cartilage"
+          ],
+          "wordAnswer": "Cilia",
+          "explanation": null
+        },
+        {
+          "questionNumber": "16",
+          "question": "Gaseous exchange in lung occurs by",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Osmosis",
+            "Active transport",
+            "Diffusion",
+            "Endocytosis"
+          ],
+          "wordAnswer": "Diffusion",
+          "explanation": null
+        },
+        {
+          "questionNumber": "17",
+          "question": "which of the following produces the highest amount of energy when oxidized?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Glucose",
+            "Protein",
+            "Lipid",
+            "Glycogen"
+          ],
+          "wordAnswer": "Lipid",
+          "explanation": null
+        },
+        {
+          "questionNumber": "18",
+          "question": "Gaseous exchange in fish occurs through the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lungs",
+            "Gills",
+            "Skin",
+            "Tracheoles"
+          ],
+          "wordAnswer": "Gills",
+          "explanation": null
+        },
+        {
+          "questionNumber": "19",
+          "question": "The site for aerobic respiration in a cell is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mitochondrion",
+            "Chloroplast",
+            "Nucleus",
+            "Cytoplasm"
+          ],
+          "wordAnswer": "Mitochondrion",
+          "explanation": null
+        },
+        {
+          "questionNumber": "20",
+          "question": "The site for anaerobic respiration in a cell is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mitochondrion",
+            "Chloroplast",
+            "Nucleus",
+            "Cytoplasm"
+          ],
+          "wordAnswer": "Cytoplasm",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "Characteristics of a good respiratory surface",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "It must be moist for respiratory gases to dissolve and diffuses easily.",
+            "It must be thin to reduce the distance for diffusion of respiratory gases.",
+            "It must have a small surface area to volume ratio"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "22",
+          "question": "Respiratory substrates include",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Protein",
+            "Carbohydrate",
+            "Lipid"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "23",
+          "question": "Inspired air differs from expired air in that",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Inspired air contains more oxygen.",
+            "Inspired air contains more carbon dioxide.",
+            "Inspired air is warmer."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "24",
+          "question": "Respiration differs from photosynthesis in that",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Respiration occurs at all times.",
+            "Respiration produces energy",
+            "Respiration produces oxygen"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "25",
+          "question": "During anaerobic respiration",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "glucose is completely oxidized",
+            "less energy is produced",
+            "toxic by-products are produced"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The rate of respiration is higher in a rat than in an elephant.",
+            "A rat loses more heat to the surrounding than an elephant."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Aerobic respiration takes place in the cytoplasm.",
+            "Aerobic respiration produces more energy than anaerobic respiration."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Plants respire but do not breath.",
+            "At night plants take in oxygen and send out carbon dioxide."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Alveolus is the respiratory surface in man.",
+            "Alveoli is made up of columnar epithelial cells."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Inspired air is cooler than expired air.",
+            "Some energy produced during tissue respiration is lost as heat."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "A set of muscular movements used by animals to keep a gaseous exchange surface supplied with oxygen, and to remove carbon dioxide from the gaseous exchange surface.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Breathing",
+            "Respiration",
+            "Diffusion",
+            "Gaseous exchange"
+          ],
+          "wordAnswer": "Breathing",
+          "explanation": null
+        },
+        {
+          "questionNumber": "32",
+          "question": "It occurs only in the presence of oxygen",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Aerobic respiration",
+            "Anaerobic respiration",
+            "Glycolysis",
+            "Fermentation"
+          ],
+          "wordAnswer": "Aerobic respiration",
+          "explanation": null
+        },
+        {
+          "questionNumber": "33",
+          "question": "The volume of air that moves into and out of the lungs during normal breathing.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Tidal volume",
+            "Inspiratory reserve volume",
+            "Expiratory reserve volume",
+            "Total lung capacity"
+          ],
+          "wordAnswer": "Tidal volume",
+          "explanation": null
+        },
+        {
+          "questionNumber": "34",
+          "question": "The volume of air that remains in the lungs after maximum expiration.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Tidal volume",
+            "Inspiratory reserve volume",
+            "Expiratory reserve volume",
+            "Residual volume"
+          ],
+          "wordAnswer": "Residual volume",
+          "explanation": null
+        },
+        {
+          "questionNumber": "35",
+          "question": "It controls breathing rate.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hypothalamus",
+            "Lungs",
+            "Medulla oblongata",
+            "Heart"
+          ],
+          "wordAnswer": "Medulla oblongata",
+          "explanation": null
+        },
+        {
+          "questionNumber": "36",
+          "question": "It Produces most of the energy in aerobic organisms.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cytoplasm",
+            "Mitochondrion",
+            "Nucleus",
+            "Sap vacuole"
+          ],
+          "wordAnswer": "Mitochondrion",
+          "explanation": null
+        },
+        {
+          "questionNumber": "37",
+          "question": "The maximum volume of air that can be expired after maximum inspiration.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Tidal volume",
+            "Inspiratory reserve volume",
+            "Vital lung capacity",
+            "Total lung capacity"
+          ],
+          "wordAnswer": "Vital lung capacity",
+          "explanation": null
+        },
+        {
+          "questionNumber": "38",
+          "question": "The maximum volume of air that can be drawn into the lungs after breathing in normally.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Expiratory reserve volume",
+            "Inspiratory reserve volume",
+            "Vital lung capacity",
+            "Total lung capacity"
+          ],
+          "wordAnswer": "Inspiratory reserve volume",
+          "explanation": null
+        },
+        {
+          "questionNumber": "39",
+          "question": "The maximum volume of air that can be sent out of the lungs after breathing out normally.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Expiratory reserve volume",
+            "Inspiratory reserve volume",
+            "Vital lung capacity",
+            "Total lung capacity"
+          ],
+          "wordAnswer": "Expiratory reserve volume",
+          "explanation": null
+        },
+        {
+          "questionNumber": "40",
+          "question": "It is not normally respired by a healthy mammal",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Glucose",
+            "Lipid",
+            "Protein",
+            "Carbohydrate"
+          ],
+          "wordAnswer": "Protein",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. What is the name of the solution in flask D?",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Caustic soda",
+            "Lime water",
+            "Pyrogallic acid",
+            "Sodium Bicarbonate"
+          ],
+          "wordAnswer": "Lime water",
+          "explanation": null
+        },
+        {
+          "questionNumber": "42",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. What is the name of the solution in flask A?",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Caustic soda",
+            "Lime water",
+            "Pyrogallic acid",
+            "Sodium Bicarbonate"
+          ],
+          "wordAnswer": "Caustic soda",
+          "explanation": null
+        },
+        {
+          "questionNumber": "43",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. What is the role of the solution in flask D?",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To detect carbon dioxide in the air coming from bottle C.",
+            "To remove carbon dioxide from the incoming air.",
+            "To produce oxygen used by the small mammal.",
+            "To absorb oxygen"
+          ],
+          "wordAnswer": "To detect carbon dioxide in the air coming from bottle C.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "44",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. What is the role of the solution in flask A?",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To remove carbon dioxide from the incoming air.",
+            "To remove oxygen from the incoming air.",
+            "To remove water vapour from the incoming air",
+            "To produce oxygen used by the small mammal."
+          ],
+          "wordAnswer": "To remove carbon dioxide from the incoming air.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "45",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. What color change in flask D would indicate the presence carbon dioxide?",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Solution in D turns milky.",
+            "Solution in D turns Blue.",
+            "Solution in D turns Blue black.",
+            "Solution in D remains clear."
+          ],
+          "wordAnswer": "Solution in D turns milky.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "46",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. Suggest a suitable control for this experiment.",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The pump is removed.",
+            "Bottle in C is removed.",
+            "Animal in bottle C is removed.",
+            "Animal in bottle C is killed and sterilized."
+          ],
+          "wordAnswer": "Animal in bottle C is killed and sterilized.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "47",
+          "question": "The apparatus below is used to find out if carbon dioxide is released during aerobic respiration by a small mammal. What precaution must be taken if the animal in bottle C is replaced by a plant?",
+          "image": "setup_aerobic_respiration_mammals.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Place alkaline pyrogallic acid in flask A.",
+            "Spread paraffin oil on the mouth of flask A, B and D.",
+            "Cover bottle C with a dark cloth.",
+            "Cover bottle C with a transparent cloth."
+          ],
+          "wordAnswer": "Cover bottle C with a dark cloth.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "48",
+          "question": "The presence of mucus in the trachea of humans is",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To dissolve oxygen",
+            "To reduce friction",
+            "To detect the presence of bacteria",
+            "To trap impurities"
+          ],
+          "wordAnswer": "To trap impurities",
+          "explanation": null
+        },
+        {
+          "questionNumber": "49",
+          "question": "The presence of carbon dioxide in inspired air is indicated by",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sodium bicarbonate becoming milky.",
+            "Lime water becoming milky.",
+            "Pyrogallic acid becoming milky.",
+            "Caustic soda becoming milky."
+          ],
+          "wordAnswer": "Lime water becoming milky.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "50",
+          "question": "Its percentage is the same in inspired and expired air.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Water vapour"
+          ],
+          "wordAnswer": "Nitrogen",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

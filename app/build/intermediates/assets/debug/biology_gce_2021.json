@@ -1,0 +1,835 @@
+{
+  "privateTitle": "GCE 2021",
+  "publicTitle": "Past GCE 7",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "Is a characteristic of birds",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "possess crop and gizzard as digestive features.",
+            "possess gills for gaseous exchange.",
+            "presence of scales on the body for protection.",
+            "are poikilothermic for temperature regulation."
+          ],
+          "wordAnswer": "possess crop and gizzard as digestive features.",
+          "explanation": "Crop and gizzard are digestive features found in birds. Crop temporarily stores food and starts the digestive process before it enters the stomach. The gizzard contains sand and gravel which helps to break down large food particles into smaller ones, increasing surface area for enzymatic digestion. The other options are incorrect because:\n\n- Birds do not have gills.\n\n- Scales are found only on the legs of birds, not over their entire body.\n\n -Bird are homeothermic, not poikilothermic."
+        },
+        {
+          "questionNumber": "2",
+          "question": "Light energy is converted to chemical energy during photosynthesis and stored in the form of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "minerals.",
+            "carbohydrates.",
+            "vitamins.",
+            "water."
+          ],
+          "wordAnswer": "carbohydrates.",
+          "explanation": "During photosynthesis, light energy is captured and used to combine carbon dioxide and water to form glucose. The glucose produced is converted to starch and stored"
+        },
+        {
+          "questionNumber": "3",
+          "question": "Healthy carriers of HIV are,",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "HIV negative people who look sick.",
+            "people who look healthy, have the virus but cannot infect others.",
+            "people who look healthy, have the virus and can infect others.",
+            "people who have reached the AIDS stage."
+          ],
+          "wordAnswer": "people who look healthy, have the virus and can infect others.",
+          "explanation": "Healthy carriers of HIV are people who look healthy, have the virus and can infect others. They usually do not show signs of the disease and so can easily spread the virus during unprotected sex."
+        },
+        {
+          "questionNumber": "4",
+          "question": "The function of swim bladder in fish is to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "enable fish to swim fast.",
+            "prevent the fish from changing its direction.",
+            "control the depth at which fish swims.",
+            "enables the fish to detect vibrations."
+          ],
+          "wordAnswer": "control the depth at which fish swims.",
+          "explanation": "The swim bladder control the depth at which fish swims. When the swim bladder is inflated, the fish becomes lighter and rises and when the swim bladder is deflated, the fish becomes heavier and sinks. The other options are incorrect because:\n\n- How fast or slow a fish swims is due to action of its fins and muscles, not the swim bladder.\n\n- The fins enable the fish to change direction, not the swim bladder.\n\n- The lateral line system enables the fish to detect vibrations, not the swim bladder"
+        },
+        {
+          "questionNumber": "5",
+          "question": "Which three elements make up carbohydrates?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nitrogen, oxygen and hydrogen.",
+            "Carbon, hydrogen and oxygen.",
+            "Phosphorus, hydrogen and oxygen.",
+            "Nitrogen, phosphorus and oxygen."
+          ],
+          "wordAnswer": "Carbon, hydrogen and oxygen.",
+          "explanation": "Carbon, hydrogen and oxygen are the elements that make up carbohydrates. \n\n- Nitrogen is an element found in proteins. Phosphorus may sometimes be found in proteins, not carbohydrates."
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of the following is an excretory process?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Release of insulin from the pancreas.",
+            "Release of saliva from the salivary gland.",
+            "Removal of carbon dioxide from the lungs.",
+            "Removal of faeces from the alimentary canal."
+          ],
+          "wordAnswer": "Removal of carbon dioxide from the lungs.",
+          "explanation": "Carbon dioxide is a metabolic waste product of tissue respiration. Its elimination from the lungs makes the process excretory. The other options are incorrect because:\n\n- Insulin is a hormone released by the pancreas to reduce blood sugar level. It is not a metabolic waste that is excreted.\n\n- Saliva is a secretion which helps in carbohydrate digestion in the mouth. It is not a metabolic waste that is excreted. \n\n- Faeces is the remains of food not digested in the alimentary canal. It is not a metabolic waste that is excreted."
+        },
+        {
+          "questionNumber": "7",
+          "question": "If the solute percentage inside the cell is 65% while the solute percentage outside the cell is 35%. In what direction will water move?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Moves out of the cell.",
+            "Moves into the cell.",
+            "Moves in and out of cell.",
+            "No movement in and out of cell."
+          ],
+          "wordAnswer": "Moves into the cell.",
+          "explanation": "Water moves from outside into the cell. When ever two solutions are separated by a selective permeable membrane, water always moves from the solution of low solute potential to that of high solute potential by osmosis."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "The diagram below shows the human forearm. What happens to the muscles X and Y when the arm is flexed?",
+          "image": "human_forearm_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "X relaxes and elongates while Y contracts and shortens.",
+            "X contracts and elongates while Y relaxes and shortens.",
+            "X contracts and shorten while Y relaxes and elongates.",
+            "X relaxes and shortens while Y contracts and elongates."
+          ],
+          "wordAnswer": "X contracts and shorten while Y relaxes and elongates.",
+          "explanation": "X represents the bicep while Y represents the tricep. When the arm is flexed, the bicep contracts and shorten while tricep relaxes and elongates. The radius and ulna are pulled towards the humerus."
+        },
+        {
+          "questionNumber": "9",
+          "question": "Trace the correct path of impulse transmission",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Dendrite-->Dendron-->Axon-->Effector.",
+            "Dendron-->Dendrite-->Axon-->Effector.",
+            "Dendrite-->Axon-->Dendron-->Effector.",
+            "Axon-->Dendron-->Dendrite-->Effector."
+          ],
+          "wordAnswer": "Dendrite-->Dendron-->Axon-->Effector.",
+          "explanation": "Dendrites receives impulses from another neuron and send them to the cell body through the dendron. From the cell body, the impulses are transmitted along the axon to an effector to bring about a response."
+        },
+        {
+          "questionNumber": "10",
+          "question": "The diagram below shows a section through a flower. When self pollination occurs, pollen is transferred from",
+          "image": "flower_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Q to R",
+            "R to Q",
+            "Q to S",
+            "R to S"
+          ],
+          "wordAnswer": "Q to R",
+          "explanation": "Q represents the anther while R represents the stigma. When self pollination occurs, pollen grains are transferred from the anther to the stigma of the same flower."
+        },
+        {
+          "questionNumber": "11",
+          "question": "The diagram below represents the circulation of carbon in nature. What process is represented by X?",
+          "image": "carbon_cycle_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Respiration",
+            "Photosynthesis",
+            "Death",
+            "Combustion"
+          ],
+          "wordAnswer": "Combustion",
+          "explanation": "Process X represents combustion, the burning of fossil fuels which releases carbon dioxide into the atmosphere."
+        },
+        {
+          "questionNumber": "12",
+          "question": "Identify the structure that prevents the reflux of blood from the aorta to the left ventricle.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bicuspid valve.",
+            "Semilunar valve.",
+            "Tricuspid valve.",
+            "Tendon supporting valve."
+          ],
+          "wordAnswer": "Semilunar valve.",
+          "explanation": "The semilunar valves prevent the reflux or backflow of blood from the aorta to the left ventricle. The other options are incorrect because: \n\n- Bicuspid valves prevent reflux of blood from the left ventricle to the left atrium.\n\n- Tricuspid valve prevents the reflux of blood from the right ventricle to the right atrium.\\n- Tendons supporting valve support the bicuspid and tricuspid valves, preventing them from turning inside out when they closed."
+        },
+        {
+          "questionNumber": "13",
+          "question": "Choose the correct site of reabsorption of glucose and amino acids in the kidney nephron",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bowman's capsule.",
+            "Loop of Henle.",
+            "Distal convoluted tubule.",
+            "Proximal convoluted tubule."
+          ],
+          "wordAnswer": "Proximal convoluted tubule.",
+          "explanation": "All glucose and some amino acids are reabsorbed at the proximal convoluted tubule by the process of diffusion and active transport. The other options are incorrect because:\n\n- The Bowman's capsule contains the capsular space which collects the glomerular filtrate during ultra-filtration. It has no role in the reabsorption of substances.\n The Loop of Henle and distal convoluted tubule are concerned with the reabsorption of water and salts"
+        },
+        {
+          "questionNumber": "14",
+          "question": "Below is the diagram of the female reproductive system. The structure numbered 3 secretes the hormone;",
+          "image": "female_reproductive_system_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oestrogen and Follicle Stimulating Hormone.",
+            "Follicle Stimulating Hormone and Progesterone.",
+            "Oestrogen and Progesterone.",
+            "Progesterone and Luteinizing Hormone."
+          ],
+          "wordAnswer": "Oestrogen and Progesterone.",
+          "explanation": "The structure numbered 3 is the ovary. It secretes oestrogen and progesterone. The other options are incorrect because:\n\n- Follicle stimulating hormone and Luteinizing hormone are secreted by the anterior pituitary gland in the brain."
+        },
+        {
+          "questionNumber": "15",
+          "question": "The image formed on the retina from an external object is;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "not real, smaller and inverted.",
+            "real, smaller and not inverted.",
+            "real, larger and inverted.",
+            "real, smaller and inverted."
+          ],
+          "wordAnswer": "real, smaller and inverted.",
+          "explanation": "Real (formed behind the lens), smaller and inverted ('Upside down') are the characteristics of the image of an external object formed on the retina."
+        },
+        {
+          "questionNumber": "16",
+          "question": "In which part of the gut does the chemical digestion of proteins begin?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mouth.",
+            "Duodenum.",
+            "Stomach.",
+            "Ileum."
+          ],
+          "wordAnswer": "Stomach.",
+          "explanation": "Chemical digestion of proteins begins in the stomach. The stomach secretes gastric juice which contains the enzyme pepsin to begin the chemical digestion of proteins. The other options are incorrect because:\n\n- While the stomach receives food that has passed through the mouth, no chemical digestion of proteins occurred in the mouth due to lack of protein digesting enzymes in the mouth.\n\n- Chemical digestion of proteins continue in duodenum and ileum."
+        },
+        {
+          "questionNumber": "17",
+          "question": "In genetic engineering, cut DNA pieces are joined using",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "DNA ligase.",
+            "DNA polymerase.",
+            "DNA helicase,",
+            "Restriction enzyme."
+          ],
+          "wordAnswer": "DNA ligase.",
+          "explanation": "DNA ligase joins cut DNA pieces having complimentary ends to form recombinant DNA. The other options are incorrect because:\n\n- DNA helicase unzips the double stranded DNA molecule during replication or transcription.\n\n- Restriction enzyme cuts DNA at specific nucleotide sequences to form DNA fragments.\n\n DNA polymerase catalyses the addition of new nucleotide subunits to form a new DNA molecule. This usually occurs during DNA replication."
+        },
+        {
+          "questionNumber": "18",
+          "question": "Below are four listed organisms. In an ecosystem, in which order does energy flow through these organisms?",
+          "image": "listed_organisms_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2, 1, 3, 4",
+            "2, 3, 1, 4",
+            "4, 1, 3, 2",
+            "4, 3, 1, 2"
+          ],
+          "wordAnswer": "4, 3, 1, 2",
+          "explanation": null
+        },
+        {
+          "questionNumber": "19",
+          "question": "In which part of the female reproductive system does implantation occur?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ovaries.",
+            "Oviducts.",
+            "Cervix.",
+            "Uterus."
+          ],
+          "wordAnswer": "Uterus.",
+          "explanation": "Implantation takes place in the uterus. The uterine wall is adapted to support the implanted embryo and its subsequent growth and development through out the period of gestation. The other options are incorrect because:\n\n- The role of the ovary is to produce eggs and female reproductive hormones such as oestrogen and progesterone. It is not the site of implantation. \n- The oviduct is the site of fertilzation, not implantation.\n- The cervix serves as channel for sperm to enter the uterus, for the foetus to leave the uterus during birth or for menses to flow out during during menstruation."
+        },
+        {
+          "questionNumber": "20",
+          "question": "Which vessel returns oxygenated blood to the heart?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vena cava.",
+            "Pulmonary vein.",
+            "Pulmonary artery.",
+            "Aorta."
+          ],
+          "wordAnswer": "Pulmonary vein.",
+          "explanation": "The pulmonary vein returns oxygenated blood from the lungs to the heart. The other options are incorrect because:\n\n- The vena cava returns deoxygenated blood from the body to the heart.\n- The pulmonary artery carries deoxygenated blood from the right ventricle of the heart to the lungs for oxygenation.\n- The aorta carries oxygenated blood from the left ventricle to the entire body except the lungs."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "During over heating of the body;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "the hairs of the skin stand erect.",
+            "the blood vessels below the skin dilate.",
+            "there is increased production of sweat."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "2 and 3 only are correct.",
+          "explanation": "During over heating, blood vessels in the skin dilate to allow more blood to flow closer to the surface of the skin. This results in the loss of more heat by radiation and convection. More sweat is also secreted by the sweat glands. As the sweat evaporates from the surface of the skin, it takes along some heat energy, reducing body temperature.\n\n- The hairs of the skin stand erect during overcooling, not overheating. During overheating, the hairs lie flat. In this position, they offer the least possible resistance to heat loss by radiation."
+        },
+        {
+          "questionNumber": "22",
+          "question": "Typical of mammals.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Have mammary glands.",
+            "Have sweat glands.",
+            "Are homodont."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "1 and 2 only are correct.",
+          "explanation": "Some characteristics of mammals include the possession of mammary and sweat glands. Mammals are not homodonts, but heterodonts (have teeth of different shapes, sizes and perform specific functions)"
+        },
+        {
+          "questionNumber": "23",
+          "question": "After fertilization has taken place in a flowering plant;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "the corolla and calyx wither and fall off.",
+            "the ovary gradually ripens into a seed.",
+            "the ovule becomes the fruit."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "1 only is correct.",
+          "explanation": "After fertilization, the corolla (petals) and calyx (sepals) wither and fall off because they are no longer needed. \n\n- The ovule becomes the seed, not the fruit. \n\n- The ovary ripens into a fruit, not a seed."
+        },
+        {
+          "questionNumber": "24",
+          "question": "The malaria parasite;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "destroys nerve cells.",
+            "destroys red blood cells",
+            "causes anaemia"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "2 and 3 only are correct.",
+          "explanation": "The correct answer is '2 and 3 only are correct.' \n - Destroys red blood cells is a key characteristic of the malaria parasite. It invades and replicates within red blood cells, eventually destroying them. This leads to anemia, as the body loses oxygen-carrying red blood cells. \n\n - Anemia is a direct consequence of the destruction of red blood cells by the malaria parasite. It results in a reduced ability to transport oxygen throughout the body, causing symptoms like fatigue, weakness, and shortness of breath. \n\n - The malaria parasite primarily targets red blood cells, not nerve cells. Neurological symptoms in severe malaria are often due to secondary factors like inflammation and impaired blood flow to the brain, rather than direct destruction of nerve cells."
+        },
+        {
+          "questionNumber": "25",
+          "question": "Auxin;",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "are produced at the shoot tips.",
+            "increase growth in shoot.",
+            "inhibits growth in roots."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct.",
+            "1 and 2 only are correct.",
+            "2 and 3 only are correct.",
+            "1 only is correct."
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct.",
+          "explanation": "Auxins are plant growth substances produced by meristematic cells at the tips of shoots and roots. In the shoot, auxins stimulate rapid growth and elongation of cells while in the roots auxin inhibit growth and elongation of cells."
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Insulin increases blood sugar level while glucagon decreases it.",
+            "Insulin and glucagon are antagonistic hormones."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "First statement is False. Second statement is True.",
+          "explanation": "Insulin increases blood sugar level while glucagon decreases it is a false statement. Insulin rather reduces blood sugar level by stimulating the conversion of excess glucose to glycogen while glucagon increases blood sugar level by stimulating the conversion of stored glycogen to glucose. \n\n- Because the effect of insulin is opposite to that of glucagon, insulin and glucagon are described as antagonistic hormones."
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Lack of vitamin D causes rickets.",
+            "Vitamin D promotes the absorption of calcium salts for bone formation"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
+          "explanation": "Rickets is a deficiency disease in children characterised by week and deformed bones of the legs. The hardening of bones is due to the deposition of calcium and phosphate salts. In the absence of Vitamin D, the absorption of calcium and phosphate salts in the intestine is hindered. Insufficient calcium and phosphate salts in the body leads to poor bone development resulting in rickets"
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The biotic factors in an ecosystem include temperature and water.",
+            "Ecosystems are made up of both abiotic and biotic factors."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "First statement is False. Second statement is True.",
+          "explanation": "Temperature and water are abiotic factors, not biotic factors. Biotic factors are the living factors. \n\n- Ecosystems consist of abiotic and biotic factors interacting together."
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Mosquitoes transmit the malaria causing parasite.",
+            "Malaria is contracted from drinking standing water"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "First statement is True. Second statement is False.",
+          "explanation": "The malaria parasite is transmitted through the bite from infected female Anopheles mosquito.\n\n- While standing water may contain the larvae of mosquitoes, these larvae do not contain the malaria parasite and so cannot transmit malaria parasite when consumed. Hence, malaria cannot be not contracted by drinking standing water."
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Maize plants interspersed with leguminous plants grow healthier.",
+            "Leguminous plants increase the nitrogen content of the soil."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are true and the second statement is a correct explanation of the first.",
+            "Both statements are true and the second statement is NOT a correct explanation of the first.",
+            "First statement is True. Second statement is False.",
+            "First statement is False. Second statement is True."
+          ],
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
+          "explanation": "Maize plants interspersed with leguminous plants grow healthier because the roots of the leguminous plants contain nitrogen fixing bacteria which help to convert atmospheric nitrogen to soil nitrate. The maize plant can absorb some of the nitrates and use them for growth."
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Results from meiotic division",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nerve cell.",
+            "Blood cell.",
+            "Sperm cell.",
+            "Muscle cell."
+          ],
+          "wordAnswer": "Sperm cell.",
+          "explanation": "Sperm cells are haploid cells produced during meiosis in the testes. The other options are incorrect because:\n\n- Nerve cell, blood cell and muscle cell are formed by mitosis, not meiosis."
+        },
+        {
+          "questionNumber": "32",
+          "question": "Pressure receptor",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pacinian corpuscle.",
+            "Hair plexus.",
+            "Free nerve ending.",
+            "Meissner's corpuscle."
+          ],
+          "wordAnswer": "Pacinian corpuscle.",
+          "explanation": "Pacinian corpuscle is a pressure receptor. \n\n- Free nerve endings detect external temperature changes.\n- Meissner's corpuscle is a touch receptor.\n\n- Hair plexus is a mechanoreceptor surrounding the base of each hair, making the hair to be sensitive to touch movements"
+        },
+        {
+          "questionNumber": "33",
+          "question": "Allows movement of bones in one direction only",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ball and socket joint.",
+            "Hinge joint.",
+            "Pivot joint.",
+            "Gliding joint."
+          ],
+          "wordAnswer": "Hinge joint.",
+          "explanation": "Hinge joints e.g elbow and knee joints allow movement in one direction only. Pivot joint e.g. the joint between atlas and axis vertebrae allows the atlas to rotate on the axis as well as nodding of the head.\n\n- Ball and socket joint e.g hip and shoulder joints allows for movement in many directions.\n\n- Gliding joints, e.g in the wrists and ankles, are joints between two flat bones. This joint allows the bones to glide against each other."
+        },
+        {
+          "questionNumber": "34",
+          "question": "Smaller circular pieces of DNA found in certain bacteria.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Recombinant DNA.",
+            "Restriction enzyme.",
+            "Clone.",
+            "Plasmids."
+          ],
+          "wordAnswer": "Plasmids.",
+          "explanation": "Plasmids are smaller circular pieces of DNA found in certain bacteria. They often carry genes that confer certain adaptations to the bacteria such as resistance to antibiotics.\n\n- Recombinant DNA is DNA made by combining fragments of DNA from different organisms.\n\n-  Restriction enzyme is not DNA. It helps to cut DNA at specific nucleotide sequences to form DNA fragments.\n\n- Clones are genetically identical copies of cells form by mitosis"
+        },
+        {
+          "questionNumber": "35",
+          "question": "A chemical that can be used to absorb oxygen in an experiment.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Sodium hydroxide.",
+            "Pyrogallic acid.",
+            "Potassium hydroxide.",
+            "Sodium carbonate"
+          ],
+          "wordAnswer": "Pyrogallic acid.",
+          "explanation": "Pyrogallic acid is the chemical used to absorb oxygen in experiments. Sodium hydroxide and potassium hydroxide absorb carbon dioxide, while sodium carbonate releases carbon dioxide"
+        },
+        {
+          "questionNumber": "36",
+          "question": "Prevents wearing out of bones at joints.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ligament.",
+            "Tendon.",
+            "Cartilage.",
+            "Synovial fluid."
+          ],
+          "wordAnswer": "Cartilage.",
+          "explanation": "Articular cartilage is the soft connective tissue that covers the regions of a bone's surface that articulates with other bones at joints. It prevents wearing out of bone tips at joints. It also helps in absorbing shock. \n\n- Synovial fluid helps to reduce friction between the articular cartilages of synovial joints during movement.\n\n- Tendon attaches muscle to bone.\n\n- Ligament attaches bone to bone at joints."
+        },
+        {
+          "questionNumber": "37",
+          "question": "Undergoes complete metamorphosis.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cockroach",
+            "Grasshopper.",
+            "Termite.",
+            "Honey bee."
+          ],
+          "wordAnswer": "Honey bee.",
+          "explanation": "Honey bee is an example of an insect that undergoes complete metamorphosis. Complete metamorphosis is characterized by four stages: egg, larva, pupa and adult. The other options are incorrect because:\n\n- Cockroach, grasshopper and termite undergo incomplete metamorphosis. The stages in incomplete metamorphosis are: egg, nymph and adult"
+        },
+        {
+          "questionNumber": "38",
+          "question": "A food stuff that remains brown when iodine is dropped on it.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cassava.",
+            "Ripe banana.",
+            "Cooked rice.",
+            "Plantain."
+          ],
+          "wordAnswer": "Ripe banana.",
+          "explanation": "Cassava, cooked rice and plantain are all rich in the starch and will produce a blue black colour with iodine solution. However, ripe banana contains sugars like glucose, fructose and sucrose which do not react with iodine and so, ripe banana remains brown with iodine."
+        },
+        {
+          "questionNumber": "39",
+          "question": "Using a cat to eliminate rats at home.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Biological control.",
+            "Competition.",
+            "Use of pesticide.",
+            "Scavenging."
+          ],
+          "wordAnswer": "Biological control.",
+          "explanation": "Biological control involves the use of a living organism of a difference species to reduce the population of another species (the pest) such as the use of cat to eliminate rats at home. The other options are incorrect because:\n\n- A pesticide is a chemical used to kill pest. \n\n- Scavenging is the feeding on dead organisms by an animal. \n\n- Competition is the interaction between species in which both require a resource that is in limited supply e.g food, mate. In such interaction, the number of the less adaptable species reduces."
+        },
+        {
+          "questionNumber": "40",
+          "question": "It's a characteristics of white blood cells.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lack haemoglobin.",
+            "No nucleus.",
+            "Function in transport.",
+            "Long lifespan."
+          ],
+          "wordAnswer": "Lack haemoglobin.",
+          "explanation": "White blood cells do not have haemoglobin. Haemoglobin is a transport protein present in red blood cells that helps in transporting oxygen around the body in the form of oxyhaemoglobin."
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "When the setup below was exposed to the sun for one hour, liquid condensed on the inside of the polythene bag. Identify the condensed liquid and its origin.",
+          "image": "experiment_transpiration_june_2021.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oxygen from photosynthesis.",
+            "Water from transpiring leaves.",
+            "Carbon dioxide from respiring leaves.",
+            "Carbon dioxide from respiring soil microbes."
+          ],
+          "wordAnswer": "Water from transpiring leaves.",
+          "explanation": "When the setup was exposed to sun for one hour, the leaves of the plant lose water in the form of water vapour, a process called transpiration. Since the plant was enclosed in a polythene bag, the air within became saturated with water vapour. Some of the water vapour then condensed as liquid on the inside of the polythene bag."
+        },
+        {
+          "questionNumber": "42",
+          "question": "In an experiment using guinea pigs to verify the functions of parts of the brain, one structure was removed and it was observed that the animal could not move properly and had no balance at all. Which structure was removed> ",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Medulla oblongata.",
+            "Cerebrum.",
+            "Cerebellum.",
+            "Pituitary."
+          ],
+          "wordAnswer": "Cerebellum.",
+          "explanation": "The cerebellum controls balance and posture. Its removal was the reason why the guinea pig could not move properly and had no balance. The other options are incorrect because:\n\n- removal of the medulla oblongata will affect involuntary functions such as breathing rate, heart rate, blood pressure.\n\n- Removal of the cerebrum would render the animal unconscious as the cerebrum is responsible for all conscious or voluntary activities.\n\n- Removal of the pituitary gland will affect a large number of body functions such as metabolism, growth, reproduction, osmoregulation, but not balance and posture"
+        },
+        {
+          "questionNumber": "43",
+          "question": "Two students were asked to breathe out into two conical flasks containing clear liquids. David breathe into conical flask K and the liquid remained clear. Nadia breathe into conical flask L and the liquid in it turned milky. Identify the contents of flask K and L and the gas that caused the change in L.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Flask K (Distilled water), Flask L (Lime water), Gas (Oxygen)",
+            "Flask K (Lime water), Flask L (Caustic soda), Gas (Oxygen)",
+            "Flask K (Pyrogallic acid), Flask L (Caustic soda), Gas (Carbon dioxide)",
+            "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
+          ],
+          "wordAnswer": "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)",
+          "explanation": null
+        },
+        {
+          "questionNumber": "44",
+          "question": "In an experiment to demonstrate that mammals give off carbon dioxide during respiration,  flasks and a respiratory bottle labelled A, B, C and D are used. Flask A contains a chemical to absorb carbon dioxide from incoming air. Flask B contains lime water which should stay clear, Flask C is the respiratory bottle which contains the small mammal to respire and Flask D contains lime water to test the gas produced. What modification will you make in C if the mammal were to be replaced by a green plant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cover C with a black cloth.",
+            "Place a dish of calcium hydroxide in C.",
+            "Place a dish of sodium hydroxide in C.",
+            "Cover C with a transparent polythene bag."
+          ],
+          "wordAnswer": "Cover C with a black cloth.",
+          "explanation": "The aim of the experiment is to investigate the release of carbon dioxide during respiration. Using a green plant in the presence of sunlight, would result in the green plant using the carbon it produces during respiration for photosynthesis. The lime water in flask D would remain clear. This would lead to a false conclusion that green plants do not produce carbon dioxide during respiration. In order to get a correct result, the flask C containing the green plant should be covered with a black cloth to prevent sunlight reaching the green plant and hence, preventing photosynthesis from consuming the carbon dioxide produced."
+        },
+        {
+          "questionNumber": "45",
+          "question": "Each egg in a woman's ovary carries an X chromosome. For a normal male zygote to be formed during fertilization,",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A sperm carrying the X chromosome fuses with the egg.",
+            "A sperm carrying the Y chromosome fuses with the egg.",
+            "A sperm carrying an XY chromosome fuses with the egg.",
+            "A sperm carrying an XX chromosome fuses with the egg."
+          ],
+          "wordAnswer": "A sperm carrying the Y chromosome fuses with the egg.",
+          "explanation": "The genotype of a male is XY. Males produce two types of gamete: one set contains X-chromosome while the other set contains the Y-chromosome. To produce a male zygote, only a sperm carrying the Y chromosome should fuse with the egg (X) to form a zygote of genotype XY."
+        },
+        {
+          "questionNumber": "46",
+          "question": "What chemical substance is tested for to show that photosynthesis has taken place in a leaf?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Chlorophyll.",
+            "Glucose.",
+            "Oxygen.",
+            "Starch."
+          ],
+          "wordAnswer": "Starch.",
+          "explanation": "While glucose and oxygen are the immediate products of photosynthesis, the glucose is usually converted to starch and stored. It is this starch which can be tested for to show that photosynthesis has taken place. The starch in the leaf readily react with iodine to produce a blue black color indicating that photosynthesis has taken place in the leaf. \n\n- Oxygen gas produced by photosynthesis in the leaf, is usually lost into the atmosphere and so, is practically impossible to use it to show that photosynthesis has taken place in a leaf. \n\n-Chlorophyll is not a product of photosynthesis but a pigment that captures sunlight energy for photosynthesis."
+        },
+        {
+          "questionNumber": "47",
+          "question": "In addition to availability of water, which other conditions are essential for seed germination?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon dioxide and light.",
+            "Oxygen and suitable temperature.",
+            "Oxygen and soil.",
+            "Soil and suitable temperature."
+          ],
+          "wordAnswer": "Oxygen and suitable temperature.",
+          "explanation": "In addition to water, seeds require oxygen for use in aerobic respiration to produce energy needed for growth of the embryo during germination. Suitable temperature is also required for optimum enzyme activity required during germination.\n\n- Soil and carbon dioxide are not needed for a seed to germinate."
+        },
+        {
+          "questionNumber": "48",
+          "question": "In every ecosystem plants occupy the first trophic level. This is because, they:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Are numerous.",
+            "Can withstand atmospheric conditions.",
+            "Are capable of converting solar energy into chemical energy.",
+            "Have roots that anchor them into the soil."
+          ],
+          "wordAnswer": "Are capable of converting solar energy into chemical energy.",
+          "explanation": "In every ecosystem, the ultimate source of energy is the sun. Green plants contain chloroplasts with chlorophyll to trap solar energy, converting it into chemical energy which is stored as carbohydrate. All other organisms depend on this stored energy in green plants either directly (when herbivores feed on plants) or indirectly (when carnivores feed on herbivores or other animals)\n\n- While plants do have roots to anchor them in the soil, are numerous, and may be able to withstand atmospheric conditions, these reasons to not relate to why plants occupy the first trophic level in every ecosystem."
+        },
+        {
+          "questionNumber": "49",
+          "question": "The following is a food chain. Grass --> Grasshopper --> Praying mantis --> Toad. Which organism in the food chain is a secondary consumer?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Praying mantis.",
+            "Grasshopper.",
+            "Toad.",
+            "Grass."
+          ],
+          "wordAnswer": "Praying mantis.",
+          "explanation": "A secondary consumer is an animal that feeds directly on a primary consumer. In the food chain, the Praying mantis is a secondary consumer as it feeds on the grasshopper which is a primary consumer. The other options are incorrect because:\n\n- The grass is a producer.\n\n- The grasshopper is a primary consumer as it directly feeds on the producer.\n\n- The toad is a tertiary consumer as it feeds on the praying mantis, which is a secondary consumer."
+        },
+        {
+          "questionNumber": "50",
+          "question": "Which of these is a genetically engineered process?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Production of human insulin.",
+            "Bread making.",
+            "Cleaning of oil spills.",
+            "Wine making."
+          ],
+          "wordAnswer": "Production of human insulin.",
+          "explanation": "The production of human insulin is a genetically engineered process as it involves inserting the human gene sequence for insulin into a host cell's DNA such as Escherichia coli, and using the host cell to synthesize a large amount of the human insulin. This insulin can then be extracted, purified and given to individuals whose pancreas cannot synthesize insulin.\n\n- Bread making, cleaning of oil spills and wine making are not genetically engineered processes as they do not involve the manipulation of genes to produce a useful product"
+        }
+      ]
+    }
+  ]
+}

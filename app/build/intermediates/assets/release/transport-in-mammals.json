@@ -1,0 +1,835 @@
+{
+  "privateTitle": "Transport in Mammals",
+  "publicTitle": "Transport in Mammals",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "Which of the following properties is NOT true of white blood cells?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "They produce antibodies",
+            "They fight invading bacteria",
+            "They engulf invading bacteria",
+            "They transport oxygen"
+          ],
+          "wordAnswer": "They transport oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "2",
+          "question": "Plasma is blood minus",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "blood cells",
+            "blood cells and fibrinogen",
+            "food substances",
+            "red blood cells"
+          ],
+          "wordAnswer": "blood cells",
+          "explanation": null
+        },
+        {
+          "questionNumber": "3",
+          "question": "The walls of the left ventricle is thicker than those of the right ventricle because",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "the left ventricle is bigger than the right ventricle.",
+            "the muscular contractions have to force blood out of the heart to reach all parts of the body.",
+            "the muscular contractions have to be powerful to send the blood to the lungs.",
+            "they have to be strong enough to hold a large volume of blood."
+          ],
+          "wordAnswer": "the muscular contractions have to force blood out of the heart to reach all parts of the body.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "4",
+          "question": "Which vessel returns deoxygenated blood from all parts of the body into the heart?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pulmonary vein",
+            "Vena cava",
+            "Pulmonary artery",
+            "Aorta"
+          ],
+          "wordAnswer": "Vena cava",
+          "explanation": null
+        },
+        {
+          "questionNumber": "5",
+          "question": "Which of the following characteristics is NOT true of an artery?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "It has thick, elastic, muscular walls.",
+            "It has valves to check back flow of blood.",
+            "It carries blood away from the heart",
+            "It is deeply situated in the body"
+          ],
+          "wordAnswer": "It has valves to check back flow of blood.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "6",
+          "question": "Substances produced by some white blood cells against infections",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Toxins",
+            "Antibodies",
+            "Antigens",
+            "Fibrinogen"
+          ],
+          "wordAnswer": "Antibodies",
+          "explanation": null
+        },
+        {
+          "questionNumber": "7",
+          "question": "Which blood cell transports oxygen?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Plasma",
+            "Red blood cell",
+            "White blood cell",
+            "Platelet"
+          ],
+          "wordAnswer": "Red blood cell",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Which of the following is not dissolved in plasma?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hormones",
+            "Soluble food",
+            "Carbon dioxide",
+            "Oxygen"
+          ],
+          "wordAnswer": "Oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "9",
+          "question": "Which of the following blood vessels allow substances to pass through their walls?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Arteries",
+            "Capillaries",
+            "Veins",
+            "Arterioles"
+          ],
+          "wordAnswer": "Capillaries",
+          "explanation": null
+        },
+        {
+          "questionNumber": "10",
+          "question": "Which blood vessels is most likely to contain most nutrients a few hours after eating a heavy meal?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Aorta",
+            "Renal vein",
+            "Hepatic artery",
+            "Hepatic portal vein"
+          ],
+          "wordAnswer": "Hepatic portal vein",
+          "explanation": null
+        },
+        {
+          "questionNumber": "11",
+          "question": "All arteries carry",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "oxygenated blood",
+            "deoxygenated blood",
+            "blood away from the heart",
+            "blood towards the heart"
+          ],
+          "wordAnswer": "blood away from the heart",
+          "explanation": null
+        },
+        {
+          "questionNumber": "12",
+          "question": "Which of the following is NOT a function of lymph?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Transport fats",
+            "Destroy micro-organisms",
+            "Carry fluids away from cells",
+            "Produce red blood cells"
+          ],
+          "wordAnswer": "Produce red blood cells",
+          "explanation": null
+        },
+        {
+          "questionNumber": "13",
+          "question": "When the right atrium contracts, blood flows from it into the",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "aorta",
+            "left atrium",
+            "pulmonary artery",
+            "right ventricle"
+          ],
+          "wordAnswer": "right ventricle",
+          "explanation": null
+        },
+        {
+          "questionNumber": "14",
+          "question": "If blood does not clot, this could be due to lack of",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "vitamin A",
+            "vitamin K",
+            "vitamin D",
+            "vitamin C"
+          ],
+          "wordAnswer": "vitamin K",
+          "explanation": null
+        },
+        {
+          "questionNumber": "15",
+          "question": "Which blood vessel contains blood with the following characteristics? High oxygen concentration, low carbon dioxide concentration, high pressure",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vena cava",
+            "Pulmonary artery",
+            "Pulmonary vein",
+            "Aorta"
+          ],
+          "wordAnswer": "Aorta",
+          "explanation": null
+        },
+        {
+          "questionNumber": "16",
+          "question": "In an adult human, red blood cells are produced mainly in",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "the liver and broken down in the bone marrow.",
+            "the liver and broken down in the spleen.",
+            "the spleen an broken down in the bone marrow.",
+            "the bone marrow and broken down in the liver."
+          ],
+          "wordAnswer": "the bone marrow and broken down in the liver.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "17",
+          "question": "It prevents mixing of oxygenated and deoxygenated blood in the heart.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Septum",
+            "Tricuspid valves",
+            "Bicuspid valves",
+            "Semi-lunar valves"
+          ],
+          "wordAnswer": "Septum",
+          "explanation": null
+        },
+        {
+          "questionNumber": "18",
+          "question": "It acts as the medium for the exchange of materials between blood and cells of tissues",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Capillaries",
+            "Tissue fluid",
+            "lymph",
+            "Amniotic fluid"
+          ],
+          "wordAnswer": "Tissue fluid",
+          "explanation": null
+        },
+        {
+          "questionNumber": "19",
+          "question": "It transports oxygenated blood from the placenta to the foetus",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pulmonary artery",
+            "Pulmonary vein",
+            "Umbilical artery",
+            "Umbilical vein"
+          ],
+          "wordAnswer": "Umbilical vein",
+          "explanation": null
+        },
+        {
+          "questionNumber": "20",
+          "question": "A function of the lymphatic system",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Returns excess tissue fluid to the general circulation",
+            "Transports oxygen to tissues",
+            "Distributes heat around the body",
+            "Carries hormones from endocrine glands to target cells"
+          ],
+          "wordAnswer": "Returns excess tissue fluid to the general circulation",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "A transport system is necessary to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "connect different parts of the body with one another.",
+            "transport food materials to all cells.",
+            "transport waste products from different parts of the body to excretory tissues or organs."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "22",
+          "question": "Which of the following are components of blood plasma?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Soluble proteins",
+            "Water",
+            "Red blood cells"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "23",
+          "question": "The bone marrow produces",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "White blood cells",
+            "Red blood cells",
+            "Tissue fluid"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "24",
+          "question": "Transport deoxygenated blood",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Pulmonary artery",
+            "Hepatic artery",
+            "Renal artery"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "25",
+          "question": "Arteries are characterised by having",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "a large lumen relative to diameter",
+            "thick muscular wall",
+            "more elastic tissue"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are TRUE and the second statement is a correct explanation of the first. \nB. If both statements are TRUE and the second statement is NOT a correct explanation of the first. \nC. If the first statement is TRUE and the second statement is FALSE. \nD. If the first statement is FALSE and the second statement is TRUE.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Red blood cells are produced in the bone marrow.",
+            "Red blood cells are always nucleated"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Veins have valves.",
+            "Veins carry blood away from the heart."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Arteries carry blood under high pressure.",
+            "Arteries receive blood directly from the heart."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Deoxygenated blood in the right side of the heart never mixes with oxygenated blood in the left side.",
+            "The right side of the heart is completely separated from the left part by a central wall call septum"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Vitamin K is important in blood clotting.",
+            "Blood clot prevents entry of bacteria at a wounded site."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect te heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Liquid part of blood",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lymph",
+            "Plasma",
+            "Synovial fluid",
+            "Amniotic fluid"
+          ],
+          "wordAnswer": "Plasma",
+          "explanation": null
+        },
+        {
+          "questionNumber": "32",
+          "question": "Engulf bacteria",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Platelets",
+            "Phagocytes",
+            "Lymphocytes",
+            "Red blood cells"
+          ],
+          "wordAnswer": "Phagocytes",
+          "explanation": null
+        },
+        {
+          "questionNumber": "33",
+          "question": "Destroy pathogens in blood",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Antigens",
+            "Antibodies",
+            "Fibrinogen",
+            "Platelets"
+          ],
+          "wordAnswer": "Antibodies",
+          "explanation": null
+        },
+        {
+          "questionNumber": "34",
+          "question": "Carries blood from the intestines to the liver",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hepatic portal vein",
+            "Hepatic artery",
+            "Hepatic vein",
+            "Renal vein"
+          ],
+          "wordAnswer": "Hepatic portal vein",
+          "explanation": null
+        },
+        {
+          "questionNumber": "35",
+          "question": "Carries filtered blood away from the kidneys",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Vena cava",
+            "Renal vein",
+            "Renal artery",
+            "Pulmonary artery"
+          ],
+          "wordAnswer": "Renal vein",
+          "explanation": null
+        },
+        {
+          "questionNumber": "36",
+          "question": "A pigment found in red blood cells",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Haemoglobin",
+            "Melanin",
+            "Iodopsin",
+            "Myoglobin"
+          ],
+          "wordAnswer": "Haemoglobin",
+          "explanation": null
+        },
+        {
+          "questionNumber": "37",
+          "question": "Are Myogenic",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cardiac muscles",
+            "Skeletal muscles",
+            "Smooth muscles",
+            "Voluntary muscles"
+          ],
+          "wordAnswer": "Cardiac muscles",
+          "explanation": null
+        },
+        {
+          "questionNumber": "38",
+          "question": "Lacks elastic fibres and smooth muscles",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Aorta",
+            "Vena cava",
+            "Capillary",
+            "Artery"
+          ],
+          "wordAnswer": "Capillary",
+          "explanation": null
+        },
+        {
+          "questionNumber": "39",
+          "question": "Pumps blood around the body",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Lungs",
+            "Heart",
+            "Liver",
+            "Kidney"
+          ],
+          "wordAnswer": "Heart",
+          "explanation": null
+        },
+        {
+          "questionNumber": "40",
+          "question": "All transport deoxygenated blood except",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Heptic portal vein",
+            "Renal vein",
+            "Pulmonary vein",
+            "Vena cava"
+          ],
+          "wordAnswer": "Pulmonary vein",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "The parts of the mammalian heart containing deoxygenated blood are",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Right atrium and left atrium",
+            "Right atrium and right ventricle",
+            "Left atrium and left ventricle",
+            "Left ventricle and right ventricle"
+          ],
+          "wordAnswer": "Right atrium and right ventricle",
+          "explanation": null
+        },
+        {
+          "questionNumber": "42",
+          "question": "Transports oxygenated blood from the lungs to the heart",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pulmonary artery",
+            "Pulmonary vein",
+            "Vena cava",
+            "Aorta"
+          ],
+          "wordAnswer": "Pulmonary vein",
+          "explanation": null
+        },
+        {
+          "questionNumber": "43",
+          "question": "In the longitudinal section of the mammalian heart, which of the following is true?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The aorta carries oxygenated blood out of the left atrium.",
+            "The wall of the left ventricle is thicker than that of the right ventricle.",
+            "The tricuspid valves separate the left atrium from the left ventricle.",
+            "Semi-lunar valves prevent back flow of blood into the auricles."
+          ],
+          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "44",
+          "question": "Which of the following best describes blood in the pulmonary artery?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Deoxygenated, poor in food and under low pressure.",
+            "Oxygenated, rich in food and under low pressure.",
+            "Oxygenated, poor in food and under low pressure.",
+            "Deoxygenated, rich in food and under high pressure."
+          ],
+          "wordAnswer": "Deoxygenated, poor in food and under low pressure.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "45",
+          "question": "Red blood cells transport oxygen because:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "They are numerous.",
+            "They are biconcave.",
+            "They contain Haemoglobin.",
+            "They lack nucleus."
+          ],
+          "wordAnswer": "They contain Haemoglobin.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "46",
+          "question": "It reduces friction between the heart wall and surrounding tissue when the heart is beating.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pericardial fluid",
+            "Synovial fluid",
+            "Amniotic fluid",
+            "Mucus"
+          ],
+          "wordAnswer": "Pericardial fluid",
+          "explanation": null
+        },
+        {
+          "questionNumber": "47",
+          "question": "The form in which oxygen is transported to the tissues in mammals",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carboxyhaemoglobin",
+            "Oxygenhaemoglobin",
+            "Oxyhaemoglobin",
+            "Carbaminohaemoglobin"
+          ],
+          "wordAnswer": "Oxyhaemoglobin",
+          "explanation": null
+        },
+        {
+          "questionNumber": "48",
+          "question": "Formation of blood clot within an undamaged blood vessel",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Thrombosis",
+            "Artherosclerosis",
+            "Myocardial infaction",
+            "Hypertension"
+          ],
+          "wordAnswer": "Thrombosis",
+          "explanation": null
+        },
+        {
+          "questionNumber": "49",
+          "question": "It converts fibrinogen to fibrin during blood clotting.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Prothrombin",
+            "Thrombokinase",
+            "Thrombin",
+            "Fibrinogen"
+          ],
+          "wordAnswer": "Thrombin",
+          "explanation": null
+        },
+        {
+          "questionNumber": "50",
+          "question": "A structure found in all blood vessels.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Smooth muscles",
+            "Elastic fibres",
+            "Endothelium",
+            "valves"
+          ],
+          "wordAnswer": "Endothelium",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

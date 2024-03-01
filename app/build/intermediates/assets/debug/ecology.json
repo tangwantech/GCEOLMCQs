@@ -1,0 +1,836 @@
+{
+  "privateTitle": "Ecology",
+  "publicTitle": "Ecology",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "A natural unit, composed of living and non-living components, whose interactions result in a stable and self sustaining system is known as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "An ecosystem",
+            "A biome",
+            "A community",
+            "A biosphere"
+          ],
+          "wordAnswer": "An ecosystem",
+          "explanation": null
+
+        },
+        {
+          "questionNumber": "2",
+          "question": "A herbicide is used to:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Feed herbivores",
+            "Kill plants",
+            "Kill animals",
+            "Feed plants"
+          ],
+          "wordAnswer": "Kill plants",
+          "explanation": null
+        },
+        {
+          "questionNumber": "3",
+          "question": "A community is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A group of populations of different species, living in the same habitat.",
+            "A group of populations of the same species, living in the same habitat.",
+            "The locality in which an organism is best adapted to live.",
+            "A group of populations in several habitats."
+          ],
+          "wordAnswer": "A group of populations of different species, living in the same habitat.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "4",
+          "question": "An edaphic factor in an ecosystem:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Animal",
+            "Temperature",
+            "Soil",
+            "Water"
+          ],
+          "wordAnswer": "Soil",
+          "explanation": null
+        },
+        {
+          "questionNumber": "5",
+          "question": "In an ecosystem, green plants are referred to as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Consumers",
+            "Decomposers",
+            "Scanvengers",
+            "Producers"
+          ],
+          "wordAnswer": "Producers",
+          "explanation": null
+        },
+        {
+          "questionNumber": "6",
+          "question": "Herbivores are examples of:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Primary consumers",
+            "Secondary consumers",
+            "Tertiary consumers",
+            "Producers"
+          ],
+          "wordAnswer": "Primary consumers",
+          "explanation": null
+        },
+        {
+          "questionNumber": "7",
+          "question": "The ultimate source of energy in all living organisms is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Green plant",
+            "Carbohydrate",
+            "Carbon dioxide",
+            "Sun"
+          ],
+          "wordAnswer": "Sun",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Which of the following removes carbon dioxide from the atmosphere?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Decay",
+            "Volcanic eruption",
+            "Burning",
+            "Photosynthesis"
+          ],
+          "wordAnswer": "Photosynthesis",
+          "explanation": null
+        },
+        {
+          "questionNumber": "9",
+          "question": "It is advisable to plant corn and beans on the same piece of land because:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The beans will use the corn as support",
+            "The corn has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
+            "The beans has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
+            "The corn and beans will be harvested at the same time"
+          ],
+          "wordAnswer": "The beans has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
+          "explanation": null
+        },
+        {
+          "questionNumber": "10",
+          "question": "In most ecosystems, the greatest amount of energy flows through the:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Secondary consumers",
+            "Primary consumers",
+            "Tertiary consumers",
+            "Parasites"
+          ],
+          "wordAnswer": "Primary consumers",
+          "explanation": null
+        },
+        {
+          "questionNumber": "11",
+          "question": "Which of the following causes eutrophication?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Excess oxygen in water body",
+            "Excess carbon dioxide in water body",
+            "Heavy metals in water body",
+            "Fertilizers washed in from farmlands"
+          ],
+          "wordAnswer": "Fertilizers washed in from farmlands",
+          "explanation": null
+        },
+        {
+          "questionNumber": "12",
+          "question": "The number of individuals of a given species in a particular locality is known as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Biosphere",
+            "Biome",
+            "Community",
+            "Population"
+          ],
+          "wordAnswer": "Population",
+          "explanation": null
+        },
+        {
+          "questionNumber": "13",
+          "question": "A region with characteristic physical or climatic conditions which supports particular species of plants and animals is known as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Biosphere",
+            "Biome",
+            "Community",
+            "Population"
+          ],
+          "wordAnswer": "Biome",
+          "explanation": null
+        },
+        {
+          "questionNumber": "14",
+          "question": "All of the following contributes to loss of soil fertility except:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Monocropping",
+            "Leaching",
+            "Deforestation",
+            "Crop rotation"
+          ],
+          "wordAnswer": "Crop rotation",
+          "explanation": null
+        },
+        {
+          "questionNumber": "15",
+          "question": "Which of the following is an example of biological control?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Active immunization of humans against Ebola",
+            "Spaying locust swarms with insecticides",
+            "Infecting a specific pest species with a specific pathogen",
+            "Draining tropical swamp areas to destroy mosquito larvae"
+          ],
+          "wordAnswer": "Infecting a specific pest species with a specific pathogen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "16",
+          "question": "The recent increase in atmospheric carbon dioxide is mainly as a result of an increase in:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The rate of photosynthesis",
+            "The absorption of infrared radiation from the sun",
+            "The burning of fossil fuels and wood",
+            "Melting of polar ice"
+          ],
+          "wordAnswer": "The burning of fossil fuels and wood",
+          "explanation": null
+        },
+        {
+          "questionNumber": "17",
+          "question": "Which of the following is not recycled in a ecosystem?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carbon",
+            "Water",
+            "Nitrogen",
+            "Energy"
+          ],
+          "wordAnswer": "Energy",
+          "explanation": null
+        },
+        {
+          "questionNumber": "18",
+          "question": "Excess amount of sulphur dioxide in the atmosphere can lead to rain which has:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "An alkaline pH",
+            "An acid pH",
+            "A neutral pH",
+            "A basic pH"
+          ],
+          "wordAnswer": "An acid pH",
+          "explanation": null
+        },
+        {
+          "questionNumber": "19",
+          "question": "If untreated sewage is dumped into a river, the oxygen content drops because:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bacterial population falls",
+            "Bacterial population increases ",
+            "The water becomes stagnant",
+            "Respiration decreases"
+          ],
+          "wordAnswer": "Bacterial population increases ",
+          "explanation": null
+        },
+        {
+          "questionNumber": "20",
+          "question": "Nitrogen fixing bacteria:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Convert ammonia into nitrites and nitrates",
+            "Convert atmospheric nitrogen into soil nitrites and nitrates",
+            "Convert nitrate to nitrogen gas",
+            "Convert nitrate to ammonia"
+          ],
+          "wordAnswer": "Convert atmospheric nitrogen into soil nitrites and nitrates",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "Plant adaptation to reduce water loss include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Reducing the number of stomata",
+            "Shedding of leaves",
+            "Development of a waxy cuticle"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "22",
+          "question": "In the flow of energy from a lower to a higher trophic level:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "90 % of the energy is transferred",
+            "Energy reduces",
+            "Energy flows in a linear manner"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "23",
+          "question": "Food chains and food webs are similar in that:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Both involves the transfer of energy",
+            "Both involves the transfer of matter",
+            "Both contain green plants as the primary consumer"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "24",
+          "question": "Which of the following reduce(s) soil fertility?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Burning of vegetation",
+            "Over cropping",
+            "Leaching"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "25",
+          "question": "Example of water pollutants include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Heavy metals(Mercury)",
+            "Untreated Sewage",
+            "Chlorofluorocarbons(CFCs)"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Xerophytes lack a waxy cuticle",
+            "Xerophytes are plants adapted to live in conditions of prolonged drought"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Planting of trees help to reduce the atmospheric concentration of carbon dioxide.",
+            "Trees carryout photosynthesis"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Tropical soils tend to be poor in nitrate.",
+            "The higher the temperature, the more active denitrifying bacteria become"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Energy flows in a linear manner in a food chain",
+            "The amount of energy reduces as it flows through a food chain"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "A food web is a more complex feeding relationship than a food chain",
+            "In a food web, each organism has only one food source"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "The washing down of mineral salts from top soil",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Erosion",
+            "Deforestation",
+            "Leaching",
+            "Denitrification"
+          ],
+          "wordAnswer": "Leaching",
+          "explanation": null
+        },
+        {
+          "questionNumber": "32",
+          "question": "Rapid growth of aquatic plants and algae due to deposition of inorganic fertilizers from farmlands:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Parasitism",
+            "Eutrophication",
+            "Biological control",
+            "Biodegradation"
+          ],
+          "wordAnswer": "Eutrophication",
+          "explanation": null
+        },
+        {
+          "questionNumber": "33",
+          "question": "The use of cat to control rat population",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Prey control",
+            "Chemical control",
+            "Predator control",
+            "Biological control"
+          ],
+          "wordAnswer": "Biological control",
+          "explanation": null
+        },
+        {
+          "questionNumber": "34",
+          "question": "A group of similar organisms, which are able to breed together to produce fertile offsprings",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Community",
+            "Population",
+            "Species",
+            "Kingdom"
+          ],
+          "wordAnswer": "Species",
+          "explanation": null
+        },
+        {
+          "questionNumber": "35",
+          "question": "Plants which grow on a tree branch, relying on the tree for support only:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Commensal",
+            "Parasite",
+            "Epiphyte",
+            "Saprophyte"
+          ],
+          "wordAnswer": "Epiphyte",
+          "explanation": null
+        },
+        {
+          "questionNumber": "36",
+          "question": "Heterotrophic organisms feeding on dead and decaying matter by secreting digestive enzymes extracellularly:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Parasites",
+            "Saprophytes",
+            "Detritivores",
+            "Scavengers"
+          ],
+          "wordAnswer": "Saprophytes",
+          "explanation": null
+        },
+        {
+          "questionNumber": "37",
+          "question": "An animal that captures, kills and eats another animal:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Prey",
+            "Parasite",
+            "Predator",
+            "Producer"
+          ],
+          "wordAnswer": "Predator",
+          "explanation": null
+        },
+        {
+          "questionNumber": "38",
+          "question": "The use of herbicides to kill specific plants:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Herbs control",
+            "Chemical control",
+            "Parasite control",
+            "Biological control"
+          ],
+          "wordAnswer": "Chemical control",
+          "explanation": null
+        },
+        {
+          "questionNumber": "39",
+          "question": "An association between two organisms in which one gains while the other neither gains nor loses",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Parasitism",
+            "Commensalism",
+            "Mutualism",
+            "Parasitism"
+          ],
+          "wordAnswer": "Commensalism",
+          "explanation": null
+        },
+        {
+          "questionNumber": "40",
+          "question": "The locality in which an organism is best adapted to live:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ecosystem",
+            "Habitat",
+            "Biosphere",
+            "Biome"
+          ],
+          "wordAnswer": "Habitat",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "Which of the following does not release carbon dioxide into the atmosphere?",
+          "i+--mage": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Decay",
+            "Respiration",
+            "Combustion",
+            "Photosynthesis"
+          ],
+          "wordAnswer": "Photosynthesis",
+          "explanation": null
+        },
+        {
+          "questionNumber": "42",
+          "question": "It converts nitrites to nitrates",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Nitrosomonas",
+            "Azotobacter",
+            "Nitrobacter",
+            "Rhizobium"
+          ],
+          "wordAnswer": "Nitrobacter",
+          "explanation": null
+        },
+        {
+          "questionNumber": "43",
+          "question": "Which of the following activities increases the nitrogen content of the soil?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Denitrification",
+            "Absorption by plant roots",
+            "Leaching",
+            "Putrefaction"
+          ],
+          "wordAnswer": "Putrefaction",
+          "explanation": null
+        },
+        {
+          "questionNumber": "44",
+          "question": "The association between leguminous plants and nitrogen fixing bacteria is known as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Mutualism",
+            "Parasitism",
+            "Saprophytism",
+            "Commensalism"
+          ],
+          "wordAnswer": "Mutualism",
+          "explanation": null
+        },
+        {
+          "questionNumber": "45",
+          "question": "Food chains with more than five links are rare because:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The size of organisms increase from lower to higher trophic level in a food chain",
+            "Energy reduces from lower to higher trophic level in a food chain",
+            "Energy increases from lower to higher trophic level in a food chain",
+            "Food chains are complex"
+          ],
+          "wordAnswer": "Energy reduces from lower to higher trophic level in a food chain",
+          "+explanation": null
+        },
+        {
+          "questionNumber": "46",
+          "question": "Which of the following gases could be of value to growing plants when introduced into the air of a greenhouse?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ammonia",
+            "Carbon monoxide",
+            "Carbon dioxide",
+            "Sulphur dioxide"
+          ],
+          "wordAnswer": "Carbon dioxide",
+          "explanation": null
+        },
+        {
+          "questionNumber": "47",
+          "question": "Land use for agriculture and urbanization by humans causes:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Disturbance in the balance in atmospheric oxygen and carbon dioxide",
+            "Decreased soil erosion",
+            "Increased rainfall",
+            "Provides habitat for animals"
+          ],
+          "wordAnswer": "Disturbance in the balance in atmospheric oxygen and carbon dioxide",
+          "explanation": null
+        },
+        {
+          "questionNumber": "48",
+          "question": "It is a consequence of global warming:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Deforestation",
+            "Leaching",
+            "Pollution",
+            "Desertification"
+          ],
+          "wordAnswer": "Desertification",
+          "explanation": null
+        },
+        {
+          "questionNumber": "49",
+          "question": "What is the role of decomposers in an ecosystem?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ensure energy transfer",
+            "Convert nitrites to nitrates",
+            "Ensure recycling of nutrients",
+            "Ensure conversion of light energy to chemical energy"
+          ],
+          "wordAnswer": "Ensure recycling of nutrients",
+          "explanation": null
+        },
+        {
+          "questionNumber": "50",
+          "question": "An oil spill will affect an aquatic ecosystem by:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Causing eutrophication",
+            "Increasing carbon dioxide released by producers",
+            "Reducing amount of light reaching the producers",
+            "Increasing carbon dioxide absorption by producers"
+          ],
+          "wordAnswer": "Reducing amount of light reaching the producers",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}

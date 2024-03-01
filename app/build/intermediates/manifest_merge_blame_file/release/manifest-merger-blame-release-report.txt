@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gceolmcq"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:8:5-87:19
+15        android:name="com.example.gceolmcq.App"
+15-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:9:9-28
+16        android:allowBackup="true"
+16-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\6a19de105318aab1da00cfa3c60fb56e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:11:9-65
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:12:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:16:9-35
+24        android:theme="@style/Theme.GCEOLMCQ" >
+24-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:17:9-46
+25        <activity
+25-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:19:9-25:20
+26            android:name="com.example.gceolmcq.activities.TermsOfServiceActivity"
+26-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:20:13-62
+27            android:exported="false" >
+27-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:21:13-37
+28            <meta-data
+28-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:22:13-24:36
+29                android:name="android.app.lib_name"
+29-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:23:17-52
+30                android:value="" />
+30-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:24:17-33
+31        </activity>
+32        <activity
+32-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:27:9-33:20
+33            android:name="com.example.gceolmcq.activities.AboutActivity"
+33-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:28:13-53
+34            android:exported="false" >
+34-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:29:13-37
+35            <meta-data
+35-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:22:13-24:36
+36                android:name="android.app.lib_name"
+36-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:23:17-52
+37                android:value="" />
+37-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:24:17-33
+38        </activity>
+39        <activity
+39-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:34:9-48:20
+40            android:name="com.example.gceolmcq.activities.GCESplashActivity"
+40-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:35:13-57
+41            android:exported="true"
+41-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:36:13-36
+42            android:resizeableActivity="false"
+42-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:37:13-47
+43            android:screenOrientation="portrait" >
+43-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:38:13-49
+44            <intent-filter>
+44-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:39:13-43:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:40:17-69
+45-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:40:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:42:17-77
+47-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:42:27-74
+48            </intent-filter>
+49
+50            <meta-data
+50-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:22:13-24:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:23:17-52
+52                android:value="" />
+52-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:24:17-33
+53        </activity>
+54        <activity
+54-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:49:9-57:20
+55            android:name="com.example.gceolmcq.activities.SubjectContentTableActivity"
+55-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:50:13-67
+56            android:exported="false"
+56-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:51:13-37
+57            android:resizeableActivity="false"
+57-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:52:13-47
+58            android:screenOrientation="portrait" >
+58-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:53:13-49
+59            <meta-data
+59-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:22:13-24:36
+60                android:name="android.app.lib_name"
+60-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:23:17-52
+61                android:value="" />
+61-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:24:17-33
+62        </activity>
+63        <activity
+63-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:58:9-66:20
+64            android:name="com.example.gceolmcq.activities.MainActivity"
+64-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:59:13-52
+65            android:exported="false"
+65-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:60:13-37
+66            android:resizeableActivity="false"
+66-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:61:13-47
+67            android:screenOrientation="portrait" >
+67-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:62:13-49
+68            <meta-data
+68-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:22:13-24:36
+69                android:name="android.app.lib_name"
+69-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:23:17-52
+70                android:value="" />
+70-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:24:17-33
+71        </activity>
+72        <activity
+72-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:67:9-76:20
+73            android:name="com.example.gceolmcq.activities.PaperActivity"
+73-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:68:13-53
+74            android:configChanges="orientation|fontScale"
+74-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:69:13-58
+75            android:exported="false"
+75-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:70:13-37
+76            android:resizeableActivity="false"
+76-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:71:13-47
+77            android:screenOrientation="portrait" >
+77-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:72:13-49
+78            <meta-data
+78-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:22:13-24:36
+79                android:name="android.app.lib_name"
+79-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:23:17-52
+80                android:value="" />
+80-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:24:17-33
+81        </activity>
+82
+83        <meta-data
+83-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:78:9-80:59
+84            android:name="com.parse.SERVER_URL"
+84-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:79:13-48
+85            android:value="@string/back4app_server_url" />
+85-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:80:13-56
+86        <meta-data
+86-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:81:9-83:55
+87            android:name="com.parse.APPLICATION_ID"
+87-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:82:13-52
+88            android:value="@string/back4app_app_id" />
+88-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:83:13-52
+89        <meta-data
+89-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:84:9-86:59
+90            android:name="com.parse.CLIENT_KEY"
+90-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:85:13-48
+91            android:value="@string/back4app_client_key" />
+91-->C:\Users\TANGWAN ELICE\AndroidStudioProjects\GCEOLMCQ\app\src\main\AndroidManifest.xml:86:13-56
+92
+93        <service
+93-->[androidx.room:room-runtime:2.3.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\0ff5e71e6e392851db48912dc4907166\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+94            android:name="androidx.room.MultiInstanceInvalidationService"
+94-->[androidx.room:room-runtime:2.3.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\0ff5e71e6e392851db48912dc4907166\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+95            android:directBootAware="true"
+95-->[androidx.room:room-runtime:2.3.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\0ff5e71e6e392851db48912dc4907166\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+96            android:exported="false" />
+96-->[androidx.room:room-runtime:2.3.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\0ff5e71e6e392851db48912dc4907166\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+100            android:authorities="com.example.gceolmcq.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TANGWAN ELICE\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+108        </provider>
+109    </application>
+110
+111</manifest>

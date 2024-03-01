@@ -1,0 +1,836 @@
+{
+  "privateTitle": "GCE 2023",
+  "publicTitle": "Past GCE 8",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "An organism which stores food in the pyrenoid.",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Bacteria",
+            "Amoeba",
+            "Spirogyra",
+            "Fungi"
+          ],
+          "wordAnswer": "Spirogyra",
+          "explanation": "Only the Spirogyra contains pyrenoids. They are located within the spiral chloroplasts. Pyrenoids are used to store starch."
+        },
+        {
+          "questionNumber": "2",
+          "question": "Where does deamination occur in the body?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Liver",
+            "Stomach",
+            "Lungs",
+            "kidney"
+          ],
+          "wordAnswer": "Liver",
+          "explanation": "Deamination occurs in the liver. The liver cells are able to remove the amino group from amino acids to form ammonia, a process called deamination. In terrestrial animals such as man, the ammonia is immediately converted to urea in the liver. Urea is less toxic, less soluble than ammonia and require less water for its elimination."
+        },
+        {
+          "questionNumber": "3",
+          "question": "What is the effect of untreated sewage in water?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Increases the population of aquatic organisms.",
+            "Increases oxygen solubility in water.",
+            "Causes turbidity.",
+            "Causes Eutrophication."
+          ],
+          "wordAnswer": "Causes Eutrophication.",
+          "explanation": "Untreated sewage in water causes eutrophication. Untreated sewage is reach in nutrients. When deposited into a water body, it leads to rapid growth of algae, a condition called algal bloom. When these algae die, they are decomposed by aerobic bacteria. This decomposition requires the use of large amount of dissolved oxygen in the water body. Other aquatic organisms are deprived of oxygen. They eventually suffocate and die"
+        },
+        {
+          "questionNumber": "4",
+          "question": "Where in the nephron is glucose reabsorbed?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Loop of Henle.",
+            "Distal convoluted tubule.",
+            "Collecting duct.",
+            "Proximal convoluted tubule."
+          ],
+          "wordAnswer": "Proximal convoluted tubule.",
+          "explanation": "All glucose in glomerular filtrate is reabsorbed at the proximal convoluted tubule only. \n\n- Loop of Henle, Distal convoluted tubule and collecting duct reabsorb water and salts, but not glucose."
+        },
+        {
+          "questionNumber": "5",
+          "question": "In the water cycle which process causes water molecules to return to the atmosphere?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Absorption",
+            "Condensation",
+            "Evaporation",
+            "Precipitation"
+          ],
+          "wordAnswer": "Evaporation",
+          "explanation": "Evaporation causes water molecules to return to the atmosphere in the form of water vapour. The other options are incorrect because:\n\n- Condensation, evaporation and precipitation are processes that remove water from the atmosphere."
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of these prevents contraction of the uterine wall during pregnancy?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Progesterone",
+            "Oestrogen",
+            "Luteinizing hormone",
+            "Follicle stimulating hormone"
+          ],
+          "wordAnswer": "Progesterone",
+          "explanation": "Progesterone prevents contraction of the uterine wall during pregnancy by inhibiting the release of oxytocin,  the hormone responsible for the contraction of the uterine wall. The other options are incorrect because: \n\n- Oestrogen helps to maintain the uterine wall during pregnancy. Luteinizing hormone and Follicle stimulating hormone are not released during pregnancy."
+        },
+        {
+          "questionNumber": "7",
+          "question": "The following organisms make up a food chain: Snake, man, frog, locust, groundnut plant. Which of these is a primary consumer?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Man",
+            "Frog",
+            "Locust",
+            "Snake"
+          ],
+          "wordAnswer": "Locust",
+          "explanation": "Locust is a primary consumer in the food chain because it feeds directly on groundnut plant, a producer."
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "Which blood vessel carries deoxygenated blood from the heart to the lungs?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Renal artery",
+            "Renal vein",
+            "Pulmonary vein",
+            "Pulmonary artery"
+          ],
+          "wordAnswer": "Pulmonary artery",
+          "explanation": "The pulmonary artery is the blood vessel which carries deoxygenated blood from the right ventricle of the heart to the lungs for oxygenation. The other options are incorrect because:\n\n- Renal artery and renal vein carry blood to and away from the kidney respectively.\n\n- Pulmonary vein carries oxygenated blood from the lungs to the left atrium of the heart."
+        },
+        {
+          "questionNumber": "9",
+          "question": "Below is the diagram of an animal cell. Which number structure controls all the activities of the cell?",
+          "image": "animal_cell_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "3",
+          "explanation": "Structure 3 is the nucleus. It contains genetic material (DNA) which carries genes for the production of proteins called enzymes. These enzymes directly or indirectly regulate or control all activities occurring in cells."
+        },
+        {
+          "questionNumber": "10",
+          "question": "Which of the following parts of a flower make up the stamen?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Filament and anthers.",
+            "Stigma and anthers.",
+            "Stigma and style.",
+            "Style and filament"
+          ],
+          "wordAnswer": "Filament and anthers.",
+          "explanation": "The stamen represents the male reproductive organ of a flower. It consists of anthers and filaments."
+        },
+        {
+          "questionNumber": "11",
+          "question": "Which numbered structures in the diagram of the fish control rolling and yawing?",
+          "image": "fish_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "1 and 3",
+            "1 and 4",
+            "4 and 5",
+            "5 and 6"
+          ],
+          "wordAnswer": "1 and 4",
+          "explanation": "1 (dorsal fin) and 4 (ventral fin) control rolling and yawing movements in fish. \n\n 5 (pectoral fin) and 6 (pelvic fin) serve as brakes and also to steer the fish.\n\n- 3 (Caudal fin) helps to propel the fish forward)"
+        },
+        {
+        "questionNumber": "12",
+        "question": "Where in the digestive system of man is hydrochloric acid produced?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Ileum",
+          "Colon",
+          "Stomach",
+          "Liver"
+        ],
+        "wordAnswer": "Stomach",
+        "explanation": "Hydrochloric acid is one of the components of gastric juice produced by the stomach lining to aid in protein digestion."
+      },
+        {
+          "questionNumber": "13",
+          "question": "In which numbered structure of the villus are fatty acids and glycerol transported?",
+          "image": "villus_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "3",
+          "explanation": "Structure 3 represents the lacteal. Fatty acids and glycerol recombine to form fats which are transported by the lacteal to the major lymphatics. The lymphatics then empty their contents into a major vein near the heart."
+        },
+        {
+          "questionNumber": "14",
+          "question": "Which structure in the mammalian brain is concerned with involuntary and reflex activities?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Hypothalamus",
+            "Medulla oblongata",
+            "Cerebellum",
+            "Cerebrum"
+          ],
+          "wordAnswer": "Medulla oblongata",
+          "explanation": "The medulla oblongata is responsible for involuntary and reflex activities such as control of breathing rate, heart rate, contraction and relaxation of smooth muscles.\n\n- The Cerebellum controls balance and posture.\n\n- The cerebrum control voluntary activities.\n\n Hypothalamus controls thirst, hunger, body temperature, blood osmotic pressure."
+        },
+        {
+          "questionNumber": "15",
+          "question": "Water enters a germinating seed through the:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Testa",
+            "Hilium",
+            "Cotyledon",
+            "Micropyle"
+          ],
+          "wordAnswer": "Micropyle",
+          "explanation": "The micropyle is a small opening in the seed near the hilium through which water and oxygen enter during germination."
+        },
+        {
+        "questionNumber": "16",
+        "question": "Where does implantation take place in the female reproductive system?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Oviduct",
+          "Uterus",
+          "Cervix",
+          "Ovary"
+        ],
+        "wordAnswer": "Uterus",
+        "explanation": "The uterus is the thick-walled, muscular organ in the female reproductive system where implantation occurs. It provides a nurturing environment for the developing embryo. \n\n The other options are incorrect because: The oviducts, also known as Fallopian tubes, are the tubes that carry eggs from the ovaries to the uterus. Implantation does not occur in the oviducts. The cervix is the opening of the uterus that leads into the vagina. Implantation does not occur in the cervix. The ovaries are the female reproductive glands that produce eggs. Implantation does not occur in the ovaries." 
+      },
+        {
+          "questionNumber": "17",
+          "question": "The diagram below shows the positions of endocrine glands in man. Which numbered structure secrets adrenaline?",
+          "image": "endocrine_glands_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "wordAnswer": "3",
+          "explanation": "Structure 3 represents the adrenal gland. Only the adrenal gland secretes adrenaline. The other options are incorrect because:\n\n- 2 (Thyroid gland) secretes thyroxine, not adrenaline.\n\n- 4 (Testes in males or ovaries in females). Testes secrete testosterone. Ovaries secrete oestrogen, progesterone. \n\n- 5 (Pancreas) secretes insulin and glucagon"
+        },
+        {
+          "questionNumber": "18",
+          "question": "Below is the diagram of the fore arm. What happens during stretching of the arm?",
+          "image": "fore_arm_june_2023.jpg",
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "3 contracts and 7 also contracts.",
+            "3 relaxes and 7 contracts.",
+            "3 contracts and 7 relaxes.",
+            "3 relaxes and 7 also relaxes."
+          ],
+          "wordAnswer": "3 contracts and 7 relaxes.",
+          "explanation": "Structures 3 and 7 are the tricep and bicep respectively. During stretching of the arm, the tricep contracts and shortens, pulling the radius and ulna away from the humerus. At the same time, the bicep relaxes and is stretched."
+        },
+        {
+          "questionNumber": "19",
+          "question": "Refraction of light rays in the eye follows this order:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cornea, lens, aqueous humour, vitreous humour.",
+            "Cornea, vitreous humour, lens, aqueous humour.",
+            "Lens, aqueous humour, Cornea, vitreous humour.",
+            "Cornea, aqueous humour, lens, vitreous humour."
+          ],
+          "wordAnswer": "Cornea, aqueous humour, lens, vitreous humour.",
+          "explanation": "Refraction of light rays in the eye always follows the order: Cornea, aqueous humour, lens, vitreous humour"
+        },
+        {
+          "questionNumber": "20",
+          "question": "Which structure in the mammalian skin is sensitive to pressure?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Pacinian corpuscles.",
+            "Meissner's corpuscles.",
+            "Hair plexus",
+            "Nerve fibre."
+          ],
+          "wordAnswer": "Pacinian corpuscles.",
+          "explanation": "Pacinian corpuscles are pressure receptors located in the dermis of the skin. They are very sensitive to pressure changes."
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "A solution with the same water potential as its surrounding can be described as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Isotonic",
+            "Hypertonic and hypotonic",
+            "Hypertonic and Isotonic"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct",
+          "explanation": "A solution with the same water potential as its surrounding can be described as being isotonic. The other options are incorrect because: \n\n- A solution cannot be hypertonic and hypotonic or hypertonic and isotonic a the same time. If a solution is hypertonic, it means it has a lower water potential than its surrounding. If a solution is hypotonic, it means it has a higher water potential than its surrounding."
+        },
+        {
+          "questionNumber": "22",
+          "question": "In which form(s) do plants obtain nitrogen from the soil?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Nitrates",
+            "Nitrites",
+            "Ammonium compounds"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "23",
+          "question": "An insect pollinated flower has:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Feathery stigma.",
+            "Brightly coloured petals.",
+            "Sticky pollen grains."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": "Insect pollinated flowers are brightly coloured to attract insects. Insect pollinating flowers also produce sticky pollen grains so that they can adhere to the bodies of insects and be carried to other flowers during pollination"
+        },
+        {
+          "questionNumber": "24",
+          "question": "What makes the alveolus a good respiratory surface?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "It is highly permeable.",
+            "It is highly vascularized.",
+            "It has a thick epithelium."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": "The alveolus is highly permeable to respiratory gases (respiratory gases can easily diffuse across the membrane of the alveolus). The alveolus is highly vascularized to carry oxygen away from it to the tissues and carbon dioxide from the tissues back to the alveolus. This transport helps to maintain a steep diffusion gradient across the alveolus. \n\n- A good respiratory surface does not have a thick epithelium as it will greatly reduce the rate of diffusion of respiratory gases."
+        },
+        {
+          "questionNumber": "25",
+          "question": "Arteries can be distinguished from veins in that:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Arteries carry blood at higher pressure than veins.",
+            "Arteries have thicker walls than veins.",
+            "Arteries have many valves than veins."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": "Arteries carry blood at higher pressure because the receive blood directly from the left ventricle of the heart which pumps blood at high pressure. Arteries have thicker walls than veins because they contain more smooth muscles and elastic fibers. The smooth muscles and elastic fibers enable the arteries to withstand high pressure of blood coming from the heart. \n\n- Arteries do not have valves. Valves are generally found in veins where they help to prevent backflow of blood."
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Glucose is completely broken down during aerobic respiration.",
+            "The end products of aerobic respiration are more toxic."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": "Glucose is completely broken down during aerobic respiration. However, the end products of aerobic respiration (carbon dioxide, water) are less toxic than the end products of anaerobic respiration (alcohol in plants and lactic acid in animals)."
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Anopheles mosquito transmits Plasmodium.",
+            "Anopheles mosquito feeds on blood of its host causing malaria"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": "Infected anopheles mosquitoe transmits the plasmodium when it feeds on the blood of its host. While in the host, the plasmodium destroy its red blood cells causing malaria and its associated symptoms."
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "In a food web, each organism has more than one food source.",
+            "A food web is made up of several food chains."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": "A food web consists of a several interlinking food chains in which each organism at a trophic level has more than one food source."
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "During photosynthesis, light energy is converted to chemical energy.",
+            "Green plants combine carbon dioxide and water using solar energy to produce organic food."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": "When plants use solar energy to produce organic food (glucose) by combining carbon dioxide and water, they are converting solar energy to chemical energy, a process called photosynthesis."
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The cell wall in plant cell is made up of chitin.",
+            "Cellulose provides roughage and prevents constipation in human diet."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+        "questionNumber": "31",
+        "question": "Destroys leaves of plants through the formation of acid rain.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Carbon dioxide",
+          "Carbon monoxide",
+          "Chlorofluorocarbons",
+          "Sulphur dioxide"
+        ],
+        "wordAnswer": "Sulphur dioxide",
+        "explanation": "Sulphur dioxide is the correct answer because it reacts with water in the atmosphere to form sulfuric acid, a major component of acid rain. Carbon dioxide, while a greenhouse gas, does not directly contribute to acid rain formation. Carbon monoxide is a toxic gas but does not form acid rain. Chlorofluorocarbons (CFCs) deplete the ozone layer but do not cause acid rain."
+      },
+      {
+        "questionNumber": "32",
+        "question": "Selectively controls materials entering and leaving the cell.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Cell membrane",
+          "Chloroplast",
+          "Nucleus",
+          "Cellulose cell wall"
+        ],
+        "wordAnswer": "Cell membrane",
+        "explanation": "The cell membrane is the correct answer because it acts as a selective barrier, controlling which substances can enter and exit the cell. The chloroplast is responsible for photosynthesis. The nucleus houses the cell's genetic material. The cellulose cell wall provides structural support in plant cells but does not regulate material exchange."
+      },
+      {
+        "questionNumber": "33",
+        "question": "Plays a vital role in the regulation of blood glucose level.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Salivary gland",
+          "Gastric gland",
+          "Pancreas",
+          "Kidney"
+        ],
+        "wordAnswer": "Pancreas",
+        "explanation": "The pancreas is the correct answer because it produces insulin and glucagon, hormones that regulate blood glucose levels. Salivary glands produce saliva for digestion. Gastric glands produce gastric acid in the stomach. The kidneys filter blood and excrete waste products but do not directly regulate blood glucose."
+      },
+      {
+        "questionNumber": "34",
+        "question": "Causes uterine contractions during labour",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Testosterone",
+          "Oxytocin",
+          "Oestrogen",
+          "Progesterone"
+        ],
+        "wordAnswer": "Oxytocin",
+        "explanation": "Oxytocin is the correct answer because it is a hormone that stimulates uterine contractions during labor. Testosterone is a male sex hormone. Oestrogen and progesterone are female sex hormones involved in the menstrual cycle and pregnancy, but they do not directly trigger labor contractions."
+      },
+        {
+        "questionNumber": "35",
+        "question": "Contributes to extension of the fore limb.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Hip joint",
+          "Knee joint",
+          "Elbow joint",
+          "Wrist joint"
+        ],
+        "wordAnswer": "Elbow joint",
+        "explanation": "The elbow joint is the correct answer because it is a hinge joint that allows the bending and straightening of the forelimb. The hip joint is for the leg, the knee joint is for the lower leg, and the wrist joint is for the hand."
+      },
+      {
+        "questionNumber": "36",
+        "question": "An inactive form of an enzyme produced in the stomach.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Pepsinogen",
+          "Trypsinogen",
+          "Androgen",
+          "Glycogen"
+        ],
+        "wordAnswer": "Pepsinogen",
+        "explanation": "Pepsinogen is the correct answer because it is the inactive form of pepsin, an enzyme that breaks down proteins in the stomach. Trypsinogen is the inactive form of trypsin, an enzyme produced in the pancreas. Androgen is a male sex hormone. Glycogen is a form of stored carbohydrate in the body."
+      },
+      {
+        "questionNumber": "37",
+        "question": "An example of a social insect.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Mosquito",
+          "Cockroach",
+          "Housefly",
+          "Honey bee"
+        ],
+        "wordAnswer": "Honey bee",
+        "explanation": "Honey bees are the correct answer because they live in complex colonies with a queen, workers, and drones. They exhibit social behaviors like division of labor, communication, and defense. Mosquitoes, cockroaches, and houseflies are solitary insects."
+      },
+      {
+        "questionNumber": "38",
+        "question": "Are viviparous",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Fish",
+          "Reptiles",
+          "Mammals",
+          "Birds"
+        ],
+        "wordAnswer": "Mammals",
+        "explanation": "Mammals are the correct answer because they give birth to live young after a period of internal development. Fish lay eggs, reptiles lay eggs or give birth to live young after internal development without a placenta, birds lay eggs, and insects undergo metamorphosis."
+      },
+        {
+        "questionNumber": "39",
+        "question": "Relationship between rhizobium and leguminous plant.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Mutualism",
+          "Commensalism",
+          "Parasitism",
+          "Predation"
+        ],
+        "wordAnswer": "Mutualism",
+        "explanation": "Mutualism is the correct answer because both the rhizobium bacteria and the leguminous plant benefit from their relationship. The rhizobium fixes nitrogen from the air into a form that the plant can use, while the plant provides the bacteria with carbohydrates and a protected environment in its roots. Commensalism is a relationship where one organism benefits while the other is unaffected. Parasitism is a relationship where one organism benefits at the expense of the other. Predation is a relationship where one organism kills and eats another."
+      },
+      {
+        "questionNumber": "40",
+        "question": "Converts soil nitrates into atmospheric nitrogen.",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Nitrobacter",
+          "Azobacter",
+          "Denitrifying bacteria",
+          "Nitrosomonas"
+        ],
+        "wordAnswer": "Denitrifying bacteria",
+        "explanation": "Denitrifying bacteria is the correct answer because they use nitrates as an energy source and convert them into nitrogen gas, which is released back into the atmosphere. Nitrobacter and Nitrosomonas are involved in nitrification, which converts ammonia to nitrites and nitrites to nitrates, respectively. Azobacter is a nitrogen-fixing bacteria that converts atmospheric nitrogen into ammonia, which plants can use."
+      }
+
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+        "questionNumber": "41",
+        "question": "In an experiment to measure the rate of water uptake, a leafy shoot is cut under water and the cut end fitted into a rubber tubing of potometer. Why was the shoot cut under water?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "To prevent the leaves from drying.",
+          "To prevent air bubbles entering the xylem.",
+          "To enable the shoot take in enough water.",
+          "To enable the shoot remain fresh through out the experiment."
+        ],
+        "wordAnswer": "To prevent air bubbles entering the xylem.",
+        "explanation": "The correct answer is 'To prevent air bubbles entering the xylem.' Air bubbles in the xylem would disrupt the continuous water column and hinder accurate measurement of water uptake."
+      },
+      {
+        "questionNumber": "42",
+        "question": "In a demonstration to find out the food sample being tested for, 1 cm3 of dilute sodium hydroxide was added to 3 cm3 of test solution dropwise. The test tube was shaken thoroughly. A purple colour was observed at the end. What food sample was being tested and what is the name of the test?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Fats; Osmic acid test.",
+          "Fats; Sudan III test.",
+          "Protein; Biuret test.",
+          "Protein; Millon's test."
+        ],
+        "wordAnswer": "Protein; Biuret test.",
+        "explanation": "The correct answer is 'Protein; Biuret test.' The Biuret test specifically detects proteins, and a purple color indicates a positive result. Osmic acid and Sudan III tests are for fats, and Millon's test is for specific amino acids, not general protein detection."
+      },
+      {
+        "questionNumber": "43",
+        "question": "A couple both have blood group AB. What percentage of offspring will have the same blood group AB as their parents?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "100%",
+          "75%",
+          "50%",
+          "25%"
+        ],
+        "wordAnswer": "50%",
+        "explanation": "The correct answer is '50%.' Blood group AB individuals have both A and B alleles. Each parent can only pass on one allele to their offspring, either A or B. The possible combinations for their offspring are A (2%), AB (50%) and B (25%). It's not possible for them to have offspring with blood group O, which requires two O alleles."
+      },
+      {
+        "questionNumber": "44",
+        "question": "In testing a leaf for starch, a leaf from a green plant that has been exposed to sunlight for at least 5 hours was detached and dipped in boiling water for 30 seconds. Why was the leaf dipped in boiling water for 30 seconds?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "To remove the chlorophyll.",
+          "To activate enzymes.",
+          "To convert glucose to starch.",
+          "To kill the protoplasm."
+        ],
+        "wordAnswer": "To kill the protoplasm.",
+        "explanation": "The correct answer is 'To kill the protoplasm.' Killing the protoplasm stops any further metabolic processes that could alter the starch content, ensuring an accurate measurement of the starch already present in the leaf. Removing chlorophyll, activating enzymes, or converting glucose to starch are not the primary reasons for boiling the leaf."
+      },
+        {
+        "questionNumber": "45",
+        "question": "In an experiment to find out if heat is given off by germinating seeds, the seeds were initially soaked in water for 24 hours and later soaked for 15 minutes in sodium oxo chlorate and rinsed in water. Why were the seeds soaked in oxo chlorate?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "To increase the rate of germination.",
+          "To kill fungal spores on the grains.",
+          "To prevent oxygen entering the seeds.",
+          "To absorb carbon dioxide present in the flask."
+        ],
+        "wordAnswer": "To kill fungal spores on the grains.",
+        "explanation": "The correct answer is 'To kill fungal spores on the grains.' Sodium oxo chlorate is a disinfectant that kills fungi and bacteria. This is important to ensure that any heat produced during germination is solely due to the seeds' metabolic activity and not from microbial activity. Increasing germination rate, preventing oxygen entry, and absorbing carbon dioxide are not the primary reasons for using sodium oxo chlorate."
+      },
+      {
+        "questionNumber": "46",
+        "question": "During epigeal germination, the plumule and cotyledons are carried out of the soil. This is brought about by:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Elongation of both hypocotyl and epicotyl.",
+          "Elongation of both plumule and radicle.",
+          "Elongation of epicotyl.",
+          "Elongation of hypocotyl."
+        ],
+        "wordAnswer": "Elongation of hypocotyl.",
+        "explanation": "The correct answer is 'Elongation of hypocotyl.' The hypocotyl is the part of the stem below the cotyledons. In epigeal germination, the hypocotyl elongates and pushes the cotyledons and plumule above the soil surface. The epicotyl is the part of the stem above the cotyledons, and it elongates later in development. The plumule and radicle are embryonic structures that develop into the shoot and root, respectively."
+      },
+      {
+        "questionNumber": "47",
+        "question": "When a marine amoeba is put in fresh water environment, it will:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Absorb much water, swell and burst.",
+          "Give out much water, become dehydrated and dies.",
+          "Develop a contractile vacuole to collect excess water.",
+          "Form pseudopodia and moves away."
+        ],
+        "wordAnswer": "Absorb much water, swell and burst.",
+        "explanation": "The correct answer is 'Absorb much water, swell and burst.' Marine amoebas are adapted to a saltwater environment, which has a higher salt concentration than their cells. When placed in freshwater, which has a lower salt concentration, water will move into the amoeba by osmosis, causing it to swell and eventually burst. Dehydration, contractile vacuole development, and pseudopodia formation are not the primary responses of marine amoebas to freshwater."
+      },
+      {
+        "questionNumber": "48",
+        "question": "Excess chemical fertilizer from an industry were washed off by rain water into a pond. What was the effect on the organisms in the pond?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "They suffocated and died due to lack of oxygen.",
+          "They grew rapidly occupying other areas.",
+          "They were exposed to predators as the water became hot.",
+          "Their number increased tremendously."
+        ],
+        "wordAnswer": "They suffocated and died due to lack of oxygen.",
+        "explanation": "The correct answer is 'They suffocated and died due to lack of oxygen.' Excess fertilizer can lead to eutrophication, a process where excessive nutrients cause rapid growth of algae and other plants. This plant growth depletes oxygen in the water, leading to suffocation of other organisms. Rapid growth, predator exposure, and increased numbers are not typical consequences of fertilizer pollution."
+      },
+        {
+        "questionNumber": "49",
+        "question": "The graph below refers to the level of two hormones observed in blood within a month in a sixteen-year-old girl. The increase in the level of oestrogen between Day 13 and 15 is due to:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Thickening of the uterine wall.",
+          "Development of corpus luteum.",
+          "Release of egg from the ovary.",
+          "Peeling off of the uterine wall."
+        ],
+        "wordAnswer": "Release of egg from the ovary.",
+        "explanation": "The correct answer is 'Release of egg from the ovary.' Estrogen levels surge just before ovulation (the release of an egg from the ovary), which typically occurs around Day 14 of a menstrual cycle. This surge triggers the final maturation of the egg and prepares the uterus for potential implantation. \n\n The other options are incorrect: Thickening of the uterine wall happens after ovulation, in response to progesterone.\n\n Development of corpus luteum occurs after ovulation, as the follicle that released the egg transforms into the corpus luteum. \n\n Peeling off of the uterine wall (menstruation) happens if fertilization does not occur, typically around Day 28 of a cycle."
+      },
+      {
+        "questionNumber": "50",
+        "question": "During vigorous activity there is overheating which results in much heat being lost through the skin. This is as a result of:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Increased metabolism.",
+          "Shivering.",
+          "Vasoconstriction.",
+          "Vasodilation."
+        ],
+        "wordAnswer": "Vasodilation.",
+        "explanation": "The correct answer is 'Vasodilation.' Vasodilation is the widening of blood vessels, which allows more blood to flow near the skin's surface, facilitating heat loss through radiation and sweating. \n\n The other options are incorrect because: Increased metabolism generates heat, not loses it.\n\n Shivering is a mechanism to generate heat, not lose it.\n\n Vasoconstriction is the narrowing of blood vessels, which conserves heat, not loses it."
+      }
+      ]
+    }
+  ]
+}

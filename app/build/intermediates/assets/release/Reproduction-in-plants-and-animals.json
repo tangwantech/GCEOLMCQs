@@ -1,0 +1,835 @@
+{
+  "privateTitle": "Reproduction in Plants and Animals",
+  "publicTitle": "Reproduction in Plants and Animals",
+  "numberOfQuestions": 50,
+  "numberOfSections": 6,
+  "sections": [
+    {
+      "title": "Section I",
+      "numberOfQuestions": 7,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "1",
+          "question": "After fertilization, which structure develops into the seed of a flowering plant?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Carpel",
+            "Ovule",
+            "Stamen",
+            "Receptacle"
+          ],
+          "wordAnswer": "Ovule",
+          "explanation": null
+        },
+        {
+          "questionNumber": "2",
+          "question": "Which flower structure produces pollen?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Anther",
+            "Carpel",
+            "Petal",
+            "Stigma"
+          ],
+          "wordAnswer": "Anther",
+          "explanation": null
+        },
+        {
+          "questionNumber": "3",
+          "question": "Most wind pollinated flowers have:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "A strong smell.",
+            "Large nectaries",
+            "Brightly coloured petals",
+            "Long projecting stigma"
+          ],
+          "wordAnswer": "Long projecting stigma",
+          "explanation": null
+        },
+        {
+          "questionNumber": "4",
+          "question": "The offspring from asexual reproduction in plants are likely to",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "be more resistant thant their parents to disease.",
+            "develop into a new variety.",
+            "grow bigger than the parents.",
+            "have same flower colour as their parent."
+          ],
+          "wordAnswer": "have same flower colour as their parent.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "5",
+          "question": "Conditions essential for seed germination are:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Water, carbon dioxide and light.",
+            "Oxygen, water and suitable temperature.",
+            "Oxygen, suitable temperature and soil.",
+            "Soil, suitable temperature and water."
+          ],
+          "wordAnswer": "Oxygen, water and suitable temperature.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "6",
+          "question": "Which of the following does not contribute to the formation of semen?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Cowper's gland",
+            "Prostate gland",
+            "Vas deferens",
+            "Testis"
+          ],
+          "wordAnswer": "Vas deferens",
+          "explanation": null
+        },
+        {
+          "questionNumber": "7",
+          "question": "Which of the following causes labour?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Prolactin",
+            "Oxytocin",
+            "Follicle stimulating hormone",
+            "Progesterone"
+          ],
+          "wordAnswer": "Oxytocin",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section II",
+      "numberOfQuestions": 13,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "8",
+          "question": "When a sperm fertilizes an egg, the new cell formed is known as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Foetus",
+            "Embryo",
+            "Zygote",
+            "Ovum"
+          ],
+          "wordAnswer": "Zygote",
+          "explanation": null
+        },
+        {
+          "questionNumber": "9",
+          "question": "Which of the following is unique to seed of monocot?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Coleoptile",
+            "Radicle",
+            "Seed coat",
+            "Endosperm"
+          ],
+          "wordAnswer": "Endosperm",
+          "explanation": null
+        },
+        {
+          "questionNumber": "10",
+          "question": "The process where by fruits are formed without fertilization is known as:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Polyembryony",
+            "Budding",
+            "Parthenogenesis",
+            "Parthenocarpy"
+          ],
+          "wordAnswer": "Parthenocarpy",
+          "explanation": null
+        },
+        {
+          "questionNumber": "11",
+          "question": "The androecium of a flower is made up of:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Anther and filament",
+            "Ovule and ovary",
+            "Stigma and style",
+            "Anther and stigma"
+          ],
+          "wordAnswer": "Anther and filament",
+          "explanation": null
+        },
+        {
+          "questionNumber": "12",
+          "question": "Mammals produce less sperm and eggs than other animals because:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "They do not want many offspring.",
+            "They are bigger.",
+            "There is a better chance of fertilization.",
+            "They need a lot of energy to produce more."
+          ],
+          "wordAnswer": "There is a better chance of fertilization.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "13",
+          "question": "It determines the sex of a child:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Chromosome content of the ovum.",
+            "Chromosome content of the sperm.",
+            "Number of days before ovulation.",
+            "Number of days after fertilization"
+          ],
+          "wordAnswer": "Chromosome content of the sperm.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "14",
+          "question": "In which part of the flower does fertilization occur?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Anther",
+            "Ovule",
+            "Stigma",
+            "Style"
+          ],
+          "wordAnswer": "Ovule",
+          "explanation": null
+        },
+        {
+          "questionNumber": "15",
+          "question": "The testa of a seed:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Develops into a storage tissue.",
+            "Develops into the roots of the embryo.",
+            "Forms a protective covering around the seed.",
+            "Develops into the shoot of the embryo."
+          ],
+          "wordAnswer": "Forms a protective covering around the seed.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "16",
+          "question": "When is the sex of a baby determined?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Before ovulation.",
+            "Between ovulation and fertilization.",
+            "At the moment of fertilization.",
+            "During development of zygote into embryo."
+          ],
+          "wordAnswer": "At the moment of fertilization.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "17",
+          "question": "The role of the fertilization membrane formed after a sperm penetrates an egg is:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To secrete important hormones.",
+            "To facilitate implantation of the zygote.",
+            "To prevent more than one sperm from entering the egg.",
+            "To attract additional sperm to the egg."
+          ],
+          "wordAnswer": "To prevent more than one sperm from entering the egg.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "18",
+          "question": "In which part of the female reproductive system does fertilization occur?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ovary",
+            "Oviduct",
+            "Uterus",
+            "Vagina"
+          ],
+          "wordAnswer": "Oviduct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "19",
+          "question": "Selective exchange of substances between the embryonic and maternal blood supplies takes place in:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The umbilicus",
+            "The chorion",
+            "The placenta",
+            "The uterine wall"
+          ],
+          "wordAnswer": "The placenta",
+          "explanation": null
+        },
+        {
+          "questionNumber": "20",
+          "question": "The testes are in the scrotal sac outside the abdominal cavity because:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "The seminal fluid cannot be stored in the abdomen.",
+            "Urine will contaminate the seminal fluid.",
+            "The heat of the abdominal cavity is too high for the development of the male gametes.",
+            "The pressure of the abdominal cavity is too high for the development of the male gametes."
+          ],
+          "wordAnswer": "The heat of the abdominal cavity is too high for the development of the male gametes.",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section III",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
+      "questions": [
+        {
+          "questionNumber": "21",
+          "question": "In asexual reproduction",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "There is no fertilization.",
+            "Gametes are involved.",
+            "Few offspring are produced."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 only is correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "22",
+          "question": "The ovaries function in:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Hormone production.",
+            "Egg production.",
+            "Sperm production."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "23",
+          "question": "Asexual methods of reproduction include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Spore formation.",
+            "Fission.",
+            "Fragmentation."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "24",
+          "question": "During sexual intercourse:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "The penis becomes erect.",
+            "The erect penis is inserted into the vagina.",
+            "Blood flows into the spongy tissues of the penis."
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
+        },
+        {
+          "questionNumber": "25",
+          "question": "External conditions necessary for seed germination include:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": [
+            "Enzymes",
+            "Oxygen",
+            "Water"
+          ],
+          "selectableOptions": [
+            "1, 2 and 3 are all correct",
+            "1 and 2 only are correct",
+            "2 and 3 only are correct",
+            "1 only is correct"
+          ],
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section IV",
+      "numberOfQuestions": 5,
+      "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
+      "questions": [
+        {
+          "questionNumber": "26",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Sperm cells are haploid.",
+            "Sperm cells are produced by the testes"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "27",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "The testes is an endocrine gland.",
+            "The testes produce testosterone"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
+        },
+        {
+          "questionNumber": "28",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Bean seeds undergo epigeal germination",
+            "In epigeal germination, the cotyledons remain below the surface of the ground."
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
+        },
+        {
+          "questionNumber": "29",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Sperm cells are the female gametes.",
+            "Sperm cell contains either X or Y chromosome"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
+        },
+        {
+          "questionNumber": "30",
+          "question": null,
+          "image": null,
+          "twoStatements": [
+            "Fertilization takes place in the oviduct in mammals.",
+            "Fertilization involves the fusion of a haploid male and female gamete"
+          ],
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Both statements are True and the second statement is a correct explanation of the first",
+            "Both statements are True and the second statement is is NOT a correct explanation of the first",
+            "First statement is True. Second statement is False",
+            "First statement is False. Second statement is True"
+          ],
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section V",
+      "numberOfQuestions": 10,
+      "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
+      "questions": [
+        {
+          "questionNumber": "31",
+          "question": "Development of a seed into a seedling:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Germination",
+            "Fertilization",
+            "Parthenocarpy",
+            "Budding"
+          ],
+          "wordAnswer": "Germination",
+          "explanation": null
+        },
+        {
+          "questionNumber": "32",
+          "question": "A type of asexual reproduction carried out by yeast:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Fragmentation",
+            "Budding",
+            "Binary fission",
+            "Parthenocarpy"
+          ],
+          "wordAnswer": "Budding",
+          "explanation": null
+        },
+        {
+          "questionNumber": "33",
+          "question": "The monthly release of an egg from the ovary:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Fertilization",
+            "Labour",
+            "Menstruation",
+            "Ovulation"
+          ],
+          "wordAnswer": "Ovulation",
+          "explanation": null
+        },
+        {
+          "questionNumber": "34",
+          "question": "Involuntary contraction and relaxation of smooth muscles of the uterine wall:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Menstruation",
+            "Birth",
+            "Labour",
+            "Orgasm"
+          ],
+          "wordAnswer": "Labour",
+          "explanation": null
+        },
+        {
+          "questionNumber": "35",
+          "question": "The period between fertilization and birth of the young:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ovulation",
+            "Menstruation",
+            "Gestation",
+            "Implantation"
+          ],
+          "wordAnswer": "Gestation",
+          "explanation": null
+        },
+        {
+          "questionNumber": "36",
+          "question": "It serves as a common passage for urine and semen in males:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Ureter",
+            "Urethra",
+            "Epididymis",
+            "Vas deferens"
+          ],
+          "wordAnswer": "Urethra",
+          "explanation": null
+        },
+        {
+          "questionNumber": "37",
+          "question": "Gamete producing structures in males and females:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Testes",
+            "Ovaries",
+            "Gonads",
+            "Penis"
+          ],
+          "wordAnswer": "Gonads",
+          "explanation": null
+        },
+        {
+          "questionNumber": "38",
+          "question": "It attaches the foetus to the placenta:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oviduct",
+            "Umbilical cord",
+            "Amnion",
+            "Cervix"
+          ],
+          "wordAnswer": "Umbilical cord",
+          "explanation": null
+        },
+        {
+          "questionNumber": "39",
+          "question": "It receives pollen grains during pollination",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Anther",
+            "Petal",
+            "Stigma",
+            "Style"
+          ],
+          "wordAnswer": "Stigma",
+          "explanation": null
+        },
+        {
+          "questionNumber": "40",
+          "question": "The embryonic shoot:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Radicle",
+            "Plumule",
+            "Cotyledon",
+            "Endosperm"
+          ],
+          "wordAnswer": "Plumule",
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "title": "Section VI",
+      "numberOfQuestions": 10,
+      "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
+      "questions": [
+        {
+          "questionNumber": "41",
+          "question": "In an experiment to investigate a factor necessary for seed germination, pyrogallic acid was placed at the bottom of one of the test tubes. Soaked bean seeds on wet cotton wool were placed above the pyrogallic acid but not touching it. A stopper was used to cork the mouth of the test tube. Which factor is being investigated for in this experiment?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Temperature",
+            "Water",
+            "Oxygen",
+            "Enzymes"
+          ],
+          "wordAnswer": "Oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "42",
+          "question": "In an experiment to investigate a factor necessary for seed germination, pyrogallic acid was placed at the bottom of one of the test tubes. Soaked bean seeds on wet cotton wool were placed above the pyrogallic acid but not touching it. A stopper was used to cork the mouth of the test tube. What is the role of pyrogallic acid in this experiment?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "To absorb water",
+            "To absorb oxygen",
+            "To absorb heat",
+            "To absorb carbon dioxide"
+          ],
+          "wordAnswer": "To absorb oxygen",
+          "explanation": null
+        },
+        {
+          "questionNumber": "43",
+          "question": "In an experiment to find out if water is necessary for seed germination, how will you set up the control experiment?",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Place moist bean seeds on moist cotton wool in a test tube.",
+            "Place dry bean seeds on moist cotton wool in a test tube.",
+            "Place dry bean seeds on dry cotton wool in a test tube.",
+            "Place moist bean seeds on dry cotton wool in a test tube."
+          ],
+          "wordAnswer": "Place dry bean seeds on dry cotton wool in a test tube.",
+          "explanation": null
+        },
+        {
+          "questionNumber": "44",
+          "question": "Seed dispersal is important to:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Minimise epidemic diseases among seedlings",
+            "Increase competition for light and nutrients among seedlings.",
+            "Increase over crowding.",
+            "Decrease the chances of survival of the seedlings."
+          ],
+          "wordAnswer": "Minimise epidemic diseases among seedlings",
+          "explanation": null
+        },
+        {
+          "questionNumber": "45",
+          "question": "Prennating organ in cocoyam:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rhizome",
+            "Corm",
+            "Bulb",
+            "Tuber"
+          ],
+          "wordAnswer": "Corm",
+          "explanation": null
+        },
+        {
+          "questionNumber": "46",
+          "question": "Prennating organ in ginger",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Rhizome",
+            "Corm",
+            "Bulb",
+            "Tuber"
+          ],
+          "wordAnswer": "Rhizome",
+          "explanation": null
+        },
+        {
+          "questionNumber": "47",
+          "question": "It is dispersed by wind:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Coconut",
+            "Okra",
+            "Mango",
+            "Cotton"
+          ],
+          "wordAnswer": "Cotton",
+          "explanation": null
+        },
+        {
+          "questionNumber": "48",
+          "question": "It brings about ovulation:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Progesterone",
+            "Luteinizing hormone",
+            "Follicle stimulating hormone",
+            "Oestrogen"
+          ],
+          "wordAnswer": "Luteinizing hormone",
+          "explanation": null
+        },
+        {
+          "questionNumber": "49",
+          "question": "A hormone present in blood and urine which indicates a woman is pregnant:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Oestrogen",
+            "Luteinizing hormone",
+            "Human chorionic gonadotrophic hormone",
+            "Oxytocin"
+          ],
+          "wordAnswer": "Human chorionic gonadotrophic hormone",
+          "explanation": null
+        },
+        {
+          "questionNumber": "50",
+          "question": "The amniotic fluid:",
+          "image": null,
+          "twoStatements": null,
+          "nonSelectableOptions": null,
+          "selectableOptions": [
+            "Allows exchange of nutrients between foetus and mother.",
+            "Acts as shock absorber, protecting the developing foetus against mechanical injury.",
+            "Allows antibodies from mother to reach the developing foetus to provide protection against certain diseases.",
+            "Produces progesterone"
+          ],
+          "wordAnswer": "Acts as shock absorber, protecting the developing foetus against mechanical injury.",
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}
