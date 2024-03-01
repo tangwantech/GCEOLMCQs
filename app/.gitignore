@@ -1,4 +1,4 @@
 /build
-/release
-/src/main/assets
+/release/.apk
+/src/main/assets/.json
 
