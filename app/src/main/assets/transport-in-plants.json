@@ -22,11 +22,11 @@
             "Plasmolysis"
           ],
           "wordAnswer": "Plasmolysis",
-          "explanation": "Plasmolysis is the process of shrinking and contraction of the protoplasm of a plant cell due to the loss of water. It is not involved in the movement of water from the soil to the leaves of plants. \n\n- Osmosis is the process by which water molecules move from an area of lower solute concentration to an area of higher solute concentration across a semi-permeable membrane. It is involved in the movement of water from the soil to the leaves of plants.\n - Root pressure is the upward force exerted by the roots of plants that helps in the movement of water from the soil to the leaves. It is involved in the movement of water from the soil to the leaves of plants.\n - Suction pressure (also known as transpiration pull or negative pressure) is created by the evaporation of water from the leaves, which pulls water upwards through the xylem vessels. It is involved in the movement of water from the soil to the leaves of plants."
+          "explanation": null
         },
         {
           "questionNumber": "2",
-          "question": "Water vapour from the air spaces in a plant's leaf passes out through the stomata of the leaf by the physical process of",
+          "question": "Water vapour from the air spaces in a plant's leaf passes out through the stomata by the physical process of",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -37,7 +37,7 @@
             "Evaporation"
           ],
           "wordAnswer": "Diffusion",
-          "explanation": " Diffusion is the movement of molecules from an area of higher concentration to an area of lower concentration. It is the physical process by which water vapor from the air spaces in a plant's leaf passes out through the stomata.\n\n -Radiation refers to the transfer of heat or energy through electromagnetic waves. It is not the process by which water vapor passes out through the stomata. \n -Osmosis is the movement of water molecules from an area of lower solute concentration to an area of higher solute concentration across a semi-permeable membrane. It is not the process by which water vapor passes out through the stomata. \n -Evaporation refers to the conversion of liquid water into water vapor. While evaporation is involved in the overall process of water vapor passing out through the stomata, diffusion is the specific physical process by which it occurs. "
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "the loss of water vapour from the leaves of a plant."
           ],
           "wordAnswer": "the loss of water vapour from the leaves of a plant.",
-          "explanation": "Transpiration is the loss of water vapor from the leaves of a plant.\n\n- The rise of water up the stem of a plant is known as capillary action.\n\n -Photosynthesis does not produce water.\n- Transpiration is not a form of respiration."
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "Putting it in the moving air from a fan."
           ],
           "wordAnswer": "Putting it in the moving air from a fan.",
-          "explanation": "Putting a potted plant in the moving air from a fan is most likely to increase the rate of transpiration. Moving air enhances the evaporation of water from the leaves, leading to higher transpiration rates.\n\n-  Rainfall does not necessarily increase the rate of transpiration as the water is not being evaporated from the leaves.\n- Cold room (Lower temperatures) generally decrease the rate of transpiration as the rate of evaporation decreases.\n -Grease on the lower surfaces of the leaves would hinder transpiration rather than increase it."
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -82,7 +82,7 @@
             "Epidermis"
           ],
           "wordAnswer": "Phloem",
-          "explanation": "Phloem is the tissue responsible for the transport of carbohydrates (sugars) produced during photosynthesis from the leaves to other parts of the plant.\n\n -Cambium is a tissue responsible for secondary growth in plants, such as the formation of new xylem and phloem cells.\n -Xylem is the tissue responsible for the transport of water and minerals in a plant. It does not transport carbohydrates.\n -The epidermis is the outermost layer of cells in a plant. It serves as a protective covering and does not transport carbohydrates."
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -97,22 +97,22 @@
             "Hydathodes"
           ],
           "wordAnswer": "Stomata",
-          "explanation": "The correct answer is Stomata. Stomata are small openings found on the surface of leaves and stems. They are responsible for the exchange of gases, including the release of water vapor during transpiration.\n\n- Cuticle is a waxy layer on the outer surface of the plant that helps reduce water loss. It does not contribute significantly to water loss through transpiration.\n- Lenticels are small openings on the surface of stems and woody tissues that allow for gas exchange. They are not primarily responsible for water loss through transpiration.\n -Hydathodes are specialized structures that release liquid water droplets, but they are not the main pathway for water loss during transpiration."
+          "explanation": null
         },
         {
           "questionNumber": "7",
-          "question": "Which graph shows the effect of increase humidity on the transpiration rate of a plants?",
-          "image": "graphs_transpiration_rate_transport_plants.jpg",
+          "question": "Which of the following structures regulate the opening and closing of stomata in plants?",
+          "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "A",
-            "B",
-            "C",
-            "D"
+            "Guard cells",
+            "Xylem vessels",
+            "Phloem sieve tubes",
+            "Epidermal cells"
           ],
-          "wordAnswer": "B",
-          "explanation": "Increase in humidity decreases the rate of transpiration as shown in graph B.\n\n- According to graph A an B, increase in humidity increases the rate of transpiration which is not correct.\n- Graph C is also wrong because it shows an increased transpiration rate for increasing values of humidity up to a certain point. "
+          "wordAnswer": "Guard cells",
+          "explanation": null
         }
       ]
     },
@@ -134,7 +134,7 @@
             "Cortex"
           ],
           "wordAnswer": "Phloem",
-          "explanation": "The phloem tissue is responsible for the transport of sugars and other organic compounds throughout the plant. When the leaves are exposed to radioactive carbon dioxide, the phloem tissue will become radioactive first."
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "Presence of sunken stomata"
           ],
           "wordAnswer": "Broad flat surface",
-          "explanation": "A broad flat surface is a characteristic of leaves, but it is not specifically an adaptation to reduce water loss by transpiration. The other options mentioned (presence of thick waxy cuticle, presence of hairy structures on the lower surface, and presence of sunken stomata) are adaptations that help reduce water loss by transpiration."
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Low humidity, dim light, low temperature."
           ],
           "wordAnswer": "Low humidity, bright light, high temperature.",
-          "explanation": "Rapid transpiration occurs when there is low humidity, bright light, and high temperature. These conditions lead to increased evaporation of water from the plant's leaves through the stomata, resulting in rapid transpiration.\n\n- The other options have either high humidity or low temperature, which reduce the rate of transpiration."
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -179,7 +179,7 @@
             "Transpiration pull and diffusion"
           ],
           "wordAnswer": "Suction pressure and root pressure",
-          "explanation": "Water is mainly transported from the roots to the leaves of a tree through a combination of suction pressure and root pressure. Suction pressure is created when water is transpired from the leaves, which pulls water up through the xylem vessels. Root pressure also helps in pushing water up from the roots. The other options, such as osmosis, diffusion, and wall pressure, are not the primary mechanisms responsible for the movement of water in plants."
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -194,21 +194,21 @@
             "the xylem could not provide enough support."
           ],
           "wordAnswer": "more water was lost by transpiration than was absorbed.",
-          "explanation": "The potted plant withered after being exposed to the hot sun for 6 hours because more water was lost by transpiration than was absorbed by the roots. The intense heat and exposure to sunlight increased the rate of transpiration, causing the plant to lose water faster than it could absorb. The other options, such as stomata closure, increased water in the cell, or inadequate xylem support, are not the primary reasons for the withering of the plant."
+          "explanation": null
         },
         {
           "questionNumber": "13",
-          "question": "Setup A was left for 6 hours in an environment with the following characteristics; warm, windy and bright sunshine. Which process explains the result in B?",
-          "image": "setup_transpiration1_transport_plants.jpg",
+          "question": "Which of the following is the main force responsible for the movement of water in the xylem of plants?",
+          "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Active transport of water into the root hairs.",
-            "Evaporation of water from the flask.",
-            "Transpiration from the leaves of the plant.",
-            "Photosynthesis in the leaves of the plant."
+            "Capillary action",
+            "Active transport",
+            "Root pressure",
+            "Transpiration pull"
           ],
-          "wordAnswer": "Transpiration from the leaves of the plant.",
+          "wordAnswer": "Transpiration pull",
           "explanation": null
         },
         {

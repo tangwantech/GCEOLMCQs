@@ -5,128 +5,141 @@ import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
 import android.view.View
-import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.RadioButton
+import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.R
+import com.example.gceolmcq.datamodels.PackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.viewmodels.SubscriptionFormDialogFragmentViewModel
 import com.google.android.material.textfield.TextInputEditText
 
 private const val SUBJECT_POSITION = "subject_position"
 private const val SUBJECT_TITLE = "subject_title"
+private const val PACKAGE_DATA = "packageData"
 
 class SubscriptionFormDialogFragment : DialogFragment() {
-    private lateinit var subscriptionFormDialogFragmentViewModel: SubscriptionFormDialogFragmentViewModel
-    private lateinit var onPayButtonClickListener: OnPayButtonClickListener
+    private lateinit var viewModel: SubscriptionFormDialogFragmentViewModel
+    private lateinit var subscriptionFormButtonClickListener: SubscriptionFormButtonClickListener
+//    private lateinit var etMomoNumber: TextInputEditText
 
-    private lateinit var dialogTitle: TextView
-    private lateinit var autoPackageType: AutoCompleteTextView
-    private lateinit var layoutTvPrice: LinearLayout
-    private lateinit var tvPrice: TextView
-    private lateinit var autoMomoPartner: AutoCompleteTextView
-    private lateinit var etMomoNumber: TextInputEditText
+    private lateinit var rbMtn: RadioButton
+    private lateinit var rbOrange: RadioButton
+    private lateinit var rgPaymentMethod: RadioGroup
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is OnPayButtonClickListener) {
-            onPayButtonClickListener = context
-        }
+    private var positiveBtn: Button? = null
 
+    private var currentPackage: PackageData? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setUpViewModel()
-
-        subscriptionFormDialogFragmentViewModel.setSubjectPosition(
+        viewModel.setSubjectPosition(
             requireArguments().getInt(
                 SUBJECT_POSITION
             )
         )
 
-        subscriptionFormDialogFragmentViewModel.updateDialogTitle(requireArguments().getString(
+        viewModel.updateDialogTitle(requireArguments().getString(
             SUBJECT_TITLE)!!)
+    }
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        if (context is SubscriptionFormButtonClickListener) {
+            subscriptionFormButtonClickListener = context
+        }
+    }
+
+    private fun setCurrentPackage(){
+        currentPackage = requireArguments().getSerializable(PACKAGE_DATA) as PackageData
     }
 
     private fun setUpViewModel(){
-        subscriptionFormDialogFragmentViewModel =
+        viewModel =
             ViewModelProvider(this)[SubscriptionFormDialogFragmentViewModel::class.java]
+        setCurrentPackage()
+        viewModel.setPackageType(currentPackage?.packageName!!)
+        viewModel.setPackagePrice(currentPackage?.price!!)
+        viewModel.setPackageDuration(currentPackage?.duration!!)
     }
 
     private fun initViews(): View{
-        val view =
-            requireActivity().layoutInflater.inflate(R.layout.fragment_subcription_form, null)
-        dialogTitle = view.findViewById(R.id.tvSubscriptionFormTitle)
-        layoutTvPrice = view.findViewById(R.id.layoutPackagePrice)
-        tvPrice = view.findViewById(R.id.tvPackagePrice)
-        autoMomoPartner = view.findViewById(R.id.autoCompleteMomoPartner)
-        etMomoNumber = view.findViewById(R.id.etMomoNumber)
-        autoPackageType = view.findViewById(R.id.autoCompletePackageType)
+
+        val view = requireActivity().layoutInflater.inflate(R.layout.payment_method, null)
+
+        val tvSubject: TextView = view.findViewById(R.id.tvsubject)
+        tvSubject.text = requireArguments().getString(SUBJECT_TITLE)!!
+
+        val tvSelectedPackage: TextView = view.findViewById(R.id.tvSelectedPackage)
+        tvSelectedPackage.text = currentPackage?.packageName
+
+        val tvPrice: TextView = view.findViewById(R.id.tvPrice)
+        tvPrice.text = "${currentPackage?.price} FCFA"
+
+        rgPaymentMethod = view.findViewById(R.id.rgPaymentMethod)
+
+        rbMtn = view.findViewById(R.id.rbMtn)
+        rbOrange = view.findViewById(R.id.rbOrange)
+
+//        etMomoNumber = view.findViewById(R.id.etMomoNumber)
         return view
     }
 
-    private fun setUpViews(){
-        dialogTitle.text = "${subscriptionFormDialogFragmentViewModel.getDialogTitle()} ${requireContext().resources.getString(R.string.subscription)}"
-        autoPackageType.setAdapter(
-            ArrayAdapter<String>(
-                requireContext(),
-                R.layout.drop_down_item,
-                requireContext().resources.getStringArray(R.array.package_types)
-            )
-        )
-
-        autoMomoPartner.setAdapter(
-            ArrayAdapter<String>(
-                requireContext(),
-                R.layout.drop_down_item,
-                requireContext().resources.getStringArray(R.array.momo_partners)
-            )
-        )
-    }
-
     private fun setUpViewListeners(){
-        autoPackageType.setOnItemClickListener { _, _, packageIndex, _ ->
-            subscriptionFormDialogFragmentViewModel.setPackageType(requireContext().resources.getStringArray(R.array.package_types)[packageIndex])
-            layoutTvPrice.visibility = View.VISIBLE
-            tvPrice.text = "${requireContext().resources.getStringArray(R.array.package_prices)[packageIndex]} FCFA"
-            subscriptionFormDialogFragmentViewModel.setPackagePrice(requireContext().resources.getStringArray(R.array.package_prices)[packageIndex])
-            subscriptionFormDialogFragmentViewModel.setPackageDuration(resources.getStringArray(R.array.package_durations)[packageIndex].toInt())
+
+        rgPaymentMethod.setOnCheckedChangeListener { _, id ->
+            when(id){
+                R.id.rbMtn -> {
+//                    println("MTN")
+                    viewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[0])
+
+                }
+
+                R.id.rbOrange -> {
+//                    println("ORANGE")
+                    viewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[1])
+                }
+            }
+            positiveBtn?.isEnabled = true
         }
 
-        autoMomoPartner.setOnItemClickListener { _, _, momoPartnerIndex, _ ->
-            subscriptionFormDialogFragmentViewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[momoPartnerIndex])
-        }
-
-        etMomoNumber.doOnTextChanged { text, _, _, _ ->
-            subscriptionFormDialogFragmentViewModel.setMomoNumber(text.toString())
-
-        }
+//        etMomoNumber.doOnTextChanged { text, _, _, _ ->
+//            viewModel.setMomoNumber(text.toString())
+//
+//        }
     }
 
-    private fun setUpViewObservers(dialogPositiveBtn: Button){
+    private fun setUpViewObservers(){
 
-        subscriptionFormDialogFragmentViewModel.isSubscriptionFormFilled.observe(this, Observer {
-            dialogPositiveBtn.isEnabled = it
+        viewModel.isSubscriptionFormFilled.observe(this, Observer {
+            positiveBtn?.isEnabled = it
         })
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
 
         val view = initViews()
-        setUpViews()
+//        setUpViews()
         setUpViewListeners()
+//        setUpViewObservers()
         return setUpAlertDialog(view)
     }
     private fun setUpAlertDialog(view: View): Dialog{
         val builder = AlertDialog.Builder(requireContext()).apply {
+            setTitle(requireContext().resources.getString(R.string.select_payment_method))
+//            setMessage()
             setView(view)
-            setPositiveButton(requireContext().resources.getString(R.string.pay)){ btn, _ ->
-                onPayButtonClickListener.onPayButtonClicked(
-                    subscriptionFormDialogFragmentViewModel.getSubscriptionFormData())
+            setPositiveButton(requireContext().resources.getString(R.string.next)){ btn, _ ->
+                subscriptionFormButtonClickListener.onSubscriptionFormNextButtonClicked(
+                    viewModel.getSubscriptionFormData())
                 btn.dismiss()
             }
             setNegativeButton(requireContext().resources.getString(R.string.cancel)) { btn, _ ->
@@ -135,22 +148,23 @@ class SubscriptionFormDialogFragment : DialogFragment() {
         }.create()
 
         builder.setOnShowListener {
-            val positiveBtn = builder.getButton(AlertDialog.BUTTON_POSITIVE)
+            positiveBtn = builder.getButton(AlertDialog.BUTTON_POSITIVE)
 //            val positiveBtn = (dialog as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE)
-            positiveBtn.isEnabled = false
+            positiveBtn?.isEnabled = false
 
-            setUpViewObservers(positiveBtn)
+
 
         }
         return builder
     }
 
     companion object {
-        fun newInstance(position: Int, subjectName: String): DialogFragment {
+        fun newInstance(position: Int, subjectName: String, packageData: PackageData?=null): DialogFragment {
             val subscriptionFormDialogFragment = SubscriptionFormDialogFragment()
             val bundle = Bundle().apply {
                 putInt(SUBJECT_POSITION, position)
                 putString(SUBJECT_TITLE, subjectName)
+                putSerializable(PACKAGE_DATA, packageData)
             }
             subscriptionFormDialogFragment.arguments = bundle
             return subscriptionFormDialogFragment
@@ -158,7 +172,7 @@ class SubscriptionFormDialogFragment : DialogFragment() {
     }
 
 
-    interface OnPayButtonClickListener {
-        fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData)
+    interface SubscriptionFormButtonClickListener {
+        fun onSubscriptionFormNextButtonClicked(subscriptionFormData: SubscriptionFormData)
     }
 }

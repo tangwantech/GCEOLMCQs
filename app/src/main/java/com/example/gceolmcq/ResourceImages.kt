@@ -17,7 +17,7 @@ class ResourceImages {
             images["graph_rate_lactic_acid_removal_june_2015.jpg"] = R.drawable.graph_rate_lactic_acid_removal_june_2015
             images["experiment_test_for_starch_june_2015.jpg"] = R.drawable.experiment_test_for_starch_june_2015
 
-//            june 2017
+//            june 2016
             images["lifecycle_housefly_june_2016.jpg"] = R.drawable.lifecycle_housefly_june_2016
             images["foodweb_june_2016.jpg"] = R.drawable.foodweb_june_2016
             images["neuron_june_2016.jpg"] = R.drawable.neuron_june_2016

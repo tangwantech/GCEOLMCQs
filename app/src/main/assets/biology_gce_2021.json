@@ -21,7 +21,8 @@
             "presence of scales on the body for protection.",
             "are poikilothermic for temperature regulation."
           ],
-          "wordAnswer": "possess crop and gizzard as digestive features."
+          "wordAnswer": "possess crop and gizzard as digestive features.",
+          "explanation": "Crop and gizzard are digestive features found in birds. Crop temporarily stores food and starts the digestive process before it enters the stomach. The gizzard contains sand and gravel which helps to break down large food particles into smaller ones, increasing surface area for enzymatic digestion. The other options are incorrect because:\n\n- Birds do not have gills.\n\n- Scales are found only on the legs of birds, not over their entire body.\n\n -Bird are homeothermic, not poikilothermic."
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "vitamins.",
             "water."
           ],
-          "wordAnswer": "carbohydrates."
+          "wordAnswer": "carbohydrates.",
+          "explanation": "During photosynthesis, light energy is captured and used to combine carbon dioxide and water to form glucose. The glucose produced is converted to starch and stored"
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "people who look healthy, have the virus and can infect others.",
             "people who have reached the AIDS stage."
           ],
-          "wordAnswer": "people who look healthy, have the virus and can infect others."
+          "wordAnswer": "people who look healthy, have the virus and can infect others.",
+          "explanation": "Healthy carriers of HIV are people who look healthy, have the virus and can infect others. They usually do not show signs of the disease and so can easily spread the virus during unprotected sex."
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "control the depth at which fish swims.",
             "enables the fish to detect vibrations."
           ],
-          "wordAnswer": "control the depth at which fish swims."
+          "wordAnswer": "control the depth at which fish swims.",
+          "explanation": "The swim bladder control the depth at which fish swims. When the swim bladder is inflated, the fish becomes lighter and rises and when the swim bladder is deflated, the fish becomes heavier and sinks. The other options are incorrect because:\n\n- How fast or slow a fish swims is due to action of its fins and muscles, not the swim bladder.\n\n- The fins enable the fish to change direction, not the swim bladder.\n\n- The lateral line system enables the fish to detect vibrations, not the swim bladder"
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Phosphorus, hydrogen and oxygen.",
             "Nitrogen, phosphorus and oxygen."
           ],
-          "wordAnswer": "Carbon, hydrogen and oxygen."
+          "wordAnswer": "Carbon, hydrogen and oxygen.",
+          "explanation": "Carbon, hydrogen and oxygen are the elements that make up carbohydrates. \n\n- Nitrogen is an element found in proteins. Phosphorus may sometimes be found in proteins, not carbohydrates."
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Removal of carbon dioxide from the lungs.",
             "Removal of faeces from the alimentary canal."
           ],
-          "wordAnswer": "Removal of carbon dioxide from the lungs."
+          "wordAnswer": "Removal of carbon dioxide from the lungs.",
+          "explanation": "Carbon dioxide is a metabolic waste product of tissue respiration. Its elimination from the lungs makes the process excretory. The other options are incorrect because:\n\n- Insulin is a hormone released by the pancreas to reduce blood sugar level. It is not a metabolic waste that is excreted.\n\n- Saliva is a secretion which helps in carbohydrate digestion in the mouth. It is not a metabolic waste that is excreted. \n\n- Faeces is the remains of food not digested in the alimentary canal. It is not a metabolic waste that is excreted."
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Moves in and out of cell.",
             "No movement in and out of cell."
           ],
-          "wordAnswer": "Moves into the cell."
+          "wordAnswer": "Moves into the cell.",
+          "explanation": "Water moves from outside into the cell. When ever two solutions are separated by a selective permeable membrane, water always moves from the solution of low solute potential to that of high solute potential by osmosis."
         }
       ]
     },
@@ -126,7 +133,8 @@
             "X contracts and shorten while Y relaxes and elongates.",
             "X relaxes and shortens while Y contracts and elongates."
           ],
-          "wordAnswer": "X contracts and shorten while Y relaxes and elongates."
+          "wordAnswer": "X contracts and shorten while Y relaxes and elongates.",
+          "explanation": "X represents the bicep while Y represents the tricep. When the arm is flexed, the bicep contracts and shorten while tricep relaxes and elongates. The radius and ulna are pulled towards the humerus."
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Dendrite-->Axon-->Dendron-->Effector.",
             "Axon-->Dendron-->Dendrite-->Effector."
           ],
-          "wordAnswer": "Dendrite-->Dendron-->Axon-->Effector."
+          "wordAnswer": "Dendrite-->Dendron-->Axon-->Effector.",
+          "explanation": "Dendrites receives impulses from another neuron and send them to the cell body through the dendron. From the cell body, the impulses are transmitted along the axon to an effector to bring about a response."
         },
         {
           "questionNumber": "10",
@@ -154,11 +163,12 @@
             "Q to S",
             "R to S"
           ],
-          "wordAnswer": "Q to R"
+          "wordAnswer": "Q to R",
+          "explanation": "Q represents the anther while R represents the stigma. When self pollination occurs, pollen grains are transferred from the anther to the stigma of the same flower."
         },
         {
           "questionNumber": "11",
-          "question": "The diagram below represents the circulation of carbon in nature. What biological process is represented by X?",
+          "question": "The diagram below represents the circulation of carbon in nature. What process is represented by X?",
           "image": "carbon_cycle_june_2021.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -168,7 +178,8 @@
             "Death",
             "Combustion"
           ],
-          "wordAnswer": "Combustion"
+          "wordAnswer": "Combustion",
+          "explanation": "Process X represents combustion, the burning of fossil fuels which releases carbon dioxide into the atmosphere."
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Tricuspid valve.",
             "Tendon supporting valve."
           ],
-          "wordAnswer": "Semilunar valve."
+          "wordAnswer": "Semilunar valve.",
+          "explanation": "The semilunar valves prevent the reflux or backflow of blood from the aorta to the left ventricle. The other options are incorrect because: \n\n- Bicuspid valves prevent reflux of blood from the left ventricle to the left atrium.\n\n- Tricuspid valve prevents the reflux of blood from the right ventricle to the right atrium.\\n- Tendons supporting valve support the bicuspid and tricuspid valves, preventing them from turning inside out when they closed."
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Distal convoluted tubule.",
             "Proximal convoluted tubule."
           ],
-          "wordAnswer": "Proximal convoluted tubule."
+          "wordAnswer": "Proximal convoluted tubule.",
+          "explanation": "All glucose and some amino acids are reabsorbed at the proximal convoluted tubule by the process of diffusion and active transport. The other options are incorrect because:\n\n- The Bowman's capsule contains the capsular space which collects the glomerular filtrate during ultra-filtration. It has no role in the reabsorption of substances.\n The Loop of Henle and distal convoluted tubule are concerned with the reabsorption of water and salts"
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Oestrogen and Progesterone.",
             "Progesterone and Luteinizing Hormone."
           ],
-          "wordAnswer": "Oestrogen and Progesterone."
+          "wordAnswer": "Oestrogen and Progesterone.",
+          "explanation": "The structure numbered 3 is the ovary. It secretes oestrogen and progesterone. The other options are incorrect because:\n\n- Follicle stimulating hormone and Luteinizing hormone are secreted by the anterior pituitary gland in the brain."
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "real, larger and inverted.",
             "real, smaller and inverted."
           ],
-          "wordAnswer": "real, smaller and inverted."
+          "wordAnswer": "real, smaller and inverted.",
+          "explanation": "Real (formed behind the lens), smaller and inverted ('Upside down') are the characteristics of the image of an external object formed on the retina."
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Stomach.",
             "Ileum."
           ],
-          "wordAnswer": "Stomach."
+          "wordAnswer": "Stomach.",
+          "explanation": "Chemical digestion of proteins begins in the stomach. The stomach secretes gastric juice which contains the enzyme pepsin to begin the chemical digestion of proteins. The other options are incorrect because:\n\n- While the stomach receives food that has passed through the mouth, no chemical digestion of proteins occurred in the mouth due to lack of protein digesting enzymes in the mouth.\n\n- Chemical digestion of proteins continue in duodenum and ileum."
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "DNA helicase,",
             "Restriction enzyme."
           ],
-          "wordAnswer": "DNA ligase."
+          "wordAnswer": "DNA ligase.",
+          "explanation": "DNA ligase joins cut DNA pieces having complimentary ends to form recombinant DNA. The other options are incorrect because:\n\n- DNA helicase unzips the double stranded DNA molecule during replication or transcription.\n\n- Restriction enzyme cuts DNA at specific nucleotide sequences to form DNA fragments.\n\n DNA polymerase catalyses the addition of new nucleotide subunits to form a new DNA molecule. This usually occurs during DNA replication."
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "4, 1, 3, 2",
             "4, 3, 1, 2"
           ],
-          "wordAnswer": "4, 3, 1, 2"
+          "wordAnswer": "4, 3, 1, 2",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Cervix.",
             "Uterus."
           ],
-          "wordAnswer": "Uterus."
+          "wordAnswer": "Uterus.",
+          "explanation": "Implantation takes place in the uterus. The uterine wall is adapted to support the implanted embryo and its subsequent growth and development through out the period of gestation. The other options are incorrect because:\n\n- The role of the ovary is to produce eggs and female reproductive hormones such as oestrogen and progesterone. It is not the site of implantation. \n- The oviduct is the site of fertilzation, not implantation.\n- The cervix serves as channel for sperm to enter the uterus, for the foetus to leave the uterus during birth or for menses to flow out during during menstruation."
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Pulmonary artery.",
             "Aorta."
           ],
-          "wordAnswer": "Pulmonary vein."
+          "wordAnswer": "Pulmonary vein.",
+          "explanation": "The pulmonary vein returns oxygenated blood from the lungs to the heart. The other options are incorrect because:\n\n- The vena cava returns deoxygenated blood from the body to the heart.\n- The pulmonary artery carries deoxygenated blood from the right ventricle of the heart to the lungs for oxygenation.\n- The aorta carries oxygenated blood from the left ventricle to the entire body except the lungs."
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct.",
             "1 only is correct."
           ],
-          "wordAnswer": "2 and 3 only are correct."
+          "wordAnswer": "2 and 3 only are correct.",
+          "explanation": "During over heating, blood vessels in the skin dilate to allow more blood to flow closer to the surface of the skin. This results in the loss of more heat by radiation and convection. More sweat is also secreted by the sweat glands. As the sweat evaporates from the surface of the skin, it takes along some heat energy, reducing body temperature.\n\n- The hairs of the skin stand erect during overcooling, not overheating. During overheating, the hairs lie flat. In this position, they offer the least possible resistance to heat loss by radiation."
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct.",
             "1 only is correct."
           ],
-          "wordAnswer": "1 and 2 only are correct."
+          "wordAnswer": "1 and 2 only are correct.",
+          "explanation": "Some characteristics of mammals include the possession of mammary and sweat glands. Mammals are not homodonts, but heterodonts (have teeth of different shapes, sizes and perform specific functions)"
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct.",
             "1 only is correct."
           ],
-          "wordAnswer": "1 only is correct."
+          "wordAnswer": "1 only is correct.",
+          "explanation": "After fertilization, the corolla (petals) and calyx (sepals) wither and fall off because they are no longer needed. \n\n- The ovule becomes the seed, not the fruit. \n\n- The ovary ripens into a fruit, not a seed."
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct.",
             "1 only is correct."
           ],
-          "wordAnswer": "2 and 3 only are correct."
+          "wordAnswer": "2 and 3 only are correct.",
+          "explanation": "The correct answer is '2 and 3 only are correct.' \n - Destroys red blood cells is a key characteristic of the malaria parasite. It invades and replicates within red blood cells, eventually destroying them. This leads to anemia, as the body loses oxygen-carrying red blood cells. \n\n - Anemia is a direct consequence of the destruction of red blood cells by the malaria parasite. It results in a reduced ability to transport oxygen throughout the body, causing symptoms like fatigue, weakness, and shortness of breath. \n\n - The malaria parasite primarily targets red blood cells, not nerve cells. Neurological symptoms in severe malaria are often due to secondary factors like inflammation and impaired blood flow to the brain, rather than direct destruction of nerve cells."
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct.",
             "1 only is correct."
           ],
-          "wordAnswer": "1, 2 and 3 are all correct."
+          "wordAnswer": "1, 2 and 3 are all correct.",
+          "explanation": "Auxins are plant growth substances produced by meristematic cells at the tips of shoots and roots. In the shoot, auxins stimulate rapid growth and elongation of cells while in the roots auxin inhibit growth and elongation of cells."
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False.",
             "First statement is False. Second statement is True."
           ],
-          "wordAnswer": "First statement is False. Second statement is True."
+          "wordAnswer": "First statement is False. Second statement is True.",
+          "explanation": "Insulin increases blood sugar level while glucagon decreases it is a false statement. Insulin rather reduces blood sugar level by stimulating the conversion of excess glucose to glycogen while glucagon increases blood sugar level by stimulating the conversion of stored glycogen to glucose. \n\n- Because the effect of insulin is opposite to that of glucagon, insulin and glucagon are described as antagonistic hormones."
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False.",
             "First statement is False. Second statement is True."
           ],
-          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
+          "explanation": "Rickets is a deficiency disease in children characterised by week and deformed bones of the legs. The hardening of bones is due to the deposition of calcium and phosphate salts. In the absence of Vitamin D, the absorption of calcium and phosphate salts in the intestine is hindered. Insufficient calcium and phosphate salts in the body leads to poor bone development resulting in rickets"
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False.",
             "First statement is False. Second statement is True."
           ],
-          "wordAnswer": "First statement is False. Second statement is True."
+          "wordAnswer": "First statement is False. Second statement is True.",
+          "explanation": "Temperature and water are abiotic factors, not biotic factors. Biotic factors are the living factors. \n\n- Ecosystems consist of abiotic and biotic factors interacting together."
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False.",
             "First statement is False. Second statement is True."
           ],
-          "wordAnswer": "First statement is True. Second statement is False."
+          "wordAnswer": "First statement is True. Second statement is False.",
+          "explanation": "The malaria parasite is transmitted through the bite from infected female Anopheles mosquito.\n\n- While standing water may contain the larvae of mosquitoes, these larvae do not contain the malaria parasite and so cannot transmit malaria parasite when consumed. Hence, malaria cannot be not contracted by drinking standing water."
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False.",
             "First statement is False. Second statement is True."
           ],
-          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first."
+          "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
+          "explanation": "Maize plants interspersed with leguminous plants grow healthier because the roots of the leguminous plants contain nitrogen fixing bacteria which help to convert atmospheric nitrogen to soil nitrate. The maize plant can absorb some of the nitrates and use them for growth."
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Sperm cell.",
             "Muscle cell."
           ],
-          "wordAnswer": "Sperm cell."
+          "wordAnswer": "Sperm cell.",
+          "explanation": "Sperm cells are haploid cells produced during meiosis in the testes. The other options are incorrect because:\n\n- Nerve cell, blood cell and muscle cell are formed by mitosis, not meiosis."
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Free nerve ending.",
             "Meissner's corpuscle."
           ],
-          "wordAnswer": "Pacinian corpuscle."
+          "wordAnswer": "Pacinian corpuscle.",
+          "explanation": "Pacinian corpuscle is a pressure receptor. \n\n- Free nerve endings detect external temperature changes.\n- Meissner's corpuscle is a touch receptor.\n\n- Hair plexus is a mechanoreceptor surrounding the base of each hair, making the hair to be sensitive to touch movements"
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Pivot joint.",
             "Gliding joint."
           ],
-          "wordAnswer": "Hinge joint."
+          "wordAnswer": "Hinge joint.",
+          "explanation": "Hinge joints e.g elbow and knee joints allow movement in one direction only. Pivot joint e.g. the joint between atlas and axis vertebrae allows the atlas to rotate on the axis as well as nodding of the head.\n\n- Ball and socket joint e.g hip and shoulder joints allows for movement in many directions.\n\n- Gliding joints, e.g in the wrists and ankles, are joints between two flat bones. This joint allows the bones to glide against each other."
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Clone.",
             "Plasmids."
           ],
-          "wordAnswer": "Plasmids."
+          "wordAnswer": "Plasmids.",
+          "explanation": "Plasmids are smaller circular pieces of DNA found in certain bacteria. They often carry genes that confer certain adaptations to the bacteria such as resistance to antibiotics.\n\n- Recombinant DNA is DNA made by combining fragments of DNA from different organisms.\n\n-  Restriction enzyme is not DNA. It helps to cut DNA at specific nucleotide sequences to form DNA fragments.\n\n- Clones are genetically identical copies of cells form by mitosis"
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Potassium hydroxide.",
             "Sodium carbonate"
           ],
-          "wordAnswer": "Pyrogallic acid."
+          "wordAnswer": "Pyrogallic acid.",
+          "explanation": "Pyrogallic acid is the chemical used to absorb oxygen in experiments. Sodium hydroxide and potassium hydroxide absorb carbon dioxide, while sodium carbonate releases carbon dioxide"
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Cartilage.",
             "Synovial fluid."
           ],
-          "wordAnswer": "Synovial fluid."
+          "wordAnswer": "Cartilage.",
+          "explanation": "Articular cartilage is the soft connective tissue that covers the regions of a bone's surface that articulates with other bones at joints. It prevents wearing out of bone tips at joints. It also helps in absorbing shock. \n\n- Synovial fluid helps to reduce friction between the articular cartilages of synovial joints during movement.\n\n- Tendon attaches muscle to bone.\n\n- Ligament attaches bone to bone at joints."
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Termite.",
             "Honey bee."
           ],
-          "wordAnswer": "Honey bee."
+          "wordAnswer": "Honey bee.",
+          "explanation": "Honey bee is an example of an insect that undergoes complete metamorphosis. Complete metamorphosis is characterized by four stages: egg, larva, pupa and adult. The other options are incorrect because:\n\n- Cockroach, grasshopper and termite undergo incomplete metamorphosis. The stages in incomplete metamorphosis are: egg, nymph and adult"
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Cooked rice.",
             "Plantain."
           ],
-          "wordAnswer": "Ripe banana."
+          "wordAnswer": "Ripe banana.",
+          "explanation": "Cassava, cooked rice and plantain are all rich in the starch and will produce a blue black colour with iodine solution. However, ripe banana contains sugars like glucose, fructose and sucrose which do not react with iodine and so, ripe banana remains brown with iodine."
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Use of pesticide.",
             "Scavenging."
           ],
-          "wordAnswer": "Biological control."
+          "wordAnswer": "Biological control.",
+          "explanation": "Biological control involves the use of a living organism of a difference species to reduce the population of another species (the pest) such as the use of cat to eliminate rats at home. The other options are incorrect because:\n\n- A pesticide is a chemical used to kill pest. \n\n- Scavenging is the feeding on dead organisms by an animal. \n\n- Competition is the interaction between species in which both require a resource that is in limited supply e.g food, mate. In such interaction, the number of the less adaptable species reduces."
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Function in transport.",
             "Long lifespan."
           ],
-          "wordAnswer": "Lack haemoglobin."
+          "wordAnswer": "Lack haemoglobin.",
+          "explanation": "White blood cells do not have haemoglobin. Haemoglobin is a transport protein present in red blood cells that helps in transporting oxygen around the body in the form of oxyhaemoglobin."
         }
       ]
     },
@@ -641,7 +681,7 @@
       "questions": [
         {
           "questionNumber": "41",
-          "question": "When the setup below was exposed to the sun for one hour, gas bubbles condensed into liquid on the inside of the polythene bag. Identify the condensed liquid and its origin.",
+          "question": "When the setup below was exposed to the sun for one hour, liquid condensed on the inside of the polythene bag. Identify the condensed liquid and its origin.",
           "image": "experiment_transpiration_june_2021.jpg",
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -651,7 +691,8 @@
             "Carbon dioxide from respiring leaves.",
             "Carbon dioxide from respiring soil microbes."
           ],
-          "wordAnswer": "Water from transpiring leaves."
+          "wordAnswer": "Water from transpiring leaves.",
+          "explanation": "When the setup was exposed to sun for one hour, the leaves of the plant lose water in the form of water vapour, a process called transpiration. Since the plant was enclosed in a polythene bag, the air within became saturated with water vapour. Some of the water vapour then condensed as liquid on the inside of the polythene bag."
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "Cerebellum.",
             "Pituitary."
           ],
-          "wordAnswer": "Cerebellum."
+          "wordAnswer": "Cerebellum.",
+          "explanation": "The cerebellum controls balance and posture. Its removal was the reason why the guinea pig could not move properly and had no balance. The other options are incorrect because:\n\n- removal of the medulla oblongata will affect involuntary functions such as breathing rate, heart rate, blood pressure.\n\n- Removal of the cerebrum would render the animal unconscious as the cerebrum is responsible for all conscious or voluntary activities.\n\n- Removal of the pituitary gland will affect a large number of body functions such as metabolism, growth, reproduction, osmoregulation, but not balance and posture"
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "Flask K (Pyrogallic acid), Flask L (Caustic soda), Gas (Carbon dioxide)",
             "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
           ],
-          "wordAnswer": "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)"
+          "wordAnswer": "Flask K (Caustic soda), Flask L (Lime water), Gas (Carbon dioxide)",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "Place a dish of sodium hydroxide in C.",
             "Cover C with a transparent polythene bag."
           ],
-          "wordAnswer": "Cover C with a black cloth."
+          "wordAnswer": "Cover C with a black cloth.",
+          "explanation": "The aim of the experiment is to investigate the release of carbon dioxide during respiration. Using a green plant in the presence of sunlight, would result in the green plant using the carbon it produces during respiration for photosynthesis. The lime water in flask D would remain clear. This would lead to a false conclusion that green plants do not produce carbon dioxide during respiration. In order to get a correct result, the flask C containing the green plant should be covered with a black cloth to prevent sunlight reaching the green plant and hence, preventing photosynthesis from consuming the carbon dioxide produced."
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "A sperm carrying an XY chromosome fuses with the egg.",
             "A sperm carrying an XX chromosome fuses with the egg."
           ],
-          "wordAnswer": "A sperm carrying the Y chromosome fuses with the egg."
+          "wordAnswer": "A sperm carrying the Y chromosome fuses with the egg.",
+          "explanation": "The genotype of a male is XY. Males produce two types of gamete: one set contains X-chromosome while the other set contains the Y-chromosome. To produce a male zygote, only a sperm carrying the Y chromosome should fuse with the egg (X) to form a zygote of genotype XY."
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Oxygen.",
             "Starch."
           ],
-          "wordAnswer": "Starch."
+          "wordAnswer": "Starch.",
+          "explanation": "While glucose and oxygen are the immediate products of photosynthesis, the glucose is usually converted to starch and stored. It is this starch which can be tested for to show that photosynthesis has taken place. The starch in the leaf readily react with iodine to produce a blue black color indicating that photosynthesis has taken place in the leaf. \n\n- Oxygen gas produced by photosynthesis in the leaf, is usually lost into the atmosphere and so, is practically impossible to use it to show that photosynthesis has taken place in a leaf. \n\n-Chlorophyll is not a product of photosynthesis but a pigment that captures sunlight energy for photosynthesis."
         },
         {
           "questionNumber": "47",
@@ -735,25 +781,27 @@
             "Oxygen and soil.",
             "Soil and suitable temperature."
           ],
-          "wordAnswer": "Oxygen and suitable temperature."
+          "wordAnswer": "Oxygen and suitable temperature.",
+          "explanation": "In addition to water, seeds require oxygen for use in aerobic respiration to produce energy needed for growth of the embryo during germination. Suitable temperature is also required for optimum enzyme activity required during germination.\n\n- Soil and carbon dioxide are not needed for a seed to germinate."
         },
         {
           "questionNumber": "48",
-          "question": "In every ecosystem plants occupy the first trophic level. This is because, they;",
+          "question": "In every ecosystem plants occupy the first trophic level. This is because, they:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "are numerous.",
-            "can withstand atmospheric conditions.",
-            "are capable of converting solar energy into chemical energy.",
-            "have roots that anchor them into the soil."
+            "Are numerous.",
+            "Can withstand atmospheric conditions.",
+            "Are capable of converting solar energy into chemical energy.",
+            "Have roots that anchor them into the soil."
           ],
-          "wordAnswer": "are capable of converting solar energy into chemical energy."
+          "wordAnswer": "Are capable of converting solar energy into chemical energy.",
+          "explanation": "In every ecosystem, the ultimate source of energy is the sun. Green plants contain chloroplasts with chlorophyll to trap solar energy, converting it into chemical energy which is stored as carbohydrate. All other organisms depend on this stored energy in green plants either directly (when herbivores feed on plants) or indirectly (when carnivores feed on herbivores or other animals)\n\n- While plants do have roots to anchor them in the soil, are numerous, and may be able to withstand atmospheric conditions, these reasons to not relate to why plants occupy the first trophic level in every ecosystem."
         },
         {
           "questionNumber": "49",
-          "question": "The following is a food chain. Grass-->Grasshopper-->Praying mantis-->Toad. Which organism in the food chain is a secondary consumer?",
+          "question": "The following is a food chain. Grass --> Grasshopper --> Praying mantis --> Toad. Which organism in the food chain is a secondary consumer?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -763,7 +811,8 @@
             "Toad.",
             "Grass."
           ],
-          "wordAnswer": "Toad."
+          "wordAnswer": "Praying mantis.",
+          "explanation": "A secondary consumer is an animal that feeds directly on a primary consumer. In the food chain, the Praying mantis is a secondary consumer as it feeds on the grasshopper which is a primary consumer. The other options are incorrect because:\n\n- The grass is a producer.\n\n- The grasshopper is a primary consumer as it directly feeds on the producer.\n\n- The toad is a tertiary consumer as it feeds on the praying mantis, which is a secondary consumer."
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Cleaning of oil spills.",
             "Wine making."
           ],
-          "wordAnswer": "Production of human insulin."
+          "wordAnswer": "Production of human insulin.",
+          "explanation": "The production of human insulin is a genetically engineered process as it involves inserting the human gene sequence for insulin into a host cell's DNA such as Escherichia coli, and using the host cell to synthesize a large amount of the human insulin. This insulin can then be extracted, purified and given to individuals whose pancreas cannot synthesize insulin.\n\n- Bread making, cleaning of oil spills and wine making are not genetically engineered processes as they do not involve the manipulation of genes to produce a useful product"
         }
       ]
     }

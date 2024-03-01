@@ -1,6 +1,7 @@
 package com.example.gceolmcq
 
 import android.content.Context
+import android.os.Bundle
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
@@ -29,16 +30,29 @@ class MomoPayService(private val context: Context) {
     val isPaymentSystemAvailable: LiveData<Boolean?> = _isPaymentSystemAvailable
 
 
-    fun initiatePayment(subscriptionFormData: SubscriptionFormData){
+    fun initiatePayment(subscriptionFormData: SubscriptionFormData, transactionStatusListener: TransactionStatusListener, tokenTransactionIdBundle: Bundle? = null){
 
-        println("Initiating payment")
+//        println("Initiating payment")
 
         this.subscriptionFormData = subscriptionFormData
-//        generateAccessToken()
-        testUpdateTransactionSuccessful()
+//        if (tokenTransactionIdBundle == null){
+//            generateAccessToken(transactionStatusListener)
+//        }else{
+//
+//            val tempToken = tokenTransactionIdBundle.getString(MCQConstants.TOKEN)
+//            val transactionId = tokenTransactionIdBundle.getString(MCQConstants.TRANSACTION_ID)
+//            val transaction = TransactionStatus().apply {
+//                token = tempToken
+//                refId = transactionId
+//            }
+//            checkTransactionStatus(transaction, transactionStatusListener)
+//        }
+//        generateAccessToken(transactionStatusListener)
+
+        testUpdateTransactionSuccessful(transactionStatusListener)
 
     }
-    private fun generateAccessToken(){
+    private fun generateAccessToken(transactionStatusListener: TransactionStatusListener){
 
         val requestBody = FormBody.Builder()
             .add(MCQConstants.USER_NAME, context.resources.getString(R.string.campay_app_user_name))
@@ -53,12 +67,14 @@ class MomoPayService(private val context: Context) {
             override fun onFailure(call: Call, e: IOException) {
                 println("failed generating token due to ${e.message}")
 //                isTransactionSuccessful.postValue(false)
-                if(e.message.toString().contains("timed out")){
-                    _isPaymentSystemAvailable.postValue(false)
-                }else{
-//                    isTransactionSuccessful.postValue(false)
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
-                }
+                transactionStatusListener.onTransactionFailed()
+//                if(e.message.toString().contains("timed out")){
+//                    _isPaymentSystemAvailable.postValue(false)
+//                }else{
+////                    isTransactionSuccessful.postValue(false)
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//
+//                }
                 call.cancel()
 
             }
@@ -71,15 +87,17 @@ class MomoPayService(private val context: Context) {
                     val transaction = TransactionStatus()
                     transaction.token = json[TOKEN].toString()
 //                    println("Access token $transaction")
-
+                    transactionStatusListener.onTransactionTokenAvailable(json[TOKEN].toString())
                     requestToPay(
                         transaction,
                         subscriptionFormData?.packagePrice,
-                        subscriptionFormData?.momoNumber
+                        subscriptionFormData?.momoNumber,
+                        transactionStatusListener
                     )
                 }catch (e:JSONException){
 //                    isTransactionSuccessful.postValue(false)
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+                    transactionStatusListener.onTransactionFailed()
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
                     call.cancel()
 //                    println("failed getting token from server due to ${e.message}")
                 }
@@ -89,7 +107,7 @@ class MomoPayService(private val context: Context) {
         })
     }
 
-    fun requestToPay(transaction: TransactionStatus, amountToPay: String?, momoNumber: String?){
+    fun requestToPay(transaction: TransactionStatus, amountToPay: String?, momoNumber: String?, transactionStatusListener: TransactionStatusListener){
         val requestBody = FormBody.Builder()
             .add(MCQConstants.AMOUNT, "$amountToPay")
             .add(MCQConstants.FROM, "${MCQConstants.COUNTRY_CODE}$momoNumber")
@@ -107,12 +125,13 @@ class MomoPayService(private val context: Context) {
 
             override fun onFailure(call: Call, e: IOException) {
                 println("failed initiating request to pay ...... $transaction due to ${e.message}")
-                if(e.message.toString().contains("timed out")){
-                    _isPaymentSystemAvailable.postValue(false)
-                }else{
-//                    isTransactionSuccessful.postValue(false)
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
-                }
+//                transactionStatusListener.onTransactionFailed()
+//                if(e.message.toString().contains("timed out")){
+//                    _isPaymentSystemAvailable.postValue(false)
+//                }else{
+////                    isTransactionSuccessful.postValue(false)
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                }
 
             }
             override fun onResponse(call: Call, response: Response) {
@@ -120,18 +139,21 @@ class MomoPayService(private val context: Context) {
                     val responseBody = response.body?.string()
                     val json = JSONObject(responseBody!!)
                     transaction.refId = json[REFERENCE_ID].toString()
-
+                    transactionStatusListener.onTransactionIdAvailable(json[REFERENCE_ID].toString())
+//                    checkTransactionStatus(transaction, transactionStatusListener)
                     runBlocking {
                         transaction.status = MCQConstants.PENDING
                         while (transaction.status!! == MCQConstants.PENDING){
-                            checkTransactionStatus(transaction)
-                            delay(3000)
+                            checkTransactionStatus(transaction, transactionStatusListener)
+                            delay(5000)
                         }
                     }
 
                 }catch (e: JSONException){
+                    println("Inside json exception of on response of request to pay")
+                    transactionStatusListener.onTransactionFailed()
 
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
                 }
 
             }
@@ -139,7 +161,8 @@ class MomoPayService(private val context: Context) {
         })
     }
 
-    fun checkTransactionStatus(transaction: TransactionStatus){
+
+    fun checkTransactionStatus(transaction: TransactionStatus, transactionStatusListener: TransactionStatusListener){
 
         val request: Request = Request.Builder()
             .url("${MCQConstants.TRANSACTION_STATUS_URL}${transaction.refId}/")
@@ -149,8 +172,9 @@ class MomoPayService(private val context: Context) {
 
         client.newCall(request).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) {
-//
-                transactionStatus.postValue(TransactionStatus(status = FAILED))
+                transactionStatusListener.onTransactionFailed()
+//                println("Inside checking transaction status onFailure, ${e.message}")
+//                transactionStatus.postValue(TransactionStatus(status = FAILED))
 //
             }
 
@@ -159,36 +183,64 @@ class MomoPayService(private val context: Context) {
                     val responseBody = response.body?.string()
                     val jsonResponse = JSONObject(responseBody!!)
                     transaction.status = jsonResponse[STATUS].toString()
-                    transactionStatus.postValue(TransactionStatus(status = transaction.status))
+//                    println(transaction.status)
+                    when(jsonResponse[STATUS].toString()){
+                        MCQConstants.PENDING -> {
+                            transactionStatusListener.onTransactionPending()
+                        }
+                        MCQConstants.SUCCESSFUL -> {
 
-                    println(transaction.status)
+                            transactionStatusListener.onTransactionSuccessful()
+                        }
+                        MCQConstants.FAILED -> {
+//                            println("Failed Inside checking transaction status")
+                            transactionStatusListener.onTransactionFailed()
+
+                        }
+                    }
+
+
+//                    transactionStatus.postValue(TransactionStatus(status = transaction.status))
+
+//                    println(transaction.status)
                 }catch (e: JSONException){
 //                    isTransactionSuccessful.postValue(false)
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
-                    println("failed checking transaction status ...... $transaction due to ${e.message}")
+                    transactionStatusListener.onTransactionFailed()
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                    println("failed checking transaction status ...... $transaction due to ${e.message}")
                 }
             }
 
         })
+
     }
 
-    private fun testUpdateTransactionSuccessful() {
+    private fun testUpdateTransactionSuccessful(transactionStatusListener: TransactionStatusListener) {
         isTransactionSuccessful.value = true
         transactionStatus.value = TransactionStatus(status = SUCCESSFUL)
+        transactionStatusListener.onTransactionSuccessful()
     }
 
-    fun getTransactionStatus(): LiveData<TransactionStatus> {
-        return transactionStatus
-    }
-
-    fun getIsTransactionSuccessful(): LiveData<Boolean?>{
-        return isTransactionSuccessful
-    }
+//    fun getTransactionStatus(): LiveData<TransactionStatus> {
+//        return transactionStatus
+//    }
+//
+//    fun getIsTransactionSuccessful(): LiveData<Boolean?>{
+//        return isTransactionSuccessful
+//    }
 
     fun reset() {
         isTransactionSuccessful.postValue(null)
         transactionStatus.postValue(TransactionStatus())
         subscriptionFormData = null
+    }
+
+    interface TransactionStatusListener{
+        fun onTransactionTokenAvailable(token: String?)
+        fun onTransactionIdAvailable(transactionId: String?)
+        fun onTransactionPending()
+        fun onTransactionFailed()
+        fun onTransactionSuccessful()
     }
 
 

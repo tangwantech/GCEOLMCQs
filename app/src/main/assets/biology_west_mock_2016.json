@@ -21,7 +21,8 @@
             "Maggot",
             "Imago"
           ],
-          "wordAnswer": "Maggot"
+          "wordAnswer": "Maggot",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Culex",
             "Tsetse-fly"
           ],
-          "wordAnswer": "Anopheles"
+          "wordAnswer": "Anopheles",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "sends out urine through the ureter.",
             "stores urine permanently."
           ],
-          "wordAnswer": "receives urine from the ureter."
+          "wordAnswer": "receives urine from the ureter.",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "the maintenance of a constant internal environment of the body.",
             "the maintenance of a constant internal and external environment of the body."
           ],
-          "wordAnswer": "the maintenance of a constant internal environment of the body."
+          "wordAnswer": "the maintenance of a constant internal environment of the body.",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Pollution by heavy metals.",
             "Fertilizers washed from farm lands."
           ],
-          "wordAnswer": "Fertilizers washed from farm lands."
+          "wordAnswer": "Fertilizers washed from farm lands.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Oxytocin",
             "LH"
           ],
-          "wordAnswer": "Progesterone"
+          "wordAnswer": "Progesterone",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "carbon dioxide",
             "carbohydrate"
           ],
-          "wordAnswer": "carbon dioxide"
+          "wordAnswer": "carbon dioxide",
+          "explanation": null
         },
         {
           "questionNumber": "8",
@@ -119,7 +126,8 @@
             "increase blood supply.",
             "generate heat."
           ],
-          "wordAnswer": "generate heat."
+          "wordAnswer": "generate heat.",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -133,7 +141,8 @@
             "Amnion",
             "Umbilical cord"
           ],
-          "wordAnswer": "Placenta"
+          "wordAnswer": "Placenta",
+          "explanation": null
         }
       ]
     },
@@ -154,7 +163,8 @@
             "5",
             "8"
           ],
-          "wordAnswer": "8"
+          "wordAnswer": "8",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "6",
             "7"
           ],
-          "wordAnswer": "6"
+          "wordAnswer": "6",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "6",
             "7"
           ],
-          "wordAnswer": "4"
+          "wordAnswer": "4",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "1"
+          "wordAnswer": "1",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "4"
+          "wordAnswer": "4",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "2"
+          "wordAnswer": "2",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Hypogeal germination.",
             "Epigeal germination."
           ],
-          "wordAnswer": "Epigeal germination."
+          "wordAnswer": "Epigeal germination.",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Q and R",
             "P and R"
           ],
-          "wordAnswer": "Q and R"
+          "wordAnswer": "Q and R",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "O and Q",
             "P and R"
           ],
-          "wordAnswer": "O and P"
+          "wordAnswer": "O and P",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Light enters through the eye.",
             "Water enters through T."
           ],
-          "wordAnswer": "Water enters through T."
+          "wordAnswer": "Water enters through T.",
+          "explanation": null
         }
       ]
     },
@@ -305,7 +324,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "21",
@@ -323,7 +343,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -341,7 +362,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -359,7 +381,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -377,7 +400,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -395,7 +419,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "26",
@@ -413,7 +438,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -431,7 +457,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         }
       ]
     },
@@ -455,7 +482,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -472,7 +500,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -489,7 +518,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "31",
@@ -506,7 +536,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -523,7 +554,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -540,7 +572,8 @@
             "First statement is False. Second statement is True",
             "Both statements are false"
           ],
-          "wordAnswer": "Both statements are false"
+          "wordAnswer": "Both statements are false",
+          "explanation": null
         }
       ]
     },
@@ -561,7 +594,8 @@
             "Cerebellum",
             "Medulla oblongata"
           ],
-          "wordAnswer": "Medulla oblongata"
+          "wordAnswer": "Medulla oblongata",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -575,7 +609,8 @@
             "Cerebellum",
             "Medulla oblongata"
           ],
-          "wordAnswer": "Forebrain"
+          "wordAnswer": "Forebrain",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -589,7 +624,8 @@
             "Cerebellum",
             "Medulla oblongata"
           ],
-          "wordAnswer": "Cerebellum"
+          "wordAnswer": "Cerebellum",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -603,7 +639,8 @@
             "Cerebellum",
             "Medulla oblongata"
           ],
-          "wordAnswer": "Medulla oblongata"
+          "wordAnswer": "Medulla oblongata",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -617,7 +654,8 @@
             "Trypsin",
             "Stomach"
           ],
-          "wordAnswer": "Stomach"
+          "wordAnswer": "Stomach",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -631,7 +669,8 @@
             "Trypsin",
             "Stomach"
           ],
-          "wordAnswer": "Enzymes"
+          "wordAnswer": "Enzymes",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -645,7 +684,8 @@
             "Trypsin",
             "Stomach"
           ],
-          "wordAnswer": "Rickets"
+          "wordAnswer": "Rickets",
+          "explanation": null
         },
         {
           "questionNumber": "41",
@@ -659,7 +699,8 @@
             "Trypsin",
             "Stomach"
           ],
-          "wordAnswer": "Trypsin"
+          "wordAnswer": "Trypsin",
+          "explanation": null
         }
       ]
     },
@@ -680,7 +721,8 @@
             "To kill the protoplasm and make the leaf permeable.",
             "To make enzymes to act fast."
           ],
-          "wordAnswer": "To kill the protoplasm and make the leaf permeable."
+          "wordAnswer": "To kill the protoplasm and make the leaf permeable.",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -694,7 +736,8 @@
             "To soften the leaf.",
             "To stop all chemical reactions."
           ],
-          "wordAnswer": "To remove chlorophyll from the leaf."
+          "wordAnswer": "To remove chlorophyll from the leaf.",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -708,7 +751,8 @@
             "To test the leaf for starch.",
             "To test the leaf for protein."
           ],
-          "wordAnswer": "To test the leaf for starch."
+          "wordAnswer": "To test the leaf for starch.",
+          "explanation": null
         },
 
         {
@@ -723,7 +767,8 @@
             "Proteins",
             "Alcohol"
           ],
-          "wordAnswer": "Starch"
+          "wordAnswer": "Starch",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -737,7 +782,8 @@
             "Cold water",
             "Hot water"
           ],
-          "wordAnswer": "Iodine"
+          "wordAnswer": "Iodine",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -751,7 +797,8 @@
             "12 cm3",
             "16 cm3"
           ],
-          "wordAnswer": "12 cm3"
+          "wordAnswer": "12 cm3",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -765,7 +812,8 @@
             "30 mins",
             "0 mins"
           ],
-          "wordAnswer": "20 mins"
+          "wordAnswer": "20 mins",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -779,7 +827,8 @@
             "Sodium hydroxide",
             "Methyl blue"
           ],
-          "wordAnswer": "Lime water"
+          "wordAnswer": "Lime water",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -793,7 +842,8 @@
             "Nucleus",
             "Lungs"
           ],
-          "wordAnswer": "Mitochondrion"
+          "wordAnswer": "Mitochondrion",
+          "explanation": null
         }
       ]
     }

@@ -17,14 +17,13 @@
             android:id="@+id/tvRequestToPayTitle"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_minimum_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/margin_12"
+            android:paddingRight="@dimen/margin_12"
             android:text="@string/pending_transaction"
             android:textSize="@dimen/text_size_16"
-            android:gravity="center_vertical"
             android:textStyle="bold"
-            android:background="@color/color_secondary_dark"
-            android:textColor="@color/design_default_color_on_primary"
-            android:paddingLeft="@dimen/margin_12"
-            android:paddingRight="@dimen/margin_12"/>
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

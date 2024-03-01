@@ -9,17 +9,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/homeTab"
-        app:tabTextAppearance="@style/CustomTabStyle"
-        android:background="@color/color_primary"
-        app:tabIndicatorColor="@color/color_secondary"
-        app:tabTextColor="@color/color_on_primary"
-        app:tabGravity="fill"
-        app:tabIndicatorFullWidth="true"
-        app:tabInlineLabel="true"
-        app:tabMode="fixed"
-        app:tabSelectedTextColor="@color/color_secondary"
-
+        style="@style/CustomTabStyle"
         />
+<!--    app:tabTextAppearance="@style/CustomTabStyle"-->
+<!--    android:background="@color/color_primary"-->
+<!--    app:tabIndicatorColor="@color/color_secondary"-->
+<!--    app:tabTextColor="@color/color_on_primary"-->
+<!--    app:tabGravity="fill"-->
+<!--    app:tabIndicatorFullWidth="true"-->
+<!--    app:tabInlineLabel="true"-->
+<!--    app:tabMode="fixed"-->
+<!--    app:tabSelectedTextColor="@color/color_secondary"-->
 <!--    app:tabIndicatorGravity="center"-->
 <!--    app:tabIndicatorHeight="40dp"-->
 <!--    app:tabIndicator="@drawable/tab_indicator"-->

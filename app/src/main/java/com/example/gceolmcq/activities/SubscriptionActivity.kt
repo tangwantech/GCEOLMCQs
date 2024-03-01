@@ -3,26 +3,33 @@ package com.example.gceolmcq.activities
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.provider.Settings
+import android.view.LayoutInflater
+import android.view.MenuItem
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.doOnTextChanged
+import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.MomoPayService
 
 import com.example.gceolmcq.R
+import com.example.gceolmcq.datamodels.PackageData
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
+import com.example.gceolmcq.fragments.PackagesDialogFragment
 import com.example.gceolmcq.fragments.SubscriptionFormDialogFragment
 
 //import com.example.gceolmcq.momoPay.MomoPayService
 import com.example.gceolmcq.viewmodels.SubscriptionActivityViewModel
+import com.google.android.material.textfield.TextInputEditText
 import kotlinx.coroutines.*
 
-abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialogFragment.OnPayButtonClickListener{
-
+abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialogFragment.SubscriptionFormButtonClickListener, PackagesDialogFragment.PackageDialogListener{
+    private val SUBCRIPTION_ACTIVITY = "subscriptionActivity"
     private var processingAlertDialog: AlertDialog? = null
     private var requestToPayDialog: AlertDialog? = null
     private var failedToActivatePackageDialog: AlertDialog? = null
@@ -30,14 +37,19 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     private var packageActivatedDialog: AlertDialog? = null
     private var paymentReceivedDialog: AlertDialog? = null
     private var activatingTrialPackageDialog: AlertDialog? = null
+//    private var packagesDialog: DialogFragment? = null
 
     private lateinit var viewModel: SubscriptionActivityViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setupViewModel()
         setupViewObservers()
+//        resumeTransaction()
+    }
+
+    open override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return super.onOptionsItemSelected(item)
     }
 
 
@@ -46,7 +58,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         viewModel.setRepositoryLink(this, getMobileID())
         viewModel.setMobileId(getMobileID())
         viewModel.setMomoPayService(MomoPayService(this))
-        viewModel.initMomoPay2(com.example.gceolmcq.momoPay.MomoPayService(this))
+
     }
 
     private fun setupViewObservers() {
@@ -73,18 +85,19 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         viewModel.getRemoteRepoErrorEncountered().observe(this){
             println("Error encountered: $it")
         }
-
-
-        setMomoPayFlow1()
-
-//        setupMomoPayFlow2()
+        setMomoPayFlow()
 
     }
 
-    private fun setMomoPayFlow1(){
-        viewModel.getTransactionStatus().observe(this) {
+    private fun setMomoPayFlow(){
+//        viewModel.getTransactionStatus().observe(this)
 
-            it.status?.let{status ->
+        viewModel.currentTransaction.observe(this){
+            setCurrentTransactionSharedPref(it)
+        }
+        viewModel.transactionStatus.observe(this) {
+//            it.status?.let
+            it?.let{status ->
                 when(status) {
                     MCQConstants.PENDING -> {
                         if (processingAlertDialog != null){
@@ -97,14 +110,22 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
                         if (requestToPayDialog == null){
                             showRequestUserToPayDialog()
                         }
-
-
-
+                        updateCurrentTransactionSharedPref(getCurrentTransactionFromSharedPref(), MCQConstants.PENDING, false)
                     }
                     MCQConstants.SUCCESSFUL -> {
                         cancelProcessingAndRequestToPayDialogs()
+//                        if (processingAlertDialog != null){
+//                            cancelProcessingRequestDialog()
+//                        }
+//                        if (requestToPayDialog != null){
+//                            cancelRequestToPayDialog()
+//                        }
+
                         if(paymentReceivedDialog == null){
                             showPaymentReceivedDialog()
+                        }
+                        if (failedToActivatePackageDialog != null){
+                            cancelFailedToActivateDialog()
                         }
 
                         CoroutineScope(Dispatchers.IO).launch {
@@ -122,8 +143,15 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
                     }
                     MCQConstants.FAILED -> {
                         cancelProcessingAndRequestToPayDialogs()
+//                        if (processingAlertDialog != null){
+//                            cancelProcessingRequestDialog()
+//                        }
+//                        if (requestToPayDialog != null){
+//                            cancelRequestToPayDialog()
+//                        }
                         if(failedToActivatePackageDialog == null){
                             showTransactionFailedDialog()
+                            updateCurrentTransactionSharedPref(getCurrentTransactionFromSharedPref(), MCQConstants.FAILED, false)
                             resetMomoPayService()
                         }
                     }
@@ -142,91 +170,6 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         }
     }
 
-
-
-    private fun setupMomoPayFlow2(){
-        viewModel.getToken().observe(this){token ->
-            println("is token available.....")
-            if(token != null){
-                if (processingAlertDialog != null){
-                    cancelProcessingRequestDialog()
-                }
-                viewModel.pay()
-
-            }else{
-                if (processingAlertDialog != null){
-                    cancelProcessingRequestDialog()
-                }
-                if(failedToActivatePackageDialog == null){
-                    showTransactionFailedDialog()
-                    resetMomoPayService()
-                }
-
-            }
-        }
-        viewModel.getTransactionId().observe(this){transactionId ->
-            if(transactionId != null){
-                if (requestToPayDialog == null){
-                    showRequestUserToPayDialog()
-                }
-                viewModel.checkTransactionStatus()
-            }else{
-                if(failedToActivatePackageDialog == null){
-                    showTransactionFailedDialog()
-                    resetMomoPayService()
-                }
-            }
-        }
-        viewModel.getTransactionStatusChanged().observe(this){transactionStatus ->
-            println(transactionStatus)
-            if (transactionStatus != null){
-                when(transactionStatus) {
-//                    MCQConstants.PENDING -> {
-//                        if (processingAlertDialog != null){
-//                            cancelProcessingRequestDialog()
-//                        }
-//
-//                        if (requestToPayDialog == null){
-//                            showRequestUserToPayDialog()
-//                        }
-//
-//
-//
-//                    }
-                    MCQConstants.SUCCESSFUL -> {
-                        cancelProcessingAndRequestToPayDialogs()
-                        if(paymentReceivedDialog == null){
-                            showPaymentReceivedDialog()
-                        }
-
-                        CoroutineScope(Dispatchers.IO).launch {
-                            delay(2000)
-                            withContext(Dispatchers.Main){
-                                if(paymentReceivedDialog != null){
-                                    cancelPaymentReceivedDialog()
-                                }
-                                if(activatingPackageDialog == null){
-                                    showActivatingPackageDialog()
-                                    activateUserPackage()
-                                }
-                            }
-                        }
-                    }
-                    MCQConstants.FAILED -> {
-                        cancelProcessingAndRequestToPayDialogs()
-                        if(failedToActivatePackageDialog == null){
-                            showTransactionFailedDialog()
-                            resetMomoPayService()
-                        }
-                    }
-                }
-
-            }else{
-                cancelProcessingAndRequestToPayDialogs()
-                Toast.makeText(this, "Failed to activate package due to no internet connection", Toast.LENGTH_LONG).show()
-            }
-        }
-    }
 
     open fun showPackageExpiredDialog(){
         val alertDialog = AlertDialog.Builder(this)
@@ -267,10 +210,11 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         activatingPackageDialog = null
     }
 
-    private fun showSubscriptionForm(position: Int, subjectName: String) {
+    private fun showSubscriptionForm(position: Int, subjectName: String, packageData: PackageData?) {
         val subscriptionFormDialogFragment = SubscriptionFormDialogFragment.newInstance(
             position,
-            subjectName
+            subjectName,
+            packageData
         )
         subscriptionFormDialogFragment.isCancelable = false
         subscriptionFormDialogFragment.show(supportFragmentManager, "subscription_form_dialog")
@@ -279,6 +223,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     private fun showRequestUserToPayDialog() {
 
         val dialogView = layoutInflater.inflate(R.layout.fragment_request_to_pay, null)
+        val tvRequestToPayTitle: TextView = dialogView.findViewById(R.id.tvRequestToPayTitle)
         val tvRequestToPayMessage: TextView = dialogView.findViewById(R.id.tvRequestToPayMessage)
         val tvRequestToPaySubject: TextView =
             dialogView.findViewById(R.id.tvRequestToPaySubject)
@@ -287,9 +232,12 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         val tvRequestToPayPackagePrice: TextView =
             dialogView.findViewById(R.id.tvRequestToPayAmount)
 
-        if (viewModel.subscriptionData.value?.momoPartner == "${resources.getStringArray(R.array.momo_partners)[0]}") {
+        if (viewModel.subscriptionData.value?.momoPartner == MCQConstants.MTN) {
+            tvRequestToPayTitle.setBackgroundColor(resources.getColor(R.color.mtn))
             tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
+
         } else {
+            tvRequestToPayTitle.setBackgroundColor(resources.getColor(R.color.orange))
             tvRequestToPayMessage.text = resources.getString(R.string.orange_request_to_pay_message)
         }
 
@@ -334,10 +282,11 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         val packageActivatedDialog = AlertDialog.Builder(this).apply {
             setView(view)
             setPositiveButton("Ok"){ _, _ ->
-//            packageActivatedDialog = null
+            packageActivatedDialog = null
             }
         }.create()
         packageActivatedDialog.show()
+        updateCurrentTransactionSharedPref(getCurrentTransactionFromSharedPref(), MCQConstants.SUCCESSFUL, true)
 
     }
 
@@ -352,7 +301,8 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         failedToActivatePackageDialog?.setView(view)
         failedToActivatePackageDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "Ok") { _, _ ->
 //            d.dismiss()
-            failedToActivatePackageDialog = null
+//            failedToActivatePackageDialog = null
+            cancelFailedToActivateDialog()
 
         }
         failedToActivatePackageDialog?.show()
@@ -387,6 +337,67 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         activatingTrialPackageDialog = null
     }
 
+    private fun displayInvoice(subscriptionData: SubscriptionFormData){
+        val view = LayoutInflater.from(this).inflate(R.layout.subscription_summary_layout, null)
+        val subjectName: TextView = view.findViewById(R.id.invoiceSubjectNameTv)
+        val packageName: TextView = view.findViewById(R.id.invoicePackageNameTv)
+        val packagePrice: TextView = view.findViewById(R.id.invoicePackagePriceTv)
+        val momoNumber: TextView = view.findViewById(R.id.invoiceMomoNumberTv)
+
+        subjectName.text = "${subscriptionData.subject}"
+        packageName.text = "${subscriptionData.packageType}"
+        packagePrice.text = "${subscriptionData.packagePrice} FCFA"
+        momoNumber.text = "${subscriptionData.momoNumber}"
+        val dialog = AlertDialog.Builder(this)
+        dialog.apply{
+            setMessage(resources.getString(R.string.verify_payment_info))
+            setView(view)
+            setCancelable(false)
+            setPositiveButton(resources.getString(R.string.pay)  ){btn, _ ->
+                viewModel.setSubscriptionData(subscriptionData)
+                showProcessingRequestDialog()
+                viewModel.initiatePayment()
+                btn.dismiss()
+            }
+            setNegativeButton(resources.getString(R.string.cancel)){btn, _ ->
+                btn.dismiss()
+            }
+        }.create()
+        dialog.show()
+    }
+
+    private fun displayPackagesDialog(){
+        val packagesDialog = PackagesDialogFragment.newInstance()
+        packagesDialog.show(supportFragmentManager, null)
+    }
+
+    private fun displayEnterMomoNumberDialog(subscriptionFormData: SubscriptionFormData){
+        val view = layoutInflater.inflate(R.layout.momo_number_dialog, null)
+        val etMoMoNumber: TextInputEditText = view.findViewById(R.id.etMomoNumber)
+        val dialog = AlertDialog.Builder(this).create()
+        dialog.setTitle(resources.getString(R.string.enter_number))
+        dialog.setView(view)
+        dialog.setCancelable(false)
+        dialog.setButton(AlertDialog.BUTTON_POSITIVE, resources.getString(R.string.next)){_, _ ->
+            displayInvoice(subscriptionFormData)
+        }
+        dialog.setButton(AlertDialog.BUTTON_NEGATIVE,resources.getString(R.string.cancel)){_, _ ->}
+        dialog.show()
+
+        val btnPositive = dialog.getButton(AlertDialog.BUTTON_POSITIVE)
+        btnPositive.isEnabled = false
+
+        etMoMoNumber.doOnTextChanged { text, _, _, _ ->
+            if(text.toString().isNotEmpty() && text.toString().length == 9){
+                subscriptionFormData.momoNumber = text.toString()
+                btnPositive.isEnabled = true
+
+            }else{
+                btnPositive.isEnabled = false
+            }
+        }
+    }
+
     private fun activateUserPackage() {
         viewModel.activateSubjectPackage()
     }
@@ -399,23 +410,21 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         return viewModel.getIndexOfActivatedPackage()
     }
 
-    override fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData) {
-        viewModel.setSubscriptionData(subscriptionFormData)
-        showProcessingRequestDialog()
-//        viewModel.generateToken(com.example.gceolmcq.momoPay.MomoPayService(this))
-//        viewModel.testPay()
-
-        viewModel.initiatePayment()
+    override fun onSubscriptionFormNextButtonClicked(subscriptionFormData: SubscriptionFormData) {
+        displayEnterMomoNumberDialog(subscriptionFormData)
+//        displayInvoice(subscriptionFormData)
     }
+
+
 
     private fun resetMomoPayService() {
         viewModel.restMomoPayService()
-        viewModel.initMomoPay2(com.example.gceolmcq.momoPay.MomoPayService(this))
     }
 
     fun setSubjectPackageDataToActivate(position: Int, subjectPackageData: SubjectPackageData){
         viewModel.setSubjectPackageDataToActivate(subjectPackageData)
-        showSubscriptionForm(position, subjectPackageData.subjectName!!)
+//        showSubscriptionForm(position, subjectPackageData.subjectName!!)
+        displayPackagesDialog()
     }
 
     fun getActivatedSubjectPackageData(): SubjectPackageData{
@@ -439,4 +448,100 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     fun getMobileID(): String {
         return Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
     }
+
+    private fun setCurrentTransactionSharedPref(bundle: Bundle?){
+        val pref = getSharedPreferences(SUBCRIPTION_ACTIVITY, MODE_PRIVATE)
+        pref.edit().apply {
+            putInt(MCQConstants.SUBJECT_INDEX, bundle?.getInt(MCQConstants.SUBJECT_INDEX, 0)!!)
+            putString(MCQConstants.SUBJECT_NAME, bundle.getString(MCQConstants.SUBJECT_NAME))
+            putInt(MCQConstants.PACKAGE_DURATION, bundle.getInt(MCQConstants.PACKAGE_DURATION))
+            putString(MCQConstants.PACKAGE_NAME, bundle.getString(MCQConstants.PACKAGE_NAME))
+            putString(MCQConstants.PACKAGE_PRICE, bundle.getString(MCQConstants.PACKAGE_PRICE))
+            putString(MCQConstants.MOMO_PARTNER, bundle.getString(MCQConstants.MOMO_PARTNER))
+            putBoolean(MCQConstants.IS_ACTIVE, bundle.getBoolean(MCQConstants.IS_ACTIVE))
+            putString(MCQConstants.TOKEN, bundle.getString(MCQConstants.TOKEN))
+            putString(MCQConstants.TRANSACTION_ID, bundle.getString(MCQConstants.TRANSACTION_ID))
+            putString(MCQConstants.TRANSACTION_STATUS, bundle.getString(MCQConstants.TRANSACTION_STATUS))
+            apply()
+        }
+    }
+
+    private fun updateCurrentTransactionSharedPref(bundle: Bundle?, transactionStatus: String, isPackageActive: Boolean){
+        val pref = getSharedPreferences(SUBCRIPTION_ACTIVITY, MODE_PRIVATE)
+        pref.edit().apply {
+            putInt(MCQConstants.SUBJECT_INDEX, bundle?.getInt(MCQConstants.SUBJECT_INDEX, 0)!!)
+            putString(MCQConstants.SUBJECT_NAME, bundle.getString(MCQConstants.SUBJECT_NAME))
+            putInt(MCQConstants.PACKAGE_DURATION, bundle.getInt(MCQConstants.PACKAGE_DURATION))
+            putString(MCQConstants.PACKAGE_NAME, bundle.getString(MCQConstants.PACKAGE_NAME))
+            putString(MCQConstants.PACKAGE_PRICE, bundle.getString(MCQConstants.PACKAGE_PRICE))
+            putString(MCQConstants.MOMO_PARTNER, bundle.getString(MCQConstants.MOMO_PARTNER))
+            putBoolean(MCQConstants.IS_ACTIVE, isPackageActive)
+            putString(MCQConstants.TOKEN, bundle.getString(MCQConstants.TOKEN))
+            putString(MCQConstants.TRANSACTION_ID, bundle.getString(MCQConstants.TRANSACTION_ID))
+            putString(MCQConstants.TRANSACTION_STATUS, transactionStatus)
+            apply()
+        }
+    }
+
+    private fun getCurrentTransactionFromSharedPref():Bundle{
+        val pref = getSharedPreferences(SUBCRIPTION_ACTIVITY, MODE_PRIVATE)
+        val bundle = Bundle().apply {
+            putInt(MCQConstants.SUBJECT_INDEX, pref.getInt(MCQConstants.SUBJECT_INDEX, 0))
+            putString(MCQConstants.SUBJECT_NAME, pref.getString(MCQConstants.SUBJECT_NAME, null))
+            putString(MCQConstants.PACKAGE_NAME, pref.getString(MCQConstants.PACKAGE_NAME, null))
+            putInt(MCQConstants.PACKAGE_DURATION, pref.getInt(MCQConstants.PACKAGE_DURATION, 0))
+            putString(MCQConstants.PACKAGE_PRICE, pref.getString(MCQConstants.PACKAGE_PRICE, null))
+            putString(MCQConstants.MOMO_PARTNER, pref.getString(MCQConstants.MOMO_PARTNER, null))
+            putBoolean(MCQConstants.IS_ACTIVE, pref.getBoolean(MCQConstants.IS_ACTIVE, false))
+            putString(MCQConstants.TOKEN, pref.getString(MCQConstants.TOKEN, null))
+            putString(MCQConstants.TRANSACTION_ID, pref.getString(MCQConstants.TRANSACTION_ID, null))
+            putString(MCQConstants.TRANSACTION_STATUS, pref.getString(MCQConstants.TRANSACTION_STATUS, null))
+        }
+        return bundle
+    }
+
+    private fun paymentBackup(bundle: Bundle){
+        val subscriptionFormData = SubscriptionFormData().apply {
+            subjectPosition = bundle.getInt(MCQConstants.SUBJECT_INDEX)
+            subject = bundle.getString(MCQConstants.SUBJECT_NAME)
+            packageType = bundle.getString(MCQConstants.PACKAGE_NAME)
+            packageDuration = bundle.getInt(MCQConstants.PACKAGE_DURATION)
+            packagePrice = bundle.getString(MCQConstants.PACKAGE_PRICE)
+            momoPartner = bundle.getString(MCQConstants.MOMO_PARTNER)
+        }
+
+        val tokenTransactionIdBundle: Bundle = Bundle().apply {
+            putString(MCQConstants.TOKEN, bundle.getString(MCQConstants.TOKEN))
+            putString(MCQConstants.TRANSACTION_ID, bundle.getString(MCQConstants.TRANSACTION_ID))
+        }
+
+        viewModel.setSubscriptionData(subscriptionFormData)
+        showProcessingRequestDialog()
+        viewModel.initiatePayment(tokenTransactionIdBundle = tokenTransactionIdBundle)
+
+    }
+
+
+    private fun resumeTransaction(){
+        val bundle = getCurrentTransactionFromSharedPref()
+        val currentTransactionStatus = bundle.getString(MCQConstants.TRANSACTION_STATUS)
+        val packageStatus = bundle.getBoolean(MCQConstants.IS_ACTIVE)
+        println(currentTransactionStatus)
+        if(currentTransactionStatus == MCQConstants.PENDING){
+            if(!packageStatus){
+                paymentBackup(bundle)
+            }
+        }
+    }
+
+    override fun onPackageDialogNextButtonClicked(packageData: PackageData?) {
+        showSubscriptionForm(viewModel.subjectPackageDataToActivated.value?.subjectIndex!!, viewModel.subjectPackageDataToActivated.value?.subjectName!!, packageData)
+        println(packageData)
+
+    }
+
+    override fun onPackageDialogCancelButtonClicked() {
+//        packagesDialog = null
+    }
+
 }

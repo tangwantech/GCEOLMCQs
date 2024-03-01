@@ -2,8 +2,6 @@ package com.example.gceolmcq.fragments
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.content.res.ColorStateList
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -82,11 +80,11 @@ class SectionFragment : Fragment(), OnClickListener {
 
     private var isPositiveBtnClicked = false
 
-    private var preLayoutOption: LinearLayout? = null
-    private var currentLayoutOption: LinearLayout? = null
-
-    private var background: Drawable? = null
-    private var textColor: ColorStateList? = null
+//    private var preLayoutOption: LinearLayout? = null
+//    private var currentLayoutOption: LinearLayout? = null
+//
+//    private var background: Drawable? = null
+//    private var textColor: ColorStateList? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -147,7 +145,8 @@ class SectionFragment : Fragment(), OnClickListener {
     }
 
     private fun saveDirectionsCheckBoxState(state: Boolean){
-        val pref = requireActivity().getSharedPreferences("${viewModel.getSectionIndex()}",
+        val pref = requireActivity().getSharedPreferences(
+            viewModel.getSectionIndex(),
             AppCompatActivity.MODE_PRIVATE
         )
         pref.edit().apply{
@@ -157,7 +156,7 @@ class SectionFragment : Fragment(), OnClickListener {
 
     private fun getDirectionsCheckBoxState(): Boolean {
         val pref = requireActivity().getSharedPreferences(
-            "${viewModel.getSectionIndex()}",
+            viewModel.getSectionIndex(),
             AppCompatActivity.MODE_PRIVATE
         )
         return pref.getBoolean("checkState", false)
@@ -177,21 +176,21 @@ class SectionFragment : Fragment(), OnClickListener {
 
     @SuppressLint("SetTextI18n")
     private fun setupViewObservers(){
-        viewModel.getTimeRemaining().observe(viewLifecycleOwner, Observer {
+        viewModel.getTimeRemaining().observe(viewLifecycleOwner){
             tvTimer.text =
                 "${it.minute.toString().padStart(2, '0')}:${it.second.toString().padStart(2, '0')}"
 
-        })
+        }
 
-        viewModel.getIsTimeAlmostOut().observe(viewLifecycleOwner, Observer {
+        viewModel.getIsTimeAlmostOut().observe(viewLifecycleOwner){
             if(it){
 //                tvTimer.setTextColor(requireContext().resources.getColor(R.color.color_accent))
                 tvTimer.startAnimation(fadeInOut)
             }
 
-        })
+        }
 
-        viewModel.getIsTimeOut().observe(viewLifecycleOwner, Observer {
+        viewModel.getIsTimeOut().observe(viewLifecycleOwner){
             if(it){
                 val alertDialog = AlertDialog.Builder(requireContext())
                 alertDialog.apply {
@@ -206,7 +205,7 @@ class SectionFragment : Fragment(), OnClickListener {
                 btnNextQuestion.isEnabled = false
             }
 
-        })
+        }
 
 
         viewModel.getQuestionIndex()
@@ -418,21 +417,35 @@ class SectionFragment : Fragment(), OnClickListener {
 
                 onRequestToGoToResultListener.onRequestToGoToResult(viewModel.getSectionResultData())
             }
-            R.id.layoutOption1, R.id.layoutOption2, R.id.layoutOption3, R.id.layoutOption4 -> {
-                when (p0.id) {
-                    R.id.layoutOption1 -> {
-                        updateOptionSelected(p0,0)
-                    }
-                    R.id.layoutOption2 -> {
-                        updateOptionSelected(p0, 1)
-                    }
-                    R.id.layoutOption3 -> {
-                        updateOptionSelected(p0, 2)
-                    }
-                    R.id.layoutOption4 -> {
-                        updateOptionSelected(p0, 3)
-                    }
-                }
+//            R.id.layoutOption1, R.id.layoutOption2, R.id.layoutOption3, R.id.layoutOption4 -> {
+//                when (p0.id) {
+//                    R.id.layoutOption1 -> {
+//
+//                        updateOptionSelected(p0,0)
+//                    }
+//                    R.id.layoutOption2 -> {
+//                        updateOptionSelected(p0, 1)
+//                    }
+//                    R.id.layoutOption3 -> {
+//                        updateOptionSelected(p0, 2)
+//                    }
+//                    R.id.layoutOption4 -> {
+//                        updateOptionSelected(p0, 3)
+//                    }
+//                }
+//            }
+            R.id.layoutOption1 -> {
+
+                updateOptionSelected(p0,0)
+            }
+            R.id.layoutOption2 -> {
+                updateOptionSelected(p0, 1)
+            }
+            R.id.layoutOption3 -> {
+                updateOptionSelected(p0, 2)
+            }
+            R.id.layoutOption4 -> {
+                updateOptionSelected(p0, 3)
             }
         }
     }
@@ -445,41 +458,47 @@ class SectionFragment : Fragment(), OnClickListener {
     }
 
     private fun updateOptionSelected(view: View, optionSelectedIndex: Int) {
-        viewModel.updateUserSelection(optionSelectedIndex)
+
         changeSelectedQuestionOptionBackground(view, optionSelectedIndex)
 
     }
 
 
     private fun changeSelectedQuestionOptionBackground(view: View, optionSelectedIndex: Int) {
-        if(background == null){
-            background = optionsLayouts[optionSelectedIndex].background
-            textColor = selectableOptions[optionSelectedIndex].textColors
+        viewModel.updateUserSelection(optionSelectedIndex)
+//        if(background == null){
+//            textColor = selectableOptions[optionSelectedIndex].textColors
+////            println("Initial background: $background")
+//
+//
+//
+//        }
+        optionsLayouts.forEachIndexed { index, _ ->
+            if( index != optionSelectedIndex){
+                optionsLayouts[index].background = requireContext().resources.getDrawable(R.drawable.default_background)
+                selectableOptions[index].setTextColor(resources.getColor(androidx.appcompat.R.color.primary_text_default_material_light))
+            }else{
+                optionsLayouts[optionSelectedIndex].background = requireContext().resources.getDrawable(R.drawable.selected_drawable)
+                selectableOptions[optionSelectedIndex].setTextColor(resources.getColor(R.color.primary_text_color))
+            }
 
         }
 
-        optionsLayouts[optionSelectedIndex].background = requireContext().resources.getDrawable(R.drawable.selected_drawable)
 
-
-
-        selectableOptions[optionSelectedIndex].setTextColor(resources.getColor(R.color.primary_text_color))
-
-        viewModel.getIndexPreviousAndCurrentItemOfQuestion().indexPreviousItem?.let {
-
-            optionsLayouts[it].background = background
-            selectableOptions[it].setTextColor(textColor)
-
-        }
+//        println("Initial background2: $background")
 
     }
 
 
     private fun resetSelectedQuestionOptionBackground() {
-        viewModel.getIndexPreviousAndCurrentItemOfQuestion().indexCurrentItem?.let {
-            optionsLayouts[it].background = background
-            selectableOptions[it].setTextColor(textColor)
+//
 
+        optionsLayouts.forEachIndexed { index, _ ->
+            optionsLayouts[index].background = requireContext().resources.getDrawable(R.drawable.default_background)
+            selectableOptions[index].setTextColor(resources.getColor(androidx.appcompat.R.color.primary_text_default_material_light))
         }
+//        background = null
+//        textColor = null
     }
 
 

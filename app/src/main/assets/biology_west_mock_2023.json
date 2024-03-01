@@ -21,7 +21,8 @@
             "Carnivores",
             "Parasites"
           ],
-          "wordAnswer": "Herbivores"
+          "wordAnswer": "Herbivores",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Glycogen",
             "Cellulose"
           ],
-          "wordAnswer": "Chitin"
+          "wordAnswer": "Chitin",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Aa and AA",
             "Aa and Aa"
           ],
-          "wordAnswer": "Aa and Aa"
+          "wordAnswer": "Aa and Aa",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Proteins",
             "Fats"
           ],
-          "wordAnswer": "Reducing sugar"
+          "wordAnswer": "Reducing sugar",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Cytoplasm",
             "Vacuole"
           ],
-          "wordAnswer": "Pyrenoid"
+          "wordAnswer": "Pyrenoid",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Dendrons",
             "Dendrites"
           ],
-          "wordAnswer": "Motor neurons"
+          "wordAnswer": "Motor neurons",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Combustion",
             "Photosynthesis"
           ],
-          "wordAnswer": "Photosynthesis"
+          "wordAnswer": "Photosynthesis",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Pseudopodium",
             "Food vacuole"
           ],
-          "wordAnswer": "Pseudopodium"
+          "wordAnswer": "Pseudopodium",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "3 and 4",
             "4 and 5"
           ],
-          "wordAnswer": "3 and 4"
+          "wordAnswer": "3 and 4",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "2",
             "4"
           ],
-          "wordAnswer": "3"
+          "wordAnswer": "3",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -182,7 +192,8 @@
             "Air bubble",
             "Food vacuole"
           ],
-          "wordAnswer": "Nuclear vacuole"
+          "wordAnswer": "Nuclear vacuole",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +207,8 @@
             "6",
             "5"
           ],
-          "wordAnswer": "1"
+          "wordAnswer": "1",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +222,8 @@
             "The tricuspid valve separates the left atrium and left ventricle",
             "A semi-lunar valve prevents backward flow of blood into the right atrium"
           ],
-          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle"
+          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +237,8 @@
             "2 an 3",
             "3 and 4"
           ],
-          "wordAnswer": "2 and 4"
+          "wordAnswer": "2 and 4",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +252,8 @@
             "3 and 4",
             "5 and 6"
           ],
-          "wordAnswer": "2 and 6"
+          "wordAnswer": "2 and 6",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +267,8 @@
             "Intestine",
             "Gizzard"
           ],
-          "wordAnswer": "Gizzard"
+          "wordAnswer": "Gizzard",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +282,8 @@
             "Ensure that no dust particles enter the xylem",
             "Ensure that water does not leave the xylem"
           ],
-          "wordAnswer": "Ensure that no air bubbles enter the xylem"
+          "wordAnswer": "Ensure that no air bubbles enter the xylem",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +297,8 @@
             "Produce antibodies",
             "Produce synovial fluid"
           ],
-          "wordAnswer": "Produce synovial fluid"
+          "wordAnswer": "Produce synovial fluid",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +312,8 @@
             "Condensation",
             "Precipitation"
           ],
-          "wordAnswer": "Evaporation"
+          "wordAnswer": "Evaporation",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +338,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +357,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +376,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +395,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +414,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +439,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +457,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +475,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +493,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +511,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +533,8 @@
             "Homozygous",
             "Phenotype"
           ],
-          "wordAnswer": "Phenotype"
+          "wordAnswer": "Phenotype",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +548,8 @@
             "Carnivores",
             "Herbivores"
           ],
-          "wordAnswer": "Herbivores"
+          "wordAnswer": "Herbivores",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +563,8 @@
             "Water vapour",
             "Carbon dioxide"
           ],
-          "wordAnswer": "Carbon dioxide"
+          "wordAnswer": "Carbon dioxide",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +578,8 @@
             "Insulin",
             "Thyroxine"
           ],
-          "wordAnswer": "Insulin"
+          "wordAnswer": "Insulin",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +593,8 @@
             "Saprophytic nutrition",
             "Holophytic nutrition"
           ],
-          "wordAnswer": "Saprophytic nutrition"
+          "wordAnswer": "Saprophytic nutrition",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +608,8 @@
             "Nitrification",
             "Decomposition"
           ],
-          "wordAnswer": "Fermentation"
+          "wordAnswer": "Fermentation",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +623,8 @@
             "Brown",
             "Purple or violet"
           ],
-          "wordAnswer": "Purple or violet"
+          "wordAnswer": "Purple or violet",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +638,8 @@
             "Condensation",
             "Evaporation"
           ],
-          "wordAnswer": "Condensation"
+          "wordAnswer": "Condensation",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +653,8 @@
             "Thyroxin",
             "Adrenaline"
           ],
-          "wordAnswer": "Adrenaline"
+          "wordAnswer": "Adrenaline",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +668,8 @@
             "Restriction enzyme",
             "Enterokinase"
           ],
-          "wordAnswer": "Ligase"
+          "wordAnswer": "Ligase",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +690,8 @@
             "Green vegetables",
             "Bean"
           ],
-          "wordAnswer": "Green vegetables"
+          "wordAnswer": "Green vegetables",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +705,8 @@
             "Evaporation of the wine",
             "Anaerobic respiration by bacteria"
           ],
-          "wordAnswer": "Anaerobic respiration by yeast"
+          "wordAnswer": "Anaerobic respiration by yeast",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +720,8 @@
             "3/4",
             "1"
           ],
-          "wordAnswer": "1/4"
+          "wordAnswer": "1/4",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +735,8 @@
             "Contains nitrogen dioxide",
             "Contains carbon dioxide"
           ],
-          "wordAnswer": "Contains carbon dioxide"
+          "wordAnswer": "Contains carbon dioxide",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +750,8 @@
             "Prevent mosquitoes from laying eggs",
             "Eliminate the adult mosquitoes"
           ],
-          "wordAnswer": "Kill mosquito larvae"
+          "wordAnswer": "Kill mosquito larvae",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +765,8 @@
             "Plants convert solar energy into chemical energy",
             "Plants are saprophytic"
           ],
-          "wordAnswer": "Plants convert solar energy into chemical energy"
+          "wordAnswer": "Plants convert solar energy into chemical energy",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +780,8 @@
             "To kill the seeds",
             "To prevent growth of micro-organisms"
           ],
-          "wordAnswer": "To prevent growth of micro-organisms"
+          "wordAnswer": "To prevent growth of micro-organisms",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +795,8 @@
             "To ensure high concentration of auxin on the darker side",
             "To ensure high light intensity"
           ],
-          "wordAnswer": "To ensure equal distribution of auxin"
+          "wordAnswer": "To ensure equal distribution of auxin",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +810,8 @@
             "Plasmolysis",
             "Osmosis"
           ],
-          "wordAnswer": "Osmosis"
+          "wordAnswer": "Osmosis",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +825,8 @@
             "Remove chlorophyll",
             "Harden the leaf"
           ],
-          "wordAnswer": "Remove chlorophyll"
+          "wordAnswer": "Remove chlorophyll",
+          "explanation": null
         }
       ]
     }

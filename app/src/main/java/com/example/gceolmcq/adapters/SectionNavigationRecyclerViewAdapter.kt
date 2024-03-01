@@ -35,7 +35,6 @@ class SectionNavigationRecyclerViewAdapter(
             }
         }
 
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -47,13 +46,11 @@ class SectionNavigationRecyclerViewAdapter(
         holder.tvSectionNavItem.text = listSections[position].getString("sectionName")
         holder.tvSectionNumberOfQuestions.text = "Number of questions: ${listSections[position].getString("numberOfQuestions")}"
 
-
         if(sectionsAnswered[position]){
             val numberOfQuestionsInSection = listSections[position].getString("numberOfQuestions")?.toInt()
             val sectionScore = sectionScores!![position]
             val scorePercentage =(( sectionScore.toDouble() / numberOfQuestionsInSection!!.toDouble()) * 100).toInt()
-            holder.tvSectionNavItem.setTextColor(context.resources.getColor(R.color.color_primary_dark))
-            holder.tvSectionNumberOfQuestions.setTextColor(context.resources.getColor(R.color.color_primary_dark))
+
             holder.scoreLo.visibility = View.VISIBLE
 //            holder.tvSectionScore.visibility = View.VISIBLE
             holder.tvSectionScore.text = "$sectionScore/$numberOfQuestionsInSection"

@@ -1,0 +1,10 @@
+{
+  "packages": [
+    {
+      "packageName": "MCQ 3H",
+      "price": "5",
+      "duration": 3,
+      "isChecked": false
+    }
+  ]
+}

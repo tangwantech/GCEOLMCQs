@@ -21,7 +21,8 @@
             "Kidneys",
             "Muscles"
           ],
-          "wordAnswer": "Liver"
+          "wordAnswer": "Liver",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Osmoregulation",
             "Thermoregulation"
           ],
-          "wordAnswer": "Deamination"
+          "wordAnswer": "Deamination",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Gall bladder",
             "Duodenum"
           ],
-          "wordAnswer": "Pancreas"
+          "wordAnswer": "Pancreas",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Gastrin",
             "Secretin"
           ],
-          "wordAnswer": "Insulin"
+          "wordAnswer": "Insulin",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Gastrin",
             "Secretin"
           ],
-          "wordAnswer": "Glucagon"
+          "wordAnswer": "Glucagon",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Urethra",
             "Collecting duct"
           ],
-          "wordAnswer": "Urethra"
+          "wordAnswer": "Urethra",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Renal vein",
             "Hepatic vein"
           ],
-          "wordAnswer": "Renal vein"
+          "wordAnswer": "Renal vein",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Vaso-constriction of superficial arterioles",
             "Increased blood supply to the liver"
           ],
-          "wordAnswer": "Evaporation of sweat"
+          "wordAnswer": "Evaporation of sweat",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Luteinizing hormone",
             "Antiduiretic hormone"
           ],
-          "wordAnswer": "Antiduiretic hormone"
+          "wordAnswer": "Antiduiretic hormone",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "little or no sweat is produced.",
             "the blood is very concentration."
           ],
-          "wordAnswer": "little or no sweat is produced."
+          "wordAnswer": "little or no sweat is produced.",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,11 +178,12 @@
             "contraction of muscles to generate heat.",
             "blood containing much heat"
           ],
-          "wordAnswer": "contraction of muscles to generate heat."
+          "wordAnswer": "contraction of muscles to generate heat.",
+          "explanation": null
         },
         {
           "questionNumber": "12",
-          "question": "A metabolic waste product in plants",
+          "question": "A metabolic waste product in plants only",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -182,7 +193,8 @@
             "Urea",
             "Oxygen"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Medulla oblongata",
             "kidney"
           ],
-          "wordAnswer": "Hypothalamus"
+          "wordAnswer": "Hypothalamus",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Lungs",
             "Skin"
           ],
-          "wordAnswer": "Lungs"
+          "wordAnswer": "Lungs",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Liver",
             "Skin"
           ],
-          "wordAnswer": "Skin"
+          "wordAnswer": "Skin",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Glucose and blood cells",
             "Water and Urea"
           ],
-          "wordAnswer": "Glucose and blood cells"
+          "wordAnswer": "Glucose and blood cells",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Osmosis",
             "Diffusion"
           ],
-          "wordAnswer": "High Blood pressure"
+          "wordAnswer": "High Blood pressure",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "excretion",
             "secretion"
           ],
-          "wordAnswer": "detoxification"
+          "wordAnswer": "detoxification",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Liver",
             "Lungs"
           ],
-          "wordAnswer": "Liver"
+          "wordAnswer": "Liver",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Sebum",
             "Subcutaneous fat"
           ],
-          "wordAnswer": "Melanin"
+          "wordAnswer": "Melanin",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Homeostasis",
             "Excretion"
           ],
-          "wordAnswer": "Homeostasis"
+          "wordAnswer": "Homeostasis",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Homeostasis",
             "Excretion"
           ],
-          "wordAnswer": "Osmoregulation"
+          "wordAnswer": "Osmoregulation",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Homeostasis",
             "Excretion"
           ],
-          "wordAnswer": "Excretion"
+          "wordAnswer": "Excretion",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Proximal convoluted tubule",
             "Distal convoluted tubule"
           ],
-          "wordAnswer": "Glomerulus"
+          "wordAnswer": "Glomerulus",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Proximal convoluted tubule",
             "Distal convoluted tubule"
           ],
-          "wordAnswer": "Proximal convoluted tubule"
+          "wordAnswer": "Proximal convoluted tubule",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Hepatocyte",
             "Acinar cells"
           ],
-          "wordAnswer": "Nephron"
+          "wordAnswer": "Nephron",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Liver",
             "Pancreas"
           ],
-          "wordAnswer": "Liver"
+          "wordAnswer": "Liver",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Sebum",
             "Malpighian layer"
           ],
-          "wordAnswer": "Subcutaneous fat"
+          "wordAnswer": "Subcutaneous fat",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Malpighian layer",
             "Granular layer"
           ],
-          "wordAnswer": "Malpighian layer"
+          "wordAnswer": "Malpighian layer",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Pancreas",
             "Hypothalamus"
           ],
-          "wordAnswer": "Hypothalamus"
+          "wordAnswer": "Hypothalamus",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Maintenance of pH of body fluids.",
             "Regulation of body temperature."
           ],
-          "wordAnswer": "Regulation of body temperature."
+          "wordAnswer": "Regulation of body temperature.",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "Acts as barrier to the entry of pathogenic micro-organisms.",
             "Screens off harmful ultraviolet radiation."
           ],
-          "wordAnswer": "Maintenance of a constant water and salt content of body fluids."
+          "wordAnswer": "Maintenance of a constant water and salt content of body fluids.",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "Urea",
             "Bile pigments"
           ],
-          "wordAnswer": "Urea"
+          "wordAnswer": "Urea",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "Large volume of dilute urine is produced.",
             "Kidney tubules secrete large amount of H+ ions."
           ],
-          "wordAnswer": "Much water is reabsorbed by the kidney tubules"
+          "wordAnswer": "Much water is reabsorbed by the kidney tubules",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "Increase blood supply",
             "Generate heat."
           ],
-          "wordAnswer": "Generate heat."
+          "wordAnswer": "Generate heat.",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Granular layer",
             "Sebaceous gland"
           ],
-          "wordAnswer": "Cornified layer"
+          "wordAnswer": "Cornified layer",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "Malpighian layer",
             "Subcutaneous layer"
           ],
-          "wordAnswer": "Sebaceous gland"
+          "wordAnswer": "Sebaceous gland",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "Proximal convoluted tubule",
             "Collecting duct"
           ],
-          "wordAnswer": "Glomerulus"
+          "wordAnswer": "Glomerulus",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "Faeces",
             "Carbon dioxide"
           ],
-          "wordAnswer": "Faeces"
+          "wordAnswer": "Faeces",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Vena cava",
             "Pulmonary vein"
           ],
-          "wordAnswer": "Renal artery"
+          "wordAnswer": "Renal artery",
+          "explanation": null
         }
       ]
     }

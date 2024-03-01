@@ -55,4 +55,5 @@
     <dimen name="weight_pending_transaction_amount_value">0.75</dimen>
 
     <dimen name="weight_statistics_summary_value">0.25</dimen>
+    <dimen name="selectable_option_min_height">56dp</dimen>
 </resources>

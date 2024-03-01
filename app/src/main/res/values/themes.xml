@@ -4,8 +4,8 @@
         <!-- Primary brand color. -->
 
         <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
-        <item name="colorOnPrimary">@color/primary_text_color</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
 
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/color_secondary</item>
@@ -13,10 +13,14 @@
         <item name="colorOnSecondary">@color/color_on_secondary</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/color_primary_variant</item>
         <!-- Customize your theme here. -->
-        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowBackground">@drawable/package_drawable1</item>
+
         <item name="backgroundColor">@color/background</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
+
     </style>
 
 
@@ -24,6 +28,16 @@
     <style name="CustomTabStyle" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">@dimen/text_size_14</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/color_primary</item>
+        <item name="tabIndicatorColor">@color/color_secondary</item>
+        <item name="tabTextColor">@color/color_on_primary</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabInlineLabel">true</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabSelectedTextColor">@color/color_secondary</item>
+        <item name="tabIndicatorHeight">4dp</item>
+
     </style>
 
 
@@ -34,5 +48,14 @@
 <!--        <item name="android:windowBackground">@null</item>-->
     </style>
 
-
+    <style name="SelectableOptionCard" parent="CardView">
+        <item name="cardCornerRadius">@dimen/margin_8</item>
+        <item name="cardElevation">@dimen/card_elevation_8</item>
+        <item name="android:minHeight">@dimen/selectable_option_min_height</item>
+        <item name="android:layout_marginStart">@dimen/margin_16</item>
+        <item name="android:layout_marginEnd">@dimen/margin_16</item>
+        <item name="android:layout_marginTop">@dimen/margin_4</item>
+        <item name="android:layout_marginBottom">@dimen/margin_4</item>
+        <item name="cardBackgroundColor">@color/background</item>
+    </style>
 </resources>

@@ -21,7 +21,8 @@
             "Sugars.",
             "Lipids."
           ],
-          "wordAnswer": "Chitin."
+          "wordAnswer": "Chitin.",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Sensory neurone.",
             "Relay neurone."
           ],
-          "wordAnswer": "Motor neurone."
+          "wordAnswer": "Motor neurone.",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Fehling's reagent.",
             "Biuret reagent."
           ],
-          "wordAnswer": "Fehling's reagent."
+          "wordAnswer": "Fehling's reagent.",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Under-grazing.",
             "Deforestation."
           ],
-          "wordAnswer": "Deforestation."
+          "wordAnswer": "Deforestation.",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Energy is transferred from one trophic level to another by radiation.",
             "Energy is recycled."
           ],
-          "wordAnswer": "Energy flows in one direction."
+          "wordAnswer": "Energy flows in one direction.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Adrenaline.",
             "Glucagon."
           ],
-          "wordAnswer": "Adrenaline."
+          "wordAnswer": "Adrenaline.",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Elbow.",
             "Ligaments."
           ],
-          "wordAnswer": "Ligaments."
+          "wordAnswer": "Ligaments.",
+          "explanation": null
         },
         {
           "questionNumber": "8",
@@ -119,7 +126,8 @@
             "Lateral line.",
             "Anal fin."
           ],
-          "wordAnswer": "Lateral line."
+          "wordAnswer": "Lateral line.",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -133,7 +141,8 @@
             "Nose-->bronchioles-->trachea-->alveoli",
             "Nostrils-->bronchi-->trachea-->bronchioles-->alveoli"
           ],
-          "wordAnswer": "Nostrils-->trachea-->bronchi-->bronchioles-->alveoli"
+          "wordAnswer": "Nostrils-->trachea-->bronchi-->bronchioles-->alveoli",
+          "explanation": null
         }
       ]
     },
@@ -154,7 +163,8 @@
             "9",
             "5"
           ],
-          "wordAnswer": "5"
+          "wordAnswer": "5",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "10",
             "11"
           ],
-          "wordAnswer": "11"
+          "wordAnswer": "11",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "9",
             "12"
           ],
-          "wordAnswer": "1"
+          "wordAnswer": "1",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "10",
             "12"
           ],
-          "wordAnswer": "10"
+          "wordAnswer": "10",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "2"
+          "wordAnswer": "2",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "3"
+          "wordAnswer": "3",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "4"
+          "wordAnswer": "4",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "2"
+          "wordAnswer": "2",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "4",
             "5"
           ],
-          "wordAnswer": "5"
+          "wordAnswer": "5",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "1"
+          "wordAnswer": "1",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "3",
             "4"
           ],
-          "wordAnswer": "3"
+          "wordAnswer": "3",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "Both statements are False"
           ],
-          "wordAnswer": "Both statements are True and second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "Both statements are False"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "Both statements are False"
           ],
-          "wordAnswer": "Both statements are True and second statement is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and second statement is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "Both statements are False"
           ],
-          "wordAnswer": "Both statements are False"
+          "wordAnswer": "Both statements are False",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "Both statements are False"
           ],
-          "wordAnswer": "Both statements are True and second statement is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and second statement is NOT a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Leaching.",
             "Active transport."
           ],
-          "wordAnswer": "Leaching."
+          "wordAnswer": "Leaching.",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Leaching.",
             "Active transport."
           ],
-          "wordAnswer": "Diffusion."
+          "wordAnswer": "Diffusion.",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Leaching.",
             "Active transport."
           ],
-          "wordAnswer": "Ultrafiltration."
+          "wordAnswer": "Ultrafiltration.",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Leaching.",
             "Active transport."
           ],
-          "wordAnswer": "Active transport."
+          "wordAnswer": "Active transport.",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Parasitism.",
             "Symbiosis."
           ],
-          "wordAnswer": "Parasitism."
+          "wordAnswer": "Parasitism.",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Colon.",
             "Ileum."
           ],
-          "wordAnswer": "Duodenum."
+          "wordAnswer": "Duodenum.",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Sensory impulse.",
             "Motor impulse."
           ],
-          "wordAnswer": "Reflex action."
+          "wordAnswer": "Reflex action.",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Red blood cells.",
             "White blood cells."
           ],
-          "wordAnswer": "Plasma."
+          "wordAnswer": "Plasma.",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Uterus.",
             "Oviduct."
           ],
-          "wordAnswer": "Placenta."
+          "wordAnswer": "Placenta.",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Water vapour.",
             "Oxygen."
           ],
-          "wordAnswer": "Oxygen."
+          "wordAnswer": "Oxygen.",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Time and Number.",
             "Growth rate and Time."
           ],
-          "wordAnswer": "Time and Growth rate."
+          "wordAnswer": "Time and Growth rate.",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "3.",
             "4."
           ],
-          "wordAnswer": "2."
+          "wordAnswer": "2.",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "To show that aerobic respiration requires oxygen.",
             "To show that carbon dioxide is produced during respiration."
           ],
-          "wordAnswer": "To show that heat is produced during respiration."
+          "wordAnswer": "To show that heat is produced during respiration.",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "Oxygen.",
             "Killed seeds."
           ],
-          "wordAnswer": "Killed seeds."
+          "wordAnswer": "Killed seeds.",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "From 22 to 25 Dec",
             "From 12 to 14 Dec"
           ],
-          "wordAnswer": "From 22 to 25 Dec"
+          "wordAnswer": "From 22 to 25 Dec",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Fro 6 to 10 Dec",
             "From 22 to 25 Dec"
           ],
-          "wordAnswer": "Fro 6 to 10 Dec"
+          "wordAnswer": "Fro 6 to 10 Dec",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "From 6 to 10 Dec",
             "From 23 to 25 Dec"
           ],
-          "wordAnswer": "From 30 Nov to 5 Dec"
+          "wordAnswer": "From 30 Nov to 5 Dec",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "FSH.",
             "Oxytocin."
           ],
-          "wordAnswer": "Oxytocin."
+          "wordAnswer": "Oxytocin.",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "Oxytocin.",
             "Progesterone."
           ],
-          "wordAnswer": "LH."
+          "wordAnswer": "LH.",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Develop bones.",
             "Deliver safely."
           ],
-          "wordAnswer": "Formation of red blood cells."
+          "wordAnswer": "Formation of red blood cells.",
+          "explanation": null
         }
       ]
     }

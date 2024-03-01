@@ -5,6 +5,8 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.provider.Settings
+import android.view.LayoutInflater
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -26,7 +28,7 @@ class GCESplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        pref = getSharedPreferences("SplashActivity", MODE_PRIVATE)
+        pref = getSharedPreferences(resources.getString(R.string.app_name), MODE_PRIVATE)
         this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         supportActionBar?.hide()
         setupViewModel()
@@ -56,7 +58,12 @@ class GCESplashActivity : AppCompatActivity() {
 
         viewModel.getAreSubjectsPackagesAvailable().observe(this){subjectPackagesAvailable ->
             subjectPackagesAvailable?.let{
-                gotoMainActivity()
+                if(it){
+                    gotoMainActivity()
+                }else{
+                    displayServerTimeOutDialog()
+                }
+
             }
         }
 
@@ -91,27 +98,45 @@ class GCESplashActivity : AppCompatActivity() {
             syncSubjectsPackages()
 //            gotoMainActivity()
         }else{
-            displayTermsOfServiceDialog()
+            displayInternetConnectionDialog()
         }
 
     }
 
+    private fun displayInternetConnectionDialog(){
+        displayTermsOfServiceDialog()
+    }
+
     private fun displayTermsOfServiceDialog(){
+        val view = LayoutInflater.from(this).inflate(R.layout.terms_of_use_layout, null)
+        val tvTermsOfService: TextView = view.findViewById(R.id.btnTerms)
+        val tvPrivacyPolicy: TextView = view.findViewById(R.id.btnPrivacyPolicy)
+        tvTermsOfService.setOnClickListener {
+            gotoTermsOfServiceActivity()
+        }
+        tvPrivacyPolicy.setOnClickListener {
+
+        }
+
         termsOfServiceDialog = AlertDialog.Builder(this).create()
-        termsOfServiceDialog?.setTitle("Terms of use of service")
-        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "Accept") { _, _ ->
+        termsOfServiceDialog?.setTitle(resources.getString(R.string.agreement))
+        termsOfServiceDialog?.setView(view)
+        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_POSITIVE, resources.getString(R.string.accept)) { _, _ ->
             saveTermsOfServiceAcceptedStatus(true)
             displayInitializingAppDialog()
             checkIsTermsOfServiceAccepted()
 
         }
-        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_NEGATIVE, "Decline") { _, _ ->
+        termsOfServiceDialog?.setButton(AlertDialog.BUTTON_NEGATIVE, resources.getString(R.string.decline)) { _, _ ->
             finish()
         }
+        termsOfServiceDialog?.setCancelable(false)
         termsOfServiceDialog?.show()
     }
 
-
+    private fun gotoTermsOfServiceActivity(){
+        startActivity(TermsOfServiceActivity.getIntent(this))
+    }
 
     private fun displayInitializingAppDialog(){
         initializingAppDialog = AlertDialog.Builder(this).create()
@@ -125,11 +150,13 @@ class GCESplashActivity : AppCompatActivity() {
 
     private fun displayServerTimeOutDialog(){
         val timeoutDialog = AlertDialog.Builder(this).apply {
-            setTitle("Failed to Initialize")
-            setMessage("server timeout")
-            setPositiveButton("Retry"){_, _ ->
-                checkRetryCount()
-            }
+//            setTitle("GCE OL MCQs failed to Initialize")
+            setMessage("GCE OL MCQs failed to Initialize due to connection error. Please ensure you have an active internet connection.")
+//            setPositiveButton("Retry"){_, _ ->
+//                checkRetryCount()
+//                finish()
+//
+//            }
             setNegativeButton("Exit"){_, _ ->
                 finish()
             }
@@ -146,7 +173,7 @@ class GCESplashActivity : AppCompatActivity() {
 
     private fun gotoMainActivity(){
         CoroutineScope(Dispatchers.IO).launch{
-            delay(3000L)
+            delay(1500L)
             withContext(Dispatchers.Main){
                 val intent = Intent(this@GCESplashActivity, MainActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)

@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#9679CA</color>
-    <color name="color_primary_dark">#7458A5</color>
-    <color name="color_primary_light">#B6ABC8</color>
-    <color name="color_on_primary">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_primary">#141414</color>
+    <color name="color_primary_variant">#141414</color>
+    <color name="color_primary_light">#BE292929</color>
+
     <color name="dark_background">#292929</color>
+    <color name="background">#BE292929</color>
+    <color name="background2">#39292929</color>
 
     <!--    <color name="color_secondary">#FFF3C885</color>-->
-    <color name="color_secondary">#F1C494</color>
-    <color name="color_secondary_dark">#FFAC8E5F</color>
+    <color name="color_secondary">#FFEB3B</color>
+    <color name="color_secondary_dark">#DFCE36</color>
     <color name="color_on_secondary">#FF000000</color>
+
+    <color name="option_selected">#F4D884</color>
+<!--    <color name="option_selected2">#BDA766</color>-->
 
     <color name="primary_text_color">#FF171717</color>
     <color name="divider_color">#FFBDBDBD</color>
     <color name="color_red">#EF9A9A</color>
-    <color name="color_green">#409EEB</color>
+    <color name="color_green">#518F4D</color>
+<!--    <color name="color_green">#409EEB</color>-->
     <color name="card_background">#FFF9FBFB</color>
+    <color name="tab_color">#E7C754</color>
+
+    <color name="mtn">#C2A54E</color>
+    <color name="orange">#F18764</color>
 </resources>
+

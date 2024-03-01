@@ -1,7 +1,6 @@
 package com.example.gceolmcq.adapters
 
 import android.content.Context
-import android.text.format.Time
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +10,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gceolmcq.ActivationExpiryDatesGenerator
-import com.example.gceolmcq.CustomCountDownTimer
+import com.example.gceolmcq.SubscriptionCountDownTimer
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.datamodels.SubjectPackageData
@@ -101,8 +100,8 @@ class HomeRecyclerViewAdapter(
                         subjectPackageDataList[position].expiresOn!!
                     )
 
-                    CustomCountDownTimer(tempPosition).apply {
-                        startTimer(timeLeft, object : CustomCountDownTimer.OnTimeRemainingListener{
+                    SubscriptionCountDownTimer(tempPosition).apply {
+                        startTimer(timeLeft, object : SubscriptionCountDownTimer.OnTimeRemainingListener{
                             override fun onTimeRemaining(expiresIn: String) {
                                 holder.expiresInTv.text = expiresIn
                             }

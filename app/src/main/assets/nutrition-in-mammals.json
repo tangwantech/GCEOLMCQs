@@ -21,11 +21,12 @@
             "Reducing sugar",
             "Fats"
           ],
-          "wordAnswer": "Reducing sugar"
+          "wordAnswer": "Reducing sugar",
+          "explanation": "Reducing sugars have the ability to reduce soluble Cu2+ ions in Benedict's solution to insoluble Cu(I) oxide which precipitates out of solution, producing the orange-red colour. The colour change observed will depend on the concentration of reducing sugar present in the food sample.\n\nThe other options are incorrect because:\n\n- Protein, starch and fats do not react with Benedicts solution."
         },
         {
           "questionNumber": "2",
-          "question": "Which region of the alimentary canal has the lowest PH?",
+          "question": "Which region of the alimentary canal has the lowest pH?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -35,7 +36,8 @@
             "Stomach",
             "Ileum"
           ],
-          "wordAnswer": "Stomach"
+          "wordAnswer": "Stomach",
+          "explanation": "The stomach is the region of the alimentary canal with the lowest pH of about 2.0. This low pH is due to the presence of hydrochloric acid (HCL) in the gastric juice it secretes. This low pH is important for the activation and functioning of the enzymes that work in the stomach"
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Fats",
             "Vitamins"
           ],
-          "wordAnswer": "Proteins"
+          "wordAnswer": "Proteins",
+          "explanation": "All enzymes are protein in nature because they can be hydrolysed into amino acids, the building blocks of proteins."
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Eggs",
             "Maize"
           ],
-          "wordAnswer": "Maize"
+          "wordAnswer": "Maize",
+          "explanation": "Maize has the highest proportion of starch when compared to beans, groundnut or eggs. Hence, maize is the best source of starch."
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Carbon, Hydrogen and Nitrogen",
             "Carbon, Oxygen and Nitrogen"
           ],
-          "wordAnswer": "Carbon, Hydrogen and Oxygen"
+          "wordAnswer": "Carbon, Hydrogen and Oxygen",
+          "explanation": "Carbon, hydrogen and oxygen are the elemens that are found in lipids. \n\nThe other options are incorrect because they contain nitrogen which is an element not found in lipids"
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Carbon, Hydrogen and Nitrogen",
             "Carbon, Oxygen and Nitrogen"
           ],
-          "wordAnswer": "Carbon, Hydrogen, Oxygen and Nitrogen"
+          "wordAnswer": "Carbon, Hydrogen, Oxygen and Nitrogen",
+          "explanation": "Carbon, Hydrogen, Oxygen and Nitrogen are the elements found in proteins. \n\nThe other options are incorrect because they each lack an element that must be present in a protein."
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Hydrogen",
             "Oxygen"
           ],
-          "wordAnswer": "Nitrogen"
+          "wordAnswer": "Nitrogen",
+          "explanation": "Nitrogen is the element that is present in proteins but absent in Carbohydrate and lipids. \n\nThe other options are incorrect because:\n\n- Carbon, hydrogen and oxygen are present in carbohydrates, proteins and lipids."
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Liver and spleen",
             "Lungs and heart"
           ],
-          "wordAnswer": "Liver and Intestines"
+          "wordAnswer": "Liver and Intestines",
+          "explanation": "The liver and intestines are the two organs connected directly by the hepatic portal vein. \n\nThe other options are incorrect because:\n\n- The lungs and heart are connected by the pulmonary artery and pulmonary vein. The pulmonary artery carries deoxygenated blood from the righ side of the heart to lungs while the pulmonary vein carries oxygenated blood from the lungs to the left side of the heart.\n\n- No direct connection exist between the intestines and kidneys, Liver and spleen."
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Oxygen",
             "Sulphur"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": "Oxygen is the element common to carbohydrate, proteins and lipids. Other elements common to the three classes of food are carbon and hydrogen. \n\nThe other options are incorrect because:\n\n- Nitrogen is an element that is unique to proteins. Phosphorus and sulphur may sometimes be found in proteins"
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "Ileum",
             "Large Intestine"
           ],
-          "wordAnswer": "Large Intestine"
+          "wordAnswer": "Large Intestine",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "Trypsin",
             "Erepsin"
           ],
-          "wordAnswer": "Ptyalin"
+          "wordAnswer": "Ptyalin",
+          "explanation": "Ptyalin is present in saliva. \n\nThe other options are incorrect because\n\n- Pepsin is present in gastric juice, Trypsin is present in pancreatic juice while Erepsin is present in intestinal juice."
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Duodenum",
             "Ileum"
           ],
-          "wordAnswer": "Mouth"
+          "wordAnswer": "Mouth",
+          "explanation": "Chemical digestion of carbohydrate begins in the mouth of man because saliva contains salivary amylase which digest starch to maltose."
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Teeth",
             "Hard palette"
           ],
-          "wordAnswer": "Teeth"
+          "wordAnswer": "Teeth",
+          "explanation": "Physical digestion of food in the mouth is performed by the teeth during chewing or mastication. \n\nThe other options are incorrect because\n\n- Salivary amylase is an enzyme that performs the chemical digestion of starch to maltose.\n\n- Saliva contains salivary amylase which performs chemical digestion of starch; water to dissolve food substances, mucin to lubricate and bind food substances.\n\n- The hard palette assist in rolling the food up into a bolus before swallowing."
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Food",
             "HCl"
           ],
-          "wordAnswer": "Mucus"
+          "wordAnswer": "Mucus",
+          "explanation": "Mucus forms a protective coating on the stomach wall thereby protecting the stomach wall from the corrosive action of hydrochloric acid present in gastric juice."
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Epiglottis",
             "Pancreas"
           ],
-          "wordAnswer": "Pyloric sphincter"
+          "wordAnswer": "Pyloric sphincter",
+          "explanation": "The pyloric sphincter is a ring of muscle between the stomach and the duodenum. It regulates the release of partially digested food (chyme) from the stomach into the duodenum, allowing for controlled digestion and absorption of nutrients.\n\nThe other options are incorrect because:\n\n- Cardiac sphincter prevents backflow of food from the stomach into the esophagus.\n\n- The epiglottis is a flap of tissue that prevents food from entering the trachea during swallowing.\n\n- Pancreas is not involved in regulating the release of chyme from the stomach into the duodenum."
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "Minerals",
             "Fibres"
           ],
-          "wordAnswer": "Fibres"
+          "wordAnswer": "Fibres",
+          "explanation": "Fibres, found in foods like fruits, vegetables, and whole grains, are essential for preventing constipation. They add bulk to the stool and help maintain bowel regularity by promoting healthy digestion and movement of waste through the digestive tract."
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Bile",
             "Trypsin"
           ],
-          "wordAnswer": "Bile"
+          "wordAnswer": "Bile",
+          "explanation": "Bile helps to emulsify fats in the small intestine, breaking them down into smaller droplets that can be more easily digested by enzymes. This process increases the surface area of the fat, allowing for more efficient digestion and absorption of fats and fat-soluble vitamins."
         },
         {
           "questionNumber": "18",
@@ -261,12 +278,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Epiglottis",
-            "Glottis",
+            "Epiglotis",
+            "Glotis",
             "Oesophagus",
             "Larynx"
           ],
-          "wordAnswer": "Epiglottis"
+          "wordAnswer": "Epiglotis",
+          "explanation": "The epiglottis is a flap of tissue that prevents food from entering the trachea during swallowing. It covers the opening of the trachea, directing food and liquids into the esophagus while ensuring that they do not enter the airway and cause choking or aspiration.\n\nThe other options are incorrect because:\n\n- The glottis refers to the opening into the trachea which is blocked by the epiglottis during swallowing.\n\n- The esophagus is a muscular tube that carries food from the mouth to the stomach.\n\n- The larynx, or voice box, is involved in sound production."
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Molars",
             "Canines"
           ],
-          "wordAnswer": "Molars"
+          "wordAnswer": "Molars",
+          "explanation": "Molars are absent in the milk dentition of man. The milk dentition consists of incisors, canines, and premolars."
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Liver",
             "Gall bladder"
           ],
-          "wordAnswer": "Liver"
+          "wordAnswer": "Liver",
+          "explanation": "Bile is produced by the liver. It is then stored and concentrated in the gallbladder before being released into the duodenum to aid in the digestion and absorption of fats.\n\nThe other options are incorrect because:\n\n- The duodenum is the first part of the small intestine where bile is released, but it is not the organ that produces bile.\n\n- While the pancreas produces digestive enzymes and hormones, it does not produce bile.\n\n- The gallbladder stores and concentrates bile but does not produce it."
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": "Heterotrophic nutrition is one in which some organisms feed on ready made organic food substances because they cannot manufacture their own food. Parasitism and Saprophytism are types of heterotrophic nutrition.\n\n In parasitism, one organism called a parasite lives inside or on the body of another organism called the host, obtaining all its nutrients from the host.\n\n In saprophytism an organism (saprophyte) feeds on dead decaying organic matter by secreting extracellular enzymes into the organic matter (substrate). The enzymes digest the substrate and the saprophyte absorbs the end product of digestion into its body.\n\n- Photosynthesis is a type of autotrophic nutrition, not heterotrophic nutrition. In all forms of autotrophic nutrition, the autotroph is able to manufacture its own organic food material like carbohydrates from simple inorganic raw materials like carbon dioxide and water."
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": "Fatty acids and glycerol are the end products of the digestion of fats. These molecules are absorbed into the lacteal of the villus, a small lymphatic vessel in the lining of the small intestine.\n\n- Amino acids and glucose, on the other hand, are absorbed into the blood capillaries within the villus."
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": "Fat soluble vitamins are vitamins that are soluble in fats and oils. They include Vitamin A and Vitamin K. Other examples of fat soluble vitamins are: vitamin D and vitamin E.\n\n- Vitamin C, on the other hand, is a water-soluble vitamin. Other examples of water soluble vitamins are all B Vitamins"
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": "Mastication or chewing breaks down large food particles into smaller particles. This helps to increase surface area for enzyme action as well as to facilitate swallowing. \n\n- Killing of bacteria is not a role of mastication."
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": "The role of HCL in the stomach is to activate pepsinogen to pepsin (a protein digesting enzyme), kill bacteria taken in with food, and to provide an optimum acidic pH for the enzymes that digest food in the stomach"
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": "The first statement explains the action of gastrin on the gastric glands, while the second statement explains the content and function of gastric juice. Therefore, the second statement does not provide a correct explanation for the first statement."
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": "The enamel of the teeth is very hard because it contains deposits of calcium salts. Therefore, the second statement correctly explains why the enamel of the teeth is very hard."
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": "Man is unable to digest cellulose because the digestive system of man cannot produce cellulase. Therefore, the second statement correctly explains why man is unable to digest cellulose."
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": "Amino acids are the end products of protein digestion, not carbohydrate digestion. \n\n- Excess amino acids are deaminated in the liver to produce ammonia. In some animals like mammals, the ammonia is immediately converted to urea by a series of cyclic reactions called the Ornithin cycle"
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": "While vitamin A is important for vision, however, its deficiency does not lead to scurvy"
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Gall bladder",
             "Duodenum"
           ],
-          "wordAnswer": "Gall bladder"
+          "wordAnswer": "Gall bladder",
+          "explanation": "The gall bladder stores and concentrates bile produced by the liver. \n\nThe other options are incorrect because:\n\n- The pancreas, liver and duodenum do not store bile.\n\n- While the liver produces bile, it does not store it. Instead, it continuously releases bile into the gall bladder for storage.\n\n- The duodenum is the first part of the small intestine where bile is released to emulsify fats."
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Enterokinase",
             "Trypsin"
           ],
-          "wordAnswer": "Trypsin"
+          "wordAnswer": "Trypsin",
+          "explanation": "Trypsin is a protein digesting enzyme present in pancreatic juice. It is initially secreted into the duodenum in its inactive form Trypsinogen. While in the duodenum, Trypsinogen is then activated to Trypsin by Enterokinase. \n\nThe other options are incorrect because:\n\n- Pepsin is present in gastric juice, not in pancreatic juice.\n\n- Enterokinase and Erepsin are enzymes present in the duodenum and ileum respectively. They are not components of pancreatic juice."
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Vitamin D",
             "Vitamin C"
           ],
-          "wordAnswer": "Vitamin B1"
+          "wordAnswer": "Vitamin B1",
+          "explanation": "Vitamin B1, also known as thiamine, is essential for the proper functioning of the nervous system and energy metabolism. Its deficiency leads to beriberi, which is characterized by neurological symptoms such as numbness, and muscle weakness. \n\nThe other options are incorrect because:\n\n- Vitamin A deficiency leads to night blindness.\n\n- Vitamin D deficiency leads to rickets in children and osteomalacia in adults.\n\n- Vitamin C deficiency leads to scurvy, which is characterized by bleeding gums."
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Vitamin D",
             "Vitamin C"
           ],
-          "wordAnswer": "Vitamin A"
+          "wordAnswer": "Vitamin A",
+          "explanation": "Vitamin A is essential for vision, immune function, and cell growth. Its deficiency leads to night blindness, as well as other vision problems such as dry eyes and corneal ulcers. \n\nThe other options are incorrect because:\n\n- Vitamin B1 deficiency leads to beriberi, not night blindness.\n\n- Vitamin D deficiency leads to rickets in children and osteomalacia in adults.\n\n- Vitamin C deficiency leads to scurvy."
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Vitamin D",
             "Vitamin K"
           ],
-          "wordAnswer": "Vitamin D"
+          "wordAnswer": "Vitamin D",
+          "explanation": "Vitamin D is essential for the absorption of calcium and phosphorus, which are crucial for bone health. Its deficiency leads to rickets in children, which is characterized by weak and soft bones. In adults, vitamin D deficiency can lead to osteomalacia, which causes bone pain and muscle weakness.\n\nThe other options are incorrect because:\n\n- Vitamin A deficiency leads to night blindness and other vision problems, not rickets.\n\n- Vitamin C deficiency leads to scurvy, not rickets.\n\n- Vitamin K deficiency can lead to blood clotting problems, but not rickets."
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Ricket",
             "Goitre"
           ],
-          "wordAnswer": "kwashiorkor"
+          "wordAnswer": "kwashiorkor",
+          "explanation": "Kwashiorkor is a form of severe acute malnutrition caused by a deficiency of protein in the diet. It often occurs in young children and is characterized by edema, a distended abdomen, and other symptoms of malnutrition. \n\nThe other options are incorrect because:\n\n- Rickets is due to deficiency of calcium or vitamin D.\n\n- Scurvy is due to deficiency of vitamin C.\n\n- Goitre is due to deficiency of iodine."
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Vitamin D",
             "Vitamin K"
           ],
-          "wordAnswer": "Vitamin C"
+          "wordAnswer": "Vitamin C",
+          "explanation": "Vitamin C is essential for the synthesis of collagen, a protein that is important for the formation of skin, tendons, and blood vessels. Its deficiency leads to scurvy, which is characterized by gum disease, and skin problems.\n\nThe other options are incorrect because:\n\n- Vitamin A deficiency leads to night blindness and other vision problems, not scurvy.\n\n- Vitamin D deficiency leads to rickets in children and osteomalacia in adults, but not scurvy.\n\n- Vitamin K deficiency can lead to blood clotting problems, but not scurvy."
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Scurvy",
             "Constipation"
           ],
-          "wordAnswer": "Goitre"
+          "wordAnswer": "Goitre",
+          "explanation": "Goitre is an enlargement of the thyroid gland caused by a deficiency of iodine in the diet. Iodine is essential for the production of thyroid hormones, and its deficiency leads to the inability of the thyroid gland to produce enough hormones, resulting in goitre.\n\nThe other options are incorrect because:\n\n- Night blindness is caused by Vitamin A deficiency, not iodine deficiency.\n\n- Scurvy is caused by Vitamin C deficiency, not iodine deficiency.\n\n- Constipation is due to lack of fibres in the diet, not by iodine deficiency."
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Iodine solution",
             "Sudan III solution"
           ],
-          "wordAnswer": "Millon's reagent"
+          "wordAnswer": "Millon's reagent",
+          "explanation": "Millon's reagent is a chemical reagent used to test for the presence of proteins. It contains mercuric nitrate and nitric acid and gives a red color when it reacts with proteins, specifically tyrosine residues. This test is commonly used in biochemical and laboratory settings to detect proteins in a solution.\n\nThe other options are incorrect because:\n\n- Benedict's solution is used to test for reducing sugars, not proteins.\n\n- Iodine solution is used to test for the presence of starch, not proteins.\n\n- Sudan III solution is used to test for the presence of lipids, not proteins."
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Ingestion",
             "Defecation"
           ],
-          "wordAnswer": "Peristalsis"
+          "wordAnswer": "Peristalsis",
+          "explanation": "Peristalsis is the rhythmic contraction and relaxation of muscles in the gastrointestinal tract that propels food and liquid along the alimentary canal. This movement allows for the mixing and churning of food with digestive juices and facilitates the absorption of nutrients. Peristalsis is essential for the proper functioning of the digestive system.\n\nThe other options are incorrect because:\n\n- Digestion refers to the process of breaking down food into smaller, absorbable components by mechanical and chemical means, not the movement of food along the alimentary canal.\n\n- Ingestion is the act of taking food or drink into the body, not the movement of food along the alimentary canal.\n\n- Defecation is the elimination of undigested material from the body, not the movement of food along the alimentary canal."
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Chymotrypsin",
             "Bile"
           ],
-          "wordAnswer": "Enterokinase"
+          "wordAnswer": "Enterokinase",
+          "explanation": "Trypsinogen is activated to Trypsin by Enterokinase, which is an enzyme produced by the duodenal mucosa. Enterokinase cleaves trypsinogen to produce the active enzyme trypsin. Trypsin is then involved in the the digestion of proteins.\n\nThe other options are incorrect because:\n- HCL (Hydrochloric acid) is involved in creating an acidic environment in the stomach, not the activation of trypsinogen.\n- Chymotrypsin is another digestive enzyme present in pancreatic juice. It is secreted in the inactive form chymotrypsinogen and is activated to chymotrypsin by trypsin.\n- Bile is involved in emulsifying fats and aiding in their digestion, not the activation of trypsinogen."
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "coagulate soluble caseinogen to insoluble casein",
             "digest lactose to glucose and galactose to maltose"
           ],
-          "wordAnswer": "coagulate soluble caseinogen to insoluble casein"
+          "wordAnswer": "coagulate soluble caseinogen to insoluble casein",
+          "explanation": "The role of rennin in the stomach of a young mammal is to coagulate soluble caseinogen to insoluble casein. This process helps in the digestion of milk proteins by forming curds, which allows for a slower and more efficient digestion of proteins in the stomach.\n\nThe other options are incorrect because:\n- Digesting proteins to peptones is a general function of proteolytic enzymes, not rennin specifically.\n- Emulsifying fat is the role of bile in the small intestine, not rennin in the stomach.\n- Digesting lactose to glucose and galactose to maltose is the function of lactase, an enzyme in the small intestine, and not related to rennin in the stomach."
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "Tape worm",
             "Vibrio cholerae"
           ],
-          "wordAnswer": "Escherichia coli"
+          "wordAnswer": "Escherichia coli",
+          "explanation": "Escherichia coli is the bacterium that synthesizes vitamin K in the colon of a human. Vitamin K is an essential nutrient required for blood clotting, and its production by gut bacteria, particularly E. coli, contributes to fulfilling the body's vitamin K requirements.\n\nThe other options are incorrect because:\n\n- Cellulase is an enzyme involved in the breakdown of cellulose in plants and is not related to vitamin K synthesis.\n\n- Tapeworms are parasites and do not synthesize vitamin K; they absorb nutrients from their host's digestive system.\n\n- Vibrio cholerae is a bacterium that causes cholera and is not involved in the synthesis of vitamin K."
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "Herbivore",
             "Scavenger"
           ],
-          "wordAnswer": "Herbivore"
+          "wordAnswer": "Herbivore",
+          "explanation": "An animal that feeds only on plants is called a herbivore. Herbivores obtain their energy and nutrients by consuming plant material, such as leaves, stems, fruits, and seeds. Their digestive systems contains cellulase producing bacteria to break down the cellulose and other complex carbohydrates found in plants.\n\nThe other options are incorrect because:\n\n- Carnivores feed exclusively on animal tissues.\n\n- Omnivores have a diet that includes both plants and animals.\n\n- Scavengers primarily consume dead and decaying animal matter, not exclusively plants."
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "Herbivore",
             "Scavenger"
           ],
-          "wordAnswer": "Omnivore"
+          "wordAnswer": "Omnivore",
+          "explanation": "An animal that feeds on both plants and animals is called an omnivore. Omnivores have a varied diet that includes both plant material and animal tissues, allowing them to obtain a wide range of nutrients from different sources.\n\nThe other options are incorrect because:\n\n- Carnivores feed exclusively on animal tissues.\n\n- Herbivores feed only on plant material.\n\n- Scavengers primarily consume dead and decaying animal matter, not both plants and animals."
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Caecotrophy",
             "Egestion"
           ],
-          "wordAnswer": "Rumination"
+          "wordAnswer": "Rumination",
+          "explanation": "The process of regurgitating food and chewing it again for the second time is known as rumination. It is commonly observed in animals like cows and sheep, which have complex stomachs with multiple chambers to aid in the digestion of plant material.\n\nThe other options are incorrect because:\n\n- Vomiting is the forceful expulsion of stomach contents through the mouth and is not related to rumination.\n\n- Caecotrophy is the process of re-ingesting soft, partially digested fecal pellets to extract additional nutrients and is not the same as rumination.\n\n- Egestion is the process of eliminating undigested food materials from the body and is not related to rumination."
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "Pancreatic juice",
             "Saliva"
           ],
-          "wordAnswer": "Bile"
+          "wordAnswer": "Bile",
+          "explanation": "Bile is the secretion released into the alimentary canal that contains no enzyme but speeds up fat digestion. Bile emulsifies fat, breaking it down into smaller droplets that can be more easily acted upon by digestive enzymes, thus facilitating the digestion and absorption of fats.\n\nThe other options are incorrect because:\n\n- Saliva, pancreatic juice and Intestinal juice all contain digestive enzymes."
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "Fats",
             "Proteins"
           ],
-          "wordAnswer": "Fats"
+          "wordAnswer": "Fats",
+          "explanation": "Fats act as a solvent for vitamins A, D, E, and K. These vitamins are fat-soluble, meaning they can dissolve in and be transported by fats. Consuming these vitamins with dietary fats helps facilitate their absorption and utilization by the body.\n\nThe other options are incorrect because:\n\n- Carbohydrates, Water and Proteins do not act as solvents for fat-soluble vitamins."
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "Fructose and glucose",
             "Amino acids and glycerol"
           ],
-          "wordAnswer": "Fatty acids and glycerol"
+          "wordAnswer": "Fatty acids and glycerol",
+          "explanation": "After digestion, fatty acids and glycerol enter the lymphatic system. These products of fat digestion are absorbed by the small intestine and transported through the lymphatic system in the form of chylomicrons before eventually entering the bloodstream.\n\nThe other options are incorrect because:\n\n- Amino acids and glucose are absorbed into the blood capillaries of the small intestine, not the lymphatic system.\n\n- Fructose and glucose, the products of carbohydrate digestion, are also absorbed into the blood capillaries of the small intestine, not the lymphatic system.\n\n- While Amino acids are absorbed into the blood capillaries of the villi, glycerol enters the lacteal and is transported through the lymphatic system before entering the blood stream."
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Herbivores",
             "Ruminants"
           ],
-          "wordAnswer": "Carnivores"
+          "wordAnswer": "Carnivores",
+          "explanation": "The statement describes carnivores, as their well-developed canines are adapted for piercing and tearing flesh. Carnivores are animals that primarily consume other animals as part of their diet.\n\nThe other options are incorrect because:\n\n- Omnivores have a more varied diet, including both plant and animal material, and may not have canines specifically adapted for piercing and tearing flesh.\n\n- Herbivores primarily consume plant material and usually have teeth adapted for grinding and processing plant matter, not for piercing and tearing flesh.\n\n- Ruminants are a subgroup of herbivores with a specialized digestive system for processing plant material, and their canines are not typically adapted for piercing and tearing flesh."
         }
       ]
     }

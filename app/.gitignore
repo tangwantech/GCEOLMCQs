@@ -1,1 +1,4 @@
-gi/build
+/build
+/release
+/src/main/assets
+

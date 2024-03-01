@@ -21,7 +21,8 @@
             "Stamen",
             "Receptacle"
           ],
-          "wordAnswer": "Ovule"
+          "wordAnswer": "Ovule",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "Petal",
             "Stigma"
           ],
-          "wordAnswer": "Anther"
+          "wordAnswer": "Anther",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "Brightly coloured petals",
             "Long projecting stigma"
           ],
-          "wordAnswer": "Long projecting stigma"
+          "wordAnswer": "Long projecting stigma",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "grow bigger than the parents.",
             "have same flower colour as their parent."
           ],
-          "wordAnswer": "have same flower colour as their parent."
+          "wordAnswer": "have same flower colour as their parent.",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "Oxygen, suitable temperature and soil.",
             "Soil, suitable temperature and water."
           ],
-          "wordAnswer": "Oxygen, water and suitable temperature."
+          "wordAnswer": "Oxygen, water and suitable temperature.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Vas deferens",
             "Testis"
           ],
-          "wordAnswer": "Vas deferens"
+          "wordAnswer": "Vas deferens",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "Follicle stimulating hormone",
             "Progesterone"
           ],
-          "wordAnswer": "Oxytocin"
+          "wordAnswer": "Oxytocin",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Zygote",
             "Ovum"
           ],
-          "wordAnswer": "Zygote"
+          "wordAnswer": "Zygote",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Seed coat",
             "Endosperm"
           ],
-          "wordAnswer": "Endosperm"
+          "wordAnswer": "Endosperm",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "Parthenogenesis",
             "Parthenocarpy"
           ],
-          "wordAnswer": "Parthenocarpy"
+          "wordAnswer": "Parthenocarpy",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "Stigma and style",
             "Anther and stigma"
           ],
-          "wordAnswer": "Anther and filament"
+          "wordAnswer": "Anther and filament",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "There is a better chance of fertilization.",
             "They need a lot of energy to produce more."
           ],
-          "wordAnswer": "There is a better chance of fertilization."
+          "wordAnswer": "There is a better chance of fertilization.",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "Number of days before ovulation.",
             "Number of days after fertilization"
           ],
-          "wordAnswer": "Chromosome content of the sperm."
+          "wordAnswer": "Chromosome content of the sperm.",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "Stigma",
             "Style"
           ],
-          "wordAnswer": "Ovule"
+          "wordAnswer": "Ovule",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Forms a protective covering around the seed.",
             "Develops into the shoot of the embryo."
           ],
-          "wordAnswer": "Forms a protective covering around the seed."
+          "wordAnswer": "Forms a protective covering around the seed.",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "At the moment of fertilization.",
             "During development of zygote into embryo."
           ],
-          "wordAnswer": "At the moment of fertilization."
+          "wordAnswer": "At the moment of fertilization.",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "To prevent more than one sperm from entering the egg.",
             "To attract additional sperm to the egg."
           ],
-          "wordAnswer": "To prevent more than one sperm from entering the egg."
+          "wordAnswer": "To prevent more than one sperm from entering the egg.",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "Uterus",
             "Vagina"
           ],
-          "wordAnswer": "Oviduct"
+          "wordAnswer": "Oviduct",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "The placenta",
             "The uterine wall"
           ],
-          "wordAnswer": "The placenta"
+          "wordAnswer": "The placenta",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "The heat of the abdominal cavity is too high for the development of the male gametes.",
             "The pressure of the abdominal cavity is too high for the development of the male gametes."
           ],
-          "wordAnswer": "The heat of the abdominal cavity is too high for the development of the male gametes."
+          "wordAnswer": "The heat of the abdominal cavity is too high for the development of the male gametes.",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is False. Second statement is True"
+          "wordAnswer": "First statement is False. Second statement is True",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Parthenocarpy",
             "Budding"
           ],
-          "wordAnswer": "Germination"
+          "wordAnswer": "Germination",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Binary fission",
             "Parthenocarpy"
           ],
-          "wordAnswer": "Budding"
+          "wordAnswer": "Budding",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Menstruation",
             "Ovulation"
           ],
-          "wordAnswer": "Ovulation"
+          "wordAnswer": "Ovulation",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Labour",
             "Orgasm"
           ],
-          "wordAnswer": "Labour"
+          "wordAnswer": "Labour",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Gestation",
             "Implantation"
           ],
-          "wordAnswer": "Gestation"
+          "wordAnswer": "Gestation",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Epididymis",
             "Vas deferens"
           ],
-          "wordAnswer": "Urethra"
+          "wordAnswer": "Urethra",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Gonads",
             "Penis"
           ],
-          "wordAnswer": "Gonads"
+          "wordAnswer": "Gonads",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Amnion",
             "Cervix"
           ],
-          "wordAnswer": "Umbilical cord"
+          "wordAnswer": "Umbilical cord",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Stigma",
             "Style"
           ],
-          "wordAnswer": "Stigma"
+          "wordAnswer": "Stigma",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Cotyledon",
             "Endosperm"
           ],
-          "wordAnswer": "Plumule"
+          "wordAnswer": "Plumule",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Oxygen",
             "Enzymes"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "To absorb heat",
             "To absorb carbon dioxide"
           ],
-          "wordAnswer": "To absorb oxygen"
+          "wordAnswer": "To absorb oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "Place dry bean seeds on dry cotton wool in a test tube.",
             "Place moist bean seeds on dry cotton wool in a test tube."
           ],
-          "wordAnswer": "Place dry bean seeds on dry cotton wool in a test tube."
+          "wordAnswer": "Place dry bean seeds on dry cotton wool in a test tube.",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,7 +736,8 @@
             "Increase over crowding.",
             "Decrease the chances of survival of the seedlings."
           ],
-          "wordAnswer": "Minimise epidemic diseases among seedlings"
+          "wordAnswer": "Minimise epidemic diseases among seedlings",
+          "explanation": null
         },
         {
           "questionNumber": "45",
@@ -707,7 +751,8 @@
             "Bulb",
             "Tuber"
           ],
-          "wordAnswer": "Corm"
+          "wordAnswer": "Corm",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,7 +766,8 @@
             "Bulb",
             "Tuber"
           ],
-          "wordAnswer": "Rhizome"
+          "wordAnswer": "Rhizome",
+          "explanation": null
         },
         {
           "questionNumber": "47",
@@ -735,7 +781,8 @@
             "Mango",
             "Cotton"
           ],
-          "wordAnswer": "Cotton"
+          "wordAnswer": "Cotton",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "Follicle stimulating hormone",
             "Oestrogen"
           ],
-          "wordAnswer": "Luteinizing hormone"
+          "wordAnswer": "Luteinizing hormone",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -763,7 +811,8 @@
             "Human chorionic gonadotrophic hormone",
             "Oxytocin"
           ],
-          "wordAnswer": "Human chorionic gonadotrophic hormone"
+          "wordAnswer": "Human chorionic gonadotrophic hormone",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Allows antibodies from mother to reach the developing foetus to provide protection against certain diseases.",
             "Produces progesterone"
           ],
-          "wordAnswer": "Acts as shock absorber, protecting the developing foetus against mechanical injury."
+          "wordAnswer": "Acts as shock absorber, protecting the developing foetus against mechanical injury.",
+          "explanation": null
         }
       ]
     }

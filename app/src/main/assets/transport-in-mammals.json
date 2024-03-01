@@ -21,7 +21,8 @@
             "They engulf invading bacteria",
             "They transport oxygen"
           ],
-          "wordAnswer": "They transport oxygen"
+          "wordAnswer": "They transport oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "2",
@@ -35,7 +36,8 @@
             "food substances",
             "red blood cells"
           ],
-          "wordAnswer": "blood cells"
+          "wordAnswer": "blood cells",
+          "explanation": null
         },
         {
           "questionNumber": "3",
@@ -49,7 +51,8 @@
             "the muscular contractions have to be powerful to send the blood to the lungs.",
             "they have to be strong enough to hold a large volume of blood."
           ],
-          "wordAnswer": "the muscular contractions have to force blood out of the heart to reach all parts of the body."
+          "wordAnswer": "the muscular contractions have to force blood out of the heart to reach all parts of the body.",
+          "explanation": null
         },
         {
           "questionNumber": "4",
@@ -63,7 +66,8 @@
             "Pulmonary artery",
             "Aorta"
           ],
-          "wordAnswer": "Vena cava"
+          "wordAnswer": "Vena cava",
+          "explanation": null
         },
         {
           "questionNumber": "5",
@@ -77,7 +81,8 @@
             "It carries blood away from the heart",
             "It is deeply situated in the body"
           ],
-          "wordAnswer": "It has valves to check back flow of blood."
+          "wordAnswer": "It has valves to check back flow of blood.",
+          "explanation": null
         },
         {
           "questionNumber": "6",
@@ -91,7 +96,8 @@
             "Antigens",
             "Fibrinogen"
           ],
-          "wordAnswer": "Antibodies"
+          "wordAnswer": "Antibodies",
+          "explanation": null
         },
         {
           "questionNumber": "7",
@@ -105,7 +111,8 @@
             "White blood cell",
             "Platelet"
           ],
-          "wordAnswer": "Red blood cell"
+          "wordAnswer": "Red blood cell",
+          "explanation": null
         }
       ]
     },
@@ -126,7 +133,8 @@
             "Carbon dioxide",
             "Oxygen"
           ],
-          "wordAnswer": "Oxygen"
+          "wordAnswer": "Oxygen",
+          "explanation": null
         },
         {
           "questionNumber": "9",
@@ -140,7 +148,8 @@
             "Veins",
             "Arterioles"
           ],
-          "wordAnswer": "Capillaries"
+          "wordAnswer": "Capillaries",
+          "explanation": null
         },
         {
           "questionNumber": "10",
@@ -154,7 +163,8 @@
             "Hepatic artery",
             "Hepatic portal vein"
           ],
-          "wordAnswer": "Hepatic portal vein"
+          "wordAnswer": "Hepatic portal vein",
+          "explanation": null
         },
         {
           "questionNumber": "11",
@@ -168,7 +178,8 @@
             "blood away from the heart",
             "blood towards the heart"
           ],
-          "wordAnswer": "blood away from the heart"
+          "wordAnswer": "blood away from the heart",
+          "explanation": null
         },
         {
           "questionNumber": "12",
@@ -182,7 +193,8 @@
             "Carry fluids away from cells",
             "Produce red blood cells"
           ],
-          "wordAnswer": "Produce red blood cells"
+          "wordAnswer": "Produce red blood cells",
+          "explanation": null
         },
         {
           "questionNumber": "13",
@@ -196,7 +208,8 @@
             "pulmonary artery",
             "right ventricle"
           ],
-          "wordAnswer": "right ventricle"
+          "wordAnswer": "right ventricle",
+          "explanation": null
         },
         {
           "questionNumber": "14",
@@ -210,7 +223,8 @@
             "vitamin D",
             "vitamin C"
           ],
-          "wordAnswer": "vitamin K"
+          "wordAnswer": "vitamin K",
+          "explanation": null
         },
         {
           "questionNumber": "15",
@@ -224,7 +238,8 @@
             "Pulmonary vein",
             "Aorta"
           ],
-          "wordAnswer": "Aorta"
+          "wordAnswer": "Aorta",
+          "explanation": null
         },
         {
           "questionNumber": "16",
@@ -238,7 +253,8 @@
             "the spleen an broken down in the bone marrow.",
             "the bone marrow and broken down in the liver."
           ],
-          "wordAnswer": "the bone marrow and broken down in the liver."
+          "wordAnswer": "the bone marrow and broken down in the liver.",
+          "explanation": null
         },
         {
           "questionNumber": "17",
@@ -252,7 +268,8 @@
             "Bicuspid valves",
             "Semi-lunar valves"
           ],
-          "wordAnswer": "Septum"
+          "wordAnswer": "Septum",
+          "explanation": null
         },
         {
           "questionNumber": "18",
@@ -266,7 +283,8 @@
             "lymph",
             "Amniotic fluid"
           ],
-          "wordAnswer": "Tissue fluid"
+          "wordAnswer": "Tissue fluid",
+          "explanation": null
         },
         {
           "questionNumber": "19",
@@ -280,7 +298,8 @@
             "Umbilical artery",
             "Umbilical vein"
           ],
-          "wordAnswer": "Umbilical vein"
+          "wordAnswer": "Umbilical vein",
+          "explanation": null
         },
         {
           "questionNumber": "20",
@@ -294,7 +313,8 @@
             "Distributes heat around the body",
             "Carries hormones from endocrine glands to target cells"
           ],
-          "wordAnswer": "Returns excess tissue fluid to the general circulation"
+          "wordAnswer": "Returns excess tissue fluid to the general circulation",
+          "explanation": null
         }
       ]
     },
@@ -319,7 +339,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1, 2 and 3 are all correct"
+          "wordAnswer": "1, 2 and 3 are all correct",
+          "explanation": null
         },
         {
           "questionNumber": "22",
@@ -337,7 +358,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "23",
@@ -355,7 +377,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 and 2 only are correct"
+          "wordAnswer": "1 and 2 only are correct",
+          "explanation": null
         },
         {
           "questionNumber": "24",
@@ -373,7 +396,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "1 only is correct"
+          "wordAnswer": "1 only is correct",
+          "explanation": null
         },
         {
           "questionNumber": "25",
@@ -391,7 +415,8 @@
             "2 and 3 only are correct",
             "1 only is correct"
           ],
-          "wordAnswer": "2 and 3 only are correct"
+          "wordAnswer": "2 and 3 only are correct",
+          "explanation": null
         }
       ]
     },
@@ -415,7 +440,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "27",
@@ -432,7 +458,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "First statement is True. Second statement is False"
+          "wordAnswer": "First statement is True. Second statement is False",
+          "explanation": null
         },
         {
           "questionNumber": "28",
@@ -449,7 +476,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "29",
@@ -466,7 +494,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+          "explanation": null
         },
         {
           "questionNumber": "30",
@@ -483,7 +512,8 @@
             "First statement is True. Second statement is False",
             "First statement is False. Second statement is True"
           ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first"
+          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "explanation": null
         }
       ]
     },
@@ -504,7 +534,8 @@
             "Synovial fluid",
             "Amniotic fluid"
           ],
-          "wordAnswer": "Plasma"
+          "wordAnswer": "Plasma",
+          "explanation": null
         },
         {
           "questionNumber": "32",
@@ -518,7 +549,8 @@
             "Lymphocytes",
             "Red blood cells"
           ],
-          "wordAnswer": ""
+          "wordAnswer": "Phagocytes",
+          "explanation": null
         },
         {
           "questionNumber": "33",
@@ -532,7 +564,8 @@
             "Fibrinogen",
             "Platelets"
           ],
-          "wordAnswer": "Antibodies"
+          "wordAnswer": "Antibodies",
+          "explanation": null
         },
         {
           "questionNumber": "34",
@@ -546,7 +579,8 @@
             "Hepatic vein",
             "Renal vein"
           ],
-          "wordAnswer": "Hepatic portal vein"
+          "wordAnswer": "Hepatic portal vein",
+          "explanation": null
         },
         {
           "questionNumber": "35",
@@ -560,7 +594,8 @@
             "Renal artery",
             "Pulmonary artery"
           ],
-          "wordAnswer": "Renal vein"
+          "wordAnswer": "Renal vein",
+          "explanation": null
         },
         {
           "questionNumber": "36",
@@ -574,7 +609,8 @@
             "Iodopsin",
             "Myoglobin"
           ],
-          "wordAnswer": "Haemoglobin"
+          "wordAnswer": "Haemoglobin",
+          "explanation": null
         },
         {
           "questionNumber": "37",
@@ -588,7 +624,8 @@
             "Smooth muscles",
             "Voluntary muscles"
           ],
-          "wordAnswer": "Cardiac muscles"
+          "wordAnswer": "Cardiac muscles",
+          "explanation": null
         },
         {
           "questionNumber": "38",
@@ -602,7 +639,8 @@
             "Capillary",
             "Artery"
           ],
-          "wordAnswer": "Capillary"
+          "wordAnswer": "Capillary",
+          "explanation": null
         },
         {
           "questionNumber": "39",
@@ -616,7 +654,8 @@
             "Liver",
             "Kidney"
           ],
-          "wordAnswer": "Heart"
+          "wordAnswer": "Heart",
+          "explanation": null
         },
         {
           "questionNumber": "40",
@@ -630,7 +669,8 @@
             "Pulmonary vein",
             "Vena cava"
           ],
-          "wordAnswer": "Pulmonary vein"
+          "wordAnswer": "Pulmonary vein",
+          "explanation": null
         }
       ]
     },
@@ -651,7 +691,8 @@
             "Left atrium and left ventricle",
             "Left ventricle and right ventricle"
           ],
-          "wordAnswer": "Right atrium and right ventricle"
+          "wordAnswer": "Right atrium and right ventricle",
+          "explanation": null
         },
         {
           "questionNumber": "42",
@@ -665,7 +706,8 @@
             "Vena cava",
             "Aorta"
           ],
-          "wordAnswer": "Pulmonary vein"
+          "wordAnswer": "Pulmonary vein",
+          "explanation": null
         },
         {
           "questionNumber": "43",
@@ -679,7 +721,8 @@
             "The tricuspid valves separate the left atrium from the left ventricle.",
             "Semi-lunar valves prevent back flow of blood into the auricles."
           ],
-          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle."
+          "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle.",
+          "explanation": null
         },
         {
           "questionNumber": "44",
@@ -693,21 +736,23 @@
             "Oxygenated, poor in food and under low pressure.",
             "Deoxygenated, rich in food and under high pressure."
           ],
-          "wordAnswer": "Deoxygenated, poor in food and under low pressure."
+          "wordAnswer": "Deoxygenated, poor in food and under low pressure.",
+          "explanation": null
         },
         {
           "questionNumber": "45",
-          "question": "Red blood cells transport oxygen because",
+          "question": "Red blood cells transport oxygen because:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "they are numerous.",
-            "they are biconcave.",
-            "they contain Haemoglobin.",
-            "they lack nucleus."
+            "They are numerous.",
+            "They are biconcave.",
+            "They contain Haemoglobin.",
+            "They lack nucleus."
           ],
-          "wordAnswer": "they contain Haemoglobin."
+          "wordAnswer": "They contain Haemoglobin.",
+          "explanation": null
         },
         {
           "questionNumber": "46",
@@ -721,11 +766,12 @@
             "Amniotic fluid",
             "Mucus"
           ],
-          "wordAnswer": "Pericardial fluid"
+          "wordAnswer": "Pericardial fluid",
+          "explanation": null
         },
         {
           "questionNumber": "47",
-          "question": "The form in which oxygen is transported to the tissues",
+          "question": "The form in which oxygen is transported to the tissues in mammals",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -735,7 +781,8 @@
             "Oxyhaemoglobin",
             "Carbaminohaemoglobin"
           ],
-          "wordAnswer": "Oxyhaemoglobin"
+          "wordAnswer": "Oxyhaemoglobin",
+          "explanation": null
         },
         {
           "questionNumber": "48",
@@ -749,7 +796,8 @@
             "Myocardial infaction",
             "Hypertension"
           ],
-          "wordAnswer": "Thrombosis"
+          "wordAnswer": "Thrombosis",
+          "explanation": null
         },
         {
           "questionNumber": "49",
@@ -759,11 +807,12 @@
           "nonSelectableOptions": null,
           "selectableOptions": [
             "Prothrombin",
-            "Throbokinase",
+            "Thrombokinase",
             "Thrombin",
             "Fibrinogen"
           ],
-          "wordAnswer": "Thrombin"
+          "wordAnswer": "Thrombin",
+          "explanation": null
         },
         {
           "questionNumber": "50",
@@ -777,7 +826,8 @@
             "Endothelium",
             "valves"
           ],
-          "wordAnswer": "Endothelium"
+          "wordAnswer": "Endothelium",
+          "explanation": null
         }
       ]
     }

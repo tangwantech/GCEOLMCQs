@@ -43,12 +43,12 @@
     <string name="retry">Retry</string>
     <string name="ok">OK</string>
     <string name="pending_transaction">Pending transaction</string>
-    <string name="time_remaining">Time remaining</string>
+    <string name="time_remaining">Time remaining:</string>
     <string name="result">Result</string>
     <string name="sections_answered">Sections answered</string>
     <string name="tvPaperScore">Total Score</string>
     <string name="questions_answered">Questions answered</string>
-    <string name="score">Score</string>
+    <string name="score">Score: </string>
     <string name="percentage">Percentage</string>
     <string name="wrong">Wrong</string>
     <string name="correct">Correct</string>
@@ -128,6 +128,28 @@
     <string name="restart">Restart</string>
     <string name="subscription">subscription</string>
     <string name="see_explanation">See Explanation</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="developer">Developer: Tangwan Tech</string>
+    <string name="email">Email: tangwantech@gmail.com</string>
+    <string name="next">Next</string>
+    <string name="correct_answer">Correct answer:</string>
+    <string name="expires_in">Expires in:</string>
+    <string name="tap_to_select_package">Tap to select package</string>
+    <string name="tap_to_select_payment_method">Tap to select payment method</string>
+    <string name="terms_agreement">By using the services provided by GCE OL MCQS ("Service Provider"), you agree to be bound by this Agreement</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="agreement">Agreement</string>
+    <string name="selected_package">Selected Package:</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="mtn_momo">MTN MOMO</string>
+    <string name="orange_momo">ORANGE MOMO</string>
+    <string name="no_active_internet_connection">1. You might not have an active internet connection.</string>
+    <string name="invalid_mobile_money_number">2. You might have entered an invalid mobile money number.</string>
+    <string name="insufficient_funds_in_your_account">3. You might not have sufficient funds in your account.</string>
+    <string name="canceled_the_transaction">4. You might have canceled the transaction.</string>
+    <string name="verify_payment_info">Please ensure the information below is correct before making your payment</string>
+    <string name="highest_score">Highest Score</string>
 
 
     <string-array name="paper_instruction">
@@ -141,10 +163,10 @@
     </string-array>
 
     <string-array name="package_types">
-        <item>MCQ 1H</item>
-        <item>MCQ 2H</item>
+<!--        <item>MCQ 1H</item>-->
+<!--        <item>MCQ 2H</item>-->
         <item>MCQ 3H</item>
-        <item>MCQ 4H</item>
+<!--        <item>MCQ 4H</item>-->
 <!--        <item>MCQ 5H</item>-->
         <!--        <item>MCQ 6H</item>-->
         <!--        <item>MCQ 12H</item>-->
@@ -152,10 +174,10 @@
     </string-array>
 
     <string-array name="package_durations">
-        <item>1</item>
-        <item>2</item>
+<!--        <item>1</item>-->
+<!--        <item>2</item>-->
         <item>3</item>
-        <item>4</item>
+<!--        <item>4</item>-->
 <!--        <item>5</item>-->
         <!--        <item>6</item>-->
         <!--        <item>12</item>-->
@@ -163,10 +185,10 @@
     </string-array>
 
     <string-array name="package_prices">
-        <item>25</item>
-        <item>50</item>
-        <item>75</item>
-        <item>100</item>
+<!--        <item>25</item>-->
+<!--        <item>50</item>-->
+<!--        <item>75</item>-->
+        <item>5</item>
 <!--        <item>100</item>-->
         <!--        <item>120</item>-->
         <!--        <item>200</item>-->

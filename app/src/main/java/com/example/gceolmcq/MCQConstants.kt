@@ -2,6 +2,11 @@ package com.example.gceolmcq
 
 class MCQConstants{
     companion object{
+        const val PACKAGE_DURATION = "packageDuration"
+        const val TRANSACTION_STATUS = "transactionStatus"
+        const val IS_ACTIVE = "isActive"
+        const val MOMO_PARTNER = "momoPartner"
+        const val PACKAGE_PRICE = "packagePrice"
         const val NA = "NA"
         const val TERMS_ACCEPTED = "termsAccepted"
         const val TRIAL_DURATION = 2
@@ -58,6 +63,7 @@ class MCQConstants{
         const val PASS_WORD = "password"
         const val FROM = "from"
         const val COUNTRY_CODE = "237"
+        const val TRANSACTION_ID = "transactionId"
 
         const val U_GRADE = "U Grade"
         const val MINIMUM_PASS_PERCENTAGE = 50
@@ -70,6 +76,11 @@ class MCQConstants{
         const val MILLI_SEC_PER_QUESTION = 108000L
         const val COUNT_DOWN_INTERVAL = 1000L
         const val TIME_TO_ANIMATE_TIMER = 60000L
+
+        const val SUBJECT_FILE_DATA_NAME = "subject_data.json"
+        const val TERMS_URL = "file:///android_asset/Terms of Use of Service.html"
+        const val MTN = "MTN"
+        const val ORANGE = "ORANGE"
 
 
 
