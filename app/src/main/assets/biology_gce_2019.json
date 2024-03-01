@@ -22,7 +22,7 @@
             "Internode."
           ],
           "wordAnswer": "Node.",
-          "explanation": null
+          "explanation": "A new branch develops develops from a node. A node contains auxillary meristematic tissue which can give rise to a leaf or branch. \n\nIn contrast, the other options are incorrect because \n\n- 'Axil' refers to the angle between a leaf and stem or a branch and stem. \n\n- 'Apex' refers to the tip of a stem, which is not where a new branch develops. \n\n- 'Internode' refers to the region between two nodes, which does not represent the location of branch development."
         },
         {
           "questionNumber": "2",
@@ -37,7 +37,7 @@
             "Feeding."
           ],
           "wordAnswer": "Feeding.",
-          "explanation": null
+          "explanation": "Pseudopodia in amoeba are temporary extensions of the cell membrane and cytoplasm. They help the organism to capture and engulf food particles through a process called phagocytosis. The engulfed particles can then be digested within the body of the amoeba. The pseudopodia also help the amoeba to move and change direction. The other options are incorrect because:\n\n- 'Osmoregulation is carried out by contractile vacuole, not pseudopodia. \n\n- The nucleus is controls reproduction, not pseudopodia.\n\n- 'The entire cell surface membrane is involve in gaseous exchange."
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Habitat."
           ],
           "wordAnswer": "Habitat.",
-          "explanation": null
+          "explanation": "A habitat refers to the specific place where an organism is adapted to live. The other options are incorrect because:\n\n- An Environment refers to the surroundings or conditions in which an organism exists, including both living and non-living factors. \n\n- A Community refers to the interacting populations of different species in a specific area. \n\n- Ecosystem refers to a community of organisms interacting with each other and their physical or non living environment."
         },
         {
           "questionNumber": "4",
@@ -67,9 +67,9 @@
             "Starch."
           ],
           "wordAnswer": "Reducing sugar.",
-          "explanation": null
+          "explanation": "Benedict's solution is used to test for reducing sugars only. The colour produced when Benedict's solution reacts with reducing sugar is brick-red."
         },
-            {
+        {
           "questionNumber": "5",
           "question": "The gas produced during photosynthesis is tested using",
           "image": null,
@@ -82,7 +82,7 @@
             "Lime water."
           ],
           "wordAnswer": "A glowing splint.",
-          "explanation": null
+          "explanation": "The gas produced during photosynthesis is oxygen. Oxygen gas can be tested for by using a glowing splint. In the presence of oxygen, a glowing splint rekindles."
         },
         {
           "questionNumber": "6",
@@ -97,7 +97,7 @@
             "Urea, water, RBCs, salts."
           ],
           "wordAnswer": "Urea, salts, glucose, water.",
-          "explanation": null
+          "explanation": "Glomerular filtrate is the liquid collected in the capsular space of the Bowman's capsule. It is formed during ultrafiltration in the glomerulus. Only substances small enough to pass through the walls of the glomerulus are filtered into the capsular space. Examples of such substances include urea, salts, glucose, water. Large substances such fibrinogen and red blood cells are absent in glomerular filtrate because they cannot pass through the wall of the glomerulus."
         },
         {
           "questionNumber": "7",
@@ -112,7 +112,7 @@
             "Increased metabolism."
           ],
           "wordAnswer": "Vaso-dilation.",
-          "explanation": null
+          "explanation": "During overheating of the human body, the blood vessels near the skin surface dilate (Vaso-dilation). This dilation allows more blood to flow near the skin surface, promoting heat loss through radiation and convection. This helps to cool down the body. \n\n- Shivering, vaso-constriction and increased metabolism, are events which occur during overcooling, not overheating."
         }
       ]
     },
@@ -149,7 +149,7 @@
             "Ovary."
           ],
           "wordAnswer": "Ovule.",
-          "explanation": null
+          "explanation": "After fertilization in a flower, the ovule develops into a seed. The other options are incorrect because: \n\n- The Sepals and Petals wither and fall off after fertilization. \n\n- After ferilization, the ovary develops into a fruit which may contain one or more seeds."
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Amount of water present in water bodies."
           ],
           "wordAnswer": "Heat from the sun.",
-          "explanation": null
+          "explanation": "In the water cycle, evaporation of water, is primarily promoted by the heat energy from the sun. The sun's heat provides the energy needed to convert liquid water into water vapor. The other options are incorrect because: \n\n- While humidity, atmospheric pressure and amount of water in water bodies may affect the amount of water that evaporates, they are not the primary cause of evaporation of water."
         },
         {
           "questionNumber": "11",
@@ -179,9 +179,9 @@
             "Testosterone."
           ],
           "wordAnswer": "Adrenaline.",
-          "explanation": null
+          "explanation": "Structure 3 represents adrenal gland (structure 3). The adrenal gland is responsible for the production and secretion of adrenaline. The other options are incorrect because:\n\n- Thyroxine is produced and secreted by the thyroid gland. \n\n- Progesterone is produced and secreted initially by the ovary (structure 2) after ovulation and subsequently by the placenta during gestation. \n\n- Testosterone is produced and secreted by the testes (structure 1) in males."
         },
-            {
+        {
           "questionNumber": "12",
           "question": "The part of a leaf which attaches it to a stem is the",
           "image": null,
@@ -194,11 +194,11 @@
             "Petiole."
           ],
           "wordAnswer": "Petiole.",
-          "explanation": null
+          "explanation": "The petiole attaches a leaf to the stem. The other options are incorrect because:\n\n- Apex refers to the tip of the leaf.\n\n- Margin refers to the edge of the leaf.\n\n- Midrib is the central vein running through the leaf."
         },
         {
           "questionNumber": "13",
-          "question": "Which of the following brings about refraction in the eye?",
+          "question": "Which of the following bring about refraction in the eye?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -209,7 +209,7 @@
             "Lens, humours and cornea."
           ],
           "wordAnswer": "Lens, humours and cornea.",
-          "explanation": null
+          "explanation": "Refraction is the bending of light as it passes through different media. In the eye, the cornea, lens, and the humours (aqueous and vitreous) work together to refract light and bring it to focus on the retina. \n\n- The other options are incorrect because they do not contain the correct combination of structures that help to refract light."
         },
         {
           "questionNumber": "14",
@@ -224,7 +224,7 @@
             "Micropyle."
           ],
           "wordAnswer": "Hilium.",
-          "explanation": null
+          "explanation": "The hilum is the scar on the seed where it was connected to the ovary. The other options are incorrect because:\n\n- Testa refers to the seed coat, which is the outer protective covering of the seed.\n\n- Radicle refers to the embryonic root of the seed.\n\n- Micropyle refers to a small opening in the seed coat that allows water and gases to enter during germination."
         },
         {
           "questionNumber": "15",
@@ -239,9 +239,9 @@
             "Ligament."
           ],
           "wordAnswer": "Biceps.",
-          "explanation": null
+          "explanation": "When the arm is stretched, the biceps muscle relax to allow extension of the arm. The other options are incorrect because:\n\n- Triceps refer to the block of muscles that contract when the arm is stretched.\n\n- 'Tendons' are connective tissues that attach muscles to bones. They can neither contract nor relax.\n\n- 'Ligament' is a connective tissue that connects bone to bone at joints."
         },
-            {
+        {
           "questionNumber": "16",
           "question": "The pollen tube grows and passes through the",
           "image": null,
@@ -254,7 +254,7 @@
             "Filament."
           ],
           "wordAnswer": "Style.",
-          "explanation": null
+          "explanation": "The pollen tube grows and passes through the style. The style is a long, slender structure that connects the stigma (where pollen lands) to the ovary (where fertilization occurs). The other options are incorrect because:\n\n- Receptacle refers to the enlarged part of the flower's stalk where the floral organs are attached.\n- Anther is the part of the flower that produces pollen.\n\n- Filament is the slender stalk that supports the anther."
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "4"
           ],
           "wordAnswer": "2",
-          "explanation": null
+          "explanation": "The structure labeled '2' (phloem) is responsible for transporting organic food (such as sugars) throughout the plant. The other other options are incorrect because:\n\n- Structure'1' represents the epidermis, which provides a protective covering on the external parts of a plant.\n- Structure '3' represents the cambium, which helps in secondary growth or increase in thickness of the plant.\n- Structure '4' represents the xylem, which transports water and mineral salts from the roots to the leaves."
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "Protein coat."
           ],
           "wordAnswer": "Genetic material.",
-          "explanation": null
+          "explanation": "The genetic material (either DNA or RNA) is the structure in a virus that controls 'cell' activities. The other options are incorrect because:\n\n- Hollow core refers to the empty space inside the virus particle.\n\n- Tail sheath is a structure found in some bacteriophages (viruses that infect bacteria) and is not present in all viruses.\n\n- Protein coat (also known as the capsid) is the outer protective layer of the virus."
         },
         {
           "questionNumber": "19",
@@ -299,9 +299,9 @@
             "Pulmonary artery."
           ],
           "wordAnswer": "Pulmonary artery.",
-          "explanation": null
+          "explanation": "The pulmonary artery carries deoxygenated blood from the heart to the lungs for oxygenation. The other options are incorrect because:\n\n- The left atrium, left ventricle and pulmonary vein contain oxygenated blood."
         },
-            {
+        {
           "questionNumber": "20",
           "question": "Urine is expelled from the body of a mammal through the",
           "image": null,
@@ -314,7 +314,7 @@
             "Ureter."
           ],
           "wordAnswer": "Urethra.",
-          "explanation": null
+          "explanation": "Urine is expelled from the body of a mammal through the urethra. The urethra carries urine from the urinary bladder to the exterior. The other options are incorrect because \n\n- The Collecting duct sends urine to the pelvis.\n\n- Renal tubule is the part of the nephron involved in selective reabsorption and secretion during urine formation. \n\n- Ureter is a tube that carries urine from the pelvis in the kidney to the urinary bladder."
         }
       ]
     },
@@ -340,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": null
+          "explanation": "In a food web there are many food chains. The other options are incorrect because\n\n- In a food web, each organism has more than one food source, not a single food source. \n\n- In a food web, the producers are not limited to aquatic plants. They can also be terrestrial plants."
 
         },
         {
@@ -360,7 +360,8 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "Enzymes are protein in nature (are made up of amino acids). Enzymes are substrate specific (act on only one substrate or group of related substrates). For example an enzyme that digest carbohydrate cannot digest protein or lipid. The other option is incorrect because:\n\n- Enzymes are denatured at very high temperature, not activated."
+
         },
         {
           "questionNumber": "23",
@@ -379,10 +380,10 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "During photosynthesis, plants absorb solar energy using their chlorophyll to combine carbon dioxide and water, to form carbohydrate. During photosynthesis, there is increase in weight in a plant because carbohydrate is synthesized and accumulated (stored). During photosynthesis, oxygen produced from the photolysis of water is released from the plant as a waste product."
 
         },
-            {
+        {
           "questionNumber": "24",
           "question": "Deficiency disease(s)",
           "image": null,
@@ -399,7 +400,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "A deficiency disease is any disease that results from the lack of a class of food. Rickets is caused by a lack of vitamin D, calcium, or phosphate. Scurvy is caused by a lack of vitamin C.\n\n- Malaria is not a deficiency disease. It is a parasitic infection caused by a Plasmodium, which is transmitted through mosquito bites."
 
         },
         {
@@ -419,7 +420,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "Lightning can cause nitrogen fixation by converting atmospheric nitrogen into nitrogen oxides, which can then dissolve in rainwater and reach the soil. Bacteria in the root nodules of leguminous plants can also fix atmospheric nitrogen into soil nitrates which plants can absorb. \n\n- Denitrifying bacteria convert soil nitrates back into atmospheric nitrogen, reversing the process of nitrogen fixation."
 
         }
       ]
@@ -463,7 +464,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": null
+          "explanation": "Glucagon stimulates the conversion of glycogen to glucose, not glucose to glycogen.\n\n- A rise in glucose level stimulates the pancreas to release insulin. Insulin helps to stimulate the conversion of excess glucose to glycogen which is stored in the liver and muscles. This helps to reduce blood sugar level"
         },
         {
           "questionNumber": "28",
@@ -481,7 +482,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": null
+          "explanation": "Water is absorbed from the soil by plant roots through the process called osmosis. Osmosis involves the movement of water molecules from an area of high water potential (in this case, the soil) to an area of low water potential (inside the root cells) across the selectively permeable plasmamembrane (of the root hair cells). \n- The phloem tissue is responsible for transport organic food substances, is not water and mineral salts. Transport of water and mineral salts is carried out by the xylem."
         },
             {
           "questionNumber": "29",
@@ -499,7 +500,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
-          "explanation": null
+          "explanation": "Testes hang outside the bodies of male mammals. This is to ensures that the testes are always at a slightly lower temperature than the body's core temperature, for sperm production."
 
         },
         {
@@ -518,7 +519,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are true and the second statement is a correct explanation of the first.",
-          "explanation": null
+          "explanation": "Multicellular organisms are made up of a large number of cells. These cells are not all in direct contact with each other and the environment. Hence, diffusion would be inefficient in moving materials from one cell to another over long distances. A transport system is therefore required to for rapid transport of materials over long distances within the bodies of multicellular organisms."
 
         }
       ]
@@ -541,7 +542,7 @@
             "Enterokinase."
           ],
           "wordAnswer": "Restriction enzyme.",
-          "explanation": null
+          "explanation": "'Restriction enzyme' is the enzyme commonly used in genetic engineering to cut DNA. Restriction enzymes recognize specific DNA sequences and cleave (cut) the DNA at those sites, allowing scientists to manipulate and modify DNA fragments. The ther options are incorrect because: \n\n- Ligase is an enzyme that joins DNA fragments with complimentary ends together. \n\n- Lipase is an enzyme that chemically digest lipids to fatty acids and glycerol. \n\n- Enterokinase is an enzyme involved in converting the inactive digestive enzyme trypsinogen to trypsin."
         },
         {
           "questionNumber": "32",
@@ -556,7 +557,7 @@
             "Dendron."
           ],
           "wordAnswer": "Ganglion.",
-          "explanation": null
+          "explanation": "A ganglion is a structure that contains many cell bodies of neurons. It is located outside the central nervous system. They play a role in processing and integrating sensory information. The other options are incorrect because: \n- A neuron contains a single nerve cell. \n\n- 'Synapse' is the junction between two neurons where signals are transmitted. \n- 'Dendron' is a term used to describe the branching extensions from the cell body of a neuron."
         },
         {
           "questionNumber": "33",
@@ -571,7 +572,7 @@
             "Phenotype."
           ],
           "wordAnswer": "Phenotype.",
-          "explanation": null
+          "explanation": "Phenotype refers to the observable (outward) characteristics or traits of an organism, determined by its genes and the environment in which development occurs. The other options are incorrect because. \n\n- Genotype refers to the genetic makeup of an organism. \n\n- Heterozygous and Homozygous are terms that describe the types of genetic combinations for a particular gene."
         },
         {
           "questionNumber": "34",
@@ -586,9 +587,9 @@
             "Herbivores."
           ],
           "wordAnswer": "Decomposers.",
-          "explanation": null
+          "explanation": "Decomposers are organisms that break down dead organic matter, releasing nutrients back into the environment. Decomposers play a vital role in the recycling of nutrients in ecosystems."
         },
-            {
+        {
           "questionNumber": "35",
           "question": "More in inspired air than in expired air.",
           "image": null,
@@ -601,7 +602,7 @@
             "Carbon dioxide."
           ],
           "wordAnswer": "Oxygen.",
-          "explanation": null
+          "explanation": "Inspired air contains a higher concentration of oxygen compared to expired air. Expired air contains less oxygen because oxygen is used during tissue respiration.\n\nIn contrast, the other options are incorrect because:\n- The concentration of nitrogen is the same in inspired and expired air because it is neither used nor produced by the body.\n-  The concentration of carbon dioxide is less in inspired air than in expired air because carbon dioxide is produced during tissue respiration."
         },
         {
           "questionNumber": "36",
@@ -616,7 +617,7 @@
             "Adrenaline."
           ],
           "wordAnswer": "Adrenaline.",
-          "explanation": null
+          "explanation": "Adrenaline is the hormone that is released during fright,  fight or flight response. Adrenaline prepares the body for a physical response by increasing heart rate, dilating blood vessels, and releasing glucose into the bloodstream. The other options are incorrect because: \n\n- Insulin and Glucagon are hormones produced when blood sugar level rises above or falls below a set point, not during fright. \n\n- Thyroxine is a hormone produced by the thyroid gland to control rate of metabolism. It is not produced as a result of fright."
         },
         {
           "questionNumber": "37",
@@ -631,7 +632,7 @@
             "Water."
           ],
           "wordAnswer": "Lactic acid.",
-          "explanation": null
+          "explanation": "Lactic acid is a byproduct of anaerobic respiration in mammals. When the body cannot supply enough oxygen to meet the energy demands of the cells, anaerobic respiration occurs, leading to the production of lactic acid. Lactic acid can build up in muscles during intense exercise, causing fatigue and muscle soreness. The other options are incorrect because:\n\n- Carbon monoxide is not produced in living organism.\n\n- Ethanol is a product of anaerobic respiration in yeasts and plants, not mammals. \n\n- Water is a product of aerobic respiration not, anaerobic respiration."
         },
         {
           "questionNumber": "38",
@@ -646,11 +647,11 @@
             "Nitrogen."
           ],
           "wordAnswer": "Nitrogen.",
-          "explanation": null
+          "explanation": "Nitrogen is an essential constituent of proteins. All amino acids that make up proteins contain nitrogen as part of the amino group (NH2) involved in peptide bond formation. The other options are incorrect because:\n\n- Magnesium, Potassium, and Calcium are minerals that play important roles in various cellular processes, but they are not constituents of proteins."
         },
-            {
+        {
           "questionNumber": "39",
-          "question": "Indicates the presence of starch when iodine is dropped on a piece of cocoyam.",
+          "question": "It indicates the presence of starch when iodine is dropped on a piece of cocoyam.",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -661,7 +662,7 @@
             "Brown."
           ],
           "wordAnswer": "Dark blue.",
-          "explanation": null
+          "explanation": "When iodine is dropped on a piece of cocoyam, it reacts with starch to form a dark blue or black color. This color change indicates the presence of starch."
         },
         {
           "questionNumber": "40",
@@ -676,7 +677,7 @@
             "Condensation."
           ],
           "wordAnswer": "Condensation.",
-          "explanation": null
+          "explanation": "Condensation occurs when water vapour loses heat to a cooler environment and becomes liquid. This process is responsible for the formation of clouds, dew, and fog. The other options are incorrect because:\n\n- Precipitation refers to any form of water falling from the atmosphere, including rain, snow, sleet, or hail.\n\n- Evaporation is the process of liquid water turning into water vapor.\n- Melting is the process of a solid substance turning into a liquid."
         }
       ]
     },
@@ -698,7 +699,7 @@
             "Osmosis."
           ],
           "wordAnswer": "Osmosis.",
-          "explanation": null
+          "explanation": "When a red blood cell was placed in tap water, water entered the red blood cell by osmosis. Continuous influx of water into the red blood cell caused it to swell and eventually burst because red blood cells like all animal cells, do not have cell wall to resist further expansion."
         },
         {
           "questionNumber": "42",
@@ -713,7 +714,7 @@
             "Avoid water loss."
           ],
           "wordAnswer": "Allow the plant use up all available starch.",
-          "explanation": null
+          "explanation": "When a potted plant is kept in the dark for 24 hours, it is deprived of light. Without light, the plant cannot produce glucose through photosynthesis. It starts to utilize the stored starch as an energy source to sustain its metabolic activities. This process allows the plant to use up all the available starch before the start of the experiment such that, any starch detected at the end of the experiment should be that produced during the experiment and not before the experiment."
         },
         {
           "questionNumber": "43",
@@ -728,7 +729,7 @@
             "Level of water in beaker rising."
           ],
           "wordAnswer": "Gas bubbles rising in the test tube.",
-          "explanation": null
+          "explanation": "The plant in the setup is Elodea(an aquatic plant). This setup allows for the process of photosynthesis to be investigated. During photosynthesis, glucose and oxygen are produced. Oxygen is released out of the plant as a waste product. It is this oxygen which is observed as gas bubbles rising in the test tube. This gas (oxygen) can be verified using a glowing splint which rekindles."
         },
         {
           "questionNumber": "44",
@@ -743,11 +744,11 @@
             "To prevent growth of micro-organisms."
           ],
           "wordAnswer": "To prevent growth of micro-organisms.",
-          "explanation": null
+          "explanation": "Growth of micro-organisms require energy which comes from tissue respiration within their bodies. Some of this energy is usually lost to the surrounding as heat. Rinsing of the soaked bean seeds in a disinfectant prevents growth of these unwanted micro-organisms. Thus any heat energy produced during respiration is solely due to the metabolic activity of the seeds and not from heat energy lost from the micro-organisms."
         },
-            {
+        {
           "questionNumber": "45",
-          "question": "The following is a food chain. Grass-->Grasshopper-->Bird-->Dog. In which organism is energy most likely to be abundant?",
+          "question": "The following is a food chain. Grass --> Grasshopper --> Bird --> Dog. In which organism is energy most likely to be abundant?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -758,7 +759,7 @@
             "Bird."
           ],
           "wordAnswer": "Maize plant.",
-          "explanation": null
+          "explanation": "Energy is most likely to be abundant in the Maize plant. The maize plant, like all producers, directly converts sunlight energy into chemical energy. During feeding, not all the energy present in the maize is transferred to the other members of the food chain.  Because of this loss of energy during transfer, the maize would have the most energy while the dog would have the least energy in the food chain."
         },
         {
           "questionNumber": "46",
@@ -773,7 +774,7 @@
             "D."
           ],
           "wordAnswer": "C.",
-          "explanation": null
+          "explanation": "Graph C most likely shows the effect of light intensity on the rate of photosynthesis. As light intensity increases, the rate of photosynthesis also increases until it reaches a certain point where it plateaus. At this point, further increase in light intensity has no effect on the rate of photosynthesis."
         },
         {
           "questionNumber": "47",
@@ -788,7 +789,7 @@
             "Y"
           ],
           "wordAnswer": "X",
-          "explanation": null
+          "explanation": "Food sample X is best for body building because it has the highest protein content (7g). Proteins are essential for building and repairing tissues in the body, including muscles. Carbohydrates and lipids are also important for energy, but for body building specifically, a higher protein content is desired. The other options (W, T, and Y) have lower protein content, making them less suitable for body building."
         },
         {
           "questionNumber": "48",
@@ -803,9 +804,9 @@
             "1"
           ],
           "wordAnswer": "1/4",
-          "explanation": null
+          "explanation": "When two heterozygous parents (AS and AS) have children, the possible offspring genotypes would be 1/4 AA, 1/2 AS and 1/4 SS. Out of these combinations, the probability of having a child with sickle cell anemia (SS) is 1/4."
         },
-            {
+        {
           "questionNumber": "49",
           "question": "As a measure to control malaria, oil is sprayed on standing water. This is",
           "image": null,
@@ -818,7 +819,7 @@
             "To eliminate the adult mosquito."
           ],
           "wordAnswer": "To kill mosquito larvae.",
-          "explanation": null
+          "explanation": "When oil is sprayed on standing water, it forms a thin film that suffocates the mosquito larvae, preventing them from breathing. This helps in controlling the mosquito population by eliminating the larvae stage. This is an example of chemical control."
         },
         {
           "questionNumber": "50",
@@ -833,7 +834,7 @@
             "Bean."
           ],
           "wordAnswer": "Green vegetable.",
-          "explanation": null
+          "explanation": "Including green vegetables in the child's diet is advisable to address anaemia. Green vegetables are rich sources of iron, which is essential for the production of haemoglobin in red blood cells. Anaemia is often caused by a deficiency of iron in the body, so consuming iron-rich foods can help improve the child's condition."
         }
       ]
     }

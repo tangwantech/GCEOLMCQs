@@ -39,6 +39,10 @@
         {
           "title": "Coordination in Animals",
           "fileName": "coordination-in-animals.json"
+        },
+        {
+          "title": "Ecology",
+          "fileName": "ecology.json"
         }
 
       ]

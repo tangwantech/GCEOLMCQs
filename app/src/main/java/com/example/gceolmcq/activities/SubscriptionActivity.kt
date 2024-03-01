@@ -4,25 +4,31 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.provider.Settings
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.doOnTextChanged
+import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProvider
 import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.MomoPayService
 
 import com.example.gceolmcq.R
+import com.example.gceolmcq.datamodels.PackageData
 import com.example.gceolmcq.datamodels.SubjectPackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
+import com.example.gceolmcq.fragments.PackagesDialogFragment
 import com.example.gceolmcq.fragments.SubscriptionFormDialogFragment
 
 //import com.example.gceolmcq.momoPay.MomoPayService
 import com.example.gceolmcq.viewmodels.SubscriptionActivityViewModel
+import com.google.android.material.textfield.TextInputEditText
 import kotlinx.coroutines.*
 
-abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialogFragment.OnPayButtonClickListener{
+abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialogFragment.SubscriptionFormButtonClickListener, PackagesDialogFragment.PackageDialogListener{
     private val SUBCRIPTION_ACTIVITY = "subscriptionActivity"
     private var processingAlertDialog: AlertDialog? = null
     private var requestToPayDialog: AlertDialog? = null
@@ -31,6 +37,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     private var packageActivatedDialog: AlertDialog? = null
     private var paymentReceivedDialog: AlertDialog? = null
     private var activatingTrialPackageDialog: AlertDialog? = null
+//    private var packagesDialog: DialogFragment? = null
 
     private lateinit var viewModel: SubscriptionActivityViewModel
 
@@ -39,6 +46,10 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         setupViewModel()
         setupViewObservers()
 //        resumeTransaction()
+    }
+
+    open override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return super.onOptionsItemSelected(item)
     }
 
 
@@ -103,8 +114,18 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
                     }
                     MCQConstants.SUCCESSFUL -> {
                         cancelProcessingAndRequestToPayDialogs()
+//                        if (processingAlertDialog != null){
+//                            cancelProcessingRequestDialog()
+//                        }
+//                        if (requestToPayDialog != null){
+//                            cancelRequestToPayDialog()
+//                        }
+
                         if(paymentReceivedDialog == null){
                             showPaymentReceivedDialog()
+                        }
+                        if (failedToActivatePackageDialog != null){
+                            cancelFailedToActivateDialog()
                         }
 
                         CoroutineScope(Dispatchers.IO).launch {
@@ -122,6 +143,12 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
                     }
                     MCQConstants.FAILED -> {
                         cancelProcessingAndRequestToPayDialogs()
+//                        if (processingAlertDialog != null){
+//                            cancelProcessingRequestDialog()
+//                        }
+//                        if (requestToPayDialog != null){
+//                            cancelRequestToPayDialog()
+//                        }
                         if(failedToActivatePackageDialog == null){
                             showTransactionFailedDialog()
                             updateCurrentTransactionSharedPref(getCurrentTransactionFromSharedPref(), MCQConstants.FAILED, false)
@@ -183,10 +210,11 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         activatingPackageDialog = null
     }
 
-    private fun showSubscriptionForm(position: Int, subjectName: String) {
+    private fun showSubscriptionForm(position: Int, subjectName: String, packageData: PackageData?) {
         val subscriptionFormDialogFragment = SubscriptionFormDialogFragment.newInstance(
             position,
-            subjectName
+            subjectName,
+            packageData
         )
         subscriptionFormDialogFragment.isCancelable = false
         subscriptionFormDialogFragment.show(supportFragmentManager, "subscription_form_dialog")
@@ -195,6 +223,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     private fun showRequestUserToPayDialog() {
 
         val dialogView = layoutInflater.inflate(R.layout.fragment_request_to_pay, null)
+        val tvRequestToPayTitle: TextView = dialogView.findViewById(R.id.tvRequestToPayTitle)
         val tvRequestToPayMessage: TextView = dialogView.findViewById(R.id.tvRequestToPayMessage)
         val tvRequestToPaySubject: TextView =
             dialogView.findViewById(R.id.tvRequestToPaySubject)
@@ -203,9 +232,12 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         val tvRequestToPayPackagePrice: TextView =
             dialogView.findViewById(R.id.tvRequestToPayAmount)
 
-        if (viewModel.subscriptionData.value?.momoPartner == "${resources.getStringArray(R.array.momo_partners)[0]}") {
+        if (viewModel.subscriptionData.value?.momoPartner == MCQConstants.MTN) {
+            tvRequestToPayTitle.setBackgroundColor(resources.getColor(R.color.mtn))
             tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
+
         } else {
+            tvRequestToPayTitle.setBackgroundColor(resources.getColor(R.color.orange))
             tvRequestToPayMessage.text = resources.getString(R.string.orange_request_to_pay_message)
         }
 
@@ -250,7 +282,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         val packageActivatedDialog = AlertDialog.Builder(this).apply {
             setView(view)
             setPositiveButton("Ok"){ _, _ ->
-//            packageActivatedDialog = null
+            packageActivatedDialog = null
             }
         }.create()
         packageActivatedDialog.show()
@@ -269,7 +301,8 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         failedToActivatePackageDialog?.setView(view)
         failedToActivatePackageDialog?.setButton(AlertDialog.BUTTON_POSITIVE, "Ok") { _, _ ->
 //            d.dismiss()
-            failedToActivatePackageDialog = null
+//            failedToActivatePackageDialog = null
+            cancelFailedToActivateDialog()
 
         }
         failedToActivatePackageDialog?.show()
@@ -305,20 +338,19 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
     }
 
     private fun displayInvoice(subscriptionData: SubscriptionFormData){
-        val view = LayoutInflater.from(this).inflate(R.layout.invoice_layout, null)
+        val view = LayoutInflater.from(this).inflate(R.layout.subscription_summary_layout, null)
         val subjectName: TextView = view.findViewById(R.id.invoiceSubjectNameTv)
         val packageName: TextView = view.findViewById(R.id.invoicePackageNameTv)
         val packagePrice: TextView = view.findViewById(R.id.invoicePackagePriceTv)
         val momoNumber: TextView = view.findViewById(R.id.invoiceMomoNumberTv)
 
-        subjectName.text = "Subject: ${subscriptionData.subject}"
-        packageName.text = "Package: ${subscriptionData.packageType}"
-        packagePrice.text = "Amount to pay: ${subscriptionData.packagePrice} FCFA"
-        momoNumber.text = "Momo Number: ${subscriptionData.momoNumber}"
+        subjectName.text = "${subscriptionData.subject}"
+        packageName.text = "${subscriptionData.packageType}"
+        packagePrice.text = "${subscriptionData.packagePrice} FCFA"
+        momoNumber.text = "${subscriptionData.momoNumber}"
         val dialog = AlertDialog.Builder(this)
         dialog.apply{
-            setTitle("Transaction details")
-            setMessage("Please ensure the information below is correct before making your payment")
+            setMessage(resources.getString(R.string.verify_payment_info))
             setView(view)
             setCancelable(false)
             setPositiveButton(resources.getString(R.string.pay)  ){btn, _ ->
@@ -334,6 +366,38 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         dialog.show()
     }
 
+    private fun displayPackagesDialog(){
+        val packagesDialog = PackagesDialogFragment.newInstance()
+        packagesDialog.show(supportFragmentManager, null)
+    }
+
+    private fun displayEnterMomoNumberDialog(subscriptionFormData: SubscriptionFormData){
+        val view = layoutInflater.inflate(R.layout.momo_number_dialog, null)
+        val etMoMoNumber: TextInputEditText = view.findViewById(R.id.etMomoNumber)
+        val dialog = AlertDialog.Builder(this).create()
+        dialog.setTitle(resources.getString(R.string.enter_number))
+        dialog.setView(view)
+        dialog.setCancelable(false)
+        dialog.setButton(AlertDialog.BUTTON_POSITIVE, resources.getString(R.string.next)){_, _ ->
+            displayInvoice(subscriptionFormData)
+        }
+        dialog.setButton(AlertDialog.BUTTON_NEGATIVE,resources.getString(R.string.cancel)){_, _ ->}
+        dialog.show()
+
+        val btnPositive = dialog.getButton(AlertDialog.BUTTON_POSITIVE)
+        btnPositive.isEnabled = false
+
+        etMoMoNumber.doOnTextChanged { text, _, _, _ ->
+            if(text.toString().isNotEmpty() && text.toString().length == 9){
+                subscriptionFormData.momoNumber = text.toString()
+                btnPositive.isEnabled = true
+
+            }else{
+                btnPositive.isEnabled = false
+            }
+        }
+    }
+
     private fun activateUserPackage() {
         viewModel.activateSubjectPackage()
     }
@@ -346,8 +410,9 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         return viewModel.getIndexOfActivatedPackage()
     }
 
-    override fun onPayButtonClicked(subscriptionFormData: SubscriptionFormData) {
-        displayInvoice(subscriptionFormData)
+    override fun onSubscriptionFormNextButtonClicked(subscriptionFormData: SubscriptionFormData) {
+        displayEnterMomoNumberDialog(subscriptionFormData)
+//        displayInvoice(subscriptionFormData)
     }
 
 
@@ -358,7 +423,8 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
 
     fun setSubjectPackageDataToActivate(position: Int, subjectPackageData: SubjectPackageData){
         viewModel.setSubjectPackageDataToActivate(subjectPackageData)
-        showSubscriptionForm(position, subjectPackageData.subjectName!!)
+//        showSubscriptionForm(position, subjectPackageData.subjectName!!)
+        displayPackagesDialog()
     }
 
     fun getActivatedSubjectPackageData(): SubjectPackageData{
@@ -455,6 +521,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
 
     }
 
+
     private fun resumeTransaction(){
         val bundle = getCurrentTransactionFromSharedPref()
         val currentTransactionStatus = bundle.getString(MCQConstants.TRANSACTION_STATUS)
@@ -465,6 +532,16 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
                 paymentBackup(bundle)
             }
         }
+    }
+
+    override fun onPackageDialogNextButtonClicked(packageData: PackageData?) {
+        showSubscriptionForm(viewModel.subjectPackageDataToActivated.value?.subjectIndex!!, viewModel.subjectPackageDataToActivated.value?.subjectName!!, packageData)
+        println(packageData)
+
+    }
+
+    override fun onPackageDialogCancelButtonClicked() {
+//        packagesDialog = null
     }
 
 }

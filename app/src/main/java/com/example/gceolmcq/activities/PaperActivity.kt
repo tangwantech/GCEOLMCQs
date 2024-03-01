@@ -3,6 +3,7 @@ package com.example.gceolmcq.activities
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
@@ -77,7 +78,6 @@ class PaperActivity : SubscriptionActivity(),
 
         this.title = _viewModel.getExamTitle()
     }
-
 
     private fun gotoSectionNavigationFragment() {
         this.title = _viewModel.getExamTitle()
@@ -198,6 +198,7 @@ class PaperActivity : SubscriptionActivity(),
         when (item.itemId) {
             android.R.id.home -> {
                 onBackPressed()
+//                finish()
             }
 
         }

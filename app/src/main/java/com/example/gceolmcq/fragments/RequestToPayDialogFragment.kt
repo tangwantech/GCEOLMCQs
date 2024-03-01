@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.datamodels.SubscriptionFormData
 import com.example.gceolmcq.viewmodels.RequestToPayViewModel
@@ -47,12 +48,16 @@ class RequestToPayDialogFragment : DialogFragment() {
         val tvRequestToPayPackagePrice: TextView =
             dialogView.findViewById(R.id.tvRequestToPayAmount)
 //        val layoutInvoice: LinearLayout = dialogView.findViewById(R.id.layoutInvoice)
+        val tvRequestToPayTitle: TextView = dialogView.findViewById(R.id.tvRequestToPayTitle)
 
         builder.setView(dialogView)
         requestToPayViewModel.getMomoPartner().observe(this, Observer{
-            if(it == "MTN"){
+            if(it == MCQConstants.MTN){
+                tvRequestToPayTitle.setBackgroundColor(requireContext().resources.getColor(R.color.mtn))
                 tvRequestToPayMessage.text = requireContext().resources.getString(R.string.mtn_request_to_pay_message)
             }else{
+                tvRequestToPayTitle.setBackgroundColor(requireContext().resources.getColor(R.color.orange))
+                tvRequestToPayTitle.setTextColor(requireContext().resources.getColor(R.color.white))
                 tvRequestToPayMessage.text = requireContext().resources.getString(R.string.orange_request_to_pay_message)
             }
         })

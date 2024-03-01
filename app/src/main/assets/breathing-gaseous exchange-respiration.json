@@ -15,14 +15,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Alcohol and carbon dioxide",
-            "Glucose and carbon dioxide",
-            "Glucose and oxygen",
-            "Alcohol and Lactic acid"
-          ],
+          "selectableOptions": ["Alcohol and carbon dioxide", "Glucose and carbon dioxide", "Glucose and oxygen", "Alcohol and Lactic acid"],
           "wordAnswer": "Alcohol and carbon dioxide",
-          "explanation": null
+          "explanation": "Alcohol and carbon dioxide are the correct products of anaerobic respiration in plants. Glucose and oxygen are not produced during respiration, but are rather reactants. Lactic acid is a product of anaerobic respiration in animals, not plants."
         },
         {
           "questionNumber": "2",
@@ -30,14 +25,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "production of alcohol",
-            "production of carbon dioxide",
-            "production of energy",
-            "production of water"
-          ],
+          "selectableOptions": ["production of alcohol", "production of carbon dioxide", "production of energy", "production of water"],
           "wordAnswer": "production of energy",
-          "explanation": null
+          "explanation": "The primary purpose of respiration is to produce energy. Alcohol and carbon dioxide are byproducts of specific types of respiration, but not always produced. Water is a byproduct of aerobic respiration, but not anaerobic respiration."
         },
         {
           "questionNumber": "3",
@@ -45,14 +35,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Carbon dioxide",
-            "Oxygen",
-            "Glucose",
-            "Bicarbonate ions"
-          ],
+          "selectableOptions": ["Carbon dioxide", "Oxygen", "Glucose", "Bicarbonate ions"],
           "wordAnswer": "Oxygen",
-          "explanation": null
+          "explanation": "When oxygen is insufficient, muscles switch to anaerobic respiration, which produces lactic acid as a byproduct. Carbon dioxide, glucose, and bicarbonate ions are not directly involved in lactic acid accumulation."
         },
         {
           "questionNumber": "4",
@@ -60,14 +45,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "food and carbon dioxide",
-            "food and oxygen",
-            "food and light",
-            "light and oxygen"
-          ],
+          "selectableOptions": ["food and carbon dioxide", "food and oxygen", "food and light", "light and oxygen"],
           "wordAnswer": "food and oxygen",
-          "explanation": null
+          "explanation": "Aerobic respiration requires both food (glucose) as fuel and oxygen as the final electron acceptor. Carbon dioxide is a byproduct, not a requirement. Light is needed for photosynthesis, not respiration."
         },
         {
           "questionNumber": "5",
@@ -75,14 +55,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "jumping makes the heart beat faster.",
-            "jumping produces heat.",
-            "jumping produces energy.",
-            "jumping consumes more energy."
-          ],
+          "selectableOptions": ["jumping makes the heart beat faster.", "jumping produces heat.", "jumping produces energy.", "jumping consumes more energy."],
           "wordAnswer": "jumping consumes more energy.",
-          "explanation": null
+          "explanation": "Increased respiration rate is a response to increased energy demands. While jumping does make the heart beat faster, produce heat, and produce energy, these are not the primary reasons for increased respiration."
         },
         {
           "questionNumber": "6",
@@ -90,14 +65,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Sleeping",
-            "Having a heavy meal",
-            "Thirty press-ups",
-            "Breathing pure oxygen at rest"
-          ],
+          "selectableOptions": ["Sleeping", "Having a heavy meal", "Thirty press-ups", "Breathing pure oxygen at rest"],
           "wordAnswer": "Thirty press-ups",
-          "explanation": null
+          "explanation": "Thirty press-ups would produce the greatest oxygen debt because it's the most strenuous activity among the options, requiring more energy and oxygen than the body can immediately supply. Sleeping and breathing pure oxygen at rest both involve low energy expenditure and don't create significant oxygen debt. Having a heavy meal primarily involves digestion, which doesn't demand as much oxygen as intense exercise."
         },
         {
           "questionNumber": "7",
@@ -105,14 +75,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Rib cage moves outwards and upwards.",
-            "Diaphragm muscles contract.",
-            "Volume of the thoracic cavity reduces.",
-            "Air rushes into the lungs."
-          ],
+          "selectableOptions": ["Rib cage moves outwards and upwards.", "Diaphragm muscles contract.", "Volume of the thoracic cavity reduces.", "Air rushes into the lungs."],
           "wordAnswer": "Volume of the thoracic cavity reduces.",
-          "explanation": null
+          "explanation": "During expiration, the volume of the thoracic cavity reduces, forcing air out of the lungs. The rib cage moves inwards and downwards during expiration, not outwards and upwards. The diaphragm muscles relax, not contract, during expiration. Air rushes out of the lungs, not into them, during expiration."
         }
       ]
     },
@@ -127,14 +92,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Writing",
-            "Walking",
-            "Reading",
-            "Running"
-          ],
+          "selectableOptions": ["Writing", "Walking", "Reading", "Running"],
           "wordAnswer": "Running",
-          "explanation": null
+          "explanation": "Running requires the most oxygen because it's the most vigorous activity among the options, demanding more energy from the muscles. Writing, walking, and reading are less strenuous and require less oxygen."
         },
         {
           "questionNumber": "9",
@@ -142,14 +102,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Bronchioles",
-            "Bronchi",
-            "Trachea",
-            "Alveoli"
-          ],
+          "selectableOptions": ["Bronchioles", "Bronchi", "Trachea", "Alveoli"],
           "wordAnswer": "Alveoli",
-          "explanation": null
+          "explanation": "Alveoli are the tiny air sacs in the lungs where oxygen and carbon dioxide exchange occurs. Bronchioles, bronchi, and trachea are airways that transport air, but they don't directly participate in gas exchange."
         },
         {
           "questionNumber": "10",
@@ -157,14 +112,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Lactic acid",
-            "Alcohol",
-            "Carbon dioxide",
-            "Water"
-          ],
+          "selectableOptions": ["Lactic acid", "Alcohol", "Carbon dioxide", "Water"],
           "wordAnswer": "Carbon dioxide",
-          "explanation": null
+          "explanation": "Carbon dioxide is the product of anaerobic respiration that causes dough to rise, making it essential for baking. Lactic acid is produced in muscles during intense exercise, alcohol is produced in fermentation, and water is a byproduct of both aerobic and anaerobic respiration, but they aren't directly involved in baking."
         },
         {
           "questionNumber": "11",
@@ -172,14 +122,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Lactic acid",
-            "Alcohol",
-            "Carbon dioxide",
-            "Water"
-          ],
+          "selectableOptions": ["Lactic acid", "Alcohol", "Carbon dioxide", "Water"],
           "wordAnswer": "Alcohol",
-          "explanation": null
+          "explanation": "Alcohol is the product of anaerobic respiration in yeast during the brewing process, giving alcoholic beverages their characteristic properties. Lactic acid, carbon dioxide, and water are also produced in various forms of respiration, but they aren't the primary products in brewing."
         },
         {
           "questionNumber": "12",
@@ -187,14 +132,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Protein",
-            "Urea",
-            "Fats",
-            "Glycogen"
-          ],
+          "selectableOptions": ["Protein", "Urea", "Fats", "Glycogen"],
           "wordAnswer": "Glycogen",
-          "explanation": null
+          "explanation": "Glycogen is the storage form of glucose in muscles and the liver. After exercise, lactic acid is converted back to glucose, which can then be stored as glycogen for future energy needs. Protein is used for muscle building and repair, urea is a waste product excreted in urine, and fats are used for long-term energy storage, but they aren't directly involved in lactic acid conversion."
         },
         {
           "questionNumber": "13",
@@ -202,14 +142,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Trachea",
-            "Ribs",
-            "Heart",
-            "Diaphragm"
-          ],
+          "selectableOptions": ["Trachea", "Ribs", "Heart", "Diaphragm"],
           "wordAnswer": "Ribs",
-          "explanation": null
+          "explanation": "Ribs are the correct answer because they form a cage-like structure around the lungs, providing physical protection from impacts and injuries. The trachea is a tube that carries air to the lungs, the heart is a muscle that pumps blood, and the diaphragm is a muscle that helps with breathing, but they don't directly protect the lungs."
         },
         {
           "questionNumber": "14",
@@ -217,14 +152,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Trachea",
-            "Ribs",
-            "Lungs",
-            "Alveoli"
-          ],
+          "selectableOptions": ["Trachea", "Ribs", "Lungs", "Alveoli"],
           "wordAnswer": "Trachea",
-          "explanation": null
+          "explanation": "The trachea is the correct answer because it has C-shaped rings of cartilage that help keep it open and prevent it from collapsing during breathing. Ribs are bones, lungs are made of soft tissue, and alveoli are tiny air sacs in the lungs, none of which have cartilage."
         },
         {
           "questionNumber": "15",
@@ -232,14 +162,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Flagella",
-            "Mucus",
-            "Cilia",
-            "Cartilage"
-          ],
+          "selectableOptions": ["Flagella", "Mucus", "Cilia", "Cartilage"],
           "wordAnswer": "Cilia",
-          "explanation": null
+          "explanation": "Cilia are tiny hair-like structures that line the trachea and move in a coordinated wave-like motion to sweep mucus and trapped particles upward, helping to keep the airways clear. Flagella are whip-like structures found on some bacteria, mucus is a sticky substance that traps particles, and cartilage provides structural support, but they don't actively move particles."
         },
         {
           "questionNumber": "16",
@@ -247,14 +172,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Osmosis",
-            "Active transport",
-            "Diffusion",
-            "Endocytosis"
-          ],
+          "selectableOptions": ["Osmosis", "Active transport", "Diffusion", "Endocytosis"],
           "wordAnswer": "Diffusion",
-          "explanation": null
+          "explanation": "Diffusion is the correct answer because it's the passive movement of molecules from an area of high concentration to an area of low concentration. This is how oxygen and carbon dioxide move across the thin walls of the alveoli in the lungs. Osmosis involves water movement, active transport requires energy, and endocytosis is a process of engulfing particles, none of which apply to gas exchange."
         },
         {
           "questionNumber": "17",
@@ -262,14 +182,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Glucose",
-            "Protein",
-            "Lipid",
-            "Glycogen"
-          ],
+          "selectableOptions": ["Glucose", "Protein", "Lipid", "Glycogen"],
           "wordAnswer": "Lipid",
-          "explanation": null
+          "explanation": "Lipids (fats) produce the highest amount of energy per gram when oxidized, about twice as much as glucose or protein. Glycogen is a storage form of glucose, but it doesn't provide more energy than glucose itself when broken down."
         },
         {
           "questionNumber": "18",
@@ -277,14 +192,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Lungs",
-            "Gills",
-            "Skin",
-            "Tracheoles"
-          ],
+          "selectableOptions": ["Lungs", "Gills", "Skin", "Tracheoles"],
           "wordAnswer": "Gills",
-          "explanation": null
+          "explanation": "Gills are the correct answer because they are specialized organs in fish that extract oxygen from water and release carbon dioxide. Lungs are used for breathing air, skin can play a role in gas exchange in some amphibians, and tracheoles are part of the insect respiratory system, but none of these are present in fish."
         },
         {
           "questionNumber": "19",
@@ -292,14 +202,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Mitochondrion",
-            "Chloroplast",
-            "Nucleus",
-            "Cytoplasm"
-          ],
+          "selectableOptions": ["Mitochondrion", "Chloroplast", "Nucleus", "Cytoplasm"],
           "wordAnswer": "Mitochondrion",
-          "explanation": null
+          "explanation": "Mitochondria are the correct answer because they are the organelles within cells that are responsible for aerobic respiration, which requires oxygen to produce energy. Chloroplasts are involved in photosynthesis, the nucleus houses genetic material, and the cytoplasm is the general fluid-filled area of the cell, but none of these carry out aerobic respiration."
         },
         {
           "questionNumber": "20",
@@ -307,14 +212,9 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Mitochondrion",
-            "Chloroplast",
-            "Nucleus",
-            "Cytoplasm"
-          ],
+          "selectableOptions": ["Mitochondrion", "Chloroplast", "Nucleus", "Cytoplasm"],
           "wordAnswer": "Cytoplasm",
-          "explanation": null
+          "explanation": "The cytoplasm is the correct answer because anaerobic respiration, which does not require oxygen, can occur in the cytoplasm of cells. Mitochondria are specifically involved in aerobic respiration, chloroplasts are involved in photosynthesis, and the nucleus doesn't participate in energy production."
         }
       ]
     },
@@ -324,7 +224,7 @@
       "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
-          "questionNumber": "21",
+          "questionNumber": 21,
           "question": "Characteristics of a good respiratory surface",
           "image": null,
           "twoStatements": null,
@@ -340,10 +240,10 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "A good respiratory surface needs to be moist and thin to facilitate the diffusion of respiratory gases. It must have large surface area to volume ratio for maximum gas exchange, not a small surface area to volume ratio."
         },
         {
-          "questionNumber": "22",
+          "questionNumber": 22,
           "question": "Respiratory substrates include",
           "image": null,
           "twoStatements": null,
@@ -359,10 +259,10 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "All three options are correct. Proteins, carbohydrates, and lipids can all be used as respiratory substrates."
         },
         {
-          "questionNumber": "23",
+          "questionNumber": 23,
           "question": "Inspired air differs from expired air in that",
           "image": null,
           "twoStatements": null,
@@ -378,10 +278,10 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": null
+          "explanation": "Inspired air contains more oxygen than expired air. Expired air contains more carbon dioxide and is slightly cooler than inspired air."
         },
         {
-          "questionNumber": "24",
+          "questionNumber": 24,
           "question": "Respiration differs from photosynthesis in that",
           "image": null,
           "twoStatements": null,
@@ -397,7 +297,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "Respiration occurs continuously, produces energy, and consumes oxygen. It does not occur only at night or produce oxygen."
         },
         {
           "questionNumber": "25",
@@ -416,7 +316,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "During anaerobic respiration, glucose is not completely oxidized, less energy is produced compared to aerobic respiration, and toxic by-products like lactic acid or ethanol are produced."
         }
       ]
     },
@@ -426,7 +326,7 @@
       "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
       "questions": [
         {
-          "questionNumber": "26",
+          "questionNumber": 26,
           "question": null,
           "image": null,
           "twoStatements": [
@@ -441,10 +341,10 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Smaller animals like rats have a higher surface area to volume ratio, which means they lose heat more quickly. To maintain their body temperature, they need to respire at a higher rate to generate more heat."
         },
         {
-          "questionNumber": "27",
+          "questionNumber": 27,
           "question": null,
           "image": null,
           "twoStatements": [
@@ -459,14 +359,14 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": null
+          "explanation": "Aerobic respiration takes place in the mitochondria, not the cytoplasm. It produces more energy than anaerobic respiration because it fully oxidizes glucose using oxygen."
         },
         {
-          "questionNumber": "28",
+          "questionNumber": 28,
           "question": null,
           "image": null,
           "twoStatements": [
-            "Plants respire but do not breath.",
+            "Plants respire but do not breathe.",
             "At night plants take in oxygen and send out carbon dioxide."
           ],
           "nonSelectableOptions": null,
@@ -477,15 +377,15 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
-          "explanation": null
+          "explanation": "Plants respire, meaning they break down glucose for energy, but they don't have lungs or a respiratory system like animals. The gas exchange in plants occurs through stomata. However, the gas exchange process at night is not the reason why plants don't breathe."
         },
         {
-          "questionNumber": "29",
+          "questionNumber": 29,
           "question": null,
           "image": null,
           "twoStatements": [
             "Alveolus is the respiratory surface in man.",
-            "Alveoli is made up of columnar epithelial cells."
+            "Alveolus is made up of columnar epithelial cells."
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
@@ -495,7 +395,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": null
+          "explanation": "Alveoli are the tiny air sacs in the lungs where gas exchange occurs, but they are made up of squamous epithelial cells, not columnar epithelial cells. Squamous cells are thin and flat, allowing for efficient diffusion of gases."
         },
         {
           "questionNumber": "30",
@@ -513,7 +413,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "The air we breathe in (inspired air) is cooler than the air we breathe out (expired air) because the body's metabolic processes, including tissue respiration, generate heat. This heat warms the air as it passes through the respiratory system."
         }
       ]
     },
@@ -523,7 +423,7 @@
       "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
-          "questionNumber": "31",
+          "questionNumber": 31,
           "question": "A set of muscular movements used by animals to keep a gaseous exchange surface supplied with oxygen, and to remove carbon dioxide from the gaseous exchange surface.",
           "image": null,
           "twoStatements": null,
@@ -535,10 +435,10 @@
             "Gaseous exchange"
           ],
           "wordAnswer": "Breathing",
-          "explanation": null
+          "explanation": "Breathing is the correct answer because it refers to the physical process of moving air in and out of the lungs, which facilitates gas exchange. Respiration is the overall process of cellular energy production, including both the intake of oxygen and the release of carbon dioxide. Diffusion is the passive movement of molecules from an area of high concentration to an area of low concentration, which is involved in gas exchange but not the movement of air itself. Gaseous exchange is the transfer of gases like oxygen and carbon dioxide between an organism and its environment, but it doesn't specify the mechanism."
         },
         {
-          "questionNumber": "32",
+          "questionNumber": 32,
           "question": "It occurs only in the presence of oxygen",
           "image": null,
           "twoStatements": null,
@@ -550,10 +450,10 @@
             "Fermentation"
           ],
           "wordAnswer": "Aerobic respiration",
-          "explanation": null
+          "explanation": "Aerobic respiration is the correct answer because it requires oxygen as a final electron acceptor to produce energy efficiently. Anaerobic respiration occurs in the absence of oxygen and uses alternative electron acceptors, like sulphate or nitrate. Glycolysis is the first step in both aerobic and anaerobic respiration, breaking down glucose into pyruvate. Fermentation is a type of anaerobic respiration that produces lactic acid or ethanol as byproducts."
         },
         {
-          "questionNumber": "33",
+          "questionNumber": 33,
           "question": "The volume of air that moves into and out of the lungs during normal breathing.",
           "image": null,
           "twoStatements": null,
@@ -565,10 +465,10 @@
             "Total lung capacity"
           ],
           "wordAnswer": "Tidal volume",
-          "explanation": null
+          "explanation": "Tidal volume is the correct answer because it refers to the normal amount of air inhaled and exhaled in a single breath. Inspiratory reserve volume is the additional air that can be inhaled after a normal breath. Expiratory reserve volume is the additional air that can be exhaled after a normal breath. Total lung capacity is the sum of all lung volumes, including tidal volume, inspiratory reserve volume, expiratory reserve volume, and residual volume."
         },
         {
-          "questionNumber": "34",
+          "questionNumber": 34,
           "question": "The volume of air that remains in the lungs after maximum expiration.",
           "image": null,
           "twoStatements": null,
@@ -580,10 +480,10 @@
             "Residual volume"
           ],
           "wordAnswer": "Residual volume",
-          "explanation": null
+          "explanation": "Residual volume is the correct answer because it refers to the air that remains in the lungs even after a forced expiration. Tidal volume, inspiratory reserve volume, and expiratory reserve volume can all be expelled from the lungs, but residual volume cannot."
         },
         {
-          "questionNumber": "35",
+          "questionNumber": 35,
           "question": "It controls breathing rate.",
           "image": null,
           "twoStatements": null,
@@ -595,11 +495,11 @@
             "Heart"
           ],
           "wordAnswer": "Medulla oblongata",
-          "explanation": null
+          "explanation": "Medulla oblongata is the correct answer because it contains a cluster of neurons called the respiratory center that regulates breathing rate and rhythm based on factors like blood pH and carbon dioxide levels. The hypothalamus is involved in regulating body temperature and other functions, but not directly in breathing control. Lungs provide the surface for gas exchange but don't control breathing rate. The heart pumps blood but doesn't control breathing rate."
         },
         {
-          "questionNumber": "36",
-          "question": "It Produces most of the energy in aerobic organisms.",
+          "questionNumber": 36,
+          "question": "It produces most of the energy in aerobic organisms.",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -610,10 +510,10 @@
             "Sap vacuole"
           ],
           "wordAnswer": "Mitochondrion",
-          "explanation": null
+          "explanation": "Mitochondria are the correct answer because they are the organelles responsible for cellular respiration, the process that produces ATP, the main energy currency of cells. Cytoplasm is the gel-like substance inside cells where many cellular processes occur, but it does not directly produce energy. The nucleus houses genetic material and controls cell activities but does not produce energy. Sap vacuoles are storage structures found in plant cells, not involved in energy production."
         },
         {
-          "questionNumber": "37",
+          "questionNumber": 37,
           "question": "The maximum volume of air that can be expired after maximum inspiration.",
           "image": null,
           "twoStatements": null,
@@ -625,10 +525,10 @@
             "Total lung capacity"
           ],
           "wordAnswer": "Vital lung capacity",
-          "explanation": null
+          "explanation": "Vital lung capacity is the correct answer because it represents the total amount of air that can be forcefully exhaled after taking the deepest possible breath. Tidal volume is the amount of air inhaled and exhaled during normal breathing. Inspiratory reserve volume is the additional air that can be forcibly inhaled after a normal breath. Total lung capacity includes residual volume, which cannot be exhaled."
         },
         {
-          "questionNumber": "38",
+          "questionNumber": 38,
           "question": "The maximum volume of air that can be drawn into the lungs after breathing in normally.",
           "image": null,
           "twoStatements": null,
@@ -640,10 +540,10 @@
             "Total lung capacity"
           ],
           "wordAnswer": "Inspiratory reserve volume",
-          "explanation": null
+          "explanation": "Inspiratory reserve volume is the correct answer because it represents the additional air that can be forcibly inhaled after a normal breath. Expiratory reserve volume is the additional air that can be forcibly exhaled after a normal breath. Vital lung capacity includes both inspiratory and expiratory reserve volumes. Total lung capacity includes residual volume, which cannot be inhaled further."
         },
         {
-          "questionNumber": "39",
+          "questionNumber": 39,
           "question": "The maximum volume of air that can be sent out of the lungs after breathing out normally.",
           "image": null,
           "twoStatements": null,
@@ -655,11 +555,11 @@
             "Total lung capacity"
           ],
           "wordAnswer": "Expiratory reserve volume",
-          "explanation": null
+          "explanation": "Expiratory reserve volume is the correct answer because it represents the additional air that can be forcibly exhaled after a normal breath. Inspiratory reserve volume is the additional air that can be forcibly inhaled after a normal breath. Vital lung capacity includes both inspiratory and expiratory reserve volumes. Total lung capacity includes residual volume, which cannot be exhaled further."
         },
         {
-          "questionNumber": "40",
-          "question": "It is not normally respired by a healthy mammal",
+          "questionNumber": 40,
+          "question": "It is not normally respired by a healthy mammal.",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -670,7 +570,7 @@
             "Carbohydrate"
           ],
           "wordAnswer": "Protein",
-          "explanation": null
+          "explanation": "Protein is the correct answer because it is primarily used for building and repairing tissues, not as a primary energy source in healthy mammals. Glucose and lipids (fats) are the preferred energy sources in mammals. Carbohydrates are a broader category that includes glucose and other sugars, which can also be used for energy."
         }
       ]
     },
@@ -692,7 +592,7 @@
             "Sodium Bicarbonate"
           ],
           "wordAnswer": "Lime water",
-          "explanation": null
+          "explanation": "Lime water is the correct answer because it reacts with carbon dioxide to form a milky white precipitate, indicating the presence of carbon dioxide in the air. Caustic soda, pyrogallic acid, and sodium bicarbonate do not have this specific reaction with carbon dioxide."
         },
         {
           "questionNumber": "42",
@@ -707,7 +607,7 @@
             "Sodium Bicarbonate"
           ],
           "wordAnswer": "Caustic soda",
-          "explanation": null
+          "explanation": "Caustic soda is the correct answer because it is a strong alkali that absorbs carbon dioxide from the air, ensuring that only carbon dioxide produced by the mammal enters flask D. Lime water is used to detect carbon dioxide, not absorb it. Pyrogallic acid and sodium bicarbonate are not commonly used in this setup."
         },
         {
           "questionNumber": "43",
@@ -722,7 +622,7 @@
             "To absorb oxygen"
           ],
           "wordAnswer": "To detect carbon dioxide in the air coming from bottle C.",
-          "explanation": null
+          "explanation": "The role of the solution in flask D is to detect carbon dioxide, not remove it. It does not produce oxygen or absorb oxygen. It's specifically designed to react with carbon dioxide and provide a visual indication of its presence."
         },
         {
           "questionNumber": "44",
@@ -737,7 +637,7 @@
             "To produce oxygen used by the small mammal."
           ],
           "wordAnswer": "To remove carbon dioxide from the incoming air.",
-          "explanation": null
+          "explanation": "The role of the solution in flask A is to remove any carbon dioxide that might already be present in the incoming air, so that only carbon dioxide produced by the mammal is detected in flask D. It does not remove oxygen or water vapor, nor does it produce oxygen."
         },
         {
           "questionNumber": "45",
@@ -752,7 +652,7 @@
             "Solution in D remains clear."
           ],
           "wordAnswer": "Solution in D turns milky.",
-          "explanation": null
+          "explanation": "Lime water, the solution in flask D, reacts with carbon dioxide to form a milky white precipitate of calcium carbonate, indicating the presence of carbon dioxide. The other options are incorrect because limewater does not turn blue or blue-black in the presence of carbon dioxide, and it will not remain clear if carbon dioxide is present."
         },
         {
           "questionNumber": "46",
@@ -767,7 +667,7 @@
             "Animal in bottle C is killed and sterilized."
           ],
           "wordAnswer": "Animal in bottle C is killed and sterilized.",
-          "explanation": null
+          "explanation": "A suitable control demonstrates that any observed changes are due to the experimental variable (aerobic respiration in this case) and not other factors. Killing and sterilizing the animal eliminates its ability to respire, ensuring any carbon dioxide detected in flask D must come from other sources, validating the experiment. Removing the pump or bottle C would disrupt the setup, and removing the animal without treatment wouldn't control for potential CO2 release from non-respiration processes."
         },
         {
           "questionNumber": "47",
@@ -782,7 +682,7 @@
             "Cover bottle C with a transparent cloth."
           ],
           "wordAnswer": "Cover bottle C with a dark cloth.",
-          "explanation": null
+          "explanation": "Covering bottle C with a dark cloth prevents photosynthesis, which would also produce carbon dioxide, interfering with the experiment's goal of isolating carbon dioxide from respiration. The other options are not relevant to this precaution."
         },
         {
           "questionNumber": "48",
@@ -797,7 +697,7 @@
             "To trap impurities"
           ],
           "wordAnswer": "To trap impurities",
-          "explanation": null
+          "explanation": "Mucus in the trachea traps dust, microbes, and other impurities, preventing them from entering the lungs and causing irritation or infection. It does not dissolve oxygen, reduce friction, or directly detect bacteria."
         },
         {
           "questionNumber": "49",
@@ -812,7 +712,7 @@
             "Caustic soda becoming milky."
           ],
           "wordAnswer": "Lime water becoming milky.",
-          "explanation": null
+          "explanation": "Lime water is the correct answer because it reacts specifically with carbon dioxide to form a milky white precipitate of calcium carbonate, providing a clear visual indication of carbon dioxide's presence. \n\n The other options are incorrect because: Sodium bicarbonate does not produce a visible reaction with carbon dioxide. Pyrogallic acid absorbs oxygen, not carbon dioxide, and doesn't cause a milky appearance. Caustic soda (sodium hydroxide) absorbs carbon dioxide but doesn't form a precipitate, so it doesn't turn milky."
         },
         {
           "questionNumber": "50",
@@ -827,7 +727,7 @@
             "Water vapour"
           ],
           "wordAnswer": "Nitrogen",
-          "explanation": null
+          "explanation": "Nitrogen is the correct answer because it's an inert gas that doesn't participate in respiration. Its percentage remains essentially unchanged in both inspired and expired air. \n\n The other options are incorrect because: Oxygen is used up during respiration, so its percentage decreases in expired air. Carbon dioxide is produced during respiration, so its percentage increases in expired air. Water vapor is added to the air during respiration, making its percentage higher in expired air."
         }
       ]
     }

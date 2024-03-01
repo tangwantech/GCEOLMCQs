@@ -47,7 +47,7 @@
     <string name="sections_answered">Sections answered</string>
     <string name="tvPaperScore">Total Score</string>
     <string name="questions_answered">Questions answered</string>
-    <string name="score">Score: </string>
+    <string name="score">Score </string>
     <string name="percentage">Percentage</string>
     <string name="wrong">Wrong</string>
     <string name="correct">Correct</string>
@@ -139,6 +139,16 @@
     <string name="terms_agreement">By using the services provided by GCE OL MCQS ("Service Provider"), you agree to be bound by this Agreement</string>
     <string name="terms_of_service">Terms of service</string>
     <string name="agreement">Agreement</string>
+    <string name="selected_package">Selected Package:</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="mtn_momo">MTN MOMO</string>
+    <string name="orange_momo">ORANGE MOMO</string>
+    <string name="no_active_internet_connection">1. You might not have an active internet connection.</string>
+    <string name="invalid_mobile_money_number">2. You might have entered an invalid mobile money number.</string>
+    <string name="insufficient_funds_in_your_account">3. You might not have sufficient funds in your account.</string>
+    <string name="canceled_the_transaction">4. You might have canceled the transaction.</string>
+    <string name="verify_payment_info">Please ensure the information below is correct before making your payment</string>
+    <string name="highest_score">Highest Score</string>
 
 
     <string-array name="paper_instruction">

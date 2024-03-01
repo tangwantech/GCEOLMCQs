@@ -98,9 +98,13 @@ class GCESplashActivity : AppCompatActivity() {
             syncSubjectsPackages()
 //            gotoMainActivity()
         }else{
-            displayTermsOfServiceDialog()
+            displayInternetConnectionDialog()
         }
 
+    }
+
+    private fun displayInternetConnectionDialog(){
+        displayTermsOfServiceDialog()
     }
 
     private fun displayTermsOfServiceDialog(){

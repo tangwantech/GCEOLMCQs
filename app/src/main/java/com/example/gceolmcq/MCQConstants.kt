@@ -79,6 +79,8 @@ class MCQConstants{
 
         const val SUBJECT_FILE_DATA_NAME = "subject_data.json"
         const val TERMS_URL = "file:///android_asset/Terms of Use of Service.html"
+        const val MTN = "MTN"
+        const val ORANGE = "ORANGE"
 
 
 

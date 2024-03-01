@@ -22,7 +22,7 @@
             "Cranial nerves and spinal cord"
           ],
           "wordAnswer": "Brain and spinal cord",
-          "explanation": null
+          "explanation": "The central nervous system is made up of the brain and the spinal cord. These two structures are responsible for processing and coordinating sensory data and motor commands.\n\nThe other options are incorrect because:\n\n- While Brain is part of the central nervous system, spinal nerves however, form part of the peripheral nervous system.\n\n- Spinal nerve and cranial nerves are parts of the peripheral nervous system, not the central nervous system.\n\n- Cranial nerves and spinal cord: While Spinal cord is part of the central nervous system, cranial nerves however, form part of the peripheral nervous system."
         },
         {
           "questionNumber": "2",
@@ -37,7 +37,7 @@
             "Hypothalamus"
           ],
           "wordAnswer": "Cerebellum",
-          "explanation": null
+          "explanation": "The cerebellum is responsible for coordinating muscle responses for balance and posture.\n\nThe other options are incorrect because:\n\n- The is responsible for many higher brain functions such as intelligence, conscious activities, memory, not coordinating muscle responses for balance and posture.\n\n- The medulla oblongata is primarily responsible for controlling autonomic functions such as breathing and heartbeat, not muscle coordination for balance and posture.\n\n- Hypothalamus: The hypothalamus functions in regulating basic homeostatic processes such as blood osmotic pressure, temperature regulation, thirst etc, not muscle coordination for balance and posture."
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Hypothalamus"
           ],
           "wordAnswer": "Cerebrum",
-          "explanation": null
+          "explanation": "The cerebrum is the part of the brain that is associated with intelligence, personality, and many higher cognitive functions such as thinking, perceiving, and planning.\n\nThe other options are incorrect because:\n\n- The cerebellum is primarily associated with motor coordination and balance, not intelligence and personality.\n\n- The medulla oblongata is responsible for controlling autonomic functions and relaying sensory information, not intelligence and personality.\n\n- The hypothalamus functions in regulating basic homeostatic processes such as blood osmotic pressure, temperature regulation, not intelligence and personality."
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "Oestrogen"
           ],
           "wordAnswer": "Adrenaline",
-          "explanation": null
+          "explanation": "Adrenaline, also known as epinephrine, is a hormone that brings about a quick response when secreted into the blood. It is produced by the adrenal glands and plays a key role in the body's fight-or-flight response. Secretion of adrenaline into blood results in increased heart rate and rapid supply of blood to the tissues in preparation for action.\n\nThe other options are incorrect because:\n\n- Insulin is a hormone produced by the pancreas that lowers blood sugar levels and is not associated with a quick response in the same way as adrenaline.\n\n- Glucagon: Glucagon is another hormone produced by the pancreas that raises blood sugar levels, but it does not bring about the same type of quick response as adrenaline.\n\n- Oestrogen is a hormone primarily associated with the development of female sexual characteristics and the reproductive system, and it does not bring about a quick response when secreted into the blood like adrenaline does."
         },
         {
           "questionNumber": "5",
@@ -79,10 +79,10 @@
             "Hormones are secreted by ductless glands",
             "Hormones are transported by blood",
             "Hormones bind to specific receptors on target cells",
-            "Hormones increase the rate of impulse conduction in neurones"
+            "Hormones are electrical signals"
           ],
-          "wordAnswer": "Hormones increase the rate of impulse conduction in neurones",
-          "explanation": null
+          "wordAnswer": "Hormones are electrical signals",
+          "explanation": "Hormones are not electrical but chemical messengers secreted directly into the blood to regulate body functions.\n\nThe other options are incorrect because:\n\n- Hormones are typically produced and secreted by endocrine glands, which are ductless.\n\n- Once they are secreted, hormones travel through the bloodstream to reach their target tissues.\n\n- Hormones bind to specific receptors on target cells to initiate a cellular response. This is a fundamental mechanism of hormone action."
         },
         {
           "questionNumber": "6",
@@ -97,7 +97,7 @@
             "Secrete hormones"
           ],
           "wordAnswer": "Detect stimuli",
-          "explanation": null
+          "explanation": "Receptors are specialized structures that detect changes in the environment, known as stimuli. They can be found in various cells and tissues throughout the body and play a crucial role in sensory perception and signal transduction.\n\nThe other options are incorrect because:\n\n- While receptors can detect impulses, this is not their primary function. They primarily detect stimuli or changes in the external or internal environment.\n\n- Receptors do not secrete enzymes. Instead, they respond to the presence of specific molecules or signals in the environment.\n\n- Receptors do not secrete hormones. Instead, they recognize and bind to hormones, triggering a cellular response."
         },
         {
           "questionNumber": "7",
@@ -112,7 +112,7 @@
             "Insulin"
           ],
           "wordAnswer": "Antidiuretic hormone",
-          "explanation": null
+          "explanation": "Antidiuretic hormone also known as vasopressin, is responsible for the reabsorption of water in the kidneys. It helps regulate the body's water balance by controlling the amount of water reabsorbed into the bloodstream from the kidneys.\n\nThe other options are incorrect because:\n- Adrenaline, also known as epinephrine, is primarily involved in the body's fight-or-flight response and does not play a direct role in water reabsorption in the kidneys.\n\n- Follicle stimulating hormone plays a role in the reproductive system, particularly in the regulation of the menstrual cycle and the production of sperm, but it is not responsible for water reabsorption in the kidneys.\n\n- Insulin is a hormone produced by the pancreas to lowers blood sugar levels. It is not directly involved in the reabsorption of water in the kidneys."
         }
       ]
     },
@@ -134,7 +134,7 @@
             "Insulin"
           ],
           "wordAnswer": "Insulin",
-          "explanation": null
+          "explanation": "Insulin is a hormone produced by the pancreas that stimulates the decrease in blood sugar level by promoting the conversion of excess glucose to glycogen in the liver.\n\nThe other options are incorrect because:\n\n- Glucagon has the opposite effect of insulin. It stimulates the increase of blood sugar levels by promoting the release of glucose from the liver into the bloodstream. It stimulates the conversion of stored glycogen to glucose.\n\n- Antidiuretic hormone (ADH) primarily regulates water balance and does not directly influence blood sugar levels.\n\n- Oestrogen is a sex hormone that plays a role in the menstrual cycle and reproductive system but does not have a role in regulating blood sugar levels."
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "Insulin"
           ],
           "wordAnswer": "Glucagon",
-          "explanation": null
+          "explanation": "Glucagon is a hormone produced by the pancreas that stimulates the increase in blood sugar level. It stimulates the conversion of stored glycogen to glucose in the liver. The glucose is then released from the liver into the bloodstream, thereby raising blood sugar levels.\n\nThe other options are incorrect because:\n- Insulin has the opposite effect of glucagon. It stimulates the decrease in blood sugar levels by promoting the conversion of glucose to glycogen in the liver.\n\n- Antidiuretic hormone (ADH) primarily regulates water balance and does not directly influence blood sugar levels.\n\n- Oestrogen is a sex hormone that plays a role in the menstrual cycle and reproductive system but does not have a direct effect on blood sugar levels."
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Pancreas"
           ],
           "wordAnswer": "Pituitary",
-          "explanation": null
+          "explanation": "The pituitary gland, also known as the hypophysis, is situated at the bottom of the brain, attached to the base of the hypothalamus by a stalk-like structure called the infundibulum.\n\nThe other options are incorrect because:\n\n- The thyroid gland is located in the neck.\n\n- The adrenal glands are located on top of the kidneys.\n\n- The pancreas is located below the stomach."
         },
         {
           "questionNumber": "11",
@@ -173,13 +173,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Motor neurone",
-            "Relay neurone",
+            "Motor neuron",
+            "Relay neuron",
             "Dendrite",
-            "Sensory neurone"
+            "Sensory neuron"
           ],
-          "wordAnswer": "Motor neurone",
-          "explanation": null
+          "wordAnswer": "Motor neuron",
+          "explanation": "A Motor neuron, also known as efferent neuron, carry impulses from the central nervous system (brain and spinal cord) to an effector, such as muscles or glands, to produce a response.\n\nThe other options are incorrect because:\n\n- Relay neurons, also known as interneurons, form connections between sensory and motor neurons.\n\n- Dendrites are the branched projections of a neuron that receive signals from other neurons and transmit those signals to the cell body.\n\n- Sensory neurons, also known as afferent neurons, carry impulses from sensory receptors to the central nervous system for processing and interpretation."
         },
         {
           "questionNumber": "12",
@@ -188,13 +188,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Motor neurone",
-            "Relay neurone",
+            "Motor neuron",
+            "Relay neuron",
             "Dendrite",
-            "Sensory neurone"
+            "Sensory neuron"
           ],
-          "wordAnswer": "Sensory neurone",
-          "explanation": null
+          "wordAnswer": "Sensory neuron",
+          "explanation": "Sensory neuron carries impulses from a receptor to the central nervous system. \n\nThe other options are incorrect because:\n\n- A Motor neuron carries impulses from the central nervous system to an effector. \n\n- Relay neuron connects sensory neuron to a motor neuron. \n\n- Dendrite is a part of a neuron that receives nerve impulses from other neurons or receptors and sends them to the cell body."
         },
         {
           "questionNumber": "13",
@@ -209,7 +209,7 @@
             "Thyroid"
           ],
           "wordAnswer": "Pancreas",
-          "explanation": null
+          "explanation": "The Pancreas is a mixed gland that has both endocrine and exocrine functions. It secretes hormones such as insulin and glucagon into the blood stream and digestive juice (pancreatic juice) into the duodenum through the pancreatic duct. \n\nThe other options are incorrect because:\n\n- Salivary gland is primarily an exocrine gland that produces and secrete saliva into the mouth through salivary ducts. \n\n- Pituitary and thyroid glands are endocrine gland that produce and secrete hormones directly into blood stream."
         },
         {
           "questionNumber": "14",
@@ -224,7 +224,7 @@
             "Colour blindness"
           ],
           "wordAnswer": "Long sightedness",
-          "explanation": null
+          "explanation": "Convex lenses are used to correct long sightedness, also known as hypermetropia, where distant objects can be seen more clearly than close ones. Close objects cannot be seen clearly because the light rays coming from the object are brought to focus somewhere behind the retina. The convex lenses help to converge light rays from nearby objects before they enter the eyes such that they can be easily focused on the retina, producing a clear image of the object. \n\nThe other options are incorrect because:\n\n- Short sightedness, also known as myopia, is corrected with concave lenses. \n\n- Astigmatism, a condition where the eye does not focus light evenly on the retina can be corrected using cylindrical lenses. \n\n- Colour blindness is a genetic disorder that makes it hard to distinguish certain colors."
         },
         {
           "questionNumber": "15",
@@ -239,7 +239,7 @@
             "Colour blindness"
           ],
           "wordAnswer": "Short sightedness",
-          "explanation": null
+          "explanation": "Concave lenses are used to correct this short sightedness, also known as myopia, where close objects can be seen more clearly than distant ones. \n\nThe other options are incorrect because:\n\n- Long sightedness, also known as hypermetropia, is corrected with convex lenses. \n\n- Astigmatism, a condition where the eye does not focus light evenly on the retina is corrected using cylindrical lenses. \n\n- Colour blindness is a genetic disorder that makes it hard to distinguish certain colors."
         },
         {
           "questionNumber": "16",
@@ -254,7 +254,7 @@
             "The image of an object is focused on the blind spot"
           ],
           "wordAnswer": "The image of a distant object is focused before the retina",
-          "explanation": null
+          "explanation": "Myopia, or nearsightedness, occurs when the image of a distant object is focused before the retina. This causes distant objects to appear blurry. \n\nThe other options are incorrect because:\n\n- Myopia is not related to the functioning of cone cells, the focusing of near objects behind the retina, or the image being focused on the blind spot."
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "The image of an object is focused on the blind spot"
           ],
           "wordAnswer": "The image of a near object is focused behind the retina",
-          "explanation": null
+          "explanation": "Hypermetropia, or farsightedness, occurs when the image of a near object is focused behind the retina. This makes nearby objects appear blurry. \n\nThe other options are incorrect because:\n\n- Hypermetropia is not related to the focusing of distant objects before the retina, cone cell function, or the image being focused on the blind spot."
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "Cornea"
           ],
           "wordAnswer": "Choroid",
-          "explanation": null
+          "explanation": "The choroid is the part of the eye that contains dark pigments which absorb light. This helps to prevent internal reflection of light within the eye."
         },
         {
           "questionNumber": "19",
@@ -299,7 +299,7 @@
             "Testosterone"
           ],
           "wordAnswer": "Adrenaline",
-          "explanation": null
+          "explanation": "Adrenaline, also known as epinephrine, is the hormone that is secreted into the blood when an individual is frightened. It is produced by the adrenal glands and helps the body to respond to stress or danger. When adrenaline is secreted into the blood, it causes heart rate to increase. As a result, blood oxygenated blood is pumped rapidly to the tissues, especially skeletal muscles, in preparation for action. \n\nThe other options are incorrect because:\n\n- Insulin is released in response to high blood sugar levels. \n\n- ADH (antidiuretic hormone) is released in response to high osmotic pressure of blood.\n\n- Testosterone is a male sex hormone responsible for the development of male secondary sexual characters and sperm production."
         },
         {
           "questionNumber": "20",
@@ -314,7 +314,7 @@
             "Retina"
           ],
           "wordAnswer": "Retina",
-          "explanation": null
+          "explanation": "The retina is the part of the eye that contains photo-receptors, specifically the rods and cones, which are essential for detecting light. \n\nThe other options are incorrect because:\n\n- the cornea(transparent front part of the eye), the sclera(the white outer layer of the eye), and the choroid (the part of the eye that contains dark pigments which absorb light), do not contain photo-receptors responsible for detecting light."
         }
       ]
     },
@@ -340,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "The divisions of the autonomic nervous system include the sympathetic and parasympathetic nervous systems. The peripheral nervous system is not a division of the autonomic nervous system."
         },
         {
           "questionNumber": "22",
@@ -359,7 +359,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "When the eye is exposed to high light intensity, the circular muscles of the iris contract which causes the size of the pupil to decrease, reducing the amount of light entering the eye. The radial muscles do not contract but relax in response to high light intensity."
         },
         {
           "questionNumber": "23",
@@ -378,7 +378,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "When focusing at a distant object, the circular ciliary muscles relax, the radial ciliary muscles contract, and the lens becomes thinner and less convex. Light rays from the distant object are then brought to focus on the fovea of the retina."
         },
         {
           "questionNumber": "24",
@@ -397,7 +397,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "The functions of the cerebrospinal fluid include: removal of metabolic wastes from cells in the central nervous system, having lymphocytes which produce antibodies that protect the central nervous system, acting as a shock absorber, preventing injury to the brain and spinal cord."
         },
         {
           "questionNumber": "25",
@@ -405,7 +405,7 @@
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": [
-            "It is electrical along the neurone but chemical across a synapse",
+            "It is electrical along the neuron but chemical across a synapse",
             "It is bidirectional",
             "It is chemical in nature"
           ],
@@ -416,7 +416,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": null
+          "explanation": "Nerve impulse is electrical along the neuron but chemical across a synapse (in the form of neurotransmitters).\n\n- Transmission of nerve impulse is unidirectional, from the dendrites to the axon terminals, not bidirectional."
         }
       ]
     },
@@ -441,7 +441,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Insulin and glucagon are indeed antagonistic hormones because their actions are opposite to each other. Insulin decreases blood sugar level while glucagon increases blood sugar level."
         },
         {
           "questionNumber": "27",
@@ -459,14 +459,14 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
-          "explanation": null
+          "explanation": "It is true that rods are more numerous than cones, and they are indeed used for night vision. However, the second statement is not a correct explanation because the greater number of rods is not the reason why they are used for night vision. Night vision is due to the high sensitivity of rods to light, not their abundance."
         },
         {
           "questionNumber": "28",
           "question": null,
           "image": null,
           "twoStatements": [
-            "Myelinated neurones conduct nerve impulses faster than non-myelinated neurones",
+            "Myelinated neurons conduct nerve impulses faster than non-myelinated neurons",
             "Only Myelinated axons conduct nerve impulses"
           ],
           "nonSelectableOptions": null,
@@ -477,7 +477,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": null
+          "explanation": "It is true that myelinated neurons conduct nerve impulses faster than non-myelinated neurons. However, the second statement is false because both myelinated and non-myelinated axons can conduct nerve impulses, with myelinated axons conducting them faster due to the presence of the myelin sheath."
         },
         {
           "questionNumber": "29",
@@ -495,7 +495,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": null
+          "explanation": "The first statement is False because nerve impulses travel much faster than hormones. The second statement is True because hormones are indeed secreted directly into the blood stream, allowing them to be distributed throughout the body."
         },
         {
           "questionNumber": "30",
@@ -503,7 +503,7 @@
           "image": null,
           "twoStatements": [
             "Synaptic transmission makes impulse transmission to be unidirectional",
-            "Only the presynaptic neurone secretes neurotransmitters into the synapse"
+            "Only the presynaptic neuron secretes neurotransmitters into the synapse"
           ],
           "nonSelectableOptions": null,
           "selectableOptions": [
@@ -513,7 +513,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Synaptic transmission does indeed make impulse transmission unidirectional, as neurotransmitters are only released from the presynaptic neuron, and diffuse across the synapse to bind to receptors present only on the postsynaptic neuron."
         }
       ]
     },
@@ -524,7 +524,7 @@
       "questions": [
         {
           "questionNumber": "31",
-          "question": "It controls involuntary activities within the the body:",
+          "question": "It controls involuntary activities within the body:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -535,7 +535,7 @@
             "Hypothalamus"
           ],
           "wordAnswer": "Medulla oblongata",
-          "explanation": null
+          "explanation": "The medulla oblongata controls involuntary activities within the body such as heartbeat, breathing, and digestion. \n\nThe other options are incorrect because:\n\n- The Cerebellum is responsible for coordination and balance, not involuntary activities.\n\n- The Cerebrum is responsible for voluntary activities and cognitive functions, not involuntary activities.\n\n- The Hypothalamus regulates body temperature, thirst, hunger, and other homeostatic systems, but it is not responsible for controlling involuntary activities."
         },
         {
           "questionNumber": "32",
@@ -550,7 +550,7 @@
             "Lymph"
           ],
           "wordAnswer": "Blood",
-          "explanation": null
+          "explanation": "The Blood carries hormones from an endocrine gland to the target organ, ensuring that the hormones reach their specific receptors on the target cells. \n\nThe other options are incorrect because:\n\n- Saliva is a digestive secretion produced by the salivary glands and does not carry hormones.\n\n- Tissue fluid is the fluid that surrounds the cells and is involved in the exchange of substances between the blood and the cells, but it does not specifically carry hormones.\n\n- Lymph is a fluid that circulates through the lymphatic system and is involved in immune function, but it is not a carrier of hormones."
         },
         {
           "questionNumber": "33",
@@ -565,11 +565,11 @@
             "Retina"
           ],
           "wordAnswer": "Iris",
-          "explanation": null
+          "explanation": "The Iris controls the amount of light entering the eye by adjusting the size of the pupil. In bright light, the iris contracts reducing the pupil size, leading to a decrease in the amount of light entering the eye. In dim light, the iris relaxes, increasing the pupil size, leading to an increase in the amount of light entering the eye. \n\nThe other options are incorrect because:\n\n- The Lens focuses light onto the retina and is not involved in controlling the amount of light entering the eye.\n\n- The Cornea is the transparent front part of the eye that helps to refract light. It does not control the amount of light entering the eye.\n\n- The Retina is the light-sensitive layer at the back of the eye that converts light into nerve impulses that are transmitted to the brain for processing. It does not control the amount of light entering the eye."
         },
         {
           "questionNumber": "34",
-          "question": "The junction between one neurone and another:",
+          "question": "The junction between one neuron and another:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -580,7 +580,7 @@
             "Synapse"
           ],
           "wordAnswer": "Synapse",
-          "explanation": null
+          "explanation": "The Synapse is the junction between one neuron and another, where nerve impulses are transmitted from one neuron to another. \n\nThe other options are incorrect because:\n\n- The Node of Ranvier is a gap in the myelin sheath of a nerve axon, not a junction between neurons.\n\n- The Myelin sheath is a protective covering that insulates the axon of a neuron. It is not a junction between neurons.\n\n- The Axon is the long, slender projection of a nerve cell. It is not the junction between one neuron and another."
         },
         {
           "questionNumber": "35",
@@ -589,13 +589,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Dendron",
+            "Dendrite",
             "Axon",
             "Myelin sheath",
-            "Motor neurone"
+            "Schwann cell"
           ],
           "wordAnswer": "Axon",
-          "explanation": null
+          "explanation": "The Axon carries nerve impulses away from the cell body. It is a long, slender projection of a nerve cell, and it transmits electrical impulses from the cell body to the axon terminals. \n\nThe other options are incorrect because:\n\n- The Dendrite carries nerve impulses towards the cell body.\n\n- The Myelin sheath is a protective covering that insulates the axon. It does not carry nerve impulses.\n\n- Schwann cell produces myelin sheath. It does not carry nerve impulses."
         },
         {
           "questionNumber": "36",
@@ -604,13 +604,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Dendron",
+            "Dendrite",
             "Axon",
             "Myelin sheath",
-            "Motor neurone"
+            "Schwann cell"
           ],
-          "wordAnswer": "Dendron",
-          "explanation": null
+          "wordAnswer": "Dendrite",
+          "explanation": "The Dendrite is a short, branched extension of a nerve cell that carries nerve impulses towards the cell body. \n\nThe other options are incorrect because:\n\n- The Axon carries nerve impulses away from the cell body, not towards it.\n\n- Myelin sheath is a protective covering that insulates the axon, but it does not carry nerve impulses.\n\n- Schwann cell produces myelin sheath. It does not carry nerve impulses."
         },
         {
           "questionNumber": "37",
@@ -619,13 +619,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "Myelin sheath",
+            "Retina",
             "Conjunctiva",
             "Eye lid",
             "Lens"
           ],
           "wordAnswer": "Conjunctiva",
-          "explanation": null
+          "explanation": "The Conjunctiva is a thin, transparent membrane that covers the white part of the eye (sclera) and lines the inside of the eyelids. It helps to protect the eye and keep it moist. \n\nThe other options are incorrect because:\n\n- The retina is the innermost layer of the eye, behind the lens that contains photo-receptor cell.\n\n- The Eyelid the movable covering of skin and muscle that can open and close to protect the eye. It is not a thin membrane over the cornea.\n\n- The Lens is a transparent structure inside the eye that helps to focus light onto the retina. It is not a thin membrane over the cornea."
         },
         {
           "questionNumber": "38",
@@ -640,9 +640,9 @@
             "Axoplasm"
           ],
           "wordAnswer": "Node of Ranvier",
-          "explanation": null
+          "explanation": "The Node of Ranvier is the gap between myelin sheaths along the axon of a neuron. It is a site where the axon membrane is exposed, allowing for the rapid conduction of nerve impulses. \n\nThe other options are incorrect because:\n\n- The Synapse is the junction between one neuron and another, not a gap between myelin sheaths.\n\n- The Motor end plate is the specialized part of a muscle fiber membrane at which a motor neuron transmits an impulse to the muscle fiber, not a gap between myelin sheaths.\n\n- Axoplasm is the cytoplasm within the axon of a neuron, not a gap between myelin sheaths."
         },
-        {
+          {
           "questionNumber": "39",
           "question": "It protects the spinal cord:",
           "image": null,
@@ -655,7 +655,7 @@
             "Gray mater"
           ],
           "wordAnswer": "Vertebral column",
-          "explanation": null
+          "explanation": "The Vertebral column protects the spinal cord by providing a bony canal through which the spinal cord passes. It consists of a series of individual bones (vertebrae) that are stacked on top of each other. \n\nThe other options are incorrect because:\n\n- The Cranium is the skull, which protects the brain, not the spinal cord.\n\n- The Myelin sheath is a protective covering of nerve fibers, but it is not directly involved in protecting the spinal cord.\n\n- Gray matter refers to regions of the central nervous system that are dominated by cell bodies and dendrites, not a structure that protects the spinal cord."
         },
         {
           "questionNumber": "40",
@@ -670,7 +670,7 @@
             "Thyroxin"
           ],
           "wordAnswer": "Acetylcholine",
-          "explanation": null
+          "explanation": "Acetylcholine is a neurotransmitter that plays a key role in the central nervous system. It is involved in muscle control, attention, arousal, and memory, among other functions. \n\nThe other options are incorrect because:\n\n- Adrenaline, Insulin and Thyroxin are hormones, not neurotransmitters."
         }
       ]
     },
@@ -680,155 +680,155 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-          "questionNumber": "41",
-          "question": "The image of an object formed on the retina is:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Larger, inverted and real",
-            "Smaller, real and inverted",
-            "Same size, real and upright",
-            "Smaller, upright and virtual"
-          ],
-          "wordAnswer": "Smaller, real and inverted",
-          "explanation": null
-        },
+        "questionNumber": "41",
+        "question": "The image of an object formed on the retina is:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Larger, inverted and real",
+          "Smaller, real and inverted",
+          "Same size, real and upright",
+          "Smaller, upright and virtual"
+        ],
+        "wordAnswer": "Smaller, real and inverted",
+        "explanation": "The image of an object formed on the retina is smaller, real and inverted. This is due to the optics of the eye, where the lens refracts light to form an inverted image on the retina. \n\nThe other options are incorrect because:\n\n- An image formed on the retina is not larger; it is actually smaller due to the focal length of the lens.\n\n- The image is real, not virtual, as it is formed by the convergence of actual light rays onto the retina.\n\n- The image is inverted, not upright, due to the way light is refracted by the lens onto the retina."
+      },
+      {
+        "questionNumber": "42",
+        "question": "Which of the following secretes Follicle stimulating hormone?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Pituitary",
+          "Thyroid",
+          "Adrenals",
+          "Testes"
+        ],
+        "wordAnswer": "Pituitary",
+        "explanation": "The Pituitary gland secretes Follicle stimulating hormone (FSH), which is involved in the development of primary follicles into Graafian follicles. \n\nThe other options are incorrect because:\n\n- The Thyroid gland secretes Thyroxin which is involved in the regulation of metabolism.\n\n- The Adrenals secrete hormones such as adrenaline and cortisol, not FSH.\n\n- The Testes secrete testosterone, not FSH."
+      },
+      {
+        "questionNumber": "43",
+        "question": "Which of the following secretes the hormone oestrogen?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Pituitary",
+          "Thyroid",
+          "Adrenals",
+          "Ovary"
+        ],
+        "wordAnswer": "Ovary",
+        "explanation": "The Ovary secretes the hormone oestrogen, which plays a key role in the development of female reproductive tissues and secondary sexual characteristics. \n\nThe other options are incorrect because:\n\n- The Pituitary gland secretes hormones that regulate other endocrine glands and various bodily functions, not oestrogen.\n\n- The Thyroid gland secretes thyroxin, not oestrogen.\n\n- The Adrenals primarily secrete hormones such as adrenaline and cortisol, not oestrogen."
+      },
+      {
+        "questionNumber": "44",
+        "question": "It has a high concentration of cones:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Fovea",
+          "Sclera",
+          "Blind spot",
+          "Choroid"
+        ],
+        "wordAnswer": "Fovea",
+        "explanation": "The Fovea has a high concentration of cones, which are photoreceptor cells responsible for color vision and detailed central vision. \n\nThe other options are incorrect because:\n\n- The Sclera is the white outer layer of the eyeball and does not contain photoreceptor cells.\n- The Blind spot is the area on the retina where the optic nerve exits the eye, and it does not contain photoreceptor cells.\n\n- The Choroid is a layer of tissue in the eye that contains blood vessels and connective tissue. It does not contain photoreceptor cells."
+      },
         {
-          "questionNumber": "42",
-          "question": "Which of the following secretes Follicle stimulating hormone?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Pituitary",
-            "Thyroid",
-            "Adrenals",
-            "Testes"
-          ],
-          "wordAnswer": "Pituitary",
-          "explanation": null
-        },
+        "questionNumber": "45",
+        "question": "The path taken by an impulse during a reflex action is called:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Synapse",
+          "Reflex",
+          "Reflex arc",
+          "Sensory neurone"
+        ],
+        "wordAnswer": "Reflex arc",
+        "explanation": "The path taken by an impulse during a reflex action is called a Reflex arc. It involves a sensory neuron, interneuron, and motor neuron. \n\nThe other options are incorrect because:\n\n- The Synapse is a junction between two neurons where nerve impulses are transmitted, but it is not the specific path taken by an impulse during a reflex action.\n\n- Reflex alone does not describe the specific pathway of the impulse during a reflex action, as it refers to the entire automatic response to a stimulus, not the neural pathway.\n\n- The Sensory neurone is part of the reflex arc, but it is not the name of the entire pathway taken by an impulse."
+      },
+      {
+        "questionNumber": "46",
+        "question": "They maintain the shape of the eye ball:",
+        "image": "",
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Aqueous and Vitreous humour",
+          "Lens and sclera",
+          "Cornea and aqueous humour",
+          "Choroid and Sclera"
+        ],
+        "wordAnswer": "Aqueous and Vitreous humour",
+        "explanation": "The Aqueous and Vitreous humour maintain the shape of the eyeball by exerting pressure to keep it firm. The aqueous humor is found in the anterior chamber of the eye, while the vitreous humor is a gel-like substance that fills the space between the lens and the retina."
+      },
+      {
+        "questionNumber": "47",
+        "question": "A reflex action is:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "A rapid automatic involuntary response to a stimulus",
+          "A rapid voluntary response to a stimulus",
+          "A slow involuntary response to a stimulus",
+          "A slow voluntary response to a stimulus"
+        ],
+        "wordAnswer": "A rapid automatic involuntary response to a stimulus",
+        "explanation": "A reflex action is a rapid automatic involuntary response to a stimulus. It occurs without conscious thought and is designed to protect the body from harm. \n\nThe other options are incorrect because:\n\n- A rapid voluntary response to a stimulus involves conscious decision-making and is not considered a reflex action.\n\n- A slow involuntary response to a stimulus does not fit the definition of a reflex action, which is typically fast and automatic.\n\n- A slow voluntary response to a stimulus is also not characteristic of a reflex action, as reflexes are designed to be rapid and involuntary."
+      },
+      {
+        "questionNumber": "48",
+        "question": "A hormone secreted by the stomach wall",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Testosterone",
+          "Gastrin",
+          "Growth hormone",
+          "Glucagon"
+        ],
+        "wordAnswer": "Gastrin",
+        "explanation": "A hormone secreted by the stomach wall is Gastrin. It stimulates the production of gastric acid in the stomach. \n\nThe other options are incorrect because:\n\n- Testosterone is primarily produced in the testes and is not secreted by the stomach wall.\n\n- Growth hormone is produced by the pituitary gland, not the stomach wall.\n\n- Glucagon is produced by the pancreas, not the stomach wall."
+      },
         {
-          "questionNumber": "43",
-          "question": "Which of the following secretes the hormone oestrogen?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Pituitary",
-            "Thyroid",
-            "Adrenals",
-            "Ovary"
-          ],
-          "wordAnswer": "Ovary",
-          "explanation": null
-        },
-        {
-          "questionNumber": "44",
-          "question": "It has a high concentration of cones:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Fovea",
-            "Sclera",
-            "Blind spot",
-            "Choroid"
-          ],
-          "wordAnswer": "Fovea",
-          "explanation": null
-        },
-        {
-          "questionNumber": "45",
-          "question": "The path taken by an impulse during a reflex action is called:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Synapse",
-            "Reflex",
-            "Reflex arc",
-            "Sensory neurone"
-          ],
-          "wordAnswer": "Reflex arc",
-          "explanation": null
-        },
-        {
-          "questionNumber": "46",
-          "question": "They maintain the shape of the eye ball:",
-          "image": "",
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Aqueous and Vitreous humour",
-            "Lens and sclera",
-            "Cornea and aqueous humour",
-            "Choroid and Sclera"
-          ],
-          "wordAnswer": "Aqueous and Vitreous humour",
-          "explanation": null
-        },
-        {
-          "questionNumber": "47",
-          "question": "A reflex action is:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "A rapid automatic involuntary response to a stimulus",
-            "A rapid voluntary response to a stimulus",
-            "A slow involuntary response to a stimulus",
-            "A slow voluntary response to a stimulus"
-          ],
-          "wordAnswer": "A rapid automatic involuntary response to a stimulus",
-          "explanation": null
-        },
-        {
-          "questionNumber": "48",
-          "question": "A hormone secreted by the stomach wall",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Testosterone",
-            "Gastrin",
-            "Growth hormone",
-            "Glucagon"
-          ],
-          "wordAnswer": "Gastrin",
-          "explanation": null
-        },
-        {
-          "questionNumber": "49",
-          "question": "The pituitary is referred to as the master endocrine gland because:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "It produces many different hormones, some of which control other endocrine glands",
-            "It produces one hormone which controls only one endocrine gland",
-            "It controls the functioning of the brain",
-            "It is found in the brain and controls all voluntary actions"
-          ],
-          "wordAnswer": "It produces many different hormones, some of which control other endocrine glands",
-          "explanation": null
-        },
-        {
-          "questionNumber": "50",
-          "question": "The role of parathormone is:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "To stimulate release of calcium and phosphate ions from bones",
-            "To convert excess glucose to glycogen",
-            "To convert stored glycogen to glucose",
-            "To control basal metabolic rate"
-          ],
-          "wordAnswer": "To stimulate release of calcium and phosphate ions from bones",
-          "explanation": null
-        }
+        "questionNumber": "49",
+        "question": "The pituitary is referred to as the master endocrine gland because:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "It produces many different hormones, some of which control other endocrine glands",
+          "It produces one hormone which controls only one endocrine gland",
+          "It controls the functioning of the brain",
+          "It is found in the brain and controls all voluntary actions"
+        ],
+        "wordAnswer": "It produces many different hormones, some of which control other endocrine glands",
+        "explanation": "The pituitary gland is referred to as the master endocrine gland because it produces many different hormones, some of which control other endocrine glands. It secretes hormones that regulate various physiological processes, and some of these hormones directly stimulate other endocrine glands to release their own hormones, thereby controlling the functions of those glands."
+      },
+      {
+        "questionNumber": "50",
+        "question": "The role of parathormone is:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "To stimulate release of calcium and phosphate ions from bones",
+          "To convert excess glucose to glycogen",
+          "To convert stored glycogen to glucose",
+          "To control basal metabolic rate"
+        ],
+        "wordAnswer": "To stimulate release of calcium and phosphate ions from bones",
+        "explanation": "Parathormone, also known as parathyroid hormone, is produced by the parathyroid glands and plays a key role in regulating calcium and phosphate levels in the body by promoting the release of these minerals from the bones into the bloodstream. The other options are incorrect because:\n\n- Conversion of excess glucose to glycogen is associated with insulin, not parathormone.\n\n- Conversion of stored glycogen to glucose is associated with glucagon, not parathormone.\n\n- Control basal metabolic rate is associated with thyroxin, not parathormone."
+      }
       ]
     }
   ]

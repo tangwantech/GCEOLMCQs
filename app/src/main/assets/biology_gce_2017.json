@@ -22,7 +22,7 @@
             "High light intensity, high atmospheric pressure and low carbon dioxide concentration."
           ],
           "wordAnswer": "High carbon dioxide concentration, high light intensity and availability of water.",
-          "explanation": null
+          "explanation": "Carbon dioxide, light and water are requirements of photosynthesis. Therefore, high carbon dioxide concentration, high light intensity and availability of water, will promote photosynthesis, leading to the release of much oxygen"
         },
         {
           "questionNumber": "2",
@@ -37,7 +37,7 @@
             "Multicellular and saprophytic"
           ],
           "wordAnswer": "Unicellular and autotrophic",
-          "explanation": null
+          "explanation": "While Spirogyra is filamentous (made up of chain of cells), each cell is completely independent of the other. Hence, a spirogyra can be described as unicellular. Spirogyra is autotrophic because it contains chloroplasts containing chlorophyll which are used to capture solar energy. The captured energy is used to combine simple inorganic raw materials such as carbon dioxide and water to produce complex organic matter such as glucose (carbohydrate).\n\n- Spirogyra is not saprophytic because it doesn't secrete digestive enzymes on dead organic matter. It has the ability to synthesize its own organic matter from simple inorganic materials like water and carbon dioxide.\n\n- Spyrogyra is not holozoic because it does not ingest large complex organic matter in order to obtain nutrients.\n\n- While Spirogyra is filamentous (made up of chain of cells) it is not considered as being multicellular because the cells can exist independent of each other."
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Lipid"
           ],
           "wordAnswer": "Reducing sugar",
-          "explanation": null
+          "explanation": "Benedict's solution is specifically used to test for reducing sugars. Benedict's solution, in the presence of reducing sugar will produce a brick red precipitate.\n Protein, starch and lipid are not reducing sugars."
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "Vagina, uterus, cervix, fallopian tube"
           ],
           "wordAnswer": "Vagina, cervix, uterus, fallopian tube",
-          "explanation": null
+          "explanation": "Sperms get deposited first in the vagina. From the vagina they swim through the cervix, uterus and finally reach the fallopian tube."
         },
         {
           "questionNumber": "5",
@@ -82,7 +82,7 @@
             "More auxin on the un-illuminated side."
           ],
           "wordAnswer": "More auxin on the un-illuminated side.",
-          "explanation": null
+          "explanation": "When a shoot is exposed to a unidirectional source of light, auxin diffuse and become concentrated on the un-illuminated side. High auxin concentration on the un-illuminated side stimulates rapid elongation of cells on this side than on the illuminated side, causing the shoot to bend towards the light source."
         },
         {
           "questionNumber": "6",
@@ -97,7 +97,7 @@
             "Keep the skin moist"
           ],
           "wordAnswer": "Reduce body temperature",
-          "explanation": null
+          "explanation": "Release of sweat by our body is in response to increased body temperature above the normal average value of 37 degree celcius. Sweat contains water. As sweat evaporates from the surface of the skin, it takes along heat from the skin. This helps to reduce body temperature."
         },
         {
           "questionNumber": "7",
@@ -112,7 +112,7 @@
             "Pancreas"
           ],
           "wordAnswer": "Stomach",
-          "explanation": null
+          "explanation": "Rennin is an enzyme produce by the stomach of young mammals. It helps to coagulate soluble milk protein caseinogen to insoluble casein. Casein can remain in the stomach longer for proper digestion to take place."
         }
       ]
     },
@@ -134,7 +134,7 @@
             "A cockroach"
           ],
           "wordAnswer": "A housefly",
-          "explanation": null
+          "explanation": "The life cycle in the diagram is typical of insects that carry out complete metamorphosis. Housefly is one example of such insects.\n\n- The grasshopper, termite and cockroach are examples of insects that carry out incomplete metamorphosis. Their lifecycles consist of the egg, nymph and adult"
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "Is covered by a cuticle made up of cellulose."
           ],
           "wordAnswer": "Has jointed appendages.",
-          "explanation": null
+          "explanation": "A housefly has jointed appendages.\n\n- A housefly has three pairs of legs, not four pairs.\n\n- Housefly has a pair of antennae, not two pairs.\n\n- The body of a house fly is covered by a cuticle (exoskeleton) made up of chitin, not cellulose"
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "Gizzard"
           ],
           "wordAnswer": "Gizzard",
-          "explanation": null
+          "explanation": "Gizzard is the organ of the bird's digestive system that contains sand and gravel. Birds do not have teeth to physically break down food. They use their gizzards containing sand and gravel to break down hard foods such as seeds into smaller particles to increase surface area for chemical digestion."
         },
         {
           "questionNumber": "11",
@@ -179,9 +179,9 @@
             "Precipitation"
           ],
           "wordAnswer": "Evaporation",
-          "explanation": null
+          "explanation": "Evaporation causes water to return to the atmosphere. Evaporation is the change of state of liquid water into gaseous water (water vapour).\n\n- Urination does not directly into the atmosphere.\n\n Condensation involves change of water vapour into liquid water. It is the first step involved with the removal of water from the atmosphere.\n\n- Precipitation is the return of water to earth as rain, hail or snow"
         },
-            {
+        {
           "questionNumber": "12",
           "question": "The diagram is a pyramid of numbers in an ecosystem. Which of the following is true of the diagram?",
           "image": "pyramid_of_numbers_june_2017.jpg",
@@ -194,7 +194,7 @@
             "Energy flows from level 1 to 4."
           ],
           "wordAnswer": "Energy flows from level 1 to 4.",
-          "explanation": null
+          "explanation": "In a pyramid of numbers in an ecosystem, energy flows from lower to higher trophic level (1 to 4).\n\n- Energy decreases from 1 to 4 and not from 4 to 1.\n\n- The number of organisms at each trophic level decreases from level 1 to 4, but not increase.\n\n- The largest organisms are usually found at the top of the pyramid of numbers, not at the base."
         },
         {
           "questionNumber": "13",
@@ -209,7 +209,7 @@
             "produce synovial fluid."
           ],
           "wordAnswer": "produce synovial fluid.",
-          "explanation": null
+          "explanation": "The part labelled 4 is the synovial membrane. It produces synovial fluid to reduce friction at joints"
         },
         {
           "questionNumber": "14",
@@ -224,7 +224,7 @@
             "Tendon and cartilage."
           ],
           "wordAnswer": "Synovial fluid and cartilage.",
-          "explanation": null
+          "explanation": "Synovial fluid lubricates the joint, reducing friction while cartilage provides a smooth surface for the bones to move against each other.The other options are incorrect because:\n\n- Ligaments help to attach bone to bone at joints.\n\n- Tendons attach muscles to bones and help in movement."
         },
         {
           "questionNumber": "15",
@@ -239,9 +239,9 @@
             "Mushroom"
           ],
           "wordAnswer": "Hawk",
-          "explanation": null
+          "explanation": "A secondary consumer is an animal that feeds on a primary consumer. Hawks are carnivores that feed on primary consumers, making them secondary consumers in the food chain. Each of the other options are incorrect because:\n\n- Beetles are typically primary consumers. They feed directly on plants (producers).\n\n- Goats are herbivores and are considered primary consumers in the food chain.\n\n- Mushrooms are decomposers."
         },
-            {
+        {
           "questionNumber": "16",
           "question": "Below are diagrams of various types of seeds. Which seed would be dispersed by wind?",
           "image": "seed_types_june_2017.jpg",
@@ -254,7 +254,7 @@
             "4"
           ],
           "wordAnswer": "2",
-          "explanation": null
+          "explanation": "Seed 2 has a wing-like structures, indicating adaptation for wind dispersal."
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "6"
           ],
           "wordAnswer": "1",
-          "explanation": null
+          "explanation": "Structure 1 is the amniotic fluid. It serves as a shock absorber protecting the developing foetus. Each of the other options are incorrect because:\n\n- 2 (Amniotic membrane) is the structure that secretes amniotic fluid.\n\n- 5 (umbilical cord contains umblical artery and umbilical vein which carry materials from the placenta to the foetus and from the foetus back to the placenta.\n\n- 6 (placenta) has several functions such as: production of hormones, exchange of materials between foetus and maternal blood. However, the placenta does not serve as a shock absorber."
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "A semi-lunar valve prevents backward flow of blood into the right atrium."
           ],
           "wordAnswer": "The wall of the left ventricle is thicker than that of the right ventricle.",
-          "explanation": null
+          "explanation": "The wall of the left ventricle is thicker than that of the right ventricle because the left ventricle has to pump blood to the systemic circulation with tissues far away from the heart. For blood to reach these tissues at a fast rate, it most be pumped under high pressure. Hence, the thick nature of the wall of the left ventricle."
         },
         {
           "questionNumber": "19",
@@ -293,13 +293,13 @@
           "twoStatements": null,
           "nonSelectableOptions": null,
           "selectableOptions": [
-            "1 and 2",
-            "2 and 4",
-            "2 and 3",
-            "3 and 4"
+            "1 (Cell wall) and 2 (Nucleus)",
+            "2 (Nucleus) and 4 (Cytoplasm)",
+            "2 (Nucleus) and 3 (Tonoplast)",
+            "3 (Tonoplast) and 4 (Cytoplasm)"
           ],
           "wordAnswer": "2 and 4",
-          "explanation": null
+          "explanation": "Structure 2 (nucleus) and 4 (cytoplasm) make up the protoplam of the plant cell.\n\n- Structure 1 is the cell wall and structure 3 is the tonoplast. These structures do not make up the protoplasm."
         },
         {
           "questionNumber": "20",
@@ -314,7 +314,7 @@
             "5 and 6"
           ],
           "wordAnswer": "2 and 6",
-          "explanation": null
+          "explanation": "Structure 2 (slime capsule) and 6 (cell wall) are absent in an animal cell.\n\n- Structures 3 (genetic material), 4 (cytoplasm), and 5 (cell surface membrane) are present in an animal cell."
         }
       ]
     },
@@ -324,7 +324,6 @@
       "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
-          
           "questionNumber": "21",
           "question": "Amoeba",
           "image": null,
@@ -341,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "Fresh water amoeba has contractile vacuole which helps it to remove excess water from its body.\n\n- Nutrition in amoeba is holozoic. Amoeba uses its pseudopodia to engulf large food particles, forming food vacuole into which digestive enzymes are secreted to digest the food.\n\n- Amoeba has a large surface area to volume ratio, not a small surface area to volume ratio."
         },
         {
           "questionNumber": "22",
@@ -360,7 +359,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "An ecosystem is a natural unit consisting of biotic and abiotic factors interacting to produce a self supporting and stable system.\n\n- An ecosystem is a natural unit, not an artificial unit."
         },
         {
           "questionNumber": "23",
@@ -379,7 +378,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": null
+          "explanation": "Plants absorb mineral salts from the soil by active transport.\n\n- Absorption of water from the soil is by osmosis only.\n\n- Root pressure is the pressure developed in the xylem vessels of the root and stem due to the continuous absorption of water by the root hairs. It does not contribute to the absorption of mineral salts by plants."
         },
         {
           "questionNumber": "24",
@@ -398,7 +397,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
+          "explanation": "Components of glomerular filtrate include water, salts, glucose, amino acids. These components are present in glomerular filtrate because they are small enough to be filtered through the walls of the glomeruli.\n\n- Blood cells, Fibrinogen, and other large protein molecules are not filtered through the walls of the glomeruli."
         },
         {
           "questionNumber": "25",
@@ -408,7 +407,7 @@
           "nonSelectableOptions": [
             "Decreased metabolism",
             "Much blood to the skin",
-            "Hair lies flat on the hair"
+            "Hair lies flat on the skin"
           ],
           "selectableOptions": [
             "1, 2 and 3 are all correct",
@@ -417,7 +416,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "When body temperature rises above normal, metabolism decreases and less heat is generated.\n\n- Much blood flows to the skin resulting in much heat loss by convection and radiation.\n\n- Hairs lie flat, offering less resistance to heat loss by radiation."
         }
       ]
     },
@@ -442,7 +441,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are false",
-          "explanation": null
+          "explanation": "Outside a living cell, viruses are incapable of reproducing. They do not have organelles and other tools necessary to copy their genes. Even while inside their host cell, they cannot reproduce independently. Viruses require the genetic material of their host in order to make new copies of themselves.\n\n- Viruses are not cells because they do not have cell membrane and other organelles generally present in cells."
         },
         {
           "questionNumber": "27",
@@ -460,7 +459,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Gills are structures which enable a bony fish to breath in water. They are able to absorb dissolved oxygen from water."
         },
         {
           "questionNumber": "28",
@@ -478,7 +477,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
-          "explanation": null
+          "explanation": "Light is needed to manufacture food in plants. Plants grown in the dark become yellowish because light is needed to stimulate chlorophyll formation. However, the yellowing of leaves (absence of chlorophyll) in darkness does not directly explain why light is needed to  manufacture food in plants."
         },
             {
           "questionNumber": "29",
@@ -496,7 +495,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are false",
-          "explanation": null
+          "explanation": "Arteries carry blood away from the heart and not towards the heart. Veins carry blood to the heart in humans.\n\n- Only veins contain valves. Arteries and capillaries do not have valves."
         },
         {
           "questionNumber": "30",
@@ -514,7 +513,7 @@
             "Both statements are false"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Deforestation reduces the concentration of oxygen in the atmosphere because plants are the primary source of the oxygen. The oxygen is produce during photosynthesis."
         }
       ]
     },
@@ -536,7 +535,7 @@
             "Enterokinase"
           ],
           "wordAnswer": "Bile",
-          "explanation": null
+          "explanation": "Bile released from the gall bladder helps to emulsify fat. Bile breaks down large fat molecules into tiny droplets, increasing surface area for the lipase action.\n- Amylase is a carbohydrate digesting enzyme. It does not emulsify fat.\n- Pepsin is a protein digesting enzyme secreted by the stomach wall. It does not emulsify fat.\n- Enterokinase is an enzyme secreted by the wall of the duodenum. It helps to convert trypsinogen to active trypsin. It does not emulsify fat"
         },
         {
           "questionNumber": "32",
@@ -551,7 +550,7 @@
             "Turgidity"
           ],
           "wordAnswer": "Turgidity",
-          "explanation": null
+          "explanation": "When a plant cell takes in water by osmosis, the water enters the sap vacuole causing it to expand. Expansion of the sap vacuole exerts am outward force against the cell wall. The cell wall in turn resists this outward force, by generating an inward force called wall pressure. When the wall pressure becomes equal to the outward force, the cell become turgid.\n- Plasmolysis, Flaccidity and wilting are effects of plant cells losing water"
         },
         {
           "questionNumber": "33",
@@ -566,7 +565,7 @@
             "Zygotes"
           ],
           "wordAnswer": "Gametes",
-          "explanation": null
+          "explanation": "Gametes are haploid reproductive cells. Two Gametes from opposite sexes that can fuse together during fertilization to form a diploid zygote.\n- Genes are the basic unit of inheritance. They are present in chromosomes located in the nucleus of a gamete or somatic cell. They are not gametes.\n- Chromosomes are the carries of genes. They are not gametes.\n- Zygote is a diploid cell formed from the fusion of two haploid gametes."
         },
         {
           "questionNumber": "34",
@@ -581,9 +580,9 @@
             "Saprophytism"
           ],
           "wordAnswer": "Mutualism",
-          "explanation": null
+          "explanation": "Mutualism is a feeding relationship between two living organisms of different species in which both organisms benefit from each other. Examples include: the relationship between honey bees and flowering plants; the relationship between nitrogen fixing bacteria and leguminous plants; the relationship between cellulase secreting bacteria and herbivorous animals.\n- Parasitism and predation are beneficial to one species and harmful to the other.\n- Saprophytism involves feeding on dead decaying organic matter of plants and animals."
         },
-            {
+        {
           "questionNumber": "35",
           "question": "Individuals of the same species in a particular habitat.",
           "image": null,
@@ -596,7 +595,7 @@
             "Population"
           ],
           "wordAnswer": "Population",
-          "explanation": null
+          "explanation": "Population refers to individuals of the same species in a particular habitat.\n- An ecosystem consist of individuals of different species interacting with each other and the non-living components.\n Biome is a area with particular physical and climatic condition, having organism with particular adaptations to survive under such physical and climatic conditions e.g a desert.\n Community is a collection of populations of different species in a particular locality."
         },
         {
           "questionNumber": "36",
@@ -611,7 +610,7 @@
             "Restriction enzyme"
           ],
           "wordAnswer": "Ligase",
-          "explanation": null
+          "explanation": "Ligase helps to join pieces of DNA together through the formation of phosphodiester bonds.\n- Vector is a carrier of foreign DNA to be introduced into a host cell.\n- Plasma is the liquid part of blood.\n- Restriction enzyme cuts DNA at specific sequences into DNA fragments."
         },
         {
           "questionNumber": "37",
@@ -626,7 +625,7 @@
             "Oviduct"
           ],
           "wordAnswer": "Placenta",
-          "explanation": null
+          "explanation": "Placenta is an organ that develops during pregnancy in mammals. It secretes hormones such as progesterone which helps to maintain the wall of the uterus until the end of gestation. Vagina, uterus and oviduct do not secrete hormones."
         },
         {
           "questionNumber": "38",
@@ -641,7 +640,7 @@
             "Low temperature."
           ],
           "wordAnswer": "Low relative humidity.",
-          "explanation": null
+          "explanation": "Low relative humidity increases the diffusion gradient of water vapour between the leaves and atmosphere. This causes more water to leave the leaves into the atmosphere. Thus the rate of transpiration increases.\n- Low light intensity, little or no wind and low temperature will instead reduce the rate of transpiration."
         },
             {
           "questionNumber": "39",
@@ -656,7 +655,7 @@
             "Fission"
           ],
           "wordAnswer": "Meiosis",
-          "explanation": null
+          "explanation": "Gametes are haploid reproductive cells produced by meiosis.\n- Mitosis is important in growth , repair and asexual reproduction. It does not lead to the production of gametes.\n- Cell division is of two types: mitosis and meiosis. It does not specifically describe the production of gametes."
         },
         {
           "questionNumber": "40",
@@ -671,7 +670,7 @@
             "Oxygen"
           ],
           "wordAnswer": "Oxygen",
-          "explanation": null
+          "explanation": "Oxygen is an excretory product of photosynthesis in plants."
         }
       ]
     },
@@ -693,7 +692,7 @@
             "Iodine"
           ],
           "wordAnswer": "Iron",
-          "explanation": null
+          "explanation": "Iron is needed to form haemoglobin in red blood cells. Haemoglobin helps to transport oxygen from the lungs to the tissues. Deficiency of iron will lead to insufficient haemoglobin in red blood cells, causing anaemia.\n- Deficiency of sodium may lead to poor nervous conduction.\n-  Deficiency of calcium leads to Rickets(bone deformation in children).\n- Deficiency of iodine leads to Goitre"
         },
         {
           "questionNumber": "42",
@@ -708,7 +707,7 @@
             "Relax the lens and retina"
           ],
           "wordAnswer": "Relax the suspensory ligaments and ciliary muscles",
-          "explanation": null
+          "explanation": "null"
         },
         {
           "questionNumber": "43",
@@ -723,7 +722,7 @@
             "Gravitational pull on the root."
           ],
           "wordAnswer": "More auxin on the lower side of the root",
-          "explanation": null
+          "explanation": "Gravity causes auxin to diffuse and become concentrated on the lower side of the root. In the root, high auxin concentration inhibits cell elongation. The cells in the upper side of the root with less auxin thus elongate faster than cells in the lower side of the root causing the root to bend downwards in the direction of gravity"
         },
         {
           "questionNumber": "44",
@@ -738,7 +737,7 @@
             "No photosynthesis"
           ],
           "wordAnswer": "No chlorophyll formation",
-          "explanation": null
+          "explanation": "Light stimulates chlorophyll formation. In the absence of light, chlorophyll is not synthesized, causing the seedling to become yellowish."
         },
             {
           "questionNumber": "45",
@@ -753,7 +752,7 @@
             "It is due to contraction of biceps."
           ],
           "wordAnswer": "It is due to contraction of biceps.",
-          "explanation": null
+          "explanation": "When a part of the forearm is touched by a hot object, a reflex action occurs causing the biceps to contract while the triceps relax. The fore-arm is bent as a result, and the arm is withdrawn from the hot object."
         },
         {
           "questionNumber": "46",
@@ -768,7 +767,7 @@
             "A swelling of the bark on the upper side where the ring was removed."
           ],
           "wordAnswer": "A swelling of the bark on the upper side where the ring was removed.",
-          "explanation": null
+          "explanation": "Ringing the bark of a tree removes the phloem tissue in this area. This disrupts the flow of sucrose from the leaves down the stem, leading to its accumulation on the upper side of the ring, and producing a swelling.\n- Flow of water and mineral salts to the leaves as well as the rate of transpiration will not be affected because the xylem is still intact"
         },
         {
           "questionNumber": "47",
@@ -783,7 +782,7 @@
             "Ensure that water does not leave the xylem."
           ],
           "wordAnswer": "Ensure that no air bubbles enter the xylem.",
-          "explanation": null
+          "explanation": "Air bubbles in the xylem will disrupt the flow of water up the leafy shoot, affecting the rate of transpiration. Hence the setup is cut under water to ensure that no air bubbles enter the xylem"
         },
         {
           "questionNumber": "48",
@@ -798,7 +797,7 @@
             "AO, AB"
           ],
           "wordAnswer": "AO, BO",
-          "explanation": null
+          "explanation": "Crossing AO and BO parents, produces individuals with the possible genotypes: AO (Group A), AB (group AB, BO (Group B) and OO (Group O)"
         },
             {
           "questionNumber": "49",
@@ -813,7 +812,7 @@
             "Pyrogallic acid becoming clear."
           ],
           "wordAnswer": "Lime water becoming milky.",
-          "explanation": null
+          "explanation": "The presence of carbon dioxide in inspired air is detected by using lime water . The lime water becomes milky white in the presence of dissolved carbon dioxide)."
         },
         {
           "questionNumber": "50",
@@ -828,7 +827,7 @@
             "To trap impurities."
           ],
           "wordAnswer": "To trap impurities.",
-          "explanation": null
+          "explanation": "Mucus is a sticky substance secreted by goblet cells that line the membrane of the trachea. Impurities such as dust particles, bacteria etc, can be trapped by the mucus, preventing them from reaching the lungs."
         }
       ]
     }

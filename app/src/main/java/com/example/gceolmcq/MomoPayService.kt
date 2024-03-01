@@ -68,13 +68,13 @@ class MomoPayService(private val context: Context) {
                 println("failed generating token due to ${e.message}")
 //                isTransactionSuccessful.postValue(false)
                 transactionStatusListener.onTransactionFailed()
-                if(e.message.toString().contains("timed out")){
-                    _isPaymentSystemAvailable.postValue(false)
-                }else{
-//                    isTransactionSuccessful.postValue(false)
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
-
-                }
+//                if(e.message.toString().contains("timed out")){
+//                    _isPaymentSystemAvailable.postValue(false)
+//                }else{
+////                    isTransactionSuccessful.postValue(false)
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//
+//                }
                 call.cancel()
 
             }
@@ -97,7 +97,7 @@ class MomoPayService(private val context: Context) {
                 }catch (e:JSONException){
 //                    isTransactionSuccessful.postValue(false)
                     transactionStatusListener.onTransactionFailed()
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
                     call.cancel()
 //                    println("failed getting token from server due to ${e.message}")
                 }
@@ -125,13 +125,13 @@ class MomoPayService(private val context: Context) {
 
             override fun onFailure(call: Call, e: IOException) {
                 println("failed initiating request to pay ...... $transaction due to ${e.message}")
-                transactionStatusListener.onTransactionFailed()
-                if(e.message.toString().contains("timed out")){
-                    _isPaymentSystemAvailable.postValue(false)
-                }else{
-//                    isTransactionSuccessful.postValue(false)
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
-                }
+//                transactionStatusListener.onTransactionFailed()
+//                if(e.message.toString().contains("timed out")){
+//                    _isPaymentSystemAvailable.postValue(false)
+//                }else{
+////                    isTransactionSuccessful.postValue(false)
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                }
 
             }
             override fun onResponse(call: Call, response: Response) {
@@ -145,14 +145,15 @@ class MomoPayService(private val context: Context) {
                         transaction.status = MCQConstants.PENDING
                         while (transaction.status!! == MCQConstants.PENDING){
                             checkTransactionStatus(transaction, transactionStatusListener)
-                            delay(1000)
+                            delay(5000)
                         }
                     }
 
                 }catch (e: JSONException){
+                    println("Inside json exception of on response of request to pay")
                     transactionStatusListener.onTransactionFailed()
 
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
                 }
 
             }
@@ -172,7 +173,8 @@ class MomoPayService(private val context: Context) {
         client.newCall(request).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) {
                 transactionStatusListener.onTransactionFailed()
-                transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                println("Inside checking transaction status onFailure, ${e.message}")
+//                transactionStatus.postValue(TransactionStatus(status = FAILED))
 //
             }
 
@@ -191,19 +193,21 @@ class MomoPayService(private val context: Context) {
                             transactionStatusListener.onTransactionSuccessful()
                         }
                         MCQConstants.FAILED -> {
+//                            println("Failed Inside checking transaction status")
                             transactionStatusListener.onTransactionFailed()
+
                         }
                     }
 
 
-                    transactionStatus.postValue(TransactionStatus(status = transaction.status))
+//                    transactionStatus.postValue(TransactionStatus(status = transaction.status))
 
 //                    println(transaction.status)
                 }catch (e: JSONException){
 //                    isTransactionSuccessful.postValue(false)
                     transactionStatusListener.onTransactionFailed()
-                    transactionStatus.postValue(TransactionStatus(status = FAILED))
-                    println("failed checking transaction status ...... $transaction due to ${e.message}")
+//                    transactionStatus.postValue(TransactionStatus(status = FAILED))
+//                    println("failed checking transaction status ...... $transaction due to ${e.message}")
                 }
             }
 

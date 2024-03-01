@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:minHeight="52dp"
     android:orientation="horizontal"
-    android:background="?android:attr/selectableItemBackground"
+    android:background="@color/background"
+    android:foreground="?attr/selectableItemBackground"
     android:gravity="center_vertical">
 
     <LinearLayout

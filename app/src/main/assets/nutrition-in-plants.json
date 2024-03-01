@@ -22,11 +22,11 @@
             "Carbon dioxide"
           ],
           "wordAnswer": "Carbohydrates",
-          "explanation": null
+          "explanation": "During photosynthesis, light energy is converted to chemical energy and stored in the form of carbohydrates. Carbohydrates, such as glucose, are produced during the light-independent reactions of photosynthesis and serve as the primary energy storage molecules in plants.\n\nThe other options are incorrect because:\n\n- Minerals are essential nutrients for plant growth and development, but they are not the primary form of energy storage resulting from photosynthesis.\n\n- Vitamins are organic compounds that are necessary for various physiological functions in plants, but they are not the primary storage form of energy produced during photosynthesis.\n\n- Carbon dioxide is a reactant in the photosynthetic process and is not the direct form in which light energy is stored."
         },
         {
           "questionNumber": "2",
-          "question": "A leaf was kept in darkness or 48 hours and then tested for starch. The result is that no starch was found to be present. This shows that the leaf",
+          "question": "A leaf was kept in darkness for 48 hours and then tested for starch. The result is that no starch was found to be present. This shows that the leaf",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -37,7 +37,7 @@
             "requires chlorophyll to make starch."
           ],
           "wordAnswer": "requires light to make starch.",
-          "explanation": null
+          "explanation": "The absence of starch in the leaf after being kept in darkness for 48 hours indicates that the leaf requires light to make starch through the process of photosynthesis. Starch is not direct product of photosynthesis but glucose. However, the glucose is converted to starch and stored.\n\nThe other options are incorrect because:\n\n- Denaturation refers to the structural change in a protein, and it is not relevant to the absence of starch in the leaf.\n- Carbon dioxide is required as a raw material for photosynthesis, but the absence of starch in the leaf after being kept in darkness does not directly indicate a requirement for carbon dioxide.\n- Chlorophyll is necessary for capturing light energy during photosynthesis, but the absence of starch in the leaf after being kept in darkness does not directly indicate a requirement for chlorophyll."
         },
         {
           "questionNumber": "3",
@@ -52,7 +52,7 @@
             "Carbon dioxide, chlorophyll, light and water."
           ],
           "wordAnswer": "Carbon dioxide, chlorophyll, light and water.",
-          "explanation": null
+          "explanation": "The requirements for photosynthesis include carbon dioxide, chlorophyll, light, and water. Carbon dioxide is a reactant in the process, chlorophyll captures light energy, light provides the energy source for the reactions, and water is a source of electrons and protons used in the light-dependent reactions.\n\nThe other options are incorrect because:\n\n- Oxygen is a product of photosynthesis rather than a requirement for the process."
         },
         {
           "questionNumber": "4",
@@ -67,7 +67,7 @@
             "Nitrogen"
           ],
           "wordAnswer": "Carbon dioxide",
-          "explanation": null
+          "explanation": "The gas used by green plants for photosynthesis is carbon dioxide. During the process of photosynthesis, carbon dioxide is taken in from the environment and used as a raw material in the light-independent reactions to produce organic molecules like glucose.\n\nThe other options are incorrect because:\n\n- While oxygen is produced as a byproduct of photosynthesis, it is not the gas used directly for the process.\n\n- Water vapor is part of the transpiration process and is not used as a direct raw material for photosynthesis.\n\n- Nitrogen is an essential element for plant growth, but it is not the gas used directly for photosynthesis."
         },
         {
           "questionNumber": "5",
@@ -82,7 +82,7 @@
             "Nitrogen"
           ],
           "wordAnswer": "Oxygen",
-          "explanation": null
+          "explanation": "The gas released by green plants during photosynthesis is oxygen. This occurs as a result of the light-dependent reactions of photosynthesis, where water is split to release oxygen as a byproduct. The oxygen is then released into the atmosphere as a waste product of the photosynthetic process.\n\nThe other options are incorrect because:\n\n- Carbon dioxide is used by green plants as a reactant in photosynthesis, rather than being released as a byproduct.\n\n- Water vapor is released through transpiration and is not a direct product of photosynthesis.\n\n- Nitrogen is a major component of the atmosphere and is not released by green plants during photosynthesis."
         },
         {
           "questionNumber": "6",
@@ -97,7 +97,7 @@
             "iodine solution"
           ],
           "wordAnswer": "glowing splint",
-          "explanation": null
+          "explanation": "The gas released during photosynthesis, which is oxygen, can be identified using a glowing splint. The presence of oxygen causes the splint to reignite.\n\nThe other options are incorrect because:\n\n- Lime water is used to test for the presence of carbon dioxide, not the gas released during photosynthesis.\n\n- Bicarbonate is not used for identifying the gas released during photosynthesis.\n\n- Iodine solution is used to test for the presence of starch in leaves, not for identifying the gas released during photosynthesis."
         },
         {
           "questionNumber": "7",
@@ -112,7 +112,7 @@
             "Numerous stomata on both surfaces of the leaf allow for exchange of carbon dioxide and oxygen with the atmosphere."
           ],
           "wordAnswer": "The cuticle is opaque for maximum penetration of sunlight.",
-          "explanation": null
+          "explanation": "The adaptations of the leaf to photosynthesis do not include the cuticle being opaque for maximum penetration of sunlight. In fact, the cuticle is generally transparent and serves as a protective waxy layer that reduces water loss from the leaf while still allowing light to penetrate to the photosynthetic cells.\n\nThe other options are adaptations of the leaf to photosynthesis because:\n\n- The broad flat shape of the leaf provides a large surface area for the absorption of carbon dioxide and sunlight, enhancing photosynthetic efficiency.\n\n- Chloroplasts containing chlorophyll trap sunlight and are the site of photosynthesis within the leaf.\n\n- Numerous stomata on both surfaces of the leaf allow for the exchange of gases, including carbon dioxide and oxygen, with the atmosphere, supporting the photosynthetic process."
         }
       ]
     },
@@ -134,7 +134,7 @@
             "glucose and water"
           ],
           "wordAnswer": "carbon dioxide and water",
-          "explanation": null
+          "explanation": "The raw materials for photosynthesis are carbon dioxide and water. Carbon dioxide is taken in from the atmosphere through the stomata of the leaves, while water is absorbed from the soil through the roots. These two substances are used in the process of photosynthesis to produce glucose and oxygen.\n\nThe other options are incorrect because:\n\n- Oxygen and water are not the raw materials for photosynthesis; rather, oxygen is a product of photosynthesis and water is used as a raw material.\n\n- Glucose and oxygen are the products of photosynthesis, not the raw materials.\n\n- Glucose and water are not the raw materials for photosynthesis; glucose is a product of the process, and water is one of the raw materials."
         },
         {
           "questionNumber": "9",
@@ -149,7 +149,7 @@
             "glucose and water"
           ],
           "wordAnswer": "glucose and oxygen",
-          "explanation": null
+          "explanation": "The products of photosynthesis are glucose and oxygen. Glucose, a simple sugar, is the main product of photosynthesis and serves as the primary source of energy for plants and other organisms. Oxygen is another important product, released into the atmosphere as a byproduct of the photosynthetic process.\n\nThe other options are incorrect because:\n\n- Carbon dioxide and water are the raw materials for photosynthesis, not the products.\n\n- Oxygen and water are not the products of photosynthesis; oxygen is a product, but water is a raw material.\n\n- Glucose and water are not the products of photosynthesis; glucose is a product, while water is a raw material."
         },
         {
           "questionNumber": "10",
@@ -164,7 +164,7 @@
             "carbon dioxide"
           ],
           "wordAnswer": "sunlight",
-          "explanation": null
+          "explanation": "The energy needed for photosynthesis comes from sunlight. Light energy is absorbed by chlorophyll molecules in the chloroplasts of plant cells, and this energy is used to power the chemical reactions of photosynthesis, ultimately leading to the production of glucose and oxygen.\n\nThe other options are incorrect because:\n\n- Water, glucose, and carbon dioxide are not sources of energy for photosynthesis; while they are involved in the process, the primary source of energy is sunlight."
         },
         {
           "questionNumber": "11",
@@ -179,7 +179,7 @@
             "Oxygen is a waste product"
           ],
           "wordAnswer": "Energy is released",
-          "explanation": null
+          "explanation": "The statement 'Energy is released' is incorrect in the context of photosynthesis. In fact, energy is absorbed and utilized during the process of photosynthesis to make glucose molecules.\n\nThe other options are true of photosynthesis because:\n\n- Sugars are indeed the first products of photosynthesis, serving as the initial outputs of the process.\n\n- Light is essential for photosynthesis, as it provides the energy needed to drive the chemical reactions of the process.\n\n- Oxygen is a waste product of photosynthesis, released into the atmosphere as a result of the splitting of water molecules during the light-dependent reactions."
         },
         {
           "questionNumber": "12",
@@ -194,7 +194,7 @@
             "Humidity"
           ],
           "wordAnswer": "Humidity",
-          "explanation": null
+          "explanation": "While light intensity, carbon dioxide concentration, and temperature all have significant effects on the rate of photosynthesis, humidity does not directly influence this process. High humidity may affect the plant's ability to transpire, but it does not directly impact the rate of photosynthesis.\n\nLight intensity affects the rate of photosynthesis because it provides the energy needed for the process. Carbon dioxide concentration is a limiting factor for photosynthesis, as it is one of the raw materials used in the process. Temperature affects the rate of photosynthesis by influencing the activity of enzymes involved in the process."
         },
         {
           "questionNumber": "13",
@@ -209,11 +209,11 @@
             "absorb oxygen"
           ],
           "wordAnswer": "absorb light",
-          "explanation": null
+          "explanation": "Chlorophyll is a pigment in the chloroplasts of plant cells that absorbs light energy. This absorbed light energy is used to drive the chemical reactions of photosynthesis.\n\nThe other options are incorrect because chlorophyll does not absorb water, carbon dioxide, or oxygen."
         },
         {
           "questionNumber": "14",
-          "question": "Which one of the following chemicals could be added to water to help ensure that Elodea would photosynthesize?",
+          "question": "Which one of the following chemicals could be added to water to help ensure that Elodea photosynthesizes?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -224,7 +224,7 @@
             "Lime water"
           ],
           "wordAnswer": "Sodium bicarbonate",
-          "explanation": null
+          "explanation": "Adding sodium bicarbonate to water can help ensure that Elodea would photosynthesize because it provides a source of carbon dioxide, which is a key raw material for photosynthesis. The dissolved carbon dioxide in the water can be used by the Elodea plant to carry out the process of photosynthesis.\n\nThe other options are incorrect because Pyrogallic acid, caustic soda, and lime water do not provide a suitable source of carbon dioxide for photosynthesis and may even have detrimental effects on the plant."
         },
         {
           "questionNumber": "15",
@@ -239,7 +239,7 @@
             "Lipids"
           ],
           "wordAnswer": "Starch",
-          "explanation": null
+          "explanation": "The correct answer is Starch. The sugar produced during photosynthesis is stored in green plants in the form of starch. Starch is a complex carbohydrate that serves as a long-term energy storage molecule in plants, providing a readily available source of energy when needed.\n\nThe other options are incorrect because sugars are not stored in the form of proteins, vitamins, or lipids within green plants."
         },
         {
           "questionNumber": "16",
@@ -251,10 +251,10 @@
             "Nucleus",
             "Chloroplast",
             "Mitochondrion",
-            "Cytoplasm"
+            "Ribosomes"
           ],
           "wordAnswer": "Chloroplast",
-          "explanation": null
+          "explanation": "The chloroplast is the site of photosynthesis in a cell of a green plant. It contains the green pigment chlorophyll, which is responsible for capturing light energy and initiating the chemical reactions of photosynthesis."
         },
         {
           "questionNumber": "17",
@@ -269,7 +269,7 @@
             "Breathing"
           ],
           "wordAnswer": "Photosynthesis",
-          "explanation": null
+          "explanation": "Photosynthesis adds oxygen to the atmosphere as a byproduct of the process. During photosynthesis, plants use carbon dioxide and water to produce glucose and oxygen. The released oxygen contributes to the oxygen content in the atmosphere.\n\nThe other options are incorrect because:\n\n- Respiration consumes oxygen and releases carbon dioxide.\n\n- Decay releases various gases including carbon dioxide and methane.\n\n- Breathing is the process by which organisms take in oxygen and release carbon dioxide. Only photosynthesis directly adds oxygen to the atmosphere."
         },
         {
           "questionNumber": "18",
@@ -284,7 +284,7 @@
             "Iodine solution"
           ],
           "wordAnswer": "Iodine solution",
-          "explanation": null
+          "explanation": "Iodine solution is used to test for the presence of starch. When iodine solution is added to a sample containing starch, the mixture turns blue-black, indicating the presence of starch.\n\nThe other options are incorrect because:\n\n- Millon's reagent is used to test for proteins.\n\n- Sudan III solution is used to test for lipids.\n\n- Lime water is used to test for the presence of carbon dioxide.."
         },
         {
           "questionNumber": "19",
@@ -299,7 +299,7 @@
             "Man"
           ],
           "wordAnswer": "Grass",
-          "explanation": null
+          "explanation": "Grass is autotrophic, meaning it can produce its own food through the process of photosynthesis. It contains chlorophyll, which allows it to capture sunlight and convert carbon dioxide and water into glucose.\n\nThe other options are incorrect because:\n\n- Green snake, amoeba and man are heterotrophic organisms that rely on consuming other organisms for food."
         },
         {
           "questionNumber": "20",
@@ -314,7 +314,7 @@
             "Palisade mesophyll cells are rectangular while spongy mesophyll cells are spherical"
           ],
           "wordAnswer": "Palisade mesophyll cells contain more chloroplasts than spongy mesophyll cells.",
-          "explanation": null
+          "explanation": "Palisade mesophyll cells are located in the upper part of the leaf and are responsible for a majority of the photosynthesis due to the higher concentration of chloroplasts. This results in a higher rate of oxygen release compared to spongy mesophyll cells."    
         }
       ]
     },
@@ -340,7 +340,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 only is correct",
-          "explanation": null
+          "explanation": "Autotrophic nutrition is the process by which an organism produces its own food using inorganic substances. Photosynthesis is a type of autotrophic nutrition, where plants use sunlight, water, and carbon dioxide to produce glucose.\n\nThe other options are incorrect because mutualism is a type of symbiotic relationship, not a form of autotrophic nutrition, and saprophytism is a form of heterotrophic nutrition where organisms feed on decaying organic matter."
         },
         {
           "questionNumber": "22",
@@ -359,7 +359,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "Nitrogen is an essential nutrient for plant growth and development. Its deficiency can lead to stunted growth, small leaves, and yellowing of leaves. Stunted growth occurs due to nitrogen's role in the formation of proteins, which are essential for plant growth. Nitrogen is also a key component of chlorophyll, the pigment responsible for the green color of leaves, so its deficiency can lead to small and yellow leaves."
         },
         {
           "questionNumber": "23",
@@ -378,7 +378,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "Palisade mesophyll cells and spongy mesophyll cells are the primary photosynthetic cells in a leaf. Palisade mesophyll cells are located in the upper part of the leaf and contain a high concentration of chloroplasts, making them efficient for photosynthesis. Spongy mesophyll cells are located beneath the palisade layer and also contain chloroplasts, contributing to photosynthesis.\n\n- Epidermal cells, while present on the surface of the leaf, are not involved in photosynthesis."
         },
         {
           "questionNumber": "24",
@@ -397,7 +397,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
+          "explanation": "Glucose produced during photosynthesis can indeed be converted to starch and stored in plant cells, providing a long-term energy reserve. It can also be combined with nitrogen to form proteins, which are essential for plant growth and development. Additionally, glucose can be converted to cellulose for the formation of new cell walls, providing structural support to plant cells."
         },
         {
           "questionNumber": "25",
@@ -416,7 +416,7 @@
             "1 only is correct"
           ],
           "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
+          "explanation": "Chloroplasts of plant cells absorb light energy for photosynthesis, utilizing pigments such as chlorophyll to capture sunlight and convert it into chemical energy. They also play a central role in the conversion of carbon dioxide and water into glucose during the process of photosynthesis.\n\n- Chloroplasts do not maintain the shape of the cells. Cell shape is primarily maintained by the cell wall and the cytoskeleton."
         }
       ]
     },
@@ -441,7 +441,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
+          "explanation": "Photosynthesis indeed takes place only during the day because it requires sunlight as an energy source. Without sunlight, photosynthesis cannot occur."
         },
         {
           "questionNumber": "27",
@@ -459,7 +459,7 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": null
+          "explanation": "Starch is not a structural polysaccharide in plants; rather, it serves as a storage polysaccharide. Starch can indeed be converted to sucrose and transported to storage organs, where it can be utilized as an energy source."
         },
         {
           "questionNumber": "28",
@@ -477,44 +477,44 @@
             "First statement is False. Second statement is True"
           ],
           "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
-          "explanation": null
+          "explanation": "The cuticle on the upper epidermis of a leaf is indeed thicker than that on the lower epidermis, providing greater protection and reducing water loss. However, the fact that the cuticle is transparent is not directly related to its thickness and serves a different purpose."
         },
         {
-          "questionNumber": "29",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "Glowing splint is used to test for oxygen produced during photosynthesis.",
-            "oxygen is a raw material in photosynthesis."
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": null
-        },
-        {
-          "questionNumber": "30",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "Green plants are autotrophic.",
-            "Green plants manufacture their food using carbon dioxide and water."
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
-        }
+        "questionNumber": "29",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "Glowing splint is used to test for oxygen produced during photosynthesis.",
+          "oxygen is a raw material in photosynthesis."
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "First statement is True. Second statement is False",
+        "explanation": "Glowing splint is indeed used to test for oxygen produced during photosynthesis, as it relights in the presence of oxygen. However, oxygen is not a raw material in photosynthesis but rather a product."
+      },
+      {
+        "questionNumber": "30",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "Green plants are autotrophic.",
+          "Green plants manufacture their food using carbon dioxide and water."
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+        "explanation": "Green plants are indeed autotrophic, meaning they can produce their own food. They achieve this by using carbon dioxide and water in the process of photosynthesis to manufacture glucose, which serves as their food source." 
+      }
       ]
     },
     {
@@ -535,7 +535,7 @@
             "Cellulose"
           ],
           "wordAnswer": "Starch",
-          "explanation": null
+          "explanation": "Starch is the correct answer. Starch is a storage polysaccharide in plants, serving as a reserve of energy. It is a polymer of glucose and is commonly found in seeds, tubers, and roots of plants.\n\nThe other options are incorrect because:\n\n Glucose, sucrose, and cellulose are not storage polysaccharides in plants."
         },
         {
           "questionNumber": "32",
@@ -550,7 +550,7 @@
             "Cellulose"
           ],
           "wordAnswer": "Cellulose",
-          "explanation": null
+          "explanation": "Cellulose is a structural polysaccharide in plants, providing rigidity to the cell walls. It is a polymer of glucose and is one of the most abundant organic compounds on Earth. .\n\nThe other options are incorrect because:\n\n- Glucose, sucrose, and starch do not serve as structural polysaccharides in plants."
         },
         {
           "questionNumber": "33",
@@ -565,7 +565,7 @@
             "Orange"
           ],
           "wordAnswer": "Blue black",
-          "explanation": null
+          "explanation": "When iodine solution is dropped on boiled rice, it forms a complex with the starch molecules, resulting in the distinct blue black coloration. This color change is used as a test for the presence of starch in a substance."
         },
         {
           "questionNumber": "34",
@@ -580,7 +580,7 @@
             "Carbon dioxide"
           ],
           "wordAnswer": "Oxygen",
-          "explanation": null
+          "explanation": "Rekindling a glowing splint is a test for the presence of oxygen. When a glowing splint is introduced to a gas sample and it reignites, it indicates the presence of oxygen.\n\nThe other options are incorrect because:\n\n- Water, nitrogen, and carbon dioxide do not rekindle a glowing splint."
         },
         {
           "questionNumber": "35",
@@ -595,7 +595,7 @@
             "Carbon dioxide"
           ],
           "wordAnswer": "Glucose",
-          "explanation": null
+          "explanation": "Glucose is the main non-gaseous product of photosynthesis.\n\nThe other options are incorrect because:\n\n- Water and carbon dioxide are reactants in photosynthesis.\n\n- Oxygen is a gaseous byproduct of photosynthesis."
         },
         {
           "questionNumber": "36",
@@ -610,7 +610,7 @@
             "Epidermis"
           ],
           "wordAnswer": "Mesophyll",
-          "explanation": null
+          "explanation": "The mesophyll layer is the photosynthetic portion of a leaf, containing the chloroplasts where photosynthesis occurs.\n\nThe other options are incorrect because:\n\n- Xylem and phloem are vascular tissues responsible for transporting water, nutrients, and sugars within the plant.\n\n- The epidermis is the outer layer of cells on the leaf's surface. Epidermal cells do not carry out photosynthesis."
         },
         {
           "questionNumber": "37",
@@ -625,7 +625,7 @@
             "Roots"
           ],
           "wordAnswer": "Leaf",
-          "explanation": null
+          "explanation": "The leaf is the main organ of photosynthesis in plants.\n\n The other options are incorrect because:\n\n- A fruit is a reproductive structure that develops from a flower.\n\n- A flower is an organ responsible for reproduction.\n\n- Roots are primarily involved in anchoring the plant and absorbing water and nutrients."
         },
         {
           "questionNumber": "38",
@@ -637,14 +637,14 @@
             "Active transport",
             "Osmosis",
             "Diffusion",
-            "Bull transport"
+            "Bulk transport"
           ],
           "wordAnswer": "Diffusion",
-          "explanation": null
+          "explanation": "Diffusion is the physical process that allows carbon dioxide to enter photosynthetic cells and oxygen to exit. It is the passive movement of molecules from an area of higher concentration to an area of lower concentration.\n\nThe other options are incorrect because:\n\n- Active transport is a process that requires energy to move molecules against their concentration gradient.\n\n- Osmosis is the movement of water across a semi-permeable membrane.\n\n- Bulk transport involves the mass movement of substances within vascular tissues (xylem and phloem)."
         },
         {
           "questionNumber": "39",
-          "question": "Placing a potted plant in darkness for at least 48 hours is meant to:",
+          "question": "In an experiment on photosynthesis, placing a potted plant in darkness for at least 48 hours is meant to:",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -655,7 +655,7 @@
             "Kill the plant"
           ],
           "wordAnswer": "Destarch the plant",
-          "explanation": null
+          "explanation": "Placing a potted plant in darkness for at least 48 hours is meant to destarch the plant. This step ensures that any starch detected at the end of the experiment should be due to photosynthesis during the experiment and not starch formed before the start of the experiment. \n\nThe other options are incorrect because: \n\n- Detaching the plant is not the purpose of placing it in darkness.\n\n- Decolorizing the plant is not a known effect of placing it in darkness.\n\n- Killing the plant is not the intended outcome of this process."
         },
         {
           "questionNumber": "40",
@@ -670,8 +670,9 @@
             "Carbon dioxide"
           ],
           "wordAnswer": "Oxygen",
-          "explanation": null
+          "explanation": "Oxygen is the waste product of photosynthesis. During photosynthesis, plants take in carbon dioxide and water and produce glucose as a form of chemical energy, as well as oxygen as a waste product. \n\nThe other options are incorrect because:\n\n- Glucose is not a waste product but a useful product of photosynthesis.\n\n- Water is used in photosynthesis and is not a waste product.\n\n- Carbon dioxide is a reactant in the process of photosynthesis, not a waste product."
         }
+
       ]
     },
     {
@@ -692,7 +693,7 @@
             "To stop starch grains from bursting"
           ],
           "wordAnswer": "To kill the leaf.",
-          "explanation": null
+          "explanation": "The leaf was placed in boiling water for 30 seconds to kill the leaf and denature the enzymes that could break down starch. \n\nThe other options are incorrect because:\n\n- Boiling water would not harden the leaf.\n\n- Chlorophyll is not removed by boiling water, and it is not the purpose of this step.\n\n- Stopping starch grains from bursting is not a relevant consideration in this step."
         },
         {
           "questionNumber": "42",
@@ -707,7 +708,7 @@
             "To burst starch grains."
           ],
           "wordAnswer": "To remove chlorophyll from the leaf.",
-          "explanation": null
+          "explanation": "The leaf was heated in alcohol to remove chlorophyll, which can interfere with the detection of starch in the leaf. \n\nThe other options are incorrect because:\n\n- Killing the protoplasm is not the purpose of this step.\n\n- Making the leaf permeable to iodine is not the intended outcome of heating in alcohol.\n\n- Bursting starch grains is not a relevant consideration in this step."
         },
         {
           "questionNumber": "43",
@@ -722,7 +723,7 @@
             "Orange"
           ],
           "wordAnswer": "Blue black",
-          "explanation": null
+          "explanation": "When iodine is added to a leaf containing starch, it changes color to blue black, indicating the presence of starch. \n\nThe other options are incorrect because:\n\n- Brown, Green, and Orange are not the colors that indicate the presence of starch when iodine is added."
         },
         {
           "questionNumber": "44",
@@ -737,7 +738,7 @@
             "To detach the leaves of the plants"
           ],
           "wordAnswer": "To destarch the leaves of the plants",
-          "explanation": null
+          "explanation": "Placing the plants in darkness for at least 48 hours ensures that the leaves are destarched, meaning that any stored starch is used up in the absence of light. This allows for a more accurate investigation into the role of carbon dioxide in photosynthesis. \n\nThe other options are incorrect because:\n\n- Placing the plants in darkness for photosynthesis to occur is contradictory.\n\n- Allowing the leaves to transpire is not the purpose of placing the plants in darkness\n\n- Detaching the leaves of the plants is not a relevant consideration in this step."
         },
         {
           "questionNumber": "45",
@@ -752,7 +753,7 @@
             "To prevent soil organisms from escaping."
           ],
           "wordAnswer": "To prevent carbon dioxide released by respiring soil organisms from reaching the leaves.",
-          "explanation": null
+          "explanation": "The polythene bag creates a barrier that prevents the carbon dioxide released by soil organisms from reaching the plant's leaves, allowing for a controlled investigation into the necessity of external carbon dioxide for photosynthesis. \n\nThe other options are incorrect because:\n\n- Stopping light from reaching the soil is not the main purpose of the polythene bag.\n\n- Preventing water evaporation from the soil is not the primary role of the polythene bag in this experiment.\n\n- Preventing soil organisms from escaping is not the intended function of the polythene bag."
         },
         {
           "questionNumber": "46",
@@ -767,7 +768,7 @@
             "To produce oxygen for use by the plant in tissue respiration"
           ],
           "wordAnswer": "To absorb carbon dioxide from the atmosphere within then bell jar.",
-          "explanation": null
+          "explanation": "Caustic Soda absorbs carbon dioxide from the atmosphere within the bell jar, ensuring that the plant in Experiment A is deprived of external carbon dioxide. This allows for a controlled investigation into the necessity of carbon dioxide for photosynthesis. \n\nThe other options are incorrect because:\n\n- Absorbing oxygen from the atmosphere is not the role of Caustic Soda in this experiment.\n\n- Producing enough carbon dioxide for use by the leaves is contradictory to the purpose of the experiment.\n\n- Producing oxygen for use by the plant in tissue respiration is not the function of Caustic Soda in this context."
         },
         {
           "questionNumber": "47",
@@ -782,11 +783,11 @@
             "None"
           ],
           "wordAnswer": "Experiment B",
-          "explanation": null
+          "explanation": "In Experiment B, where Caustic Soda was absent, the plant had access to external carbon dioxide, allowing for photosynthesis to occur, leading to a positive test for starch.\n\n- In Experiment A, where Caustic Soda was used to absorb carbon dioxide, the plant was deprived of external carbon dioxide and hence, couldn't photosynthesize, leading to a negative test for starch."
         },
         {
           "questionNumber": "48",
-          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, two experiments labelled A and B were carried out simultaneous. Caustic Soda solution was placed next to the potted plant in a bell jar in Experiment A while Caustic Soda was absent in Experiment B. At the end of the experiments, a leaf was detached from both potted plants and tested for starch. Which experiment will have leaves that show a negative test for starch?",
+          "question": "In an experiment to find out if carbon dioxide is necessary for photosynthesis, two experiments labelled A and B were carried out simultaneous. Caustic Soda solution absorbs carbon dioxide. Caustic Soda was placed next to the potted plant in a bell jar in Experiment A while Caustic Soda was absent in Experiment B. At the end of the experiments, a leaf was detached from both potted plants and tested for starch. Which experiment will have leaves that show a negative test for starch?",
           "image": null,
           "twoStatements": null,
           "nonSelectableOptions": null,
@@ -797,7 +798,7 @@
             "None"
           ],
           "wordAnswer": "Experiment A",
-          "explanation": null
+          "explanation": "Caustic Soda solution absorbs carbon dioxide, which is essential for photosynthesis. In Experiment A, where Caustic Soda was present, the plant was deprived of carbon dioxide and hence, couldn't photosynthesize. Therefore, the leaves in Experiment A will show a negative test for starch, indicating the absence of photosynthesis. Experiment B, without Caustic Soda, had access to carbon dioxide and could potentially photosynthesize, leading to the formation of starch."
         },
         {
           "questionNumber": "49",
@@ -812,7 +813,7 @@
             "Starch"
           ],
           "wordAnswer": "Starch",
-          "explanation": null
+          "explanation": "During photosynthesis, plants convert carbon dioxide and water into glucose in the presence of sunlight. Glucose is then used for energy or converted into starch for storage. Therefore, the presence of starch in a leaf indicates that photosynthesis has taken place. \n\nThe other options are incorrect because:\n\n- While chlorophyll is essential for photosynthesis, it is not directly tested for to confirm the process.\n\n- Glucose is produced during photosynthesis but may be used up for other cellular processes.\n\n- Protein is not a specific product of photosynthesis."
         },
         {
           "questionNumber": "50",
@@ -827,7 +828,7 @@
             "Phototropism"
           ],
           "wordAnswer": "Yellowing of leaves",
-          "explanation": null
+          "explanation": "Light is essential for photosynthesis, the process by which plants produce their food. In the absence of light, plants cannot photosynthesize and cannot produce sufficient carbohydrates (sugars) for their energy needs. This can lead to a breakdown of chlorophyll, the pigment that gives leaves their green color, resulting in yellowing of leaves. \n\nThe other options are incorrect because:\n\n -While stomata may close in response to various factors, the absence of light alone doesn't directly cause them to open.\n\n- Wilting can occur due to various reasons, including lack of water, but not solely due to the absence of light.\n\n- Phototropism is the plant's response to light, not the effect of its absence."
         }
       ]
     }

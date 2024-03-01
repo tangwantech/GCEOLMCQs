@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".fragments.SectionResultFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+
    <RelativeLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent">
@@ -13,7 +13,7 @@
        <include layout="@layout/result_score_percentage_bar"
            android:id="@+id/layoutScorePercentage"
            android:layout_width="match_parent"
-           android:layout_height="76dp" />
+           android:layout_height="56dp" />
        <FrameLayout
            android:id="@+id/rvFragmentHolder"
            android:layout_width="match_parent"
