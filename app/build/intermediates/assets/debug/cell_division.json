@@ -10,115 +10,110 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-	        "questionNumber": "1",
-	        "question": "Meiosis is significant because it:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Produces identical daughter cells",
-	          "Allows for tissue repair",
-	          "Creates genetic diversity",
-	          "Occurs in somatic cells"
-	        ],
-	        "wordAnswer": "Creates genetic diversity",
-	        "explanation": null
-
-	      },
-	        {
-	        "questionNumber": "2",
-	        "question": "Chromosomes play a role in cell division by:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Carrying genetic information",
-	          "Producing energy",
-	          "Regulating cell growth",
-	          "Facilitating protein synthesis"
-	        ],
-	        "wordAnswer": "Carrying genetic information",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "3",
-	        "question": "Haploid cells are characterized by:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Having two sets of chromosomes",
-	          "Having one set of chromosomes",
-	          "Being found in somatic tissues",
-	          "Having a diploid number of chromosomes"
-	        ],
-	        "wordAnswer": "Having one set of chromosomes",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "4",
-	        "question": "Meiosis occurs in:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Somatic cells",
-	          "Meristems",
-	          "Bone marrow",
-	          "Anthers"
-	        ],
-	        "wordAnswer": "Anthers",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "5",
-	        "question": "The main difference between mitosis and meiosis is:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Mitosis produces two genetically identical daughter cells, while meiosis produces four daughter cells that are genetically different.",
-	          "The presence of crossing over in mitosis, while no crossing over occurs in meiosis ",
-	          "Mitosis produces haploid cells while meiosis produces diploid cells",
-	          "Mitosis occurs in plants while meiosis occurs in animals"
-	        ],
-	        "wordAnswer": "The number of daughter cells produced",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "6",
-	        "question": "Diploid cells are characterized by:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Having a haploid number of chromosomes",
-	          "Being produced by mitosis",
-	          "Being found in gametes",
-	          "Having two sets of chromosomes"
-	        ],
-	        "wordAnswer": "Having two sets of chromosomes",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "7",
-	        "question": "The process of meiosis occurs in:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Somatic cells",
-	          "Embryonic cells",
-	          "Germ cells",
-	          "Muscle cells"
-	        ],
-	        "wordAnswer": "Germ cells",
-	        "explanation": null
-
-	      }
+		      "questionNumber": "1",
+		      "question": "Meiosis is significant because:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "It produces identical daughter cells",
+		        "It allows for tissue repair",
+		        "It creates genetic diversity",
+		        "It forms the basis of asexual reproduction"
+		      ],
+		      "wordAnswer": "It creates genetic diversity",
+		      "explanation": "Meiosis involves two rounds of cell division, resulting in the production of four non-identical daughter cells with half the number of chromosomes of the parent cell, leading to genetic diversity. During meiosis, crossing over between homologous chromosomes and random assortment further creates genetic diversity.\n\nThe other options are incorrect because:\n\n- Meiosis does not results in identical daughter cells, but non-identical daughter cells due to genetic recombination.\n\n- Meiosis is not involved in tissue repair. This is the function of mitosis.\n\n- Meiosis is associated with sexual reproduction, not asexual reproduction."
+		    },
+		    {
+		      "questionNumber": "2",
+		      "question": "Chromosomes play a role in cell division by:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Carrying genetic information",
+		        "Producing energy",
+		        "Regulating cell growth",
+		        "Facilitating protein synthesis"
+		      ],
+		      "wordAnswer": "Carrying genetic information",
+		      "explanation": "Chromosomes carry genetic information in the form of DNA, which is passed on to daughter cells during cell division.\n\nThe other options are incorrect because:\n\n- The role of producing energy is primarily associated with mitochondria and cellular respiration, not chromosomes.\n\n- While chromosomes carry genes involved in cell growth regulation, they do not directly regulate cell growth themselves.\n\n- While protein synthesis occurs based on the genetic information carried by chromosomes, the chromosomes themselves do not directly facilitate protein synthesis."
+		    },
+		    {
+		      "questionNumber": "3",
+		      "question": "Haploid cells are characterized by:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Having two sets of chromosomes",
+		        "Being produced by mitosis",
+		        "Being found in somatic tissues",
+		        "Having one set of chromosomes"
+		      ],
+		      "wordAnswer": "Having one set of chromosomes",
+		      "explanation": "Haploid cells contain a single set of chromosomes, which is half the number of chromosomes found in diploid cells.\n\nThe other options are incorrect because:\n\n- Having two sets of chromosomes describes diploid cells, not haploid cells.\n\n- Haploid cells are typically produced by meiosis, not mitosis.\n\n- Somatic tissues primarily consist of diploid cells, not haploid cells."
+		    },
+		    {
+		      "questionNumber": "4",
+		      "question": "Meiosis occurs in:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Somatic cells",
+		        "Meristems",
+		        "Bone marrow",
+		        "Anthers"
+		      ],
+		      "wordAnswer": "Anthers",
+		      "explanation": "\tMeiosis occurs in the anthers of plants, which are part of the flower where pollen grains containing male gametes (sperm) are produced.\n\nThe other options are incorrect because:\n\n- Meiosis primarily occurs in cells that give rise to gametes (germ cells), not somatic cells.\n\n- Meristematic cells are involved in plant growth brought about by mitosis, not meiosis.\n\n- 'Bone marrow is primarily associated with the production of blood cells through mitosis, not mitosis."
+		    },
+		    {
+		      "questionNumber": "5",
+		      "question": "The main difference between mitosis and meiosis is:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Mitosis produces identical daughter cells, while meiosis produces daughter cells that are genetically different",
+		        "The presence of crossing over in mitosis, while no crossing over occurs in meiosis ",
+		        "Mitosis produces haploid cells while meiosis produces diploid cells",
+		        "Mitosis occurs in plants while meiosis occurs in animals"
+		      ],
+		      "wordAnswer": "Mitosis produces identical daughter cells, while meiosis produces daughter cells that are genetically different",
+		      "explanation": "Mitosis is a type of cell division that results in two daughter cells identical to the parent cell, while meiosis is a type of cell division that produces four daughter cells with half the number of chromosomes as the parent cell, leading to genetic diversity.\n\n- The presence of crossing over in mitosis is incorrect as crossing over occurs in meiosis, not mitosis.\n\n- Mitosis does not produce haploid cells; it produces diploid cells. Meiosis is the process that produces haploid cells.\n\n- Mitosis and meiosis can occur in both plants and animals, so the statement that mitosis occurs in plants while meiosis occurs in animals is incorrect."
+		    },
+		    {
+		      "questionNumber": "6",
+		      "question": "Diploid cells:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Have one set of chromosomes",
+		        "Are produced by meiosis",
+		        "ALso known as gametes",
+		        "Have two sets of chromosomes"
+		      ],
+		      "wordAnswer": "Have two sets of chromosomes",
+		      "explanation": "Diploid cells have two sets of chromosomes, one set inherited from each parent. They are formed by the fusion of gametes during fertilization.\n\n- Diploid cells do not have one set of chromosomes; they have two sets.\n\n- Diploid cells are not produced by meiosis; they are produced by the fusion of haploid gametes during fertilization.\n\n- Diploid cells are not known as gametes; gametes are haploid cells."
+		    },
+		    {
+		      "questionNumber": "7",
+		      "question": "Mitosis occurs in:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Somatic tissues",
+		        "Testis",
+		        "Ovary",
+		        "Anther"
+		      ],
+		      "wordAnswer": "Somatic tissues",
+		      "explanation": "Mitosis occurs in somatic tissues, which are any part of the body other than the reproductive cells.\n\n- Mitosis does not occur in the testis, ovary, or anther; it occurs in somatic tissues."
+		    }
       ]
     },
     {
@@ -127,208 +122,200 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-	        "questionNumber": "8",
-	        "question": "Which of the following is a characteristic of meiosis but not mitosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Formation of identical daughter cells",
-	          "Involvement of homologous chromosomes",
-	          "Occurs in somatic cells",
-	          "Production of haploid cells"
-	        ],
-	        "wordAnswer": "Production of haploid cells",
-	        "explanation": null
-
-	      },
+		      "questionNumber": "8",
+		      "question": "Which of the following is a characteristic of meiosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Formation of identical daughter cells",
+		        "No crossing over",
+		        "Occurs in somatic cells",
+		        "Production of haploid cells"
+		      ],
+		      "wordAnswer": "Production of haploid cells",
+		      "explanation": "Meiosis is characterized by the production of haploid cells, which have half the number of chromosomes as the parent cell, resulting in genetic diversity among the daughter cells. The other options are incorrect because:\n\n- Meiosis does not result in the formation of identical daughter cells; it leads to genetically diverse daughter cells.\n\n- Crossing over does occur in meiosis, contributing to genetic variation among the daughter cells.\n\n- Meiosis does not occur in somatic cells; it specifically occurs in cells that will become gametes (germ cells)."
+		    },
+		    {
+		      "questionNumber": "9",
+		      "question": "What is the function of the centromere during cell division?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Regulating cell growth",
+		        "Producing energy",
+		        "Anchoring spindle fibers",
+		        "Carrying genetic information"
+		      ],
+		      "wordAnswer": "Anchoring spindle fibers",
+		      "explanation": "The centromere's primary function during cell division is to anchor spindle fibers, which are essential for the movement and separation of chromosomes during mitosis and meiosis. This ensures that each daughter cell receives the correct number of chromosomes. The other options are incorrect because:\n\n- The centromere does not regulate cell growth or produce energy.\n\n- The primary function of the centromere during cell division is to anchor spindle fibers. It is not genetically encoded."
+		    },
+		    {
+		      "questionNumber": "10",
+		      "question": "Which of the following occurs during prophase of mitosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Chromosomes align at the cell equator",
+		        "Nuclear envelope breaks down",
+		        "Sister chromatids separate",
+		        "Cytokinesis occurs"
+		      ],
+		      "wordAnswer": "Nuclear envelope breaks down",
+		      "explanation": "During prophase of mitosis, the nuclear envelope breaks down, allowing the chromosomes to be exposed and interact with the spindle fibers. This is a crucial step in preparing the chromosomes for alignment and subsequent division. The other options are incorrect because:\n\n- Chromosomes aligning at the cell equator occurs during metaphase, not prophase.\n\n- Sister chromatids separate during anaphase, not prophase.\n\n- Cytokinesis, the division of the cytoplasm, occurs after mitosis is complete."
+		    },
+		    {
+		      "questionNumber": "11",
+		      "question": "What is the purpose of cytokinesis during cell division?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Separation of homologous chromosomes",
+		        "Formation of new nuclei",
+		        "Replication of DNA",
+		        "Division of the cytoplasm to form two separate daughter cells"
+		      ],
+		      "wordAnswer": "Division of the cytoplasm to form two separate daughter cells",
+		      "explanation": "Cytokinesis is the process of dividing the cytoplasm to form two separate daughter cells after the genetic material has been divided during mitosis or meiosis. It ensures that each daughter cell receives the necessary cellular components to function independently. The other options are incorrect because:\n\n- Cytokinesis is not involved in the separation of homologous chromosomes; this occurs during anaphase of meiosis I.\n\n- Formation of new nuclei occurs during telophase.\n\n- DNA replication takes place during the S phase of the cell cycle, which is separate from cytokinesis."
+		    },
+			  {
+		      "questionNumber": "12",
+		      "question": "What is the purpose of crossing over during meiosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Generating genetic diversity",
+		        "Producing identical daughter cells",
+		        "Increasing the number of chromosomes",
+		        "Repairing damaged DNA"
+		      ],
+		      "wordAnswer": "Generating genetic diversity",
+		      "explanation": "Crossing over during meiosis is essential for generating genetic diversity among the resulting daughter cells. This process involves the exchange of genetic material between homologous chromosomes, leading to new combinations of alleles and increasing genetic variability. The other options are incorrect because:\n\n- Producing identical daughter cells is not the purpose of crossing over; in fact, it contributes to genetic variation among the daughter cells.\n\n- Crossing over does not increase the number of chromosomes; it redistributes genetic information between homologous chromosomes.\n\n- While cells have mechanisms to repair damaged DNA, crossing over primarily serves to increase genetic diversity."
+		    },
+		    {
+		      "questionNumber": "13",
+		      "question": "Which of the following best defines chromosomes?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Structures that carry genetic information",
+		        "Enzymes involved in cell division",
+		        "Proteins responsible for DNA replication",
+		        "Organelles involved in protein synthesis"
+		      ],
+		      "wordAnswer": "Structures that carry genetic information",
+		      "explanation": "Chromosomes are structures that carry genetic information in the form of genes, DNA, and associated proteins. They are visible during cell division and are essential for the accurate transmission of genetic material to daughter cells. The other options are incorrect because:\n\n- While enzymes are involved in cell division, chromosomes themselves are not enzymes.\n\n- Proteins responsible for DNA replication are enzymes, not chromosomes.\n\n- Chromosomes are not organelles. Organelles involved in protein synthesis are ribosomes."
+		    },
+		    {
+		      "questionNumber": "14",
+		      "question": "Which of the following best describes haploid cells?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Cells with one set of chromosomes",
+		        "Cells with two sets of chromosomes",
+		        "Cells that undergo meiosis",
+		        "Cells involved in asexual reproduction"
+		      ],
+		      "wordAnswer": "Cells with one set of chromosomes",
+		      "explanation": "Haploid cells are characterized by having one set of chromosomes, which means they contain half the number of chromosomes found in diploid cells. The other options are incorrect because:\n\n- Cells with two sets of chromosomes are diploid cells, not haploid cells.\n\n- Haploid cells do not undergo meiosis. Only diploid cells undergo meiosis.\n\n- Haploid cells are generally involved in sexual reproduction, not asexual reproduction."
+		    },
+		    {
+		      "questionNumber": "15",
+		      "question": "Which of the following correctly describes the process of mitosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Division of a cell into two genetically identical daughter cells",
+		        "Division of a cell into four non-identical diploid daughter cells",
+		        "Division of a cell into four non-identical haploid daughter cells",
+		        "Division of a cell into two non-identical daughter cells"
+		      ],
+		      "wordAnswer": "Division of a cell into two genetically identical daughter cells",
+		      "explanation": "The process of mitosis involves the division of a cell into two genetically identical daughter cells. This ensures that each daughter cell receives an identical set of chromosomes and genetic material, supporting growth, repair, and asexual reproduction in multicellular organisms. The other options are incorrect because:\n\n- Mitosis does not result in the division of a cell into four daughter cells; that process is characteristic of meiosis.\n\n- While meiosis results in the formation of haploid daughter cells, mitosis leads to the formation of diploid daughter cells.\n\n- The purpose of mitosis is to produce genetically identical daughter cells, not non-identical daughter cells."
+		    },
+		    {
+		      "questionNumber": "16",
+		      "question": "What is the main difference between mitosis and meiosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Mitosis results in the formation of haploid cells, while meiosis results in the formation of diploid cells",
+		        "Mitosis involves two rounds of cell division, while meiosis involves only one round",
+		        "Mitosis produces genetically identical daughter cells, while meiosis produces genetically diverse daughter cells",
+		        "Mitosis is important in sexual reproduction, while meiosis is important in asexual reproduction"
+		      ],
+		      "wordAnswer": "Mitosis produces genetically identical daughter cells, while meiosis produces genetically diverse daughter cells",
+		      "explanation": "The correct explanation is that mitosis produces genetically identical daughter cells, while meiosis produces genetically diverse daughter cells. This is the main difference between the two processes. The other options are incorrect because:\n\n- Mitosis results in the formation of diploid cells, not haploid cells, while meiosis results in the formation of haploid cells, not diploid cells.\n\n- Mitosis involves one round of cell division, while meiosis involves two rounds of cell division.\n\n- Mitosis is important in asexual reproduction, while meiosis is important in sexual reproduction."
+		    },
+		    {
+		      "questionNumber": "17",
+		      "question": "What is the significance of meiosis in organisms?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "To produce genetically identical offspring",
+		        "To repair damaged cells",
+		        "To prevent doubling of the chromosome number in each sexually reproduced generation",
+		        "To increase the size of the organism"
+		      ],
+		      "wordAnswer": "To prevent doubling of the chromosome number in each sexually reproduced generation",
+		      "explanation": "Meiosis is significant in organisms to prevent doubling of the chromosome number in each sexually reproduced generation. This process helps maintain a constant chromosome number across generations. The other options are incorrect because:\n\n- Meiosis results in genetically diverse offspring, not genetically identical offspring.\n\n- Repair of damaged cells is the function of mitosis, not meiosis.\n- Increase in the size of the organism through the addition of new cells is a function of mitosis, not meiosis."
+		    },
+		    {
+		      "questionNumber": "18",
+		      "question": "The site of meiosis in a male?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Bone marrow",
+		        "Liver",
+		        "Lungs",
+		        "Testes"
+		      ],
+		      "wordAnswer": "Testes",
+		      "explanation": "Meiosis in males occurs in the testes, where sperm cells are produced. The other options are incorrect because meiosis does not occur in the bone marrow, liver, or lungs."
+		    },
+		    {
+		      "questionNumber": "19",
+		      "question": "What is mitosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Division of the nucleus into two identical daughter nuclei",
+		        "Exchange of genetic material between homologous chromosomes",
+		        "Formation of gametes with half the number of chromosomes",
+		        "Formation of a zygote through fertilization"
+		      ],
+		      "wordAnswer": "Division of the nucleus into two identical daughter nuclei",
+		      "explanation": "The correct definition of mitosis is division of the nucleus into two identical daughter nuclei. This process results in the formation of two genetically identical daughter cells. The other options are incorrect because:\n\n- The statement 'Exchange of genetic material between homologous chromosomes' describes the process of genetic recombination in meiosis, not mitosis.\n\n- The statement 'Formation of gametes with half the number of chromosomes' describes meiosis, not mitosis.\n\n- The statement 'Formation of a zygote through fertilization' describes the fusion of gametes, which is not specific to mitosis."
+		    },
 	      {
-	        "questionNumber": "9",
-	        "question": "What is the function of the centromere during cell division?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Regulating cell growth",
-	          "Producing energy",
-	          "Anchoring spindle fibers",
-	          "Carrying genetic information"
-	        ],
-	        "wordAnswer": "Anchoring spindle fibers",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "10",
-	        "question": "Which of the following occurs during prophase of mitosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Chromosomes align at the cell equator",
-	          "Nuclear envelope breaks down",
-	          "Sister chromatids separate",
-	          "Cytokinesis occurs"
-	        ],
-	        "wordAnswer": "Nuclear envelope breaks down",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "11",
-	        "question": "What is the purpose of cytokinesis during cell division?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Separation of homologous chromosomes",
-	          "Formation of new nuclei",
-	          "Replication of DNA",
-	          "Division of the cytoplasm to form two separate daughter cells"
-	        ],
-	        "wordAnswer": "Division of the cytoplasm to form two separate daughter cells",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "12",
-	        "question": "What is the purpose of crossing over during meiosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Generating genetic diversity",
-	          "Producing identical daughter cells",
-	          "Increasing the number of chromosomes",
-	          "Repairing damaged DNA"
-	        ],
-	        "wordAnswer": "Generating genetic diversity",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "13",
-	        "question": "Which of the following best defines chromosomes?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Structures that carry genetic information",
-	          "Enzymes involved in cell division",
-	          "Proteins responsible for DNA replication",
-	          "Organelles involved in protein synthesis"
-	        ],
-	        "wordAnswer": "Structures that carry genetic information",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "14",
-	        "question": "Which of the following  best describes haploid cells?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Cells with half the number of chromosomes compared to diploid cells",
-	          "Cells with double the number of chromosomes compared to diploid cells",
-	          "Cells that undergo meiosis",
-	          "Cells that undergo mitosis"
-	        ],
-	        "wordAnswer": "Cells with half the number of chromosomes compared to diploid cells",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "15",
-	        "question": "Which of the following correctly describes the process of mitosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Division of a diploid cell into two identical diploid daughter cells",
-	          "Division of a haploid cell into four non-identical haploid daughter cells",
-	          "Division of a diploid cell into four non-identical haploid daughter cells",
-	          "Division of a haploid cell into two identical diploid daughter cells"
-	        ],
-	        "wordAnswer": "Division of a diploid cell into two identical diploid daughter cells",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "16",
-	        "question": "What is the main difference between mitosis and meiosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Mitosis results in the formation of diploid cells, while meiosis results in the formation of haploid cells",
-	          "Mitosis involves two rounds of cell division, while meiosis involves only one round",
-	          "Mitosis produces genetically identical daughter cells, while meiosis produces genetically diverse daughter cells",
-	          "Mitosis in sexual reproduction, while meiosis is important in asexual reproduction"
-	        ],
-	        "wordAnswer": "Mitosis results in the formation of diploid cells, while meiosis results in the formation of haploid cells",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "17",
-	        "question": "What is the significance of meiosis in organisms?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "To produce genetically identical offspring",
-	          "To repair damaged cells",
-	          "To prevent doubling of the chromosome number in each generation",
-	          "To increase the size of the organism"
-	        ],
-	        "wordAnswer": "To maintain the chromosome number in each generation",
-	        "explanation": null
-
-	      },
-	      {
-	        "questionNumber": "18",
-	        "question": "Which of the following is the site of meiosis in a male human?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Bone marrow",
-	          "Liver",
-	          "Lungs",
-	          "Testes"
-	        ],
-	        "wordAnswer": "Testes",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "19",
-	        "question": "What is the process of mitosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Division of the nucleus into two identical daughter nuclei",
-	          "Exchange of genetic material between homologous chromosomes",
-	          "Formation of gametes with half the number of chromosomes",
-	          "Formation of a zygote through fertilization"
-	        ],
-	        "wordAnswer": "Division of the nucleus into two identical daughter nuclei",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "20",
-	        "question": "What is the process of meiosis?",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Exchange of genetic material between homologous chromosomes",
-	          "Formation of gametes with half the number of chromosomes",
-	          "Formation of a zygote through fertilization",
-	          "Division of the nucleus into two identical daughter nuclei"
-	        ],
-	        "wordAnswer": "Formation of gametes with half the number of chromosomes",
-	        "explanation": null
-	      }
+		      "questionNumber": "20",
+		      "question": "What is meiosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Exchange of genetic material between homologous chromosomes",
+		        "Formation of gametes with one set of chromosomes",
+		        "Formation of a zygote through fertilization",
+		        "Division of the nucleus into two identical daughter nuclei"
+		      ],
+		      "wordAnswer": "Formation of gametes with one set of chromosomes",
+		      "explanation": "Meiosis is the process of formation of gametes with one set of chromosomes. The other options are incorrect because:\n\n- The statement 'Exchange of genetic material between homologous chromosomes' describes the process of genetic recombination in meiosis but does not encompass the entire process.\n\n- The statement 'Formation of a zygote through fertilization' describes the fusion of gametes, which is not specific to meiosis.\n\n- The statement 'Division of the nucleus into two identical daughter nuclei' describes the process of mitosis, not meiosis."
+		    }
       ]
     },
     {
@@ -337,100 +324,100 @@
       "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
-	        "questionNumber": "21",
-	        "question": "Events that occur during interphase include:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": [
-	          "DNA replication",
-	          "Accumulation of energy in the form of ATP",
-	          "Separation of chromosomes"
-	        ],
-	        "selectableOptions": [
-	          "1, 2 and 3 are all correct",
-	          "1 and 2 only are correct",
-	          "2 and 3 only are correct",
-	          "1 only is correct"
-	        ],
-	        "wordAnswer": "1 and 2 only are correct",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "22",
-	        "question": "During metaphase of mitosis:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": [
-	          "Chromosomes align at the equatorial plane of the cell.",
-	          "Chromosomes are pulled towards opposite poles.",
-	          "Nuclear membrane breaks down."
-	        ],
-	        "selectableOptions": [
-	          "1, 2 and 3 are all correct",
-	          "1 and 2 only are correct",
-	          "2 and 3 only are correct",
-	          "1 only is correct"
-	        ],
-	        "wordAnswer": "1 only is correct",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "23",
-	        "question": "Mitosis is important in:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": [
-	          "Repair of damaged tissues.",
-	          "Growth.",
-	          "Asexual reproduction."
-	        ],
-	        "selectableOptions": [
-	          "1, 2 and 3 are all correct",
-	          "1 and 2 only are correct",
-	          "2 and 3 only are correct",
-	          "1 only is correct"
-	        ],
-	        "wordAnswer": "1, 2 and 3 are all correct",
-	        "explanation": null
-	      },
-	          {
-	        "questionNumber": "24",
-	        "question": "Meiosis is important in:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": [
-	          "Repair of damaged tissues",
-	          "Gamete formation",
-	          "Preventing doubling of chromosome number"
-	        ],
-	        "selectableOptions": [
-	          "1, 2 and 3 are all correct",
-	          "1 and 2 only are correct",
-	          "2 and 3 only are correct",
-	          "1 only is correct"
-	        ],
-	        "wordAnswer": "2 and 3 only are correct",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "25",
-	        "question": "The significance of Meiosis I is:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": [
-	          "To separate the members of a bivalent",
-	          "To separate sister chromatids",
-	          "To produce four haploid cells"
-	        ],
-	        "selectableOptions": [
-	          "1, 2 and 3 are all correct",
-	          "1 and 2 only are correct",
-	          "2 and 3 only are correct",
-	          "1 only is correct"
-	        ],
-	        "wordAnswer": "1 only is correct",
-	        "explanation": null
-	      }
+		      "questionNumber": "21",
+		      "question": "Events that occur during interphase include:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": [
+		        "DNA replication",
+		        "Accumulation of energy in the form of ATP",
+		        "Separation of chromosomes"
+		      ],
+		      "selectableOptions": [
+		        "1, 2 and 3 are all correct",
+		        "1 and 2 only are correct",
+		        "2 and 3 only are correct",
+		        "1 only is correct"
+		      ],
+		      "wordAnswer": "1 and 2 only are correct",
+		      "explanation": "The events that occur during interphase include DNA replication and Accumulation of energy in the form of ATP. These processes are essential for the preparation of the cell for division. \n\n- Separation of chromosomes does not occur during interphase."
+		    },
+		    {
+		      "questionNumber": "22",
+		      "question": "During metaphase of mitosis:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": [
+		        "Chromosomes align at the equatorial plane of the cell.",
+		        "Chromosomes are pulled towards opposite poles.",
+		        "Nuclear membrane breaks down."
+		      ],
+		      "selectableOptions": [
+		        "1, 2 and 3 are all correct",
+		        "1 and 2 only are correct",
+		        "2 and 3 only are correct",
+		        "1 only is correct"
+		      ],
+		      "wordAnswer": "1 only is correct",
+		      "explanation": "During metaphase of mitosis, chromosomes align at the equatorial plane of the cell. This alignment ensures that each daughter cell will receive the correct number of chromosomes. The other options are incorrect because:\n- chromosomes being pulled towards opposite poles and the breakdown of the nuclear membrane occur during anaphase and prophase, respectively, not metaphase."
+		    },
+		    {
+		      "questionNumber": "23",
+		      "question": "Mitosis is important in:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": [
+		        "Repair of damaged tissues.",
+		        "Growth.",
+		        "Asexual reproduction."
+		      ],
+		      "selectableOptions": [
+		        "1, 2 and 3 are all correct",
+		        "1 and 2 only are correct",
+		        "2 and 3 only are correct",
+		        "1 only is correct"
+		      ],
+		      "wordAnswer": "1, 2 and 3 are all correct",
+		      "explanation": "Mitosis is important in repair of damaged tissues, growth, and asexual reproduction. These processes require the production of identical daughter cells which can only be achieved by mitosis."
+		    },
+		    {
+		      "questionNumber": "24",
+		      "question": "Meiosis is important in:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": [
+		        "Repair of damaged tissues",
+		        "Gamete formation",
+		        "Preventing doubling of chromosome number"
+		      ],
+		      "selectableOptions": [
+		        "1, 2 and 3 are all correct",
+		        "1 and 2 only are correct",
+		        "2 and 3 only are correct",
+		        "1 only is correct"
+		      ],
+		      "wordAnswer": "2 and 3 only are correct",
+		      "explanation": "Meiosis is important in gamete formation and preventing doubling of chromosome number. It ensures genetic diversity through the formation of haploid gametes and prevents the doubling of chromosome number in each sexually reproduced generation. \n\n- Repair of damaged tissues is a function of mitosis, not meiosis."
+		    },
+	        {
+		      "questionNumber": "25",
+		      "question": "The significance of Meiosis I is:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": [
+		        "To separate the members of a bivalent",
+		        "To separate sister chromatids",
+		        "To produce four haploid cells"
+		      ],
+		      "selectableOptions": [
+		        "1, 2 and 3 are all correct",
+		        "1 and 2 only are correct",
+		        "2 and 3 only are correct",
+		        "1 only is correct"
+		      ],
+		      "wordAnswer": "1 only is correct",
+		      "explanation": "The significance of Meiosis I is to separate the members of a bivalent. This is crucial for the reduction of chromosome number and the shuffling of genetic material. The other options are incorrect because:\n- The separation of sister chromatids occurs during Meiosis II, not Meiosis I."
+		    }
       ]
     },
     {
@@ -439,95 +426,96 @@
       "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
       "questions": [
         {
-	        "questionNumber": "26",
-	        "question": null,
-	        "image": null,
-	        "twoStatements": [
-	          "Meiosis leads to variation",
-	          "Crossing over occurs during meiosis"
-	        ],
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Both statements are True and the second statement is a correct explanation of the first",
-	          "Both statements are True and the second statement is NOT a correct explanation of the first",
-	          "First statement is True. Second statement is False",
-	          "First statement is False. Second statement is True"
-	        ],
-	        "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "27",
-	        "question": null,
-	        "image": null,
-	        "twoStatements": [
-	          "Meiosis is important in sexual reproduction",
-	          "Gametes are formed by mitosis"
-	        ],
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Both statements are True and the second statement is a correct explanation of the first",
-	          "Both statements are True and the second statement is NOT a correct explanation of the first",
-	          "First statement is True. Second statement is False",
-	          "First statement is False. Second statement is True"
-	        ],
-	        "wordAnswer": "First statement is True. Second statement is False",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "28",
-	        "question": null,
-	        "image": null,
-	        "twoStatements": [
-	          "Daughter cells produced by mitosis are haploid.",
-	          "Mitosis maintains a constant chromosome number in body cells."
-	        ],
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Both statements are True and the second statement is a correct explanation of the first",
-	          "Both statements are True and the second statement is NOT a correct explanation of the first",
-	          "First statement is True. Second statement is False",
-	          "First statement is False. Second statement is True"
-	        ],
-	        "wordAnswer": "First statement is False. Second statement is True",
-	        "explanation": null
-	      },
-        {
-	        "questionNumber": "29",
-	        "question": null,
-	        "image": null,
-	        "twoStatements": [
-	          "Sister chromatids of a chromosome are identical to each other.",
-	          "During metaphase of mitosis, chromosomes are aligned at the equator."
-	        ],
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Both statements are True and the second statement is a correct explanation of the first",
-	          "Both statements are True and the second statement is NOT a correct explanation of the first",
-	          "First statement is True. Second statement is False",
-	          "First statement is False. Second statement is True"
-	        ],
-	        "wordAnswer": "Both statements are True and the second statement is NOT a correct explanation of the first",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "30",
-	        "question": null,
-	        "image": null,
-	        "twoStatements": [
-	          "During anaphase, chromosomes are pulled towards opposite poles.",
-	          "During anaphase, spindle fibers shorten."
-	        ],
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Both statements are True and the second statement is a correct explanation of the first",
-	          "Both statements are True and the second statement is NOT a correct explanation of the first",
-	          "First statement is True. Second statement is False",
-	          "First statement is False. Second statement is True"
-	        ],
-	        "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-	        "explanation": null
-	      }
+		      "questionNumber": "26",
+		      "question": null,
+		      "image": null,
+		      "twoStatements": [
+		        "Meiosis leads to variation",
+		        "Crossing over occurs during meiosis"
+		      ],
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Both statements are True and the second statement is a correct explanation of the first",
+		        "Both statements are True and the second statement is NOT a correct explanation of the first",
+		        "First statement is True. Second statement is False",
+		        "First statement is False. Second statement is True"
+		      ],
+		      "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+		      "explanation": "Meiosis does lead to genetic variation, and crossing over during meiosis is a key mechanism for this variation. The exchange of genetic material between homologous chromosomes leads to new combinations of genes, and hence variation in the resulting daughter cells."
+		    },
+		    {
+		      "questionNumber": "27",
+		      "question": null,
+		      "image": null,
+		      "twoStatements": [
+		        "Meiosis is important in sexual reproduction",
+		        "Gametes are formed by mitosis"
+		      ],
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Both statements are True and the second statement is a correct explanation of the first",
+		        "Both statements are True and the second statement is NOT a correct explanation of the first",
+		        "First statement is True. Second statement is False",
+		        "First statement is False. Second statement is True"
+		      ],
+		      "wordAnswer": "First statement is True. Second statement is False",
+		      "explanation": "Meiosis is indeed important in sexual reproduction as it leads to the formation of gametes, but gametes are not formed by mitosis. Gametes are formed by meiosis, which results in cells with half the chromosome number."
+		    },
+		    {
+		      "questionNumber": "28",
+		      "question": null,
+		      "image": null,
+		      "twoStatements": [
+		        "Daughter cells produced by mitosis are haploid.",
+		        "Mitosis maintains a constant chromosome number in body cells."
+		      ],
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Both statements are True and the second statement is a correct explanation of the first",
+		        "Both statements are True and the second statement is NOT a correct explanation of the first",
+		        "First statement is True. Second statement is False",
+		        "First statement is False. Second statement is True"
+		      ],
+		      "wordAnswer": "First statement is False. Second statement is True",
+		      "explanation": "Daughter cells produced by mitosis are not haploid; they are diploid, containing the same chromosome number as the parent cell. However, mitosis does maintain a constant chromosome number in body cells by producing genetically identical daughter cells."
+		    },
+			{
+		      "questionNumber": "29",
+		      "question": null,
+		      "image": null,
+		      "twoStatements": [
+		        "Sister chromatids of a chromosome are identical to each other.",
+		        "During metaphase of mitosis, chromosomes are aligned at the equator."
+		      ],
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Both statements are True and the second statement is a correct explanation of the first",
+		        "Both statements are True and the second statement is NOT a correct explanation of the first",
+		        "First statement is True. Second statement is False",
+		        "First statement is False. Second statement is True"
+		      ],
+		      "wordAnswer": "Both statements are True and the second statement is NOT a correct explanation of the first",
+		      "explanation": "Sister chromatids of a chromosome are indeed identical to each other, but the alignment of chromosomes at the equator during metaphase is not the reason for their identical nature."
+
+		    },
+		    {
+		      "questionNumber": "30",
+		      "question": null,
+		      "image": null,
+		      "twoStatements": [
+		        "During anaphase, chromosomes are pulled towards opposite poles.",
+		        "During anaphase, spindle fibers shorten."
+		      ],
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Both statements are True and the second statement is a correct explanation of the first",
+		        "Both statements are True and the second statement is NOT a correct explanation of the first",
+		        "First statement is True. Second statement is False",
+		        "First statement is False. Second statement is True"
+		      ],
+		      "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+		      "explanation": "During anaphase, chromosomes are indeed pulled towards opposite poles, and this movement is facilitated by the shortening of spindle fibers. The shortening of the spindle fibers is directly responsible for the movement of chromosomes towards the opposite poles."
+		    }
       ]
     },
     {
@@ -536,66 +524,66 @@
       "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
-	        "questionNumber": "31",
-	        "question": "Formation of bivalent",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Chiasmata",
-	          "Synapsis",
-	          "Cytokinesis",
-	          "Replication"
-	        ],
-	        "wordAnswer": "Synapsis",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "32",
-	        "question": "Points of crossing over:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Synapsis",
-	          "Chiasmata",
-	          "Cytokinesis",
-	          "Replication"
-	        ],
-	        "wordAnswer": "Chiasmata",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "33",
-	        "question": "Thread-like structures in the nucleus:",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Centrioles",
-	          "Spindle fibers",
-	          "Chromatin",
-	          "Nucleolus"
-	        ],
-	        "wordAnswer": "Chromatin",
-	        "explanation": null
-	      },
-	      {
-	        "questionNumber": "34",
-	        "question": "It involves the formation of a division furrow along the equator in animal cells.",
-	        "image": null,
-	        "twoStatements": null,
-	        "nonSelectableOptions": null,
-	        "selectableOptions": [
-	          "Anaphase",
-	          "Telophase",
-	          "Cytokinesis",
-	          "Metaphase"
-	        ],
-	        "wordAnswer": "Cytokinesis",
-	        "explanation": null
-	      },
-          {
+		      "questionNumber": "31",
+		      "question": "Formation of bivalent",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Chiasmata",
+		        "Synapsis",
+		        "Cytokinesis",
+		        "Replication"
+		      ],
+		      "wordAnswer": "Synapsis",
+		      "explanation": "Synapsis is the pairing of homologous chromosomes during prophase I of meiosis, leading to the formation of a bivalent. This process allows for the exchange of genetic material between the paired chromosomes.\n\nThe other options are incorrect because:\n\n- Chiasmata are the sites of crossing over, not the formation of bivalents.\n\n- Cytokinesis is the division of the cytoplasm, not the formation of bivalents.\n\n-  is the process of copying DNA, not the formation of bivalents."
+		    },
+		    {
+		      "questionNumber": "32",
+		      "question": "Points of crossing over:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Synapsis",
+		        "Chiasmata",
+		        "Cytokinesis",
+		        "Replication"
+		      ],
+		      "wordAnswer": "Chiasmata",
+		      "explanation": "Chiasmata are the points of contact between homologous chromosomes that result from crossover events during meiosis. These points represent the physical exchange of genetic material between the paired chromosomes.\n\nThe other options are incorrect because:\n\n- Synapsis is the pairing of homologous chromosomes, not the points of crossing over.\n\n- Cytokinesis is the division of the cytoplasm, not to the points of crossing over.\n\n- Replication is the process of copying DNA, not the points of crossing over."
+		    },
+		    {
+		      "questionNumber": "33",
+		      "question": "Thread-like structures in the nucleus:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Centrioles",
+		        "Spindle fibers",
+		        "Chromatin",
+		        "Nucleolus"
+		      ],
+		      "wordAnswer": "Chromatin",
+		      "explanation": "Chromatin refers to the complex of DNA and proteins that forms chromosomes within the nucleus. During interphase, the genetic material is in the form of chromatin (thread-like structures), which becomes more densely packed to form visible chromosomes during cell division.\n\nThe other options are incorrect because:\n\n- Centrioles are involved in the organization of microtubules during cell division, particularly in animal cells. They are not thread-like structures within the nucleus.\n\n- Spindle fibers are involved in the movement of chromosomes during cell division. They are not thread-like structures within the nucleus.\n\n- The nucleolus is a distinct structure within the nucleus responsible for the production of ribosomal RNA."
+		    },
+		    {
+		      "questionNumber": "34",
+		      "question": "It involves the formation of a division furrow along the equator in animal cells.",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Anaphase",
+		        "Telophase",
+		        "Cytokinesis",
+		        "Metaphase"
+		      ],
+		      "wordAnswer": "Cytokinesis",
+		      "explanation": "Cytokinesis is the process of dividing the cytoplasm following nuclear division (mitosis or meiosis). In animal cells, it involves the formation of a division furrow or cleavage furrow along the equator, leading to the physical separation of the two daughter cells.\n\nThe other options are incorrect because:\n\n- Anaphase is the stage of mitosis or meiosis during which the chromosomes move to opposite poles of the cell.\n\n- Telophase is the final stage of mitosis or meiosis, marked by the reformation of nuclear envelopes around the separated daughter chromosomes.\n\n- Metaphase is the stage of mitosis or meiosis when the chromosomes are aligned at the equator of the cell."
+		    },
+		    {
 		      "questionNumber": "35",
 		      "question": "It involves the break down of the Nucleolus and nuclear membrane.",
 		      "image": null,
@@ -608,7 +596,7 @@
 		        "Metaphase"
 		      ],
 		      "wordAnswer": "Prophase",
-		      "explanation": null
+		      "explanation": "During prophase, the nuclear membrane breaks down, allowing the spindle fibers to interact with the chromosomes. Additionally, the nucleolus disintegrates during this phase.\n\nThe other options are incorrect because:\n\n- Anaphase is the stage of mitosis or meiosis during which the chromosomes move to opposite poles of the cell.\n\n- Telophase is the final stage of mitosis or meiosis, marked by the reformation of nuclear envelopes around the separated daughter chromosomes.\n\n- Metaphase is the stage of mitosis or meiosis when the chromosomes are aligned at the equator of the cell."
 		    },
 		    {
 		      "questionNumber": "36",
@@ -623,7 +611,7 @@
 		        "Metaphase"
 		      ],
 		      "wordAnswer": "Telophase",
-		      "explanation": null
+		      "explanation": "During telophase, the nuclear membrane and nucleolus are reformed around the newly formed daughter nuclei. This marks the end of the process of cell division.\n\nThe other options are incorrect because:\n\n- Anaphase is the stage of mitosis or meiosis during which the chromosomes move to opposite poles of the cell.\n\n- Prophase involves the breakdown of the nucleolus and nuclear membrane, not the reformation of these structures.\n\n- Metaphase is the stage of mitosis or meiosis when the chromosomes are aligned at the equator of the cell."
 		    },
 		    {
 		      "questionNumber": "37",
@@ -638,7 +626,7 @@
 		        "Ribosome"
 		      ],
 		      "wordAnswer": "Centromere",
-		      "explanation": null
+		      "explanation": "The centromere is the point at which sister chromatids are attached to each other. It serves as the site for the attachment of spindle fibers during cell division.\n\nThe other options are incorrect because:\n- A chiasma is the point of contact between non-sister chromatids involved in genetic recombination during meiosis.\n\n- Centrioles are involved in organizing the microtubules of the spindle apparatus during cell division.\n\n- Ribosomes are cellular organelles involved in protein synthesis."
 		    },
 		    {
 		      "questionNumber": "38",
@@ -653,9 +641,9 @@
 		        "Nerve cell"
 		      ],
 		      "wordAnswer": "Egg cell",
-		      "explanation": null
+		      "explanation": "The egg cell, or ovum, contains the haploid number of chromosomes, which is half the full complement found in somatic cells. This allows for the fusion of egg and sperm during fertilization to restore the diploid number of chromosomes in the zygote.\n\nThe other options are incorrect because:\n\n- Bone cells, Liver cells, and Nerve cells, like other somatic cells, contain the diploid number of chromosomes, not the haploid number."
 		    },
-		      {
+			{
 		      "questionNumber": "39",
 		      "question": "It produces spindle fibers used to separate chromosomes.",
 		      "image": null,
@@ -668,7 +656,7 @@
 		        "Cytoplasm"
 		      ],
 		      "wordAnswer": "Centriole",
-		      "explanation": null
+		      "explanation": "Centrioles are cylindrical structures that produce spindle fibers used to separate chromosomes during cell division. They are located in the centrosome of animal cells and play a crucial role in organizing the mitotic spindle.\n\nThe other options are incorrect because:\n\n- The nucleus is the control center of the cell and contains genetic material. It does not produce spindle fibers for chromosome separation.\n\n- The centromere is the point at which sister chromatids are attached to each other, not the structure that produces spindle fibers.\n\n- The cytoplasm is the fluid within the cell in which all other organelles are embedded."
 		    },
 		    {
 		      "questionNumber": "40",
@@ -683,7 +671,7 @@
 		        "Synapsis"
 		      ],
 		      "wordAnswer": "Meiosis",
-		      "explanation": null
+		      "explanation": "Meiosis is a type of cell division that prevents the doubling of chromosome number in offspring. It involves two rounds of division, resulting in the production of gametes with half the number of chromosomes found in somatic cells. When two haploid male and female gametes fuse during fertilization, the diploid number of the species is restored.\n\nThe other options are incorrect because:\n\n- Cytokinesis is the division of the cytoplasm following nuclear division.\n\n- Mitosis is a type of cell division in somatic cells, resulting in two daughter cells with the same chromosome number as the parent cell.\n\n- Synapsis is the pairing of homologous chromosomes during meiosis."
 		    }
       ]
     },
@@ -693,155 +681,155 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-        "questionNumber": "41",
-        "question": "It results in daughter cells that are genetically identical",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Mitosis",
-          "Meiosis",
-          "Cytokinesis",
-          "Synapsis"
-        ],
-        "wordAnswer": "Mitosis",
-        "explanation": null
-      },
-      {
-        "questionNumber": "42",
-        "question": "It restores the diploid number of chromosomes in a species.",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Mitosis",
-          "Meiosis",
-          "Cytokinesis",
-          "Fertilization"
-        ],
-        "wordAnswer": "Fertilization",
-        "explanation": null
-      },
-      {
-        "questionNumber": "43",
-        "question": "It results in offspring having the ability to adapt to adapt to constantly changing environment.",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Mitosis",
-          "Meiosis",
-          "Cytokinesis",
-          "Synapsis"
-        ],
-        "wordAnswer": "Meiosis",
-        "explanation": null
-      },
-      {
-        "questionNumber": "44",
-        "question": "The stage in mitosis during which chromosomes shorten and thicken, becoming visible:",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Metaphase",
-          "Prophase",
-          "Telophase",
-          "Anaphase"
-        ],
-        "wordAnswer": "Prophase",
-        "explanation": null
-      },
-          {
-        "questionNumber": "45",
-        "question": "It represents the 46 chromosomes in a human somatic cell:",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Haploid",
-          "Diploid",
-          "Triploid",
-          "Polyploid"
-        ],
-        "wordAnswer": "Diploid",
-        "explanation": null
-      },
-      {
-        "questionNumber": "46",
-        "question": "It represents the 23 chromosomes in a human gamete.",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Haploid",
-          "Diploid",
-          "Triploid",
-          "Polyploid"
-        ],
-        "wordAnswer": "Haploid",
-        "explanation": null
-      },
-      {
-        "questionNumber": "47",
-        "question": "Which of the following is common to both mitosis and meiosis?",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Crossing over",
-          "Formation of bivalents",
-          "Nuclear division",
-          "Both lead to growth in multicellular organisms"
-        ],
-        "wordAnswer": "Nuclear division",
-        "explanation": null
-      },
-      {
-        "questionNumber": "48",
-        "question": "It involves two nuclear divisions",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Mitosis",
-          "Meiosis",
-          "Cytokinesis",
-          "Cell division"
-        ],
-        "wordAnswer": "Meiosis",
-        "explanation": null
-      },
-          {
-        "questionNumber": "49",
-        "question": "It consists of nucleic acid (DNA) and histone proteins.",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "Chromosomes",
-          "Spindle fibers",
-          "Centriole",
-          "Nucleolus"
-        ],
-        "wordAnswer": "Chromosomes",
-        "explanation": null
-      },
-      {
-        "questionNumber": "50",
-        "question": "The purpose of Meiosis II is:",
-        "image": null,
-        "twoStatements": null,
-        "nonSelectableOptions": null,
-        "selectableOptions": [
-          "To separate homologous chromosomes.",
-          "To produce genetically identical daughter cells.",
-          "To separate sister chromatids.",
-          "To allow crossing over to occur."
-        ],
-        "wordAnswer": "To separate sister chromatids.",
-        "explanation": null
-      }
+		      "questionNumber": "41",
+		      "question": "It results in daughter cells that are genetically identical",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Mitosis",
+		        "Meiosis",
+		        "Cytokinesis",
+		        "Synapsis"
+		      ],
+		      "wordAnswer": "Mitosis",
+		      "explanation": "Mitosis is the process of cell division that results in the formation of two daughter cells that are genetically identical to the parent cell. It is responsible for growth, repair, and asexual reproduction in organisms.\n\nThe other options are incorrect because:\n\n- Meiosis results in the formation of daughter cells with half the number of chromosomes as the parent cell, leading to genetic diversity, not genetic identity.\n\n- Cytokinesis is the division of the cytoplasm following nuclear division and is not directly related to genetic identity.\n\n- Synapsis is the pairing of homologous chromosomes during meiosis, which may eventually lead to crossing over and genetic variation."
+		    },
+		    {
+		      "questionNumber": "42",
+		      "question": "It restores the diploid number of chromosomes in a species.",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Mitosis",
+		        "Meiosis",
+		        "Cytokinesis",
+		        "Fertilization"
+		      ],
+		      "wordAnswer": "Fertilization",
+		      "explanation": "Fertilization is the process by which the diploid number of chromosomes is restored in a species. It involves the fusion of male and female gametes to form a zygote with the diploid chromosome number.\n\nThe other options are incorrect because:\n- Mitosis is a process that produces two daughter cells having the same number of chromosomes as the parent cell. It does not restore, but maintains the chromosome number as found in the parent cell.\n\n- Meiosis results in the formation of haploid gametes, not the restoration of the diploid number of chromosomes.\n\n- Cytokinesis is the division of the cytoplasm following nuclear division and is not to the restoration of the diploid chromosome number."
+		    },
+		    {
+		      "questionNumber": "43",
+		      "question": "It results in offspring having the ability to adapt to constantly changing environment.",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Mitosis",
+		        "Meiosis",
+		        "Cytokinesis",
+		        "Synapsis"
+		      ],
+		      "wordAnswer": "Meiosis",
+		      "explanation": "Meiosis is the process of cell division that results in offspring having the ability to adapt to a constantly changing environment. It leads to genetic diversity and variation among offspring, enabling them to adapt to different environmental conditions.\n\nThe other options are incorrect because:\n\n- Mitosis results in the formation of genetically identical daughter cells, not contributing to the genetic diversity required for adaptation to changing environments.\n\n- CytCytokinesis is the division of the cytoplasm following nuclear division and is not related to genetic diversity and adaptation.\n\n- While synapsis is a process in meiosis that involves the pairing of homologous chromosomes, however, it is not the reason for the ability of offspring to adapt to a changing environment."
+		    },
+		    {
+		      "questionNumber": "44",
+		      "question": "The stage in mitosis during which chromosomes shorten and thicken, becoming visible:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Metaphase",
+		        "Prophase",
+		        "Telophase",
+		        "Anaphase"
+		      ],
+		      "wordAnswer": "Prophase",
+		      "explanation": "Prophase is the stage in mitosis during which chromosomes condense, shorten, and thicken, becoming visible under a light microscope.\n\nThe other options are incorrect because:\n\n- Metaphase is the stage in mitosis when chromosomes align along the metaphase plate.\n\n- Telophase is the stage in mitosis characterised by the reformation of nuclear membrane around each set of chromosomes at opposite poles of the cell.\n\n- Anaphase is the stage in mitosis when sister chromatids separate and move towards opposite poles of the cell."
+		    },
+		    {
+		      "questionNumber": "45",
+		      "question": "It represents the 46 chromosomes in a human somatic cell:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Haploid",
+		        "Diploid",
+		        "Triploid",
+		        "Polyploid"
+		      ],
+		      "wordAnswer": "Diploid",
+		      "explanation": "A diploid cell contains two complete sets of chromosomes, representing the 46 chromosomes in a human somatic cell.\n\nThe other options are incorrect because:\n\n- Haploid cells contain only one set of chromosomes, half the number of a diploid cell (23 chromosomes).\n\n- Triploid cells contain three sets of chromosomes and are not characteristic of the chromosome count in a human somatic cell.\n\n- Polyploid cells contain more than two complete sets of chromosomes and are not characteristic of the chromosome count in a human somatic cell."
+		    },
+		    {
+		      "questionNumber": "46",
+		      "question": "It represents the 23 chromosomes in a human gamete.",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Haploid",
+		        "Diploid",
+		        "Triploid",
+		        "Polyploid"
+		      ],
+		      "wordAnswer": "Haploid",
+		      "explanation": "A haploid cell contains a single set of chromosomes, representing the 23 chromosomes in a human gamete. This single set of chromosomes is the result of the process of meiosis, which reduces the chromosome number by half.\n\nThe other options are incorrect because:\n\n- Diploid cells contain two complete sets of chromosomes represented by 46 chromosomes in a human gamete.\n\n- Triploid cells contain three sets of chromosomes and are not characteristic of the chromosome count in a human gamete.\n\n- Polyploid cells contain more than two complete sets of chromosomes and are not characteristic of the chromosome count in a human gamete."
+		    },
+		    {
+		      "questionNumber": "47",
+		      "question": "Which of the following is common to both mitosis and meiosis?",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Crossing over",
+		        "Formation of bivalents",
+		        "Nuclear division",
+		        "Both lead to growth in multicellular organisms"
+		      ],
+		      "wordAnswer": "Nuclear division",
+		      "explanation": "Both mitosis and meiosis involve nuclear division, although the outcomes differ. In mitosis, one round of nuclear division results in two genetically identical daughter cells, while in meiosis, two rounds of nuclear division lead to the formation of four genetically diverse daughter cells.\n\nThe other options are incorrect because:\n\n- Crossing over is a process unique to meiosis and involves the exchange of genetic material between homologous chromosomes, contributing to genetic diversity.\n\n- The formation of bivalents occurs only during meiosis when pairs of homologous chromosomes come together, leading to genetic recombination.\n- Mitosis leads to growth in multicellular organism while meiosis leads to the formation of gametes."
+		    },
+		    {
+		      "questionNumber": "48",
+		      "question": "It involves two nuclear divisions",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Mitosis",
+		        "Meiosis",
+		        "Cytokinesis",
+		        "Cell division"
+		      ],
+		      "wordAnswer": "Meiosis",
+		      "explanation": "Meiosis involves two rounds of nuclear division, resulting in the formation of four daughter cells, each with a haploid set of chromosomes. This process is essential for sexual reproduction and the generation of genetic diversity.\n\nThe other options are incorrect because:\n\n- Mitosis involves a single round of nuclear division, resulting in the formation of two genetically identical daughter cells.\n\n- Cytokinesis is the division of the cytoplasm following nuclear division and is not directly related to the number of nuclear divisions.\n\n- The term cell division is broad and encompasses both mitosis and meiosis."
+		    },
+		    {
+		      "questionNumber": "49",
+		      "question": "It consists of nucleic acid (DNA) and histone proteins.",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "Chromosomes",
+		        "Spindle fibers",
+		        "Centriole",
+		        "Nucleolus"
+		      ],
+		      "wordAnswer": "Chromosomes",
+		      "explanation": "Chromosomes consist of nucleic acid (DNA) and histone proteins, which together form the genetic material and associated proteins in the nucleus of eukaryotic cells. They play a crucial role in the organization and transmission of genetic information during cell division and cell reproduction.\n\nThe other options are incorrect because:\n\n- Spindle fibers are microtubule structures involved in the movement of chromosomes during cell division. They do not consist of nucleic acid (DNA) and histone proteins.\n\n- Centrioles are cylindrical structures involved in the organization of microtubules and are not composed of nucleic acid (DNA) and histone proteins.\n\n- The nucleolus is a subnuclear structure within the nucleus involved in ribosome biogenesis and does not consist of nucleic acid (DNA) and histone proteins."
+		    },
+		    {
+		      "questionNumber": "50",
+		      "question": "The purpose of Meiosis II is:",
+		      "image": null,
+		      "twoStatements": null,
+		      "nonSelectableOptions": null,
+		      "selectableOptions": [
+		        "To separate homologous chromosomes.",
+		        "To produce genetically identical daughter cells.",
+		        "To separate sister chromatids.",
+		        "To allow crossing over to occur."
+		      ],
+		      "wordAnswer": "To separate sister chromatids.",
+		      "explanation": "Meiosis II involves the separation of sister chromatids, which ensures that each of the resulting daughter cells receives the same haploid number of chromosomes. This stage is essential for the production of haploid daughter cells with genetic variation.\n\nThe other options are incorrect because:\n- The separation of homologous chromosomes occurs during Meiosis I, not Meiosis II.\n- Meiosis II, like Meiosis I, leads to the formation of genetically diverse daughter cells, not genetically identical ones.\n\n- Crossing over occurs during Meiosis I and is not directly related to the purpose of Meiosis II."
+		    }
       ]
     }
   ]

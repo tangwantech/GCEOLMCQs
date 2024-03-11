@@ -10,111 +10,110 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-          "questionNumber": "1",
-          "question": "A natural unit, composed of living and non-living components, whose interactions result in a stable and self sustaining system is known as:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "An ecosystem",
-            "A biome",
-            "A community",
-            "A biosphere"
-          ],
-          "wordAnswer": "An ecosystem",
-          "explanation": null
-
-        },
+        "questionNumber": "1",
+        "question": "A natural unit, composed of living and non-living components, whose interactions result in a stable and self-sustaining system is known as:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "An ecosystem",
+          "A biome",
+          "A community",
+          "A biosphere"
+        ],
+        "wordAnswer": "An ecosystem",
+        "explanation": "An ecosystem is a natural unit composed of living and non-living components, whose interactions result in a stable and self-sustaining system. \n\nThe other options are incorrect because:\n\n- A biome refers to a large geographic biotic unit characterized by distinctive plant and animal species, not the interaction of living and non-living components.\n\n- A community refers to a collection of populations of different species living together in the same area and interacting with one another.\n\n- A biosphere refers to the global ecological system integrating all living beings and their relationships."
+      },
+      {
+        "questionNumber": "2",
+        "question": "A herbicide is used to:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Feed herbivores",
+          "Kill plants",
+          "Kill animals",
+          "Feed plants"
+        ],
+        "wordAnswer": "Kill plants",
+        "explanation": "A herbicide is used to kill plants. Herbicides are chemicals specifically designed to control or kill unwanted plants, commonly known as weeds. They are not intended to feed herbivores, kill animals, or feed plants."
+      },
+      {
+        "questionNumber": "3",
+        "question": "A community is:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "A group of populations of different species, living in the same habitat.",
+          "A group of populations of the same species, living in the same habitat.",
+          "The locality in which an organism is best adapted to live.",
+          "A group of populations in several habitats."
+        ],
+        "wordAnswer": "A group of populations of different species, living in the same habitat.",
+        "explanation": "A community is a group of populations of different species, living in the same habitat. This is the correct answer because a community encompasses multiple species coexisting in a shared habitat. \n\nThe other options are incorrect because:\n\n- A group of populations of the same species, living in the same habitat describes a population.\n\n- The locality in which an organism is best adapted to live describes a habitat.\n\n- A community is defined by populations in a specific, shared habitat, not in several different habitats."
+      },
+      {
+        "questionNumber": "4",
+        "question": "An edaphic factor in an ecosystem:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Animal",
+          "Temperature",
+          "Soil",
+          "Water"
+        ],
+        "wordAnswer": "Soil",
+        "explanation": "An edaphic factor in an ecosystem is soil. Edaphic factors are the soil-related factors that influence the distribution and abundance of organisms in an ecosystem. Soil composition, pH, texture, and nutrient content are examples of edaphic factors that can significantly impact the types of plants and microorganisms present in an area. \n\nThe other options are incorrect because:\n\n- An Animal is not an edaphic factor; it is a biotic component of the ecosystem.\n\n- Temperature and water are categorized as abiotic factors."
+      },
         {
-          "questionNumber": "2",
-          "question": "A herbicide is used to:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Feed herbivores",
-            "Kill plants",
-            "Kill animals",
-            "Feed plants"
-          ],
-          "wordAnswer": "Kill plants",
-          "explanation": null
-        },
-        {
-          "questionNumber": "3",
-          "question": "A community is:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "A group of populations of different species, living in the same habitat.",
-            "A group of populations of the same species, living in the same habitat.",
-            "The locality in which an organism is best adapted to live.",
-            "A group of populations in several habitats."
-          ],
-          "wordAnswer": "A group of populations of different species, living in the same habitat.",
-          "explanation": null
-        },
-        {
-          "questionNumber": "4",
-          "question": "An edaphic factor in an ecosystem:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Animal",
-            "Temperature",
-            "Soil",
-            "Water"
-          ],
-          "wordAnswer": "Soil",
-          "explanation": null
-        },
-        {
-          "questionNumber": "5",
-          "question": "In an ecosystem, green plants are referred to as:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Consumers",
-            "Decomposers",
-            "Scanvengers",
-            "Producers"
-          ],
-          "wordAnswer": "Producers",
-          "explanation": null
-        },
-        {
-          "questionNumber": "6",
-          "question": "Herbivores are examples of:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Primary consumers",
-            "Secondary consumers",
-            "Tertiary consumers",
-            "Producers"
-          ],
-          "wordAnswer": "Primary consumers",
-          "explanation": null
-        },
-        {
-          "questionNumber": "7",
-          "question": "The ultimate source of energy in all living organisms is:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Green plant",
-            "Carbohydrate",
-            "Carbon dioxide",
-            "Sun"
-          ],
-          "wordAnswer": "Sun",
-          "explanation": null
-        }
+        "questionNumber": "5",
+        "question": "In an ecosystem, green plants are referred to as:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Consumers",
+          "Decomposers",
+          "Scanvengers",
+          "Producers"
+        ],
+        "wordAnswer": "Producers",
+        "explanation": "In an ecosystem, green plants are referred to as producers. They are capable of producing their own food through the process of photosynthesis, using sunlight, water, and carbon dioxide to synthesize organic compounds. Producers are the foundation of the food chain, providing energy for other organisms. \n\nThe other options are incorrect because:\n\n- Consumers are organisms that consume energy-containing organic matter produced by other organisms; they do not produce their own food like green plants.\n\n- Decomposers are organisms that break down dead organic material, releasing nutrients back into the ecosystem; they cannot produce their own food as green plants do.\n\n- Scavengers are animals that consume the carcasses of other animals; they do not produce their own food."
+      },
+      {
+        "questionNumber": "6",
+        "question": "Herbivores are examples of:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Primary consumers",
+          "Secondary consumers",
+          "Tertiary consumers",
+          "Producers"
+        ],
+        "wordAnswer": "Primary consumers",
+        "explanation": "Herbivores are examples of primary consumers. They are organisms that consume producers (such as green plants) as their primary food source. Herbivores occupy the second trophic level in a food chain or web, directly feeding on producers. \n\nThe other options are incorrect because:\n\n- Secondary consumers are organisms that consume primary consumers.\n\n- Tertiary consumers are organisms that consume secondary consumers.\n\n- Producers are green plants and other organisms that produce their own food through photosynthesis."
+      },
+      {
+        "questionNumber": "7",
+        "question": "The ultimate source of energy in all living organisms is:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Green plant",
+          "Carbohydrate",
+          "Carbon dioxide",
+          "Sun"
+        ],
+        "wordAnswer": "Sun",
+        "explanation": "The ultimate source of energy in all living organisms is the Sun. Through the process of photosynthesis, green plants and other autotrophic organisms capture solar energy and convert it into chemical energy stored in organic compounds. Sunlight provides the initial energy input for nearly all ecosystems. \n\nThe other options are incorrect because:\n\n- Green plants capture and utilize solar energy. The Sun is the primary source of this energy, not the plants themselves.\n\n- Carbohydrate is a type of organic molecule that stores energy derived from the Sun through photosynthesis.\n\n- Carbon dioxide is a raw material used by green plants during photosynthesis."
+      }
       ]
     },
     {
@@ -123,200 +122,200 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-          "questionNumber": "8",
-          "question": "Which of the following removes carbon dioxide from the atmosphere?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Decay",
-            "Volcanic eruption",
-            "Burning",
-            "Photosynthesis"
-          ],
-          "wordAnswer": "Photosynthesis",
-          "explanation": null
-        },
+        "questionNumber": "8",
+        "question": "Which of the following removes carbon dioxide from the atmosphere?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Decay",
+          "Volcanic eruption",
+          "Burning",
+          "Photosynthesis"
+        ],
+        "wordAnswer": "Photosynthesis",
+        "explanation": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll and inorganic compounds, and in the process, they remove carbon dioxide from the atmosphere. \n\nThe other options are incorrect because:\n\n Decay, Volcanic eruption, and Burning do not remove carbon dioxide from the atmosphere; instead, they release carbon dioxide into the atmosphere."
+      },
+      {
+        "questionNumber": "9",
+        "question": "It is advisable to plant corn and beans on the same piece of land because:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "The beans will use the corn as support",
+          "The corn has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
+          "The beans has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
+          "The corn and beans will be harvested at the same time"
+        ],
+        "wordAnswer": "The beans has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
+        "explanation": "It is advisable to plant corn and beans on the same piece of land because the beans have root nodules which contain nitrogen-fixing bacteria that add nitrates to the soil, benefiting the corn. This reduces the need for synthetic fertilizers. \n\nThe other options are incorrect because:\n\n- The corn does not have root nodules containing nitrogen fixing bacteria.\n\n- While certain bean species may use corn as support, it is not the primary reason to plant corn and beans on the same piece of land."
+      },
+      {
+        "questionNumber": "10",
+        "question": "In most ecosystems, the greatest amount of energy flows through the:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Secondary consumers",
+          "Primary consumers",
+          "Tertiary consumers",
+          "Parasites"
+        ],
+        "wordAnswer": "Primary consumers",
+        "explanation": "In most ecosystems, the greatest amount of energy flows through the primary consumers, which are herbivores that consume producers. They receive the most energy because they are the first consumer level above the producers in the food chain. \n\nThe other options are incorrect because:\n\n- Secondary consumers, Tertiary consumers, and Parasites do not typically receive the greatest amount of energy flow in most ecosystems as they are higher up the food chain and receive less energy compared to the primary consumers."
+      },
+      {
+        "questionNumber": "11",
+        "question": "Which of the following causes eutrophication?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Excess oxygen in water body",
+          "Excess carbon dioxide in water body",
+          "Heavy metals in water body",
+          "Fertilizers washed in from farmlands"
+        ],
+        "wordAnswer": "Fertilizers washed in from farmlands",
+        "explanation": "Eutrophication is primarily caused by the influx of fertilizers washed in from farmlands. These fertilizers contain high levels of nutrients such as phosphates and nitrates, which lead to excessive growth of algae and other aquatic plants, upsetting the balance of the ecosystem. \n\nThe other options are incorrect because:\n\n- Excess oxygen in the water body, excess carbon dioxide in the water body, and heavy metals in the water body do not cause eutrophication."
+      },
         {
-          "questionNumber": "9",
-          "question": "It is advisable to plant corn and beans on the same piece of land because:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "The beans will use the corn as support",
-            "The corn has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
-            "The beans has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
-            "The corn and beans will be harvested at the same time"
-          ],
-          "wordAnswer": "The beans has root nodules, containing nitrogen fixing bacteria which adds nitrates to the soil",
-          "explanation": null
-        },
+        "questionNumber": "12",
+        "question": "The number of individuals of a given species in a particular locality is known as:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Biosphere",
+          "Biome",
+          "Community",
+          "Population"
+        ],
+        "wordAnswer": "Population",
+        "explanation": "Population refers to the number of individuals of a given species in a particular locality. \n\nThe other options are incorrect because:\n\n- Biosphere refers to the global ecological system integrating all living beings and their relationships.\n\n- Biome is a region with characteristic physical or climatic conditions which supports particular species of plants and animals.\n\n- Community is a group of interacting populations of different species in a common location."
+      },
+      {
+        "questionNumber": "13",
+        "question": "A region with characteristic physical or climatic conditions which supports particular species of plants and animals is known as:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Biosphere",
+          "Biome",
+          "Community",
+          "Population"
+        ],
+        "wordAnswer": "Biome",
+        "explanation": "Biome refers to a region with characteristic physical or climatic conditions which supports particular species of plants and animals. \n\nThe other options are incorrect because:\n\n- Biosphere refers to the global ecological system integrating all living beings and their relationships.\n\n- Population is the number of individuals of a given species in a particular locality.\n\n- Community is a group of interacting populations of different species in a common location."
+      },
+      {
+        "questionNumber": "14",
+        "question": "All of the following contributes to loss of soil fertility except:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Monocropping",
+          "Leaching",
+          "Deforestation",
+          "Crop rotation"
+        ],
+        "wordAnswer": "Crop rotation",
+        "explanation": "Crop rotation helps maintain soil fertility by alternating the crops grown in a particular field. This prevents one particular crop from depleting specific soil nutrients. \n\nThe other options are incorrect because: Monocropping (planting the same crop in the same field year after year) depletes specific nutrients from the soil, leading to loss of fertility.\n\n- Leaching removes nutrients from top soil to sub soil, making them unavailable to plants.\n\n- Deforestation can lead to soil erosion and loss of organic matter, impacting soil fertility."
+      },
+      {
+        "questionNumber": "15",
+        "question": "Which of the following is an example of biological control?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Active immunization of humans against Ebola",
+          "Spaying locust swarms with insecticides",
+          "Infecting a specific pest species with a specific pathogen",
+          "Draining tropical swamp areas to destroy mosquito larvae"
+        ],
+        "wordAnswer": "Infecting a specific pest species with a specific pathogen",
+        "explanation": "Infecting a specific pest species with a specific pathogen is an example of biological control, where natural enemies, such as pathogens, parasites, and predators, are introduced to reduce the population of a pest. \n\nThe other options are incorrect because:\n\n- Active immunization of humans against Ebola involves the introduction of a weakened or attenuated ebola virus into the body. This stimulates the human body to produce antibodies in the event of a natural invasion by Ebola virus, eliminating the virus and preventing the disease. This is not a biological control method as the weakened virus is not used to directly eliminate other Ebola viruses .\n\n Spaying locust swarms with insecticides is a form of chemical control.\n\n- Draining tropical swamp areas to destroy mosquito larvae is a form of environmental manipulation, not biological control."
+      },
         {
-          "questionNumber": "10",
-          "question": "In most ecosystems, the greatest amount of energy flows through the:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Secondary consumers",
-            "Primary consumers",
-            "Tertiary consumers",
-            "Parasites"
-          ],
-          "wordAnswer": "Primary consumers",
-          "explanation": null
-        },
+        "questionNumber": "16",
+        "question": "The recent increase in atmospheric carbon dioxide is mainly as a result of an increase in:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "The rate of photosynthesis",
+          "The absorption of infrared radiation from the sun",
+          "The burning of fossil fuels and wood",
+          "Melting of polar ice"
+        ],
+        "wordAnswer": "The burning of fossil fuels and wood",
+        "explanation": "The recent increase in atmospheric carbon dioxide is mainly a result of an increase in the burning of fossil fuels and wood. This is due to the release of carbon dioxide during the combustion of fossil fuels and wood, contributing to the greenhouse effect. \n\nThe other options are incorrect because:\n\n- Photosynthesis removes carbon dioxide from the atmosphere\n\n- The absorption of infrared radiation from the sun does not directly contribute to the increase in atmospheric carbon dioxide.\n\n- Melting of polar ice does not release carbon dioxide into the atmosphere."
+      },
+      {
+        "questionNumber": "17",
+        "question": "Which of the following is not recycled in an ecosystem?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Carbon",
+          "Water",
+          "Nitrogen",
+          "Energy"
+        ],
+        "wordAnswer": "Energy",
+        "explanation": "Energy is not recycled. It flows through the ecosystem in a linear manner from the sun to producers and consumers and some lost to the surrounding as heat. Energy does not return to the sun.\n\nThe other options are incorrect because:\n\n Carbon is cycled through processes like photosynthesis, respiration and combustion.\n\n- Water is cycled through the processes of evaporation, condensation, and precipitation.\n\n- Nitrogen is cycled through various biological and physical processes."
+      },
+      {
+        "questionNumber": "18",
+        "question": "Excess amount of sulphur dioxide in the atmosphere can lead to rain which has:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "An alkaline pH",
+          "An acid pH",
+          "A neutral pH",
+          "A basic pH"
+        ],
+        "wordAnswer": "An acid pH",
+        "explanation": "Excess amount of sulphur dioxide in the atmosphere can lead to rain which has an acid pH. This is due to the formation of sulfuric acid (H2SO4) when sulfur dioxide reacts with atmospheric moisture. \n\nThe other options are incorrect because:\n\n- An excess of sulphur dioxide does not lead to alkaline, neutral, or basic pH in rain."
+      },
+      {
+        "questionNumber": "19",
+        "question": "If untreated sewage is dumped into a river, the oxygen content drops because:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Bacterial population falls",
+          "Bacterial population increases ",
+          "The water becomes stagnant",
+          "Respiration decreases"
+        ],
+        "wordAnswer": "Bacterial population increases ",
+        "explanation": "If untreated sewage is dumped into a river, the oxygen content drops because bacterial population and decomposition activity increases. This increased bacterial activity consumes oxygen, leading to a decrease in the dissolved oxygen content in the water."
+      },
         {
-          "questionNumber": "11",
-          "question": "Which of the following causes eutrophication?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Excess oxygen in water body",
-            "Excess carbon dioxide in water body",
-            "Heavy metals in water body",
-            "Fertilizers washed in from farmlands"
-          ],
-          "wordAnswer": "Fertilizers washed in from farmlands",
-          "explanation": null
-        },
-        {
-          "questionNumber": "12",
-          "question": "The number of individuals of a given species in a particular locality is known as:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Biosphere",
-            "Biome",
-            "Community",
-            "Population"
-          ],
-          "wordAnswer": "Population",
-          "explanation": null
-        },
-        {
-          "questionNumber": "13",
-          "question": "A region with characteristic physical or climatic conditions which supports particular species of plants and animals is known as:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Biosphere",
-            "Biome",
-            "Community",
-            "Population"
-          ],
-          "wordAnswer": "Biome",
-          "explanation": null
-        },
-        {
-          "questionNumber": "14",
-          "question": "All of the following contributes to loss of soil fertility except:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Monocropping",
-            "Leaching",
-            "Deforestation",
-            "Crop rotation"
-          ],
-          "wordAnswer": "Crop rotation",
-          "explanation": null
-        },
-        {
-          "questionNumber": "15",
-          "question": "Which of the following is an example of biological control?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Active immunization of humans against Ebola",
-            "Spaying locust swarms with insecticides",
-            "Infecting a specific pest species with a specific pathogen",
-            "Draining tropical swamp areas to destroy mosquito larvae"
-          ],
-          "wordAnswer": "Infecting a specific pest species with a specific pathogen",
-          "explanation": null
-        },
-        {
-          "questionNumber": "16",
-          "question": "The recent increase in atmospheric carbon dioxide is mainly as a result of an increase in:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "The rate of photosynthesis",
-            "The absorption of infrared radiation from the sun",
-            "The burning of fossil fuels and wood",
-            "Melting of polar ice"
-          ],
-          "wordAnswer": "The burning of fossil fuels and wood",
-          "explanation": null
-        },
-        {
-          "questionNumber": "17",
-          "question": "Which of the following is not recycled in a ecosystem?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Carbon",
-            "Water",
-            "Nitrogen",
-            "Energy"
-          ],
-          "wordAnswer": "Energy",
-          "explanation": null
-        },
-        {
-          "questionNumber": "18",
-          "question": "Excess amount of sulphur dioxide in the atmosphere can lead to rain which has:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "An alkaline pH",
-            "An acid pH",
-            "A neutral pH",
-            "A basic pH"
-          ],
-          "wordAnswer": "An acid pH",
-          "explanation": null
-        },
-        {
-          "questionNumber": "19",
-          "question": "If untreated sewage is dumped into a river, the oxygen content drops because:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Bacterial population falls",
-            "Bacterial population increases ",
-            "The water becomes stagnant",
-            "Respiration decreases"
-          ],
-          "wordAnswer": "Bacterial population increases ",
-          "explanation": null
-        },
-        {
-          "questionNumber": "20",
-          "question": "Nitrogen fixing bacteria:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Convert ammonia into nitrites and nitrates",
-            "Convert atmospheric nitrogen into soil nitrites and nitrates",
-            "Convert nitrate to nitrogen gas",
-            "Convert nitrate to ammonia"
-          ],
-          "wordAnswer": "Convert atmospheric nitrogen into soil nitrites and nitrates",
-          "explanation": null
-        }
+        "questionNumber": "20",
+        "question": "Nitrogen fixing bacteria:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Convert ammonia into nitrites and nitrates",
+          "Convert atmospheric nitrogen into soil nitrites and nitrates",
+          "Convert nitrate to nitrogen gas",
+          "Convert nitrate to ammonia"
+        ],
+        "wordAnswer": "Convert atmospheric nitrogen into soil nitrites and nitrates",
+        "explanation": "Nitrogen fixing bacteria convert atmospheric nitrogen into soil nitrites and nitrates. This process is known as nitrogen fixation. \n\nThe other options are incorrect because:\n\n- Ammonia is typically converted into nitrites and nitrates by other nitrifying bacteria in the soil, not by nitrogen fixing bacteria.\n\n- Nitrate is usually converted to nitrogen gas by denitrifying bacteria in anaerobic conditions.\n\n- Converting nitrate to ammonia is typically done by some types of bacteria, but not by nitrogen-fixing bacteria."
+      }
       ]
     },
     {
@@ -325,100 +324,100 @@
       "directions": "Each question consists of three responses. \nOne or more of the response(s) is or are correct. \nSelect: \nA. If 1, 2 and 3 are all correct. \nB. If 1 and 2 only are correct. \nC. If 2 and 3 only are correct. \nD. If 1 only is correct.",
       "questions": [
         {
-          "questionNumber": "21",
-          "question": "Plant adaptation to reduce water loss include:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": [
-            "Reducing the number of stomata",
-            "Shedding of leaves",
-            "Development of a waxy cuticle"
-          ],
-          "selectableOptions": [
-            "1, 2 and 3 are all correct",
-            "1 and 2 only are correct",
-            "2 and 3 only are correct",
-            "1 only is correct"
-          ],
-          "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
-        },
+        "questionNumber": "21",
+        "question": "Plant adaptation to reduce water loss include:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": [
+          "Reducing the number of stomata",
+          "Shedding of leaves",
+          "Development of a waxy cuticle"
+        ],
+        "selectableOptions": [
+          "1, 2 and 3 are all correct",
+          "1 and 2 only are correct",
+          "2 and 3 only are correct",
+          "1 only is correct"
+        ],
+        "wordAnswer": "1, 2 and 3 are all correct",
+        "explanation": "Plant adaptations to reduce water loss include: 1) Reducing the number of stomata, which helps in minimizing water loss through transpiration;\n\n- 2) Shedding of leaves, particularly in deciduous plants, can reduce water loss during dry seasons; and 3) Development of a waxy cuticle on the outer surface of leaves, which acts as a barrier to water loss."
+      },
+      {
+        "questionNumber": "22",
+        "question": "In the flow of energy from a lower to a higher trophic level:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": [
+          "90 % of the energy is transferred",
+          "Energy reduces",
+          "Energy flows in a linear manner"
+        ],
+        "selectableOptions": [
+          "1, 2 and 3 are all correct",
+          "1 and 2 only are correct",
+          "2 and 3 only are correct",
+          "1 only is correct"
+        ],
+        "wordAnswer": "2 and 3 only are correct",
+        "explanation": "In the flow of energy from a lower to a higher trophic level, energy reduces as it moves up the food chain due to heat loss, metabolic processes, and other inefficiencies. Additionally, energy flows in a linear manner within a food chain, meaning it moves from one trophic level to the next without cycling back.\n\n- However, the statement '90% of the energy is transferred' is incorrect as a large portion of energy is lost at each trophic level, and only a fraction is transferred to the next level."
+      },
+      {
+        "questionNumber": "23",
+        "question": "Food chains and food webs are similar in that:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": [
+          "Both involves the transfer of energy",
+          "Both involves the transfer of matter",
+          "Both contain green plants as the primary consumer"
+        ],
+        "selectableOptions": [
+          "1, 2 and 3 are all correct",
+          "1 and 2 only are correct",
+          "2 and 3 only are correct",
+          "1 only is correct"
+        ],
+        "wordAnswer": "1 and 2 only are correct",
+        "explanation": "Food chains and food webs are similar in that they both involve:\n\n 1) The transfer of energy from one organism to another along the chain or web, as energy flows from producers to consumers and so on; and \n\n 2) The transfer of matter, as nutrients and organic material are passed from one organism to another. \n\n- However, green plants are not primary consumers. They are producers."
+      },
         {
-          "questionNumber": "22",
-          "question": "In the flow of energy from a lower to a higher trophic level:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": [
-            "90 % of the energy is transferred",
-            "Energy reduces",
-            "Energy flows in a linear manner"
-          ],
-          "selectableOptions": [
-            "1, 2 and 3 are all correct",
-            "1 and 2 only are correct",
-            "2 and 3 only are correct",
-            "1 only is correct"
-          ],
-          "wordAnswer": "2 and 3 only are correct",
-          "explanation": null
-        },
-        {
-          "questionNumber": "23",
-          "question": "Food chains and food webs are similar in that:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": [
-            "Both involves the transfer of energy",
-            "Both involves the transfer of matter",
-            "Both contain green plants as the primary consumer"
-          ],
-          "selectableOptions": [
-            "1, 2 and 3 are all correct",
-            "1 and 2 only are correct",
-            "2 and 3 only are correct",
-            "1 only is correct"
-          ],
-          "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
-        },
-        {
-          "questionNumber": "24",
-          "question": "Which of the following reduce(s) soil fertility?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": [
-            "Burning of vegetation",
-            "Over cropping",
-            "Leaching"
-          ],
-          "selectableOptions": [
-            "1, 2 and 3 are all correct",
-            "1 and 2 only are correct",
-            "2 and 3 only are correct",
-            "1 only is correct"
-          ],
-          "wordAnswer": "1, 2 and 3 are all correct",
-          "explanation": null
-        },
-        {
-          "questionNumber": "25",
-          "question": "Example of water pollutants include:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": [
-            "Heavy metals(Mercury)",
-            "Untreated Sewage",
-            "Chlorofluorocarbons(CFCs)"
-          ],
-          "selectableOptions": [
-            "1, 2 and 3 are all correct",
-            "1 and 2 only are correct",
-            "2 and 3 only are correct",
-            "1 only is correct"
-          ],
-          "wordAnswer": "1 and 2 only are correct",
-          "explanation": null
-        }
+        "questionNumber": "24",
+        "question": "Which of the following reduce(s) soil fertility?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": [
+          "Burning of vegetation",
+          "Over cropping",
+          "Leaching"
+        ],
+        "selectableOptions": [
+          "1, 2 and 3 are all correct",
+          "1 and 2 only are correct",
+          "2 and 3 only are correct",
+          "1 only is correct"
+        ],
+        "wordAnswer": "1, 2 and 3 are all correct",
+        "explanation": "All of the options reduce soil fertility for the following reasons:\n\n- Burning of vegetation removes organic matter and nutrients from the soil, leading to a decrease in soil fertility.\n\n- Over cropping depletes essential nutrients from the soil, reducing its fertility over time.\n\n- Excessive water can cause leaching of essential nutrients from the soil, further reducing its fertility."
+      },
+      {
+        "questionNumber": "25",
+        "question": "Example of water pollutants include:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": [
+          "Heavy metals (Mercury)",
+          "Untreated Sewage",
+          "Chlorofluorocarbons(CFCs)"
+        ],
+        "selectableOptions": [
+          "1, 2 and 3 are all correct",
+          "1 and 2 only are correct",
+          "2 and 3 only are correct",
+          "1 only is correct"
+        ],
+        "wordAnswer": "1 and 2 only are correct",
+        "explanation": "Examples of water pollutants include:\n- Heavy metals (Mercury) and untreated sewage. \n\n- Heavy metals can contaminate water sources and pose serious health risks to both aquatic organisms and humans.\n\n- Untreated sewage can introduce harmful pathogens and organic matter, degrading water quality.\n\n- Chlorofluorocarbons (CFCs) are not typically considered water pollutants, as they are more commonly associated with ozone depletion in the atmosphere rather than water pollution."
+      }
       ]
     },
     {
@@ -427,95 +426,95 @@
       "directions": "Each question consists of a First and Second statements. \nChoose: \nA. If both statements are true and the second statement is a correct explanation of the first. \nB. If both statements are true and the second statement is not a correct explanation of the first. \nC. If the first statement is true and the second statement is false. \nD. If the first statement is false and the second statement is true.",
       "questions": [
         {
-          "questionNumber": "26",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "Xerophytes lack a waxy cuticle",
-            "Xerophytes are plants adapted to live in conditions of prolonged drought"
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "First statement is False. Second statement is True",
-          "explanation": null
-        },
+        "questionNumber": "26",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "Xerophytes lack a waxy cuticle",
+          "Xerophytes are plants adapted to live in conditions of prolonged drought"
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "First statement is False. Second statement is True",
+        "explanation": "Xerophytes are plants adapted to live in conditions of prolonged drought. They have developed various water-conserving adaptations such as having a thick, waxy cuticle to reduce water loss in dry conditions."
+      },
+      {
+        "questionNumber": "27",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "Planting of trees help to reduce the atmospheric concentration of carbon dioxide.",
+          "Trees carry out photosynthesis"
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+        "explanation": "Planting of trees help to reduce the atmospheric concentration of carbon dioxide because Trees absorb carbon dioxide during photosynthesis, helping to reduce its atmospheric concentration."
+      },
+      {
+        "questionNumber": "28",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "Tropical soils tend to be poor in nitrate.",
+          "The higher the temperature, the more active denitrifying bacteria become"
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
+        "explanation": "The high temperature in tropical regions leads to increased activity of denitrifying bacteria, leading to more nitrate being removed from the soil. Hence. tropical soils tend to be poor in nitrate"
+      },
         {
-          "questionNumber": "27",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "Planting of trees help to reduce the atmospheric concentration of carbon dioxide.",
-            "Trees carryout photosynthesis"
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
-        },
-        {
-          "questionNumber": "28",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "Tropical soils tend to be poor in nitrate.",
-            "The higher the temperature, the more active denitrifying bacteria become"
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "Both statements are True and the second statement is a correct explanation of the first",
-          "explanation": null
-        },
-        {
-          "questionNumber": "29",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "Energy flows in a linear manner in a food chain",
-            "The amount of energy reduces as it flows through a food chain"
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
-          "explanation": null
-        },
-        {
-          "questionNumber": "30",
-          "question": null,
-          "image": null,
-          "twoStatements": [
-            "A food web is a more complex feeding relationship than a food chain",
-            "In a food web, each organism has only one food source"
-          ],
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Both statements are True and the second statement is a correct explanation of the first",
-            "Both statements are True and the second statement is is NOT a correct explanation of the first",
-            "First statement is True. Second statement is False",
-            "First statement is False. Second statement is True"
-          ],
-          "wordAnswer": "First statement is True. Second statement is False",
-          "explanation": null
-        }
+        "questionNumber": "29",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "Energy flows in a linear manner in a food chain",
+          "The amount of energy reduces as it flows through a food chain"
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "Both statements are True and the second statement is is NOT a correct explanation of the first",
+        "explanation": "Energy flows in a linear manner in a food chain, from one trophic level to another\n\nThe amount of energy reduces as it flows through a food chain. However, the reduction of energy in a food chain is due to the loss of energy at each trophic level, not because of the linear flow of energy."
+      },
+      {
+        "questionNumber": "30",
+        "question": null,
+        "image": null,
+        "twoStatements": [
+          "A food web is a more complex feeding relationship than a food chain",
+          "In a food web, each organism has only one food source"
+        ],
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Both statements are True and the second statement is a correct explanation of the first",
+          "Both statements are True and the second statement is is NOT a correct explanation of the first",
+          "First statement is True. Second statement is False",
+          "First statement is False. Second statement is True"
+        ],
+        "wordAnswer": "First statement is True. Second statement is False",
+        "explanation": "A food web is a more complex feeding relationship than a food chain. A food web represents a network of interconnected food chains, showing the feeding relationships between multiple organisms in an ecosystem.\n\n However, in a food web, each organism typically has multiple food sources, not only one food source, representing the complexity of their feeding relationships within the ecosystem."
+      }
       ]
     },
     {
@@ -524,155 +523,155 @@
       "directions": "Each question consists of four lettered headings A, B, C and D. \nSelect the heading which is closely related to the description.",
       "questions": [
         {
-          "questionNumber": "31",
-          "question": "The washing down of mineral salts from top soil",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Erosion",
-            "Deforestation",
-            "Leaching",
-            "Denitrification"
-          ],
-          "wordAnswer": "Leaching",
-          "explanation": null
-        },
+        "questionNumber": "31",
+        "question": "The washing down of mineral salts from top soil",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Erosion",
+          "Deforestation",
+          "Leaching",
+          "Denitrification"
+        ],
+        "wordAnswer": "Leaching",
+        "explanation": "Leaching refers to the washing down of mineral salts from the topsoil. This process occurs when water percolates through the soil, carrying away the mineral nutrients.\n\nThe other options are incorrect because:\n\n- Erosion involves the movement of soil and rock from one location to another, but it is not specific to the washing down of mineral salts from topsoil.\n\n- Deforestation is the clearing of forests, and it is not directly related to the washing down of mineral salts from topsoil.\n\n- Denitrification is the process by which nitrates are reduced and released as nitrogen gas, and it is not related to the washing down of mineral salts from topsoil."
+      },
+      {
+        "questionNumber": "32",
+        "question": "Rapid growth of aquatic plants and algae due to deposition of inorganic fertilizers from farmlands:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Parasitism",
+          "Eutrophication",
+          "Biological control",
+          "Biodegradation"
+        ],
+        "wordAnswer": "Eutrophication",
+        "explanation": "Eutrophication refers to the rapid growth of aquatic plants and algae due to the deposition of inorganic fertilizers from farmlands. The excess nutrients from the fertilizers lead to an increase in plant and algal populations in water bodies.\n\nThe other options are incorrect because:\n\n- Parasitism is a type of symbiotic relationship between two different organisms, and it is not related to the rapid growth of aquatic plants and algae.\n\n- Biological control involves the use of natural enemies to control pests, which is not related to the rapid growth of aquatic plants and algae.\n\n- Biodegradation is the breakdown of organic substances by microorganisms, and it is not related to the rapid growth of aquatic plants and algae."
+      },
+      {
+        "questionNumber": "33",
+        "question": "The use of cat to control rat population",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Prey control",
+          "Chemical control",
+          "Predator control",
+          "Biological control"
+        ],
+        "wordAnswer": "Biological control",
+        "explanation": "Biological control involves the use of natural predators or parasites to control pests or invasive species. In this case, using a cat to control the rat population is an example of biological control.\n\nThe other options are incorrect because:\n- While the cat does control the rat population, the term prey control does not specifically refer to the use of natural predators for pest control.\n\n- Chemical control involves the use of pesticides or chemicals to control pests, which is not the case with using a cat.\n\n- Predator control does not specifically relate to the use of natural predators for pest control, making it an incorrect option."
+      },
+      {
+        "questionNumber": "34",
+        "question": "A group of similar organisms, which are able to breed together to produce fertile offspring",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Community",
+          "Population",
+          "Species",
+          "Kingdom"
+        ],
+        "wordAnswer": "Species",
+        "explanation": "Species refers to a group of similar organisms that are able to breed together to produce fertile offspring. This is a fundamental concept in biology for classifying and understanding the diversity of life.\n\nThe other options are incorrect because:\n\n- A community refers to all the populations of different species that live and interact in the same area, but it does not specifically relate to a group of organisms able to breed together.\n\n- While a population consists of individuals of the same species that live in the same area, it does not encompass the concept of organisms being able to breed together to produce fertile offspring.\n- Kingdom is a taxonomic rank in the biological classification of organisms, and it is not specific to a group of organisms able to breed together."
+      },
         {
-          "questionNumber": "32",
-          "question": "Rapid growth of aquatic plants and algae due to deposition of inorganic fertilizers from farmlands:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Parasitism",
-            "Eutrophication",
-            "Biological control",
-            "Biodegradation"
-          ],
-          "wordAnswer": "Eutrophication",
-          "explanation": null
-        },
+        "questionNumber": "35",
+        "question": "Plants which grow on a tree branch, relying on the tree for support only:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Host",
+          "Parasite",
+          "Epiphyte",
+          "Saprophyte"
+        ],
+        "wordAnswer": "Epiphyte",
+        "explanation": "An Epiphyte a plant that grows harmlessly on another plant (such as a tree) and derives its moisture and nutrients from the air, rain, and sometimes from debris accumulating around it. \n\nThe other options are incorrect because:\n\n- A host is an organism that harbors another organism, typically providing nourishment and shelter. \n\n- A parasite is an organism that lives on or in a host organism and gets its food from and causing harm to its host. \n\n- A saprophyte is an organism that obtains its nourishment from non-living or decaying organic matter."
+      },
+      {
+        "questionNumber": "36",
+        "question": "Heterotrophic organisms feeding on dead and decaying matter by secreting digestive enzymes externally:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Parasites",
+          "Saprophytes",
+          "Detritivores",
+          "Scavengers"
+        ],
+        "wordAnswer": "Saprophytes",
+        "explanation": "Saprophytes are heterotrophic organisms that obtain their nutrients from dead and decaying organic matter by secreting digestive enzymes into their surroundings and then absorbing the products of digestion. \n\nThe other options are incorrect because:\n\n- Parasites live on or in a host organism and obtain their food at the expense of the host's health. \n\n- Detritivores and scavengers consume decomposing organic material, but they typically ingest it rather than secreting digestive enzymes externally."
+      },
+      {
+        "questionNumber": "37",
+        "question": "An animal that captures, kills and eats another animal:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Prey",
+          "Parasite",
+          "Predator",
+          "Producer"
+        ],
+        "wordAnswer": "Predator",
+        "explanation": "A Predator is an animal that captures, kills, and eats another animal (prey) for food. \n\nThe other options are incorrect because:\n\n- Prey refers to an animal that is hunted and eaten by another animal. \n\n- A parasite lives on or in a host organism and obtains its food at the expense of the host's health. \n\n- Producers are organisms that produce their own food through photosynthesis or chemosynthesis."
+      },
+      {
+        "questionNumber": "38",
+        "question": "The use of herbicides to kill specific plants:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Herbs control",
+          "Chemical control",
+          "Parasite control",
+          "Biological control"
+        ],
+        "wordAnswer": "Chemical control",
+        "explanation": "Chemical control involves the use of herbicides to kill specific plants or inhibit their growth. \n\nThe other options are incorrect because:\n\n- The term Herbs control does not accurately describe the use of herbicides to control plant growth. \n\n- Parasite control typically refers to methods of controlling parasites in animals or plants. \n\n- Biological control involves the use of natural enemies, such as predators or parasites, to control pest populations."
+      },
         {
-          "questionNumber": "33",
-          "question": "The use of cat to control rat population",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Prey control",
-            "Chemical control",
-            "Predator control",
-            "Biological control"
-          ],
-          "wordAnswer": "Biological control",
-          "explanation": null
-        },
-        {
-          "questionNumber": "34",
-          "question": "A group of similar organisms, which are able to breed together to produce fertile offsprings",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Community",
-            "Population",
-            "Species",
-            "Kingdom"
-          ],
-          "wordAnswer": "Species",
-          "explanation": null
-        },
-        {
-          "questionNumber": "35",
-          "question": "Plants which grow on a tree branch, relying on the tree for support only:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Commensal",
-            "Parasite",
-            "Epiphyte",
-            "Saprophyte"
-          ],
-          "wordAnswer": "Epiphyte",
-          "explanation": null
-        },
-        {
-          "questionNumber": "36",
-          "question": "Heterotrophic organisms feeding on dead and decaying matter by secreting digestive enzymes extracellularly:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Parasites",
-            "Saprophytes",
-            "Detritivores",
-            "Scavengers"
-          ],
-          "wordAnswer": "Saprophytes",
-          "explanation": null
-        },
-        {
-          "questionNumber": "37",
-          "question": "An animal that captures, kills and eats another animal:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Prey",
-            "Parasite",
-            "Predator",
-            "Producer"
-          ],
-          "wordAnswer": "Predator",
-          "explanation": null
-        },
-        {
-          "questionNumber": "38",
-          "question": "The use of herbicides to kill specific plants:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Herbs control",
-            "Chemical control",
-            "Parasite control",
-            "Biological control"
-          ],
-          "wordAnswer": "Chemical control",
-          "explanation": null
-        },
-        {
-          "questionNumber": "39",
-          "question": "An association between two organisms in which one gains while the other neither gains nor loses",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Parasitism",
-            "Commensalism",
-            "Mutualism",
-            "Parasitism"
-          ],
-          "wordAnswer": "Commensalism",
-          "explanation": null
-        },
-        {
-          "questionNumber": "40",
-          "question": "The locality in which an organism is best adapted to live:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Ecosystem",
-            "Habitat",
-            "Biosphere",
-            "Biome"
-          ],
-          "wordAnswer": "Habitat",
-          "explanation": null
-        }
+        "questionNumber": "39",
+        "question": "An association between two organisms in which one gains while the other neither gains nor loses",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Parasitism",
+          "Commensalism",
+          "Mutualism",
+          "Symbiosis"
+        ],
+        "wordAnswer": "Commensalism",
+        "explanation": "Commensalism describes an association where one organism benefits while the other is neither helped nor harmed. \n\nThe other options are incorrect because:\n\n- In parasitism one organism (the parasite) benefits at the expense of the other (the host).\n\n- In mutualism, both organisms involved benefit from the relationship.\n\n- Symbiosis is a broader term that refers to any interaction between two different organisms living in close physical association, whether it is beneficial, neutral, or harmful."
+      },
+      {
+        "questionNumber": "40",
+        "question": "The locality in which an organism is best adapted to live:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Ecosystem",
+          "Habitat",
+          "Biosphere",
+          "Biome"
+        ],
+        "wordAnswer": "Habitat",
+        "explanation": "Habitat  refers to the specific locality in which an organism is best adapted to live.\n\nThe other options are incorrect because:\n\n- Ecosystem refers to the interaction of living organisms with each other and their physical environment.\n\n- Biosphere is incorrect because it is the global ecological system integrating all living beings and their relationships.\n\n- Biome refers to a region with characteristic physical or climatic conditions which supports particular species of plants and animals."
+      }
       ]
     },
     {
@@ -681,155 +680,155 @@
       "directions": "Each question or incomplete statement is followed by four suggested answers. Select the best answer in each case.",
       "questions": [
         {
-          "questionNumber": "41",
-          "question": "Which of the following does not release carbon dioxide into the atmosphere?",
-          "i+--mage": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Decay",
-            "Respiration",
-            "Combustion",
-            "Photosynthesis"
-          ],
-          "wordAnswer": "Photosynthesis",
-          "explanation": null
-        },
+        "questionNumber": "41",
+        "question": "Which of the following does not release carbon dioxide into the atmosphere?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Decay",
+          "Respiration",
+          "Combustion",
+          "Photosynthesis"
+        ],
+        "wordAnswer": "Photosynthesis",
+        "explanation": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll, and in this process, carbon dioxide is absorbed and oxygen is released.\n\nThe other options are incorrect because:\n\n- Decay, Respiration and Combustion are processes that release carbon dioxide into the atmosphere."
+      },
+      {
+        "questionNumber": "42",
+        "question": "It converts nitrites to nitrates",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Nitrosomonas",
+          "Azotobacter",
+          "Nitrobacter",
+          "Rhizobium"
+        ],
+        "wordAnswer": "Nitrobacter",
+        "explanation": "Nitrobacter is a type of bacteria that converts nitrites to nitrates in the process of nitrification. \n\nThe other options are incorrect because:\n\n- Nitrosomonas converts ammonia to nitrites in the process of nitrification.\n\n- Azotobacter fixes atmospheric nitrogen into forms that plants can use.\n\n- Rhizobium forms a mutualistic relationship with leguminous plants and helps in converting atmospheric nitrogen to soil nitrate, a process called nitrogen fixation."
+      },
+      {
+        "questionNumber": "43",
+        "question": "Which of the following activities increases the nitrogen content of the soil?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Denitrification",
+          "Absorption by plant roots",
+          "Leaching",
+          "Putrefaction"
+        ],
+        "wordAnswer": "Putrefaction",
+        "explanation": "Putrefaction is the decomposition of organic matter by bacteria and fungi, and it releases ammonia and other nitrogenous compounds into the soil, increasing the nitrogen content. \n\nThe other options are incorrect because:\n\n- Denitrification converts nitrates into nitrogen gas, which reduces the nitrogen content of the soil.\n\n- Plants absorb nitrogen from the soil as nitrates, depleting the nitrogen content.\n\n- Leaching is the process by which nutrients, including nitrates, are washed away from the soil."
+      },
+      {
+        "questionNumber": "44",
+        "question": "The association between leguminous plants and nitrogen fixing bacteria is known as:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Mutualism",
+          "Parasitism",
+          "Saprophytism",
+          "Commensalism"
+        ],
+        "wordAnswer": "Mutualism",
+        "explanation": "The association between leguminous plants and nitrogen-fixing bacteria is a classic example of mutualism, where both parties benefit from the relationship. The bacteria converts atmospheric nitrogen to soil nitrate which the plant can absorb while the plant in turn provides a place for the bacteria to live.\n\nThe other options are incorrect because:\n\n- In parasitism one party benefits at the expense of the other.\n\n- In Saprophytism, an organism obtains nutrients from decaying organic matter.\n\n- In Commensalism, one party benefits and the other is neither helped nor harmed."
+      },
         {
-          "questionNumber": "42",
-          "question": "It converts nitrites to nitrates",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Nitrosomonas",
-            "Azotobacter",
-            "Nitrobacter",
-            "Rhizobium"
-          ],
-          "wordAnswer": "Nitrobacter",
-          "explanation": null
-        },
+        "questionNumber": "45",
+        "question": "Food chains with more than five links are rare because:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "The size of organisms increase from lower to higher trophic level in a food chain",
+          "Energy reduces from lower to higher trophic level in a food chain",
+          "Energy increases from lower to higher trophic level in a food chain",
+          "Food chains are complex"
+        ],
+        "wordAnswer": "Energy reduces from lower to higher trophic level in a food chain",
+        "explanation": "Food chains with more than five links are rare because energy reduces from lower to higher trophic level in a food chain. As energy is transferred from one trophic level to the next, a significant amount is lost as heat at each level, making it difficult to sustain numerous links.\n\nThe other options are incorrect because:\n\n- The size of organisms increase from lower to higher trophic level in a food chain: While this statement is true in some cases, it does not directly explain why food chains with more than five links are rare.\n\n- Energy increases from lower to higher trophic level in a food chain: This statement is incorrect as energy decreases as we move up the trophic levels due to inefficiency in energy transfer.\n\n- While food chains may be complex, it does not specifically address the rarity of food chains with more than five links."
+      },
+      {
+        "questionNumber": "46",
+        "question": "Which of the following gases could be of value to growing plants when introduced into the air of a greenhouse?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Ammonia",
+          "Carbon monoxide",
+          "Carbon dioxide",
+          "Sulphur dioxide"
+        ],
+        "wordAnswer": "Carbon dioxide",
+        "explanation": "Carbon dioxide could be of value to growing plants when introduced into the air of a greenhouse. Plants use carbon dioxide during photosynthesis to produce glucose and oxygen, making it essential for their growth and development.\n\nThe other options are incorrect because:\n\n- Ammonia, Carbon monoxide, Sulphur dioxide are not typically beneficial and can be harmful to plants when present in high concentrations."
+      },
+      {
+        "questionNumber": "47",
+        "question": "Land use for agriculture and urbanization by humans causes:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Disturbance in the balance in atmospheric oxygen and carbon dioxide",
+          "Decreased soil erosion",
+          "Increased rainfall",
+          "Provides habitat for animals"
+        ],
+        "wordAnswer": "Disturbance in the balance in atmospheric oxygen and carbon dioxide",
+        "explanation": "Land use for agriculture and urbanization by humans causes disturbance in the balance in atmospheric oxygen and carbon dioxide. This is due to the clearing of forests and vegetation, which reduces the capacity for carbon dioxide absorption and oxygen release through photosynthesis."
+      },
+      {
+        "questionNumber": "48",
+        "question": "It is a consequence of global warming:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Deforestation",
+          "Leaching",
+          "Pollution",
+          "Desertification"
+        ],
+        "wordAnswer": "Desertification",
+        "explanation": "Desertification is a consequence of global warming. As temperatures rise, the risk of land degradation and the expansion of arid and semi-arid areas increases, leading to desertification.\n\n- While Deforestation, Leaching, Pollution can be environmental issues, they are not direct consequences of global warming."
+      },
         {
-          "questionNumber": "43",
-          "question": "Which of the following activities increases the nitrogen content of the soil?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Denitrification",
-            "Absorption by plant roots",
-            "Leaching",
-            "Putrefaction"
-          ],
-          "wordAnswer": "Putrefaction",
-          "explanation": null
-        },
-        {
-          "questionNumber": "44",
-          "question": "The association between leguminous plants and nitrogen fixing bacteria is known as:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Mutualism",
-            "Parasitism",
-            "Saprophytism",
-            "Commensalism"
-          ],
-          "wordAnswer": "Mutualism",
-          "explanation": null
-        },
-        {
-          "questionNumber": "45",
-          "question": "Food chains with more than five links are rare because:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "The size of organisms increase from lower to higher trophic level in a food chain",
-            "Energy reduces from lower to higher trophic level in a food chain",
-            "Energy increases from lower to higher trophic level in a food chain",
-            "Food chains are complex"
-          ],
-          "wordAnswer": "Energy reduces from lower to higher trophic level in a food chain",
-          "+explanation": null
-        },
-        {
-          "questionNumber": "46",
-          "question": "Which of the following gases could be of value to growing plants when introduced into the air of a greenhouse?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Ammonia",
-            "Carbon monoxide",
-            "Carbon dioxide",
-            "Sulphur dioxide"
-          ],
-          "wordAnswer": "Carbon dioxide",
-          "explanation": null
-        },
-        {
-          "questionNumber": "47",
-          "question": "Land use for agriculture and urbanization by humans causes:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Disturbance in the balance in atmospheric oxygen and carbon dioxide",
-            "Decreased soil erosion",
-            "Increased rainfall",
-            "Provides habitat for animals"
-          ],
-          "wordAnswer": "Disturbance in the balance in atmospheric oxygen and carbon dioxide",
-          "explanation": null
-        },
-        {
-          "questionNumber": "48",
-          "question": "It is a consequence of global warming:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Deforestation",
-            "Leaching",
-            "Pollution",
-            "Desertification"
-          ],
-          "wordAnswer": "Desertification",
-          "explanation": null
-        },
-        {
-          "questionNumber": "49",
-          "question": "What is the role of decomposers in an ecosystem?",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Ensure energy transfer",
-            "Convert nitrites to nitrates",
-            "Ensure recycling of nutrients",
-            "Ensure conversion of light energy to chemical energy"
-          ],
-          "wordAnswer": "Ensure recycling of nutrients",
-          "explanation": null
-        },
-        {
-          "questionNumber": "50",
-          "question": "An oil spill will affect an aquatic ecosystem by:",
-          "image": null,
-          "twoStatements": null,
-          "nonSelectableOptions": null,
-          "selectableOptions": [
-            "Causing eutrophication",
-            "Increasing carbon dioxide released by producers",
-            "Reducing amount of light reaching the producers",
-            "Increasing carbon dioxide absorption by producers"
-          ],
-          "wordAnswer": "Reducing amount of light reaching the producers",
-          "explanation": null
-        }
+        "questionNumber": "49",
+        "question": "What is the role of decomposers in an ecosystem?",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Ensure energy transfer",
+          "To remove carbon dioxide from the atmosphere",
+          "Ensure recycling of nutrients",
+          "Ensure conversion of light energy to chemical energy"
+        ],
+        "wordAnswer": "Ensure recycling of nutrients",
+        "explanation": "The role of decomposers in an ecosystem is to ensure recycling of nutrients. Decomposers break down organic matter from dead organisms and waste products, returning essential nutrients like nitrogen, phosphorus, and potassium back to the soil for use by plants and other organisms.\n\nThe other options are incorrect because:\n\n- While decomposers play a role in energy transfer in an ecosystem, their primary role is in nutrient recycling, not energy transfer.\n\n- Decomposers do not remove carbon dioxide from the atmosphere, but instead add carbon dioxide to it.\n\n- The conversion of light energy to chemical energy is carried out by producers (plants) during photosynthesis and is not a role of decomposers."
+      },
+      {
+        "questionNumber": "50",
+        "question": "An oil spill will affect an aquatic ecosystem by:",
+        "image": null,
+        "twoStatements": null,
+        "nonSelectableOptions": null,
+        "selectableOptions": [
+          "Causing eutrophication",
+          "Increasing carbon dioxide released by producers",
+          "Reducing amount of light reaching the producers",
+          "Increasing carbon dioxide absorption by producers"
+        ],
+        "wordAnswer": "Reducing amount of light reaching the producers",
+        "explanation": "An oil spill will affect an aquatic ecosystem by reducing the amount of light reaching the producers. Oil forms a layer on the water surface, blocking sunlight from penetrating the water and reaching the aquatic plants (producers) below. This hinders the producers' ability to photosynthesize and release oxygen.\n\nThe other options are incorrect because:\n\n Oil spill does not lead to eutrophication.\n\n- Oil spill does not directly result in an increase in carbon dioxide released by producers; instead, it hinders the producers' ability to photosynthesize and release oxygen.\n\n- Oil spills inhibit the producers' ability to absorb carbon dioxide due to reduced light availability for photosynthesis."
+      }
       ]
     }
   ]

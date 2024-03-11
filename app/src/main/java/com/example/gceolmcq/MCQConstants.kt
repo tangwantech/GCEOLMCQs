@@ -46,7 +46,7 @@ class MCQConstants{
 
         const val TYPE = "text/plain"
         const val APP_URL = "https://google.com"
-        const val PRIVACY_POLICY = "https://gceolmcqs.w3spaces.com/Gceolmcqs_Privacy-Policy.pdf"
+        const val PRIVACY_POLICY = "https://gceolmcq-privacypolicy.w3spaces.com/Privacy_Policy_GCE_OL_MCQS.pdf"
 
         const val TRANSACTION_STATUS_URL = "https://demo.campay.net/api/transaction/"
 
@@ -81,6 +81,11 @@ class MCQConstants{
         const val TERMS_URL = "file:///android_asset/Terms of Use of Service.html"
         const val MTN = "MTN"
         const val ORANGE = "ORANGE"
+        const val MTN_MOMO = "MTN MOMO"
+        const val ORANGE_MOMO = "ORANGE MOMO"
+        const val BIOLOGY = "Biology"
+        const val HUMAN_BIOLOGY = "Human Biology"
+
 
 
 

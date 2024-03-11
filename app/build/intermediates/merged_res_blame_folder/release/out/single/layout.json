@@ -120,10 +120,6 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_selectable_options.xml"
     },
     {
-        "merged": "com.example.gceolmcq.app-mergeReleaseResources-35:/layout/activity_splash.xml",
-        "source": "com.example.gceolmcq.app-main-37:/layout/activity_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\fragment_recycler_view.xml",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\fragment_recycler_view.xml"
     },
@@ -182,6 +178,10 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\recycler_item_view.xml",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-37:\\layout\\recycler_item_view.xml"
+    },
+    {
+        "merged": "com.example.gceolmcq.app-mergeReleaseResources-35:/layout/selectable_options.xml",
+        "source": "com.example.gceolmcq.app-main-37:/layout/selectable_options.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-mergeReleaseResources-35:\\layout\\activity_statistic_data_view.xml",

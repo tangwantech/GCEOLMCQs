@@ -12,16 +12,14 @@
     <color name="color_primary">#272739</color>
     <color name="color_primary_variant">#1C1C29</color>
     <color name="color_primary_light">#EDEBF4</color>
-    <color name="color_on_primary">#ffffff</color>
+    <color name="color_on_primary">@color/white</color>
+    <color name="color_primary_text_default">@color/primary_text_default_material_light</color>
 
-<!--    <color name="color_primary">#6F42C3</color>-->
-<!--    <color name="color_primary_variant">#521EB3</color>-->
-<!--    <color name="color_primary_light">#53CDB0</color>-->
+    <color name="color_tab">@color/color_primary</color>
 
-    <color name="background">#F7E8E6E6</color>
+    <color name="background">#CECECF</color>
     <color name="background2">#F7FFFFFF</color>
-<!--    b9d7cd-->
-<!--    <color name="color_secondary">#FFF3C885</color>-->
+
     <color name="color_secondary_light">#BCB062</color>
     <color name="color_secondary">#F4D884</color>
     <color name="color_secondary_dark">#BDA766</color>
@@ -40,11 +38,12 @@
 
     <color name="tab_color">#E7C754</color>
 
-    <color name="package1_color">#6240C3</color>
-    <color name="package2_color">#009688</color>
+    <color name="color_background_biology">#355036</color>
+    <color name="color_background_human_biology">#5A322F</color>
     <color name="package3_color">#9FABF3</color>
     <color name="package4_color">#00BCD4</color>
     <color name="package5_color">#5A0968</color>
+    <color name="background_main">#272739</color>
 
     <color name="mtn">#C2A54E</color>
     <color name="orange">#F18764</color>

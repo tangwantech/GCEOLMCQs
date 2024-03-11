@@ -96,7 +96,8 @@
             android:id="@+id/rbMtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/mtn_momo"/>
+            android:text="@string/mtn_momo"
+            />
 
         <RadioButton
             android:id="@+id/rbOrange"

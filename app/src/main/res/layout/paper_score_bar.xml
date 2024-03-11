@@ -7,14 +7,14 @@
     android:layout_height="@dimen/timer_bar_height"
     android:paddingLeft="@dimen/margin_12"
     android:paddingRight="@dimen/margin_12"
-    android:background="@color/color_primary">
+    android:background="@color/color_tab">
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/margin_2"
         android:layout_weight="0.5"
-        app:cardBackgroundColor="@color/color_primary"
+        app:cardBackgroundColor="@color/color_tab"
         app:cardCornerRadius="@dimen/margin_8">
 
         <LinearLayout
@@ -57,7 +57,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.5"
-        app:cardBackgroundColor="@color/color_primary"
+        app:cardBackgroundColor="@color/color_tab"
         android:layout_margin="@dimen/margin_4"
         app:cardCornerRadius="@dimen/margin_8">
         <LinearLayout

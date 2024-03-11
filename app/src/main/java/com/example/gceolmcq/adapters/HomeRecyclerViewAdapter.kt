@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.content.res.AppCompatResources
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gceolmcq.ActivationExpiryDatesGenerator
@@ -27,6 +28,7 @@ class HomeRecyclerViewAdapter(
 ) : RecyclerView.Adapter<HomeRecyclerViewAdapter.ViewHolder>() {
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val titleLo: LinearLayout = view.findViewById(R.id.titleLo)
         val tvSubjectName: TextView = view.findViewById(R.id.subjectTitleTv)
         val tvSubjectStatus: TextView = view.findViewById(R.id.tvSubjectStatus)
         val btnSubscribe: Button = view.findViewById(R.id.btnSubscribe)
@@ -83,7 +85,22 @@ class HomeRecyclerViewAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val tempPosition = position
         if(subjectPackageDataList.isNotEmpty()){
-            holder.tvSubjectName.text = subjectPackageDataList[position].subjectName
+            val subjectName = subjectPackageDataList[position].subjectName
+            when (subjectName){
+                MCQConstants.BIOLOGY -> {
+                    holder.tvSubjectName.setCompoundDrawablesRelativeWithIntrinsicBounds(context.getDrawable(R.drawable.biology_icon), null, null, null)
+                    holder.titleLo.background = context.resources.getDrawable(R.drawable.drawable_background_biology)
+                    holder.tvSubjectName.setTextColor(context.resources.getColor(R.color.white))
+
+                }
+                MCQConstants.HUMAN_BIOLOGY -> {
+                    holder.tvSubjectName.setCompoundDrawablesRelativeWithIntrinsicBounds(context.getDrawable(R.drawable.human_biology_icon1), null, null, null)
+                    holder.titleLo.background = context.resources.getDrawable(R.drawable.drawable_background_human_biology)
+                    holder.tvSubjectName.setTextColor(context.resources.getColor(R.color.white))
+
+                }
+            }
+            holder.tvSubjectName.text = subjectName
             holder.tvPackageType.text = subjectPackageDataList[position].packageName
             holder.activatedOnTv.text = subjectPackageDataList[position].activatedOn
             holder.expiresOnTv.text = subjectPackageDataList[position].expiresOn

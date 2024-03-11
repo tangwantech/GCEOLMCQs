@@ -2,6 +2,8 @@ package com.example.gceolmcq.fragments
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.res.ColorStateList
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -74,6 +76,12 @@ class SectionFragment : Fragment(), OnClickListener {
     private lateinit var layoutOption4: LinearLayout
     private val optionsLayouts: ArrayList<LinearLayout> = ArrayList()
 
+    private lateinit var cardSelectableOption1: CardView
+    private lateinit var cardSelectableOption2: CardView
+    private lateinit var cardSelectableOption3: CardView
+    private lateinit var cardSelectableOption4: CardView
+    private val cardSelectableLayouts: ArrayList<CardView> = ArrayList()
+
     private var fadeInOut: Animation? = null
     private var fadeTransition: Animation? = null
     private var fadeScale: Animation? = null
@@ -83,8 +91,8 @@ class SectionFragment : Fragment(), OnClickListener {
 //    private var preLayoutOption: LinearLayout? = null
 //    private var currentLayoutOption: LinearLayout? = null
 //
-//    private var background: Drawable? = null
-//    private var textColor: ColorStateList? = null
+    private var background: Drawable? = null
+    private var textColor: Int? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -260,7 +268,8 @@ class SectionFragment : Fragment(), OnClickListener {
                 questionData.selectableOptions.forEachIndexed { index, s ->
                     selectableOptions[index].text = "${viewModel.getLetters()[index]}. $s"
                 }
-                animateSelectableOptionsLo()
+                animateCardSelectableLayouts()
+//                animateSelectableOptionsLo()
 
                 viewModel.getIsQuestionAnswered()
                     .observe(viewLifecycleOwner, Observer { isQuestionAnswered ->
@@ -329,6 +338,8 @@ class SectionFragment : Fragment(), OnClickListener {
         nonSelectableOptions.add(tvNonSelectableOption3)
 
         tvSelectableOption1 = view.findViewById(R.id.tvSelectableOption1)
+        textColor = tvSelectableOption1.currentTextColor
+
         tvSelectableOption2 = view.findViewById(R.id.tvSelectableOption2)
         tvSelectableOption3 = view.findViewById(R.id.tvSelectableOption3)
         tvSelectableOption4 = view.findViewById(R.id.tvSelectableOption4)
@@ -337,7 +348,13 @@ class SectionFragment : Fragment(), OnClickListener {
         selectableOptions.add(tvSelectableOption3)
         selectableOptions.add(tvSelectableOption4)
 
+//        selectableOptions.forEachIndexed { index, _ ->
+//            selectableOptions[index].background = context?.resources?.getDrawable(R.drawable.default_background)
+//        }
+
         layoutOption1 = view.findViewById(R.id.layoutOption1)
+        background = layoutOption1.background
+
         layoutOption1.setOnClickListener(this)
         layoutOption2 = view.findViewById(R.id.layoutOption2)
         layoutOption2.setOnClickListener(this)
@@ -351,6 +368,15 @@ class SectionFragment : Fragment(), OnClickListener {
         optionsLayouts.add(layoutOption2)
         optionsLayouts.add(layoutOption3)
         optionsLayouts.add(layoutOption4)
+
+        cardSelectableOption1 = view.findViewById(R.id.cardSelectableOption1)
+        cardSelectableOption2 = view.findViewById(R.id.cardSelectableOption2)
+        cardSelectableOption3 = view.findViewById(R.id.cardSelectableOption3)
+        cardSelectableOption4 = view.findViewById(R.id.cardSelectableOption4)
+        cardSelectableLayouts.add(cardSelectableOption1)
+        cardSelectableLayouts.add(cardSelectableOption2)
+        cardSelectableLayouts.add(cardSelectableOption3)
+        cardSelectableLayouts.add(cardSelectableOption4)
 
     }
 
@@ -389,6 +415,12 @@ class SectionFragment : Fragment(), OnClickListener {
     }
     private fun animateSelectableOptionsLo(){
         optionsLayouts.forEach {
+            it.startAnimation(fadeScale)
+        }
+    }
+
+    private fun animateCardSelectableLayouts(){
+        cardSelectableLayouts.forEach {
             it.startAnimation(fadeScale)
         }
     }
@@ -476,10 +508,22 @@ class SectionFragment : Fragment(), OnClickListener {
         optionsLayouts.forEachIndexed { index, _ ->
             if( index != optionSelectedIndex){
                 optionsLayouts[index].background = requireContext().resources.getDrawable(R.drawable.default_background)
-                selectableOptions[index].setTextColor(resources.getColor(androidx.appcompat.R.color.primary_text_default_material_light))
+//                optionsLayouts[optionSelectedIndex].background = background
+//                selectableOptions[index].setTextColor(resources.getColor(R.color.color_primary_text_default))
+                textColor?.let{
+                    selectableOptions[index].setTextColor(it)
+                }
+
             }else{
+
+
+//                if (context?.packageManager?.getActivityInfo(requireActivity().componentName, 0)?.theme != android.R.style.Theme_Light){
+//
+//                    selectableOptions[optionSelectedIndex].setTextColor(resources.getColor(androidx.appcompat.R.color.primary_text_default_material_light))
+//                }
                 optionsLayouts[optionSelectedIndex].background = requireContext().resources.getDrawable(R.drawable.selected_drawable)
-                selectableOptions[optionSelectedIndex].setTextColor(resources.getColor(R.color.primary_text_color))
+                selectableOptions[optionSelectedIndex].setTextColor(resources.getColor(R.color.color_primary_text_default))
+
             }
 
         }
@@ -494,8 +538,12 @@ class SectionFragment : Fragment(), OnClickListener {
 //
 
         optionsLayouts.forEachIndexed { index, _ ->
-            optionsLayouts[index].background = requireContext().resources.getDrawable(R.drawable.default_background)
-            selectableOptions[index].setTextColor(resources.getColor(androidx.appcompat.R.color.primary_text_default_material_light))
+//            optionsLayouts[index].background = requireContext().resources.getDrawable(R.drawable.default_background)
+            optionsLayouts[index].background = background
+//            selectableOptions[index].setTextColor(resources.getColor(R.color.color_primary_text_default))
+            textColor?.let{
+                selectableOptions[index].setTextColor(it)
+            }
         }
 //        background = null
 //        textColor = null

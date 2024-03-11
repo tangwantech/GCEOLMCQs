@@ -1,4 +1,4 @@
-#Fri Mar 01 08:35:04 WAT 2024
+#Mon Mar 11 15:27:44 WAT 2024
 base.1=C\:\\Users\\TANGWAN ELICE\\AndroidStudioProjects\\GCEOLMCQ\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
 path.1=classes2.dex
 base.0=C\:\\Users\\TANGWAN ELICE\\AndroidStudioProjects\\GCEOLMCQ\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex

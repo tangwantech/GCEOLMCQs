@@ -232,7 +232,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
         val tvRequestToPayPackagePrice: TextView =
             dialogView.findViewById(R.id.tvRequestToPayAmount)
 
-        if (viewModel.subscriptionData.value?.momoPartner == MCQConstants.MTN) {
+        if (viewModel.subscriptionData.value?.momoPartner!! == MCQConstants.MTN_MOMO) {
             tvRequestToPayTitle.setBackgroundColor(resources.getColor(R.color.mtn))
             tvRequestToPayMessage.text = resources.getString(R.string.mtn_request_to_pay_message)
 
@@ -536,7 +536,7 @@ abstract class SubscriptionActivity: AppCompatActivity(), SubscriptionFormDialog
 
     override fun onPackageDialogNextButtonClicked(packageData: PackageData?) {
         showSubscriptionForm(viewModel.subjectPackageDataToActivated.value?.subjectIndex!!, viewModel.subjectPackageDataToActivated.value?.subjectName!!, packageData)
-        println(packageData)
+//        println(packageData)
 
     }
 

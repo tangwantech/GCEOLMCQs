@@ -16,8 +16,11 @@ attr? fullscreenBackgroundColor
 attr? fullscreenTextColor
 color background
 color background2
+color background_main
 color black
 color card_background
+color color_background_biology
+color color_background_human_biology
 color color_green
 color color_on_primary
 color color_on_secondary
@@ -35,8 +38,6 @@ color mtn
 color option_selected
 color option_selected2
 color orange
-color package1_color
-color package2_color
 color package3_color
 color package4_color
 color package5_color
@@ -98,6 +99,7 @@ drawable background_image
 drawable bacterium_june_2017
 drawable bacterium_west_mock_2023
 drawable bean_seedling_rotating_klinostat_june_2020
+drawable biology_icon
 drawable bony_fish_june_2018
 drawable bony_fish_june_2022
 drawable bread_mould_june_2015
@@ -109,6 +111,8 @@ drawable co2_collected_vs_time_west_mock_2016
 drawable default_background
 drawable default_drawable
 drawable developing_foetus_june_2017
+drawable drawable_background_biology
+drawable drawable_background_human_biology
 drawable endocrine_glands_june_2023
 drawable equation_photosynthesis_west_mock_2018
 drawable experiment_photosynthesis_june_2015
@@ -130,9 +134,8 @@ drawable foetus_west_mock_2023
 drawable foodweb_june_2016
 drawable fore_arm_june_2023
 drawable gce_app_logo
-drawable gce_app_splash_image
+drawable gce_ol_logo
 drawable gce_splash_screen
-drawable gcelogo
 drawable germinating_seed_west_mock_2016
 drawable graph_enzyme_activity_june_2016
 drawable graph_factors_affecting_phototosynthesis_june_2019
@@ -142,6 +145,7 @@ drawable graph_menstrual_cycle_northwest_mock_2020
 drawable graph_rate_lactic_acid_removal_june_2015
 drawable graph_rate_photosynthesis_vs_co2_conc_june_2018
 drawable graphs_transpiration_rate_transport_plants
+drawable human_biology_icon1
 drawable human_blood_sample_result_june_2022
 drawable human_digestive_system_west_mock_2018
 drawable human_forearm_june_2021
@@ -177,8 +181,6 @@ drawable motor_neurone_june_2015
 drawable motor_neurone_june_2022
 drawable neuron_june_2016
 drawable nitrogen_cycle_nw_mock_2023
-drawable package_drawable1
-drawable package_drawable2
 drawable package_drawable3
 drawable package_drawable4
 drawable package_drawable5
@@ -326,6 +328,7 @@ id subjectsAvailableTv
 id svQuestion
 id terms
 id timerLayout
+id titleLo
 id trialPackageDurationTv
 id trialPackageLo
 id tvAttempts
@@ -449,8 +452,6 @@ menu menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
-mipmap ic_launcher_round_foreground
-mipmap ic_launcher_round_round
 string _continue
 string about
 string accept

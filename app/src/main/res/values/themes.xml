@@ -15,11 +15,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/color_primary_variant</item>
         <!-- Customize your theme here. -->
-        <item name="android:windowBackground">@drawable/package_drawable1</item>
+        <item name="android:windowBackground">@color/background</item>
 
         <item name="backgroundColor">@color/background</item>
         <item name="cardBackgroundColor">@color/card_background</item>
         <item name="android:textColor">@color/primary_text_default_material_light</item>
+
 
     </style>
 
@@ -56,6 +57,6 @@
         <item name="android:layout_marginEnd">@dimen/margin_16</item>
         <item name="android:layout_marginTop">@dimen/margin_4</item>
         <item name="android:layout_marginBottom">@dimen/margin_4</item>
-        <item name="cardBackgroundColor">@color/background</item>
+<!--        <item name="cardBackgroundColor">@color/background</item>-->
     </style>
 </resources>

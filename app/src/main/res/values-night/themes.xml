@@ -6,13 +6,16 @@
         <item name="colorPrimaryVariant">@color/color_primary_variant</item>
         <item name="colorOnPrimary">@color/color_on_primary</item>
 
+
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/color_secondary</item>
         <item name="colorSecondaryVariant">@color/color_secondary_dark</item>
         <item name="colorOnSecondary">@color/color_on_secondary</item>
+
         <item name="android:windowBackground">@color/dark_background</item>
         <item name="backgroundColor">@color/dark_background</item>
-        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+
     </style>
 
     <style name="Theme.GCEOLMCQ.Fullscreen" parent="Theme.AppCompat.NoActionBar">
@@ -24,7 +27,7 @@
     <style name="CustomTabStyle" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">@dimen/text_size_14</item>
         <item name="android:textColor">@color/color_on_primary</item>
-        <item name="android:background">@color/color_primary</item>
+        <item name="android:background">@color/color_primary_variant</item>
         <item name="tabIndicatorColor">@color/tab_color</item>
         <item name="tabTextColor">@color/color_on_primary</item>
         <item name="tabGravity">fill</item>
@@ -44,5 +47,6 @@
         <item name="android:layout_marginBottom">@dimen/margin_4</item>
 
     </style>
+
 
 </resources>

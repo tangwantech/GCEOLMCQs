@@ -55,6 +55,9 @@ public final class SubjectItemCardBinding implements ViewBinding {
   public final TextView subjectTitleTv;
 
   @NonNull
+  public final LinearLayout titleLo;
+
+  @NonNull
   public final TextView tvPackageType;
 
   @NonNull
@@ -66,7 +69,8 @@ public final class SubjectItemCardBinding implements ViewBinding {
       @NonNull LinearLayout expireInLo, @NonNull TextView expiresInTv,
       @NonNull TextView expiresOnTv, @NonNull CardView layoutSubjectNavItem,
       @NonNull LinearLayout navArrowLo, @NonNull TextView subjectTitleTv,
-      @NonNull TextView tvPackageType, @NonNull TextView tvSubjectStatus) {
+      @NonNull LinearLayout titleLo, @NonNull TextView tvPackageType,
+      @NonNull TextView tvSubjectStatus) {
     this.rootView = rootView;
     this.activateButton = activateButton;
     this.activateButtonLo = activateButtonLo;
@@ -79,6 +83,7 @@ public final class SubjectItemCardBinding implements ViewBinding {
     this.layoutSubjectNavItem = layoutSubjectNavItem;
     this.navArrowLo = navArrowLo;
     this.subjectTitleTv = subjectTitleTv;
+    this.titleLo = titleLo;
     this.tvPackageType = tvPackageType;
     this.tvSubjectStatus = tvSubjectStatus;
   }
@@ -172,6 +177,12 @@ public final class SubjectItemCardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.titleLo;
+      LinearLayout titleLo = ViewBindings.findChildViewById(rootView, id);
+      if (titleLo == null) {
+        break missingId;
+      }
+
       id = R.id.tvPackageType;
       TextView tvPackageType = ViewBindings.findChildViewById(rootView, id);
       if (tvPackageType == null) {
@@ -186,7 +197,8 @@ public final class SubjectItemCardBinding implements ViewBinding {
 
       return new SubjectItemCardBinding((CardView) rootView, activateButton, activateButtonLo,
           activatedOnTv, btnSubscribe, contentLo, expireInLo, expiresInTv, expiresOnTv,
-          layoutSubjectNavItem, navArrowLo, subjectTitleTv, tvPackageType, tvSubjectStatus);
+          layoutSubjectNavItem, navArrowLo, subjectTitleTv, titleLo, tvPackageType,
+          tvSubjectStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

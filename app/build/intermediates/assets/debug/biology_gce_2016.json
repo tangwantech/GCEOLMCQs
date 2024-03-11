@@ -745,6 +745,51 @@
               "explanation": "During germination, the seed uses stored food (such as starch and lipids) as an energy source to fuel the initial growth until the seedling can photosynthesize."
             },
             {
+              "questionNumber": "45",
+              "question": "Maize plant interspersed with leguminous plants will look greener because:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "The leguminous plants give shed to the maize.",
+                "The leguminous plants reduce water loss.",
+                "The leguminous plants make more water available to the maize.",
+                "The leguminous plants increase the nitrogen content of the soil."
+              ],
+              "wordAnswer": "The leguminous plants increase the nitrogen content of the soil.",
+              "explanation": "Leguminous plants increase the nitrogen content of the soil. This is because leguminous plants have a symbiotic relationship with nitrogen-fixing bacteria in their root nodules. These bacteria convert atmospheric nitrogen into a form that plants can absorb and use. The increased nitrogen content in the soil promotes greener and healthier growth of the maize plant."
+            },
+            {
+              "questionNumber": "46",
+              "question": "The percentage of carbon dioxide in expired air is more than that in inspired air because:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Carbon dioxide is produced in tissue respiration.",
+                "Much carbon dioxide is produced in the lungs.",
+                "It is not used in the body.",
+                "Carbon dioxide is poisonous"
+              ],
+              "wordAnswer": "It is produced in tissue respiration.",
+              "explanation": "When we breathe in, oxygen is taken up by the body's cells and used during aerobic respiration to produce energy, with carbon dioxide being released as a waste product. This carbon dioxide is then transported back to the lungs through the bloodstream and exhaled during expiration. Therefore, the percentage of carbon dioxide in expired air becomes higher than that in inspired air because it is a byproduct of tissue respiration."
+            },
+            {
+              "questionNumber": "47",
+              "question": "Roofs of houses in industrial areas are often corroded due to:",
+              "image": null,
+              "twoStatements": null,
+              "nonSelectableOptions": null,
+              "selectableOptions": [
+                "Poor quality of material.",
+                "Much rain.",
+                "Presence of dissolved chemicals in the atmosphere.",
+                "Smoke from industry."
+              ],
+              "wordAnswer": "Presence of dissolved chemicals in the atmosphere.",
+              "explanation": "In industrial areas, there are often high levels of air pollutants such as sulphur dioxide, Nitrogen dioxide etc. These pollutants can react with the moisture in the air to form corrosive substances, such as acids. When these corrosive acids come into contact with the roofs of houses, they can cause corrosion and damage over time."
+            },
+            {
               "questionNumber": "48",
               "question": "The wilting of a newly transplanted well-watered seedling on a sunny day is due to:",
               "image": null,

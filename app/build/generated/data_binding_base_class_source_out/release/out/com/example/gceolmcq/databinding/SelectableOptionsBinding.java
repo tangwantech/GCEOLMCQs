@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.gceolmcq.R;
@@ -18,6 +19,18 @@ import java.lang.String;
 public final class SelectableOptionsBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
+
+  @NonNull
+  public final CardView cardSelectableOption1;
+
+  @NonNull
+  public final CardView cardSelectableOption2;
+
+  @NonNull
+  public final CardView cardSelectableOption3;
+
+  @NonNull
+  public final CardView cardSelectableOption4;
 
   @NonNull
   public final LinearLayout layoutOption1;
@@ -44,11 +57,17 @@ public final class SelectableOptionsBinding implements ViewBinding {
   public final TextView tvSelectableOption4;
 
   private SelectableOptionsBinding(@NonNull LinearLayout rootView,
+      @NonNull CardView cardSelectableOption1, @NonNull CardView cardSelectableOption2,
+      @NonNull CardView cardSelectableOption3, @NonNull CardView cardSelectableOption4,
       @NonNull LinearLayout layoutOption1, @NonNull LinearLayout layoutOption2,
       @NonNull LinearLayout layoutOption3, @NonNull LinearLayout layoutOption4,
       @NonNull TextView tvSelectableOption1, @NonNull TextView tvSelectableOption2,
       @NonNull TextView tvSelectableOption3, @NonNull TextView tvSelectableOption4) {
     this.rootView = rootView;
+    this.cardSelectableOption1 = cardSelectableOption1;
+    this.cardSelectableOption2 = cardSelectableOption2;
+    this.cardSelectableOption3 = cardSelectableOption3;
+    this.cardSelectableOption4 = cardSelectableOption4;
     this.layoutOption1 = layoutOption1;
     this.layoutOption2 = layoutOption2;
     this.layoutOption3 = layoutOption3;
@@ -86,6 +105,30 @@ public final class SelectableOptionsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardSelectableOption1;
+      CardView cardSelectableOption1 = ViewBindings.findChildViewById(rootView, id);
+      if (cardSelectableOption1 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardSelectableOption2;
+      CardView cardSelectableOption2 = ViewBindings.findChildViewById(rootView, id);
+      if (cardSelectableOption2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardSelectableOption3;
+      CardView cardSelectableOption3 = ViewBindings.findChildViewById(rootView, id);
+      if (cardSelectableOption3 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardSelectableOption4;
+      CardView cardSelectableOption4 = ViewBindings.findChildViewById(rootView, id);
+      if (cardSelectableOption4 == null) {
+        break missingId;
+      }
+
       id = R.id.layoutOption1;
       LinearLayout layoutOption1 = ViewBindings.findChildViewById(rootView, id);
       if (layoutOption1 == null) {
@@ -134,8 +177,9 @@ public final class SelectableOptionsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new SelectableOptionsBinding((LinearLayout) rootView, layoutOption1, layoutOption2,
-          layoutOption3, layoutOption4, tvSelectableOption1, tvSelectableOption2,
+      return new SelectableOptionsBinding((LinearLayout) rootView, cardSelectableOption1,
+          cardSelectableOption2, cardSelectableOption3, cardSelectableOption4, layoutOption1,
+          layoutOption2, layoutOption3, layoutOption4, tvSelectableOption1, tvSelectableOption2,
           tvSelectableOption3, tvSelectableOption4);
     }
     String missingId = rootView.getResources().getResourceName(id);

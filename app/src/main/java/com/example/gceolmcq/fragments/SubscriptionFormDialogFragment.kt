@@ -15,6 +15,7 @@ import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.gceolmcq.MCQConstants
 import com.example.gceolmcq.R
 import com.example.gceolmcq.datamodels.PackageData
 import com.example.gceolmcq.datamodels.SubscriptionFormData
@@ -99,14 +100,17 @@ class SubscriptionFormDialogFragment : DialogFragment() {
             when(id){
                 R.id.rbMtn -> {
 //                    println("MTN")
-                    viewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[0])
+//                    viewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[0])
 
+                    viewModel.setMomoPartner(MCQConstants.MTN_MOMO)
                 }
 
                 R.id.rbOrange -> {
 //                    println("ORANGE")
-                    viewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[1])
+//                    viewModel.setMomoPartner(requireContext().resources.getStringArray(R.array.momo_partners)[1])
+                    viewModel.setMomoPartner(MCQConstants.ORANGE_MOMO)
                 }
+
             }
             positiveBtn?.isEnabled = true
         }

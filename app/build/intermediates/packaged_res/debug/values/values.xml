@@ -51,10 +51,13 @@
         <item>section V</item>
         <item>section VI</item>
     </string-array>
-    <color name="background">#F7E8E6E6</color>
+    <color name="background">#CECECF</color>
     <color name="background2">#F7FFFFFF</color>
+    <color name="background_main">#272739</color>
     <color name="black">#212121</color>
     <color name="card_background">#F7FFFFFF</color>
+    <color name="color_background_biology">#355036</color>
+    <color name="color_background_human_biology">#5A322F</color>
     <color name="color_green">#2A5E97</color>
     <color name="color_on_primary">#ffffff</color>
     <color name="color_on_secondary">#141414</color>
@@ -72,8 +75,6 @@
     <color name="option_selected">#F4D884</color>
     <color name="option_selected2">#BDA766</color>
     <color name="orange">#F18764</color>
-    <color name="package1_color">#6240C3</color>
-    <color name="package2_color">#009688</color>
     <color name="package3_color">#9FABF3</color>
     <color name="package4_color">#00BCD4</color>
     <color name="package5_color">#5A0968</color>
@@ -306,7 +307,7 @@
         
         <item name="android:statusBarColor">@color/color_primary_variant</item>
         
-        <item name="android:windowBackground">@drawable/package_drawable1</item>
+        <item name="android:windowBackground">@color/background</item>
 
         <item name="backgroundColor">@color/background</item>
         <item name="cardBackgroundColor">@color/card_background</item>

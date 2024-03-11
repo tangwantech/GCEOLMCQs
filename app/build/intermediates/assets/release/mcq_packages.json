@@ -5,6 +5,12 @@
       "price": "5",
       "duration": 3,
       "isChecked": false
+    },
+    {
+      "packageName": "MCQ 6H",
+      "price": "10",
+      "duration": 6,
+      "isChecked": false
     }
   ]
 }

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\package_drawable5.xml"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-mdpi\\ic_launcher_round_round.png"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_experiment_respiration_nw_mock_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\experiment_respiration_nw_mock_2023.jpg"
     },
@@ -40,24 +44,12 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\paper_score_bar.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_gce_ol_mcq_foreground.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-mdpi\\ic_launcher_gce_ol_mcq_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_graph_growth_rate_vs_time_west_mock_2018.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\graph_growth_rate_vs_time_west_mock_2018.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_villus_june_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\villus_june_2023.jpg"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-mdpi_ic_launcher_round_foreground.png.flat",
-        "source": "com.example.gceolmcq.app-debug-37:/mipmap-mdpi/ic_launcher_round_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_gce_ol_mcq_round.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-hdpi\\ic_launcher_gce_ol_mcq_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_two_statements.xml.flat",
@@ -68,52 +60,48 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\flower_june_2021.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_gce_ol_mcq_foreground.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxxhdpi\\ic_launcher_gce_ol_mcq_foreground.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_gce_ol_logo.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\gce_ol_logo.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_carbon_cycle_west_mock_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\carbon_cycle_west_mock_2023.jpg"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round_round.png.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-xhdpi/ic_launcher_round_round.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_drawable_background_biology.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\drawable_background_biology.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\menu_higest_score_menu.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\menu\\higest_score_menu.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_slide_in_left.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\slide_in_left.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_result_transpiration_june_2018.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\result_transpiration_june_2018.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\slide_in_left.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_setup_photosynthesis_northwest_mock_2020.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\setup_photosynthesis_northwest_mock_2020.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_fade_in.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\fade_in.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round_round.png"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_baseline_error_24.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ic_baseline_error_24.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\fade_in.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_subscription_summary_layout.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\subscription_summary_layout.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_gce_ol_mcq.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxxhdpi\\ic_launcher_gce_ol_mcq.png"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/drawable_ic_launcher_round_background.xml.flat",
-        "source": "com.example.gceolmcq.app-debug-37:/drawable/ic_launcher_round_background.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_baseline_error_24.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ic_baseline_error_24.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_section_navigation.xml.flat",
@@ -122,10 +110,6 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_package_drawable3.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\package_drawable3.xml"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_package_item.xml.flat",
@@ -152,20 +136,20 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\foodweb_june_2016.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_gce_ol_mcq.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-hdpi\\ic_launcher_gce_ol_mcq.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_drop_down_layout.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\drop_down_layout.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_image_card.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\image_card.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_female_reproductive_system_june_2021.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\female_reproductive_system_june_2021.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_image_card.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\image_card.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_fish_june_2023.jpg.flat",
@@ -178,14 +162,6 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_table_carbondioxide_test_result_june_2021.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\table_carbondioxide_test_result_june_2021.jpg"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round_round.png.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-xxhdpi/ic_launcher_round_round.png"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_activity_activate_trial_package.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\activity_activate_trial_package.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_bread_mould_june_2015.jpg.flat",
@@ -204,28 +180,20 @@
         "source": "com.example.gceolmcq.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_gce_ol_mcq_round.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-anydpi-v26\\ic_launcher_gce_ol_mcq_round.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_lungs_west_mock_2023.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\lungs_west_mock_2023.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_selectable_options.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\selectable_options.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_lungs_west_mock_2023.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\lungs_west_mock_2023.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_experiment_photosynthesis_june_2019.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\experiment_photosynthesis_june_2019.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_gce_ol_mcq_foreground.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-hdpi\\ic_launcher_gce_ol_mcq_foreground.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_drawable_background_human_biology.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\drawable_background_human_biology.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_skin_nw_mock_2023.jpg.flat",
@@ -234,6 +202,10 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_dialogue_statistics.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\dialogue_statistics.xml"
+    },
+    {
+        "merged": "com.example.gceolmcq.app-merged_res-36:/drawable_gce_ol_logo.jpg.flat",
+        "source": "com.example.gceolmcq.app-main-38:/drawable/gce_ol_logo.jpg"
     },
     {
         "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -260,14 +232,6 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\joint_june_2017.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-hdpi_ic_launcher_round_foreground.png.flat",
-        "source": "com.example.gceolmcq.app-debug-37:/mipmap-hdpi/ic_launcher_round_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_question_card_item.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\question_card_item.xml"
     },
@@ -276,8 +240,8 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\section_directions.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_gce_ol_mcq.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xhdpi\\ic_launcher_gce_ol_mcq.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-hdpi\\ic_launcher_round_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_package_drawable2.xml.flat",
@@ -316,24 +280,28 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_subject_item_card.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\subject_item_card.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_bacterium_june_2017.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\bacterium_june_2017.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_subject_item_card.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\subject_item_card.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_home_list_item_header.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\home_list_item_header.xml"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xhdpi\\ic_launcher_round_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_kidney_nw_mock_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\kidney_nw_mock_2023.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_selectable_options.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_selectable_options.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xhdpi\\ic_launcher_round_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_package_activation_failed_dialog.xml.flat",
@@ -364,8 +332,16 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\gce_app_logo.jpg"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_home_tab.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\home_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_human_biology_icon1.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\human_biology_icon1.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_position_endocrine_glands_human_june_2019.jpg.flat",
@@ -380,10 +356,6 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\experiment_transpiration_june_2021.jpg"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round_foreground.png.flat",
-        "source": "com.example.gceolmcq.app-debug-37:/mipmap-xhdpi/ic_launcher_round_foreground.png"
-    },
-    {
         "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "com.example.gceolmcq.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
@@ -396,12 +368,12 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\card_background_drawable.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_correction.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_correction.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_baseline_bar_chart_24.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ic_baseline_bar_chart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_correction.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_correction.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_graph_hormone_level_girl_june_2023.jpg.flat",
@@ -410,10 +382,6 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_seedling_june_2022.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\seedling_june_2022.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_gce_ol_mcq.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-anydpi-v26\\ic_launcher_gce_ol_mcq.xml"
     },
     {
         "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
@@ -448,10 +416,6 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ls_hibiscus_flower_june_2015.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_invoice_layout.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\invoice_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\menu_menu.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\menu\\menu.xml"
     },
@@ -476,60 +440,32 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\four_alternatives_in_correction.xml"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-mdpi_ic_launcher_round_round.png.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-mdpi/ic_launcher_round_round.png"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_graph_transpiration_rate_transport_plants.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\graph_transpiration_rate_transport_plants.jpg"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_fade_transition.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\fade_transition.xml"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.gceolmcq.app-main-38:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_bean_seedling_rotating_klinostat_june_2020.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\bean_seedling_rotating_klinostat_june_2020.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_package_drawable1.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\package_drawable1.xml"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_seed_types_june_2017.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\seed_types_june_2017.jpg"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_splash.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\splash.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_plant_cell_june_2022.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\plant_cell_june_2022.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_custom_shape.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\custom_shape.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_seed_types_june_2017.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\seed_types_june_2017.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ts_dicot_stem_transport_plants.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ts_dicot_stem_transport_plants.jpg"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_package_drawable1.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\package_drawable1.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ls_flower_west_mock_2018.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ls_flower_west_mock_2018.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_activity_initializing.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\activity_initializing.xml"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_gce_ol_mcq.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-mdpi\\ic_launcher_gce_ol_mcq.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\xml_data_extraction_rules.xml.flat",
@@ -540,6 +476,14 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\equation_photosynthesis_west_mock_2018.jpg"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_biology_icon.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\biology_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_baseline_signal_cellular_connected_no_internet_0_bar_24.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ic_baseline_signal_cellular_connected_no_internet_0_bar_24.xml"
     },
@@ -548,8 +492,8 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_gce_ol_mcq_round.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xhdpi\\ic_launcher_gce_ol_mcq_round.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -560,32 +504,20 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\co2_collected_vs_time_west_mock_2016.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_gce_ol_mcq_round.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxxhdpi\\ic_launcher_gce_ol_mcq_round.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_joint_west_mock_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\joint_west_mock_2023.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_table_menstrual_cycle_west_mock_2018.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\table_menstrual_cycle_west_mock_2018.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_table_food_samples_june_2019.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\table_food_samples_june_2019.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_table_menstrual_cycle_west_mock_2018.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\table_menstrual_cycle_west_mock_2018.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ls_dicot_stem_june_2018.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ls_dicot_stem_june_2018.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_plant_cell_june_2018.jpg.flat",
@@ -600,14 +532,6 @@
         "source": "com.example.gceolmcq.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/drawable_logo.png.flat",
-        "source": "com.example.gceolmcq.app-main-38:/drawable/logo.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_terms_of_use_layout.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\terms_of_use_layout.xml"
     },
@@ -620,12 +544,20 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_exam_type.xml"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round_round.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round_round.xml"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_setup_transpiration1_transport_plants.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\setup_transpiration1_transport_plants.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_recycler_view.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_recycler_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-mdpi\\ic_launcher_round_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_activity_splash.xml.flat",
@@ -640,16 +572,8 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/drawable_gcelogo.jpg.flat",
-        "source": "com.example.gceolmcq.app-main-38:/drawable/gcelogo.jpg"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_potometer_west_mock_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\potometer_west_mock_2023.jpg"
-    },
-    {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round_foreground.png.flat",
-        "source": "com.example.gceolmcq.app-debug-37:/mipmap-xxhdpi/ic_launcher_round_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_part_digestive_system_west_mock_2023.jpg.flat",
@@ -672,6 +596,10 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\motor_neurone_june_2015.jpg"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_setup_aerobic_respiration_mammals.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\setup_aerobic_respiration_mammals.jpg"
     },
@@ -684,20 +612,20 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\round_corners.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_request_to_pay.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_request_to_pay.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round_round.png"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round_round.xml.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-anydpi-v26/ic_launcher_round_round.xml"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_request_to_pay.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_request_to_pay.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_potometer_june_2017.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\potometer_june_2017.jpg"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-hdpi_ic_launcher_round_round.png.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-hdpi/ic_launcher_round_round.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_logo.png.flat",
@@ -708,20 +636,28 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\human_forearm_june_2021.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_fade_scale.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\fade_scale.xml"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_motor_neurone_june_2022.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\motor_neurone_june_2022.jpg"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxxhdpi\\ic_launcher_round_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_motor_neurone_june_2022.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\motor_neurone_june_2022.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\anim_fade_scale.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\anim\\fade_scale.xml"
+    },
+    {
         "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "com.example.gceolmcq.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_activity_about.xml.flat",
@@ -732,20 +668,12 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\ic_navigate_next.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_gce_ol_mcq_round.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxhdpi\\ic_launcher_gce_ol_mcq_round.png"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_gce_ol_mcq.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxhdpi\\ic_launcher_gce_ol_mcq.png"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_pyramid_of_energy_june_2015.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\pyramid_of_energy_june_2015.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_carbon_cycle_june_2022.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\carbon_cycle_june_2022.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_pyramid_of_energy_june_2015.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\pyramid_of_energy_june_2015.jpg"
     },
     {
         "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -772,12 +700,12 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\result_action_salivary_amylase_june_2015.jpg"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round_foreground.png.flat",
-        "source": "com.example.gceolmcq.app-debug-37:/mipmap-xxxhdpi/ic_launcher_round_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_tab_indicator.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ts_leaf_june_2018.jpg.flat",
@@ -808,16 +736,8 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\water_cycle_june_2019.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_gce_ol_mcq_foreground.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xhdpi\\ic_launcher_gce_ol_mcq_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_bacterium_west_mock_2023.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\bacterium_west_mock_2023.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_gce_ol_mcq_foreground.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxhdpi\\ic_launcher_gce_ol_mcq_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_experiment_test_for_starch_june_2022.jpg.flat",
@@ -844,10 +764,6 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\gce_splash_screen.jpg"
     },
     {
-        "merged": "com.example.gceolmcq.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round_round.png.flat",
-        "source": "com.example.gceolmcq.app-main-38:/mipmap-xxxhdpi/ic_launcher_round_round.png"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\xml\\backup_rules.xml"
     },
@@ -872,20 +788,8 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\germinating_seed_west_mock_2016.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_gce_ol_mcq_round.png.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-mdpi\\ic_launcher_gce_ol_mcq_round.png"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_launcher_round_background.xml.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\drawable\\ic_launcher_round_background.xml"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_section.xml.flat",
@@ -894,6 +798,10 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_graphs_transpiration_rate_transport_plants.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\graphs_transpiration_rate_transport_plants.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-hdpi\\ic_launcher_round_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_non_selectable_options.xml.flat",
@@ -918,6 +826,10 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_fragment_section_result.xml.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\fragment_section_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_yeast_cell_june_2019.jpg.flat",
@@ -948,12 +860,12 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\payment_method.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_part_human_digestive_system_june_2020.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\part_human_digestive_system_june_2020.jpg"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_female_reproductive_system_west_mock_2016.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\female_reproductive_system_west_mock_2016.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_part_human_digestive_system_june_2020.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\part_human_digestive_system_june_2020.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_package_activation_successful_dialog.xml.flat",
@@ -974,6 +886,18 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_plant_cell_june_2017.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\plant_cell_june_2017.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_setup_transpiration2_transport_plants.jpg.flat",
@@ -1012,16 +936,8 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\question_layout.xml"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\layout_initializing_activity.xml.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\layout\\initializing_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_background_image.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\background_image.jpg"
-    },
-    {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_cs_dicot_root_transport_plants.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\cs_dicot_root_transport_plants.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_package_drawable4.xml.flat",
@@ -1030,6 +946,10 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_bony_fish_june_2018.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\bony_fish_june_2018.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_female_urinogenital_system_june_2018.jpg.flat",
@@ -1044,20 +964,28 @@
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\neuron_june_2016.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_animal_cell_northwest_mock_2020.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\animal_cell_northwest_mock_2020.jpg"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_lifecycle_housefly_june_2016.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\lifecycle_housefly_june_2016.jpg"
     },
     {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_gcelogo.jpg.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\gcelogo.jpg"
+    },
+    {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_human_skin_june_2022.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\human_skin_june_2022.jpg"
     },
     {
-        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_animal_cell_northwest_mock_2020.jpg.flat",
-        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\animal_cell_northwest_mock_2020.jpg"
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-debug-37:\\mipmap-xxhdpi\\ic_launcher_round_foreground.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_ic_baseline_check_24.xml.flat",
@@ -1066,6 +994,10 @@
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_experiment_photosynthesis_june_2022.jpg.flat",
         "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\drawable\\experiment_photosynthesis_june_2022.jpg"
+    },
+    {
+        "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\TANGWAN ELICE\\.gradle\\daemon\\7.4\\com.example.gceolmcq.app-merged_res-36:\\drawable_human_blood_sample_result_june_2022.jpg.flat",

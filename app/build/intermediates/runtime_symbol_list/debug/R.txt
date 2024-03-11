@@ -1219,6 +1219,7 @@ int color background 0x7f06001d
 int color background2 0x7f06001e
 int color background_floating_material_dark 0x7f06001f
 int color background_floating_material_light 0x7f060020
+int color background_main 0x7f060277
 int color background_material_dark 0x7f060021
 int color background_material_light 0x7f060022
 int color black 0x7f060023
@@ -1236,6 +1237,8 @@ int color cardview_light_background 0x7f06002e
 int color cardview_shadow_end_color 0x7f06002f
 int color cardview_shadow_start_color 0x7f060030
 int color checkbox_themeable_attribute_color 0x7f060031
+int color color_background_biology 0x7f060278
+int color color_background_human_biology 0x7f060276
 int color color_green 0x7f060032
 int color color_on_primary 0x7f060033
 int color color_on_secondary 0x7f060034
@@ -1777,8 +1780,6 @@ int color notification_material_background_media_default_color 0x7f06024a
 int color option_selected 0x7f06024b
 int color option_selected2 0x7f06024c
 int color orange 0x7f060275
-int color package1_color 0x7f06024d
-int color package2_color 0x7f06024e
 int color package3_color 0x7f06024f
 int color package4_color 0x7f060250
 int color package5_color 0x7f060251
@@ -2539,6 +2540,7 @@ int drawable background_image 0x7f08005b
 int drawable bacterium_june_2017 0x7f08005c
 int drawable bacterium_west_mock_2023 0x7f08005d
 int drawable bean_seedling_rotating_klinostat_june_2020 0x7f08005e
+int drawable biology_icon 0x7f080122
 int drawable bony_fish_june_2018 0x7f08005f
 int drawable bony_fish_june_2022 0x7f080060
 int drawable bread_mould_june_2015 0x7f080061
@@ -2563,6 +2565,8 @@ int drawable design_ic_visibility_off 0x7f080072
 int drawable design_password_eye 0x7f080073
 int drawable design_snackbar_background 0x7f080074
 int drawable developing_foetus_june_2017 0x7f080075
+int drawable drawable_background_biology 0x7f080123
+int drawable drawable_background_human_biology 0x7f080124
 int drawable endocrine_glands_june_2023 0x7f080076
 int drawable equation_photosynthesis_west_mock_2018 0x7f080077
 int drawable experiment_photosynthesis_june_2015 0x7f080078
@@ -2584,9 +2588,8 @@ int drawable foetus_west_mock_2023 0x7f080087
 int drawable foodweb_june_2016 0x7f080088
 int drawable fore_arm_june_2023 0x7f080089
 int drawable gce_app_logo 0x7f08008a
-int drawable gce_app_splash_image 0x7f08008b
+int drawable gce_ol_logo 0x7f080126
 int drawable gce_splash_screen 0x7f08008c
-int drawable gcelogo 0x7f080120
 int drawable germinating_seed_west_mock_2016 0x7f08008d
 int drawable graph_enzyme_activity_june_2016 0x7f08008e
 int drawable graph_factors_affecting_phototosynthesis_june_2019 0x7f08008f
@@ -2596,6 +2599,7 @@ int drawable graph_menstrual_cycle_northwest_mock_2020 0x7f080092
 int drawable graph_rate_lactic_acid_removal_june_2015 0x7f080093
 int drawable graph_rate_photosynthesis_vs_co2_conc_june_2018 0x7f080094
 int drawable graphs_transpiration_rate_transport_plants 0x7f080095
+int drawable human_biology_icon1 0x7f080125
 int drawable human_blood_sample_result_june_2022 0x7f080096
 int drawable human_digestive_system_west_mock_2018 0x7f080097
 int drawable human_forearm_june_2021 0x7f080098
@@ -2681,8 +2685,6 @@ int drawable notification_template_icon_bg 0x7f0800e5
 int drawable notification_template_icon_low_bg 0x7f0800e6
 int drawable notification_tile_bg 0x7f0800e7
 int drawable notify_panel_notification_icon_bg 0x7f0800e8
-int drawable package_drawable1 0x7f0800e9
-int drawable package_drawable2 0x7f0800ea
 int drawable package_drawable3 0x7f0800eb
 int drawable package_drawable4 0x7f0800ec
 int drawable package_drawable5 0x7f0800ed
@@ -3286,6 +3288,7 @@ int id time 0x7f090223
 int id timerLayout 0x7f090224
 int id title 0x7f090225
 int id titleDividerNoCustom 0x7f090226
+int id titleLo 0x7f09028c
 int id title_template 0x7f090227
 int id toggle 0x7f090228
 int id top 0x7f090229
@@ -3636,8 +3639,6 @@ int menu menu 0x7f0d0001
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_foreground 0x7f0e0005
 int mipmap ic_launcher_round 0x7f0e0004
-int mipmap ic_launcher_round_foreground 0x7f0e0006
-int mipmap ic_launcher_round_round 0x7f0e0007
 int plurals mtrl_badge_content_description 0x7f0f0000
 int string _continue 0x7f100000
 int string abc_action_bar_home_description 0x7f100001

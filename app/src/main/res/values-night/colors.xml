@@ -2,13 +2,18 @@
 <resources>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="color_primary">#141414</color>
+<!--    <color name="color_primary">#141414</color>-->
+    <color name="color_primary">#1E7DA8</color>
     <color name="color_primary_variant">#141414</color>
     <color name="color_primary_light">#BE292929</color>
+    <color name="color_on_primary">@color/white</color>
+    <color name="color_primary_text_default">@color/primary_text_default_material_light</color>
+
+    <color name="color_tab">#141414</color>
 
     <color name="dark_background">#292929</color>
     <color name="background">#BE292929</color>
-    <color name="background2">#39292929</color>
+    <color name="background2">#39414040</color>
 
     <!--    <color name="color_secondary">#FFF3C885</color>-->
     <color name="color_secondary">#FFEB3B</color>
@@ -25,6 +30,9 @@
 <!--    <color name="color_green">#409EEB</color>-->
     <color name="card_background">#FFF9FBFB</color>
     <color name="tab_color">#E7C754</color>
+
+    <color name="color_background_biology">#355036</color>
+    <color name="color_background_human_biology">#5A322F</color>
 
     <color name="mtn">#C2A54E</color>
     <color name="orange">#F18764</color>
